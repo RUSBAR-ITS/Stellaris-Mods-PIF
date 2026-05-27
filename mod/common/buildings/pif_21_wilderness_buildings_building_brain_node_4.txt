@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_brain_node_4 = {
+	icon = "brain_node_4"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_brain_node_4_construction_base_buildtime_1
+	category = research
+	inline_script = "pif/buildings/building_brain_node_4/building_config"
+	inline_script = "pif/buildings/building_brain_node_4/availability"
+	inline_script = "pif/buildings/building_brain_node_4/economy"
+	inline_script = "pif/buildings/building_brain_node_4/lifecycle"
+	inline_script = "pif/buildings/building_brain_node_4/jobs"
+	inline_script = "pif/buildings/building_brain_node_4/country_jobs"
+	inline_script = "pif/buildings/building_brain_node_4/economic_modifiers"
+	inline_script = "pif/buildings/building_brain_node_4/pop_modifiers"
+	inline_script = "pif/buildings/building_brain_node_4/planet_state"
+	inline_script = "pif/buildings/building_brain_node_4/tpm"
+	inline_script = "pif/buildings/building_brain_node_4/ai"
+}

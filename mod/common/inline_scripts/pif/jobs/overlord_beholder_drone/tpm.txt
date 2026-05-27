@@ -1,0 +1,6 @@
+# PIF job category: TPM
+# Vanilla job: overlord_beholder_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+# Empty PIF job category hook.

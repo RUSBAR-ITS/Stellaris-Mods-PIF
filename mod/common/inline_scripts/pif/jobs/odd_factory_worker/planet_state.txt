@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: odd_factory_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+# Empty PIF job category hook.

@@ -1,0 +1,254 @@
+# PIF job category: SWAP
+# Vanilla job: bureaucrat
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_bureaucratic_1
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_manager = yes
+		}
+		name = manager
+		desc = manager
+		icon = manager
+		building_icon = building_bureaucratic_1
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 2
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_priest = yes
+		}
+		name = priest
+		desc = priest
+		icon = priest
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_steward = yes
+		}
+		name = steward
+		desc = steward
+		icon = manager
+		building_icon = building_bureaucratic_1
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_preacher = yes
+		}
+		name = preacher
+		desc = preacher
+		icon = numistic_priest
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 15
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_numistic_priest = yes
+		}
+		name = numistic_priest
+		desc = numistic_priest
+		icon = numistic_priest
+		building_icon = building_nuumismatic_shrine
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_unifier = yes
+		}
+		name = unifier
+		desc = unifier
+		icon = overlord_propagandist
+		building_icon = building_capital
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 25
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_culture_worker = yes
+		}
+		name = culture_worker
+		desc = culture_worker
+		icon = culture_worker
+		building_icon = building_artist_patron
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 30
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_death_priest = yes
+		}
+		name = death_priest
+		desc = death_priest
+		icon = death_priest
+		building_icon = building_sacrificial_temple_1
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 35
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_fire_dancer = yes
+		}
+		name = fire_dancer
+		desc = fire_dancer
+		icon = fire_dancer
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 40
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_fire_seer = yes
+		}
+		name = fire_seer
+		desc = fire_seer
+		icon = fire_seer
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 450
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_pyromancer = yes
+		}
+		name = pyromancer
+		desc = pyromancer
+		icon = fire_dancer
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 450
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_cremator = yes
+		}
+		name = cremator
+		desc = cremator
+		icon = cremator
+		building_icon = building_sacrificial_temple_1
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 450
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_low_tech = yes
+		}
+		name = low_tech_bureaucrat
+		desc = low_tech_bureaucrat
+		icon = low_tech_bureaucrat
+		building_icon = building_low_tech_admin_hub
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 40
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_low_tech_manager = yes
+		}
+		name = low_tech_manager
+		desc = low_tech_manager
+		icon = manager
+		building_icon = building_low_tech_admin_hub
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 45
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_low_tech_priest = yes
+		}
+		name = low_tech_priest
+		desc = low_tech_priest
+		icon = low_tech_priest
+		building_icon = building_low_tech_admin_hub
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 50
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_memorialist = yes
+		}
+		name = memorialist
+		desc = memorialist
+		icon = death_chronicler
+		building_icon = building_galactic_memorial_1
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 200
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_death_priest = yes
+			bureaucrat_is_manager = yes
+		}
+		name = death_manager
+		desc = death_manager
+		icon = manager
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 300
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_haruspex = yes
+		}
+		name = haruspex
+		desc = haruspex
+		icon = haruspex
+		building_icon = building_the_sanctum_of_augmentation
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 500
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_superstitious_beliefs_priest = yes
+		}
+		name = superstitious_beliefs_priest
+		desc = superstitious_beliefs_priest
+		icon = superstitious_beliefs_priest
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 400
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_superstitious_beliefs_priest_corporate = yes
+		}
+		name = superstitious_beliefs_priest_corporate
+		desc = superstitious_beliefs_priest_corporate
+		icon = superstitious_beliefs_priest
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 400
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_corpse_reader = yes
+		}
+		name = corpse_reader
+		desc = corpse_reader
+		icon = death_priest
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 500
+	}
+	swap_type = {
+		trigger = {
+			bureaucrat_is_corpse_broker = yes
+		}
+		name = corpse_broker
+		desc = corpse_broker
+		icon = death_priest
+		building_icon = building_temple
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 500
+	}
+}

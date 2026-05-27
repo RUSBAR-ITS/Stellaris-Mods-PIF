@@ -1,0 +1,39 @@
+# PIF job category: ECONOMY
+# Vanilla job: nanotech_research_unit
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_nanotech_research_unit_job_output_output_physics_research_1
+		engineering_research = @pif_nanotech_research_unit_job_output_output_engineering_research_2
+		society_research = @pif_nanotech_research_unit_job_output_output_society_research_3
+	}
+	upkeep = {
+		energy = @pif_nanotech_research_unit_job_upkeep_upkeep_energy_1
+		nanites = @pif_nanotech_research_unit_job_upkeep_upkeep_nanites_2
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		energy = @pif_nanotech_research_unit_job_upkeep_upkeep_energy_3
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_research
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		physics_research = @pif_nanotech_research_unit_overlord_output_overlord_output_physics_research_1
+		engineering_research = @pif_nanotech_research_unit_overlord_output_overlord_output_engineering_research_2
+		society_research = @pif_nanotech_research_unit_overlord_output_overlord_output_society_research_3
+	}
+}

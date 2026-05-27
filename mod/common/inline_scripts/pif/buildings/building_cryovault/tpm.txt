@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_cryovault
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_cryovault_planet_state_planet_housing_add_1
+	planet_pops_organics_upkeep_mult = @pif_building_cryovault_economic_modifiers_planet_pops_organics_upkeep_mult_1
+	pop_environment_tolerance = @pif_building_cryovault_pop_modifiers_pop_environment_tolerance_1
+}

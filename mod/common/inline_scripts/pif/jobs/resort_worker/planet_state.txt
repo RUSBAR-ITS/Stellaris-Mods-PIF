@@ -1,0 +1,18 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: resort_worker
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_mercantile_commercial_enterprise
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_resort_worker_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

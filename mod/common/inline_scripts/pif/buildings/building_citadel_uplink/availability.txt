@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_citadel_uplink
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+planet_limit = @pif_building_citadel_uplink_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_starlit_citadel
+	}
+}
+
+allow = {
+	exists = solar_system
+	solar_system = {
+		custom_tooltip = {
+			text = "requires_deep_space_citadel"
+			count_ship_in_system = {
+				limit = {
+					is_space_citadel_ship_size = yes
+				}
+				count > 0
+			}
+		}
+	}
+}

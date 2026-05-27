@@ -1,0 +1,32 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_storm_resistant_production
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+planet_limit = @pif_building_storm_resistant_production_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+		NOT = {
+			has_origin = origin_storm_chasers
+		}
+	}
+	OR = {
+		owner = {
+			is_ai = no
+		}
+		solar_system = {
+			system_has_storm_repelling_tech = no
+		}
+	}
+}
+
+prerequisites = {
+	"tech_industrial_storm_protection"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

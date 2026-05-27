@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_arcology_leisure
+# Vanilla source: districts/01_arcology_districts.txt
+
+

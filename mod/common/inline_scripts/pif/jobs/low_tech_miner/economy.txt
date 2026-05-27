@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: low_tech_miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		minerals = @pif_low_tech_miner_job_output_output_minerals_1
+	}
+}

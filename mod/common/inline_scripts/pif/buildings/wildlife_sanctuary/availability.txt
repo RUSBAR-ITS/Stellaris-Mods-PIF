@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: wildlife_sanctuary
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+planet_limit = @pif_wildlife_sanctuary_limits_planet_limit_1
+
+potential = {
+	owner = {
+		has_animal_handler_job = yes
+	}
+}

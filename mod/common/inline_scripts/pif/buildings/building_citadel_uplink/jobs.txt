@@ -1,0 +1,33 @@
+# PIF building category: JOBS
+# Vanilla building: building_citadel_uplink
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = solar_system
+		OR = {
+			is_scope_valid = no
+			AND = {
+				exists = owner
+				owner = {
+					is_regular_empire = yes
+				}
+			}
+		}
+	}
+	job_skywatcher_add = @pif_building_citadel_uplink_jobs_job_skywatcher_add_1
+	mult = solar_system.value:skywatcher_dsc_mult
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = solar_system
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_skywatcher_drone_add = @pif_building_citadel_uplink_jobs_job_skywatcher_drone_add_2
+	mult = solar_system.value:skywatcher_dsc_mult
+}

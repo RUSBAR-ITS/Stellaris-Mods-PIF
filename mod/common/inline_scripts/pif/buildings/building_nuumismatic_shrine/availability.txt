@@ -1,0 +1,15 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_nuumismatic_shrine
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+planet_limit = @pif_building_nuumismatic_shrine_limits_planet_limit_1
+
+potential = {
+	owner = {
+		has_country_flag = nuumismatic_shrine
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}

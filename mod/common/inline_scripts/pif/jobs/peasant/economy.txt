@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: peasant
+# Vanilla class: worker
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		food = @pif_peasant_job_output_output_food_1
+	}
+}

@@ -1,0 +1,35 @@
+# PIF job category: ECONOMY
+# Vanilla job: augmentor_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_augmentors
+	produces = {
+		trigger = {
+			OR = {
+				is_cyborg_empire = yes
+				owner = {
+					has_valid_civic = civic_machine_assimilator
+				}
+			}
+		}
+		society_research = @pif_augmentor_drone_job_output_output_society_research_1
+		engineering_research = @pif_augmentor_drone_job_output_output_engineering_research_2
+	}
+	upkeep = {
+		trigger = {
+			is_cyborg_empire = yes
+		}
+		alloys = @pif_augmentor_drone_job_upkeep_upkeep_alloys_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+		alloys = @pif_augmentor_drone_job_upkeep_upkeep_alloys_2
+	}
+}

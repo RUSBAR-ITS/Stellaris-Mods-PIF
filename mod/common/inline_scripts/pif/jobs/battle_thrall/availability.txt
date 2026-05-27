@@ -1,0 +1,19 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: battle_thrall
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+	is_enslaved = yes
+}
+
+possible = {
+	soldier_job_check_trigger = yes
+	owner = {
+		is_gestalt = no
+	}
+}

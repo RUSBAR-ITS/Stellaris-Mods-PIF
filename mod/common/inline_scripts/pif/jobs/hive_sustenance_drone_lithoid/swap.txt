@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: hive_sustenance_drone_lithoid
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = hunter_gatherer
+	}
+}

@@ -1,0 +1,36 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_paragon_memory_vaults
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_paragon_memory_vaults_cost_cost_minerals_1
+	}
+	cost = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_building_paragon_memory_vaults_cost_cost_biomass_2
+	}
+	upkeep = {
+		energy = @pif_building_paragon_memory_vaults_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_civic = civic_memory_vault_corporate
+			}
+			owner = {
+				is_variable_set = paragon_memory_vault
+			}
+		}
+		energy = @pif_building_paragon_memory_vaults_upkeep_upkeep_energy_1
+		multiplier = owner.paragon_memory_vault
+	}
+}

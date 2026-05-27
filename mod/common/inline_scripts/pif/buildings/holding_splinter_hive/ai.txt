@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: holding_splinter_hive
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+# Empty PIF building category hook.

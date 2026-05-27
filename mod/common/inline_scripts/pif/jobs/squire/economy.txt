@@ -1,0 +1,19 @@
+# PIF job category: ECONOMY
+# Vanilla job: squire
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+resources = {
+	category = planet_squires
+	upkeep = {
+		alloys = @pif_squire_job_upkeep_upkeep_alloys_1
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_modifier = syamelles_curse_habitat
+			}
+		}
+		alloys = @pif_squire_job_upkeep_upkeep_alloys_1
+	}
+}

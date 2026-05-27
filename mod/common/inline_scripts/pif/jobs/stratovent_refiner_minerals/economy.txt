@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: stratovent_refiner_minerals
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		exotic_gases = @pif_stratovent_refiner_minerals_job_output_output_exotic_gases_1
+		minerals = @pif_stratovent_refiner_minerals_job_output_output_minerals_2
+	}
+}

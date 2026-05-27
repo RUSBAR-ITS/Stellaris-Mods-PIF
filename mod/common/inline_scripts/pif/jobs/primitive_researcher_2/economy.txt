@@ -1,0 +1,16 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_researcher_2
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_primitive_researcher_2_job_output_output_physics_research_1
+		engineering_research = @pif_primitive_researcher_2_job_output_output_engineering_research_2
+		society_research = @pif_primitive_researcher_2_job_output_output_society_research_3
+	}
+	upkeep = {
+		consumer_goods = @pif_primitive_researcher_2_job_upkeep_upkeep_consumer_goods_1
+	}
+}

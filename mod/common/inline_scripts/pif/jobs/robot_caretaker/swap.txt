@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: robot_caretaker
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_autochthon_monument
+	}
+}

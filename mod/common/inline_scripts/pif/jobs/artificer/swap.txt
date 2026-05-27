@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: artificer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_factory_1
+	}
+}

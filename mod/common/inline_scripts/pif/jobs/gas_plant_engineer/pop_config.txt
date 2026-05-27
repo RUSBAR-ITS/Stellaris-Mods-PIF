@@ -1,0 +1,24 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: gas_plant_engineer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	strategic_resource
+	exotic_gases
+}
+
+weight = {
+	weight = @pif_gas_plant_engineer_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|gas_plant_engineer|RESOURCE|exotic_gases|
+}
+
+promotion = {
+	time = @pif_gas_plant_engineer_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

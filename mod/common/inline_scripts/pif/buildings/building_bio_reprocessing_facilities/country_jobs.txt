@@ -1,0 +1,22 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_bio_reprocessing_facilities
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			is_anglers_empire = yes
+		}
+	}
+	job_capital_trader_add = @pif_building_bio_reprocessing_facilities_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_permanent_employment
+		}
+	}
+	job_capital_trader_add = @pif_building_bio_reprocessing_facilities_country_jobs_job_capital_trader_add_1
+}

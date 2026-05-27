@@ -1,0 +1,19 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: artisan
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		artisan_is_pearl_diver_trigger = yes
+		exists = owner
+		owner = {
+			has_valid_civic = civic_agrarian_idyll
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_artisan_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

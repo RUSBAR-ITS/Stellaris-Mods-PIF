@@ -1,0 +1,22 @@
+# PIF building category: JOBS
+# Vanilla building: building_necrophage_house_of_apotheosis
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_necro_apprentice_add = @pif_building_necrophage_house_of_apotheosis_jobs_job_necro_apprentice_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		is_planet_class = pc_hive
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	job_necro_apprentice_add = @pif_building_necrophage_house_of_apotheosis_jobs_job_necro_apprentice_add_2
+}

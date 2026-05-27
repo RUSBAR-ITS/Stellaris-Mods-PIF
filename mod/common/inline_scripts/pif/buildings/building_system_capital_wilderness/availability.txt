@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_system_capital_wilderness
+# Vanilla class: capital
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+allow = {
+	num_free_districts = {
+		type = any
+		value = 0
+	}
+}
+
+prerequisites = {
+	"tech_galactic_administration"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = yes
+}

@@ -1,0 +1,11 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: astrogarbage_collector_gestalt
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_environment_tolerance = @pif_astrogarbage_collector_gestalt_pop_modifiers_pop_environment_tolerance_1
+}

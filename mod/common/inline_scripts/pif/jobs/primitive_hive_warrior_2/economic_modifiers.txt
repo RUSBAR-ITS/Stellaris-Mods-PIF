@@ -1,0 +1,6 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: primitive_hive_warrior_2
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+# Empty PIF job category hook.

@@ -1,0 +1,42 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: coordinator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_coordinator_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|coordinator|RESOURCE|unity|
+	mult = value:scripted_job_weight_shroud_forged_mult
+	modifier = {
+		factor = @pif_coordinator_job_weight_factor_2
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_coordinator_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

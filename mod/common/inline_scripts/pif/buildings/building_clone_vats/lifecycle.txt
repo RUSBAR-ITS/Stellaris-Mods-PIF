@@ -1,0 +1,19 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_clone_vats
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		AND = {
+			owner = {
+				is_ai = yes
+			}
+			free_district_slots = @pif_building_clone_vats_planet_state_free_district_slots_1
+			free_building_slots = @pif_building_clone_vats_planet_state_free_building_slots_4
+			free_housing <= @pif_building_clone_vats_planet_state_free_housing_3
+			free_jobs <= 0
+		}
+	}
+}

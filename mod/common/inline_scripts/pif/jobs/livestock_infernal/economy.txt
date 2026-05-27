@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: livestock_infernal
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_livestock_metallurgists
+	produces = {
+		alloys = @pif_livestock_infernal_job_output_output_alloys_1
+	}
+}

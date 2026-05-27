@@ -1,0 +1,153 @@
+# PIF job category: ECONOMY
+# Vanilla job: calculator_physicist
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_physicists
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				physicist_is_extradimensional_research_unit_trigger = no
+			}
+		}
+		physics_research = @pif_calculator_physicist_job_output_output_physics_research_1
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				physicist_is_astrometeorologist_trigger = yes
+				solar_system = {
+					OR = {
+						has_environmental_effects = yes
+						has_star_flag = storm_system
+					}
+				}
+			}
+		}
+		physics_research = @pif_calculator_physicist_job_output_output_physics_research_2
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				physicist_is_extradimensional_research_unit_trigger = yes
+			}
+		}
+		alloys = @pif_calculator_physicist_job_output_output_alloys_3
+		minerals = @pif_calculator_physicist_job_output_output_minerals_4
+		physics_research = @pif_calculator_physicist_job_output_output_physics_research_1
+		multiplier = planet.value:materiality_engine_produces_mult
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+			exists = planet
+			planet = {
+				physicist_is_extradimensional_research_unit_trigger = no
+			}
+		}
+		energy = @pif_calculator_physicist_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		energy = @pif_calculator_physicist_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_calculator_physicist_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		minerals = @pif_calculator_physicist_job_upkeep_upkeep_minerals_4
+	}
+	produces = {
+		trigger = {
+			physicist_is_space_time_researcher_trigger = yes
+		}
+		physics_research = @pif_calculator_physicist_job_output_output_physics_research_5
+		sr_dark_matter = @pif_calculator_physicist_job_output_output_sr_dark_matter_6
+	}
+	upkeep = {
+		trigger = {
+			physicist_is_space_time_researcher_trigger = yes
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_calculator_physicist_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			physicist_is_space_time_researcher_trigger = yes
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+		}
+		energy = @pif_calculator_physicist_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				physicist_is_extradimensional_research_unit_trigger = yes
+			}
+		}
+		sr_zro = @pif_calculator_physicist_job_upkeep_upkeep_sr_zro_5
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_research
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		physics_research = @pif_calculator_physicist_overlord_output_overlord_output_physics_research_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+				physicist_is_astrometeorologist_trigger = yes
+				solar_system = {
+					OR = {
+						has_environmental_effects = yes
+						has_star_flag = storm_system
+					}
+				}
+			}
+		}
+		physics_research = @pif_calculator_physicist_overlord_output_overlord_output_physics_research_2
+	}
+}

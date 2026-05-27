@@ -1,0 +1,13 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_instrument_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		owner = {
+			is_gestalt = no
+		}
+	}
+	pop_happiness = @pif_building_instrument_sanctum_pop_modifiers_pop_happiness_1
+}

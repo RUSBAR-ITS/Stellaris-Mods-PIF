@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: holding_organic_sanctuary
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+# Empty PIF building category hook.

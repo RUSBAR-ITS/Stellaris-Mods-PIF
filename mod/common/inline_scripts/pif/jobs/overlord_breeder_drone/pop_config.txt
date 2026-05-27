@@ -1,0 +1,23 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: overlord_breeder_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+can_set_priority = @pif_overlord_breeder_drone_job_flags_can_set_priority_2
+
+tags = {}
+
+weight = {
+	weight = @pif_overlord_breeder_drone_job_weight_weight_1
+	mult = value:scripted_job_weight_shroud_forged_mult
+}
+
+promotion = {
+	time = @pif_overlord_breeder_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

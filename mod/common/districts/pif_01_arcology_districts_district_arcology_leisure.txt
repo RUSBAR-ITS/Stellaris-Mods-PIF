@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/01_arcology_districts.txt
+# Object class: real
+
+district_arcology_leisure = {
+	base_buildtime = @pif_district_arcology_leisure_construction_build_time_days
+	show_on_uncolonized = {
+		always = no
+	}
+	inline_script = "pif/districts/district_arcology_leisure/zone_slots"
+	inline_script = "pif/districts/district_arcology_leisure/availability"
+	inline_script = "pif/districts/district_arcology_leisure/economic"
+	inline_script = "pif/districts/district_arcology_leisure/tpm"
+	inline_script = "pif/districts/district_arcology_leisure/lifecycle"
+	inline_script = "pif/districts/district_arcology_leisure/ai"
+}

@@ -1,0 +1,34 @@
+# PIF job category: SWAP
+# Vanilla job: civilian
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_residence
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			has_modifier = resort_colony
+		}
+		name = tourist
+		desc = tourist_desc
+		icon = trader
+		building_icon = building_amusement_megaplex
+		weight = 6
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_pleasure_seeker_empire = yes
+			}
+		}
+		name = fe_hedonist
+		desc = fe_hedonist
+		icon = fe_hedonist
+		building_icon = building_holo_theatres
+		weight = 5
+	}
+}

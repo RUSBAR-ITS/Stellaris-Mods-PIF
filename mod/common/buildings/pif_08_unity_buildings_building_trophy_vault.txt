@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_trophy_vault = {
+	base_buildtime = @pif_building_trophy_vault_construction_base_buildtime_1
+	category = unity
+	icon = building_autocurating_vault
+	inline_script = "pif/buildings/building_trophy_vault/building_config"
+	inline_script = "pif/buildings/building_trophy_vault/availability"
+	inline_script = "pif/buildings/building_trophy_vault/economy"
+	inline_script = "pif/buildings/building_trophy_vault/lifecycle"
+	inline_script = "pif/buildings/building_trophy_vault/jobs"
+	inline_script = "pif/buildings/building_trophy_vault/country_jobs"
+	inline_script = "pif/buildings/building_trophy_vault/economic_modifiers"
+	inline_script = "pif/buildings/building_trophy_vault/pop_modifiers"
+	inline_script = "pif/buildings/building_trophy_vault/planet_state"
+	inline_script = "pif/buildings/building_trophy_vault/tpm"
+	inline_script = "pif/buildings/building_trophy_vault/ai"
+}

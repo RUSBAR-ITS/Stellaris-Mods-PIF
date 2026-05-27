@@ -1,0 +1,15 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_genomic_facility
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cloning_unlock_level_2
+			is_gestalt = no
+		}
+	}
+	planet_amenities_add = @pif_building_genomic_facility_planet_state_planet_amenities_add_1
+}

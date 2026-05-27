@@ -1,0 +1,70 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_imperial_machine_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 1
+	}
+	planet_max_districts_add = @pif_building_imperial_machine_capital_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 5
+	}
+	planet_max_districts_add = @pif_building_imperial_machine_capital_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 10
+	}
+	planet_max_districts_add = @pif_building_imperial_machine_capital_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	key = origins_traditions_tech_key
+	potential = {
+		exists = owner
+		is_planet_class = pc_habitat
+	}
+	planet_max_districts_add = @pif_building_imperial_machine_capital_planet_state_planet_max_districts_add_1
+	mult = owner.modifier:habitat_max_districts_add
+}
+
+triggered_planet_modifier = {
+	key = major_celestial_objects_key
+	potential = {
+		exists = owner
+		is_planet_class = pc_habitat
+	}
+	planet_max_districts_add = @pif_building_imperial_machine_capital_planet_state_planet_max_districts_add_2
+	mult = value:districts_from_major_celestial_objects_value
+}
+
+triggered_planet_modifier = {
+	key = minor_celestial_objects_key
+	potential = {
+		exists = owner
+		owner = {
+			is_void_dweller_empire = yes
+		}
+		is_planet_class = pc_habitat
+	}
+	planet_max_districts_add = @pif_building_imperial_machine_capital_planet_state_planet_max_districts_add_2
+	mult = solar_system.value:num_minor_celestial_objects
+}

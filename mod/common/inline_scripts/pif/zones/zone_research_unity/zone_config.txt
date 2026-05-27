@@ -1,0 +1,14 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_research_unity
+# Vanilla source: zones/00_zones.txt
+
+zone_sets = {
+	urban
+	polytechnic
+}
+
+included_building_sets = {
+	research
+	unity
+	origin
+}

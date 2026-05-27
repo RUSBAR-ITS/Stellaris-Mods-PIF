@@ -1,0 +1,54 @@
+# PIF job category: ECONOMY
+# Vanilla job: artisan_prison_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+resources = {
+	category = planet_artisans
+	produces = {
+		consumer_goods = @pif_artisan_prison_worker_job_output_output_consumer_goods_1
+	}
+	upkeep = {
+		minerals = @pif_artisan_prison_worker_job_upkeep_upkeep_minerals_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		consumer_goods = @pif_artisan_prison_worker_job_output_output_consumer_goods_2
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		minerals = @pif_artisan_prison_worker_job_upkeep_upkeep_minerals_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_consumer_goods
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		consumer_goods = @pif_artisan_prison_worker_overlord_output_overlord_output_consumer_goods_1
+	}
+}

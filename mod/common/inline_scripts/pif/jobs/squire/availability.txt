@@ -1,0 +1,32 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: squire
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+is_capped_by_modifier = @pif_squire_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+	is_enslaved = no
+}
+
+possible_precalc = can_fill_specialist_job
+
+possible = {
+	hidden_trigger = {
+		exists = owner
+	}
+	owner = {
+		is_gestalt = no
+	}
+	exists = planet
+	planet = {
+		OR = {
+			has_active_building = building_order_keep
+			has_active_building = building_order_castle
+		}
+	}
+}

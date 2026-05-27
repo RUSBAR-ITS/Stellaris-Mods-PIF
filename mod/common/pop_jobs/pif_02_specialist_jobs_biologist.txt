@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+biologist = {
+	category = specialist
+	inline_script = "pif/jobs/biologist/swap"
+	inline_script = "pif/jobs/biologist/availability"
+	inline_script = "pif/jobs/biologist/pop_config"
+	inline_script = "pif/jobs/biologist/economy"
+	inline_script = "pif/jobs/biologist/planet_state"
+	inline_script = "pif/jobs/biologist/country_modifiers"
+	inline_script = "pif/jobs/biologist/pop_modifiers"
+	inline_script = "pif/jobs/biologist/economic_modifiers"
+	inline_script = "pif/jobs/biologist/tpm"
+}

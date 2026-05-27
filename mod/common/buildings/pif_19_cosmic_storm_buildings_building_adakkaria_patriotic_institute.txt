@@ -1,0 +1,40 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/19_cosmic_storm_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_adakkaria_patriotic_institute = {
+	base_buildtime = @pif_building_adakkaria_patriotic_institute_construction_base_buildtime_1
+	category = resource
+	triggered_desc = {
+		trigger = {
+			NAND = {
+				exists = owner
+				owner = {
+					has_country_flag = patriotic_institute_supercharged
+				}
+			}
+		}
+		text = "building_adakkaria_patriotic_institute_effect_desc"
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = patriotic_institute_supercharged
+			}
+		}
+		text = "adakkaria_patriotic_institute_desc.supercharged"
+	}
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/building_config"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/availability"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/economy"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/lifecycle"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/jobs"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/country_jobs"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/economic_modifiers"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/pop_modifiers"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/planet_state"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/tpm"
+	inline_script = "pif/buildings/building_adakkaria_patriotic_institute/ai"
+}

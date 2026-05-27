@@ -1,0 +1,5 @@
+# PIF normalized zone_slot object generated from zone_slots/00_zone_slots.txt.
+slot_arcology_urban_03 = {
+	inline_script = "pif/zone_slots/slot_arcology_urban_03/zs_config"
+	inline_script = "pif/zone_slots/slot_arcology_urban_03/availability"
+}

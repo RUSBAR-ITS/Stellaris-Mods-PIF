@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: DEFENSE
+# Defensive armies or similar defensive values provided by districts.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_craglands
+# -----------------------------------------------------------------------------
+# Controls: Defense armies added by the district.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/tpm.txt
+# Contexts: triggered_planet_modifier.planet_defense_armies_add
+@pif_district_craglands_defense_planet_defense_armies_add = 1

@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_subversive_shrine
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+# Empty PIF building category hook.

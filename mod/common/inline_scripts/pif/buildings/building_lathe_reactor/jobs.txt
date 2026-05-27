@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_lathe_reactor
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+# Empty PIF building category hook.

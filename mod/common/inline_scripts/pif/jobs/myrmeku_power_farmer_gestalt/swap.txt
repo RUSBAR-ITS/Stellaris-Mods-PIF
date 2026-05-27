@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: myrmeku_power_farmer_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_primitive_farm
+		icon = technician_drone
+	}
+}

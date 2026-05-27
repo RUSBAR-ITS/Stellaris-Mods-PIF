@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_low_tech_admin_hub
+# Vanilla class: regular
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+building_sets = {
+	pre_ftl
+}

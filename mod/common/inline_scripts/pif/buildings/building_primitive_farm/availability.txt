@@ -1,0 +1,20 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_primitive_farm
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_primitive = yes
+		is_hive_empire = no
+		OR = {
+			has_country_flag = machine_age
+			has_country_flag = industrial_age
+			has_country_flag = atomic_age
+			has_country_flag = early_space_age
+		}
+	}
+}

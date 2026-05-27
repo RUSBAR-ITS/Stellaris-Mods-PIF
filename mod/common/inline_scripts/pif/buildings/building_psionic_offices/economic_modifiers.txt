@@ -1,0 +1,13 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_psionic_offices
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_chosen
+		}
+	}
+	planet_traders_trade_produces_add = @pif_building_psionic_offices_economic_modifiers_planet_traders_trade_produces_add_2
+}

@@ -1,0 +1,913 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: HOUSING
+# Housing capacity provided by districts.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_arcology_housing
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_arcology_housing
+# Used by: common/inline_scripts/pif/districts/district_arcology_housing/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_arcology_housing_housing_planet_housing_add_2 = 300
+
+# Controls: Planet housing added by the district.
+# District: district_arcology_housing
+# Used by: common/inline_scripts/pif/districts/district_arcology_housing/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_arcology_housing_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_leisure
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_arcology_leisure_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_1
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_arcology_urban_1
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_arcology_urban_1_housing_planet_housing_add_2 = 300
+
+# Controls: Planet housing added by the district.
+# District: district_arcology_urban_1
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_1/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_arcology_urban_1_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_2
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_arcology_urban_2
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_arcology_urban_2_housing_planet_housing_add_2 = 300
+
+# Controls: Planet housing added by the district.
+# District: district_arcology_urban_2
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_2/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_arcology_urban_2_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_3
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_arcology_urban_3
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_arcology_urban_3_housing_planet_housing_add_2 = 300
+
+# Controls: Planet housing added by the district.
+# District: district_arcology_urban_3
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_3/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_arcology_urban_3_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_battle_thrall
+# Used by: common/inline_scripts/pif/districts/district_battle_thrall/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_battle_thrall_housing_planet_housing_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_city
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_city_housing_planet_housing_add_2 = -200
+
+# Controls: Planet housing added by the district.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_city_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_city_housing_planet_housing_add_4 = 200
+
+# Controls: Planet housing added by the district.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_city_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_logic
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_cosmogenesis_world_logic_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_science
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_cosmogenesis_world_science_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_craglands
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_craglands_housing_planet_housing_add_2 = 50
+
+# Controls: Planet housing added by the district.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_craglands_housing_planet_housing_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_crashed_slaver_ship
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_crashed_slaver_ship_housing_planet_housing_add_2 = -200
+
+# Controls: Planet housing added by the district.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_crashed_slaver_ship_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_crashed_slaver_ship_housing_planet_housing_add_4 = 200
+
+# Controls: Planet housing added by the district.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_crashed_slaver_ship_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_farming
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_farming_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_farming_housing_planet_housing_add = 200
+
+# Controls: Planet housing added by the district.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_farming_housing_planet_housing_add_2 = 400
+
+
+# -----------------------------------------------------------------------------
+# district_generator
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_generator_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_generator_housing_planet_housing_add = 200
+
+# Controls: Planet housing added by the district.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_generator_housing_planet_housing_add_2 = 300
+
+
+# -----------------------------------------------------------------------------
+# district_geothermal
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_geothermal_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_geothermal_housing_planet_housing_add = 200
+
+# Controls: Planet housing added by the district.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_geothermal_housing_planet_housing_add_2 = 300
+
+
+# -----------------------------------------------------------------------------
+# district_hab_energy
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hab_energy
+# Used by: common/inline_scripts/pif/districts/district_hab_energy/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hab_energy_housing_planet_housing_add = 300
+
+
+# -----------------------------------------------------------------------------
+# district_hab_housing
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hab_housing_housing_planet_housing_add_2 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hab_housing_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_hab_mining
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hab_mining
+# Used by: common/inline_scripts/pif/districts/district_hab_mining/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hab_mining_housing_planet_housing_add = 300
+
+
+# -----------------------------------------------------------------------------
+# district_hab_science
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hab_science_housing_planet_housing_add = 300
+
+
+# -----------------------------------------------------------------------------
+# district_hive
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_housing_planet_housing_add_2 = 600
+
+# Controls: Planet housing added by the district.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hive_housing_planet_housing_add = 1200
+
+
+# -----------------------------------------------------------------------------
+# district_hive_1
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hive_1
+# Used by: common/inline_scripts/pif/districts/district_hive_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_1_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_hive_1
+# Used by: common/inline_scripts/pif/districts/district_hive_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_1_housing_planet_housing_add_2 = 600
+
+# Controls: Planet housing added by the district.
+# District: district_hive_1
+# Used by: common/inline_scripts/pif/districts/district_hive_1/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hive_1_housing_planet_housing_add = 1200
+
+
+# -----------------------------------------------------------------------------
+# district_hive_2
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hive_2
+# Used by: common/inline_scripts/pif/districts/district_hive_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_2_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_hive_2
+# Used by: common/inline_scripts/pif/districts/district_hive_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_2_housing_planet_housing_add_2 = 600
+
+# Controls: Planet housing added by the district.
+# District: district_hive_2
+# Used by: common/inline_scripts/pif/districts/district_hive_2/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hive_2_housing_planet_housing_add = 1200
+
+
+# -----------------------------------------------------------------------------
+# district_hive_3
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hive_3
+# Used by: common/inline_scripts/pif/districts/district_hive_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_3_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_hive_3
+# Used by: common/inline_scripts/pif/districts/district_hive_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_hive_3_housing_planet_housing_add_2 = 600
+
+# Controls: Planet housing added by the district.
+# District: district_hive_3
+# Used by: common/inline_scripts/pif/districts/district_hive_3/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hive_3_housing_planet_housing_add = 1200
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hollow_mountains_housing_planet_housing_add_2 = 50
+
+# Controls: Planet housing added by the district.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_hollow_mountains_housing_planet_housing_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_melting
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_melting_housing_planet_housing_add_3 = 1
+
+# Controls: Planet housing added by the district.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_melting_housing_planet_housing_add_4 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_melting_housing_planet_housing_add = 200
+
+# Controls: Planet housing added by the district.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_melting_housing_planet_housing_add_2 = 300
+
+
+# -----------------------------------------------------------------------------
+# district_mindlink
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_mindlink_housing_planet_housing_add_3 = -500
+
+# Controls: Planet housing added by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_mindlink_housing_planet_housing_add_4 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_mindlink_housing_planet_housing_add_2 = 1000
+
+# Controls: Planet housing added by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_mindlink_housing_planet_housing_add = 3000
+
+
+# -----------------------------------------------------------------------------
+# district_mining
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_mining_housing_planet_housing_add_3 = 1
+
+# Controls: Planet housing added by the district.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_mining_housing_planet_housing_add_4 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_mining_housing_planet_housing_add = 200
+
+# Controls: Planet housing added by the district.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_mining_housing_planet_housing_add_2 = 300
+
+
+# -----------------------------------------------------------------------------
+# district_nexus
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_nexus_housing_planet_housing_add_2 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_nexus_housing_planet_housing_add = 1100
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_1
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_nexus_1
+# Used by: common/inline_scripts/pif/districts/district_nexus_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_nexus_1_housing_planet_housing_add_2 = 300
+
+# Controls: Planet housing added by the district.
+# District: district_nexus_1
+# Used by: common/inline_scripts/pif/districts/district_nexus_1/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_nexus_1_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_2
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_nexus_2
+# Used by: common/inline_scripts/pif/districts/district_nexus_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_nexus_2_housing_planet_housing_add_2 = 300
+
+# Controls: Planet housing added by the district.
+# District: district_nexus_2
+# Used by: common/inline_scripts/pif/districts/district_nexus_2/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_nexus_2_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_3
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_nexus_3
+# Used by: common/inline_scripts/pif/districts/district_nexus_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_nexus_3_housing_planet_housing_add_2 = 300
+
+# Controls: Planet housing added by the district.
+# District: district_nexus_3
+# Used by: common/inline_scripts/pif/districts/district_nexus_3/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_nexus_3_housing_planet_housing_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_orchard_forests_housing_planet_housing_add_2 = 50
+
+# Controls: Planet housing added by the district.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_orchard_forests_housing_planet_housing_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_photosynthesis_fields_housing_planet_housing_add_2 = 50
+
+# Controls: Planet housing added by the district.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_photosynthesis_fields_housing_planet_housing_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_polytechnic
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_polytechnic_housing_planet_housing_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_prison
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_prison_housing_planet_housing_add_2 = -200
+
+# Controls: Planet housing added by the district.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_prison_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_prison_housing_planet_housing_add_4 = 200
+
+# Controls: Planet housing added by the district.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_prison_housing_planet_housing_add = 300
+
+
+# -----------------------------------------------------------------------------
+# district_prison_industrial
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_prison_industrial_housing_planet_housing_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_resort
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_resort_housing_planet_housing_add_2 = -200
+
+# Controls: Planet housing added by the district.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_resort_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_resort_housing_planet_housing_add_4 = 200
+
+# Controls: Planet housing added by the district.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_resort_housing_planet_housing_add = 500
+
+
+# -----------------------------------------------------------------------------
+# district_resort_1
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_resort_1
+# Used by: common/inline_scripts/pif/districts/district_resort_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_resort_1_housing_planet_housing_add_2 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_resort_1
+# Used by: common/inline_scripts/pif/districts/district_resort_1/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_resort_1_housing_planet_housing_add = 500
+
+
+# -----------------------------------------------------------------------------
+# district_resort_2
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_resort_2
+# Used by: common/inline_scripts/pif/districts/district_resort_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_resort_2_housing_planet_housing_add_2 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_resort_2
+# Used by: common/inline_scripts/pif/districts/district_resort_2/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_resort_2_housing_planet_housing_add = 500
+
+
+# -----------------------------------------------------------------------------
+# district_resort_3
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_resort_3
+# Used by: common/inline_scripts/pif/districts/district_resort_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_resort_3_housing_planet_housing_add_2 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_resort_3
+# Used by: common/inline_scripts/pif/districts/district_resort_3/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_resort_3_housing_planet_housing_add = 500
+
+
+# -----------------------------------------------------------------------------
+# district_rw_city
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_city_housing_planet_housing_add_2 = -500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_city_housing_planet_housing_add_3 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_city_housing_planet_housing_add = 2500
+
+
+# -----------------------------------------------------------------------------
+# district_rw_commercial
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_commercial_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_rw_farming
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_farming_housing_planet_housing_add_2 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_farming_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_rw_generator
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_generator_housing_planet_housing_add_2 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_generator_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_rw_hive
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_hive
+# Used by: common/inline_scripts/pif/districts/district_rw_hive/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_hive_housing_planet_housing_add_2 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_hive
+# Used by: common/inline_scripts/pif/districts/district_rw_hive/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_hive_housing_planet_housing_add = 3000
+
+
+# -----------------------------------------------------------------------------
+# district_rw_nexus
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_nexus
+# Used by: common/inline_scripts/pif/districts/district_rw_nexus/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_nexus_housing_planet_housing_add_2 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_nexus
+# Used by: common/inline_scripts/pif/districts/district_rw_nexus/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_nexus_housing_planet_housing_add = 2500
+
+
+# -----------------------------------------------------------------------------
+# district_rw_science
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_science_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_1
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_1
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_urban_1_housing_planet_housing_add_2 = -500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_1
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_urban_1_housing_planet_housing_add_3 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_1
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_1/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_urban_1_housing_planet_housing_add = 2500
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_2
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_2
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_urban_2_housing_planet_housing_add_2 = -500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_2
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_urban_2_housing_planet_housing_add_3 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_2
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_2/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_urban_2_housing_planet_housing_add = 2500
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_3
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_3
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_urban_3_housing_planet_housing_add_2 = -500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_3
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_rw_urban_3_housing_planet_housing_add_3 = 500
+
+# Controls: Planet housing added by the district.
+# District: district_rw_urban_3
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_3/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_rw_urban_3_housing_planet_housing_add = 2500
+
+
+# -----------------------------------------------------------------------------
+# district_slave
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_slave_housing_planet_housing_add_2 = -200
+
+# Controls: Planet housing added by the district.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_slave_housing_planet_housing_add_3 = 100
+
+# Controls: Planet housing added by the district.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.planet_housing_add
+@pif_district_slave_housing_planet_housing_add_4 = 200
+
+# Controls: Planet housing added by the district.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_slave_housing_planet_housing_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_srw_commercial
+# -----------------------------------------------------------------------------
+# Controls: Planet housing added by the district.
+# District: district_srw_commercial
+# Used by: common/inline_scripts/pif/districts/district_srw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.planet_housing_add
+@pif_district_srw_commercial_housing_planet_housing_add = 200

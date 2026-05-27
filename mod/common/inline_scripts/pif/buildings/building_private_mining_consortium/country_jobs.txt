@@ -1,0 +1,22 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_private_mining_consortium
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_privatized_exploration
+		}
+	}
+	job_capital_trader_add = @pif_building_private_mining_consortium_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_private_prospectors
+		}
+	}
+	job_capital_trader_add = @pif_building_private_mining_consortium_country_jobs_job_capital_trader_add_1
+}

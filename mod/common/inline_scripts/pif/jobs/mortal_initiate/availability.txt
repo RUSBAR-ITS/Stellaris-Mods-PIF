@@ -1,0 +1,22 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: mortal_initiate
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+	is_enslaved = no
+	is_being_purged = no
+	is_being_assimilated = no
+}
+
+possible_precalc = can_fill_worker_job
+
+possible = {
+	NOR = {
+		has_trait = trait_mechanical
+		has_trait = trait_zombie
+		has_virtual_species_trait = yes
+	}
+}

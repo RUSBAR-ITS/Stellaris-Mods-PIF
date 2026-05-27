@@ -1,0 +1,10 @@
+# PIF zone category: ECONOMY
+# Vanilla zone: zone_research_engineering_ring_world
+# Vanilla source: zones/04_secondary_zones.txt
+
+resources = {
+	category = planet_zones
+	cost = {
+		minerals = @pif_zone_research_engineering_ring_world_construction_zone_construction_cost_minerals_2
+	}
+}

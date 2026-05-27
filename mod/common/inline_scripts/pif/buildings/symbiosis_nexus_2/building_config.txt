@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: symbiosis_nexus_2
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+building_sets = {
+	government
+	urban
+}

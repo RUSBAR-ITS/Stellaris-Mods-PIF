@@ -1,0 +1,12 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_sacrificial_temple_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_ethic_spiritualist_attraction_mult = @pif_building_sacrificial_temple_3_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1
+	pop_mortal_initiate_bonus_workforce_mult = @pif_building_sacrificial_temple_3_pop_modifiers_pop_mortal_initiate_bonus_workforce_mult_2
+}

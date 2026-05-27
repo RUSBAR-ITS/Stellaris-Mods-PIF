@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: building_knightly_theme_park
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_entertainer_add = @pif_building_knightly_theme_park_jobs_job_entertainer_add_1
+}

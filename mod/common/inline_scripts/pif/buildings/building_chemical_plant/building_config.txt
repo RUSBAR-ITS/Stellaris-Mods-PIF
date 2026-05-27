@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_chemical_plant
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+building_sets = {
+	industrial
+	factory
+	foundry
+}

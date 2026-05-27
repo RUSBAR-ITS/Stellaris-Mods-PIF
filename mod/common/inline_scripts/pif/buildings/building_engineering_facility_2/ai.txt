@@ -1,0 +1,21 @@
+# PIF building category: AI
+# Vanilla building: building_engineering_facility_2
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+exempt_from_ai_planet_specialization = no
+
+ai_resource_production = {
+	engineering_research = @pif_building_engineering_facility_2_ai_engineering_research_1
+	trigger = {
+		has_any_unspecialized_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	engineering_research = @pif_building_engineering_facility_2_ai_engineering_research_1
+	mult = @pif_building_engineering_facility_2_ai_mult_2
+	trigger = {
+		has_any_research_engineering_zone = yes
+	}
+}

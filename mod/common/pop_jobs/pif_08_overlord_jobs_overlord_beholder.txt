@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+overlord_beholder = {
+	category = specialist
+	inline_script = "pif/jobs/overlord_beholder/swap"
+	inline_script = "pif/jobs/overlord_beholder/availability"
+	inline_script = "pif/jobs/overlord_beholder/pop_config"
+	inline_script = "pif/jobs/overlord_beholder/economy"
+	inline_script = "pif/jobs/overlord_beholder/planet_state"
+	inline_script = "pif/jobs/overlord_beholder/country_modifiers"
+	inline_script = "pif/jobs/overlord_beholder/pop_modifiers"
+	inline_script = "pif/jobs/overlord_beholder/economic_modifiers"
+	inline_script = "pif/jobs/overlord_beholder/tpm"
+}

@@ -1,0 +1,8 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_crystal_plant
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+upgrades = {
+	"building_crystal_plant_2"
+}

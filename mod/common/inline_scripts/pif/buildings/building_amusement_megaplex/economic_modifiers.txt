@@ -1,0 +1,38 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_amusement_megaplex
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_entertainers_trade_produces_add = @pif_building_amusement_megaplex_economic_modifiers_planet_entertainers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_hedonism
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_amusement_megaplex_economic_modifiers_planet_entertainers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_hyperspace_specialty
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_amusement_megaplex_economic_modifiers_planet_entertainers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_storm_callers_megacorp
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_amusement_megaplex_economic_modifiers_planet_entertainers_trade_produces_add_2
+}

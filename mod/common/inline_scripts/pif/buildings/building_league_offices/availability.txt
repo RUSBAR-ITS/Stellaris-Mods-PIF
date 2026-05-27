@@ -1,0 +1,26 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_league_offices
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+empire_limit = {
+	base = @pif_building_league_offices_limits_base_1
+}
+
+potential = {
+	exists = owner
+	owner = {
+		has_technology = tech_secrets_league
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_secrets_league"
+}

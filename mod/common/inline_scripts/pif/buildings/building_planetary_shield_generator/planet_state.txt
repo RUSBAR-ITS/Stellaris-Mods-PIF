@@ -1,0 +1,11 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_planetary_shield_generator
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_orbital_bombardment_damage = @pif_building_planetary_shield_generator_planet_state_planet_orbital_bombardment_damage_1
+}

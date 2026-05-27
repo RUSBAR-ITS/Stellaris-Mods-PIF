@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_hive_warren = {
+	base_buildtime = @pif_building_hive_warren_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_hive_warren/building_config"
+	inline_script = "pif/buildings/building_hive_warren/availability"
+	inline_script = "pif/buildings/building_hive_warren/economy"
+	inline_script = "pif/buildings/building_hive_warren/lifecycle"
+	inline_script = "pif/buildings/building_hive_warren/jobs"
+	inline_script = "pif/buildings/building_hive_warren/country_jobs"
+	inline_script = "pif/buildings/building_hive_warren/economic_modifiers"
+	inline_script = "pif/buildings/building_hive_warren/pop_modifiers"
+	inline_script = "pif/buildings/building_hive_warren/planet_state"
+	inline_script = "pif/buildings/building_hive_warren/tpm"
+	inline_script = "pif/buildings/building_hive_warren/ai"
+}

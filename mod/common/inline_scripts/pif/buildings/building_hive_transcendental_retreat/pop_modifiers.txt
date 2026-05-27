@@ -1,0 +1,13 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_hive_transcendental_retreat
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+	}
+	logistic_growth_mult = @pif_building_hive_transcendental_retreat_pop_modifiers_logistic_growth_mult_1
+	planet_pop_assemblers_unity_produces_add = @pif_building_hive_transcendental_retreat_pop_modifiers_planet_pop_assemblers_unity_produces_add_2
+	mult = owner.value:transcendental_growth
+}

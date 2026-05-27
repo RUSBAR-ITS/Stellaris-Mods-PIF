@@ -1,0 +1,10 @@
+# PIF zone category: ECONOMY
+# Vanilla zone: zone_habitat_rare_crystals
+# Vanilla source: zones/01_habitat_zones.txt
+
+resources = {
+	category = planet_zones
+	cost = {
+		minerals = @pif_zone_habitat_rare_crystals_construction_zone_construction_cost_minerals_2
+	}
+}

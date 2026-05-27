@@ -1,0 +1,10 @@
+# PIF building category: TPM
+# Vanilla building: building_hive_confluence
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+}

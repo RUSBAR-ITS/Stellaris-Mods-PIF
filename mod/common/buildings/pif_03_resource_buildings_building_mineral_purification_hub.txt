@@ -1,0 +1,34 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/03_resource_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_mineral_purification_hub = {
+	desc = {
+		trigger = {
+			NOT = {
+				is_planet_class = pc_shattered_ring_habitable
+			}
+		}
+		text = building_mineral_purification_hub_desc
+	}
+	desc = {
+		trigger = {
+			is_planet_class = pc_shattered_ring_habitable
+		}
+		text = building_scrap_processing_hub_desc
+	}
+	base_buildtime = @pif_building_mineral_purification_hub_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_mineral_purification_hub/building_config"
+	inline_script = "pif/buildings/building_mineral_purification_hub/availability"
+	inline_script = "pif/buildings/building_mineral_purification_hub/economy"
+	inline_script = "pif/buildings/building_mineral_purification_hub/lifecycle"
+	inline_script = "pif/buildings/building_mineral_purification_hub/jobs"
+	inline_script = "pif/buildings/building_mineral_purification_hub/country_jobs"
+	inline_script = "pif/buildings/building_mineral_purification_hub/economic_modifiers"
+	inline_script = "pif/buildings/building_mineral_purification_hub/pop_modifiers"
+	inline_script = "pif/buildings/building_mineral_purification_hub/planet_state"
+	inline_script = "pif/buildings/building_mineral_purification_hub/tpm"
+	inline_script = "pif/buildings/building_mineral_purification_hub/ai"
+}

@@ -1,0 +1,16 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_cyberdome
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_cyberdome_limits_planet_limit_1
+
+potential = {
+	owner = {
+		is_imperial_authority = yes
+		has_country_flag = cyber_collectivist
+	}
+	is_capital = yes
+}
+
+allow = {}

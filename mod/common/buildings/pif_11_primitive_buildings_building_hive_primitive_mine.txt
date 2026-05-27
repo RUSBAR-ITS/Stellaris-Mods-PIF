@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_hive_primitive_mine = {
+	icon = building_primitive_mine
+	category = resource
+	inline_script = "pif/buildings/building_hive_primitive_mine/building_config"
+	inline_script = "pif/buildings/building_hive_primitive_mine/availability"
+	inline_script = "pif/buildings/building_hive_primitive_mine/economy"
+	inline_script = "pif/buildings/building_hive_primitive_mine/lifecycle"
+	inline_script = "pif/buildings/building_hive_primitive_mine/jobs"
+	inline_script = "pif/buildings/building_hive_primitive_mine/country_jobs"
+	inline_script = "pif/buildings/building_hive_primitive_mine/economic_modifiers"
+	inline_script = "pif/buildings/building_hive_primitive_mine/pop_modifiers"
+	inline_script = "pif/buildings/building_hive_primitive_mine/planet_state"
+	inline_script = "pif/buildings/building_hive_primitive_mine/tpm"
+	inline_script = "pif/buildings/building_hive_primitive_mine/ai"
+}

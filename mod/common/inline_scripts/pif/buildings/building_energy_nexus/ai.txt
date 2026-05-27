@@ -1,0 +1,11 @@
+# PIF building category: AI
+# Vanilla building: building_energy_nexus
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+ai_resource_production = {
+	energy = @pif_building_energy_nexus_ai_energy_1
+	trigger = {
+		has_any_generator_zone = yes
+	}
+}

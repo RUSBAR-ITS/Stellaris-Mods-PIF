@@ -1,0 +1,29 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_xeno_tourism_agency
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_entertainers_trade_produces_add = @pif_building_xeno_tourism_agency_economic_modifiers_planet_entertainers_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_civic = civic_corporate_dimensional_worship
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_xeno_tourism_agency_economic_modifiers_planet_entertainers_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_civic = civic_death_cult_corporate
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_xeno_tourism_agency_economic_modifiers_planet_entertainers_trade_produces_add_1
+}

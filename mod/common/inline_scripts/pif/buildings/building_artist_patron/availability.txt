@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_artist_patron
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+empire_limit = @pif_building_artist_patron_limits_empire_limit_1
+
+potential = {
+	custom_tooltip = {
+		text = EMPIRE_UNIQUE_BUILDING
+		owner = {
+			has_country_flag = artist_building_patron
+		}
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}

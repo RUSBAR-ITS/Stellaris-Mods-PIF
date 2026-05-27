@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: clerk
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+resources = {
+	category = planet_clerks
+	produces = {
+		trade = @pif_clerk_job_output_output_trade_1
+	}
+}

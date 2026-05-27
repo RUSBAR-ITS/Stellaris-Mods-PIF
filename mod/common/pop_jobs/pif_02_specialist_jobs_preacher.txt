@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+preacher = {
+	category = specialist
+	inline_script = "pif/jobs/preacher/swap"
+	inline_script = "pif/jobs/preacher/availability"
+	inline_script = "pif/jobs/preacher/pop_config"
+	inline_script = "pif/jobs/preacher/economy"
+	inline_script = "pif/jobs/preacher/planet_state"
+	inline_script = "pif/jobs/preacher/country_modifiers"
+	inline_script = "pif/jobs/preacher/pop_modifiers"
+	inline_script = "pif/jobs/preacher/economic_modifiers"
+	inline_script = "pif/jobs/preacher/tpm"
+}

@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_slave_processing = {
+	base_buildtime = @pif_building_slave_processing_construction_base_buildtime_1
+	category = government
+	triggered_desc = {
+		text = building_slave_processing_slave_army_effect_desc
+	}
+	inline_script = "pif/buildings/building_slave_processing/building_config"
+	inline_script = "pif/buildings/building_slave_processing/availability"
+	inline_script = "pif/buildings/building_slave_processing/economy"
+	inline_script = "pif/buildings/building_slave_processing/lifecycle"
+	inline_script = "pif/buildings/building_slave_processing/jobs"
+	inline_script = "pif/buildings/building_slave_processing/country_jobs"
+	inline_script = "pif/buildings/building_slave_processing/economic_modifiers"
+	inline_script = "pif/buildings/building_slave_processing/pop_modifiers"
+	inline_script = "pif/buildings/building_slave_processing/planet_state"
+	inline_script = "pif/buildings/building_slave_processing/tpm"
+	inline_script = "pif/buildings/building_slave_processing/ai"
+}

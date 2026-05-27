@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_astrometeorology_observation_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+planet_limit = @pif_building_astrometeorology_observation_center_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_astrometeorologist_empire = yes
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}

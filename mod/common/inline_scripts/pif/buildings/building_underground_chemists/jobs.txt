@@ -1,0 +1,32 @@
+# PIF building category: JOBS
+# Vanilla building: building_underground_chemists
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_artisan_add = @pif_building_underground_chemists_jobs_job_artisan_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_wilderness_empire = no
+		}
+	}
+	job_artisan_drone_add = @pif_building_underground_chemists_jobs_job_artisan_drone_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_criminal_add = @pif_building_underground_chemists_jobs_job_criminal_add_3
+}

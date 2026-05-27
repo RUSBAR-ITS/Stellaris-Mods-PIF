@@ -1,0 +1,29 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_bio_reprocessing_facilities
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_farmers_trade_produces_add = @pif_building_bio_reprocessing_facilities_economic_modifiers_planet_farmers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			is_anglers_empire = yes
+		}
+	}
+	planet_farmers_trade_produces_add = @pif_building_bio_reprocessing_facilities_economic_modifiers_planet_farmers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_permanent_employment
+		}
+	}
+	planet_farmers_trade_produces_add = @pif_building_bio_reprocessing_facilities_economic_modifiers_planet_farmers_trade_produces_add_2
+}

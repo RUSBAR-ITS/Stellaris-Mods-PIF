@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: livestock_lithoid
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_livestock_miners
+	produces = {
+		minerals = @pif_livestock_lithoid_job_output_output_minerals_1
+	}
+}

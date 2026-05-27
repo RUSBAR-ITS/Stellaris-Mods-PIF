@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_sensorium_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+# Empty PIF building category hook.

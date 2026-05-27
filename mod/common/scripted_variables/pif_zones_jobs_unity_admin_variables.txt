@@ -1,0 +1,791 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: JOBS_UNITY_ADMIN
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_broken_shackles_memorial
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 40
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 40
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_unity_admin_job_amount_job_coordinator_add_7 = 40
+
+# -----------------------------------------------------------------------------
+# zone_habitat_research_unity
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 40
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 40
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_unity_admin_job_amount_job_coordinator_add_7 = 40
+
+# -----------------------------------------------------------------------------
+# zone_research_unity
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 40
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 40
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_unity_admin_job_amount_job_coordinator_add_7 = 40
+
+# -----------------------------------------------------------------------------
+# zone_research_unity_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 40
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 40
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_unity_admin_job_amount_job_coordinator_add_7 = 40
+
+# -----------------------------------------------------------------------------
+# zone_resort_grand_museum
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_grand_museum/tpm.txt
+@pif_zone_resort_grand_museum_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_resort_spiritual_retreat
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_spiritual_retreat/tpm.txt
+@pif_zone_resort_spiritual_retreat_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 100
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 100
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_jobs_unity_admin_job_amount_job_coordinator_add_7 = 100
+
+# -----------------------------------------------------------------------------
+# zone_unity_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 100
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 100
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_jobs_unity_admin_job_amount_job_coordinator_add_7 = 100
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 100
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 100
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_jobs_unity_admin_job_amount_job_coordinator_add_7 = 100
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 200
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 200
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_jobs_unity_admin_job_amount_job_coordinator_add_7 = 200
+
+# -----------------------------------------------------------------------------
+# zone_unity_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_10 = 25
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_district_modifier_scaling_multiplier_9 = 15
+
+# Controls: job amount: job_bio_trophy_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_job_amount_job_bio_trophy_add_8 = 100
+
+# Controls: job amount: job_bureaucrat_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_job_amount_job_bureaucrat_add_1 = 100
+
+# Controls: job amount: job_coordinator_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
+@pif_zone_unity_wilderness_jobs_unity_admin_job_amount_job_coordinator_add_7 = 100

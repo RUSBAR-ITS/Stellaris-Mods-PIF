@@ -1,0 +1,35 @@
+# PIF building category: JOBS
+# Vanilla building: building_fe_administration_hive_2
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_bureaucrat_add = @pif_building_fe_administration_hive_2_jobs_job_bureaucrat_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = no
+		}
+	}
+	job_coordinator_add = @pif_building_fe_administration_hive_2_jobs_job_coordinator_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+	job_bureaucrat_automated_workforce_mult = @pif_building_fe_administration_hive_2_jobs_job_bureaucrat_automated_workforce_mult_3
+	job_coordinator_automated_workforce_mult = @pif_building_fe_administration_hive_2_jobs_job_coordinator_automated_workforce_mult_4
+}

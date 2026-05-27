@@ -1,0 +1,37 @@
+# PIF building category: AI
+# Vanilla building: building_research_efficiency_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+ai_resource_production = {
+	physics_research = @pif_building_research_efficiency_1_ai_physics_research_1
+	society_research = @pif_building_research_efficiency_1_ai_society_research_2
+	engineering_research = @pif_building_research_efficiency_1_ai_engineering_research_3
+	trigger = {
+		has_any_unspecialized_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	physics_research = @pif_building_research_efficiency_1_ai_physics_research_1
+	mult = @pif_building_research_efficiency_1_ai_mult_4
+	trigger = {
+		has_any_research_physics_zone = yes
+	}
+}
+
+ai_resource_production = {
+	society_research = @pif_building_research_efficiency_1_ai_society_research_2
+	mult = @pif_building_research_efficiency_1_ai_mult_4
+	trigger = {
+		has_any_research_society_zone = yes
+	}
+}
+
+ai_resource_production = {
+	engineering_research = @pif_building_research_efficiency_1_ai_engineering_research_3
+	mult = @pif_building_research_efficiency_1_ai_mult_4
+	trigger = {
+		has_any_research_engineering_zone = yes
+	}
+}

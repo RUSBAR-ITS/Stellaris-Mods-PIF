@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_food_conglomerate = {
+	base_buildtime = @pif_building_food_conglomerate_construction_base_buildtime_1
+	owner_type = corporate
+	category = resource
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_food_conglomerate/building_config"
+	inline_script = "pif/buildings/building_food_conglomerate/availability"
+	inline_script = "pif/buildings/building_food_conglomerate/economy"
+	inline_script = "pif/buildings/building_food_conglomerate/lifecycle"
+	inline_script = "pif/buildings/building_food_conglomerate/jobs"
+	inline_script = "pif/buildings/building_food_conglomerate/country_jobs"
+	inline_script = "pif/buildings/building_food_conglomerate/economic_modifiers"
+	inline_script = "pif/buildings/building_food_conglomerate/pop_modifiers"
+	inline_script = "pif/buildings/building_food_conglomerate/planet_state"
+	inline_script = "pif/buildings/building_food_conglomerate/tpm"
+	inline_script = "pif/buildings/building_food_conglomerate/ai"
+}

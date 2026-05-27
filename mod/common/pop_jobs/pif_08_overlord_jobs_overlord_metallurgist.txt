@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+overlord_metallurgist = {
+	category = specialist
+	inline_script = "pif/jobs/overlord_metallurgist/swap"
+	inline_script = "pif/jobs/overlord_metallurgist/availability"
+	inline_script = "pif/jobs/overlord_metallurgist/pop_config"
+	inline_script = "pif/jobs/overlord_metallurgist/economy"
+	inline_script = "pif/jobs/overlord_metallurgist/planet_state"
+	inline_script = "pif/jobs/overlord_metallurgist/country_modifiers"
+	inline_script = "pif/jobs/overlord_metallurgist/pop_modifiers"
+	inline_script = "pif/jobs/overlord_metallurgist/economic_modifiers"
+	inline_script = "pif/jobs/overlord_metallurgist/tpm"
+}

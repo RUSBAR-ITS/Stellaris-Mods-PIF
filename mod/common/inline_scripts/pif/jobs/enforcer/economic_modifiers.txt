@@ -1,0 +1,18 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: enforcer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_oligarchic_authority = yes
+			OR = {
+				has_country_flag = synth_physical
+				has_country_flag = synth_virtual
+			}
+		}
+	}
+	planet_jobs_ruler_produces_mult = @pif_enforcer_economic_modifiers_planet_jobs_ruler_produces_mult_1
+}

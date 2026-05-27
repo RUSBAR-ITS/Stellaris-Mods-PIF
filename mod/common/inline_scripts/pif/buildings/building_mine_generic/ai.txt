@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_mine_generic
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+ai_weight_coefficient = @pif_building_mine_generic_ai_ai_weight_coefficient_1

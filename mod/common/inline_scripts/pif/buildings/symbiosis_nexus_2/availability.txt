@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: symbiosis_nexus_2
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+can_build = no
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+show_tech_unlock_if = {
+	owner = {
+		has_origin = origin_primal_calling
+		has_symbiosis_integrator_job = yes
+	}
+}
+
+prerequisites = {
+	"tech_heritage_site"
+}

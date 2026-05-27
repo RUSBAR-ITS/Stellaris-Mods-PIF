@@ -1,0 +1,12 @@
+# PIF zone category: AI
+# Vanilla zone: zone_factory_ring_world
+# Vanilla source: zones/04_secondary_zones.txt
+
+ai_resource_production = {
+	consumer_goods = @pif_zone_factory_ring_world_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_1
+	trigger = {
+		has_any_factory_zone = yes
+	}
+}
+
+ai_priority = @pif_zone_factory_ring_world_ai_ai_priority_ai_priority_2

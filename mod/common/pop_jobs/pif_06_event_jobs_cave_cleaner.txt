@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: no_category
+
+cave_cleaner = {
+	inline_script = "pif/jobs/cave_cleaner/swap"
+	inline_script = "pif/jobs/cave_cleaner/availability"
+	inline_script = "pif/jobs/cave_cleaner/pop_config"
+	inline_script = "pif/jobs/cave_cleaner/economy"
+	inline_script = "pif/jobs/cave_cleaner/planet_state"
+	inline_script = "pif/jobs/cave_cleaner/country_modifiers"
+	inline_script = "pif/jobs/cave_cleaner/pop_modifiers"
+	inline_script = "pif/jobs/cave_cleaner/economic_modifiers"
+	inline_script = "pif/jobs/cave_cleaner/tpm"
+}

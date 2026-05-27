@@ -1,0 +1,11 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_habitat_research_unity
+# Vanilla source: zones/01_habitat_zones.txt
+
+potential = {
+	always = yes
+}
+
+unlock = {
+	always = yes
+}

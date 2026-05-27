@@ -1,0 +1,65 @@
+# PIF job category: ECONOMY
+# Vanilla job: calculator_engineer
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_engineers
+	produces = {
+		engineering_research = @pif_calculator_engineer_job_output_output_engineering_research_1
+	}
+	produces = {
+		trigger = {
+			engineer_is_nanotech_researcher_trigger = yes
+		}
+		engineering_research = @pif_calculator_engineer_job_output_output_engineering_research_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+		}
+		energy = @pif_calculator_engineer_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		energy = @pif_calculator_engineer_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_calculator_engineer_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		minerals = @pif_calculator_engineer_job_upkeep_upkeep_minerals_4
+	}
+	upkeep = {
+		trigger = {
+			engineer_is_nanotech_researcher_trigger = yes
+		}
+		nanites = @pif_calculator_engineer_job_upkeep_upkeep_nanites_5
+	}
+}

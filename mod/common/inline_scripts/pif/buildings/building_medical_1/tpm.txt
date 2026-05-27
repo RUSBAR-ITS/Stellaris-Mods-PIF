@@ -1,0 +1,15 @@
+# PIF building category: TPM
+# Vanilla building: building_medical_1
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = clone_army_full_potential
+			has_active_tradition = tr_cloning_artificial_population_clone_army
+		}
+	}
+	clone_soldiers_sustained = 500
+}

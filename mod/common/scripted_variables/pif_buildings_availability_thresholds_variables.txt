@@ -1,0 +1,239 @@
+# Planetary Infrastructure Framework (PIF)
+# Building variables: AVAILABILITY_THRESHOLDS
+# Values are resolved from the Stellaris 4.3.7 vanilla buildings baseline.
+# Variables are grouped by building object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# building_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_capital/availability.txt
+@pif_building_capital_availability_thresholds_sapient_pop_amount_1 = 1000
+
+# -----------------------------------------------------------------------------
+# building_communal_housing
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_communal_housing/availability.txt
+@pif_building_communal_housing_availability_thresholds_free_amenities_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_drone_storage
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_drone_storage/availability.txt
+@pif_building_drone_storage_availability_thresholds_free_amenities_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_executive_retreat
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_executive_retreat/availability.txt
+@pif_building_executive_retreat_availability_thresholds_pop_amount_1 = 2500
+
+# -----------------------------------------------------------------------------
+# building_hab_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/availability.txt
+@pif_building_hab_major_capital_availability_thresholds_sapient_pop_amount_1 = 1000
+
+# -----------------------------------------------------------------------------
+# building_hab_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/availability.txt
+@pif_building_hab_system_capital_availability_thresholds_sapient_pop_amount_1 = 2500
+
+# -----------------------------------------------------------------------------
+# building_hive_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/availability.txt
+@pif_building_hive_major_capital_availability_thresholds_sapient_pop_amount_1 = 2500
+
+# -----------------------------------------------------------------------------
+# building_hive_warren
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_hive_warren/availability.txt
+@pif_building_hive_warren_availability_thresholds_free_amenities_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_holo_theatres
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_holo_theatres/availability.txt
+@pif_building_holo_theatres_availability_thresholds_free_amenities_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_imperial_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/availability.txt
+@pif_building_imperial_capital_availability_thresholds_sapient_pop_amount_1 = 5000
+
+# -----------------------------------------------------------------------------
+# building_imperial_hive_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/availability.txt
+@pif_building_imperial_hive_capital_availability_thresholds_sapient_pop_amount_1 = 5000
+
+# -----------------------------------------------------------------------------
+# building_imperial_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/availability.txt
+@pif_building_imperial_machine_capital_availability_thresholds_sapient_pop_amount_1 = 5000
+
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/jobs.txt
+@pif_building_imperial_machine_capital_availability_thresholds_sapient_pop_amount_2 = 1000
+
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/jobs.txt
+@pif_building_imperial_machine_capital_availability_thresholds_sapient_pop_amount_3 = 4000
+
+# -----------------------------------------------------------------------------
+# building_knightly_theme_park
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_knightly_theme_park/availability.txt
+@pif_building_knightly_theme_park_availability_thresholds_pop_amount_1 = 5000
+
+# -----------------------------------------------------------------------------
+# building_luxury_residence
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_luxury_residence/availability.txt
+@pif_building_luxury_residence_availability_thresholds_free_amenities_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/availability.txt
+@pif_building_machine_capital_availability_thresholds_sapient_pop_amount_1 = 1000
+
+# -----------------------------------------------------------------------------
+# building_machine_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/availability.txt
+@pif_building_machine_major_capital_availability_thresholds_sapient_pop_amount_1 = 2500
+
+# -----------------------------------------------------------------------------
+# building_machine_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/availability.txt
+@pif_building_machine_system_capital_availability_thresholds_sapient_pop_amount_1 = 5000
+
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/jobs.txt
+@pif_building_machine_system_capital_availability_thresholds_sapient_pop_amount_2 = 1000
+
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/jobs.txt
+@pif_building_machine_system_capital_availability_thresholds_sapient_pop_amount_3 = 4000
+
+# -----------------------------------------------------------------------------
+# building_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/availability.txt
+@pif_building_major_capital_availability_thresholds_sapient_pop_amount_1 = 2500
+
+# -----------------------------------------------------------------------------
+# building_medical_1
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_medical_1/availability.txt
+@pif_building_medical_1_availability_thresholds_free_amenities_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_medical_2
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/availability.txt
+@pif_building_medical_2_availability_thresholds_free_amenities_2 = 0
+
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/lifecycle.txt
+@pif_building_medical_2_availability_thresholds_free_amenities_4 = 20
+
+# Controls: Building availability threshold: planet_stability.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/availability.txt
+@pif_building_medical_2_availability_thresholds_planet_stability_1 = 50
+
+# Controls: Building availability threshold: planet_stability.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/lifecycle.txt
+@pif_building_medical_2_availability_thresholds_planet_stability_3 = 70
+
+# -----------------------------------------------------------------------------
+# building_medical_3
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: free_amenities.
+# Used in: common/inline_scripts/pif/buildings/building_medical_3/availability.txt
+@pif_building_medical_3_availability_thresholds_free_amenities_2 = 5
+
+# Controls: Building availability threshold: planet_stability.
+# Used in: common/inline_scripts/pif/buildings/building_medical_3/availability.txt
+@pif_building_medical_3_availability_thresholds_planet_stability_1 = 55
+
+# -----------------------------------------------------------------------------
+# building_necrophage_elevation_chamber
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_necrophage_elevation_chamber/availability.txt
+@pif_building_necrophage_elevation_chamber_availability_thresholds_pop_amount_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_resort_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/availability.txt
+@pif_building_resort_major_capital_availability_thresholds_sapient_pop_amount_1 = 2000
+
+# -----------------------------------------------------------------------------
+# building_slave_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/availability.txt
+@pif_building_slave_major_capital_availability_thresholds_sapient_pop_amount_1 = 2000
+
+# -----------------------------------------------------------------------------
+# building_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: sapient_pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/availability.txt
+@pif_building_system_capital_availability_thresholds_sapient_pop_amount_1 = 5000
+
+# -----------------------------------------------------------------------------
+# building_xeno_tourism_agency
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: pop_amount.
+# Used in: common/inline_scripts/pif/buildings/building_xeno_tourism_agency/availability.txt
+@pif_building_xeno_tourism_agency_availability_thresholds_pop_amount_1 = 2500
+
+# -----------------------------------------------------------------------------
+# holding_knight_commandery
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: pop_amount.
+# Used in: common/inline_scripts/pif/buildings/holding_knight_commandery/availability.txt
+@pif_holding_knight_commandery_availability_thresholds_pop_amount_1 = 5000
+
+# -----------------------------------------------------------------------------
+# holding_splinter_hive
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: pop_amount.
+# Used in: common/inline_scripts/pif/buildings/holding_splinter_hive/availability.txt
+@pif_holding_splinter_hive_availability_thresholds_pop_amount_1 = 2500
+
+# -----------------------------------------------------------------------------
+# holding_wilderness_glade
+# -----------------------------------------------------------------------------
+# Controls: Building availability threshold: pop_amount.
+# Used in: common/inline_scripts/pif/buildings/holding_wilderness_glade/availability.txt
+@pif_holding_wilderness_glade_availability_thresholds_pop_amount_1 = 2500

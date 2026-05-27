@@ -1,0 +1,6 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: sand_whisperer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+# Empty PIF job category hook.

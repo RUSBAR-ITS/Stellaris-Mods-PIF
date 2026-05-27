@@ -1,0 +1,19 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_betharian_nexus
+# Vanilla source: zones/04_secondary_zones.txt
+
+planet_limit = @pif_zone_betharian_nexus_zone_limits_planet_limit_planet_limit_1
+
+potential = {
+	has_deposit = d_betharian_deposit
+}
+
+unlock = {
+	hidden_trigger = {
+		has_deposit = d_betharian_deposit
+		exists = owner
+	}
+	owner = {
+		has_technology = tech_mine_betharian
+	}
+}

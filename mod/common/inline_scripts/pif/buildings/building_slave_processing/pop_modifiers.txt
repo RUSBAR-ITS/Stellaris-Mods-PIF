@@ -1,0 +1,13 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_slave_processing
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_slave_bonus_workforce_mult = @pif_building_slave_processing_pop_modifiers_pop_slave_bonus_workforce_mult_1
+	pop_cat_slave_political_power = @pif_building_slave_processing_pop_modifiers_pop_cat_slave_political_power_2
+	planet_resettlement_unemployed_mult = @pif_building_slave_processing_pop_modifiers_planet_resettlement_unemployed_mult_3
+}

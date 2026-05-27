@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_hive_cluster
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+	}
+	job_coordinator_add = @pif_building_hive_cluster_jobs_job_coordinator_add_1
+}

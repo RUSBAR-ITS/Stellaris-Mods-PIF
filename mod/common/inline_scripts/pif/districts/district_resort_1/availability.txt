@@ -1,0 +1,20 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_resort_1
+# Vanilla source: districts/00_urban_districts.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_regular_empire = yes
+	}
+	has_modifier = resort_colony
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}

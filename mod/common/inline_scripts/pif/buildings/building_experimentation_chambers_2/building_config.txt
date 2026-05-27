@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_experimentation_chambers_2
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+building_sets = {
+	research
+}

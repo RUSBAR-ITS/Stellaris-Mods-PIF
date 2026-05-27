@@ -1,0 +1,26 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_avatar_chamber_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+	NOR = {
+		has_building = building_avatar_chamber_2
+		has_building = building_avatar_chamber_3
+		has_building = building_avatar_chamber_4
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+prerequisites = {
+	tech_wilderness_node
+}

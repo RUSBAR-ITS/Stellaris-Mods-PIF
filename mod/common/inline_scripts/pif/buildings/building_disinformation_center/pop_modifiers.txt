@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_disinformation_center
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_government_ethic_attraction = @pif_building_disinformation_center_pop_modifiers_pop_government_ethic_attraction_1
+}

@@ -1,0 +1,6 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: shroud_trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+# Empty PIF job category hook.

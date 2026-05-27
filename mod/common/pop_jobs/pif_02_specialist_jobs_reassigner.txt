@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+reassigner = {
+	category = specialist
+	inline_script = "pif/jobs/reassigner/swap"
+	inline_script = "pif/jobs/reassigner/availability"
+	inline_script = "pif/jobs/reassigner/pop_config"
+	inline_script = "pif/jobs/reassigner/economy"
+	inline_script = "pif/jobs/reassigner/planet_state"
+	inline_script = "pif/jobs/reassigner/country_modifiers"
+	inline_script = "pif/jobs/reassigner/pop_modifiers"
+	inline_script = "pif/jobs/reassigner/economic_modifiers"
+	inline_script = "pif/jobs/reassigner/tpm"
+}

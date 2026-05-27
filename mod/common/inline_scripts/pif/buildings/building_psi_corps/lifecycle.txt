@@ -1,0 +1,11 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_psi_corps
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		has_psi_corps_tradition = no
+	}
+}

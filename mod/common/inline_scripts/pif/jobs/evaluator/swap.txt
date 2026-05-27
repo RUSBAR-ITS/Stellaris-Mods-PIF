@@ -1,0 +1,21 @@
+# PIF job category: SWAP
+# Vanilla job: evaluator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_simulation_1
+	}
+	swap_type = {
+		trigger = {
+			entertainer_is_curator_trigger = yes
+		}
+		name = curator_drone
+		desc = curator_drone
+		icon = historical_curator
+		building_icon = aesthetic_wonders_holomuseum
+		weight = 10
+	}
+}

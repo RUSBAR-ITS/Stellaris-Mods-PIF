@@ -1,0 +1,6 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_precinct_house
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+# Empty PIF building category hook.

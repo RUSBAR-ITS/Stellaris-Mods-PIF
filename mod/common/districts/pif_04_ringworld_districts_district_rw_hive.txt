@@ -1,0 +1,90 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/04_ringworld_districts.txt
+# Object class: real
+
+district_rw_hive = {
+	base_buildtime = @pif_district_rw_hive_construction_build_time_days
+	overlay_icon = GFX_district_government
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			is_hive_empire = yes
+		}
+		uses_district_set = ring_world
+	}
+	triggered_desc = {
+		trigger = {
+			planet = {
+				has_deposit = d_arcane_generator
+				NOT = {
+					has_district = district_rw_hive
+				}
+			}
+		}
+		text = arcane_generator_upkeep_desc
+	}
+	triggered_name = {
+		trigger = {
+			is_homeworld = yes
+			is_capital = yes
+		}
+		text = city_first_hive_1
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_foundry
+				value > 0
+			}
+		}
+		text = city_foundry_hive_1
+	}
+	triggered_name = {
+		trigger = {
+			has_any_research_zone = yes
+		}
+		text = city_research_hive_1
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_unity
+				value > 0
+			}
+		}
+		text = city_synapse_hive_1
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_fortress
+				value > 0
+			}
+		}
+		text = city_fortress_hive_1
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_trade
+				value > 0
+			}
+		}
+		text = city_logistics_hive_1
+	}
+	triggered_name = {
+		trigger = {
+			is_capital = no
+		}
+		text = city_colony_hive_1
+	}
+	triggered_name = {
+		text = district_hive
+	}
+	inline_script = "pif/districts/district_rw_hive/zone_slots"
+	inline_script = "pif/districts/district_rw_hive/availability"
+	inline_script = "pif/districts/district_rw_hive/economic"
+	inline_script = "pif/districts/district_rw_hive/tpm"
+	inline_script = "pif/districts/district_rw_hive/lifecycle"
+	inline_script = "pif/districts/district_rw_hive/ai"
+}

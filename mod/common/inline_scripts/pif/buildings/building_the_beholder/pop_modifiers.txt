@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_the_beholder
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = event_target:beholder_leader
+	}
+	psionic_pop_bonus_workforce_mult = @pif_building_the_beholder_pop_modifiers_psionic_pop_bonus_workforce_mult_1
+}

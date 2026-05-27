@@ -1,0 +1,24 @@
+# PIF job category: SWAP
+# Vanilla job: crystal_mining_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_crystal_mines
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = crystalsymbiote
+		desc = crystalsymbiote
+		building_icon = crystal_growth
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

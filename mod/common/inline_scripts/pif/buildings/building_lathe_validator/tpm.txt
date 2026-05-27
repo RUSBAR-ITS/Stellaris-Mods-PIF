@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_lathe_validator
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	category_computing_research_speed_mult = 0.01
+	mult = value:num_chip_slave_raw
+}

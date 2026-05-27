@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_empyrean_shrine = {
+	base_buildtime = @pif_building_empyrean_shrine_construction_base_buildtime_1
+	category = unity
+	inline_script = "pif/buildings/building_empyrean_shrine/building_config"
+	inline_script = "pif/buildings/building_empyrean_shrine/availability"
+	inline_script = "pif/buildings/building_empyrean_shrine/economy"
+	inline_script = "pif/buildings/building_empyrean_shrine/lifecycle"
+	inline_script = "pif/buildings/building_empyrean_shrine/jobs"
+	inline_script = "pif/buildings/building_empyrean_shrine/country_jobs"
+	inline_script = "pif/buildings/building_empyrean_shrine/economic_modifiers"
+	inline_script = "pif/buildings/building_empyrean_shrine/pop_modifiers"
+	inline_script = "pif/buildings/building_empyrean_shrine/planet_state"
+	inline_script = "pif/buildings/building_empyrean_shrine/tpm"
+	inline_script = "pif/buildings/building_empyrean_shrine/ai"
+}

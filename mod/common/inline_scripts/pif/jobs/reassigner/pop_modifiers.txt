@@ -1,0 +1,22 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: reassigner
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_trait = trait_zombie
+	}
+	bonus_pop_growth = @pif_reassigner_pop_modifiers_bonus_pop_growth_1
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_trait = trait_zombie
+		exists = owner
+		owner = {
+			has_edict = sacrifice_bounty_zombie
+		}
+	}
+	bonus_pop_growth = @pif_reassigner_pop_modifiers_bonus_pop_growth_1
+}

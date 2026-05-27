@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_posthumous_employment_center = {
+	base_buildtime = @pif_building_posthumous_employment_center_construction_base_buildtime_1
+	category = pop_assembly
+	inline_script = "pif/buildings/building_posthumous_employment_center/building_config"
+	inline_script = "pif/buildings/building_posthumous_employment_center/availability"
+	inline_script = "pif/buildings/building_posthumous_employment_center/economy"
+	inline_script = "pif/buildings/building_posthumous_employment_center/lifecycle"
+	inline_script = "pif/buildings/building_posthumous_employment_center/jobs"
+	inline_script = "pif/buildings/building_posthumous_employment_center/country_jobs"
+	inline_script = "pif/buildings/building_posthumous_employment_center/economic_modifiers"
+	inline_script = "pif/buildings/building_posthumous_employment_center/pop_modifiers"
+	inline_script = "pif/buildings/building_posthumous_employment_center/planet_state"
+	inline_script = "pif/buildings/building_posthumous_employment_center/tpm"
+	inline_script = "pif/buildings/building_posthumous_employment_center/ai"
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/05_research_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_institute = {
+	base_buildtime = @pif_building_institute_construction_base_buildtime_1
+	category = research
+	inline_script = "pif/buildings/building_institute/building_config"
+	inline_script = "pif/buildings/building_institute/availability"
+	inline_script = "pif/buildings/building_institute/economy"
+	inline_script = "pif/buildings/building_institute/lifecycle"
+	inline_script = "pif/buildings/building_institute/jobs"
+	inline_script = "pif/buildings/building_institute/country_jobs"
+	inline_script = "pif/buildings/building_institute/economic_modifiers"
+	inline_script = "pif/buildings/building_institute/pop_modifiers"
+	inline_script = "pif/buildings/building_institute/planet_state"
+	inline_script = "pif/buildings/building_institute/tpm"
+	inline_script = "pif/buildings/building_institute/ai"
+}

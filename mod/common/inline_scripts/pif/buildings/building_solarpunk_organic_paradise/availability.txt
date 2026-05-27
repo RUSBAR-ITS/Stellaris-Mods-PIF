@@ -1,0 +1,15 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_solarpunk_organic_paradise
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_primitive = yes
+	}
+}
+
+prerequisites = {}

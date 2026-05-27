@@ -1,0 +1,40 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: biologist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		biologist_is_ranger_trigger = yes
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_biologist_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		biologist_is_vent_researcher_trigger = yes
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_biologist_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		biologist_is_zookeeper_trigger = yes
+	}
+	planet_amenities_add = @pif_biologist_planet_state_planet_amenities_add_2
+	mult = value:zoo_keeper_amenity_output
+}

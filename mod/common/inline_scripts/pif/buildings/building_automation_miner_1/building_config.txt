@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_automation_miner_1
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+building_sets = {
+	mining_automation
+}

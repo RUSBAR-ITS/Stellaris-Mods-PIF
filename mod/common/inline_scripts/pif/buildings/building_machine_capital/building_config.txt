@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_machine_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+building_sets = {
+	government
+}

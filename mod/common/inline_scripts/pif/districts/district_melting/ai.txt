@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_melting
+# Vanilla source: districts/02_rural_districts.txt
+
+ai_weight_coefficient = @pif_district_melting_ai_ai_weight_coefficient

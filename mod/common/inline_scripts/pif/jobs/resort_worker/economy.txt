@@ -1,0 +1,15 @@
+# PIF job category: ECONOMY
+# Vanilla job: resort_worker
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_entertainers
+	produces = {
+		unity = @pif_resort_worker_job_output_output_unity_1
+		trade = @pif_resort_worker_job_output_output_trade_2
+	}
+	upkeep = {
+		consumer_goods = @pif_resort_worker_job_upkeep_upkeep_consumer_goods_1
+	}
+}

@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_administrator
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_primitive_administrator_job_output_output_unity_1
+	}
+	upkeep = {
+		consumer_goods = @pif_primitive_administrator_job_upkeep_upkeep_consumer_goods_1
+	}
+}

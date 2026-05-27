@@ -1,0 +1,59 @@
+# PIF job category: ECONOMY
+# Vanilla job: civilian
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_civilians
+	produces = {
+		trade = @pif_civilian_job_output_output_trade_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			has_modifier = resort_colony
+		}
+		trade = @pif_civilian_job_output_output_trade_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_materialist = yes
+			}
+			planet = {
+				has_ethics_output = yes
+			}
+		}
+		physics_research = @pif_civilian_job_output_output_physics_research_2
+		society_research = @pif_civilian_job_output_output_society_research_3
+		engineering_research = @pif_civilian_job_output_output_engineering_research_4
+		mult = value:scripted_ethics_weight_mult|ETHIC|materialist|
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+			}
+			planet = {
+				has_ethics_output = yes
+			}
+		}
+		unity = @pif_civilian_job_output_output_unity_5
+		mult = value:scripted_ethics_weight_mult|ETHIC|spiritualist|
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_egalitarian = yes
+			}
+			planet = {
+				has_ethics_output = yes
+			}
+		}
+		trade = @pif_civilian_job_output_output_trade_6
+		mult = value:scripted_ethics_weight_mult|ETHIC|egalitarian|
+	}
+}

@@ -1,0 +1,18 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: civilian
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_xenophobe = yes
+		}
+		planet = {
+			has_ethics_output = yes
+		}
+	}
+	pop_citizen_happiness = @pif_civilian_pop_modifiers_pop_citizen_happiness_1
+	mult = value:scripted_ethics_weight_mult|ETHIC|xenophobe|
+}

@@ -1,0 +1,36 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_military_academy
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_military_academy_cost_cost_minerals_1
+	}
+	cost = {
+		trigger = {
+			exists = owner
+			owner = {
+				NOT = {
+					has_valid_civic = civic_machine_tactical_algorithms
+				}
+			}
+		}
+		volatile_motes = @pif_building_military_academy_cost_cost_volatile_motes_2
+	}
+	upkeep = {
+		energy = @pif_building_military_academy_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				NOT = {
+					has_valid_civic = civic_machine_tactical_algorithms
+				}
+			}
+		}
+		volatile_motes = @pif_building_military_academy_upkeep_upkeep_volatile_motes_2
+	}
+}

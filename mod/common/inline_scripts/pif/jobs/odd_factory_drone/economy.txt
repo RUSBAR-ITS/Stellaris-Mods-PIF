@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: odd_factory_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_metallurgists
+	produces = {
+		alloys = @pif_odd_factory_drone_job_output_output_alloys_1
+	}
+}

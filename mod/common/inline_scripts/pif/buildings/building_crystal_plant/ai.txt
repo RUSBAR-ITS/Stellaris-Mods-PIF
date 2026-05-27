@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_crystal_plant
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+exempt_from_ai_planet_specialization = no

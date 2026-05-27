@@ -1,0 +1,25 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: bureaucrat
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_xenophobe = yes
+		}
+		planet = {
+			bureaucrat_is_memorialist = yes
+		}
+	}
+	pop_citizen_happiness = @pif_bureaucrat_pop_modifiers_pop_citizen_happiness_1
+	mult = value:scripted_ethics_weight_mult|ETHIC|xenophobe|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		bureaucrat_is_culture_worker = yes
+	}
+	pop_government_ethic_attraction = @pif_bureaucrat_pop_modifiers_pop_government_ethic_attraction_2
+}

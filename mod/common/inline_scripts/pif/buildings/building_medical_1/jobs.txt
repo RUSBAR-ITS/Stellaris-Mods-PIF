@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: building_medical_1
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_healthcare_add = @pif_building_medical_1_jobs_job_healthcare_add_1
+}

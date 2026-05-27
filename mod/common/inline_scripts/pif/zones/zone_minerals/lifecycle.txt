@@ -1,0 +1,9 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_minerals
+# Vanilla source: zones/00_zones.txt
+
+convert_to = {
+	zone_minerals
+	zone_minerals_nexus
+	zone_minerals_hive
+}

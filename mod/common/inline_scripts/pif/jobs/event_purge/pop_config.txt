@@ -1,0 +1,20 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: event_purge
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {}
+
+demotion = {
+	time = @pif_event_purge_demotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = purge
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+weight = {
+	weight = @pif_event_purge_job_weight_weight_1
+}

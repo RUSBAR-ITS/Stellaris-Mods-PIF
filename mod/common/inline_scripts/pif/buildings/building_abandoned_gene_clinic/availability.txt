@@ -1,0 +1,19 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_abandoned_gene_clinic
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_synthetic_fertility
+	}
+}
+
+allow = {
+	owner = {
+		has_origin = origin_synthetic_fertility
+	}
+}

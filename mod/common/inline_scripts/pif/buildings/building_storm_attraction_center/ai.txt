@@ -1,0 +1,41 @@
+# PIF building category: AI
+# Vanilla building: building_storm_attraction_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+custom_storm_ai_weight = {
+	weight = @pif_building_storm_attraction_center_ai_weight_1
+	modifier = {
+		add = @pif_building_storm_attraction_center_ai_add_2
+		AND = {
+			exists = owner
+			owner = {
+				has_origin = origin_storm_chasers
+			}
+		}
+	}
+	modifier = {
+		add = @pif_building_storm_attraction_center_ai_add_3
+		AND = {
+			exists = owner
+			owner = {
+				is_astrometeorologist_empire = yes
+			}
+		}
+	}
+	modifier = {
+		add = @pif_building_storm_attraction_center_ai_add_2
+		AND = {
+			exists = owner
+			owner = {
+				is_storm_callers_empire = yes
+			}
+		}
+	}
+	modifier = {
+		set = 0
+		solar_system = {
+			cosmic_storm_influence_value > 0.75
+		}
+	}
+}

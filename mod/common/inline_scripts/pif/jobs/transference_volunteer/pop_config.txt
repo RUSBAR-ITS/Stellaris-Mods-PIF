@@ -1,0 +1,55 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: transference_volunteer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+can_be_automated = @pif_transference_volunteer_job_flags_can_be_automated_1
+
+tags = {
+	telepath
+	unity
+}
+
+weight = {
+	weight = @pif_transference_volunteer_job_weight_weight_1
+	mult = @pif_transference_volunteer_job_weight_mult_2
+	mult = value:job_weights_modifier|JOB|transference_volunteer|RESOURCE|unity|
+	modifier = {
+		factor = @pif_transference_volunteer_job_weight_factor_3
+		has_citizenship_rights = no
+	}
+	modifier = {
+		factor = @pif_transference_volunteer_job_weight_factor_4
+		has_trait = trait_resilient
+	}
+	modifier = {
+		factor = @pif_transference_volunteer_job_weight_factor_5
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_transference_volunteer_job_weight_factor_5
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_indentured
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_transference_volunteer_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

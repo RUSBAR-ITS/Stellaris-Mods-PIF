@@ -1,0 +1,38 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_hive
+# Vanilla source: districts/00_urban_districts.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_hive_empire = yes
+		is_wilderness_empire = no
+	}
+	OR = {
+		uses_district_set = standard
+		uses_district_set = volcanic_world
+		uses_district_set = hive_world
+		uses_district_set = machine_world
+		uses_district_set = shattered_ring_world
+	}
+	NAND = {
+		is_capital = yes
+		owner = {
+			has_menace_perk = menp_behemoth_mind_meld
+		}
+	}
+}
+
+allow = {
+	hidden_trigger = {
+		NOT = {
+			has_modifier = resort_colony
+		}
+	}
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}

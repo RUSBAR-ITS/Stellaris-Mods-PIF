@@ -1,0 +1,94 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: ZONE_LIMITS
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_betharian_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/availability.txt
+@pif_zone_betharian_hive_zone_limits_planet_limit_planet_limit_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_betharian_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/availability.txt
+@pif_zone_betharian_nexus_zone_limits_planet_limit_planet_limit_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/availability.txt
+@pif_zone_exotic_gases_nexus_zone_limits_planet_limit_planet_limit_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/availability.txt
+@pif_zone_rare_crystals_hive_zone_limits_planet_limit_planet_limit_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/availability.txt
+@pif_zone_rare_crystals_nexus_zone_limits_planet_limit_planet_limit_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_resort_grand_museum
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.base.base.
+# Used in: common/inline_scripts/pif/zones/zone_resort_grand_museum/availability.txt
+@pif_zone_resort_grand_museum_zone_limits_planet_limit_planet_limit_base_base_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_resort_hunting_ground
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.base.base.
+# Used in: common/inline_scripts/pif/zones/zone_resort_hunting_ground/availability.txt
+@pif_zone_resort_hunting_ground_zone_limits_planet_limit_planet_limit_base_base_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_resort_proving_grounds
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.base.base.
+# Used in: common/inline_scripts/pif/zones/zone_resort_proving_grounds/availability.txt
+@pif_zone_resort_proving_grounds_zone_limits_planet_limit_planet_limit_base_base_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_resort_restoration_enclave
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.base.base.
+# Used in: common/inline_scripts/pif/zones/zone_resort_restoration_enclave/availability.txt
+@pif_zone_resort_restoration_enclave_zone_limits_planet_limit_planet_limit_base_base_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_resort_spiritual_retreat
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.base.base.
+# Used in: common/inline_scripts/pif/zones/zone_resort_spiritual_retreat/availability.txt
+@pif_zone_resort_spiritual_retreat_zone_limits_planet_limit_planet_limit_base_base_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_resort_zoo
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.base.base.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/availability.txt
+@pif_zone_resort_zoo_zone_limits_planet_limit_planet_limit_base_base_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/availability.txt
+@pif_zone_volatile_motes_hive_zone_limits_planet_limit_planet_limit_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_limit.planet_limit.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/availability.txt
+@pif_zone_volatile_motes_nexus_zone_limits_planet_limit_planet_limit_1 = 1

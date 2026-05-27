@@ -1,0 +1,14 @@
+# PIF building category: AI
+# Vanilla building: building_corporate_embassy
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+ai_weight = {
+	weight = @pif_building_corporate_embassy_ai_weight_1
+	modifier = {
+		factor = @pif_building_corporate_embassy_ai_factor_2
+		branch_office_owner = {
+			is_galactic_community_member = yes
+		}
+	}
+}

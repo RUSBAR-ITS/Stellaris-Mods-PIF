@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_underground_chemists = {
+	base_buildtime = @pif_building_underground_chemists_construction_base_buildtime_1
+	owner_type = corporate
+	category = manufacturing
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_underground_chemists/building_config"
+	inline_script = "pif/buildings/building_underground_chemists/availability"
+	inline_script = "pif/buildings/building_underground_chemists/economy"
+	inline_script = "pif/buildings/building_underground_chemists/lifecycle"
+	inline_script = "pif/buildings/building_underground_chemists/jobs"
+	inline_script = "pif/buildings/building_underground_chemists/country_jobs"
+	inline_script = "pif/buildings/building_underground_chemists/economic_modifiers"
+	inline_script = "pif/buildings/building_underground_chemists/pop_modifiers"
+	inline_script = "pif/buildings/building_underground_chemists/planet_state"
+	inline_script = "pif/buildings/building_underground_chemists/tpm"
+	inline_script = "pif/buildings/building_underground_chemists/ai"
+}

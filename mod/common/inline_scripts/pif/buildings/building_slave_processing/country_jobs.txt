@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_slave_processing
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+# Empty PIF building category hook.

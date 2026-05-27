@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_ancient_hive_capital = {
+	base_buildtime = @pif_building_ancient_hive_capital_construction_base_buildtime_1
+	capital = yes
+	position_priority = 0
+	capital_tier = 5
+	icon = building_hive_major_capital
+	category = government
+	inline_script = "pif/buildings/building_ancient_hive_capital/building_config"
+	inline_script = "pif/buildings/building_ancient_hive_capital/availability"
+	inline_script = "pif/buildings/building_ancient_hive_capital/economy"
+	inline_script = "pif/buildings/building_ancient_hive_capital/lifecycle"
+	inline_script = "pif/buildings/building_ancient_hive_capital/jobs"
+	inline_script = "pif/buildings/building_ancient_hive_capital/country_jobs"
+	inline_script = "pif/buildings/building_ancient_hive_capital/economic_modifiers"
+	inline_script = "pif/buildings/building_ancient_hive_capital/pop_modifiers"
+	inline_script = "pif/buildings/building_ancient_hive_capital/planet_state"
+	inline_script = "pif/buildings/building_ancient_hive_capital/tpm"
+	inline_script = "pif/buildings/building_ancient_hive_capital/ai"
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_corporate_embassy = {
+	base_buildtime = @pif_building_corporate_embassy_construction_base_buildtime_1
+	owner_type = corporate
+	category = government
+	inline_script = "pif/buildings/building_corporate_embassy/building_config"
+	inline_script = "pif/buildings/building_corporate_embassy/availability"
+	inline_script = "pif/buildings/building_corporate_embassy/economy"
+	inline_script = "pif/buildings/building_corporate_embassy/lifecycle"
+	inline_script = "pif/buildings/building_corporate_embassy/jobs"
+	inline_script = "pif/buildings/building_corporate_embassy/country_jobs"
+	inline_script = "pif/buildings/building_corporate_embassy/economic_modifiers"
+	inline_script = "pif/buildings/building_corporate_embassy/pop_modifiers"
+	inline_script = "pif/buildings/building_corporate_embassy/planet_state"
+	inline_script = "pif/buildings/building_corporate_embassy/tpm"
+	inline_script = "pif/buildings/building_corporate_embassy/ai"
+}

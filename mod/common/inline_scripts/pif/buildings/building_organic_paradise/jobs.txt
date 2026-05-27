@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_organic_paradise
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_bio_trophy_add = @pif_building_organic_paradise_jobs_job_bio_trophy_add_1
+}

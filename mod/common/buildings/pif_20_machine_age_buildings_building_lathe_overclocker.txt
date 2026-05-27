@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_lathe_overclocker = {
+	base_buildtime = @pif_building_lathe_overclocker_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_lathe_overclocker/building_config"
+	inline_script = "pif/buildings/building_lathe_overclocker/availability"
+	inline_script = "pif/buildings/building_lathe_overclocker/economy"
+	inline_script = "pif/buildings/building_lathe_overclocker/lifecycle"
+	inline_script = "pif/buildings/building_lathe_overclocker/jobs"
+	inline_script = "pif/buildings/building_lathe_overclocker/country_jobs"
+	inline_script = "pif/buildings/building_lathe_overclocker/economic_modifiers"
+	inline_script = "pif/buildings/building_lathe_overclocker/pop_modifiers"
+	inline_script = "pif/buildings/building_lathe_overclocker/planet_state"
+	inline_script = "pif/buildings/building_lathe_overclocker/tpm"
+	inline_script = "pif/buildings/building_lathe_overclocker/ai"
+}

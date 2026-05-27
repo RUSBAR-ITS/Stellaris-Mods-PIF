@@ -1,0 +1,28 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_lifecrypt_hive_mind_2
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		NOT = {
+			has_civic = civic_entropy_drinkers_hive_mind
+		}
+	}
+}
+
+convert_to = {
+	building_heritage_site
+	building_corporate_site
+	building_simulation_2
+	building_galactic_memorial_2
+	building_sensorium_2
+	building_lifecrypt_machine_2
+	building_lifecrypt_hive_mind_2
+	building_lifecrypt_corporate_2
+}
+
+upgrades = {
+	building_lifecrypt_hive_mind_3
+}

@@ -1,0 +1,21 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_research_engineering_arcology
+# Vanilla source: zones/04_secondary_zones.txt
+
+potential = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+}
+
+unlock = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+}

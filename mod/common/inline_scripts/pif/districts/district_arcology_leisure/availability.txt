@@ -1,0 +1,7 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_arcology_leisure
+# Vanilla source: districts/01_arcology_districts.txt
+
+potential = {
+	always = no
+}

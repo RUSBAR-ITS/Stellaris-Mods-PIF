@@ -1,0 +1,12 @@
+# PIF building category: JOBS
+# Vanilla building: building_ai_emporium
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_roboticist_branch_office_value_mult = @pif_building_ai_emporium_jobs_job_roboticist_branch_office_value_mult_1
+	job_roboticist_add = @pif_building_ai_emporium_jobs_job_roboticist_add_2
+}

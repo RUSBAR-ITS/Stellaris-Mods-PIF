@@ -1,0 +1,23 @@
+# PIF job category: SWAP
+# Vanilla job: bath_attendant
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_toxic_bath
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_individual_machine = yes
+			}
+		}
+		name = bath_attendant_individual_machine
+		desc = bath_attendant_individual_machine
+		icon = bath_attendant_individual_machine
+		weight = 5
+	}
+}

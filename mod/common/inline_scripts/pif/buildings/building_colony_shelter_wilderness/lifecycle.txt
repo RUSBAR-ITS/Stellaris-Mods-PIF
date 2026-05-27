@@ -1,0 +1,65 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_colony_shelter_wilderness
+# Vanilla class: capital
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_demolish = no
+
+can_be_ruined = no
+
+can_be_disabled = no
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+convert_to = {
+	building_hive_capital
+	building_deployment_post
+	building_resort_capital
+	building_slave_capital
+	building_ancient_control_center
+	building_ancient_palace
+	building_colony_shelter
+}
+
+on_queued = {
+	if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+			any_owned_pop_group = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+		}
+		random_owned_pop_group = {
+			limit = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+			kill_pop_group = {
+				pop_group = this
+				amount = local_spent_biomass
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+		}
+		owner = {
+			global_biomass_spender = yes
+		}
+	}
+}
+
+on_unqueued = {
+	unqueue_biomass_effect = yes
+}
+
+upgrades = {
+	building_capital_wilderness
+}

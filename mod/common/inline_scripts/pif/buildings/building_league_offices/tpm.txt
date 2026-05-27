@@ -1,0 +1,20 @@
+# PIF building category: TPM
+# Vanilla building: building_league_offices
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_edict_fund_add = @pif_building_league_offices_tpm_country_edict_fund_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		owner = {
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	country_edict_fund_add = @pif_building_league_offices_tpm_country_edict_fund_add_1
+}

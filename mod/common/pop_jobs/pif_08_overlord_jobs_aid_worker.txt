@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+aid_worker = {
+	category = worker
+	inline_script = "pif/jobs/aid_worker/swap"
+	inline_script = "pif/jobs/aid_worker/availability"
+	inline_script = "pif/jobs/aid_worker/pop_config"
+	inline_script = "pif/jobs/aid_worker/economy"
+	inline_script = "pif/jobs/aid_worker/planet_state"
+	inline_script = "pif/jobs/aid_worker/country_modifiers"
+	inline_script = "pif/jobs/aid_worker/pop_modifiers"
+	inline_script = "pif/jobs/aid_worker/economic_modifiers"
+	inline_script = "pif/jobs/aid_worker/tpm"
+}

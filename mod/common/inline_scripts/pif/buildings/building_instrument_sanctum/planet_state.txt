@@ -1,0 +1,13 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_instrument_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	planet_amenities_mult = @pif_building_instrument_sanctum_planet_state_planet_amenities_mult_1
+}

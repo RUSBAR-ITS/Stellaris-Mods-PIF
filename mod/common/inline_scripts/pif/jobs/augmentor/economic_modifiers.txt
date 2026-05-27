@@ -1,0 +1,6 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: augmentor
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+# Empty PIF job category hook.

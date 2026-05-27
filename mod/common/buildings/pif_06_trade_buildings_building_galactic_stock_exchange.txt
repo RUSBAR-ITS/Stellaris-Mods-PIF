@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/06_trade_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_galactic_stock_exchange = {
+	base_buildtime = @pif_building_galactic_stock_exchange_construction_base_buildtime_1
+	category = trade
+	inline_script = "pif/buildings/building_galactic_stock_exchange/building_config"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/availability"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/economy"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/lifecycle"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/jobs"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/country_jobs"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/economic_modifiers"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/pop_modifiers"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/planet_state"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/tpm"
+	inline_script = "pif/buildings/building_galactic_stock_exchange/ai"
+}

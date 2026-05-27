@@ -1,0 +1,14 @@
+# PIF building category: TPM
+# Vanilla building: building_fe_market_2
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_megacorp = yes
+		}
+	}
+	branch_office_value_mult = 0.05
+}

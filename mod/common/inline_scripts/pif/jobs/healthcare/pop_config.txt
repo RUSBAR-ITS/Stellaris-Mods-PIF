@@ -1,0 +1,71 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: healthcare
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	pop_growth
+	pop_assembly
+	amenities
+}
+
+weight = {
+	weight = @pif_healthcare_job_weight_weight_1
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_healthcare_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_healthcare_job_weight_factor_3
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_healthcare_job_weight_factor_4
+		owner = {
+			has_valid_civic = civic_private_healthcare_corporate
+		}
+	}
+	modifier = {
+		factor = @pif_healthcare_job_weight_factor_5
+		planet = {
+			has_branch_office = yes
+			branch_office_owner = {
+				has_valid_civic = civic_private_healthcare_corporate
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_healthcare_job_weight_factor_6
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_indentured
+		}
+	}
+	modifier = {
+		factor = @pif_healthcare_job_weight_factor_7
+		planet = {
+			healthcare_is_genomic_researcher_trigger = yes
+		}
+	}
+	modifier = {
+		factor = @pif_healthcare_job_weight_factor_8
+		planet = {
+			free_amenities < 0
+			has_available_jobs = healthcare
+		}
+	}
+}
+
+promotion = {
+	time = @pif_healthcare_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

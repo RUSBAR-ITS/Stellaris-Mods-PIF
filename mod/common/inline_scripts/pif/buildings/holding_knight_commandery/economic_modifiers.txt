@@ -1,0 +1,6 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: holding_knight_commandery
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+# Empty PIF building category hook.

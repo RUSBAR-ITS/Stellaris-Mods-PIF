@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_mote_aggravator
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+# Empty PIF building category hook.

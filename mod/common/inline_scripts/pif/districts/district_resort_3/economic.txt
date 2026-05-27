@@ -1,0 +1,13 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_resort_3
+# Vanilla source: districts/00_urban_districts.txt
+
+resources = {
+	category = planet_districts_cities
+	cost = {
+		minerals = @pif_district_resort_3_construction_build_cost_minerals
+	}
+	upkeep = {
+		energy = @pif_district_resort_3_economy_district_upkeep_energy
+	}
+}

@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_commercial_zone
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+building_sets = {
+	urban
+	trade
+}

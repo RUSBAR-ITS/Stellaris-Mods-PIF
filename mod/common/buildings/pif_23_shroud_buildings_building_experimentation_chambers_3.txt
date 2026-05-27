@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/23_shroud_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_experimentation_chambers_3 = {
+	base_buildtime = @pif_building_experimentation_chambers_3_construction_base_buildtime_1
+	category = research
+	inline_script = "pif/buildings/building_experimentation_chambers_3/building_config"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/availability"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/economy"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/lifecycle"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/jobs"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/country_jobs"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/economic_modifiers"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/pop_modifiers"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/planet_state"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/tpm"
+	inline_script = "pif/buildings/building_experimentation_chambers_3/ai"
+}

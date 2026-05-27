@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/22_extreme_frontiers_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_bio_furnace = {
+	base_buildtime = @pif_building_bio_furnace_construction_base_buildtime_1
+	category = manufacturing
+	inline_script = "pif/buildings/building_bio_furnace/building_config"
+	inline_script = "pif/buildings/building_bio_furnace/availability"
+	inline_script = "pif/buildings/building_bio_furnace/economy"
+	inline_script = "pif/buildings/building_bio_furnace/lifecycle"
+	inline_script = "pif/buildings/building_bio_furnace/jobs"
+	inline_script = "pif/buildings/building_bio_furnace/country_jobs"
+	inline_script = "pif/buildings/building_bio_furnace/economic_modifiers"
+	inline_script = "pif/buildings/building_bio_furnace/pop_modifiers"
+	inline_script = "pif/buildings/building_bio_furnace/planet_state"
+	inline_script = "pif/buildings/building_bio_furnace/tpm"
+	inline_script = "pif/buildings/building_bio_furnace/ai"
+}

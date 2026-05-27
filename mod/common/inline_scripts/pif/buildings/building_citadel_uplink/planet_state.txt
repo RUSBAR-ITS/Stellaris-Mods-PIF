@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_citadel_uplink
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+planetary_ftl_inhibitor = yes

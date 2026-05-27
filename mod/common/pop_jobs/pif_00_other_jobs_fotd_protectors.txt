@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+fotd_protectors = {
+	category = worker
+	inline_script = "pif/jobs/fotd_protectors/swap"
+	inline_script = "pif/jobs/fotd_protectors/availability"
+	inline_script = "pif/jobs/fotd_protectors/pop_config"
+	inline_script = "pif/jobs/fotd_protectors/economy"
+	inline_script = "pif/jobs/fotd_protectors/planet_state"
+	inline_script = "pif/jobs/fotd_protectors/country_modifiers"
+	inline_script = "pif/jobs/fotd_protectors/pop_modifiers"
+	inline_script = "pif/jobs/fotd_protectors/economic_modifiers"
+	inline_script = "pif/jobs/fotd_protectors/tpm"
+}

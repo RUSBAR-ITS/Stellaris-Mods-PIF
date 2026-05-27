@@ -1,0 +1,24 @@
+# PIF job category: SWAP
+# Vanilla job: patrol_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_stronghold
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = immunosymbiont
+		desc = immunosymbiont
+		building_icon = capital_wilderness_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

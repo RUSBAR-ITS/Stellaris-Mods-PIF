@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: primitive_hive_cerebellum_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_primitive_labs
+	}
+}

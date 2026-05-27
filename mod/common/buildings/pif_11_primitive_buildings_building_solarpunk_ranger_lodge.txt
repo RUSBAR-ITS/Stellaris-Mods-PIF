@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_solarpunk_ranger_lodge = {
+	icon = building_paradise_dome
+	base_buildtime = @pif_building_solarpunk_ranger_lodge_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/building_config"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/availability"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/economy"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/lifecycle"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/jobs"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/country_jobs"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/economic_modifiers"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/pop_modifiers"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/planet_state"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/tpm"
+	inline_script = "pif/buildings/building_solarpunk_ranger_lodge/ai"
+}

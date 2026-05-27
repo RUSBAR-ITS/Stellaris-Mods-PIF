@@ -1,0 +1,19 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: telepath_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+can_be_automated = @pif_telepath_drone_job_flags_can_be_automated_1
+
+tags = {
+	crime
+	enforcer
+	unity
+	telepath
+	psionic_aura
+}
+
+weight = {
+	weight = @pif_telepath_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|telepath|RESOURCE|unity|
+}

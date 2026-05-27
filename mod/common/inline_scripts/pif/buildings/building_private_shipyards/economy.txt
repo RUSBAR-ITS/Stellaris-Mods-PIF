@@ -1,0 +1,27 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_private_shipyards
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+resources = {
+	category = planet_branch_office_buildings
+	cost = {
+		influence = @pif_building_private_shipyards_cost_cost_influence_1
+		minerals = @pif_building_private_shipyards_cost_cost_minerals_2
+	}
+	cost = {
+		trigger = {
+			owner = {
+				has_authority = auth_corporate
+			}
+		}
+		influence = @pif_building_private_shipyards_cost_cost_influence_1
+	}
+	produces = {
+		alloys = @pif_building_private_shipyards_economic_modifiers_produces_alloys_1
+		mult = value:branch_office_value_for_buildings
+	}
+	upkeep = {
+		energy = @pif_building_private_shipyards_upkeep_upkeep_energy_1
+	}
+}

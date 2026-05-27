@@ -1,0 +1,27 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_mineral_purification_plant
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+destroy_trigger = {
+	OR = {
+		has_modifier = resort_colony
+		AND = {
+			exists = owner
+			owner = {
+				is_ai = yes
+			}
+			has_any_mining_district_or_building = no
+		}
+		AND = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+	}
+}
+
+upgrades = {
+	building_mineral_purification_hub
+}

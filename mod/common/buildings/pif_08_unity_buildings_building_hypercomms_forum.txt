@@ -1,0 +1,26 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_hypercomms_forum = {
+	base_buildtime = @pif_building_hypercomms_forum_construction_base_buildtime_1
+	category = unity
+	triggered_desc = {
+		text = building_hypercomms_forum_effect
+	}
+	triggered_desc = {
+		text = job_civilian_ethics_effect
+	}
+	inline_script = "pif/buildings/building_hypercomms_forum/building_config"
+	inline_script = "pif/buildings/building_hypercomms_forum/availability"
+	inline_script = "pif/buildings/building_hypercomms_forum/economy"
+	inline_script = "pif/buildings/building_hypercomms_forum/lifecycle"
+	inline_script = "pif/buildings/building_hypercomms_forum/jobs"
+	inline_script = "pif/buildings/building_hypercomms_forum/country_jobs"
+	inline_script = "pif/buildings/building_hypercomms_forum/economic_modifiers"
+	inline_script = "pif/buildings/building_hypercomms_forum/pop_modifiers"
+	inline_script = "pif/buildings/building_hypercomms_forum/planet_state"
+	inline_script = "pif/buildings/building_hypercomms_forum/tpm"
+	inline_script = "pif/buildings/building_hypercomms_forum/ai"
+}

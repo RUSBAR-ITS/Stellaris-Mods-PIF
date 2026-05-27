@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_psionic_suppressor
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+base_cap_amount = @pif_building_psionic_suppressor_limits_base_cap_amount_1
+
+potential = {
+	has_shroud_dlc = yes
+}
+
+prerequisites = {
+	"tech_psionic_suppression"
+}

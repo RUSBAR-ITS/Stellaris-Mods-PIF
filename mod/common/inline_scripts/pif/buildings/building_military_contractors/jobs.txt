@@ -1,0 +1,63 @@
+# PIF building category: JOBS
+# Vanilla building: building_military_contractors
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+		NOT = {
+			has_zone = {
+				zone = zone_habitat_knights
+			}
+			has_modifier = slave_colony
+		}
+	}
+	job_soldier_add = @pif_building_military_contractors_jobs_job_soldier_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+		NOT = {
+			has_zone = {
+				zone = zone_habitat_knights
+			}
+		}
+		has_modifier = slave_colony
+	}
+	job_battle_thrall_add = @pif_building_military_contractors_jobs_job_battle_thrall_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+		has_zone = {
+			zone = zone_habitat_knights
+		}
+		NOT = {
+			has_modifier = slave_colony
+		}
+	}
+	job_knight_add = @pif_building_military_contractors_jobs_job_knight_add_3
+	mult = @pif_building_military_contractors_jobs_job_knight_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_warrior_drone_add = @pif_building_military_contractors_jobs_job_warrior_drone_add_5
+}

@@ -1,0 +1,23 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_farming
+# Vanilla source: districts/02_rural_districts.txt
+
+conversion_ratio = @pif_district_farming_conversion_conversion_ratio
+
+convert_to = {
+	district_orchard_forests
+	district_nexus_3
+	district_hive_3
+}
+
+destroy_trigger = {
+	exists = owner
+	AND = {
+		owner = {
+			is_ai = yes
+		}
+		owner = {
+			country_uses_food = no
+		}
+	}
+}

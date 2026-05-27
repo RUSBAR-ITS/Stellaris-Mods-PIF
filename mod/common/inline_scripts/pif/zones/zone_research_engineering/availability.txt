@@ -1,0 +1,21 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_research_engineering
+# Vanilla source: zones/00_zones.txt
+
+potential = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+}
+
+unlock = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+}

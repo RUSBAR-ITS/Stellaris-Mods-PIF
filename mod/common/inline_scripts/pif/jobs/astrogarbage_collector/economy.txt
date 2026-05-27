@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: astrogarbage_collector
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		alloys = @pif_astrogarbage_collector_job_output_output_alloys_1
+	}
+}

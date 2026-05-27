@@ -1,0 +1,6 @@
+# PIF normalized zone_slot object generated from zone_slots/00_zone_slots.txt.
+slot_city_government = {
+	start = zone_default
+	inline_script = "pif/zone_slots/slot_city_government/zs_config"
+	inline_script = "pif/zone_slots/slot_city_government/availability"
+}

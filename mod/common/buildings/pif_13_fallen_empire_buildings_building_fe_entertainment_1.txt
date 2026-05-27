@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_fe_entertainment_1 = {
+	base_buildtime = @pif_building_fe_entertainment_1_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_fe_entertainment_1/building_config"
+	inline_script = "pif/buildings/building_fe_entertainment_1/availability"
+	inline_script = "pif/buildings/building_fe_entertainment_1/economy"
+	inline_script = "pif/buildings/building_fe_entertainment_1/lifecycle"
+	inline_script = "pif/buildings/building_fe_entertainment_1/jobs"
+	inline_script = "pif/buildings/building_fe_entertainment_1/country_jobs"
+	inline_script = "pif/buildings/building_fe_entertainment_1/economic_modifiers"
+	inline_script = "pif/buildings/building_fe_entertainment_1/pop_modifiers"
+	inline_script = "pif/buildings/building_fe_entertainment_1/planet_state"
+	inline_script = "pif/buildings/building_fe_entertainment_1/tpm"
+	inline_script = "pif/buildings/building_fe_entertainment_1/ai"
+}

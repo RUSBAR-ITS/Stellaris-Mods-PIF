@@ -1,0 +1,16 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_photosynthesis_fields
+# Vanilla source: districts/05_wilderness_districts.txt
+
+resources = {
+	category = planet_districts_generator
+	cost = {
+		minerals = @pif_district_photosynthesis_fields_construction_build_cost_minerals
+	}
+	cost = {
+		biomass = @pif_district_photosynthesis_fields_construction_build_cost_biomass
+	}
+	upkeep = {
+		energy = @pif_district_photosynthesis_fields_economy_district_upkeep_energy
+	}
+}

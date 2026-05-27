@@ -1,0 +1,22 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_physics_lab_3
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+can_build = no
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+prerequisites = {
+	"tech_physics_3"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

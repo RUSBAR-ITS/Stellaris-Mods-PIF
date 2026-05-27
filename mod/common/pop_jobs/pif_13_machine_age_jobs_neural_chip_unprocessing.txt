@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+neural_chip_unprocessing = {
+	category = chip_slave
+	inline_script = "pif/jobs/neural_chip_unprocessing/swap"
+	inline_script = "pif/jobs/neural_chip_unprocessing/availability"
+	inline_script = "pif/jobs/neural_chip_unprocessing/pop_config"
+	inline_script = "pif/jobs/neural_chip_unprocessing/economy"
+	inline_script = "pif/jobs/neural_chip_unprocessing/planet_state"
+	inline_script = "pif/jobs/neural_chip_unprocessing/country_modifiers"
+	inline_script = "pif/jobs/neural_chip_unprocessing/pop_modifiers"
+	inline_script = "pif/jobs/neural_chip_unprocessing/economic_modifiers"
+	inline_script = "pif/jobs/neural_chip_unprocessing/tpm"
+}

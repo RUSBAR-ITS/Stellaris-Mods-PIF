@@ -1,0 +1,6 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: munitions_decommissioning_unit
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/11_astral_planes_jobs.txt
+
+# Empty PIF job category hook.

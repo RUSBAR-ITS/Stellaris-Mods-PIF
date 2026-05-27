@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_pre_ftl_radio_telescope = {
+	category = research
+	triggered_desc = {
+		text = awareness_gain_desc
+	}
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/building_config"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/availability"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/economy"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/lifecycle"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/jobs"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/country_jobs"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/economic_modifiers"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/pop_modifiers"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/planet_state"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/tpm"
+	inline_script = "pif/buildings/building_pre_ftl_radio_telescope/ai"
+}

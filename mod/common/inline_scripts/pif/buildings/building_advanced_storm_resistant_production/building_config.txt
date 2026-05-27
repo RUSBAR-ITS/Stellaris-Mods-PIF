@@ -1,0 +1,11 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_advanced_storm_resistant_production
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+building_sets = {
+	urban
+	generator
+	mining
+	farming
+}

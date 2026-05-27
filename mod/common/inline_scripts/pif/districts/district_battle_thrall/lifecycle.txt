@@ -1,0 +1,7 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_battle_thrall
+# Vanilla source: districts/00_urban_districts.txt
+
+conversion_ratio = @pif_district_battle_thrall_conversion_conversion_ratio
+
+convert_to = {}

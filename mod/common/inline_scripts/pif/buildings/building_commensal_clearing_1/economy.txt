@@ -1,0 +1,15 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_commensal_clearing_1
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_commensal_clearing_1_cost_cost_minerals_1
+		biomass = @pif_building_commensal_clearing_1_cost_cost_biomass_2
+	}
+	upkeep = {
+		energy = @pif_building_commensal_clearing_1_upkeep_upkeep_energy_1
+	}
+}

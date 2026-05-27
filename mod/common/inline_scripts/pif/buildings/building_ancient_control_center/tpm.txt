@@ -1,0 +1,14 @@
+# PIF building category: TPM
+# Vanilla building: building_ancient_control_center
+# Vanilla class: capital
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_ancient_control_center_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_ancient_control_center_planet_state_planet_amenities_add_2
+	job_fe_maintenance_bot_add = @pif_building_ancient_control_center_jobs_job_fe_maintenance_bot_add_1
+	job_fe_guardian_bot_add = @pif_building_ancient_control_center_jobs_job_fe_guardian_bot_add_2
+}

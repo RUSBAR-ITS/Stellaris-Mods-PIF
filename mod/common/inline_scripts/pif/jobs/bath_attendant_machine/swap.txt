@@ -1,0 +1,37 @@
+# PIF job category: SWAP
+# Vanilla job: bath_attendant_machine
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_toxic_bath
+	}
+	swap_type = {
+		trigger = {
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		name = bath_attendant_hive
+		icon = bath_attendant_hive
+		desc = bath_attendant_hive
+		building_icon = building_toxic_bath
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 2
+	}
+	swap_type = {
+		trigger = {
+			owner = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		name = bath_attendant
+		icon = bath_attendant
+		desc = bath_attendant
+		building_icon = building_toxic_bath
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 5
+	}
+}

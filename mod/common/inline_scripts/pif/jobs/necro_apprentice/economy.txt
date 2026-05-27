@@ -1,0 +1,29 @@
+# PIF job category: ECONOMY
+# Vanilla job: necro_apprentice
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_necro_apprentices
+	produces = {
+		unity = @pif_necro_apprentice_job_output_output_unity_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+		}
+		consumer_goods = @pif_necro_apprentice_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_necro_apprentice_job_upkeep_upkeep_minerals_2
+	}
+}

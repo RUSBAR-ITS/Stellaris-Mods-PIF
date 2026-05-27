@@ -1,0 +1,16 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: haruspex
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			exists = owner
+			owner = {
+				has_tradition = tr_modularity_4
+			}
+		}
+	}
+	planet_jobs_worker_produces_mult = @pif_haruspex_economic_modifiers_planet_jobs_worker_produces_mult_1
+}

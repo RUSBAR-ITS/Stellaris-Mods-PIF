@@ -1,0 +1,16 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_psionic_suppressor
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+on_built = {
+	add_eotc_aura_psionic_suppressor = yes
+}
+
+on_destroy = {
+	remove_eotc_aura_psionic_suppressor = yes
+}
+
+on_repaired = {
+	add_eotc_aura_psionic_suppressor = yes
+}

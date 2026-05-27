@@ -1,0 +1,34 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: replicator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	pop_assembly
+}
+
+weight = {
+	weight = @pif_replicator_job_weight_weight_1
+	mult = value:scripted_job_weight_shroud_forged_mult
+	modifier = {
+		factor = @pif_replicator_job_weight_factor_2
+		exists = planet
+		exists = planet.controller
+		planet.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+			}
+		}
+	}
+}
+
+promotion = {
+	time = @pif_replicator_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

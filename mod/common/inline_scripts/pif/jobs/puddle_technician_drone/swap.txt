@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: puddle_technician_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_food_processing_facility
+	}
+}

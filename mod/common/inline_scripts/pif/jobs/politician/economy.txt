@@ -1,0 +1,104 @@
+# PIF job category: ECONOMY
+# Vanilla job: politician
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+resources = {
+	category = planet_politicians
+	produces = {
+		unity = @pif_politician_job_output_output_unity_1
+	}
+	upkeep = {
+		consumer_goods = @pif_politician_job_upkeep_upkeep_consumer_goods_1
+	}
+	produces = {
+		trigger = {
+			politician_is_executive = yes
+		}
+		trade = @pif_politician_job_output_output_trade_2
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				OR = {
+					politician_is_merchant = yes
+					politician_is_augmentation_merchant = yes
+					politician_is_ashbroker = yes
+				}
+			}
+		}
+		unity = @pif_politician_job_output_output_unity_3
+		trade = @pif_politician_job_output_output_trade_4
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				politician_is_science_director = yes
+			}
+		}
+		unity = @pif_politician_job_output_output_unity_5
+		physics_research = @pif_politician_job_output_output_physics_research_6
+		society_research = @pif_politician_job_output_output_society_research_7
+		engineering_research = @pif_politician_job_output_output_engineering_research_8
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				OR = {
+					politician_is_high_priest = yes
+					politician_is_fire_oracle = yes
+				}
+			}
+		}
+		unity = @pif_politician_job_output_output_unity_9
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				politician_is_technophant = yes
+			}
+		}
+		engineering_research = @pif_politician_job_output_output_engineering_research_10
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				politician_is_blazewright = yes
+				politician_is_radiant_priest = yes
+			}
+		}
+		unity = @pif_politician_job_output_output_unity_11
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				politician_is_blazing_harbinger = yes
+			}
+		}
+		unity = @pif_politician_job_output_output_unity_12
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				politician_is_superstitious_beliefs_high_priest = yes
+			}
+		}
+		unity = @pif_politician_job_output_output_unity_9
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				politician_is_superstitious_beliefs_high_priest_corporate = yes
+			}
+		}
+		trade = @pif_politician_job_output_output_trade_4
+	}
+}

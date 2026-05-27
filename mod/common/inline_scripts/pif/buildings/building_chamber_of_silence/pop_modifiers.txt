@@ -1,0 +1,17 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_chamber_of_silence
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			num_assigned_jobs = {
+				job = telepath
+				value > 0
+			}
+		}
+	}
+	psionic_pop_bonus_workforce_mult = @pif_building_chamber_of_silence_pop_modifiers_psionic_pop_bonus_workforce_mult_1
+	mult = value:psionic_workforce_from_telepaths
+}

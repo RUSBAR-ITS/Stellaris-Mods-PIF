@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+augmentor = {
+	category = specialist
+	inline_script = "pif/jobs/augmentor/swap"
+	inline_script = "pif/jobs/augmentor/availability"
+	inline_script = "pif/jobs/augmentor/pop_config"
+	inline_script = "pif/jobs/augmentor/economy"
+	inline_script = "pif/jobs/augmentor/planet_state"
+	inline_script = "pif/jobs/augmentor/country_modifiers"
+	inline_script = "pif/jobs/augmentor/pop_modifiers"
+	inline_script = "pif/jobs/augmentor/economic_modifiers"
+	inline_script = "pif/jobs/augmentor/tpm"
+}

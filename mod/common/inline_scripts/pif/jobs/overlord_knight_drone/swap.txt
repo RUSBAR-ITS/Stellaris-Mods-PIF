@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: overlord_knight_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_order_keep
+		icon = knight
+	}
+}

@@ -1,0 +1,8 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: slave_orderly
+# Vanilla class: worker
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+weight = {
+	weight = @pif_slave_orderly_job_weight_weight_1
+}

@@ -1,0 +1,12 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_orchard_forests_uncapped
+# Vanilla source: districts/05_wilderness_districts.txt
+
+conversion_ratio = @pif_district_orchard_forests_uncapped_conversion_conversion_ratio
+
+convert_to = {
+	district_farming
+	district_orchard_forests
+	district_nexus_3
+	district_hive_3
+}

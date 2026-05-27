@@ -1,0 +1,21 @@
+# PIF job category: SWAP
+# Vanilla job: necro_apprentice
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = NECRO_APPRENTICE_JOB_TRIGGER
+		building_icon = building_chamber_of_elevation_1
+	}
+	swap_type = {
+		desc = job_necro_apprentice_desc_hive
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		weight = 1
+	}
+}

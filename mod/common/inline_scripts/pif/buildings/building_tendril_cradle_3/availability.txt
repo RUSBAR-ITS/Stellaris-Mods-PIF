@@ -1,0 +1,19 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_tendril_cradle_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = no
+
+planet_limit = @pif_building_tendril_cradle_3_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}

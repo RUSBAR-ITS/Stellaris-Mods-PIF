@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+death_chronicler = {
+	category = specialist
+	inline_script = "pif/jobs/death_chronicler/swap"
+	inline_script = "pif/jobs/death_chronicler/availability"
+	inline_script = "pif/jobs/death_chronicler/pop_config"
+	inline_script = "pif/jobs/death_chronicler/economy"
+	inline_script = "pif/jobs/death_chronicler/planet_state"
+	inline_script = "pif/jobs/death_chronicler/country_modifiers"
+	inline_script = "pif/jobs/death_chronicler/pop_modifiers"
+	inline_script = "pif/jobs/death_chronicler/economic_modifiers"
+	inline_script = "pif/jobs/death_chronicler/tpm"
+}

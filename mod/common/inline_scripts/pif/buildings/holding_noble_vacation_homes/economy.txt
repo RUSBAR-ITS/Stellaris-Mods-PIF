@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: holding_noble_vacation_homes
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+resources = {
+	category = planet_holdings
+	cost = {
+		minerals = @pif_holding_noble_vacation_homes_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_holding_noble_vacation_homes_upkeep_upkeep_energy_1
+	}
+}

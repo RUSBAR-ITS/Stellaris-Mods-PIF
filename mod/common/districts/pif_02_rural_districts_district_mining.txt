@@ -1,0 +1,338 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/02_rural_districts.txt
+# Object class: real
+
+district_mining = {
+	expansion_planner = yes
+	base_buildtime = @pif_district_mining_construction_build_time_days
+	overlay_icon = GFX_district_minerals
+	is_uncapped = {
+		is_mining_district_uncapped = yes
+	}
+	min_for_deposits_on_planet = @pif_district_mining_limits_min_for_deposits_on_planet
+	max_for_deposits_on_planet = @pif_district_mining_limits_max_for_deposits_on_planet
+	desc = {
+		trigger = {
+			NOT = {
+				uses_district_set = shattered_ring_world
+			}
+		}
+		text = district_mining_desc
+	}
+	desc = {
+		trigger = {
+			uses_district_set = shattered_ring_world
+		}
+		text = district_srw_mining_desc
+	}
+	show_on_uncolonized = {
+		OR = {
+			uses_district_set = standard
+			uses_district_set = shattered_ring_world
+		}
+		exists = from
+		from = {
+			is_wilderness_empire = no
+		}
+		NOT = {
+			has_modifier = resort_colony
+		}
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		text = automated_mining
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_subterranean_urban
+				value > 0
+			}
+		}
+		text = zone_subterranean_urban
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_minerals_physics
+				value > 0
+			}
+		}
+		text = zone_minerals_physics
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_rare_crystals_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_rare_crystals_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_rare_crystals_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_rare_crystals_1
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_betharian_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_betharian_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_betharian_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_betharian_1
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_1
+	}
+	triggered_name = {
+		text = mining_0
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_subterranean_urban
+				value > 0
+			}
+		}
+		text = zone_subterranean_urban_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_minerals_physics
+				value > 0
+			}
+		}
+		text = zone_minerals_physics_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_rare_crystals_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_rare_crystals_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_rare_crystals_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_rare_crystals_1_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_betharian_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_betharian_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_betharian_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_betharian_1_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_1_desc
+	}
+	triggered_flavor_desc = {
+		text = mining_0_desc
+	}
+	inline_script = "pif/districts/district_mining/zone_slots"
+	inline_script = "pif/districts/district_mining/availability"
+	inline_script = "pif/districts/district_mining/economic"
+	inline_script = "pif/districts/district_mining/tpm"
+	inline_script = "pif/districts/district_mining/lifecycle"
+	inline_script = "pif/districts/district_mining/ai"
+}

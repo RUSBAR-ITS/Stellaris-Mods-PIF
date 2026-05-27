@@ -1,0 +1,13 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_crude_huts
+# Vanilla class: capital
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_add = @pif_building_crude_huts_planet_state_planet_amenities_add_1
+	planet_housing_add = @pif_building_crude_huts_planet_state_planet_housing_add_2
+	planet_crime_add = @pif_building_crude_huts_planet_state_planet_crime_add_3
+}

@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_foundry_3
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+# Empty PIF building category hook.

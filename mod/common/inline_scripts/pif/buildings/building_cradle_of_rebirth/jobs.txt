@@ -1,0 +1,16 @@
+# PIF building category: JOBS
+# Vanilla building: building_cradle_of_rebirth
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	modifier = {
+		job_spawning_drone_add = @pif_building_cradle_of_rebirth_jobs_job_spawning_drone_add_1
+	}
+}

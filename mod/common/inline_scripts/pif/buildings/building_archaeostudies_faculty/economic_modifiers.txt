@@ -1,0 +1,68 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_archaeostudies_faculty
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_biologists_society_research_produces_add = @pif_building_archaeostudies_faculty_economic_modifiers_planet_biologists_society_research_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	planet_biologists_consumer_goods_upkeep_add = @pif_building_archaeostudies_faculty_economic_modifiers_planet_biologists_consumer_goods_upkeep_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	planet_biologists_energy_upkeep_add = @pif_building_archaeostudies_faculty_economic_modifiers_planet_biologists_energy_upkeep_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	planet_biologists_minerals_upkeep_add = @pif_building_archaeostudies_faculty_economic_modifiers_planet_biologists_minerals_upkeep_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		is_planet_class = pc_relic
+	}
+	planet_biologists_minor_artifacts_produces_add = @pif_building_archaeostudies_faculty_economic_modifiers_planet_biologists_minor_artifacts_produces_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	planet_biologists_minor_artifacts_produces_add = @pif_building_archaeostudies_faculty_economic_modifiers_planet_biologists_minor_artifacts_produces_add_6
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	country_resource_max_minor_artifacts_add = @pif_building_archaeostudies_faculty_economic_modifiers_country_resource_max_minor_artifacts_add_7
+}

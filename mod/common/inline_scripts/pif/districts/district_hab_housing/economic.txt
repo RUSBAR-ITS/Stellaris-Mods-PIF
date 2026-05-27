@@ -1,0 +1,14 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_hab_housing
+# Vanilla source: districts/03_habitat_districts.txt
+
+resources = {
+	category = planet_districts_hab
+	cost = {
+		alloys = @pif_district_hab_housing_construction_build_cost_alloys
+	}
+	upkeep = {
+		energy = @pif_district_hab_housing_economy_district_upkeep_energy
+		alloys = @pif_district_hab_housing_economy_district_upkeep_alloys
+	}
+}

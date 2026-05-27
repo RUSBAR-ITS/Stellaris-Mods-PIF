@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_cyberdome = {
+	base_buildtime = @pif_building_cyberdome_construction_base_buildtime_1
+	desc = {
+		text = building_cyberdome_desc
+	}
+	category = amenity
+	inline_script = "pif/buildings/building_cyberdome/building_config"
+	inline_script = "pif/buildings/building_cyberdome/availability"
+	inline_script = "pif/buildings/building_cyberdome/economy"
+	inline_script = "pif/buildings/building_cyberdome/lifecycle"
+	inline_script = "pif/buildings/building_cyberdome/jobs"
+	inline_script = "pif/buildings/building_cyberdome/country_jobs"
+	inline_script = "pif/buildings/building_cyberdome/economic_modifiers"
+	inline_script = "pif/buildings/building_cyberdome/pop_modifiers"
+	inline_script = "pif/buildings/building_cyberdome/planet_state"
+	inline_script = "pif/buildings/building_cyberdome/tpm"
+	inline_script = "pif/buildings/building_cyberdome/ai"
+}

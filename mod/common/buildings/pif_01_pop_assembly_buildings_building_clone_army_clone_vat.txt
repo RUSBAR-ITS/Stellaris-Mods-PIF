@@ -1,0 +1,26 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_clone_army_clone_vat = {
+	icon = building_ancient_relics
+	base_buildtime = @pif_building_clone_army_clone_vat_construction_base_buildtime_1
+	position_priority = 100
+	category = pop_assembly
+	triggered_desc = {
+		text = building_clone_army_clone_vat_effect_desc
+	}
+	is_essential = yes
+	inline_script = "pif/buildings/building_clone_army_clone_vat/building_config"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/availability"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/economy"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/lifecycle"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/jobs"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/country_jobs"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/economic_modifiers"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/pop_modifiers"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/planet_state"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/tpm"
+	inline_script = "pif/buildings/building_clone_army_clone_vat/ai"
+}

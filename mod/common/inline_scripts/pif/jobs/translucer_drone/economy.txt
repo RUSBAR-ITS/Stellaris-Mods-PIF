@@ -1,0 +1,44 @@
+# PIF job category: ECONOMY
+# Vanilla job: translucer_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_translucers
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = no
+			}
+		}
+		rare_crystals = @pif_translucer_drone_job_output_output_rare_crystals_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = yes
+			}
+		}
+		rare_crystals = @pif_translucer_drone_job_output_output_rare_crystals_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = no
+			}
+		}
+		minerals = @pif_translucer_drone_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = yes
+			}
+		}
+		food = @pif_translucer_drone_job_upkeep_upkeep_food_2
+	}
+}

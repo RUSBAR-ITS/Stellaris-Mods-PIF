@@ -1,0 +1,30 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: hive_basic_agri_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+is_capped_by_modifier = @pif_hive_basic_agri_drone_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_drone_job
+
+possible = {
+	owner = {
+		is_primitive = yes
+		is_hive_empire = yes
+		OR = {
+			has_country_flag = bronze_age
+			has_country_flag = iron_age
+			has_country_flag = late_medieval_age
+			has_country_flag = renaissance_age
+			has_country_flag = steam_age
+		}
+	}
+	is_lithoid = no
+}

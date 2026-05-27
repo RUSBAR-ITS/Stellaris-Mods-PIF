@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_mortal_initiate_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_mortal_initiates
+	produces = {
+		unity = @pif_overlord_mortal_initiate_drone_job_output_output_unity_1
+		society_research = @pif_overlord_mortal_initiate_drone_job_output_output_society_research_2
+	}
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_amphitheater_of_the_mind = {
+	position_priority = 100
+	base_buildtime = @pif_building_amphitheater_of_the_mind_construction_base_buildtime_1
+	category = research
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/building_config"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/availability"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/economy"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/lifecycle"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/jobs"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/country_jobs"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/economic_modifiers"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/pop_modifiers"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/planet_state"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/tpm"
+	inline_script = "pif/buildings/building_amphitheater_of_the_mind/ai"
+}

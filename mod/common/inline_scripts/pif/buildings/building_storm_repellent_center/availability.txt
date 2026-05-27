@@ -1,0 +1,29 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_storm_repellent_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+planet_limit = @pif_building_storm_repellent_center_limits_planet_limit_1
+
+prerequisites = {
+	"tech_storm_manipulation"
+}
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	solar_system = {
+		system_has_storm_attraction_tech = no
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = storm_repellent_allow
+		solar_system = {
+			system_has_storm_attraction_tech = no
+		}
+	}
+}

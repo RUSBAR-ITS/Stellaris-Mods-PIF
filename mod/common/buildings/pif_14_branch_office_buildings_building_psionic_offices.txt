@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_psionic_offices = {
+	base_buildtime = @pif_building_psionic_offices_construction_base_buildtime_1
+	icon = building_psi_corps
+	owner_type = corporate
+	category = unity
+	custom_tooltip = building_psionic_offices_tt
+	inline_script = "pif/buildings/building_psionic_offices/building_config"
+	inline_script = "pif/buildings/building_psionic_offices/availability"
+	inline_script = "pif/buildings/building_psionic_offices/economy"
+	inline_script = "pif/buildings/building_psionic_offices/lifecycle"
+	inline_script = "pif/buildings/building_psionic_offices/jobs"
+	inline_script = "pif/buildings/building_psionic_offices/country_jobs"
+	inline_script = "pif/buildings/building_psionic_offices/economic_modifiers"
+	inline_script = "pif/buildings/building_psionic_offices/pop_modifiers"
+	inline_script = "pif/buildings/building_psionic_offices/planet_state"
+	inline_script = "pif/buildings/building_psionic_offices/tpm"
+	inline_script = "pif/buildings/building_psionic_offices/ai"
+}

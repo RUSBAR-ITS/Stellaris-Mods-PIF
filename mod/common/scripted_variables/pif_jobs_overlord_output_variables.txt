@@ -1,0 +1,571 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: OVERLORD_OUTPUT
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# agri_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in food.
+# Used in: common/inline_scripts/pif/jobs/agri_drone/economy.txt
+@pif_agri_drone_overlord_output_overlord_output_food_1 = 4
+
+# -----------------------------------------------------------------------------
+# aid_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/aid_worker/economy.txt
+@pif_aid_worker_overlord_output_overlord_output_unity_1 = 2.5
+
+# -----------------------------------------------------------------------------
+# aid_worker_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/aid_worker_drone/economy.txt
+@pif_aid_worker_drone_overlord_output_overlord_output_unity_1 = 2.5
+
+# -----------------------------------------------------------------------------
+# archivist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/archivist/economy.txt
+@pif_archivist_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/archivist/economy.txt
+@pif_archivist_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/archivist/economy.txt
+@pif_archivist_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# artificer_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/artificer_prison_worker/economy.txt
+@pif_artificer_prison_worker_overlord_output_overlord_output_consumer_goods_1 = 4
+
+# -----------------------------------------------------------------------------
+# artisan
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_overlord_output_overlord_output_consumer_goods_1 = 4
+
+# -----------------------------------------------------------------------------
+# artisan_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/artisan_drone/economy.txt
+@pif_artisan_drone_overlord_output_overlord_output_consumer_goods_1 = 4
+
+# -----------------------------------------------------------------------------
+# artisan_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/artisan_prison_worker/economy.txt
+@pif_artisan_prison_worker_overlord_output_overlord_output_consumer_goods_1 = 4
+
+# -----------------------------------------------------------------------------
+# astral_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/economy.txt
+@pif_astral_drone_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/economy.txt
+@pif_astral_drone_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/economy.txt
+@pif_astral_drone_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# astral_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/economy.txt
+@pif_astral_researcher_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/economy.txt
+@pif_astral_researcher_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/economy.txt
+@pif_astral_researcher_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# astral_unit
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/astral_unit/economy.txt
+@pif_astral_unit_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/astral_unit/economy.txt
+@pif_astral_unit_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/astral_unit/economy.txt
+@pif_astral_unit_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# biologist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/biologist/economy.txt
+@pif_biologist_overlord_output_overlord_output_society_research_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# calculator_biologist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/economy.txt
+@pif_calculator_biologist_overlord_output_overlord_output_society_research_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# calculator_physicist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/economy.txt
+@pif_calculator_physicist_overlord_output_overlord_output_physics_research_1 = 1
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/economy.txt
+@pif_calculator_physicist_overlord_output_overlord_output_physics_research_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# catalytic_technician_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/catalytic_technician_prison_worker/economy.txt
+@pif_catalytic_technician_prison_worker_overlord_output_overlord_output_alloys_1 = 2
+
+# -----------------------------------------------------------------------------
+# engineer
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/engineer/economy.txt
+@pif_engineer_overlord_output_overlord_output_engineering_research_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# experiment_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer/economy.txt
+@pif_experiment_engineer_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer/economy.txt
+@pif_experiment_engineer_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer/economy.txt
+@pif_experiment_engineer_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# experiment_engineer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer_drone/economy.txt
+@pif_experiment_engineer_drone_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer_drone/economy.txt
+@pif_experiment_engineer_drone_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer_drone/economy.txt
+@pif_experiment_engineer_drone_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# fabricator
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/fabricator/economy.txt
+@pif_fabricator_overlord_output_overlord_output_alloys_1 = 2
+
+# -----------------------------------------------------------------------------
+# farmer
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in food.
+# Used in: common/inline_scripts/pif/jobs/farmer/economy.txt
+@pif_farmer_overlord_output_overlord_output_food_1 = 4
+
+# -----------------------------------------------------------------------------
+# fe_acolyte_farm
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in food.
+# Used in: common/inline_scripts/pif/jobs/fe_acolyte_farm/economy.txt
+@pif_fe_acolyte_farm_overlord_output_overlord_output_food_1 = 4
+
+# -----------------------------------------------------------------------------
+# fe_acolyte_generator
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in energy.
+# Used in: common/inline_scripts/pif/jobs/fe_acolyte_generator/economy.txt
+@pif_fe_acolyte_generator_overlord_output_overlord_output_energy_1 = 4
+
+# -----------------------------------------------------------------------------
+# fe_acolyte_mine
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in minerals.
+# Used in: common/inline_scripts/pif/jobs/fe_acolyte_mine/economy.txt
+@pif_fe_acolyte_mine_overlord_output_overlord_output_minerals_1 = 3
+
+# -----------------------------------------------------------------------------
+# foundry
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/foundry/economy.txt
+@pif_foundry_overlord_output_overlord_output_alloys_1 = 2
+
+# -----------------------------------------------------------------------------
+# foundry_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/foundry_prison_worker/economy.txt
+@pif_foundry_prison_worker_overlord_output_overlord_output_alloys_1 = 2
+
+# -----------------------------------------------------------------------------
+# mind_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall/economy.txt
+@pif_mind_thrall_overlord_output_overlord_output_engineering_research_2 = 0.75
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall/economy.txt
+@pif_mind_thrall_overlord_output_overlord_output_physics_research_1 = 0.75
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall/economy.txt
+@pif_mind_thrall_overlord_output_overlord_output_society_research_3 = 0.75
+
+# -----------------------------------------------------------------------------
+# mind_thrall_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall_drone/economy.txt
+@pif_mind_thrall_drone_overlord_output_overlord_output_engineering_research_2 = 0.75
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall_drone/economy.txt
+@pif_mind_thrall_drone_overlord_output_overlord_output_physics_research_1 = 0.75
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall_drone/economy.txt
+@pif_mind_thrall_drone_overlord_output_overlord_output_society_research_3 = 0.75
+
+# -----------------------------------------------------------------------------
+# miner
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in minerals.
+# Used in: common/inline_scripts/pif/jobs/miner/economy.txt
+@pif_miner_overlord_output_overlord_output_minerals_1 = 3
+
+# -----------------------------------------------------------------------------
+# mining_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in minerals.
+# Used in: common/inline_scripts/pif/jobs/mining_drone/economy.txt
+@pif_mining_drone_overlord_output_overlord_output_minerals_1 = 3
+
+# -----------------------------------------------------------------------------
+# nanotech_research_unit
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/economy.txt
+@pif_nanotech_research_unit_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/economy.txt
+@pif_nanotech_research_unit_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/economy.txt
+@pif_nanotech_research_unit_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# nanotech_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/nanotech_researcher/economy.txt
+@pif_nanotech_researcher_overlord_output_overlord_output_engineering_research_2 = 0.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/nanotech_researcher/economy.txt
+@pif_nanotech_researcher_overlord_output_overlord_output_physics_research_1 = 0.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/nanotech_researcher/economy.txt
+@pif_nanotech_researcher_overlord_output_overlord_output_society_research_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# overlord_academic
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic/economy.txt
+@pif_overlord_academic_overlord_output_overlord_output_engineering_research_2 = 1.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic/economy.txt
+@pif_overlord_academic_overlord_output_overlord_output_physics_research_1 = 1.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic/economy.txt
+@pif_overlord_academic_overlord_output_overlord_output_society_research_3 = 1.5
+
+# -----------------------------------------------------------------------------
+# overlord_academic_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic_drone/economy.txt
+@pif_overlord_academic_drone_overlord_output_overlord_output_engineering_research_2 = 1.5
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic_drone/economy.txt
+@pif_overlord_academic_drone_overlord_output_overlord_output_physics_research_1 = 1.5
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic_drone/economy.txt
+@pif_overlord_academic_drone_overlord_output_overlord_output_society_research_3 = 1.5
+
+# -----------------------------------------------------------------------------
+# overlord_arborist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_arborist/economy.txt
+@pif_overlord_arborist_overlord_output_overlord_output_food_1 = 15
+
+# -----------------------------------------------------------------------------
+# overlord_arborist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_arborist_drone/economy.txt
+@pif_overlord_arborist_drone_overlord_output_overlord_output_food_1 = 15
+
+# -----------------------------------------------------------------------------
+# overlord_bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_bio_trophy/economy.txt
+@pif_overlord_bio_trophy_overlord_output_overlord_output_unity_1 = 1.5
+
+# -----------------------------------------------------------------------------
+# overlord_bio_trophy_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_bio_trophy_drone/economy.txt
+@pif_overlord_bio_trophy_drone_overlord_output_overlord_output_unity_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_catalytic_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_drone/economy.txt
+@pif_overlord_catalytic_drone_overlord_output_overlord_output_alloys_1 = 3
+
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_drone/economy.txt
+@pif_overlord_catalytic_drone_overlord_output_overlord_output_alloys_2 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_catalytic_technician
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_technician/economy.txt
+@pif_overlord_catalytic_technician_overlord_output_overlord_output_alloys_1 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_fabricator
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_fabricator/economy.txt
+@pif_overlord_fabricator_overlord_output_overlord_output_alloys_1 = 4
+
+# -----------------------------------------------------------------------------
+# overlord_foundry_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_foundry_drone/economy.txt
+@pif_overlord_foundry_drone_overlord_output_overlord_output_alloys_1 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_knight
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/economy.txt
+@pif_overlord_knight_overlord_output_overlord_output_engineering_research_3 = 1
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/economy.txt
+@pif_overlord_knight_overlord_output_overlord_output_physics_research_2 = 1
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/economy.txt
+@pif_overlord_knight_overlord_output_overlord_output_society_research_4 = 1
+
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/economy.txt
+@pif_overlord_knight_overlord_output_overlord_output_unity_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_knight_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in engineering_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/economy.txt
+@pif_overlord_knight_drone_overlord_output_overlord_output_engineering_research_3 = 1
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/economy.txt
+@pif_overlord_knight_drone_overlord_output_overlord_output_physics_research_2 = 1
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/economy.txt
+@pif_overlord_knight_drone_overlord_output_overlord_output_society_research_4 = 1
+
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/economy.txt
+@pif_overlord_knight_drone_overlord_output_overlord_output_unity_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_manager
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_manager/economy.txt
+@pif_overlord_manager_overlord_output_overlord_output_unity_1 = 0.125
+
+# -----------------------------------------------------------------------------
+# overlord_metallurgist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_metallurgist/economy.txt
+@pif_overlord_metallurgist_overlord_output_overlord_output_alloys_1 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer/economy.txt
+@pif_overlord_necromancer_overlord_output_overlord_output_physics_research_1 = 3
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer/economy.txt
+@pif_overlord_necromancer_overlord_output_overlord_output_society_research_2 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer_drone/economy.txt
+@pif_overlord_necromancer_drone_overlord_output_overlord_output_physics_research_1 = 3
+
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer_drone/economy.txt
+@pif_overlord_necromancer_drone_overlord_output_overlord_output_society_research_2 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder/economy.txt
+@pif_overlord_offspring_drone_feeder_overlord_output_overlord_output_society_research_1 = 4
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in society_research.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder_drone/economy.txt
+@pif_overlord_offspring_drone_feeder_drone_overlord_output_overlord_output_society_research_1 = 4
+
+# -----------------------------------------------------------------------------
+# overlord_propagandist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in influence.
+# Used in: common/inline_scripts/pif/jobs/overlord_propagandist/economy.txt
+@pif_overlord_propagandist_overlord_output_overlord_output_influence_1 = 0.15
+
+# -----------------------------------------------------------------------------
+# overlord_propagandist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in influence.
+# Used in: common/inline_scripts/pif/jobs/overlord_propagandist_drone/economy.txt
+@pif_overlord_propagandist_drone_overlord_output_overlord_output_influence_1 = 0.15
+
+# -----------------------------------------------------------------------------
+# overlord_ranger
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_ranger/economy.txt
+@pif_overlord_ranger_overlord_output_overlord_output_unity_1 = 5
+
+# -----------------------------------------------------------------------------
+# overlord_ranger_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_ranger_drone/economy.txt
+@pif_overlord_ranger_drone_overlord_output_overlord_output_unity_1 = 5
+
+# -----------------------------------------------------------------------------
+# overlord_trader
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in trade.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader/economy.txt
+@pif_overlord_trader_overlord_output_overlord_output_trade_1 = 7
+
+# -----------------------------------------------------------------------------
+# overlord_trader_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in energy.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader_drone/economy.txt
+@pif_overlord_trader_drone_overlord_output_overlord_output_energy_1 = 7
+
+# -----------------------------------------------------------------------------
+# physicist
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/physicist/economy.txt
+@pif_physicist_overlord_output_overlord_output_physics_research_1 = 0.75
+
+# Controls: Job resource output for overlord in physics_research.
+# Used in: common/inline_scripts/pif/jobs/physicist/economy.txt
+@pif_physicist_overlord_output_overlord_output_physics_research_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# puddle_technician
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in food.
+# Used in: common/inline_scripts/pif/jobs/puddle_technician/economy.txt
+@pif_puddle_technician_overlord_output_overlord_output_food_1 = 4
+
+# -----------------------------------------------------------------------------
+# puddle_technician_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in food.
+# Used in: common/inline_scripts/pif/jobs/puddle_technician_drone/economy.txt
+@pif_puddle_technician_drone_overlord_output_overlord_output_food_1 = 4
+
+# -----------------------------------------------------------------------------
+# technician
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in energy.
+# Used in: common/inline_scripts/pif/jobs/technician/economy.txt
+@pif_technician_overlord_output_overlord_output_energy_1 = 4
+
+# -----------------------------------------------------------------------------
+# technician_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in energy.
+# Used in: common/inline_scripts/pif/jobs/technician_drone/economy.txt
+@pif_technician_drone_overlord_output_overlord_output_energy_1 = 4
+
+# -----------------------------------------------------------------------------
+# trader
+# -----------------------------------------------------------------------------
+# Controls: Job resource output for overlord in unity.
+# Used in: common/inline_scripts/pif/jobs/trader/economy.txt
+@pif_trader_overlord_output_overlord_output_unity_1 = 0.5

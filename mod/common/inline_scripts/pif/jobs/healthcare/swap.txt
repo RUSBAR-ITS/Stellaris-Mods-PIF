@@ -1,0 +1,22 @@
+# PIF job category: SWAP
+# Vanilla job: healthcare
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_medical_2
+	}
+	swap_type = {
+		trigger = {
+			healthcare_is_genomic_researcher_trigger = yes
+		}
+		name = genomic_researcher
+		desc = genomic_researcher
+		icon = genomic_researcher
+		building_icon = building_genomic_facility
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 10
+	}
+}

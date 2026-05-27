@@ -1,0 +1,17 @@
+# PIF building category: JOBS
+# Vanilla building: building_order_castle
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			NOT = {
+				has_country_flag = quest_over
+			}
+		}
+	}
+	modifier = {
+		job_knight_add = @pif_building_order_castle_jobs_job_knight_add_1
+	}
+}

@@ -1,0 +1,30 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_polytechnic
+# Vanilla source: districts/02_rural_districts.txt
+
+prerequisites = {
+	tech_basic_science_lab_1
+}
+
+allow = {
+	hidden_trigger = {
+		OR = {
+			NOT = {
+				exists = owner
+			}
+			owner = {
+				has_technology = tech_basic_science_lab_1
+			}
+		}
+	}
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}
+
+potential = {
+	uses_district_set = volcanic_world
+}

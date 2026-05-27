@@ -1,0 +1,12 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_storm_resistant_production
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+upgrades = {
+	"building_advanced_storm_resistant_production"
+}
+
+destroy_trigger = {
+	influence_building_destruction_trigger = yes
+}

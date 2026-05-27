@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: production_overseer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {
+	category = planet_production_overseers
+	produces = {
+		engineering_research = @pif_production_overseer_job_output_output_engineering_research_1
+	}
+	upkeep = {
+		consumer_goods = @pif_production_overseer_job_upkeep_upkeep_consumer_goods_1
+	}
+}

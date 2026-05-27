@@ -1,0 +1,35 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: wrangler
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		wrangler_is_animal_handler_trigger = no
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_wrangler_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		OR = {
+			wrangler_is_trophy_hunter_trigger = yes
+			wrangler_is_beastfighter_trigger = yes
+		}
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_wrangler_planet_state_planet_amenities_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

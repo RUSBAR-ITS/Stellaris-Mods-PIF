@@ -1,0 +1,25 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_parasitic_algorithms = {
+	base_buildtime = @pif_holding_parasitic_algorithms_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_parasitic_algorithms
+	category = research
+	triggered_desc = {
+		text = holding_parasitic_algorithms_effect_desc
+	}
+	inline_script = "pif/buildings/holding_parasitic_algorithms/building_config"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/availability"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/economy"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/lifecycle"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/jobs"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/country_jobs"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/economic_modifiers"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/pop_modifiers"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/planet_state"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/tpm"
+	inline_script = "pif/buildings/holding_parasitic_algorithms/ai"
+}

@@ -1,0 +1,22 @@
+# PIF job category: SWAP
+# Vanilla job: telepath
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_psi_corps
+	}
+	swap_type = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		name = educator_telepath
+		desc = educator_telepath
+		icon = telepath
+		building_icon = building_psi_corps
+		condition_string = SPECIALIST_JOB_TRIGGER
+		weight = 10
+	}
+}

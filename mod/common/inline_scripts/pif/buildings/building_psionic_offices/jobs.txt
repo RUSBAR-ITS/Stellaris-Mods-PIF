@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_psionic_offices
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_shroud_trader_add = @pif_building_psionic_offices_jobs_job_shroud_trader_add_1
+}

@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_aid_agency = {
+	base_buildtime = @pif_holding_aid_agency_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_aid_agency
+	category = amenity
+	inline_script = "pif/buildings/holding_aid_agency/building_config"
+	inline_script = "pif/buildings/holding_aid_agency/availability"
+	inline_script = "pif/buildings/holding_aid_agency/economy"
+	inline_script = "pif/buildings/holding_aid_agency/lifecycle"
+	inline_script = "pif/buildings/holding_aid_agency/jobs"
+	inline_script = "pif/buildings/holding_aid_agency/country_jobs"
+	inline_script = "pif/buildings/holding_aid_agency/economic_modifiers"
+	inline_script = "pif/buildings/holding_aid_agency/pop_modifiers"
+	inline_script = "pif/buildings/holding_aid_agency/planet_state"
+	inline_script = "pif/buildings/holding_aid_agency/tpm"
+	inline_script = "pif/buildings/holding_aid_agency/ai"
+}

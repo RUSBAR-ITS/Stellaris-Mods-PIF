@@ -1,0 +1,16 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_league_offices
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = yes
+			has_tradition = tr_purity_finish
+		}
+	}
+	planet_building_build_speed_mult = @pif_building_league_offices_construction_planet_building_build_speed_mult_2
+	planet_decision_enact_speed_mult = @pif_building_league_offices_construction_planet_decision_enact_speed_mult_3
+}

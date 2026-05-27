@@ -1,0 +1,40 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: telepath
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+can_be_automated = @pif_telepath_job_flags_can_be_automated_1
+
+tags = {
+	crime
+	enforcer
+	unity
+	telepath
+	psionic_aura
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+weight = {
+	weight = @pif_telepath_job_weight_weight_1
+	mult = @pif_telepath_job_weight_mult_2
+	mult = value:job_weights_modifier|JOB|telepath|RESOURCE|unity|
+	modifier = {
+		factor = @pif_telepath_job_weight_factor_3
+		has_citizenship_rights = no
+	}
+	modifier = {
+		factor = @pif_telepath_job_weight_factor_4
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_indentured
+		}
+	}
+}

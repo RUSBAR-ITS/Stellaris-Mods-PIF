@@ -1,0 +1,36 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_no_happiness_add = @pif_spawning_drone_planet_state_planet_amenities_no_happiness_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		healthcare_is_genomic_researcher_trigger = yes
+		exists = owner
+		owner = {
+			has_cloning_artificial_population_tradition = yes
+			is_gestalt = no
+		}
+	}
+	planet_crime_add = @pif_spawning_drone_planet_state_planet_crime_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		healthcare_is_genomic_researcher_trigger = yes
+		exists = owner
+		owner = {
+			has_cloning_artificial_population_tradition = yes
+			is_gestalt = yes
+		}
+	}
+	planet_crime_no_happiness_add = @pif_spawning_drone_planet_state_planet_crime_no_happiness_add_3
+}

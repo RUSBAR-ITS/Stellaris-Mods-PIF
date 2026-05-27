@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: holding_knight_commandery
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = no
+		}
+	}
+	job_overlord_knight_add = @pif_holding_knight_commandery_jobs_job_overlord_knight_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = yes
+		}
+	}
+	job_overlord_knight_drone_add = @pif_holding_knight_commandery_jobs_job_overlord_knight_drone_add_2
+}

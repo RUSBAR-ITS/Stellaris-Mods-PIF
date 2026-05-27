@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: observator_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_shroud_observatory_1
+	}
+}

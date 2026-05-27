@@ -1,0 +1,25 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_hab_science
+# Vanilla source: districts/03_habitat_districts.txt
+
+potential = {
+	uses_district_set = habitat
+}
+
+prerequisites = {
+	tech_basic_science_lab_1
+}
+
+allow = {
+	hidden_trigger = {
+		OR = {
+			NOT = {
+				exists = owner
+			}
+			owner = {
+				has_technology = tech_basic_science_lab_1
+			}
+			has_deposit = d_payback_habitat_research
+		}
+	}
+}

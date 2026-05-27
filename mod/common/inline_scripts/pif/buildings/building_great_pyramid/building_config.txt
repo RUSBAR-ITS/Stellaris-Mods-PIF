@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_great_pyramid
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+building_sets = {
+	pre_ftl
+}

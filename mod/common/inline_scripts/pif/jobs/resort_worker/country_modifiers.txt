@@ -1,0 +1,12 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: resort_worker
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_amenities_usage_mult = @pif_resort_worker_country_modifiers_pop_amenities_usage_mult_1
+	planet_pops_trade_produces_mult = @pif_resort_worker_country_modifiers_planet_pops_trade_produces_mult_2
+}

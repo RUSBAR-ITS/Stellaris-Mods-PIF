@@ -1,0 +1,25 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_mine_generic
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_wilderness_empire = yes
+		}
+		planet = {
+			planet_is_habitat_equivalent = no
+			planet_is_ring_world_equivalent = no
+			free_building_slots = @pif_building_mine_generic_planet_state_free_building_slots_1
+			owner = {
+				is_ai = yes
+				has_monthly_income = {
+					resource = minerals
+					value > 100
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_nourishment_center
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_environment_tolerance = @pif_building_nourishment_center_pop_modifiers_pop_environment_tolerance_1
+}

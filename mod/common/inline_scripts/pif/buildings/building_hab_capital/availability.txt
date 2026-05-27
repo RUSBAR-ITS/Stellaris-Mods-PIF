@@ -1,0 +1,19 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hab_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_build = no
+
+potential = {
+	uses_habitat_capitals = yes
+	exists = owner
+	owner = {
+		is_fallen_empire = no
+		is_wilderness_empire = no
+	}
+}
+
+prerequisites = {
+	"tech_habitat_1"
+}

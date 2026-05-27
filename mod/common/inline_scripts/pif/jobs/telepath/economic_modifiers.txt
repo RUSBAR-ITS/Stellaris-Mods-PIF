@@ -1,0 +1,76 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: telepath
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_oligarchic_authority = yes
+			OR = {
+				has_country_flag = synth_physical
+				has_country_flag = synth_virtual
+			}
+		}
+	}
+	planet_jobs_ruler_produces_mult = @pif_telepath_economic_modifiers_planet_jobs_ruler_produces_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_covenant_with_the_cradle_of_souls = yes
+			is_gestalt = yes
+		}
+	}
+	planet_telepaths_unity_produces_mult = @pif_telepath_economic_modifiers_planet_telepaths_unity_produces_mult_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_megacorp = yes
+			OR = {
+				is_transcendent_authority = yes
+				is_corporeal_authority = yes
+			}
+		}
+	}
+	planet_jobs_trade_produces_mult = @pif_telepath_economic_modifiers_planet_jobs_trade_produces_mult_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+			is_transcendent_authority = yes
+		}
+	}
+	planet_biologists_upkeep_mult = @pif_telepath_economic_modifiers_planet_biologists_upkeep_mult_4
+	planet_physicists_upkeep_mult = @pif_telepath_economic_modifiers_planet_physicists_upkeep_mult_5
+	planet_engineers_upkeep_mult = @pif_telepath_economic_modifiers_planet_engineers_upkeep_mult_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = animator_of_clay_accord
+		}
+	}
+	planet_metallurgists_produces_mult = @pif_telepath_economic_modifiers_planet_metallurgists_produces_mult_7
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = pale_mountain_accord
+		}
+	}
+	planet_miners_produces_mult = @pif_telepath_economic_modifiers_planet_miners_produces_mult_8
+}

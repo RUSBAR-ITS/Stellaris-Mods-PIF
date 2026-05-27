@@ -1,0 +1,17 @@
+# PIF job category: TPM
+# Vanilla job: coordinator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		OR = {
+			has_modifier = planet_artifact_relays_machine
+			has_modifier = planet_artifact_relays_hivemind
+		}
+	}
+	modifier = {
+		planet_stability_add = @pif_coordinator_tpm_planet_stability_add_1
+		planet_jobs_simple_drone_produces_mult = @pif_coordinator_tpm_planet_jobs_simple_drone_produces_mult_2
+	}
+}

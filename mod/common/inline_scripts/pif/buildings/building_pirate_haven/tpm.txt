@@ -1,0 +1,20 @@
+# PIF building category: TPM
+# Vanilla building: building_pirate_haven
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_naval_cap_add = @pif_building_pirate_haven_tpm_country_naval_cap_add_1
+	mult = value:branch_office_value_for_buildings
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_criminal_add = @pif_building_pirate_haven_jobs_job_criminal_add_6
+	army_starting_experience_add = @pif_building_pirate_haven_planet_state_army_starting_experience_add_2
+}

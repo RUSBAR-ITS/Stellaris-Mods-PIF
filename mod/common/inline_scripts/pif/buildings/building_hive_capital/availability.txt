@@ -1,0 +1,31 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hive_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_hive_empire = yes
+			is_country_type = swarm
+		}
+		is_fallen_empire = no
+		is_wilderness_empire = no
+	}
+	uses_habitat_capitals = no
+	NOT = {
+		is_planet_class = pc_cosmogenesis_world
+	}
+}
+
+prerequisites = {
+	"tech_planetary_government"
+}
+
+show_tech_unlock_if = {
+	is_hive_empire = yes
+	is_wilderness_empire = no
+}

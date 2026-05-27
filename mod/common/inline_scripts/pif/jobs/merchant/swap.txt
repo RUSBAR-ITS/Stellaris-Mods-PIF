@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: merchant
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = RULER_JOB_TRIGGER
+		building_icon = building_galactic_stock_exchange
+	}
+}

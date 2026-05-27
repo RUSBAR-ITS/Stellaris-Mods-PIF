@@ -1,0 +1,6 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_transcendental_retreat
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+# Empty PIF building category hook.

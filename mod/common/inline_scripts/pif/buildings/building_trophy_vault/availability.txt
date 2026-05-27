@@ -1,0 +1,24 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_trophy_vault
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_trophy_vault_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	is_special_colony_type = no
+	owner = {
+		has_valid_civic = civic_machine_servitor
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_autocurating_vault"
+}
+
+show_tech_unlock_if = {
+	has_valid_civic = civic_machine_servitor
+}

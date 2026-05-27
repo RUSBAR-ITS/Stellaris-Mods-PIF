@@ -1,0 +1,25 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_lifecrypt_3
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		has_civic = civic_entropy_drinkers
+	}
+}
+
+show_tech_unlock_if = {
+	has_civic = civic_entropy_drinkers
+}
+
+prerequisites = {
+	"tech_hypercomms_forum"
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}

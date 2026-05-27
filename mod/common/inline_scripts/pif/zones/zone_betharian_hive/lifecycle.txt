@@ -1,0 +1,9 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_betharian_hive
+# Vanilla source: zones/04_secondary_zones.txt
+
+convert_to = {
+	zone_betharian
+	zone_betharian_nexus
+	zone_betharian_hive
+}

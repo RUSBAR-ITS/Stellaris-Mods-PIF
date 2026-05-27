@@ -1,0 +1,32 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: civilian
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_pleasure_seeker_empire = no
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_civilian_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_pacifist = yes
+		}
+		planet = {
+			has_ethics_output = yes
+		}
+	}
+	planet_amenities_add = @pif_civilian_planet_state_planet_amenities_add_2
+	mult = value:scripted_modifier_ethics_weight_mult|MODIFIER|pop_job_amenities_mult|ETHIC|pacifist|
+}

@@ -1,0 +1,66 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/10_deposit_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_xeno_zoo = {
+	base_buildtime = @pif_building_xeno_zoo_construction_base_buildtime_1
+	category = research
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				NOT = {
+					has_valid_civic = civic_warrior_culture
+				}
+			}
+		}
+		text = pre_sapient_job_xeno_zoo_animal_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		text = pre_sapient_job_xeno_zoo_beast_tt
+	}
+	triggered_desc = {
+		text = biologist_is_xeno_zoo_keeper_tt
+	}
+	triggered_desc = {
+		text = NEW_LINE
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				NOT = {
+					has_valid_civic = civic_warrior_culture
+				}
+			}
+		}
+		text = job_xeno_zoo_animal_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		text = job_xeno_zoo_beast_effect_desc
+	}
+	inline_script = "pif/buildings/building_xeno_zoo/building_config"
+	inline_script = "pif/buildings/building_xeno_zoo/availability"
+	inline_script = "pif/buildings/building_xeno_zoo/economy"
+	inline_script = "pif/buildings/building_xeno_zoo/lifecycle"
+	inline_script = "pif/buildings/building_xeno_zoo/jobs"
+	inline_script = "pif/buildings/building_xeno_zoo/country_jobs"
+	inline_script = "pif/buildings/building_xeno_zoo/economic_modifiers"
+	inline_script = "pif/buildings/building_xeno_zoo/pop_modifiers"
+	inline_script = "pif/buildings/building_xeno_zoo/planet_state"
+	inline_script = "pif/buildings/building_xeno_zoo/tpm"
+	inline_script = "pif/buildings/building_xeno_zoo/ai"
+}

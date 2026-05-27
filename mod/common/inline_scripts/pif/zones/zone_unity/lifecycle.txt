@@ -1,0 +1,8 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_unity
+# Vanilla source: zones/00_zones.txt
+
+convert_to = {
+	zone_unity_spiritualist
+	zone_unity_bio_trophy
+}

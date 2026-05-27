@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: overlord_metallurgist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = holding_offworld_foundry
+		icon = foundry
+	}
+}

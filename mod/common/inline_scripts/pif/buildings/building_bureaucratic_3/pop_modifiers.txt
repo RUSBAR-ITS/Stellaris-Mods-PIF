@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_bureaucratic_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_bureaucrat_bonus_workforce_mult = @pif_building_bureaucratic_3_pop_modifiers_pop_bureaucrat_bonus_workforce_mult_1
+}

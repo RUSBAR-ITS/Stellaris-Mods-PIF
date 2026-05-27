@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: drone_energy_thrall
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {
+	category = planet_energy_thralls
+	produces = {
+		unity = @pif_drone_energy_thrall_job_output_output_unity_1
+	}
+}

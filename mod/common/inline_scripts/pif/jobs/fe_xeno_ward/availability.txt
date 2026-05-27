@@ -1,0 +1,26 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: fe_xeno_ward
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+is_capped_by_modifier = @pif_fe_xeno_ward_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+	is_robotic = no
+}
+
+possible_precalc = can_fill_precursor_job
+
+possible = {
+	owner = {
+		is_xenophile = yes
+	}
+	planet = {
+		has_building = building_fe_xeno_zoo
+	}
+	NOT = {
+		is_same_species = owner
+	}
+}

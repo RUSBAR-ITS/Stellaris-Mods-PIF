@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_hive_primitive_power_plant
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+building_sets = {
+	pre_ftl
+}

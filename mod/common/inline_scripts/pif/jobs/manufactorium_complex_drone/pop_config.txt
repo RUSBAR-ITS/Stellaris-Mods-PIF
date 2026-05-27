@@ -1,0 +1,28 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: manufactorium_complex_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_manufactorium_complex_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|manufactorium_complex_drone|RESOURCE|alloys|
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_manufactorium_complex_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

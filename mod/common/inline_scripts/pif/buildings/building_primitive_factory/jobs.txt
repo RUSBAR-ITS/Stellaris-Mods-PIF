@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: building_primitive_factory
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_primitive_laborer_add = @pif_building_primitive_factory_jobs_job_primitive_laborer_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_fabricator_add = @pif_building_primitive_factory_jobs_job_fabricator_add_2
+}

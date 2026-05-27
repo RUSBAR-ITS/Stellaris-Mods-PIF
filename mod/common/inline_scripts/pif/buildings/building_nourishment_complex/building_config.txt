@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_nourishment_complex
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+building_sets = {
+	fallen_empire
+	fallen_empire_farming
+}

@@ -1,0 +1,32 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: myrmeku_power_farmer_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	energy
+}
+
+weight = {
+	weight = @pif_myrmeku_power_farmer_gestalt_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|myrmeku_power_farmer_gestalt|RESOURCE|energy|
+}
+
+auto_trait_prio = {
+	trait_ingenious
+	trait_technical_skill
+	trait_robot_superconductive
+	trait_cyborg_superconductive
+	trait_malleable_energy
+	trait_adaptive_energy
+}
+
+promotion = {
+	time = @pif_myrmeku_power_farmer_gestalt_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

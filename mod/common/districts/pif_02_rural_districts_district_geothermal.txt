@@ -1,0 +1,215 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/02_rural_districts.txt
+# Object class: real
+
+district_geothermal = {
+	expansion_planner = yes
+	base_buildtime = @pif_district_geothermal_construction_build_time_days
+	overlay_icon = GFX_district_energy
+	show_on_uncolonized = {
+		uses_district_set = volcanic_world
+	}
+	expansion_planner_type = district_generator
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		text = automated_generator
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_habitat_hydroponics
+				value > 0
+			}
+		}
+		text = zone_habitat_hydroponics
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_4
+			}
+		}
+		text = generator_volatile_motes_4
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_3
+			}
+		}
+		text = generator_volatile_motes_3
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_2
+			}
+		}
+		text = generator_volatile_motes_2
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_1
+			}
+		}
+		text = generator_volatile_motes_1
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_4
+			}
+		}
+		text = generator_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_3
+			}
+		}
+		text = generator_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_2
+			}
+		}
+		text = generator_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_1
+			}
+		}
+		text = generator_1
+	}
+	triggered_name = {
+		text = generator_0
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_4
+			}
+		}
+		text = generator_volatile_motes_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_3
+			}
+		}
+		text = generator_volatile_motes_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_2
+			}
+		}
+		text = generator_volatile_motes_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_1
+			}
+		}
+		text = generator_volatile_motes_1_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_energy
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_4
+			}
+		}
+		text = generator_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_energy
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_3
+			}
+		}
+		text = generator_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_energy
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_2
+			}
+		}
+		text = generator_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_energy
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_1
+			}
+		}
+		text = generator_1_desc
+	}
+	triggered_flavor_desc = {
+		text = generator_0_desc
+	}
+	inline_script = "pif/districts/district_geothermal/zone_slots"
+	inline_script = "pif/districts/district_geothermal/availability"
+	inline_script = "pif/districts/district_geothermal/economic"
+	inline_script = "pif/districts/district_geothermal/tpm"
+	inline_script = "pif/districts/district_geothermal/lifecycle"
+	inline_script = "pif/districts/district_geothermal/ai"
+}

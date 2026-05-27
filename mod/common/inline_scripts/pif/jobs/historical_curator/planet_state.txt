@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: historical_curator
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/99_swap_jobs.txt
+
+# Empty PIF job category hook.

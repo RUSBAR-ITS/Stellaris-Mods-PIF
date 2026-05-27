@@ -1,0 +1,14 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_empyrean_shrine
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_psi_corps_tradition = no
+		}
+	}
+	planet_bureaucrats_produces_mult = @pif_building_empyrean_shrine_economic_modifiers_planet_bureaucrats_produces_mult_1
+}

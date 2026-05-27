@@ -1,0 +1,40 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_executive_retreat
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_ruthless_competition
+		}
+	}
+	job_capital_trader_add = @pif_building_executive_retreat_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_task_delegation_corporate
+		}
+	}
+	job_capital_trader_add = @pif_building_executive_retreat_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_environmental_architects_megacorp
+		}
+	}
+	job_capital_trader_add = @pif_building_executive_retreat_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_entropy_drinkers_corporate
+		}
+	}
+	job_capital_trader_add = @pif_building_executive_retreat_country_jobs_job_capital_trader_add_1
+}

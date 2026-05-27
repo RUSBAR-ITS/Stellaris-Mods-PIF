@@ -1,0 +1,10 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_stronghold
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+can_be_ruined = no
+
+upgrades = {
+	building_fortress
+}

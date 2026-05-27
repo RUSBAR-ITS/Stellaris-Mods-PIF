@@ -1,0 +1,21 @@
+# PIF category: AI
+# Vanilla district: district_craglands
+# Vanilla source: districts/05_wilderness_districts.txt
+
+ai_resource_production = {
+	unity = @pif_district_craglands_ai_ai_resource_production_unity
+	trigger = {
+		OR = {
+			has_building = building_commensal_clearing_1
+			has_building = building_commensal_clearing_2
+			has_building = building_commensal_clearing_3
+			has_building = building_commensal_clearing_4
+		}
+	}
+}
+
+exempt_from_ai_planet_specialization = yes
+
+ai_estimate_without_unemployment = yes
+
+additional_ai_weight = @pif_district_craglands_ai_additional_ai_weight

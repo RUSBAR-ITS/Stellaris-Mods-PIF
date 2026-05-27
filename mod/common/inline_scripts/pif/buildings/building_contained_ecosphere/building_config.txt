@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_contained_ecosphere
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+building_sets = {
+	government
+	research
+	society
+}

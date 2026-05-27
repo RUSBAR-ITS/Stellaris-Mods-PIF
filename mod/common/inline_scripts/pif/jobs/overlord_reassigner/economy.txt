@@ -1,0 +1,28 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_reassigner
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_reassigners
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid = yes
+			}
+		}
+		minerals = @pif_overlord_reassigner_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid = no
+				is_machine_empire = no
+				is_mechanical_empire = no
+			}
+		}
+		food = @pif_overlord_reassigner_job_upkeep_upkeep_food_2
+	}
+}

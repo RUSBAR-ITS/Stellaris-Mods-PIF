@@ -1,0 +1,22 @@
+# PIF job category: ECONOMY
+# Vanilla job: purge_sacrifice
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = pop_category_purge
+	produces = {
+		unity = @pif_purge_sacrifice_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_patron_relation = {
+					patron = the_eater_of_worlds
+				}
+			}
+		}
+		sr_zro = @pif_purge_sacrifice_job_output_output_sr_zro_2
+	}
+}

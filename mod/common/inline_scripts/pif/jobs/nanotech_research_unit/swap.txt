@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: nanotech_research_unit
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_nanolab_1
+	}
+}

@@ -1,0 +1,16 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_betharian_power_plant
+# Vanilla class: regular
+# Vanilla source: buildings/10_deposit_buildings.txt
+
+planet_limit = @pif_building_betharian_power_plant_limits_planet_limit_1
+
+potential = {
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	"tech_mine_betharian"
+}

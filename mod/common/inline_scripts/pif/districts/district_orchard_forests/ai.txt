@@ -1,0 +1,19 @@
+# PIF category: AI
+# Vanilla district: district_orchard_forests
+# Vanilla source: districts/05_wilderness_districts.txt
+
+ai_resource_production = {
+	food = @pif_district_orchard_forests_ai_ai_resource_production_food
+	trigger = {
+		OR = {
+			has_building = building_massive_growth_1
+			has_building = building_massive_growth_2
+			has_building = building_massive_growth_3
+			has_building = building_massive_growth_4
+		}
+	}
+}
+
+ai_estimate_without_unemployment = yes
+
+additional_ai_weight = @pif_district_orchard_forests_ai_additional_ai_weight

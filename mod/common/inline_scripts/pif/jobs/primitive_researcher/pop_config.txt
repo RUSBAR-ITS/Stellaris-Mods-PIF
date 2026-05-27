@@ -1,0 +1,28 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: primitive_researcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+tags = {}
+
+weight = {
+	weight = @pif_primitive_researcher_job_weight_weight_1
+	modifier = {
+		factor = @pif_primitive_researcher_job_weight_factor_2
+		is_materialist = yes
+	}
+	modifier = {
+		factor = @pif_primitive_researcher_job_weight_factor_3
+		is_spiritualist = yes
+	}
+}
+
+promotion = {
+	time = @pif_primitive_researcher_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

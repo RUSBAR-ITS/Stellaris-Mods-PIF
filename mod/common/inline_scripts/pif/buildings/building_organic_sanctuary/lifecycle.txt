@@ -1,0 +1,62 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_organic_sanctuary
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			NOT = {
+				owner = {
+					has_valid_civic = civic_machine_servitor
+				}
+			}
+		}
+		AND = {
+			owner = {
+				is_ai = yes
+			}
+			count_owned_pop_amount = {
+				limit = {
+					has_citizenship_type = {
+						type = citizenship_organic_trophy
+						country = owner
+					}
+				}
+				count <= 2000
+			}
+			num_buildings = {
+				type = building_organic_sanctuary
+				value > 3
+			}
+		}
+		AND = {
+			owner = {
+				is_ai = yes
+			}
+			count_owned_pop_amount = {
+				limit = {
+					has_citizenship_type = {
+						type = citizenship_organic_trophy
+						country = owner
+					}
+				}
+				count <= 4000
+			}
+			num_buildings = {
+				type = building_organic_paradise
+				value > 5
+			}
+		}
+	}
+}
+
+convert_to = {
+	building_luxury_residence
+	building_communal_housing
+}
+
+upgrades = {
+	"building_organic_paradise"
+}

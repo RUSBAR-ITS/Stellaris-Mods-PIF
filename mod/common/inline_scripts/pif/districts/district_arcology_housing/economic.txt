@@ -1,0 +1,13 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_arcology_housing
+# Vanilla source: districts/01_arcology_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		alloys = @pif_district_arcology_housing_construction_build_cost_alloys
+	}
+	upkeep = {
+		energy = @pif_district_arcology_housing_economy_district_upkeep_energy
+	}
+}

@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_avatar_chamber_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+# Empty PIF building category hook.

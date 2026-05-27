@@ -1,0 +1,26 @@
+# PIF job category: ECONOMY
+# Vanilla job: event_purge
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_fanatic_purifiers
+			}
+		}
+		unity = @pif_event_purge_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_hive_devouring_swarm
+			}
+		}
+		society_research = @pif_event_purge_job_output_output_society_research_2
+	}
+}

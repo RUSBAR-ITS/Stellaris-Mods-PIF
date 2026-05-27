@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_carceral_test_facility = {
+	base_buildtime = @pif_building_carceral_test_facility_construction_base_buildtime_1
+	owner_type = corporate
+	category = research
+	inline_script = "pif/buildings/building_carceral_test_facility/building_config"
+	inline_script = "pif/buildings/building_carceral_test_facility/availability"
+	inline_script = "pif/buildings/building_carceral_test_facility/economy"
+	inline_script = "pif/buildings/building_carceral_test_facility/lifecycle"
+	inline_script = "pif/buildings/building_carceral_test_facility/jobs"
+	inline_script = "pif/buildings/building_carceral_test_facility/country_jobs"
+	inline_script = "pif/buildings/building_carceral_test_facility/economic_modifiers"
+	inline_script = "pif/buildings/building_carceral_test_facility/pop_modifiers"
+	inline_script = "pif/buildings/building_carceral_test_facility/planet_state"
+	inline_script = "pif/buildings/building_carceral_test_facility/tpm"
+	inline_script = "pif/buildings/building_carceral_test_facility/ai"
+}

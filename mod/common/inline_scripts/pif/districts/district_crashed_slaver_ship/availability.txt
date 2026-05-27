@@ -1,0 +1,37 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_crashed_slaver_ship
+# Vanilla source: districts/00_urban_districts.txt
+
+potential = {
+	uses_district_set = standard
+	has_deposit = d_crashed_slaver_ship
+	if = {
+		limit = {
+			exists = owner
+		}
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
+			}
+		}
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+}
+
+allow = {
+	hidden_trigger = {
+		NAND = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
+	}
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}

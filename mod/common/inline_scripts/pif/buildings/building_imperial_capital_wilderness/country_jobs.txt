@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_imperial_capital_wilderness
+# Vanilla class: capital
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+# Empty PIF building category hook.

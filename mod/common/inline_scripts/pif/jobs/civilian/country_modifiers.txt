@@ -1,0 +1,42 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: civilian
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_modifier = paragon_origin_strengthened_government_iii
+		}
+	}
+	country_edict_fund_add = @pif_civilian_country_modifiers_country_edict_fund_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_militarist = yes
+		}
+		planet = {
+			has_ethics_output = yes
+		}
+	}
+	country_naval_cap_add = @pif_civilian_country_modifiers_country_naval_cap_add_2
+	mult = value:scripted_ethics_weight_mult|ETHIC|militarist|
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_authoritarian = yes
+		}
+		planet = {
+			has_ethics_output = yes
+		}
+	}
+	country_edict_fund_add = @pif_civilian_country_modifiers_country_edict_fund_add_1
+	mult = value:scripted_ethics_weight_mult|ETHIC|authoritarian|
+}

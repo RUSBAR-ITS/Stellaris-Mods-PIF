@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_communal_housing = {
+	base_buildtime = @pif_building_communal_housing_construction_base_buildtime_1
+	icon = building_residence
+	category = amenity
+	inline_script = "pif/buildings/building_communal_housing/building_config"
+	inline_script = "pif/buildings/building_communal_housing/availability"
+	inline_script = "pif/buildings/building_communal_housing/economy"
+	inline_script = "pif/buildings/building_communal_housing/lifecycle"
+	inline_script = "pif/buildings/building_communal_housing/jobs"
+	inline_script = "pif/buildings/building_communal_housing/country_jobs"
+	inline_script = "pif/buildings/building_communal_housing/economic_modifiers"
+	inline_script = "pif/buildings/building_communal_housing/pop_modifiers"
+	inline_script = "pif/buildings/building_communal_housing/planet_state"
+	inline_script = "pif/buildings/building_communal_housing/tpm"
+	inline_script = "pif/buildings/building_communal_housing/ai"
+}

@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: xeno_geology_holomuseum
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_entertainer_add = @pif_xeno_geology_holomuseum_jobs_job_entertainer_add_1
+}

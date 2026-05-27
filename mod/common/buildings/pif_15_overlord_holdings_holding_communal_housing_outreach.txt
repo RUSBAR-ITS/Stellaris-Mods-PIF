@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_communal_housing_outreach = {
+	base_buildtime = @pif_holding_communal_housing_outreach_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_residence
+	category = amenity
+	inline_script = "pif/buildings/holding_communal_housing_outreach/building_config"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/availability"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/economy"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/lifecycle"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/jobs"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/country_jobs"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/economic_modifiers"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/pop_modifiers"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/planet_state"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/tpm"
+	inline_script = "pif/buildings/holding_communal_housing_outreach/ai"
+}

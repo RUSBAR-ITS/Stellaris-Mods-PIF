@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_eater_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	ship_weapon_range_mult = 0.1
+	ships_upkeep_mult = @pif_building_eater_sanctum_economic_modifiers_ships_upkeep_mult_1
+}

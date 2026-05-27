@@ -1,0 +1,57 @@
+# PIF job category: SWAP
+# Vanilla job: mining_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_mineral_purification_plant
+	}
+	swap_type = {
+		trigger = {
+			OR = {
+				has_deposit = d_space_ship_graveyard
+				is_planet_class = pc_shattered_ring_habitable
+			}
+		}
+		name = scrap_miner_drone
+		desc = scrap_miner_drone
+		building_icon = building_mineral_purification_plant
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 2
+	}
+	swap_type = {
+		trigger = {
+			miner_is_crystal_miner_trigger = yes
+		}
+		icon = crystal_mining_drone
+		name = crystal_mining_drone
+		desc = crystal_mining_drone
+		building_icon = building_crystal_mines
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = grubsymbiont
+		desc = grubsymbiont
+		icon = grubsymbiont
+		building_icon = churning_tunnels_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			miner_is_thermoforger_trigger = yes
+		}
+		icon = mining_drone
+		name = melt_extractor_drone
+		desc = melt_extractor_drone
+		weight = 15
+	}
+}

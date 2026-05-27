@@ -1,0 +1,24 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_foundry_upkeep_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+planet_limit = @pif_building_foundry_upkeep_1_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	tech_alloys_1
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

@@ -1,0 +1,13 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_battle_thrall
+# Vanilla source: districts/00_urban_districts.txt
+
+resources = {
+	category = planet_districts_industrial
+	cost = {
+		minerals = @pif_district_battle_thrall_construction_build_cost_minerals
+	}
+	upkeep = {
+		energy = @pif_district_battle_thrall_economy_district_upkeep_energy
+	}
+}

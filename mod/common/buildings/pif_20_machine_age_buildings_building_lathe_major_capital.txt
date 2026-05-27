@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_lathe_major_capital = {
+	base_buildtime = @pif_building_lathe_major_capital_construction_base_buildtime_1
+	capital = yes
+	position_priority = 0
+	capital_tier = 3
+	category = government
+	inline_script = "pif/buildings/building_lathe_major_capital/building_config"
+	inline_script = "pif/buildings/building_lathe_major_capital/availability"
+	inline_script = "pif/buildings/building_lathe_major_capital/economy"
+	inline_script = "pif/buildings/building_lathe_major_capital/lifecycle"
+	inline_script = "pif/buildings/building_lathe_major_capital/jobs"
+	inline_script = "pif/buildings/building_lathe_major_capital/country_jobs"
+	inline_script = "pif/buildings/building_lathe_major_capital/economic_modifiers"
+	inline_script = "pif/buildings/building_lathe_major_capital/pop_modifiers"
+	inline_script = "pif/buildings/building_lathe_major_capital/planet_state"
+	inline_script = "pif/buildings/building_lathe_major_capital/tpm"
+	inline_script = "pif/buildings/building_lathe_major_capital/ai"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+civilian = {
+	category = civilian
+	inline_script = "pif/jobs/civilian/swap"
+	inline_script = "pif/jobs/civilian/availability"
+	inline_script = "pif/jobs/civilian/pop_config"
+	inline_script = "pif/jobs/civilian/economy"
+	inline_script = "pif/jobs/civilian/planet_state"
+	inline_script = "pif/jobs/civilian/country_modifiers"
+	inline_script = "pif/jobs/civilian/pop_modifiers"
+	inline_script = "pif/jobs/civilian/economic_modifiers"
+	inline_script = "pif/jobs/civilian/tpm"
+}

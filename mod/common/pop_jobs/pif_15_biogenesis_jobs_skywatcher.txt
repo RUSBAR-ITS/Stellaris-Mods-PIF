@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_biogenesis_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+skywatcher = {
+	category = specialist
+	inline_script = "pif/jobs/skywatcher/swap"
+	inline_script = "pif/jobs/skywatcher/availability"
+	inline_script = "pif/jobs/skywatcher/pop_config"
+	inline_script = "pif/jobs/skywatcher/economy"
+	inline_script = "pif/jobs/skywatcher/planet_state"
+	inline_script = "pif/jobs/skywatcher/country_modifiers"
+	inline_script = "pif/jobs/skywatcher/pop_modifiers"
+	inline_script = "pif/jobs/skywatcher/economic_modifiers"
+	inline_script = "pif/jobs/skywatcher/tpm"
+}

@@ -1,0 +1,25 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_offspring_nest
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_offspring_nest_limits_planet_limit_1
+
+potential = {
+	owner = {
+		is_wilderness_empire = no
+		overlord = {
+			is_hive_empire = yes
+			has_origin = origin_progenitor_hive
+		}
+	}
+	has_overlord_dlc = yes
+}
+
+allow = {
+	owner = {
+		NOT = {
+			has_origin = origin_progenitor_hive
+		}
+	}
+}

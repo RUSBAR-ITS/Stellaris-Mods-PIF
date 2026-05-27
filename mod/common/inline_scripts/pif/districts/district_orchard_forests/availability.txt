@@ -1,0 +1,21 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_orchard_forests
+# Vanilla source: districts/05_wilderness_districts.txt
+
+potential = {
+	uses_district_set = standard
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+allow = {
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	tech_industrial_farming
+}

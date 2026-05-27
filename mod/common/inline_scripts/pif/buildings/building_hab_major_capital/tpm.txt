@@ -1,0 +1,83 @@
+# PIF building category: TPM
+# Vanilla building: building_hab_major_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_hab_major_capital_planet_state_planet_housing_add_4
+	planet_amenities_add = @pif_building_hab_major_capital_planet_state_planet_amenities_add_5
+	planet_max_branch_office_buildings_add = @pif_building_hab_major_capital_planet_state_planet_max_branch_office_buildings_add_6
+	planet_defense_armies_add = @pif_building_hab_major_capital_planet_state_planet_defense_armies_add_7
+	pop_environment_tolerance = @pif_building_hab_major_capital_pop_modifiers_pop_environment_tolerance_12
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		is_capital = yes
+		owner = {
+			is_megacorp = yes
+			has_origin = origin_evolutionary_predators
+			is_mutation_authority = yes
+		}
+	}
+	commercial_pact_mult = @pif_building_hab_major_capital_tpm_commercial_pact_mult_1
+	mult = owner.species.species_traits_evopred_count
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_worker_coop_empire = no
+			has_active_tradition = tr_domination_imperious_architecture
+		}
+	}
+	planet_housing_add = @pif_building_hab_major_capital_planet_state_planet_housing_add_8
+	job_politician_add = @pif_building_hab_major_capital_jobs_job_politician_add_16
+	mult = value:imperious_architecture_scaling_value
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_worker_coop_empire = yes
+			has_active_tradition = tr_domination_imperious_architecture
+		}
+	}
+	planet_housing_add = @pif_building_hab_major_capital_planet_state_planet_housing_add_8
+	job_bureaucrat_add = @pif_building_hab_major_capital_jobs_job_bureaucrat_add_17
+	mult = value:imperious_architecture_scaling_value
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_wilderness_empire = no
+			has_active_tradition = tr_domination_synaptic_extensions
+		}
+	}
+	planet_housing_add = @pif_building_hab_major_capital_planet_state_planet_housing_add_9
+	job_coordinator_add = @pif_building_hab_major_capital_jobs_job_coordinator_add_18
+	mult = value:imperious_architecture_scaling_value
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_coordinator_add = @pif_building_hab_major_capital_jobs_job_coordinator_add_19
+	job_patrol_drone_add = @pif_building_hab_major_capital_jobs_job_patrol_drone_add_20
+	planet_amenities_add = @pif_building_hab_major_capital_planet_state_planet_amenities_add_10
+}

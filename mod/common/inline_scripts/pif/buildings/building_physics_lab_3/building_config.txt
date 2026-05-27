@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_physics_lab_3
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+building_sets = {
+	research
+	physics
+}

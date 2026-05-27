@@ -1,0 +1,27 @@
+# PIF building category: TPM
+# Vanilla building: building_cyberdome
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_cyberdome_spectator_add = @pif_building_cyberdome_jobs_job_cyberdome_spectator_add_1
+	planet_entertainers_unity_produces_add = @pif_building_cyberdome_economic_modifiers_planet_entertainers_unity_produces_add_1
+	planet_entertainers_alloys_upkeep_add = @pif_building_cyberdome_economic_modifiers_planet_entertainers_alloys_upkeep_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_edict = neurocasted_spectacles
+		}
+	}
+	planet_housing_add = @pif_building_cyberdome_planet_state_planet_housing_add_1
+	planet_resettlement_unemployed_destination_mult = @pif_building_cyberdome_pop_modifiers_planet_resettlement_unemployed_destination_mult_1
+	planet_pops_upkeep_mult = @pif_building_cyberdome_economic_modifiers_planet_pops_upkeep_mult_3
+	job_cyberdome_duelist_add = @pif_building_cyberdome_jobs_job_cyberdome_duelist_add_2
+	job_cyberdome_spectator_add = @pif_building_cyberdome_jobs_job_cyberdome_spectator_add_3
+}

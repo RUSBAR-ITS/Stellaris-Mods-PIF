@@ -1,0 +1,51 @@
+# PIF job category: SWAP
+# Vanilla job: biologist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_research_lab_1
+	}
+	swap_type = {
+		trigger = {
+			biologist_is_ranger_trigger = yes
+		}
+		name = ranger
+		desc = ranger
+		icon = ranger
+		building_icon = holding_park_ranger_lodge
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			biologist_is_vent_researcher_trigger = yes
+		}
+		name = stratovent_researcher
+		desc = stratovent_researcher
+		icon = xeno_zoo_keeper
+		building_icon = building_nanolab_1
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			biologist_is_zookeeper_trigger = yes
+		}
+		name = xeno_zoo_keeper
+		desc = xeno_zoo_keeper
+		icon = xeno_zoo_keeper
+		building_icon = building_xeno_zoo
+		weight = 15
+	}
+	swap_type = {
+		trigger = {
+			biologist_is_archaeo_engineer_trigger = yes
+		}
+		name = archaeoengineers
+		desc = archaeoengineers
+		icon = archaeoengineers
+		building_icon = building_archaeostudies_faculty
+		weight = 20
+	}
+}

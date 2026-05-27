@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_institute
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+planet_limit = @pif_building_institute_limits_planet_limit_1
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+	exists = owner
+	owner = {
+		is_regular_empire = yes
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_global_research_initiative"
+}
+
+show_tech_unlock_if = {
+	is_regular_empire = yes
+}

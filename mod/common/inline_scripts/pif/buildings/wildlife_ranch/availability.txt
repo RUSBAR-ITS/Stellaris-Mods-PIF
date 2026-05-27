@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: wildlife_ranch
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+planet_limit = @pif_wildlife_ranch_limits_planet_limit_1
+
+potential = {
+	owner = {
+		has_origin = origin_primal_calling
+	}
+	NOR = {
+		has_building = hunting_grounds
+		has_building = wildlife_sanctuary
+		has_building = primal_arena
+		has_building = symbiosis_nexus
+	}
+}

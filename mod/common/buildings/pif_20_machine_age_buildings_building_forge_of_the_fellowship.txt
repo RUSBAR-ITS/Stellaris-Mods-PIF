@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_forge_of_the_fellowship = {
+	position_priority = 100
+	base_buildtime = @pif_building_forge_of_the_fellowship_construction_base_buildtime_1
+	category = manufacturing
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/building_config"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/availability"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/economy"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/lifecycle"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/jobs"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/country_jobs"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/economic_modifiers"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/pop_modifiers"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/planet_state"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/tpm"
+	inline_script = "pif/buildings/building_forge_of_the_fellowship/ai"
+}

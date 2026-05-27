@@ -1,0 +1,10 @@
+# PIF building category: AI
+# Vanilla building: building_cradle_of_rebirth
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+ai_estimate_without_unemployment = yes
+
+ai_weight_coefficient = @pif_building_cradle_of_rebirth_ai_ai_weight_coefficient_1
+
+additional_ai_weight = @pif_building_cradle_of_rebirth_ai_additional_ai_weight_2

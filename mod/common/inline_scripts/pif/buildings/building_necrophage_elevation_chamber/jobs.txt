@@ -1,0 +1,25 @@
+# PIF building category: JOBS
+# Vanilla building: building_necrophage_elevation_chamber
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_necro_apprentice_add = @pif_building_necrophage_elevation_chamber_jobs_job_necro_apprentice_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		organic_pops_last_month_growth >= @pif_building_necrophage_elevation_chamber_pop_modifiers_organic_pops_last_month_growth_1
+	}
+	job_necro_apprentice_add = @pif_building_necrophage_elevation_chamber_jobs_job_necro_apprentice_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		organic_pops_last_month_growth >= @pif_building_necrophage_elevation_chamber_pop_modifiers_organic_pops_last_month_growth_2
+	}
+	job_necro_apprentice_add = @pif_building_necrophage_elevation_chamber_jobs_job_necro_apprentice_add_1
+}

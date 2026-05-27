@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/01_ruler_jobs.txt
+# Object type: pop_job
+# Job class: ruler
+
+politician = {
+	category = ruler
+	inline_script = "pif/jobs/politician/swap"
+	inline_script = "pif/jobs/politician/availability"
+	inline_script = "pif/jobs/politician/pop_config"
+	inline_script = "pif/jobs/politician/economy"
+	inline_script = "pif/jobs/politician/planet_state"
+	inline_script = "pif/jobs/politician/country_modifiers"
+	inline_script = "pif/jobs/politician/pop_modifiers"
+	inline_script = "pif/jobs/politician/economic_modifiers"
+	inline_script = "pif/jobs/politician/tpm"
+}

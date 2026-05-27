@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+knight = {
+	category = specialist
+	inline_script = "pif/jobs/knight/swap"
+	inline_script = "pif/jobs/knight/availability"
+	inline_script = "pif/jobs/knight/pop_config"
+	inline_script = "pif/jobs/knight/economy"
+	inline_script = "pif/jobs/knight/planet_state"
+	inline_script = "pif/jobs/knight/country_modifiers"
+	inline_script = "pif/jobs/knight/pop_modifiers"
+	inline_script = "pif/jobs/knight/economic_modifiers"
+	inline_script = "pif/jobs/knight/tpm"
+}

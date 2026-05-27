@@ -1,0 +1,9 @@
+# PIF job category: TPM
+# Vanilla job: skywatcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+system_modifier = {
+	defensive_stations_tracking_add = @pif_skywatcher_tpm_defensive_stations_tracking_add_1
+	defensive_stations_weapon_range_mult = @pif_skywatcher_tpm_defensive_stations_weapon_range_mult_2
+}

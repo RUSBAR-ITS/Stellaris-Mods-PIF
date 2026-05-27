@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+overlord_ranger = {
+	category = worker
+	inline_script = "pif/jobs/overlord_ranger/swap"
+	inline_script = "pif/jobs/overlord_ranger/availability"
+	inline_script = "pif/jobs/overlord_ranger/pop_config"
+	inline_script = "pif/jobs/overlord_ranger/economy"
+	inline_script = "pif/jobs/overlord_ranger/planet_state"
+	inline_script = "pif/jobs/overlord_ranger/country_modifiers"
+	inline_script = "pif/jobs/overlord_ranger/pop_modifiers"
+	inline_script = "pif/jobs/overlord_ranger/economic_modifiers"
+	inline_script = "pif/jobs/overlord_ranger/tpm"
+}

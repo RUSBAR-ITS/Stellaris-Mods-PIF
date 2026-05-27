@@ -1,0 +1,51 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: mining_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	minerals
+	strategic_resource
+}
+
+weight = {
+	weight = @pif_mining_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|mining_drone|RESOURCE|minerals|
+	modifier = {
+		factor = @pif_mining_drone_job_weight_factor_2
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+	modifier = {
+		factor = @pif_mining_drone_job_weight_factor_3
+		owner = {
+			has_monthly_income = {
+				resource = minerals
+				value > 85
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_industrious
+	trait_crack_miner
+	trait_robot_power_drills
+	trait_cyborg_power_drills
+	trait_malleable_minerals
+	trait_adaptive_minerals
+}
+
+promotion = {
+	time = @pif_mining_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

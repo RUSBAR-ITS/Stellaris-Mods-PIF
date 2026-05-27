@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_biolab_2
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+# Empty PIF building category hook.

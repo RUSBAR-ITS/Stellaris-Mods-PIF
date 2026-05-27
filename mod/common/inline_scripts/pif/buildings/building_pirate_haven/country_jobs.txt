@@ -1,0 +1,22 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_pirate_haven
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_private_military_companies
+		}
+	}
+	job_capital_trader_add = @pif_building_pirate_haven_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_crusader_spirit_corporate
+		}
+	}
+	job_capital_trader_add = @pif_building_pirate_haven_country_jobs_job_capital_trader_add_1
+}

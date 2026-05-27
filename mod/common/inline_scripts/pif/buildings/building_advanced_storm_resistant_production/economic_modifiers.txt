@@ -1,0 +1,44 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_advanced_storm_resistant_production
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		solar_system = {
+			is_inside_storm = yes
+		}
+	}
+	modifier = {
+		planet_miners_minerals_produces_add = @pif_building_advanced_storm_resistant_production_economic_modifiers_planet_miners_minerals_produces_add_1
+		planet_farmers_food_produces_add = @pif_building_advanced_storm_resistant_production_economic_modifiers_planet_farmers_food_produces_add_2
+		planet_technician_energy_produces_add = @pif_building_advanced_storm_resistant_production_economic_modifiers_planet_technician_energy_produces_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_galactic_community_member = yes
+		}
+	}
+	modifier = {
+		planet_miners_produces_mult = @pif_building_advanced_storm_resistant_production_economic_modifiers_planet_miners_produces_mult_4
+		planet_farmers_produces_mult = @pif_building_advanced_storm_resistant_production_economic_modifiers_planet_farmers_produces_mult_5
+		planet_technician_produces_mult = @pif_building_advanced_storm_resistant_production_economic_modifiers_planet_technician_produces_mult_6
+	}
+	mult = value:storm_building_production_multiplier
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_cosmic_storms_dlc = yes
+		exists = owner
+		owner = {
+			has_origin = origin_storm_chasers
+		}
+	}
+	planet_jobs_unity_produces_mult = @pif_building_advanced_storm_resistant_production_economic_modifiers_planet_jobs_unity_produces_mult_7
+}

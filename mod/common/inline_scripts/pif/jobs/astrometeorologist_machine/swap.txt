@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: astrometeorologist_machine
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/12_cosmic_storm_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_astrometeorology_observation_center
+	}
+}

@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_overseer_homes
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_overseer_homes_planet_state_planet_housing_add_1
+	job_slave_overseer_add = @pif_building_overseer_homes_jobs_job_slave_overseer_add_1
+}

@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_galactic_stock_exchange
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_trader_bonus_workforce_mult = @pif_building_galactic_stock_exchange_pop_modifiers_pop_trader_bonus_workforce_mult_1
+}

@@ -1,0 +1,96 @@
+# PIF job category: ECONOMY
+# Vanilla job: spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_pop_assemblers
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid_or_infernal_empire = no
+			}
+		}
+		food = @pif_spawning_drone_job_upkeep_upkeep_food_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid_empire = yes
+			}
+		}
+		minerals = @pif_spawning_drone_job_upkeep_upkeep_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_infernal_empire = yes
+			}
+		}
+		alloys = @pif_spawning_drone_job_upkeep_upkeep_alloys_3
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				healthcare_is_genomic_researcher_trigger = yes
+			}
+		}
+		society_research = @pif_spawning_drone_job_output_output_society_research_1
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				healthcare_is_genomic_researcher_trigger = yes
+			}
+			exists = owner
+			owner = {
+				has_completed_genetic_situation = yes
+			}
+		}
+		society_research = @pif_spawning_drone_job_output_output_society_research_1
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				healthcare_is_genomic_researcher_trigger = yes
+			}
+			exists = owner
+			owner = {
+				is_lithoid_or_infernal_empire = no
+			}
+		}
+		food = @pif_spawning_drone_job_upkeep_upkeep_food_1
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				healthcare_is_genomic_researcher_trigger = yes
+			}
+			exists = owner
+			owner = {
+				is_lithoid_empire = yes
+			}
+		}
+		minerals = @pif_spawning_drone_job_upkeep_upkeep_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				healthcare_is_genomic_researcher_trigger = yes
+			}
+			exists = owner
+			owner = {
+				is_infernal_empire = yes
+			}
+		}
+		alloys = @pif_spawning_drone_job_upkeep_upkeep_alloys_3
+	}
+}

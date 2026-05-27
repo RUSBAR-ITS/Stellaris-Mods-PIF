@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/04_gestalt_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+archaeo_drone = {
+	category = complex_drone
+	inline_script = "pif/jobs/archaeo_drone/swap"
+	inline_script = "pif/jobs/archaeo_drone/availability"
+	inline_script = "pif/jobs/archaeo_drone/pop_config"
+	inline_script = "pif/jobs/archaeo_drone/economy"
+	inline_script = "pif/jobs/archaeo_drone/planet_state"
+	inline_script = "pif/jobs/archaeo_drone/country_modifiers"
+	inline_script = "pif/jobs/archaeo_drone/pop_modifiers"
+	inline_script = "pif/jobs/archaeo_drone/economic_modifiers"
+	inline_script = "pif/jobs/archaeo_drone/tpm"
+}

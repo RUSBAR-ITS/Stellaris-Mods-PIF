@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: overlord_ranger
+# Vanilla class: worker
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = holding_park_ranger_lodge
+		icon = ranger
+	}
+}

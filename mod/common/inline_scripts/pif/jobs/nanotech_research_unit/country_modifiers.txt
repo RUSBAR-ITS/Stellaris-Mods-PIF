@@ -1,0 +1,14 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: nanotech_research_unit
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		local_or_sector_governor_has_trait = {
+			TRAIT = leader_trait_academia_recruiter
+		}
+	}
+	country_naval_cap_add = @pif_nanotech_research_unit_country_modifiers_country_naval_cap_add_1
+	mult = planet.modifier:job_researcher_naval_cap_add
+}

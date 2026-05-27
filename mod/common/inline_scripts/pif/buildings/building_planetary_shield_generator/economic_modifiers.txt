@@ -1,0 +1,15 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_planetary_shield_generator
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		has_cosmic_storms_dlc = yes
+		exists = owner
+		owner = {
+			has_origin = origin_storm_chasers
+		}
+	}
+	planet_jobs_unity_produces_mult = @pif_building_planetary_shield_generator_economic_modifiers_planet_jobs_unity_produces_mult_1
+}

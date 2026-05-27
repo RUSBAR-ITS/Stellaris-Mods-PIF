@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_composer_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		has_shroud_dlc = no
+	}
+	planet_jobs_produces_mult = @pif_building_composer_sanctum_economic_modifiers_planet_jobs_produces_mult_1
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_primitive_clinic = {
+	base_buildtime = @pif_building_primitive_clinic_construction_base_buildtime_1
+	icon = building_medical_1
+	category = amenity
+	inline_script = "pif/buildings/building_primitive_clinic/building_config"
+	inline_script = "pif/buildings/building_primitive_clinic/availability"
+	inline_script = "pif/buildings/building_primitive_clinic/economy"
+	inline_script = "pif/buildings/building_primitive_clinic/lifecycle"
+	inline_script = "pif/buildings/building_primitive_clinic/jobs"
+	inline_script = "pif/buildings/building_primitive_clinic/country_jobs"
+	inline_script = "pif/buildings/building_primitive_clinic/economic_modifiers"
+	inline_script = "pif/buildings/building_primitive_clinic/pop_modifiers"
+	inline_script = "pif/buildings/building_primitive_clinic/planet_state"
+	inline_script = "pif/buildings/building_primitive_clinic/tpm"
+	inline_script = "pif/buildings/building_primitive_clinic/ai"
+}

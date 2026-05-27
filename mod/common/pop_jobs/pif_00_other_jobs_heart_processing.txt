@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+heart_processing = {
+	category = wilderness_heart_strata
+	inline_script = "pif/jobs/heart_processing/swap"
+	inline_script = "pif/jobs/heart_processing/availability"
+	inline_script = "pif/jobs/heart_processing/pop_config"
+	inline_script = "pif/jobs/heart_processing/economy"
+	inline_script = "pif/jobs/heart_processing/planet_state"
+	inline_script = "pif/jobs/heart_processing/country_modifiers"
+	inline_script = "pif/jobs/heart_processing/pop_modifiers"
+	inline_script = "pif/jobs/heart_processing/economic_modifiers"
+	inline_script = "pif/jobs/heart_processing/tpm"
+}

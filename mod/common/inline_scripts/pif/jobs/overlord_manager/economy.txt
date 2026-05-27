@@ -1,0 +1,22 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_manager
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_managers
+	produces = {
+		unity = @pif_overlord_manager_job_output_output_unity_1
+		trade = @pif_overlord_manager_job_output_output_trade_2
+	}
+	upkeep = {
+		consumer_goods = @pif_overlord_manager_job_upkeep_upkeep_consumer_goods_1
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_managers
+	produces = {
+		unity = @pif_overlord_manager_overlord_output_overlord_output_unity_1
+	}
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_master_archive = {
+	base_buildtime = @pif_building_master_archive_construction_base_buildtime_1
+	category = research
+	inline_script = "pif/buildings/building_master_archive/building_config"
+	inline_script = "pif/buildings/building_master_archive/availability"
+	inline_script = "pif/buildings/building_master_archive/economy"
+	inline_script = "pif/buildings/building_master_archive/lifecycle"
+	inline_script = "pif/buildings/building_master_archive/jobs"
+	inline_script = "pif/buildings/building_master_archive/country_jobs"
+	inline_script = "pif/buildings/building_master_archive/economic_modifiers"
+	inline_script = "pif/buildings/building_master_archive/pop_modifiers"
+	inline_script = "pif/buildings/building_master_archive/planet_state"
+	inline_script = "pif/buildings/building_master_archive/tpm"
+	inline_script = "pif/buildings/building_master_archive/ai"
+}

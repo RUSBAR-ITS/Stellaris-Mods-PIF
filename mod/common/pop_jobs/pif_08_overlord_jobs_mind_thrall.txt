@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+mind_thrall = {
+	category = worker
+	inline_script = "pif/jobs/mind_thrall/swap"
+	inline_script = "pif/jobs/mind_thrall/availability"
+	inline_script = "pif/jobs/mind_thrall/pop_config"
+	inline_script = "pif/jobs/mind_thrall/economy"
+	inline_script = "pif/jobs/mind_thrall/planet_state"
+	inline_script = "pif/jobs/mind_thrall/country_modifiers"
+	inline_script = "pif/jobs/mind_thrall/pop_modifiers"
+	inline_script = "pif/jobs/mind_thrall/economic_modifiers"
+	inline_script = "pif/jobs/mind_thrall/tpm"
+}

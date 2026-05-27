@@ -1,0 +1,58 @@
+# PIF building category: JOBS
+# Vanilla building: building_galactic_stock_exchange
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_trader_add = @pif_building_galactic_stock_exchange_jobs_job_trader_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			has_active_tradition = tr_mercantile_commercial_enterprise
+		}
+	}
+	job_trader_add = @pif_building_galactic_stock_exchange_jobs_job_trader_add_1
+	mult = @pif_building_galactic_stock_exchange_jobs_job_trader_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_logistics_drone_add = @pif_building_galactic_stock_exchange_jobs_job_logistics_drone_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			has_active_tradition = tr_logistics_2
+		}
+	}
+	job_logistics_drone_add = @pif_building_galactic_stock_exchange_jobs_job_logistics_drone_add_3
+	mult = @pif_building_galactic_stock_exchange_jobs_job_logistics_drone_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_merchant_guilds
+		}
+	}
+	job_politician_add = @pif_building_galactic_stock_exchange_jobs_job_politician_add_5
+}

@@ -1,0 +1,34 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_eater_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+empire_limit = {
+	base = @pif_building_eater_sanctum_limits_base_1
+}
+
+potential = {
+	exists = owner
+	OR = {
+		AND = {
+			has_shroud_dlc = no
+			owner = {
+				has_country_flag = eater_covenant_rank_1
+			}
+		}
+		AND = {
+			has_shroud_dlc = yes
+			owner = {
+				has_country_flag = hunger_accord
+			}
+		}
+	}
+	NOR = {
+		has_designation = col_resort
+		has_modifier = slave_colony
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}

@@ -1,0 +1,36 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_catalytic_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_metallurgists
+	upkeep = {
+		food = @pif_overlord_catalytic_drone_job_upkeep_upkeep_food_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+			}
+		}
+		food = @pif_overlord_catalytic_drone_job_upkeep_upkeep_food_2
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_metallurgists
+	produces = {
+		alloys = @pif_overlord_catalytic_drone_overlord_output_overlord_output_alloys_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+			}
+		}
+		alloys = @pif_overlord_catalytic_drone_overlord_output_overlord_output_alloys_2
+	}
+}

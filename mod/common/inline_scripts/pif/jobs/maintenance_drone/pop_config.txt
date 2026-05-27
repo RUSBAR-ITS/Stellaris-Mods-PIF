@@ -1,0 +1,51 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: maintenance_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+count_as_available_for_ai = @pif_maintenance_drone_job_flags_count_as_available_for_ai_2
+
+tags = {
+	amenities
+}
+
+weight = {
+	weight = @pif_maintenance_drone_job_weight_weight_1
+	weight = @pif_maintenance_drone_job_weight_weight_2
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		mult = value:job_weights_modifier|JOB|maintenance_drone|RESOURCE|unity|FACTOR|0.25|
+		exists = owner
+		owner = {
+			OR = {
+				has_valid_civic = civic_machine_maintenance_protocols
+				has_active_tradition = tr_versatility_operational_proxies
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_maintenance_drone_job_weight_factor_3
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+	modifier = {
+		factor = @pif_maintenance_drone_job_weight_factor_4
+		exists = owner
+		owner = {
+			has_tradition = tr_virtuality_finish
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_charismatic
+	trait_crafted_smiles
+	trait_robot_emotion_emulators
+	trait_cyborg_stainless_steel_smile
+	trait_malleable_ameneties
+	trait_adaptive_amenities
+}

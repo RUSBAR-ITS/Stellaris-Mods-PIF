@@ -1,0 +1,17 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_massive_growth_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_massive_growth_3_cost_cost_minerals_1
+		biomass = @pif_building_massive_growth_3_cost_cost_biomass_2
+		exotic_gases = @pif_building_massive_growth_3_cost_cost_exotic_gases_3
+	}
+	upkeep = {
+		minerals = @pif_building_massive_growth_3_upkeep_upkeep_minerals_1
+		exotic_gases = @pif_building_massive_growth_3_upkeep_upkeep_exotic_gases_2
+	}
+}

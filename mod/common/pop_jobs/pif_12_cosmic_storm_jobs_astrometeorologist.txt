@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/12_cosmic_storm_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+astrometeorologist = {
+	category = specialist
+	inline_script = "pif/jobs/astrometeorologist/swap"
+	inline_script = "pif/jobs/astrometeorologist/availability"
+	inline_script = "pif/jobs/astrometeorologist/pop_config"
+	inline_script = "pif/jobs/astrometeorologist/economy"
+	inline_script = "pif/jobs/astrometeorologist/planet_state"
+	inline_script = "pif/jobs/astrometeorologist/country_modifiers"
+	inline_script = "pif/jobs/astrometeorologist/pop_modifiers"
+	inline_script = "pif/jobs/astrometeorologist/economic_modifiers"
+	inline_script = "pif/jobs/astrometeorologist/tpm"
+}

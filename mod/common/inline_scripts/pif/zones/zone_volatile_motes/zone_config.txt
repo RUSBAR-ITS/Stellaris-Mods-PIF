@@ -1,0 +1,13 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_volatile_motes
+# Vanilla source: zones/00_zones.txt
+
+included_building_sets = {
+	generator
+	generator_automation
+	fallen_empire_generator
+}
+
+zone_sets = {
+	energy
+}

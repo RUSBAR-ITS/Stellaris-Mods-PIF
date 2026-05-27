@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/18_astral_planes_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_astral_siphon_2 = {
+	base_buildtime = @pif_building_astral_siphon_2_construction_base_buildtime_1
+	category = research
+	triggered_desc = {
+		text = physicist_is_astral_researcher_tt
+	}
+	inline_script = "pif/buildings/building_astral_siphon_2/building_config"
+	inline_script = "pif/buildings/building_astral_siphon_2/availability"
+	inline_script = "pif/buildings/building_astral_siphon_2/economy"
+	inline_script = "pif/buildings/building_astral_siphon_2/lifecycle"
+	inline_script = "pif/buildings/building_astral_siphon_2/jobs"
+	inline_script = "pif/buildings/building_astral_siphon_2/country_jobs"
+	inline_script = "pif/buildings/building_astral_siphon_2/economic_modifiers"
+	inline_script = "pif/buildings/building_astral_siphon_2/pop_modifiers"
+	inline_script = "pif/buildings/building_astral_siphon_2/planet_state"
+	inline_script = "pif/buildings/building_astral_siphon_2/tpm"
+	inline_script = "pif/buildings/building_astral_siphon_2/ai"
+}

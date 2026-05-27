@@ -1,0 +1,30 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_precinct_house
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+destroy_trigger = {
+	OR = {
+		AND = {
+			exists = owner
+			owner = {
+				is_regular_empire = no
+			}
+		}
+		AND = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_civil_education
+			}
+		}
+		has_modifier = slave_colony
+	}
+}
+
+convert_to = {
+	building_state_academy
+}
+
+upgrades = {
+	building_hall_judgment
+}

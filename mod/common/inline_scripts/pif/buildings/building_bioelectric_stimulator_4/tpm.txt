@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_bioelectric_stimulator_4
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_technician_energy_produces_add = @pif_building_bioelectric_stimulator_4_economic_modifiers_planet_technician_energy_produces_add_1
+	pop_technician_drone_bonus_workforce_mult = @pif_building_bioelectric_stimulator_4_pop_modifiers_pop_technician_drone_bonus_workforce_mult_1
+}

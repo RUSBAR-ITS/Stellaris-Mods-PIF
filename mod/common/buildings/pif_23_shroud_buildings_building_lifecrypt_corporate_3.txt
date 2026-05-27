@@ -1,0 +1,30 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/23_shroud_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_lifecrypt_corporate_3 = {
+	base_buildtime = @pif_building_lifecrypt_corporate_3_construction_base_buildtime_1
+	category = unity
+	icon = building_lifecrypt_3
+	triggered_desc = {
+		text = building_hypercomms_forum_effect
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+		}
+		text = job_civilian_ethics_effect
+	}
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/building_config"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/availability"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/economy"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/lifecycle"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/jobs"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/country_jobs"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/economic_modifiers"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/pop_modifiers"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/planet_state"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/tpm"
+	inline_script = "pif/buildings/building_lifecrypt_corporate_3/ai"
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/04_manufacturing_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_foundry_efficiency_1 = {
+	base_buildtime = @pif_building_foundry_efficiency_1_construction_base_buildtime_1
+	category = manufacturing
+	inline_script = "pif/buildings/building_foundry_efficiency_1/building_config"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/availability"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/economy"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/lifecycle"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/jobs"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/country_jobs"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/economic_modifiers"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/pop_modifiers"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/planet_state"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/tpm"
+	inline_script = "pif/buildings/building_foundry_efficiency_1/ai"
+}

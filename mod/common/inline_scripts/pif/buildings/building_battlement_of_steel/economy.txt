@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_battlement_of_steel
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+resources = {
+	category = planet_buildings_strongholds
+	cost = {
+		minerals = @pif_building_battlement_of_steel_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_battlement_of_steel_upkeep_upkeep_energy_1
+	}
+}

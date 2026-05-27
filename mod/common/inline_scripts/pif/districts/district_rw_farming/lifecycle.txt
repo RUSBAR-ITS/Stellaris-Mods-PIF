@@ -1,0 +1,5 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_rw_farming
+# Vanilla source: districts/04_ringworld_districts.txt
+
+

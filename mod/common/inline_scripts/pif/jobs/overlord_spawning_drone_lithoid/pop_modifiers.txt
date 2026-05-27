@@ -1,0 +1,29 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: overlord_spawning_drone_lithoid
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		is_hive_species = yes
+	}
+	bonus_pop_growth = @pif_overlord_spawning_drone_lithoid_pop_modifiers_bonus_pop_growth_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_origin = origin_necrophage
+		}
+		exists = planet.growing_species
+		planet.growing_species = {
+			NOT = {
+				has_trait = trait_hive_mind
+			}
+		}
+	}
+	modifier = {
+		logistic_growth_mult = @pif_overlord_spawning_drone_lithoid_pop_modifiers_logistic_growth_mult_2
+	}
+}

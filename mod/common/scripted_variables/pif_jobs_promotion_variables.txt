@@ -1,0 +1,1460 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: PROMOTION
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# agri_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/agri_drone/pop_config.txt
+@pif_agri_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# aid_worker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/aid_worker/pop_config.txt
+@pif_aid_worker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# aid_worker_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/aid_worker_drone/pop_config.txt
+@pif_aid_worker_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# alien_hunter
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/alien_hunter/pop_config.txt
+@pif_alien_hunter_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# archaeoengineers
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/archaeoengineers/pop_config.txt
+@pif_archaeoengineers_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# archivist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/archivist/pop_config.txt
+@pif_archivist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# artificer_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/artificer_prison_worker/pop_config.txt
+@pif_artificer_prison_worker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# artisan
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/artisan/pop_config.txt
+@pif_artisan_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# artisan_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/artisan_drone/pop_config.txt
+@pif_artisan_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# artisan_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/artisan_prison_worker/pop_config.txt
+@pif_artisan_prison_worker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# astral_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/pop_config.txt
+@pif_astral_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# astral_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/pop_config.txt
+@pif_astral_researcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# astral_unit
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/astral_unit/pop_config.txt
+@pif_astral_unit_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# astrogarbage_collector
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/astrogarbage_collector/pop_config.txt
+@pif_astrogarbage_collector_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# astrogarbage_collector_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/astrogarbage_collector_gestalt/pop_config.txt
+@pif_astrogarbage_collector_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# augmentor
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/augmentor/pop_config.txt
+@pif_augmentor_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# augmentor_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/pop_config.txt
+@pif_augmentor_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/pop_config.txt
+@pif_battle_thrall_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/bio_trophy/pop_config.txt
+@pif_bio_trophy_promotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# bio_trophy_processing
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/bio_trophy_processing/pop_config.txt
+@pif_bio_trophy_processing_promotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# bio_trophy_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/bio_trophy_unemployment/pop_config.txt
+@pif_bio_trophy_unemployment_promotion_time_1 = 1
+
+# -----------------------------------------------------------------------------
+# biologist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/biologist/pop_config.txt
+@pif_biologist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# broken_shackles_scavenger
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/broken_shackles_scavenger/pop_config.txt
+@pif_broken_shackles_scavenger_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/pop_config.txt
+@pif_bureaucrat_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# calculator_biologist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/pop_config.txt
+@pif_calculator_biologist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# calculator_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/pop_config.txt
+@pif_calculator_engineer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# calculator_physicist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/pop_config.txt
+@pif_calculator_physicist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# catalytic_technician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/catalytic_technician/pop_config.txt
+@pif_catalytic_technician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# catalytic_technician_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/catalytic_technician_prison_worker/pop_config.txt
+@pif_catalytic_technician_prison_worker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# cave_cleaner_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/cave_cleaner_gestalt/pop_config.txt
+@pif_cave_cleaner_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# chemist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/chemist/pop_config.txt
+@pif_chemist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# chemist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/chemist_drone/pop_config.txt
+@pif_chemist_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# clerk
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/clerk/pop_config.txt
+@pif_clerk_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# colonist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/colonist/pop_config.txt
+@pif_colonist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# coordinator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/coordinator/pop_config.txt
+@pif_coordinator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# cyberdome_duelist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/cyberdome_duelist/pop_config.txt
+@pif_cyberdome_duelist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# cyberdome_spectator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/cyberdome_spectator/pop_config.txt
+@pif_cyberdome_spectator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# death_chronicler
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/death_chronicler/pop_config.txt
+@pif_death_chronicler_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/pop_config.txt
+@pif_dimensional_portal_researcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/pop_config.txt
+@pif_dimensional_portal_researcher_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# disconnected_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/disconnected_drone/pop_config.txt
+@pif_disconnected_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# drone_sand_caretaker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/drone_sand_caretaker/pop_config.txt
+@pif_drone_sand_caretaker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# drone_sand_whisperer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/drone_sand_whisperer/pop_config.txt
+@pif_drone_sand_whisperer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# drone_space_junk_collector
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/drone_space_junk_collector/pop_config.txt
+@pif_drone_space_junk_collector_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# dystopian_enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/pop_config.txt
+@pif_dystopian_enforcer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# dystopian_telepath
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/pop_config.txt
+@pif_dystopian_telepath_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/enforcer/pop_config.txt
+@pif_enforcer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# engineer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/engineer/pop_config.txt
+@pif_engineer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# entertainer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/entertainer/pop_config.txt
+@pif_entertainer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# evaluator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/evaluator/pop_config.txt
+@pif_evaluator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# fabricator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/fabricator/pop_config.txt
+@pif_fabricator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# farmer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/farmer/pop_config.txt
+@pif_farmer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# foundry
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/foundry/pop_config.txt
+@pif_foundry_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# foundry_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/foundry_prison_worker/pop_config.txt
+@pif_foundry_prison_worker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# gas_plant_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/gas_plant_engineer/pop_config.txt
+@pif_gas_plant_engineer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# gas_plant_engineer_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/gas_plant_engineer_gestalt/pop_config.txt
+@pif_gas_plant_engineer_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# gas_refiner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/gas_refiner/pop_config.txt
+@pif_gas_refiner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# gas_refiner_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/gas_refiner_drone/pop_config.txt
+@pif_gas_refiner_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# gestation_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/gestation_drone/pop_config.txt
+@pif_gestation_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# haruspex
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/haruspex/pop_config.txt
+@pif_haruspex_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/healthcare/pop_config.txt
+@pif_healthcare_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# hive_basic_agri_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/hive_basic_agri_drone/pop_config.txt
+@pif_hive_basic_agri_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# hive_basic_agri_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/hive_basic_agri_drone_lithoid/pop_config.txt
+@pif_hive_basic_agri_drone_lithoid_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# hive_sustenance_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/hive_sustenance_drone/pop_config.txt
+@pif_hive_sustenance_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# hive_sustenance_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/hive_sustenance_drone_lithoid/pop_config.txt
+@pif_hive_sustenance_drone_lithoid_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# hunter_gatherer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/hunter_gatherer/pop_config.txt
+@pif_hunter_gatherer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# hunter_gatherer_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/hunter_gatherer_lithoid/pop_config.txt
+@pif_hunter_gatherer_lithoid_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# knight
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/knight/pop_config.txt
+@pif_knight_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# knight_commander
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/knight_commander/pop_config.txt
+@pif_knight_commander_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# logistics_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/logistics_drone/pop_config.txt
+@pif_logistics_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_bureaucrat/pop_config.txt
+@pif_low_tech_bureaucrat_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_farmer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_farmer/pop_config.txt
+@pif_low_tech_farmer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_laborer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_laborer/pop_config.txt
+@pif_low_tech_laborer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_manager
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_manager/pop_config.txt
+@pif_low_tech_manager_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_miner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_miner/pop_config.txt
+@pif_low_tech_miner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_priest
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_priest/pop_config.txt
+@pif_low_tech_priest_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_researcher/pop_config.txt
+@pif_low_tech_researcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_technician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_technician/pop_config.txt
+@pif_low_tech_technician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# low_tech_warrior
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/low_tech_warrior/pop_config.txt
+@pif_low_tech_warrior_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# manufactorium_complex_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_complex_drone/pop_config.txt
+@pif_manufactorium_complex_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# manufactorium_scraper_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_scraper_drone/pop_config.txt
+@pif_manufactorium_scraper_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# manufactorium_specialist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/pop_config.txt
+@pif_manufactorium_specialist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# mind_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall/pop_config.txt
+@pif_mind_thrall_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# mind_thrall_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/mind_thrall_drone/pop_config.txt
+@pif_mind_thrall_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# miner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/miner/pop_config.txt
+@pif_miner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# mineral_diver_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/mineral_diver_drone/pop_config.txt
+@pif_mineral_diver_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# mining_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/mining_drone/pop_config.txt
+@pif_mining_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# mortal_initiate
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/mortal_initiate/pop_config.txt
+@pif_mortal_initiate_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioner/pop_config.txt
+@pif_munitions_decommissioner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_drone/pop_config.txt
+@pif_munitions_decommissioning_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_unit
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit/pop_config.txt
+@pif_munitions_decommissioning_unit_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_unit_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit_lithoid/pop_config.txt
+@pif_munitions_decommissioning_unit_lithoid_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# myrmeku_power_farmer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/myrmeku_power_farmer/pop_config.txt
+@pif_myrmeku_power_farmer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# myrmeku_power_farmer_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/myrmeku_power_farmer_gestalt/pop_config.txt
+@pif_myrmeku_power_farmer_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# nanotech_research_unit
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/pop_config.txt
+@pif_nanotech_research_unit_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# nanotech_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/nanotech_researcher/pop_config.txt
+@pif_nanotech_researcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# necro_apprentice
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/necro_apprentice/pop_config.txt
+@pif_necro_apprentice_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# neural_chip_processing
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/neural_chip_processing/pop_config.txt
+@pif_neural_chip_processing_promotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# odd_factory_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/odd_factory_drone/pop_config.txt
+@pif_odd_factory_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# odd_factory_worker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/odd_factory_worker/pop_config.txt
+@pif_odd_factory_worker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_academic
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic/pop_config.txt
+@pif_overlord_academic_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_academic_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic_drone/pop_config.txt
+@pif_overlord_academic_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_arborist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_arborist/pop_config.txt
+@pif_overlord_arborist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_arborist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_arborist_drone/pop_config.txt
+@pif_overlord_arborist_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_beholder
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder/pop_config.txt
+@pif_overlord_beholder_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_beholder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder_drone/pop_config.txt
+@pif_overlord_beholder_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_bio_trophy/pop_config.txt
+@pif_overlord_bio_trophy_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_bio_trophy_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_bio_trophy_drone/pop_config.txt
+@pif_overlord_bio_trophy_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_breeder
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder/pop_config.txt
+@pif_overlord_breeder_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_breeder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder_drone/pop_config.txt
+@pif_overlord_breeder_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_catalytic_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_drone/pop_config.txt
+@pif_overlord_catalytic_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_catalytic_technician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_technician/pop_config.txt
+@pif_overlord_catalytic_technician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_fabricator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_fabricator/pop_config.txt
+@pif_overlord_fabricator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_foundry_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_foundry_drone/pop_config.txt
+@pif_overlord_foundry_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/pop_config.txt
+@pif_overlord_healthcare_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_knight
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/pop_config.txt
+@pif_overlord_knight_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_knight_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/pop_config.txt
+@pif_overlord_knight_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_manager
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_manager/pop_config.txt
+@pif_overlord_manager_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_metallurgist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_metallurgist/pop_config.txt
+@pif_overlord_metallurgist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_mortal_initiate
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_mortal_initiate/pop_config.txt
+@pif_overlord_mortal_initiate_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_mortal_initiate_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_mortal_initiate_drone/pop_config.txt
+@pif_overlord_mortal_initiate_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer/pop_config.txt
+@pif_overlord_necromancer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer_drone/pop_config.txt
+@pif_overlord_necromancer_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder/pop_config.txt
+@pif_overlord_offspring_drone_feeder_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder_drone/pop_config.txt
+@pif_overlord_offspring_drone_feeder_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_propagandist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_propagandist/pop_config.txt
+@pif_overlord_propagandist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_propagandist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_propagandist_drone/pop_config.txt
+@pif_overlord_propagandist_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_ranger
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_ranger/pop_config.txt
+@pif_overlord_ranger_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_ranger_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_ranger_drone/pop_config.txt
+@pif_overlord_ranger_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_reassigner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_reassigner/pop_config.txt
+@pif_overlord_reassigner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_reassigner_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_reassigner_drone/pop_config.txt
+@pif_overlord_reassigner_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_recruiter
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter/pop_config.txt
+@pif_overlord_recruiter_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_recruiter_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter_drone/pop_config.txt
+@pif_overlord_recruiter_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_replicator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_replicator/pop_config.txt
+@pif_overlord_replicator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone/pop_config.txt
+@pif_overlord_spawning_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone_lithoid/pop_config.txt
+@pif_overlord_spawning_drone_lithoid_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_trader
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader/pop_config.txt
+@pif_overlord_trader_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# overlord_trader_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader_drone/pop_config.txt
+@pif_overlord_trader_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# patrol_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/patrol_drone/pop_config.txt
+@pif_patrol_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# peasant
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/peasant/pop_config.txt
+@pif_peasant_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# peasant_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/peasant_lithoid/pop_config.txt
+@pif_peasant_lithoid_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# physicist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/physicist/pop_config.txt
+@pif_physicist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# politician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/politician/pop_config.txt
+@pif_politician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# polytechnic_mentor
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/polytechnic_mentor/pop_config.txt
+@pif_polytechnic_mentor_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_administrator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_administrator/pop_config.txt
+@pif_primitive_administrator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_bureaucrat/pop_config.txt
+@pif_primitive_bureaucrat_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_entertainer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_entertainer/pop_config.txt
+@pif_primitive_entertainer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_farmer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_farmer/pop_config.txt
+@pif_primitive_farmer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_brain_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_brain_drone/pop_config.txt
+@pif_primitive_hive_brain_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_cerebellum_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_cerebellum_drone/pop_config.txt
+@pif_primitive_hive_cerebellum_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_factory_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_factory_drone/pop_config.txt
+@pif_primitive_hive_factory_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_farmer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_farmer/pop_config.txt
+@pif_primitive_hive_farmer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_miner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_miner/pop_config.txt
+@pif_primitive_hive_miner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_spawning_drone/pop_config.txt
+@pif_primitive_hive_spawning_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_synapse_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_synapse_drone/pop_config.txt
+@pif_primitive_hive_synapse_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_synapse_drone_2
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_synapse_drone_2/pop_config.txt
+@pif_primitive_hive_synapse_drone_2_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_technician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_technician/pop_config.txt
+@pif_primitive_hive_technician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_warrior
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_warrior/pop_config.txt
+@pif_primitive_hive_warrior_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_hive_warrior_2
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_warrior_2/pop_config.txt
+@pif_primitive_hive_warrior_2_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_laborer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_laborer/pop_config.txt
+@pif_primitive_laborer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_miner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_miner/pop_config.txt
+@pif_primitive_miner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_noble
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_noble/pop_config.txt
+@pif_primitive_noble_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_priest
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_priest/pop_config.txt
+@pif_primitive_priest_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_priest_2
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_priest_2/pop_config.txt
+@pif_primitive_priest_2_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_researcher/pop_config.txt
+@pif_primitive_researcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_researcher_2
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_researcher_2/pop_config.txt
+@pif_primitive_researcher_2_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_technician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_technician/pop_config.txt
+@pif_primitive_technician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_warrior
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_warrior/pop_config.txt
+@pif_primitive_warrior_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# primitive_warrior_2
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/primitive_warrior_2/pop_config.txt
+@pif_primitive_warrior_2_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# puddle_technician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/puddle_technician/pop_config.txt
+@pif_puddle_technician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# puddle_technician_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/puddle_technician_drone/pop_config.txt
+@pif_puddle_technician_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# ratling_scavenger
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/ratling_scavenger/pop_config.txt
+@pif_ratling_scavenger_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# reassigner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/reassigner/pop_config.txt
+@pif_reassigner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# replicator
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/replicator/pop_config.txt
+@pif_replicator_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# resort_worker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/resort_worker/pop_config.txt
+@pif_resort_worker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# robot_caretaker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/robot_caretaker/pop_config.txt
+@pif_robot_caretaker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# roboticist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/roboticist/pop_config.txt
+@pif_roboticist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# sand_caretaker
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/sand_caretaker/pop_config.txt
+@pif_sand_caretaker_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# sand_whisperer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/sand_whisperer/pop_config.txt
+@pif_sand_whisperer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# shroud_trader
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/shroud_trader/pop_config.txt
+@pif_shroud_trader_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# skywatcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/pop_config.txt
+@pif_skywatcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# skywatcher_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/pop_config.txt
+@pif_skywatcher_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# solarpunk_anarchist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/solarpunk_anarchist/pop_config.txt
+@pif_solarpunk_anarchist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# soldier
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/soldier/pop_config.txt
+@pif_soldier_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# space_junk_collector
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/space_junk_collector/pop_config.txt
+@pif_space_junk_collector_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# space_time_anomaly_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher/pop_config.txt
+@pif_space_time_anomaly_researcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# space_time_anomaly_researcher_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher_gestalt/pop_config.txt
+@pif_space_time_anomaly_researcher_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/pop_config.txt
+@pif_spawning_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# spe_colonist
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/spe_colonist/pop_config.txt
+@pif_spe_colonist_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# squire
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/squire/pop_config.txt
+@pif_squire_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# stasis_warden
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/pop_config.txt
+@pif_stasis_warden_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# stasis_warden_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden_drone/pop_config.txt
+@pif_stasis_warden_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# stratovent_refiner
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/stratovent_refiner/pop_config.txt
+@pif_stratovent_refiner_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# stratovent_refiner_minerals
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/stratovent_refiner_minerals/pop_config.txt
+@pif_stratovent_refiner_minerals_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# stratovent_refiner_upg
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/stratovent_refiner_upg/pop_config.txt
+@pif_stratovent_refiner_upg_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# stratovent_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/stratovent_researcher/pop_config.txt
+@pif_stratovent_researcher_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# technician
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/technician/pop_config.txt
+@pif_technician_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# technician_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/technician_drone/pop_config.txt
+@pif_technician_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# technophant
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/technophant/pop_config.txt
+@pif_technophant_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# trader
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/trader/pop_config.txt
+@pif_trader_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# transference_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/transference_drone/pop_config.txt
+@pif_transference_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# transference_volunteer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/transference_volunteer/pop_config.txt
+@pif_transference_volunteer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# translucer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/translucer/pop_config.txt
+@pif_translucer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# translucer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/translucer_drone/pop_config.txt
+@pif_translucer_drone_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# treasure_gatherer
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/treasure_gatherer/pop_config.txt
+@pif_treasure_gatherer_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# treasure_gatherer_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/treasure_gatherer_gestalt/pop_config.txt
+@pif_treasure_gatherer_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# turtle_miner_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/turtle_miner_gestalt/pop_config.txt
+@pif_turtle_miner_gestalt_promotion_time_1 = 60
+
+# -----------------------------------------------------------------------------
+# warrior_drone
+# -----------------------------------------------------------------------------
+# Controls: Job promotion time.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/pop_config.txt
+@pif_warrior_drone_promotion_time_1 = 60

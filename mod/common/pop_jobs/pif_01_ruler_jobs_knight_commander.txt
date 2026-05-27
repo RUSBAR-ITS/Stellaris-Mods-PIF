@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/01_ruler_jobs.txt
+# Object type: pop_job
+# Job class: ruler
+
+knight_commander = {
+	category = ruler
+	inline_script = "pif/jobs/knight_commander/swap"
+	inline_script = "pif/jobs/knight_commander/availability"
+	inline_script = "pif/jobs/knight_commander/pop_config"
+	inline_script = "pif/jobs/knight_commander/economy"
+	inline_script = "pif/jobs/knight_commander/planet_state"
+	inline_script = "pif/jobs/knight_commander/country_modifiers"
+	inline_script = "pif/jobs/knight_commander/pop_modifiers"
+	inline_script = "pif/jobs/knight_commander/economic_modifiers"
+	inline_script = "pif/jobs/knight_commander/tpm"
+}

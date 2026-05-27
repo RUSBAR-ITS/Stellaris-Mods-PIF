@@ -1,0 +1,12 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_energy_wilderness
+# Vanilla source: zones/03_wilderness_zones.txt
+
+zone_sets = {
+	energy
+}
+
+included_building_sets = {
+	generator
+	fallen_empire_generator
+}

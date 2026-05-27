@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_order_castle
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_knight_add = @pif_building_order_castle_jobs_job_knight_add_1
+	planet_resettlement_unemployed_destination_mult = @pif_building_order_castle_pop_modifiers_planet_resettlement_unemployed_destination_mult_1
+}

@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_natural_furnace_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+# Empty PIF building category hook.

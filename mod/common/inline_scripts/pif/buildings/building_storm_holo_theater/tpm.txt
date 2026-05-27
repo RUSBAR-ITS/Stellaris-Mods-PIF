@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_storm_holo_theater
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	storm_attraction_field_modifier = @pif_building_storm_holo_theater_tpm_storm_attraction_field_modifier_1
+	planet_entertainers_physics_research_produces_add = @pif_building_storm_holo_theater_economic_modifiers_planet_entertainers_physics_research_produces_add_2
+	planet_entertainers_consumer_goods_upkeep_add = @pif_building_storm_holo_theater_economic_modifiers_planet_entertainers_consumer_goods_upkeep_add_3
+}

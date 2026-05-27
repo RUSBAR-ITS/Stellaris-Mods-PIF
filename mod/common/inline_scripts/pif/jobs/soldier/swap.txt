@@ -1,0 +1,21 @@
+# PIF job category: SWAP
+# Vanilla job: soldier
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SOLDIER_JOB_TRIGGER
+		building_icon = building_stronghold
+	}
+	swap_type = {
+		trigger = {
+			soldier_is_necromancer = yes
+		}
+		name = necromancer
+		desc = necromancer
+		icon = necromancer
+		building_icon = building_dread_encampment
+		weight = 50
+	}
+}

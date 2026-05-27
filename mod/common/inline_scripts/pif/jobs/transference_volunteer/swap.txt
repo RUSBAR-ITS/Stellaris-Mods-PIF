@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: transference_volunteer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_hive_confluence
+	}
+}

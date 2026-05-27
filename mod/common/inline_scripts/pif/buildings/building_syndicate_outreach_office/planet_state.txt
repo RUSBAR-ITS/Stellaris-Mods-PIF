@@ -1,0 +1,9 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_syndicate_outreach_office
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	planet_crime_add = @pif_building_syndicate_outreach_office_planet_state_planet_crime_add_1
+	mult = branch_office_owner.value:scripted_modifier_mult|MODIFIER|branch_office_holding_crime_mult|
+}

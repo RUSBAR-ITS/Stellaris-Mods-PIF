@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+identity_designer = {
+	category = specialist
+	inline_script = "pif/jobs/identity_designer/swap"
+	inline_script = "pif/jobs/identity_designer/availability"
+	inline_script = "pif/jobs/identity_designer/pop_config"
+	inline_script = "pif/jobs/identity_designer/economy"
+	inline_script = "pif/jobs/identity_designer/planet_state"
+	inline_script = "pif/jobs/identity_designer/country_modifiers"
+	inline_script = "pif/jobs/identity_designer/pop_modifiers"
+	inline_script = "pif/jobs/identity_designer/economic_modifiers"
+	inline_script = "pif/jobs/identity_designer/tpm"
+}

@@ -1,0 +1,30 @@
+# PIF building category: JOBS
+# Vanilla building: building_private_security
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+		branch_office_owner = {
+			is_legit_or_legal_criminal = yes
+		}
+	}
+	job_enforcer_add = @pif_building_private_security_jobs_job_enforcer_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_valid_civic = civic_dystopian_society
+		}
+		branch_office_owner = {
+			is_legit_or_legal_criminal = yes
+		}
+	}
+	job_dystopian_enforcer_add = @pif_building_private_security_jobs_job_dystopian_enforcer_add_2
+}

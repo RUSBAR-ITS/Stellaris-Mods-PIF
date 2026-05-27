@@ -1,0 +1,25 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: worker_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_unemployment.txt
+
+possible = {
+	hidden_trigger = {
+		exists = owner
+	}
+	owner = {
+		is_gestalt = no
+	}
+}
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_enslaved = no
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_worker_job
+
+is_capped_by_modifier = @pif_worker_unemployment_job_flags_is_capped_by_modifier_1

@@ -1,0 +1,12 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: patrol_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_crime_no_happiness_add = @pif_patrol_drone_planet_state_planet_crime_no_happiness_add_1
+	planet_defense_armies_add = @pif_patrol_drone_planet_state_planet_defense_armies_add_2
+}

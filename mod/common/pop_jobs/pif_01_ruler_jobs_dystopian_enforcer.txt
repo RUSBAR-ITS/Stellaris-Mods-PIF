@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/01_ruler_jobs.txt
+# Object type: pop_job
+# Job class: ruler
+
+dystopian_enforcer = {
+	category = ruler
+	inline_script = "pif/jobs/dystopian_enforcer/swap"
+	inline_script = "pif/jobs/dystopian_enforcer/availability"
+	inline_script = "pif/jobs/dystopian_enforcer/pop_config"
+	inline_script = "pif/jobs/dystopian_enforcer/economy"
+	inline_script = "pif/jobs/dystopian_enforcer/planet_state"
+	inline_script = "pif/jobs/dystopian_enforcer/country_modifiers"
+	inline_script = "pif/jobs/dystopian_enforcer/pop_modifiers"
+	inline_script = "pif/jobs/dystopian_enforcer/economic_modifiers"
+	inline_script = "pif/jobs/dystopian_enforcer/tpm"
+}

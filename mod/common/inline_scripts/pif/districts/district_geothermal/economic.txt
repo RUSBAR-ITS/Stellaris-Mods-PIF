@@ -1,0 +1,13 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_geothermal
+# Vanilla source: districts/02_rural_districts.txt
+
+resources = {
+	category = planet_districts_generator
+	cost = {
+		minerals = @pif_district_geothermal_construction_build_cost_minerals
+	}
+	upkeep = {
+		energy = @pif_district_geothermal_economy_district_upkeep_energy
+	}
+}

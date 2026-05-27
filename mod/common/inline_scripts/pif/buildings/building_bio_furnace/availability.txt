@@ -1,0 +1,13 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_bio_furnace
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+base_cap_amount = @pif_building_bio_furnace_limits_base_cap_amount_1
+
+potential = {
+	has_shroud_dlc = yes
+	owner = {
+		has_technology = tech_alloy_fossilization
+	}
+}

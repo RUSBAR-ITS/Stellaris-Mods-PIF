@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+underground_trade_worker = {
+	category = specialist
+	inline_script = "pif/jobs/underground_trade_worker/swap"
+	inline_script = "pif/jobs/underground_trade_worker/availability"
+	inline_script = "pif/jobs/underground_trade_worker/pop_config"
+	inline_script = "pif/jobs/underground_trade_worker/economy"
+	inline_script = "pif/jobs/underground_trade_worker/planet_state"
+	inline_script = "pif/jobs/underground_trade_worker/country_modifiers"
+	inline_script = "pif/jobs/underground_trade_worker/pop_modifiers"
+	inline_script = "pif/jobs/underground_trade_worker/economic_modifiers"
+	inline_script = "pif/jobs/underground_trade_worker/tpm"
+}

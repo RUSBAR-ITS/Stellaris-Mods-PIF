@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+chemist = {
+	category = specialist
+	inline_script = "pif/jobs/chemist/swap"
+	inline_script = "pif/jobs/chemist/availability"
+	inline_script = "pif/jobs/chemist/pop_config"
+	inline_script = "pif/jobs/chemist/economy"
+	inline_script = "pif/jobs/chemist/planet_state"
+	inline_script = "pif/jobs/chemist/country_modifiers"
+	inline_script = "pif/jobs/chemist/pop_modifiers"
+	inline_script = "pif/jobs/chemist/economic_modifiers"
+	inline_script = "pif/jobs/chemist/tpm"
+}

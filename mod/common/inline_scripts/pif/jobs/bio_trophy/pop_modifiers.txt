@@ -1,0 +1,11 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: bio_trophy
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_cat_complex_drone_bonus_workforce_mult = @pif_bio_trophy_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_1
+}

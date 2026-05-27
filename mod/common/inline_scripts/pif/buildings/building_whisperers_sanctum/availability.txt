@@ -1,0 +1,33 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_whisperers_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+empire_limit = {
+	base = @pif_building_whisperers_sanctum_limits_base_1
+}
+
+potential = {
+	OR = {
+		AND = {
+			has_shroud_dlc = no
+			owner = {
+				has_country_flag = whisperers_covenant_rank_1
+			}
+		}
+		AND = {
+			has_shroud_dlc = yes
+			owner = {
+				has_country_flag = wisdom_accord
+			}
+		}
+	}
+	NOR = {
+		has_designation = col_resort
+		has_modifier = slave_colony
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}

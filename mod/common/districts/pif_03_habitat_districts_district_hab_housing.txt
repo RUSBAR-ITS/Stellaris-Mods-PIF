@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/03_habitat_districts.txt
+# Object class: real
+
+district_hab_housing = {
+	base_buildtime = @pif_district_hab_housing_construction_build_time_days
+	overlay_icon = GFX_district_government
+	show_on_uncolonized = {
+		uses_district_set = habitat
+	}
+	inline_script = "pif/districts/district_hab_housing/zone_slots"
+	inline_script = "pif/districts/district_hab_housing/availability"
+	inline_script = "pif/districts/district_hab_housing/economic"
+	inline_script = "pif/districts/district_hab_housing/tpm"
+	inline_script = "pif/districts/district_hab_housing/lifecycle"
+	inline_script = "pif/districts/district_hab_housing/ai"
+}

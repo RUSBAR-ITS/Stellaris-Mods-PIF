@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: fe_acolyte_farm
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_food_processing_facility
+		icon = farmer
+	}
+}

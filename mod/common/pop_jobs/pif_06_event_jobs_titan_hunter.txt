@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+titan_hunter = {
+	category = worker
+	inline_script = "pif/jobs/titan_hunter/swap"
+	inline_script = "pif/jobs/titan_hunter/availability"
+	inline_script = "pif/jobs/titan_hunter/pop_config"
+	inline_script = "pif/jobs/titan_hunter/economy"
+	inline_script = "pif/jobs/titan_hunter/planet_state"
+	inline_script = "pif/jobs/titan_hunter/country_modifiers"
+	inline_script = "pif/jobs/titan_hunter/pop_modifiers"
+	inline_script = "pif/jobs/titan_hunter/economic_modifiers"
+	inline_script = "pif/jobs/titan_hunter/tpm"
+}

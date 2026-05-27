@@ -1,0 +1,43 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_private_research_initiative
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	planet_physicists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_physicists_trade_produces_add_4
+	planet_biologists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_biologists_trade_produces_add_5
+	planet_engineers_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_engineers_trade_produces_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_dark_consortium
+		}
+	}
+	planet_physicists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_physicists_trade_produces_add_4
+	planet_biologists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_biologists_trade_produces_add_5
+	planet_engineers_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_engineers_trade_produces_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_crowdsourcing
+		}
+	}
+	planet_physicists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_physicists_trade_produces_add_4
+	planet_biologists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_biologists_trade_produces_add_5
+	planet_engineers_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_engineers_trade_produces_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_astrometeorology_megacorp
+		}
+	}
+	planet_physicists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_physicists_trade_produces_add_4
+	planet_biologists_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_biologists_trade_produces_add_5
+	planet_engineers_trade_produces_add = @pif_building_private_research_initiative_economic_modifiers_planet_engineers_trade_produces_add_6
+}

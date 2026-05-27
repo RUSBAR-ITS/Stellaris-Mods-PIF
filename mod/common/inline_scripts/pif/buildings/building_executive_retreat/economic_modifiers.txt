@@ -1,0 +1,47 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_executive_retreat
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_entertainers_trade_produces_add = @pif_building_executive_retreat_economic_modifiers_planet_entertainers_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_ruthless_competition
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_executive_retreat_economic_modifiers_planet_entertainers_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_task_delegation_corporate
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_executive_retreat_economic_modifiers_planet_entertainers_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_environmental_architects_megacorp
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_executive_retreat_economic_modifiers_planet_entertainers_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_entropy_drinkers_corporate
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_executive_retreat_economic_modifiers_planet_entertainers_trade_produces_add_1
+}

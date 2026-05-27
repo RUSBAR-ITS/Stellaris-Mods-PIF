@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/09_first_contact_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+low_tech_technician = {
+	category = worker
+	inline_script = "pif/jobs/low_tech_technician/swap"
+	inline_script = "pif/jobs/low_tech_technician/availability"
+	inline_script = "pif/jobs/low_tech_technician/pop_config"
+	inline_script = "pif/jobs/low_tech_technician/economy"
+	inline_script = "pif/jobs/low_tech_technician/planet_state"
+	inline_script = "pif/jobs/low_tech_technician/country_modifiers"
+	inline_script = "pif/jobs/low_tech_technician/pop_modifiers"
+	inline_script = "pif/jobs/low_tech_technician/economic_modifiers"
+	inline_script = "pif/jobs/low_tech_technician/tpm"
+}

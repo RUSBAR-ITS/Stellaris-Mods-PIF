@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: alien_hunter
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		food = @pif_alien_hunter_job_output_output_food_1
+	}
+}

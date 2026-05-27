@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: holding_tree_of_life_sapling
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = no
+		}
+	}
+	job_overlord_arborist_add = @pif_holding_tree_of_life_sapling_jobs_job_overlord_arborist_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = yes
+		}
+	}
+	job_overlord_arborist_drone_add = @pif_holding_tree_of_life_sapling_jobs_job_overlord_arborist_drone_add_2
+}

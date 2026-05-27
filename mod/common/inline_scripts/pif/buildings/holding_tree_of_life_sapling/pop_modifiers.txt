@@ -1,0 +1,6 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: holding_tree_of_life_sapling
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+# Empty PIF building category hook.

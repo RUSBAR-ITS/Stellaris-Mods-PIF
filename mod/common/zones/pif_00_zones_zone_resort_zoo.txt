@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_resort_zoo = {
+	icon = GFX_district_specialization_zoo
+	base_buildtime = @pif_zone_resort_zoo_construction_zone_build_time_1
+	swap_type = district_resort_zoo
+	swap_type_weight = 5
+	max_buildings = @pif_zone_resort_zoo_building_capacity_max_buildings_1
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_trade_triggered_desc
+	}
+	inline_script = "pif/zones/zone_resort_zoo/availability"
+	inline_script = "pif/zones/zone_resort_zoo/zone_config"
+	inline_script = "pif/zones/zone_resort_zoo/economy"
+	inline_script = "pif/zones/zone_resort_zoo/tpm"
+	inline_script = "pif/zones/zone_resort_zoo/lifecycle"
+	inline_script = "pif/zones/zone_resort_zoo/ai"
+}

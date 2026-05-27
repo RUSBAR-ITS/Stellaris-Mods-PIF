@@ -1,0 +1,33 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_paragon_memory_vaults
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+planet_limit = @pif_building_paragon_memory_vaults_limits_planet_limit_1
+
+empire_limit = @pif_building_paragon_memory_vaults_limits_empire_limit_2
+
+allow = {
+	has_upgraded_capital = yes
+	hidden_trigger = {
+		owner = {
+			OR = {
+				is_ai = no
+				resource_stockpile_compare = {
+					resource = minerals
+					value >= 800
+				}
+			}
+		}
+	}
+}
+
+potential = {
+	custom_tooltip = {
+		text = EMPIRE_UNIQUE_BUILDING
+		owner = {
+			is_memory_vault_empire = yes
+		}
+	}
+	exists = planet
+}

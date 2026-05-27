@@ -1,0 +1,9 @@
+# PIF category: AI
+# Vanilla district: district_cosmogenesis_world_science
+# Vanilla source: districts/00_special_districts.txt
+
+ai_estimate_without_unemployment = yes
+
+additional_ai_weight = @pif_district_cosmogenesis_world_science_ai_additional_ai_weight
+
+ai_weight_coefficient = @pif_district_cosmogenesis_world_science_ai_ai_weight_coefficient

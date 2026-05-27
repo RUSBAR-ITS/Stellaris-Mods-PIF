@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_toxic_bath_hive
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_toxic_bath_hive_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_toxic_bath_hive_upkeep_upkeep_energy_1
+	}
+}

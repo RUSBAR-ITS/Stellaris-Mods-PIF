@@ -1,0 +1,15 @@
+# PIF job category: ECONOMY
+# Vanilla job: offworld_prospector_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_jobs
+	upkeep = {
+		energy = @pif_offworld_prospector_drone_job_upkeep_upkeep_energy_1
+	}
+	produces = {
+		sr_living_metal = @pif_offworld_prospector_drone_job_output_output_sr_living_metal_1
+		volatile_motes = @pif_offworld_prospector_drone_job_output_output_volatile_motes_2
+	}
+}

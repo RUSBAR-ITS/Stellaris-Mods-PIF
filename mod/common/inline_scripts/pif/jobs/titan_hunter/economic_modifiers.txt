@@ -1,0 +1,6 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: titan_hunter
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+# Empty PIF job category hook.

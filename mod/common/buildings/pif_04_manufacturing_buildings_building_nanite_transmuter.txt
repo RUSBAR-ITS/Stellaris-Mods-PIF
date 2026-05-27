@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/04_manufacturing_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_nanite_transmuter = {
+	base_buildtime = @pif_building_nanite_transmuter_construction_base_buildtime_1
+	category = manufacturing
+	inline_script = "pif/buildings/building_nanite_transmuter/building_config"
+	inline_script = "pif/buildings/building_nanite_transmuter/availability"
+	inline_script = "pif/buildings/building_nanite_transmuter/economy"
+	inline_script = "pif/buildings/building_nanite_transmuter/lifecycle"
+	inline_script = "pif/buildings/building_nanite_transmuter/jobs"
+	inline_script = "pif/buildings/building_nanite_transmuter/country_jobs"
+	inline_script = "pif/buildings/building_nanite_transmuter/economic_modifiers"
+	inline_script = "pif/buildings/building_nanite_transmuter/pop_modifiers"
+	inline_script = "pif/buildings/building_nanite_transmuter/planet_state"
+	inline_script = "pif/buildings/building_nanite_transmuter/tpm"
+	inline_script = "pif/buildings/building_nanite_transmuter/ai"
+}

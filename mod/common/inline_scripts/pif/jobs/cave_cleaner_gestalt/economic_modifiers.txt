@@ -1,0 +1,15 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: cave_cleaner_gestalt
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_deposit = d_cave_shroom_veins
+		}
+	}
+	modifier = {
+		planet_jobs_minerals_produces_mult = @pif_cave_cleaner_gestalt_economic_modifiers_planet_jobs_minerals_produces_mult_1
+	}
+}

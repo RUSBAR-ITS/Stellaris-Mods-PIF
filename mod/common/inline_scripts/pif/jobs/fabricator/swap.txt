@@ -1,0 +1,55 @@
+# PIF job category: SWAP
+# Vanilla job: fabricator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_foundry_1
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_catalytic_empire = no
+				is_wilderness_empire = no
+			}
+		}
+		name = alloy_drone
+		desc = alloy_drone
+		icon = alloy_drone
+		building_icon = building_foundry_1
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 2
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = yes
+			}
+		}
+		name = catalytic_drone
+		desc = catalytic_drone
+		icon = catalytic_drone
+		building_icon = building_foundry_1
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 3
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = forgesymbiont
+		desc = forgesymbiont
+		icon = forgesymbiont
+		building_icon = natural_furnace_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

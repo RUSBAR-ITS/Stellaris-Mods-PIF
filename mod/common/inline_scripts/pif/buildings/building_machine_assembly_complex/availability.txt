@@ -1,0 +1,23 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_machine_assembly_complex
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_machine_empire = yes
+			is_individual_machine = yes
+		}
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	tech_mega_assembly
+}

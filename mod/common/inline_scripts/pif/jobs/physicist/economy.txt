@@ -1,0 +1,69 @@
+# PIF job category: ECONOMY
+# Vanilla job: physicist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_physicists
+	produces = {
+		physics_research = @pif_physicist_job_output_output_physics_research_1
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				physicist_is_astrometeorologist_trigger = yes
+				solar_system = {
+					OR = {
+						has_environmental_effects = yes
+						has_star_flag = storm_system
+					}
+				}
+			}
+		}
+		physics_research = @pif_physicist_job_output_output_physics_research_2
+	}
+	upkeep = {
+		consumer_goods = @pif_physicist_job_upkeep_upkeep_consumer_goods_1
+	}
+	produces = {
+		trigger = {
+			physicist_is_space_time_researcher_trigger = yes
+		}
+		physics_research = @pif_physicist_job_output_output_physics_research_3
+		sr_dark_matter = @pif_physicist_job_output_output_sr_dark_matter_4
+	}
+	upkeep = {
+		trigger = {
+			physicist_is_space_time_researcher_trigger = yes
+		}
+		consumer_goods = @pif_physicist_job_upkeep_upkeep_consumer_goods_1
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_research
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		physics_research = @pif_physicist_overlord_output_overlord_output_physics_research_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+				physicist_is_astrometeorologist_trigger = yes
+				solar_system = {
+					OR = {
+						has_environmental_effects = yes
+						has_star_flag = storm_system
+					}
+				}
+			}
+		}
+		physics_research = @pif_physicist_overlord_output_overlord_output_physics_research_2
+	}
+}

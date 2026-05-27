@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_lathe_cogitator = {
+	base_buildtime = @pif_building_lathe_cogitator_construction_base_buildtime_1
+	category = army
+	triggered_desc = {
+		text = building_lathe_cogitator_tt
+	}
+	inline_script = "pif/buildings/building_lathe_cogitator/building_config"
+	inline_script = "pif/buildings/building_lathe_cogitator/availability"
+	inline_script = "pif/buildings/building_lathe_cogitator/economy"
+	inline_script = "pif/buildings/building_lathe_cogitator/lifecycle"
+	inline_script = "pif/buildings/building_lathe_cogitator/jobs"
+	inline_script = "pif/buildings/building_lathe_cogitator/country_jobs"
+	inline_script = "pif/buildings/building_lathe_cogitator/economic_modifiers"
+	inline_script = "pif/buildings/building_lathe_cogitator/pop_modifiers"
+	inline_script = "pif/buildings/building_lathe_cogitator/planet_state"
+	inline_script = "pif/buildings/building_lathe_cogitator/tpm"
+	inline_script = "pif/buildings/building_lathe_cogitator/ai"
+}

@@ -1,0 +1,16 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_orchard_forests
+# Vanilla source: districts/05_wilderness_districts.txt
+
+resources = {
+	category = planet_districts_farming
+	cost = {
+		minerals = @pif_district_orchard_forests_construction_build_cost_minerals
+	}
+	cost = {
+		biomass = @pif_district_orchard_forests_construction_build_cost_biomass
+	}
+	upkeep = {
+		energy = @pif_district_orchard_forests_economy_district_upkeep_energy
+	}
+}

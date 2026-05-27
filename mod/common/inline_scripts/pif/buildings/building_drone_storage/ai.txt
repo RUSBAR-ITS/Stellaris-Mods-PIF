@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_drone_storage
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+ai_weight_coefficient = @pif_building_drone_storage_ai_ai_weight_coefficient_1

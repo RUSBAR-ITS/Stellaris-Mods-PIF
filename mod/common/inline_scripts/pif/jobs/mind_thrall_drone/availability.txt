@@ -1,0 +1,13 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: mind_thrall_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+is_capped_by_modifier = @pif_mind_thrall_drone_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}

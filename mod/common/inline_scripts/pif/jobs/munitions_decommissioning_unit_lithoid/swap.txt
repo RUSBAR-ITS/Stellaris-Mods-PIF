@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: munitions_decommissioning_unit_lithoid
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/11_astral_planes_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_research_lab_1
+	}
+}

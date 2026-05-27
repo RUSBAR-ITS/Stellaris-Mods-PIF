@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_ancient_ward_1
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_build = no
+
+empire_limit = {
+	base = @pif_building_ancient_ward_1_limits_base_1
+}
+
+potential = {
+	has_shroud_dlc = yes
+	exists = owner
+	owner = {
+		has_origin = origin_mindwardens
+	}
+}

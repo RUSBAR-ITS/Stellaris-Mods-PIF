@@ -1,0 +1,32 @@
+# PIF job category: ECONOMY
+# Vanilla job: simple_drone_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_gestalt_unemployment.txt
+
+resources = {
+	category = unemployment_resources
+	upkeep = {
+		trigger = {
+			planet = {
+				has_modifier = unemployment_benefits
+			}
+		}
+		consumer_goods = @pif_simple_drone_unemployment_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_modifier = activity_program
+			}
+		}
+		unity = @pif_simple_drone_unemployment_job_upkeep_upkeep_unity_2
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_modifier = standby_mode
+			}
+		}
+		energy = @pif_simple_drone_unemployment_job_upkeep_upkeep_energy_3
+	}
+}

@@ -1,0 +1,26 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_paragon_memory_vaults
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_memory_vault_empire = yes
+		}
+	}
+	country_unity_produces_mult = @pif_building_paragon_memory_vaults_economic_modifiers_country_unity_produces_mult_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_memory_vault_empire = yes
+			is_variable_set = paragon_memory_vault
+		}
+	}
+	country_unity_produces_mult = @pif_building_paragon_memory_vaults_economic_modifiers_country_unity_produces_mult_1
+	mult = owner.paragon_memory_vault
+}

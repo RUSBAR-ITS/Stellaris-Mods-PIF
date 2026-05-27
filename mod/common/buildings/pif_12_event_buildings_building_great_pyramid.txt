@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_great_pyramid = {
+	base_buildtime = @pif_building_great_pyramid_construction_base_buildtime_1
+	category = government
+	inline_script = "pif/buildings/building_great_pyramid/building_config"
+	inline_script = "pif/buildings/building_great_pyramid/availability"
+	inline_script = "pif/buildings/building_great_pyramid/economy"
+	inline_script = "pif/buildings/building_great_pyramid/lifecycle"
+	inline_script = "pif/buildings/building_great_pyramid/jobs"
+	inline_script = "pif/buildings/building_great_pyramid/country_jobs"
+	inline_script = "pif/buildings/building_great_pyramid/economic_modifiers"
+	inline_script = "pif/buildings/building_great_pyramid/pop_modifiers"
+	inline_script = "pif/buildings/building_great_pyramid/planet_state"
+	inline_script = "pif/buildings/building_great_pyramid/tpm"
+	inline_script = "pif/buildings/building_great_pyramid/ai"
+}

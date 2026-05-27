@@ -1,0 +1,170 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/03_habitat_districts.txt
+# Object class: real
+
+district_hab_mining = {
+	base_buildtime = @pif_district_hab_mining_construction_build_time_days
+	is_uncapped = {
+		always = no
+	}
+	overlay_icon = GFX_district_minerals
+	show_on_uncolonized = {
+		uses_district_set = habitat
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		text = automated_mining
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_subterranean_urban
+				value > 0
+			}
+		}
+		text = zone_subterranean_urban
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_minerals_physics
+				value > 0
+			}
+		}
+		text = zone_minerals_physics
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_rare_crystals_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_rare_crystals_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_rare_crystals_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_rare_crystals_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_rare_crystals_1
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_betharian_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_betharian_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_betharian_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_betharian_1
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_mining_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_1
+	}
+	triggered_name = {
+		text = mining_0
+	}
+	inline_script = "pif/districts/district_hab_mining/zone_slots"
+	inline_script = "pif/districts/district_hab_mining/availability"
+	inline_script = "pif/districts/district_hab_mining/economic"
+	inline_script = "pif/districts/district_hab_mining/tpm"
+	inline_script = "pif/districts/district_hab_mining/lifecycle"
+	inline_script = "pif/districts/district_hab_mining/ai"
+}

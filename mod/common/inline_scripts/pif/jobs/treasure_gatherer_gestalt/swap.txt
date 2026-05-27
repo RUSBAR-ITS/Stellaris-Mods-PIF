@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: treasure_gatherer_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = wildlife_sanctuary
+		icon = treasure_gatherer
+	}
+}

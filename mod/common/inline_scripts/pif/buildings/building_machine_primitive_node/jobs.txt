@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: building_machine_primitive_node
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_coordinator_add = @pif_building_machine_primitive_node_jobs_job_coordinator_add_1
+}

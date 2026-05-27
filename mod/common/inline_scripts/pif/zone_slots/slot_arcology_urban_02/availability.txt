@@ -1,0 +1,3 @@
+unlock = {
+	uses_district_set = city_world
+}

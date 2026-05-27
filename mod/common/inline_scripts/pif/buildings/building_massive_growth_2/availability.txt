@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_massive_growth_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}

@@ -1,0 +1,14 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_cosmogenesis_default = {
+	max_buildings = @pif_zone_cosmogenesis_default_building_capacity_max_buildings_1
+	max_buildings_planet_class = yes
+	inline_script = "pif/zones/zone_cosmogenesis_default/availability"
+	inline_script = "pif/zones/zone_cosmogenesis_default/zone_config"
+	inline_script = "pif/zones/zone_cosmogenesis_default/economy"
+	inline_script = "pif/zones/zone_cosmogenesis_default/tpm"
+	inline_script = "pif/zones/zone_cosmogenesis_default/lifecycle"
+	inline_script = "pif/zones/zone_cosmogenesis_default/ai"
+}

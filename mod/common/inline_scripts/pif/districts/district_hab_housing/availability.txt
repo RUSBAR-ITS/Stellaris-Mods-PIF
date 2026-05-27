@@ -1,0 +1,13 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_hab_housing
+# Vanilla source: districts/03_habitat_districts.txt
+
+potential = {
+	uses_district_set = habitat
+	NAND = {
+		is_capital = yes
+		owner = {
+			has_menace_perk = menp_behemoth_mind_meld
+		}
+	}
+}

@@ -1,0 +1,32 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_supercomputer
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+planet_limit = @pif_building_supercomputer_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_gestalt = yes
+		is_wilderness_empire = no
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_global_research_initiative"
+}
+
+show_tech_unlock_if = {
+	is_gestalt = yes
+	is_wilderness_empire = no
+}

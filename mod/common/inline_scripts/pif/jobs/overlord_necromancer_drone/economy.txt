@@ -1,0 +1,36 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_necromancer_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_necromancers
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid = yes
+			}
+		}
+		minerals = @pif_overlord_necromancer_drone_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid = no
+				is_machine_empire = no
+				is_mechanical_empire = no
+			}
+		}
+		food = @pif_overlord_necromancer_drone_job_upkeep_upkeep_food_2
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_necromancers
+	produces = {
+		physics_research = @pif_overlord_necromancer_drone_overlord_output_overlord_output_physics_research_1
+		society_research = @pif_overlord_necromancer_drone_overlord_output_overlord_output_society_research_2
+	}
+}

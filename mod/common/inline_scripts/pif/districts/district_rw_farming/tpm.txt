@@ -1,0 +1,84 @@
+# PIF category: TPM
+# Vanilla district: district_rw_farming
+# Vanilla source: districts/04_ringworld_districts.txt
+
+triggered_planet_modifier = {
+	modifier = {
+		planet_housing_add = @pif_district_rw_farming_housing_planet_housing_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_rw_farming_housing_planet_housing_add_2
+		job_agri_drone_add = @pif_district_rw_farming_jobs_job_agri_drone_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	modifier = {
+		job_agri_drone_add = @pif_district_rw_farming_jobs_job_agri_drone_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_fallen_empire_spiritualist = no
+		}
+	}
+	modifier = {
+		job_farmer_add = @pif_district_rw_farming_jobs_job_farmer_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+	}
+	modifier = {
+		job_fe_acolyte_farm_add = @pif_district_rw_farming_jobs_job_fe_acolyte_farm_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_agrarian_idyll
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_rw_farming_housing_planet_housing_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_agrarian_idyll
+			has_valid_civic = civic_agrarian_idyll
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_rw_farming_housing_planet_housing_add_2
+	}
+}

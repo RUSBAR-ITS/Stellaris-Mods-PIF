@@ -1,0 +1,49 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_ancient_ward_2
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_demolish = no
+
+on_built = {
+	if = {
+		limit = {
+			exists = owner
+			owner = {
+				has_origin = origin_mindwardens
+			}
+		}
+		owner = {
+			if = {
+				limit = {
+					has_event_chain = ancient_ward_upgrade_chain
+				}
+				add_event_chain_counter = {
+					event_chain = ancient_ward_upgrade_chain
+					counter = ancient_ward_upgraded
+					amount = 1
+				}
+				if = {
+					limit = {
+						has_completed_event_chain_counter = {
+							event_chain = ancient_ward_upgrade_chain
+							counter = ancient_ward_upgraded
+						}
+					}
+					country_event = {
+						id = shroud.6215
+					}
+				}
+			}
+		}
+	}
+	add_eotc_aura_grand_ward = yes
+}
+
+on_destroy = {
+	remove_eotc_aura_grand_ward = yes
+}
+
+on_repaired = {
+	add_eotc_aura_grand_ward = yes
+}

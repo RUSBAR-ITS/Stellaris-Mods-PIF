@@ -1,0 +1,34 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_franchise_headquarters = {
+	base_buildtime = @pif_holding_franchise_headquarters_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_franchise_headquarters
+	category = government
+	triggered_desc = {
+		text = holding_franchise_headquarters_effect
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner.overlord
+			owner.overlord = {
+				is_fanatic = no
+			}
+		}
+		text = holding_franchise_headquarters_ethics_effect
+	}
+	inline_script = "pif/buildings/holding_franchise_headquarters/building_config"
+	inline_script = "pif/buildings/holding_franchise_headquarters/availability"
+	inline_script = "pif/buildings/holding_franchise_headquarters/economy"
+	inline_script = "pif/buildings/holding_franchise_headquarters/lifecycle"
+	inline_script = "pif/buildings/holding_franchise_headquarters/jobs"
+	inline_script = "pif/buildings/holding_franchise_headquarters/country_jobs"
+	inline_script = "pif/buildings/holding_franchise_headquarters/economic_modifiers"
+	inline_script = "pif/buildings/holding_franchise_headquarters/pop_modifiers"
+	inline_script = "pif/buildings/holding_franchise_headquarters/planet_state"
+	inline_script = "pif/buildings/holding_franchise_headquarters/tpm"
+	inline_script = "pif/buildings/holding_franchise_headquarters/ai"
+}

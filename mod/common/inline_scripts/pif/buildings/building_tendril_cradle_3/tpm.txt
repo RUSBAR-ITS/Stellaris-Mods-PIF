@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_tendril_cradle_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_logistics_drone_add = @pif_building_tendril_cradle_3_jobs_job_logistics_drone_add_1
+	planet_pops_trade_produces_mult = @pif_building_tendril_cradle_3_economic_modifiers_planet_pops_trade_produces_mult_1
+}

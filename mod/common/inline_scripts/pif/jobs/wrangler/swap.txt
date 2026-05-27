@@ -1,0 +1,50 @@
+# PIF job category: SWAP
+# Vanilla job: wrangler
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = wildlife_ranch
+	}
+	swap_type = {
+		trigger = {
+			wrangler_is_rancher_trigger = yes
+		}
+		name = rancher
+		desc = rancher
+		icon = wrangler
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			wrangler_is_trophy_hunter_trigger = yes
+		}
+		name = trophy_hunter
+		desc = trophy_hunter
+		icon = trophy_hunter
+		building_icon = hunting_grounds
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			wrangler_is_animal_handler_trigger = yes
+		}
+		name = animal_handler
+		desc = animal_handler
+		icon = animal_handler
+		building_icon = wildlife_sanctuary
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			wrangler_is_beastfighter_trigger = yes
+		}
+		name = beastfighter
+		desc = beastfighter
+		icon = beastfighter
+		building_icon = primal_arena
+		weight = 10
+	}
+}

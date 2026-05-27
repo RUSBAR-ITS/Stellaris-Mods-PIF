@@ -1,0 +1,56 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_artist_patron = {
+	base_buildtime = @pif_building_artist_patron_construction_base_buildtime_1
+	category = unity
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = bureaucrat_is_culture_worker_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = job_civilian_ethics_effect
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = building_artist_patron_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = building_artist_patron_gestalt_desc
+	}
+	inline_script = "pif/buildings/building_artist_patron/building_config"
+	inline_script = "pif/buildings/building_artist_patron/availability"
+	inline_script = "pif/buildings/building_artist_patron/economy"
+	inline_script = "pif/buildings/building_artist_patron/lifecycle"
+	inline_script = "pif/buildings/building_artist_patron/jobs"
+	inline_script = "pif/buildings/building_artist_patron/country_jobs"
+	inline_script = "pif/buildings/building_artist_patron/economic_modifiers"
+	inline_script = "pif/buildings/building_artist_patron/pop_modifiers"
+	inline_script = "pif/buildings/building_artist_patron/planet_state"
+	inline_script = "pif/buildings/building_artist_patron/tpm"
+	inline_script = "pif/buildings/building_artist_patron/ai"
+}

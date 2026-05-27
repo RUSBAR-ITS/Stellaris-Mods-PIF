@@ -1,0 +1,15 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_resort
+# Vanilla source: zones/00_zones.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	has_modifier = resort_colony
+}
+
+unlock = {
+	has_modifier = resort_colony
+}

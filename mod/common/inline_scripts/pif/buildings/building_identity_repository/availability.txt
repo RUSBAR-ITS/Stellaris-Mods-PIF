@@ -1,0 +1,22 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_identity_repository
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_identity_repository_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_synthetic_fertility
+		NOT = {
+			has_country_flag = synthetic_fertility_no_identity_left_behind
+		}
+	}
+}
+
+allow = {
+	owner = {
+		has_origin = origin_synthetic_fertility
+	}
+}

@@ -1,0 +1,23 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: pre_sapient_nascent
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+is_capped_by_modifier = @pif_pre_sapient_nascent_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_sapient = no
+}
+
+possible = {
+	has_trait = trait_nascent_stage
+	exists = owner
+	owner = {
+		is_guided_sapience_empire = no
+	}
+	planet = {
+		NOT = {
+			has_active_building = building_xeno_zoo
+		}
+	}
+}

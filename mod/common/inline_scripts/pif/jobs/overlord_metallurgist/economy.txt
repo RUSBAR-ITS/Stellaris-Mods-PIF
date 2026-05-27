@@ -1,0 +1,18 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_metallurgist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_metallurgists
+	upkeep = {
+		minerals = @pif_overlord_metallurgist_job_upkeep_upkeep_minerals_1
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_metallurgists
+	produces = {
+		alloys = @pif_overlord_metallurgist_overlord_output_overlord_output_alloys_1
+	}
+}

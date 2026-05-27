@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: ruler_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_unemployment.txt
+
+# Empty PIF job category hook.

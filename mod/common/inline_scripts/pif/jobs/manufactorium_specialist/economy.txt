@@ -1,0 +1,167 @@
+# PIF job category: ECONOMY
+# Vanilla job: manufactorium_specialist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_metallurgists
+	produces = {
+		alloys = @pif_manufactorium_specialist_job_output_output_alloys_1
+	}
+	upkeep = {
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_crafters
+			}
+		}
+		unity = @pif_manufactorium_specialist_job_output_output_unity_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_subterranean
+			}
+		}
+		unity = @pif_manufactorium_specialist_job_output_output_unity_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_dwarven_craft
+			}
+		}
+		unity = @pif_manufactorium_specialist_job_output_output_unity_3
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_earthquake_upkeep
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_earthquake_production
+			}
+		}
+		alloys = @pif_manufactorium_specialist_job_output_output_alloys_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_guardians_produce
+			}
+		}
+		alloys = @pif_manufactorium_specialist_job_output_output_alloys_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_engineering
+			}
+		}
+		engineering_research = @pif_manufactorium_specialist_job_output_output_engineering_research_5
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_society
+			}
+		}
+		society_research = @pif_manufactorium_specialist_job_output_output_society_research_6
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_work_production
+			}
+		}
+		alloys = @pif_manufactorium_specialist_job_output_output_alloys_4
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_work_production
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_random_good
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_environmentalists
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_despoilers
+			}
+		}
+		alloys = @pif_manufactorium_specialist_job_output_output_alloys_7
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_took_opportunity
+			}
+		}
+		alloys = @pif_manufactorium_specialist_job_output_output_alloys_7
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_took_opportunity
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_took_opportunity_bad
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_5
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_catalytic
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_4
+		food = @pif_manufactorium_specialist_job_upkeep_upkeep_food_6
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_remnants
+			}
+		}
+		alloys = @pif_manufactorium_specialist_job_output_output_alloys_7
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = manufactorium_remnants
+			}
+		}
+		minerals = @pif_manufactorium_specialist_job_upkeep_upkeep_minerals_5
+	}
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/04_gestalt_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+fabricator = {
+	category = complex_drone
+	inline_script = "pif/jobs/fabricator/swap"
+	inline_script = "pif/jobs/fabricator/availability"
+	inline_script = "pif/jobs/fabricator/pop_config"
+	inline_script = "pif/jobs/fabricator/economy"
+	inline_script = "pif/jobs/fabricator/planet_state"
+	inline_script = "pif/jobs/fabricator/country_modifiers"
+	inline_script = "pif/jobs/fabricator/pop_modifiers"
+	inline_script = "pif/jobs/fabricator/economic_modifiers"
+	inline_script = "pif/jobs/fabricator/tpm"
+}

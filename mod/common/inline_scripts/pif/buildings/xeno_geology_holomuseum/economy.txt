@@ -1,0 +1,22 @@
+# PIF building category: ECONOMY
+# Vanilla building: xeno_geology_holomuseum
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_xeno_geology_holomuseum_cost_cost_minerals_1
+	}
+	cost = {
+		trigger = {
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_xeno_geology_holomuseum_cost_cost_biomass_2
+	}
+	upkeep = {
+		energy = @pif_xeno_geology_holomuseum_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,29 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_stone_palace
+# Vanilla class: capital
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_demolish = yes
+
+can_be_ruined = no
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_primitive = no
+			is_hive_empire = yes
+		}
+	}
+}
+
+convert_to = {
+	building_hive_capital
+	building_machine_capital
+	building_colony_shelter
+	building_hab_capital
+	building_hab_fe_capital
+	building_colony_shelter_wilderness
+}
+
+upgrades = {}

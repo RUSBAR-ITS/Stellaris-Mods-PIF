@@ -1,0 +1,17 @@
+# PIF building category: TPM
+# Vanilla building: building_augmentation_center
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			OR = {
+				has_active_tradition = tr_cybernetics_augmentation_centers
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+	auto_mod_monthly_add = @pif_building_augmentation_center_tpm_auto_mod_monthly_add_1
+}

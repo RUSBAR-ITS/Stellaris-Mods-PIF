@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_tendril_cradle_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+building_sets = {
+	government
+	trade
+}

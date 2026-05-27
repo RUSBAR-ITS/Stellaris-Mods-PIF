@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: test_subject
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_experimentation_chambers_1
+	}
+}

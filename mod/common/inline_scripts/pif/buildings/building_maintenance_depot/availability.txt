@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_maintenance_depot
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_gestalt = yes
+	}
+	owner = {
+		is_wilderness_empire = no
+	}
+}

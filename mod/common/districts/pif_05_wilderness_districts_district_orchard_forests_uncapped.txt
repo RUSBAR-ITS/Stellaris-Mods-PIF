@@ -1,0 +1,18 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/05_wilderness_districts.txt
+# Object class: real
+
+district_orchard_forests_uncapped = {
+	base_buildtime = @pif_district_orchard_forests_uncapped_construction_build_time_days
+	icon = district_orchard_forests
+	overlay_icon = GFX_district_food
+	show_on_uncolonized = {
+		always = no
+	}
+	inline_script = "pif/districts/district_orchard_forests_uncapped/zone_slots"
+	inline_script = "pif/districts/district_orchard_forests_uncapped/availability"
+	inline_script = "pif/districts/district_orchard_forests_uncapped/economic"
+	inline_script = "pif/districts/district_orchard_forests_uncapped/tpm"
+	inline_script = "pif/districts/district_orchard_forests_uncapped/lifecycle"
+	inline_script = "pif/districts/district_orchard_forests_uncapped/ai"
+}

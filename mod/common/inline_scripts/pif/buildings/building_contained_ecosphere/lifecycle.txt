@@ -1,0 +1,20 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_contained_ecosphere
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+can_demolish = yes
+
+on_built = {
+	planet = {
+		add_modifier = {
+			modifier = contained_ecosphere_pheromones
+		}
+	}
+}
+
+on_destroy = {
+	planet = {
+		remove_modifier = contained_ecosphere_pheromones
+	}
+}

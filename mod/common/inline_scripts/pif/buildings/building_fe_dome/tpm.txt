@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_fe_dome
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_fe_dome_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_fe_dome_planet_state_planet_amenities_add_2
+	planet_pops_upkeep_mult = @pif_building_fe_dome_economic_modifiers_planet_pops_upkeep_mult_1
+}

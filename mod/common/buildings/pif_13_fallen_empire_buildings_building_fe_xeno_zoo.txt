@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_fe_xeno_zoo = {
+	base_buildtime = @pif_building_fe_xeno_zoo_construction_base_buildtime_1
+	capital = yes
+	position_priority = 0
+	capital_tier = 5
+	category = amenity
+	inline_script = "pif/buildings/building_fe_xeno_zoo/building_config"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/availability"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/economy"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/lifecycle"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/jobs"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/country_jobs"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/economic_modifiers"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/pop_modifiers"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/planet_state"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/tpm"
+	inline_script = "pif/buildings/building_fe_xeno_zoo/ai"
+}

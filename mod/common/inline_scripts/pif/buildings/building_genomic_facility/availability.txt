@@ -1,0 +1,13 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_genomic_facility
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+planet_limit = @pif_building_genomic_facility_limits_planet_limit_1
+
+potential = {
+	owner = {
+		has_country_flag = genomic_research_facility_unlocked
+		is_wilderness_empire = no
+	}
+}

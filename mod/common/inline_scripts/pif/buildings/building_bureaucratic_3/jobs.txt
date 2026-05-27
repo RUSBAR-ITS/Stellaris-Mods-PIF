@@ -1,0 +1,16 @@
+# PIF building category: JOBS
+# Vanilla building: building_bureaucratic_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner.federation
+		owner = {
+			federation = {
+				has_federation_perk = all_the_priests_2
+			}
+		}
+	}
+	job_politician_add = @pif_building_bureaucratic_3_jobs_job_politician_add_1
+}

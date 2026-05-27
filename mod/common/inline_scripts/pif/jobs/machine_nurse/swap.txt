@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: machine_nurse
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_medical_2
+	}
+}

@@ -1,0 +1,165 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_energy_ring_world
+# Vanilla source: zones/04_secondary_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire_spiritualist = no
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_technician_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_add_1
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire_spiritualist = no
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_technician_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_add_1
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire_spiritualist = no
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_technician_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_add_1
+	mult = @pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_2
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire_spiritualist = no
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_technician_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_add_1
+	mult = @pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_3
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_fe_acolyte_generator_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_fe_acolyte_generator_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_fe_acolyte_generator_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4
+	mult = @pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_2
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_fe_acolyte_generator_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4
+	mult = @pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_3
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_technician_drone_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_drone_add_5
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_technician_drone_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_drone_add_5
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_technician_drone_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_drone_add_5
+	mult = @pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_2
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_technician_drone_add = @pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_drone_add_5
+	mult = @pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	zone_building_slots_add = @pif_zone_energy_ring_world_building_capacity_zone_building_slots_add_1
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_energy_ring_world_housing_planet_housing_add_1
+}

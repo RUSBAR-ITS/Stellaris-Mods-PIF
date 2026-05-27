@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_akx_worm_3
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+# Empty PIF building category hook.

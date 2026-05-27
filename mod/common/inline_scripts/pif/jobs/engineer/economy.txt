@@ -1,0 +1,38 @@
+# PIF job category: ECONOMY
+# Vanilla job: engineer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_engineers
+	produces = {
+		engineering_research = @pif_engineer_job_output_output_engineering_research_1
+	}
+	produces = {
+		trigger = {
+			engineer_is_nanotech_researcher_trigger = yes
+		}
+		engineering_research = @pif_engineer_job_output_output_engineering_research_2
+	}
+	upkeep = {
+		consumer_goods = @pif_engineer_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			engineer_is_nanotech_researcher_trigger = yes
+		}
+		nanites = @pif_engineer_job_upkeep_upkeep_nanites_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_research
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		engineering_research = @pif_engineer_overlord_output_overlord_output_engineering_research_1
+	}
+}

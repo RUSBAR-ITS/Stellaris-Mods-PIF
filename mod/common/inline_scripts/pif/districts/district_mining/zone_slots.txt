@@ -1,0 +1,7 @@
+# PIF category: ZONE_SLOTS
+# Vanilla district: district_mining
+# Vanilla source: districts/02_rural_districts.txt
+
+zone_slots = {
+	slot_minerals
+}

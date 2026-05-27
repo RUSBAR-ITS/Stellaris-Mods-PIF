@@ -1,0 +1,42 @@
+# PIF job category: ECONOMY
+# Vanilla job: catalytic_technician_prison_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+resources = {
+	category = planet_metallurgists
+	produces = {
+		alloys = @pif_catalytic_technician_prison_worker_job_output_output_alloys_1
+	}
+	upkeep = {
+		food = @pif_catalytic_technician_prison_worker_job_upkeep_upkeep_food_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		alloys = @pif_catalytic_technician_prison_worker_job_output_output_alloys_2
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		food = @pif_catalytic_technician_prison_worker_job_upkeep_upkeep_food_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_alloys
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		alloys = @pif_catalytic_technician_prison_worker_overlord_output_overlord_output_alloys_1
+	}
+}

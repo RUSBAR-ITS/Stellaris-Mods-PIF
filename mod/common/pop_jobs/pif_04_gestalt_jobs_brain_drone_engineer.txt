@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/04_gestalt_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+brain_drone_engineer = {
+	category = complex_drone
+	inline_script = "pif/jobs/brain_drone_engineer/swap"
+	inline_script = "pif/jobs/brain_drone_engineer/availability"
+	inline_script = "pif/jobs/brain_drone_engineer/pop_config"
+	inline_script = "pif/jobs/brain_drone_engineer/economy"
+	inline_script = "pif/jobs/brain_drone_engineer/planet_state"
+	inline_script = "pif/jobs/brain_drone_engineer/country_modifiers"
+	inline_script = "pif/jobs/brain_drone_engineer/pop_modifiers"
+	inline_script = "pif/jobs/brain_drone_engineer/economic_modifiers"
+	inline_script = "pif/jobs/brain_drone_engineer/tpm"
+}

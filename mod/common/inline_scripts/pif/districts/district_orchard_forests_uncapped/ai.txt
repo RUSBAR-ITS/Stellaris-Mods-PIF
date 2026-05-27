@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_orchard_forests_uncapped
+# Vanilla source: districts/05_wilderness_districts.txt
+
+

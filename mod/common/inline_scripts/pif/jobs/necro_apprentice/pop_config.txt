@@ -1,0 +1,69 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: necro_apprentice
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+exempt_from_ai_amenity_prioritization = @pif_necro_apprentice_job_flags_exempt_from_ai_amenity_prioritization_1
+
+can_be_automated = @pif_necro_apprentice_job_flags_can_be_automated_2
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_necro_apprentice_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|necro_apprentice|RESOURCE|unity|FACTOR|0.5|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_necro_apprentice_job_weight_factor_2
+		is_enslaved = yes
+	}
+	modifier = {
+		factor = @pif_necro_apprentice_job_weight_factor_2
+		pop_has_happiness = no
+	}
+	modifier = {
+		factor = @pif_necro_apprentice_job_weight_factor_3
+		exists = owner
+		owner = {
+			is_ai = yes
+		}
+		exists = planet
+		planet = {
+			NOT = {
+				any_owned_pop_group = {
+					NOT = {
+						is_same_value = root
+					}
+					species = {
+						species_can_be_necrophaged = yes
+					}
+				}
+			}
+			num_assigned_jobs = {
+				job = necro_apprentice
+				value > 1
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_necro_apprentice_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

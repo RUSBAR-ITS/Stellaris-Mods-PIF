@@ -1,0 +1,15 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_rw_generator
+# Vanilla source: districts/04_ringworld_districts.txt
+
+resources = {
+	category = planet_districts_rw_generator
+	cost = {
+		minerals = @pif_district_rw_generator_construction_build_cost_minerals
+		rare_crystals = @pif_district_rw_generator_construction_build_cost_rare_crystals
+	}
+	upkeep = {
+		energy = @pif_district_rw_generator_economy_district_upkeep_energy
+		rare_crystals = @pif_district_rw_generator_economy_district_upkeep_rare_crystals
+	}
+}

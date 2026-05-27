@@ -1,0 +1,13 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_pirate_haven
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+planet_limit = @pif_building_pirate_haven_limits_planet_limit_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		is_illegal_criminal = yes
+	}
+}

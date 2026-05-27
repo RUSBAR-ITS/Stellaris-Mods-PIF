@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/10_deposit_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_gas_extractors = {
+	base_buildtime = @pif_building_gas_extractors_construction_base_buildtime_1
+	icon = building_gas_extractors
+	category = resource
+	inline_script = "pif/buildings/building_gas_extractors/building_config"
+	inline_script = "pif/buildings/building_gas_extractors/availability"
+	inline_script = "pif/buildings/building_gas_extractors/economy"
+	inline_script = "pif/buildings/building_gas_extractors/lifecycle"
+	inline_script = "pif/buildings/building_gas_extractors/jobs"
+	inline_script = "pif/buildings/building_gas_extractors/country_jobs"
+	inline_script = "pif/buildings/building_gas_extractors/economic_modifiers"
+	inline_script = "pif/buildings/building_gas_extractors/pop_modifiers"
+	inline_script = "pif/buildings/building_gas_extractors/planet_state"
+	inline_script = "pif/buildings/building_gas_extractors/tpm"
+	inline_script = "pif/buildings/building_gas_extractors/ai"
+}

@@ -1,0 +1,6 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_warrior_2
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+# Empty PIF job category hook.

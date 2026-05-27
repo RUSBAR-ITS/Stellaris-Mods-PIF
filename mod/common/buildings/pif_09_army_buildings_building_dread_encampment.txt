@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/09_army_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_dread_encampment = {
+	base_buildtime = @pif_building_dread_encampment_construction_base_buildtime_1
+	category = army
+	triggered_desc = {
+		text = building_dread_encampment_tt
+	}
+	inline_script = "pif/buildings/building_dread_encampment/building_config"
+	inline_script = "pif/buildings/building_dread_encampment/availability"
+	inline_script = "pif/buildings/building_dread_encampment/economy"
+	inline_script = "pif/buildings/building_dread_encampment/lifecycle"
+	inline_script = "pif/buildings/building_dread_encampment/jobs"
+	inline_script = "pif/buildings/building_dread_encampment/country_jobs"
+	inline_script = "pif/buildings/building_dread_encampment/economic_modifiers"
+	inline_script = "pif/buildings/building_dread_encampment/pop_modifiers"
+	inline_script = "pif/buildings/building_dread_encampment/planet_state"
+	inline_script = "pif/buildings/building_dread_encampment/tpm"
+	inline_script = "pif/buildings/building_dread_encampment/ai"
+}

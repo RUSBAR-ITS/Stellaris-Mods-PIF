@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_identity_complex
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+empire_limit = {
+	base = @pif_building_identity_complex_limits_base_1
+}
+
+potential = {
+	owner = {
+		has_country_flag = identity_complex_available
+	}
+}

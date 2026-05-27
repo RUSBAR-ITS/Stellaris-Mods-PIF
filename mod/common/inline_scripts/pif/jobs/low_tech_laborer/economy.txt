@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: low_tech_laborer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+resources = {
+	category = planet_laborer
+	produces = {
+		consumer_goods = @pif_low_tech_laborer_job_output_output_consumer_goods_1
+		alloys = @pif_low_tech_laborer_job_output_output_alloys_2
+	}
+}

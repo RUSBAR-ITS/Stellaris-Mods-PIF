@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/00_special_districts.txt
+# Object class: real
+
+district_cosmogenesis_goverment = {
+	icon = district_city
+	overlay_icon = GFX_district_government
+	is_uncapped = {
+		always = no
+	}
+	show_on_uncolonized = {
+		uses_district_set = cosmogenesis_world
+	}
+	inline_script = "pif/districts/district_cosmogenesis_goverment/zone_slots"
+	inline_script = "pif/districts/district_cosmogenesis_goverment/availability"
+	inline_script = "pif/districts/district_cosmogenesis_goverment/economic"
+	inline_script = "pif/districts/district_cosmogenesis_goverment/tpm"
+	inline_script = "pif/districts/district_cosmogenesis_goverment/lifecycle"
+	inline_script = "pif/districts/district_cosmogenesis_goverment/ai"
+}

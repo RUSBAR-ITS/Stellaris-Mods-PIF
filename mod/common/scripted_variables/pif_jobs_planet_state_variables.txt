@@ -1,0 +1,1394 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: PLANET_STATE
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# aid_worker
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/aid_worker/planet_state.txt
+@pif_aid_worker_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# aid_worker_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/aid_worker_drone/planet_state.txt
+@pif_aid_worker_drone_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# artisan
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/artisan/planet_state.txt
+@pif_artisan_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# augmentor
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/augmentor/planet_state.txt
+@pif_augmentor_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# augmentor_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/planet_state.txt
+@pif_augmentor_drone_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# bath_attendant
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant/planet_state.txt
+@pif_bath_attendant_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# bath_attendant_machine
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant_machine/planet_state.txt
+@pif_bath_attendant_machine_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/planet_state.txt
+@pif_battle_thrall_planet_state_planet_defense_armies_add_1 = 1
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/planet_state.txt
+@pif_battle_thrall_planet_state_planet_defense_armies_add_3 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/planet_state.txt
+@pif_battle_thrall_planet_state_planet_stability_add_2 = 0.15
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/planet_state.txt
+@pif_battle_thrall_planet_state_planet_stability_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/planet_state.txt
+@pif_battle_thrall_planet_state_planet_stability_add_5 = 0.25
+
+# -----------------------------------------------------------------------------
+# biologist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/biologist/planet_state.txt
+@pif_biologist_planet_state_planet_amenities_add_1 = 300
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/biologist/planet_state.txt
+@pif_biologist_planet_state_planet_amenities_add_2 = 100
+
+# -----------------------------------------------------------------------------
+# broken_shackles_scavenger
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/broken_shackles_scavenger/planet_state.txt
+@pif_broken_shackles_scavenger_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_amenities_add_1 = 200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_amenities_add_2 = 100
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_amenities_add_3 = 400
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_amenities_add_4 = 300
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_stability_add_5 = 0.2
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_stability_add_6 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_stability_add_8 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_planet_stability_add_9 = 1.5
+
+# Controls: Job modifier value: value.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/planet_state.txt
+@pif_bureaucrat_planet_state_value_7 = 0
+
+# -----------------------------------------------------------------------------
+# civilian
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/civilian/planet_state.txt
+@pif_civilian_planet_state_planet_amenities_add_1 = 50
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/civilian/planet_state.txt
+@pif_civilian_planet_state_planet_amenities_add_2 = 100
+
+# -----------------------------------------------------------------------------
+# clerk
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/clerk/planet_state.txt
+@pif_clerk_planet_state_planet_amenities_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# colonist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/colonist/planet_state.txt
+@pif_colonist_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# coordinator
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/coordinator/planet_state.txt
+@pif_coordinator_planet_state_planet_amenities_no_happiness_add_2 = 100
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/coordinator/planet_state.txt
+@pif_coordinator_planet_state_planet_stability_add_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# cyberdome_duelist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/cyberdome_duelist/planet_state.txt
+@pif_cyberdome_duelist_planet_state_planet_amenities_add_1 = 1000
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/planet_state.txt
+@pif_dimensional_portal_researcher_planet_state_planet_amenities_add_1 = 600
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/planet_state.txt
+@pif_dimensional_portal_researcher_planet_state_planet_amenities_add_2 = 1200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/planet_state.txt
+@pif_dimensional_portal_researcher_planet_state_planet_amenities_add_3 = 300
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/planet_state.txt
+@pif_dimensional_portal_researcher_planet_state_planet_amenities_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/planet_state.txt
+@pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_1 = 600
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/planet_state.txt
+@pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_2 = 1200
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/planet_state.txt
+@pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_3 = 300
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/planet_state.txt
+@pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# drone_energy_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/drone_energy_thrall/planet_state.txt
+@pif_drone_energy_thrall_planet_state_planet_amenities_no_happiness_add_2 = 300
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/drone_energy_thrall/planet_state.txt
+@pif_drone_energy_thrall_planet_state_planet_crime_no_happiness_add_1 = -3
+
+# -----------------------------------------------------------------------------
+# drone_wrangler
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/drone_wrangler/planet_state.txt
+@pif_drone_wrangler_planet_state_planet_amenities_no_happiness_add_1 = 400
+
+# -----------------------------------------------------------------------------
+# dystopian_enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/planet_state.txt
+@pif_dystopian_enforcer_planet_state_planet_crime_add_1 = -25
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/planet_state.txt
+@pif_dystopian_enforcer_planet_state_planet_crime_add_4 = -10
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/planet_state.txt
+@pif_dystopian_enforcer_planet_state_planet_crime_add_5 = -5
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/planet_state.txt
+@pif_dystopian_enforcer_planet_state_planet_defense_armies_add_2 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/planet_state.txt
+@pif_dystopian_enforcer_planet_state_planet_stability_add_3 = 0.2
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/planet_state.txt
+@pif_dystopian_enforcer_planet_state_planet_stability_add_6 = 1
+
+# -----------------------------------------------------------------------------
+# dystopian_telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_amenities_add_10 = 800
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_amenities_add_9 = 700
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_amenities_no_happiness_add_11 = 1500
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_crime_add_1 = -10
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_crime_add_2 = -5
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_crime_add_7 = -30
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_crime_no_happiness_add_5 = -10
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_crime_no_happiness_add_6 = -5
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_crime_no_happiness_add_8 = -30
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_defense_armies_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_stability_add_3 = 1
+
+# Controls: Job modifier value: planet_stability_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/planet_state.txt
+@pif_dystopian_telepath_planet_state_planet_stability_mult_12 = 0.03
+
+# -----------------------------------------------------------------------------
+# enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/planet_state.txt
+@pif_enforcer_planet_state_planet_crime_add_1 = -25
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/planet_state.txt
+@pif_enforcer_planet_state_planet_crime_add_4 = -10
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/planet_state.txt
+@pif_enforcer_planet_state_planet_crime_add_5 = -5
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/planet_state.txt
+@pif_enforcer_planet_state_planet_defense_armies_add_2 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/planet_state.txt
+@pif_enforcer_planet_state_planet_stability_add_3 = 0.2
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/planet_state.txt
+@pif_enforcer_planet_state_planet_stability_add_6 = 1
+
+# -----------------------------------------------------------------------------
+# entertainer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/entertainer/planet_state.txt
+@pif_entertainer_planet_state_planet_amenities_add_1 = 1250
+
+# -----------------------------------------------------------------------------
+# evaluator
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/evaluator/planet_state.txt
+@pif_evaluator_planet_state_planet_amenities_no_happiness_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# farmer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/farmer/planet_state.txt
+@pif_farmer_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# fe_acolyte_artisan
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/fe_acolyte_artisan/planet_state.txt
+@pif_fe_acolyte_artisan_planet_state_planet_amenities_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# fe_guardian_bot
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/fe_guardian_bot/planet_state.txt
+@pif_fe_guardian_bot_planet_state_planet_crime_add_1 = -25
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/fe_guardian_bot/planet_state.txt
+@pif_fe_guardian_bot_planet_state_planet_defense_armies_add_2 = 2
+
+# -----------------------------------------------------------------------------
+# fe_maintenance_bot
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/fe_maintenance_bot/planet_state.txt
+@pif_fe_maintenance_bot_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# fe_overseer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/fe_overseer/planet_state.txt
+@pif_fe_overseer_planet_state_planet_amenities_add_2 = 1000
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/fe_overseer/planet_state.txt
+@pif_fe_overseer_planet_state_planet_stability_add_1 = 5
+
+# -----------------------------------------------------------------------------
+# fe_protector
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/fe_protector/planet_state.txt
+@pif_fe_protector_planet_state_planet_crime_add_1 = -100
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/fe_protector/planet_state.txt
+@pif_fe_protector_planet_state_planet_defense_armies_add_2 = 2
+
+# -----------------------------------------------------------------------------
+# fe_sky_cardinal
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/fe_sky_cardinal/planet_state.txt
+@pif_fe_sky_cardinal_planet_state_planet_amenities_add_2 = 1000
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/fe_sky_cardinal/planet_state.txt
+@pif_fe_sky_cardinal_planet_state_planet_stability_add_1 = 5
+
+# -----------------------------------------------------------------------------
+# fe_xeno_keeper
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/fe_xeno_keeper/planet_state.txt
+@pif_fe_xeno_keeper_planet_state_planet_amenities_add_3 = 1000
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/fe_xeno_keeper/planet_state.txt
+@pif_fe_xeno_keeper_planet_state_planet_crime_add_1 = -20
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/fe_xeno_keeper/planet_state.txt
+@pif_fe_xeno_keeper_planet_state_planet_defense_armies_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# fotd_protectors
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/fotd_protectors/planet_state.txt
+@pif_fotd_protectors_planet_state_planet_crime_add_1 = -5
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/fotd_protectors/planet_state.txt
+@pif_fotd_protectors_planet_state_planet_defense_armies_add_2 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/fotd_protectors/planet_state.txt
+@pif_fotd_protectors_planet_state_planet_stability_add_3 = 1
+
+# -----------------------------------------------------------------------------
+# gestation_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/gestation_drone/planet_state.txt
+@pif_gestation_drone_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# haruspex
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/haruspex/planet_state.txt
+@pif_haruspex_planet_state_planet_amenities_add_1 = 200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/haruspex/planet_state.txt
+@pif_haruspex_planet_state_planet_amenities_add_2 = 100
+
+# -----------------------------------------------------------------------------
+# healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/healthcare/planet_state.txt
+@pif_healthcare_planet_state_planet_amenities_add_1 = 750
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/healthcare/planet_state.txt
+@pif_healthcare_planet_state_planet_amenities_add_2 = 100
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/healthcare/planet_state.txt
+@pif_healthcare_planet_state_planet_crime_add_3 = -10
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/healthcare/planet_state.txt
+@pif_healthcare_planet_state_planet_crime_no_happiness_add_4 = -10
+
+# -----------------------------------------------------------------------------
+# hive_sustenance_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/hive_sustenance_drone/planet_state.txt
+@pif_hive_sustenance_drone_planet_state_planet_amenities_no_happiness_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# hive_sustenance_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/hive_sustenance_drone_lithoid/planet_state.txt
+@pif_hive_sustenance_drone_lithoid_planet_state_planet_amenities_no_happiness_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# hunter_gatherer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/hunter_gatherer/planet_state.txt
+@pif_hunter_gatherer_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# hunter_gatherer_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/hunter_gatherer_lithoid/planet_state.txt
+@pif_hunter_gatherer_lithoid_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# identity_designer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/planet_state.txt
+@pif_identity_designer_planet_state_planet_amenities_add_1 = 500
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/planet_state.txt
+@pif_identity_designer_planet_state_planet_amenities_add_2 = 100
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/planet_state.txt
+@pif_identity_designer_planet_state_planet_amenities_add_3 = 200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/planet_state.txt
+@pif_identity_designer_planet_state_planet_amenities_add_4 = 300
+
+# -----------------------------------------------------------------------------
+# knight
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/knight/planet_state.txt
+@pif_knight_planet_state_planet_amenities_add_2 = 500
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/knight/planet_state.txt
+@pif_knight_planet_state_planet_defense_armies_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# knight_commander
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/knight_commander/planet_state.txt
+@pif_knight_commander_planet_state_planet_amenities_add_1 = 50000
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_animal
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_animal/planet_state.txt
+@pif_livestock_zoo_animal_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_animal_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_animal_lithoid/planet_state.txt
+@pif_livestock_zoo_animal_lithoid_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_beast
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_beast/planet_state.txt
+@pif_livestock_zoo_beast_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_beast_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_beast_lithoid/planet_state.txt
+@pif_livestock_zoo_beast_lithoid_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# logistics_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/logistics_drone/planet_state.txt
+@pif_logistics_drone_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/logistics_drone/planet_state.txt
+@pif_logistics_drone_planet_state_planet_amenities_no_happiness_add_2 = 250
+
+# -----------------------------------------------------------------------------
+# low_tech_priest
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/low_tech_priest/planet_state.txt
+@pif_low_tech_priest_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# low_tech_warrior
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/low_tech_warrior/planet_state.txt
+@pif_low_tech_warrior_planet_state_planet_crime_add_1 = -10
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/low_tech_warrior/planet_state.txt
+@pif_low_tech_warrior_planet_state_planet_defense_armies_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# maintenance_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/maintenance_drone/planet_state.txt
+@pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_1 = 400
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/maintenance_drone/planet_state.txt
+@pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_2 = 200
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/maintenance_drone/planet_state.txt
+@pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_3 = 100
+
+# -----------------------------------------------------------------------------
+# miner
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/miner/planet_state.txt
+@pif_miner_planet_state_planet_stability_add_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# mortal_initiate
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/mortal_initiate/planet_state.txt
+@pif_mortal_initiate_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# necro_apprentice
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/necro_apprentice/planet_state.txt
+@pif_necro_apprentice_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# overlord_healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/planet_state.txt
+@pif_overlord_healthcare_planet_state_planet_amenities_add_1 = 500
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/planet_state.txt
+@pif_overlord_healthcare_planet_state_planet_amenities_add_2 = 200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/planet_state.txt
+@pif_overlord_healthcare_planet_state_planet_amenities_add_3 = 100
+
+# -----------------------------------------------------------------------------
+# overlord_knight
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/planet_state.txt
+@pif_overlord_knight_planet_state_planet_defense_armies_add_2 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/planet_state.txt
+@pif_overlord_knight_planet_state_planet_stability_add_1 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_knight_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/planet_state.txt
+@pif_overlord_knight_drone_planet_state_planet_defense_armies_add_2 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/planet_state.txt
+@pif_overlord_knight_drone_planet_state_planet_stability_add_1 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_mortal_initiate
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_mortal_initiate/planet_state.txt
+@pif_overlord_mortal_initiate_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# overlord_mortal_initiate_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_mortal_initiate_drone/planet_state.txt
+@pif_overlord_mortal_initiate_drone_planet_state_planet_amenities_no_happiness_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer/planet_state.txt
+@pif_overlord_necromancer_planet_state_planet_defense_armies_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer_drone/planet_state.txt
+@pif_overlord_necromancer_drone_planet_state_planet_defense_armies_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_recruiter
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter/planet_state.txt
+@pif_overlord_recruiter_planet_state_planet_defense_armies_add_1 = 1.5
+
+# -----------------------------------------------------------------------------
+# overlord_recruiter_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter_drone/planet_state.txt
+@pif_overlord_recruiter_drone_planet_state_planet_defense_armies_add_1 = 1.5
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone/planet_state.txt
+@pif_overlord_spawning_drone_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone_lithoid/planet_state.txt
+@pif_overlord_spawning_drone_lithoid_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# overlord_trader
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader/planet_state.txt
+@pif_overlord_trader_planet_state_planet_amenities_add_1 = 1000
+
+# -----------------------------------------------------------------------------
+# overlord_trader_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader_drone/planet_state.txt
+@pif_overlord_trader_drone_planet_state_planet_amenities_no_happiness_add_1 = 1000
+
+# -----------------------------------------------------------------------------
+# patrol_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/patrol_drone/planet_state.txt
+@pif_patrol_drone_planet_state_planet_crime_no_happiness_add_1 = -20
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/patrol_drone/planet_state.txt
+@pif_patrol_drone_planet_state_planet_defense_armies_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# physician_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/physician_drone/planet_state.txt
+@pif_physician_drone_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# physicist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/physicist/planet_state.txt
+@pif_physicist_planet_state_planet_amenities_add_1 = 600
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/physicist/planet_state.txt
+@pif_physicist_planet_state_planet_amenities_add_2 = 1200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/physicist/planet_state.txt
+@pif_physicist_planet_state_planet_amenities_add_3 = 300
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/physicist/planet_state.txt
+@pif_physicist_planet_state_planet_amenities_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# politician
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/politician/planet_state.txt
+@pif_politician_planet_state_planet_amenities_add_1 = 300
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/politician/planet_state.txt
+@pif_politician_planet_state_planet_amenities_add_2 = 400
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/politician/planet_state.txt
+@pif_politician_planet_state_planet_amenities_add_5 = 200
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/politician/planet_state.txt
+@pif_politician_planet_state_planet_stability_add_3 = 0.02
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/politician/planet_state.txt
+@pif_politician_planet_state_planet_stability_add_4 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/politician/planet_state.txt
+@pif_politician_planet_state_planet_stability_add_6 = 1
+
+# -----------------------------------------------------------------------------
+# primitive_bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_bureaucrat/planet_state.txt
+@pif_primitive_bureaucrat_planet_state_planet_amenities_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# primitive_entertainer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_entertainer/planet_state.txt
+@pif_primitive_entertainer_planet_state_planet_amenities_add_1 = 800
+
+# -----------------------------------------------------------------------------
+# primitive_hive_spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_spawning_drone/planet_state.txt
+@pif_primitive_hive_spawning_drone_planet_state_planet_amenities_no_happiness_add_1 = 800
+
+# -----------------------------------------------------------------------------
+# primitive_hive_synapse_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_synapse_drone/planet_state.txt
+@pif_primitive_hive_synapse_drone_planet_state_planet_amenities_no_happiness_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# primitive_hive_synapse_drone_2
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_synapse_drone_2/planet_state.txt
+@pif_primitive_hive_synapse_drone_2_planet_state_planet_amenities_no_happiness_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# primitive_hive_warrior
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_warrior/planet_state.txt
+@pif_primitive_hive_warrior_planet_state_planet_defense_armies_add_1 = 3
+
+# -----------------------------------------------------------------------------
+# primitive_hive_warrior_2
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_warrior_2/planet_state.txt
+@pif_primitive_hive_warrior_2_planet_state_planet_defense_armies_add_1 = 3
+
+# -----------------------------------------------------------------------------
+# primitive_noble
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_noble/planet_state.txt
+@pif_primitive_noble_planet_state_planet_amenities_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# primitive_priest
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_priest/planet_state.txt
+@pif_primitive_priest_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# primitive_priest_2
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_priest_2/planet_state.txt
+@pif_primitive_priest_2_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# primitive_warrior
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_warrior/planet_state.txt
+@pif_primitive_warrior_planet_state_planet_defense_armies_add_1 = 3
+
+# -----------------------------------------------------------------------------
+# primitive_warrior_2
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/primitive_warrior_2/planet_state.txt
+@pif_primitive_warrior_2_planet_state_planet_defense_armies_add_1 = 3
+
+# -----------------------------------------------------------------------------
+# production_overseer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/production_overseer/planet_state.txt
+@pif_production_overseer_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# puddle_technician
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/puddle_technician/planet_state.txt
+@pif_puddle_technician_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# puddle_technician_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/puddle_technician_drone/planet_state.txt
+@pif_puddle_technician_drone_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# resort_worker
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/resort_worker/planet_state.txt
+@pif_resort_worker_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# roboticist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/roboticist/planet_state.txt
+@pif_roboticist_planet_state_planet_amenities_add_1 = 100
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/roboticist/planet_state.txt
+@pif_roboticist_planet_state_planet_amenities_add_2 = 200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/roboticist/planet_state.txt
+@pif_roboticist_planet_state_planet_amenities_add_3 = 300
+
+# -----------------------------------------------------------------------------
+# servant
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/servant/planet_state.txt
+@pif_servant_planet_state_planet_amenities_add_1 = 400
+
+# -----------------------------------------------------------------------------
+# shroud_trader
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/shroud_trader/planet_state.txt
+@pif_shroud_trader_planet_state_planet_amenities_add_1 = 200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/shroud_trader/planet_state.txt
+@pif_shroud_trader_planet_state_planet_amenities_add_2 = 100
+
+# -----------------------------------------------------------------------------
+# skywatcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/planet_state.txt
+@pif_skywatcher_planet_state_planet_defense_armies_add_1 = 1
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/planet_state.txt
+@pif_skywatcher_planet_state_planet_defense_armies_add_3 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/planet_state.txt
+@pif_skywatcher_planet_state_planet_stability_add_2 = 0.15
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/planet_state.txt
+@pif_skywatcher_planet_state_planet_stability_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/planet_state.txt
+@pif_skywatcher_planet_state_planet_stability_add_5 = 0.25
+
+# -----------------------------------------------------------------------------
+# skywatcher_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/planet_state.txt
+@pif_skywatcher_drone_planet_state_planet_defense_armies_add_1 = 1
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/planet_state.txt
+@pif_skywatcher_drone_planet_state_planet_defense_armies_add_3 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/planet_state.txt
+@pif_skywatcher_drone_planet_state_planet_stability_add_2 = 0.15
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/planet_state.txt
+@pif_skywatcher_drone_planet_state_planet_stability_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/planet_state.txt
+@pif_skywatcher_drone_planet_state_planet_stability_add_5 = 0.25
+
+# -----------------------------------------------------------------------------
+# slave_orderly
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/slave_orderly/planet_state.txt
+@pif_slave_orderly_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# slave_overseer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/planet_state.txt
+@pif_slave_overseer_planet_state_planet_crime_add_1 = -25
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/planet_state.txt
+@pif_slave_overseer_planet_state_planet_crime_add_3 = -10
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/planet_state.txt
+@pif_slave_overseer_planet_state_planet_crime_add_4 = -5
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/planet_state.txt
+@pif_slave_overseer_planet_state_planet_defense_armies_add_2 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/planet_state.txt
+@pif_slave_overseer_planet_state_planet_stability_add_5 = 1
+
+# -----------------------------------------------------------------------------
+# slave_toiler
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/slave_toiler/planet_state.txt
+@pif_slave_toiler_planet_state_planet_amenities_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# solarpunk_anarchist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/solarpunk_anarchist/planet_state.txt
+@pif_solarpunk_anarchist_planet_state_planet_amenities_add_2 = 100
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/solarpunk_anarchist/planet_state.txt
+@pif_solarpunk_anarchist_planet_state_planet_stability_add_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# soldier
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/planet_state.txt
+@pif_soldier_planet_state_planet_defense_armies_add_1 = 1
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/planet_state.txt
+@pif_soldier_planet_state_planet_defense_armies_add_3 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/planet_state.txt
+@pif_soldier_planet_state_planet_stability_add_2 = 0.15
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/planet_state.txt
+@pif_soldier_planet_state_planet_stability_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/planet_state.txt
+@pif_soldier_planet_state_planet_stability_add_5 = 0.25
+
+# -----------------------------------------------------------------------------
+# spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/planet_state.txt
+@pif_spawning_drone_planet_state_planet_amenities_no_happiness_add_1 = 500
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/planet_state.txt
+@pif_spawning_drone_planet_state_planet_crime_add_2 = -10
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/planet_state.txt
+@pif_spawning_drone_planet_state_planet_crime_no_happiness_add_3 = -10
+
+# -----------------------------------------------------------------------------
+# spe_colonist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/spe_colonist/planet_state.txt
+@pif_spe_colonist_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# squire
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/squire/planet_state.txt
+@pif_squire_planet_state_planet_amenities_add_1 = 200
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/squire/planet_state.txt
+@pif_squire_planet_state_planet_defense_armies_add_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# stasis_warden
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/planet_state.txt
+@pif_stasis_warden_planet_state_planet_crime_add_1 = -25
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/planet_state.txt
+@pif_stasis_warden_planet_state_planet_crime_add_3 = -10
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/planet_state.txt
+@pif_stasis_warden_planet_state_planet_crime_add_4 = -5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/planet_state.txt
+@pif_stasis_warden_planet_state_planet_stability_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# stasis_warden_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden_drone/planet_state.txt
+@pif_stasis_warden_drone_planet_state_planet_crime_no_happiness_add_1 = -20
+
+# -----------------------------------------------------------------------------
+# stratovent_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/stratovent_researcher/planet_state.txt
+@pif_stratovent_researcher_planet_state_planet_amenities_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# technophant
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/technophant/planet_state.txt
+@pif_technophant_planet_state_planet_amenities_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_amenities_add_10 = 800
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_amenities_add_9 = 700
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_amenities_no_happiness_add_11 = 1500
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_crime_add_1 = -10
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_crime_add_2 = -5
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_crime_add_7 = -30
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_crime_no_happiness_add_5 = -10
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_crime_no_happiness_add_6 = -5
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_crime_no_happiness_add_8 = -30
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_defense_armies_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_stability_add_3 = 1
+
+# Controls: Job modifier value: planet_stability_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/planet_state.txt
+@pif_telepath_planet_state_planet_stability_mult_12 = 0.03
+
+# -----------------------------------------------------------------------------
+# telepath_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_amenities_add_10 = 800
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_amenities_add_9 = 700
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_amenities_no_happiness_add_11 = 1500
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_amenities_no_happiness_add_14 = 700
+
+# Controls: Job modifier value: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_amenities_no_happiness_add_15 = 800
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_crime_add_1 = -10
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_crime_add_2 = -5
+
+# Controls: Job modifier value: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_crime_add_7 = -30
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_crime_no_happiness_add_5 = -10
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_crime_no_happiness_add_6 = -5
+
+# Controls: Job modifier value: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_crime_no_happiness_add_8 = -30
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_defense_armies_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_stability_add_13 = 0.75
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_stability_add_3 = 1
+
+# Controls: Job modifier value: planet_stability_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/planet_state.txt
+@pif_telepath_drone_planet_state_planet_stability_mult_12 = 0.03
+
+# -----------------------------------------------------------------------------
+# test_subject
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/test_subject/planet_state.txt
+@pif_test_subject_planet_state_planet_amenities_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# test_subject_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/test_subject_drone/planet_state.txt
+@pif_test_subject_drone_planet_state_planet_amenities_add_1 = 300
+
+# -----------------------------------------------------------------------------
+# trader
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/trader/planet_state.txt
+@pif_trader_planet_state_planet_amenities_add_1 = 300
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/trader/planet_state.txt
+@pif_trader_planet_state_planet_amenities_add_2 = 200
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/trader/planet_state.txt
+@pif_trader_planet_state_planet_amenities_add_3 = 100
+
+# -----------------------------------------------------------------------------
+# transference_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/transference_drone/planet_state.txt
+@pif_transference_drone_planet_state_planet_stability_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# transference_volunteer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/transference_volunteer/planet_state.txt
+@pif_transference_volunteer_planet_state_planet_stability_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# warrior_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/planet_state.txt
+@pif_warrior_drone_planet_state_planet_defense_armies_add_1 = 1
+
+# Controls: Job modifier value: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/planet_state.txt
+@pif_warrior_drone_planet_state_planet_defense_armies_add_3 = 0.5
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/planet_state.txt
+@pif_warrior_drone_planet_state_planet_stability_add_2 = 0.15
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/planet_state.txt
+@pif_warrior_drone_planet_state_planet_stability_add_4 = 1
+
+# Controls: Job modifier value: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/planet_state.txt
+@pif_warrior_drone_planet_state_planet_stability_add_5 = 0.25
+
+# -----------------------------------------------------------------------------
+# wrangler
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/wrangler/planet_state.txt
+@pif_wrangler_planet_state_planet_amenities_add_1 = 400
+
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/wrangler/planet_state.txt
+@pif_wrangler_planet_state_planet_amenities_add_2 = 200
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal/planet_state.txt
+@pif_xeno_zoo_animal_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_lithoid/planet_state.txt
+@pif_xeno_zoo_animal_lithoid_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_lithoid_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_lithoid_nascent/planet_state.txt
+@pif_xeno_zoo_animal_lithoid_nascent_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_nascent/planet_state.txt
+@pif_xeno_zoo_animal_nascent_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast/planet_state.txt
+@pif_xeno_zoo_beast_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_lithoid/planet_state.txt
+@pif_xeno_zoo_beast_lithoid_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_lithoid_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_lithoid_nascent/planet_state.txt
+@pif_xeno_zoo_beast_lithoid_nascent_planet_state_planet_amenities_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_amenities_add.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_nascent/planet_state.txt
+@pif_xeno_zoo_beast_nascent_planet_state_planet_amenities_add_1 = 100

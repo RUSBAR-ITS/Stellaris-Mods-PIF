@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: cyberdome_duelist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		unity = @pif_cyberdome_duelist_job_output_output_unity_1
+	}
+	upkeep = {
+		alloys = @pif_cyberdome_duelist_job_upkeep_upkeep_alloys_1
+	}
+}

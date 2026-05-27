@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_luxury_residence
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+ai_weight_coefficient = @pif_building_luxury_residence_ai_ai_weight_coefficient_1

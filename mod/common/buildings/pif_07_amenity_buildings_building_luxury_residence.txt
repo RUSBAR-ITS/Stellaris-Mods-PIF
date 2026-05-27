@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_luxury_residence = {
+	base_buildtime = @pif_building_luxury_residence_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_luxury_residence/building_config"
+	inline_script = "pif/buildings/building_luxury_residence/availability"
+	inline_script = "pif/buildings/building_luxury_residence/economy"
+	inline_script = "pif/buildings/building_luxury_residence/lifecycle"
+	inline_script = "pif/buildings/building_luxury_residence/jobs"
+	inline_script = "pif/buildings/building_luxury_residence/country_jobs"
+	inline_script = "pif/buildings/building_luxury_residence/economic_modifiers"
+	inline_script = "pif/buildings/building_luxury_residence/pop_modifiers"
+	inline_script = "pif/buildings/building_luxury_residence/planet_state"
+	inline_script = "pif/buildings/building_luxury_residence/tpm"
+	inline_script = "pif/buildings/building_luxury_residence/ai"
+}

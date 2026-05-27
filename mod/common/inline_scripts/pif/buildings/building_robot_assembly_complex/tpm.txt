@@ -1,0 +1,36 @@
+# PIF building category: TPM
+# Vanilla building: building_robot_assembly_complex
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			OR = {
+				has_origin = origin_mechanists
+				is_individual_machine = yes
+				has_country_flag = synthetic_empire
+			}
+		}
+		any_owned_pop_group = {
+			has_auto_modding_trait = yes
+		}
+	}
+	modifier = {
+		auto_mod_monthly_add = @pif_building_robot_assembly_complex_tpm_auto_mod_monthly_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = synth_safe_updates
+		}
+	}
+	modifier = {
+		planet_pop_assembly_mult = @pif_building_robot_assembly_complex_pop_modifiers_planet_pop_assembly_mult_2
+		planet_stability_add = @pif_building_robot_assembly_complex_planet_state_planet_stability_add_4
+	}
+}

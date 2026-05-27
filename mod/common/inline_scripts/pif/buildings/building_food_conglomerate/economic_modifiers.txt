@@ -1,0 +1,41 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_food_conglomerate
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_farmers_trade_produces_add = @pif_building_food_conglomerate_economic_modifiers_planet_farmers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			OR = {
+				has_valid_civic = civic_corporate_machine_anglers
+				has_valid_civic = civic_corporate_anglers
+			}
+		}
+	}
+	planet_farmers_trade_produces_add = @pif_building_food_conglomerate_economic_modifiers_planet_farmers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_permanent_employment
+		}
+	}
+	planet_farmers_trade_produces_add = @pif_building_food_conglomerate_economic_modifiers_planet_farmers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_beastmasters
+		}
+	}
+	planet_farmers_trade_produces_add = @pif_building_food_conglomerate_economic_modifiers_planet_farmers_trade_produces_add_2
+}

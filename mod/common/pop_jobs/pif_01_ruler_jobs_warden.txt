@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/01_ruler_jobs.txt
+# Object type: pop_job
+# Job class: ruler
+
+warden = {
+	category = ruler
+	inline_script = "pif/jobs/warden/swap"
+	inline_script = "pif/jobs/warden/availability"
+	inline_script = "pif/jobs/warden/pop_config"
+	inline_script = "pif/jobs/warden/economy"
+	inline_script = "pif/jobs/warden/planet_state"
+	inline_script = "pif/jobs/warden/country_modifiers"
+	inline_script = "pif/jobs/warden/pop_modifiers"
+	inline_script = "pif/jobs/warden/economic_modifiers"
+	inline_script = "pif/jobs/warden/tpm"
+}

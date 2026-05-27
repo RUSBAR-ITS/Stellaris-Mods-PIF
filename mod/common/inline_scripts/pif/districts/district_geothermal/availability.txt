@@ -1,0 +1,25 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_geothermal
+# Vanilla source: districts/02_rural_districts.txt
+
+potential = {
+	uses_district_set = volcanic_world
+}
+
+allow = {
+	hidden_trigger = {
+		NOT = {
+			has_modifier = resort_colony
+		}
+	}
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}
+
+prerequisites = {
+	tech_power_plant_1
+}

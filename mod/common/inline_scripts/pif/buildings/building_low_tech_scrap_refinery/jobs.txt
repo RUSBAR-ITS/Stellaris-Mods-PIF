@@ -1,0 +1,22 @@
+# PIF building category: JOBS
+# Vanilla building: building_low_tech_scrap_refinery
+# Vanilla class: regular
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_lithoid_empire = yes
+		}
+	}
+	job_low_tech_miner_add = @pif_building_low_tech_scrap_refinery_jobs_job_low_tech_miner_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_low_tech_laborer_add = @pif_building_low_tech_scrap_refinery_jobs_job_low_tech_laborer_add_2
+	job_low_tech_miner_add = @pif_building_low_tech_scrap_refinery_jobs_job_low_tech_miner_add_1
+}

@@ -1,0 +1,63 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: entertainer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	amenities
+	unity
+}
+
+weight = {
+	weight = @pif_entertainer_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|entertainer|RESOURCE|unity|FACTOR|0.25|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_entertainer_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_entertainer_job_weight_factor_3
+		has_trait = trait_robot_domestic_protocols
+		OR = {
+			is_non_sapient_robot = yes
+			is_shackled_robot = yes
+		}
+	}
+	modifier = {
+		factor = @pif_entertainer_job_weight_factor_4
+		is_domestic_servant = yes
+	}
+	modifier = {
+		factor = @pif_entertainer_job_weight_factor_5
+	}
+	modifier = {
+		add = @pif_entertainer_job_weight_add_6
+		exists = planet
+		planet = {
+			has_modifier = artistic_boom
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_charismatic
+	trait_crafted_smiles
+	trait_robot_emotion_emulators
+	trait_cyborg_stainless_steel_smile
+	trait_malleable_ameneties
+	trait_adaptive_amenities
+}
+
+promotion = {
+	time = @pif_entertainer_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

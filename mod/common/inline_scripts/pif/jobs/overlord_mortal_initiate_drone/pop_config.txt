@@ -1,0 +1,26 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: overlord_mortal_initiate_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+can_set_priority = @pif_overlord_mortal_initiate_drone_job_flags_can_set_priority_2
+
+tags = {
+	unity
+	research
+	amenities
+}
+
+weight = {
+	weight = @pif_overlord_mortal_initiate_drone_job_weight_weight_1
+}
+
+promotion = {
+	time = @pif_overlord_mortal_initiate_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

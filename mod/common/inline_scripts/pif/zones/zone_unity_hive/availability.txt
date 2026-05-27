@@ -1,0 +1,39 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_unity_hive
+# Vanilla source: zones/04_secondary_zones.txt
+
+potential = {
+	hidden_trigger = {
+		exists = owner
+	}
+	owner = {
+		is_wilderness_empire = no
+		is_spiritualist = no
+		NOT = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+	OR = {
+		owner = {
+			is_ai = no
+		}
+		AND = {
+			has_any_research_zone = no
+			has_any_industrial_zone = no
+		}
+	}
+}
+
+unlock = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			OR = {
+				is_wilderness_empire = no
+				NOT = {
+					has_valid_civic = civic_machine_servitor
+				}
+			}
+		}
+	}
+}

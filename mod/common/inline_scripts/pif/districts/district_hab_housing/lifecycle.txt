@@ -1,0 +1,7 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_hab_housing
+# Vanilla source: districts/03_habitat_districts.txt
+
+convert_to = {
+	district_mindlink
+}

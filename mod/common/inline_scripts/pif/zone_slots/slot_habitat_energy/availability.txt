@@ -1,0 +1,22 @@
+unlock = {
+	custom_tooltip = {
+		fail_text = zone_unavailable_tech_power_hub_1
+		OR = {
+			AND = {
+				is_capital = yes
+				exists = owner
+				owner = {
+					is_void_dweller_empire = yes
+				}
+			}
+			AND = {
+				exists = owner
+				owner = {
+					has_tech_or_functional_civic = {
+						TECH = tech_power_hub_1
+					}
+				}
+			}
+		}
+	}
+}

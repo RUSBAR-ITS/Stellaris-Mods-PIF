@@ -1,0 +1,35 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_illicit_research_labs
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_physicists_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_physicists_trade_produces_add_4
+	planet_biologists_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_biologists_trade_produces_add_5
+	planet_engineers_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_engineers_trade_produces_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_dark_consortium
+		}
+	}
+	planet_physicists_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_physicists_trade_produces_add_4
+	planet_biologists_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_biologists_trade_produces_add_5
+	planet_engineers_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_engineers_trade_produces_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_memory_vault_corporate
+		}
+	}
+	planet_physicists_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_physicists_trade_produces_add_4
+	planet_biologists_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_biologists_trade_produces_add_5
+	planet_engineers_trade_produces_add = @pif_building_illicit_research_labs_economic_modifiers_planet_engineers_trade_produces_add_6
+}

@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: evaluator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_evaluators
+	produces = {
+		unity = @pif_evaluator_job_output_output_unity_1
+	}
+	upkeep = {
+		energy = @pif_evaluator_job_upkeep_upkeep_energy_1
+	}
+}

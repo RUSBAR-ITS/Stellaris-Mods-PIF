@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: wildlife_sanctuary_3
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+can_build = no
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+show_tech_unlock_if = {
+	owner = {
+		has_origin = origin_primal_calling
+		has_animal_handler_job = yes
+	}
+}
+
+prerequisites = {
+	"tech_hypercomms_forum"
+}

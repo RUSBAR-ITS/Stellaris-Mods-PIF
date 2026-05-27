@@ -1,0 +1,18 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_sensorium_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+resources = {
+	category = planet_buildings
+	produces = {
+		trigger = {
+			exists = owner
+		}
+		unity = @pif_building_sensorium_3_economic_modifiers_produces_unity_1
+		multiplier = owner.trigger:num_ascension_perks
+	}
+	cost = {
+		minerals = @pif_building_sensorium_3_cost_cost_minerals_1
+	}
+}

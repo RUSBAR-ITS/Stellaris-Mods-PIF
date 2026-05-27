@@ -1,0 +1,22 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: hunting_grounds
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+planet_limit = @pif_hunting_grounds_limits_planet_limit_1
+
+potential = {
+	OR = {
+		owner = {
+			OR = {
+				has_trophy_hunter_job = yes
+				has_hunter_drone_job = yes
+			}
+		}
+		planet = {
+			has_zone = {
+				zone = zone_resort_hunting_ground
+			}
+		}
+	}
+}

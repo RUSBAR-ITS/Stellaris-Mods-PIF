@@ -1,0 +1,15 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_ancient_ward_2
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_build = no
+
+potential = {
+	has_shroud_dlc = yes
+	exists = owner
+	owner = {
+		has_origin = origin_mindwardens
+		has_country_flag = unlocked_ancient_ward_upgrade
+	}
+}

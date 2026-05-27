@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_propaganda_office
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_propaganda_office_limits_planet_limit_1
+
+potential = {
+	has_overlord_dlc = yes
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	exists = planet
+	planet = {
+		is_capital = yes
+	}
+}

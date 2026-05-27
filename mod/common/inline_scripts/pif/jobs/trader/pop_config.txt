@@ -1,0 +1,58 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	trade
+	amenities
+}
+
+weight = {
+	weight = @pif_trader_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|trader|RESOURCE|trade|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_trader_job_weight_factor_2
+		exists = planet
+		exists = planet.controller
+		planet.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+			}
+		}
+		OR = {
+			NOT = {
+				exists = event_target:custodian_bot
+			}
+			AND = {
+				exists = event_target:custodian_bot
+				NOT = {
+					species = {
+						is_same_value = event_target:custodian_bot
+					}
+				}
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_thrifty
+	trait_commercial_genius
+	trait_robot_trading_algorithms
+	trait_cyborg_trading_algorithms
+	trait_malleable_trade
+	trait_adaptive_trade
+}
+
+promotion = {
+	time = @pif_trader_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

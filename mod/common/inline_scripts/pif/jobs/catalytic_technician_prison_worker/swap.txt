@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: catalytic_technician_prison_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = building_foundry_1
+		icon = catalytic_technician
+	}
+}

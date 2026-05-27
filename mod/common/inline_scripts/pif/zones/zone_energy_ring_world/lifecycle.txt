@@ -1,0 +1,9 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_energy_ring_world
+# Vanilla source: zones/04_secondary_zones.txt
+
+convert_to = {
+	zone_energy
+	zone_energy_nexus
+	zone_energy_hive
+}

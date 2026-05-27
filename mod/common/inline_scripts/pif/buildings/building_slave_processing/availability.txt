@@ -1,0 +1,41 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_slave_processing
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+planet_limit = @pif_building_slave_processing_limits_planet_limit_1
+
+potential = {
+	owner = {
+		is_regular_empire = yes
+		OR = {
+			has_policy_flag = slavery_allowed
+			has_exploited_disconnected_drones = yes
+		}
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+	if = {
+		limit = {
+			exists = orbital_defence
+		}
+		orbital_defence = {
+			exists = starbase
+			starbase = {
+				NOR = {
+					has_starbase_building = ring_slave_processing_facility
+					is_starbase_building_building = ring_slave_processing_facility
+				}
+			}
+		}
+	}
+}
+
+prerequisites = {
+	"tech_neural_implants"
+}

@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: aid_worker_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = holding_aid_agency
+		icon = aid_worker
+	}
+}

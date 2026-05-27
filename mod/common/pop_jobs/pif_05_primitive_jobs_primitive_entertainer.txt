@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+primitive_entertainer = {
+	category = specialist
+	inline_script = "pif/jobs/primitive_entertainer/swap"
+	inline_script = "pif/jobs/primitive_entertainer/availability"
+	inline_script = "pif/jobs/primitive_entertainer/pop_config"
+	inline_script = "pif/jobs/primitive_entertainer/economy"
+	inline_script = "pif/jobs/primitive_entertainer/planet_state"
+	inline_script = "pif/jobs/primitive_entertainer/country_modifiers"
+	inline_script = "pif/jobs/primitive_entertainer/pop_modifiers"
+	inline_script = "pif/jobs/primitive_entertainer/economic_modifiers"
+	inline_script = "pif/jobs/primitive_entertainer/tpm"
+}

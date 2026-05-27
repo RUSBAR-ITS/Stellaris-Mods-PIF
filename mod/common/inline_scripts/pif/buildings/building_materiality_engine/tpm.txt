@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_materiality_engine
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	damage_vs_psionic_empires_mult = 0.05
+}

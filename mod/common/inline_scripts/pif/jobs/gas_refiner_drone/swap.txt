@@ -1,0 +1,24 @@
+# PIF job category: SWAP
+# Vanilla job: gas_refiner_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_refinery
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = gaseosymbiote
+		desc = gaseosymbiote
+		building_icon = churning_stomach
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+organic_exhibit = {
+	category = bio_trophy
+	inline_script = "pif/jobs/organic_exhibit/swap"
+	inline_script = "pif/jobs/organic_exhibit/availability"
+	inline_script = "pif/jobs/organic_exhibit/pop_config"
+	inline_script = "pif/jobs/organic_exhibit/economy"
+	inline_script = "pif/jobs/organic_exhibit/planet_state"
+	inline_script = "pif/jobs/organic_exhibit/country_modifiers"
+	inline_script = "pif/jobs/organic_exhibit/pop_modifiers"
+	inline_script = "pif/jobs/organic_exhibit/economic_modifiers"
+	inline_script = "pif/jobs/organic_exhibit/tpm"
+}

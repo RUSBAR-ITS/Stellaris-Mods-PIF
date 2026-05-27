@@ -1,0 +1,6 @@
+# PIF job category: SWAP
+# Vanilla job: pre_sapient
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+# Empty PIF job category hook.

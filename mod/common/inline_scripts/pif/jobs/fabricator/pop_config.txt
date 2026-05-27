@@ -1,0 +1,38 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: fabricator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_fabricator_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|fabricator|RESOURCE|alloys|
+	mult = value:scripted_job_weight_shroud_forged_mult
+	modifier = {
+		factor = @pif_fabricator_job_weight_factor_2
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_fabricator_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

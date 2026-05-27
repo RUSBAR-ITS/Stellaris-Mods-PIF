@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/14_grand_archive_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+treasure_gatherer_gestalt = {
+	category = complex_drone
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/swap"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/availability"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/pop_config"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/economy"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/planet_state"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/country_modifiers"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/pop_modifiers"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/economic_modifiers"
+	inline_script = "pif/jobs/treasure_gatherer_gestalt/tpm"
+}

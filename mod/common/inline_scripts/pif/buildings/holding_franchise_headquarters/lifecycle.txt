@@ -1,0 +1,24 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_franchise_headquarters
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+destroy_trigger = {
+	NOT = {
+		planet = {
+			has_branch_office = owner.overlord
+		}
+	}
+}
+
+on_built = {
+	planet = {
+		set_planet_flag = has_franchise_headquarters
+	}
+}
+
+on_destroy = {
+	planet = {
+		remove_planet_flag = has_franchise_headquarters
+	}
+}

@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: building_institute
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_technocracy
+		}
+	}
+	job_politician_add = @pif_building_institute_jobs_job_politician_add_1
+}

@@ -1,0 +1,7 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_habitat_knights
+# Vanilla source: zones/01_habitat_zones.txt
+
+convert_to = {
+	zone_fortress
+}

@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_toxic_bath_hive
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+planet_limit = @pif_building_toxic_bath_hive_limits_planet_limit_1
+
+potential = {
+	owner = {
+		is_hive_empire = yes
+		is_wilderness_empire = no
+		is_toxic_baths_empire = yes
+	}
+}

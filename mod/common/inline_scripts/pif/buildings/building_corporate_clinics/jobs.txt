@@ -1,0 +1,31 @@
+# PIF building category: JOBS
+# Vanilla building: building_corporate_clinics
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			OR = {
+				is_criminal_syndicate = no
+				AND = {
+					is_criminal_syndicate = yes
+					is_legit_or_legal_criminal = yes
+				}
+			}
+		}
+	}
+	job_healthcare_add = @pif_building_corporate_clinics_jobs_job_healthcare_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			is_criminal_syndicate = yes
+			NOT = {
+				is_legit_or_legal_criminal = yes
+			}
+		}
+	}
+	job_criminal_add = @pif_building_corporate_clinics_jobs_job_criminal_add_2
+}

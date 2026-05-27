@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+cyberdome_spectator = {
+	category = worker
+	inline_script = "pif/jobs/cyberdome_spectator/swap"
+	inline_script = "pif/jobs/cyberdome_spectator/availability"
+	inline_script = "pif/jobs/cyberdome_spectator/pop_config"
+	inline_script = "pif/jobs/cyberdome_spectator/economy"
+	inline_script = "pif/jobs/cyberdome_spectator/planet_state"
+	inline_script = "pif/jobs/cyberdome_spectator/country_modifiers"
+	inline_script = "pif/jobs/cyberdome_spectator/pop_modifiers"
+	inline_script = "pif/jobs/cyberdome_spectator/economic_modifiers"
+	inline_script = "pif/jobs/cyberdome_spectator/tpm"
+}

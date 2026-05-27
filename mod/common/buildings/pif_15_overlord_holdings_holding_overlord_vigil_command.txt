@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_overlord_vigil_command = {
+	base_buildtime = @pif_holding_overlord_vigil_command_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_overlord_vigil_command
+	category = army
+	inline_script = "pif/buildings/holding_overlord_vigil_command/building_config"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/availability"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/economy"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/lifecycle"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/jobs"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/country_jobs"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/economic_modifiers"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/pop_modifiers"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/planet_state"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/tpm"
+	inline_script = "pif/buildings/holding_overlord_vigil_command/ai"
+}

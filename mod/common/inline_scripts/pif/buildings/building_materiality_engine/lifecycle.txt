@@ -1,0 +1,26 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_materiality_engine
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_be_ruined = no
+
+can_be_disabled = no
+
+on_built = {
+	materiality_engine_on_built_effect = yes
+}
+
+on_destroy = {
+	if = {
+		limit = {
+			exists = event_target:mindwarden_enclave_country
+		}
+		event_target:mindwarden_enclave_country = {
+			add_trust = {
+				who = root.owner
+				amount = -5
+			}
+		}
+	}
+}

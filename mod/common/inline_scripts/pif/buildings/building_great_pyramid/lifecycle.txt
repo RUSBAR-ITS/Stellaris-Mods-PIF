@@ -1,0 +1,10 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_great_pyramid
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+can_demolish = yes
+
+can_be_ruined = no
+
+can_be_disabled = no

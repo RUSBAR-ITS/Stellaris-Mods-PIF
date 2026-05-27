@@ -1,0 +1,27 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: hunting_grounds_3
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+destroy_trigger = {
+	AND = {
+		owner = {
+			has_trophy_hunter_job = no
+			has_hunter_drone_job = no
+		}
+		planet = {
+			NOT = {
+				has_zone = {
+					zone = zone_resort_hunting_ground
+				}
+			}
+		}
+	}
+}
+
+convert_to = {
+	wildlife_ranch_3
+	wildlife_sanctuary_3
+	primal_arena_3
+	symbiosis_nexus_3
+}

@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_experimentation_chambers_1
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+exempt_from_ai_planet_specialization = no

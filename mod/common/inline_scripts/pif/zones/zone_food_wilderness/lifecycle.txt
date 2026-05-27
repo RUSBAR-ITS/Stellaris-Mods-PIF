@@ -1,0 +1,7 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_food_wilderness
+# Vanilla source: zones/03_wilderness_zones.txt
+
+convert_to = {
+	zone_food_ring_world
+}

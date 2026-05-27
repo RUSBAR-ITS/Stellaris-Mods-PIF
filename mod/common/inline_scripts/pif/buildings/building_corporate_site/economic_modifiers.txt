@@ -1,0 +1,13 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_corporate_site
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_unity_produces_mult = @pif_building_corporate_site_economic_modifiers_planet_jobs_unity_produces_mult_2
+	planet_civilians_unity_produces_add = @pif_building_corporate_site_economic_modifiers_planet_civilians_unity_produces_add_3
+	planet_civilians_consumer_goods_upkeep_add = @pif_building_corporate_site_economic_modifiers_planet_civilians_consumer_goods_upkeep_add_4
+}

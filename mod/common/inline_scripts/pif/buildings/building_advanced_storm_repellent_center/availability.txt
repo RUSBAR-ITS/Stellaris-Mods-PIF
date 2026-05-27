@@ -1,0 +1,10 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_advanced_storm_repellent_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+can_build = no
+
+prerequisites = {
+	"tech_advanced_storm_manipulation"
+}

@@ -1,0 +1,31 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_corporate_vault
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_corporate_vault_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	NOR = {
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+	owner = {
+		is_megacorp = yes
+		is_spiritualist = no
+		has_make_spiritualist_perk = no
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_autocurating_vault"
+}
+
+show_tech_unlock_if = {
+	is_megacorp = yes
+	is_spiritualist = no
+	has_make_spiritualist_perk = no
+}

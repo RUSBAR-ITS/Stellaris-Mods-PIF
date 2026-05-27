@@ -1,0 +1,16 @@
+# PIF job category: ECONOMY
+# Vanilla job: space_time_anomaly_researcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_space_time_anomaly_researcher_job_output_output_physics_research_1
+		engineering_research = @pif_space_time_anomaly_researcher_job_output_output_engineering_research_2
+		sr_dark_matter = @pif_space_time_anomaly_researcher_job_output_output_sr_dark_matter_3
+	}
+	upkeep = {
+		consumer_goods = @pif_space_time_anomaly_researcher_job_upkeep_upkeep_consumer_goods_1
+	}
+}

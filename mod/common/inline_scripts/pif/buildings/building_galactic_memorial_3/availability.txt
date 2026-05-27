@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_galactic_memorial_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	NOT = {
+		has_modifier = slave_colony
+	}
+	owner = {
+		is_memorialist_empire = yes
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_hypercomms_forum"
+}
+
+show_tech_unlock_if = {
+	is_memorialist_empire = yes
+}

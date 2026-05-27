@@ -1,0 +1,15 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_overlord_vigil_command
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+destroy_trigger = {
+	exists = planet.owner
+	planet.owner = {
+		NOT = {
+			is_specialist_subject_type = {
+				TYPE = bulwark
+			}
+		}
+	}
+}

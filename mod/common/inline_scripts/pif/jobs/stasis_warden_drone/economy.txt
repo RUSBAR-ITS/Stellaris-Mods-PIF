@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: stasis_warden_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		physics_research = @pif_stasis_warden_drone_job_output_output_physics_research_1
+		unity = @pif_stasis_warden_drone_job_output_output_unity_2
+	}
+}

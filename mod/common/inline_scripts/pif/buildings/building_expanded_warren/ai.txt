@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_expanded_warren
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+ai_weight_coefficient = @pif_building_expanded_warren_ai_ai_weight_coefficient_1

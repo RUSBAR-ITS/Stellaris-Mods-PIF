@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_tendril_cradle_4 = {
+	icon = "tendril_cradle_building_4"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_tendril_cradle_4_construction_base_buildtime_1
+	category = trade
+	inline_script = "pif/buildings/building_tendril_cradle_4/building_config"
+	inline_script = "pif/buildings/building_tendril_cradle_4/availability"
+	inline_script = "pif/buildings/building_tendril_cradle_4/economy"
+	inline_script = "pif/buildings/building_tendril_cradle_4/lifecycle"
+	inline_script = "pif/buildings/building_tendril_cradle_4/jobs"
+	inline_script = "pif/buildings/building_tendril_cradle_4/country_jobs"
+	inline_script = "pif/buildings/building_tendril_cradle_4/economic_modifiers"
+	inline_script = "pif/buildings/building_tendril_cradle_4/pop_modifiers"
+	inline_script = "pif/buildings/building_tendril_cradle_4/planet_state"
+	inline_script = "pif/buildings/building_tendril_cradle_4/tpm"
+	inline_script = "pif/buildings/building_tendril_cradle_4/ai"
+}

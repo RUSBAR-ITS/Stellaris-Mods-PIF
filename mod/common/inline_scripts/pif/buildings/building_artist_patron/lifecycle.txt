@@ -1,0 +1,6 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_artist_patron
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+can_demolish = yes

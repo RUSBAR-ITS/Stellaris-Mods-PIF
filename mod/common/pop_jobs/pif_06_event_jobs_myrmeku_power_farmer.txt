@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+myrmeku_power_farmer = {
+	category = specialist
+	inline_script = "pif/jobs/myrmeku_power_farmer/swap"
+	inline_script = "pif/jobs/myrmeku_power_farmer/availability"
+	inline_script = "pif/jobs/myrmeku_power_farmer/pop_config"
+	inline_script = "pif/jobs/myrmeku_power_farmer/economy"
+	inline_script = "pif/jobs/myrmeku_power_farmer/planet_state"
+	inline_script = "pif/jobs/myrmeku_power_farmer/country_modifiers"
+	inline_script = "pif/jobs/myrmeku_power_farmer/pop_modifiers"
+	inline_script = "pif/jobs/myrmeku_power_farmer/economic_modifiers"
+	inline_script = "pif/jobs/myrmeku_power_farmer/tpm"
+}

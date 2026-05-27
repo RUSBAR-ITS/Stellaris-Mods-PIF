@@ -1,0 +1,342 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: JOBS_SERVICES
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_anglers
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_services_job_amount_job_logistics_drone_add_1 = 50
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_urban
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_services_job_amount_job_logistics_drone_add_1 = 75
+
+# -----------------------------------------------------------------------------
+# zone_machine_replication
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_replicator_add.
+# Used in: common/inline_scripts/pif/zones/zone_machine_replication/tpm.txt
+@pif_zone_machine_replication_jobs_services_job_amount_job_replicator_add_1 = 50
+
+# Controls: job amount: job_roboticist_add.
+# Used in: common/inline_scripts/pif/zones/zone_machine_replication/tpm.txt
+@pif_zone_machine_replication_jobs_services_job_amount_job_roboticist_add_2 = 50
+
+# -----------------------------------------------------------------------------
+# zone_payback_enlightenment
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_services_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_services_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_healthcare_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_services_job_amount_job_healthcare_add_1 = 40
+
+# -----------------------------------------------------------------------------
+# zone_resort
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
+@pif_zone_resort_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
+@pif_zone_resort_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
+@pif_zone_resort_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
+@pif_zone_resort_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
+@pif_zone_resort_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_resort_worker_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
+@pif_zone_resort_jobs_services_job_amount_job_resort_worker_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_resort_entertainment
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/tpm.txt
+@pif_zone_resort_entertainment_jobs_services_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/tpm.txt
+@pif_zone_resort_entertainment_jobs_services_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_entertainer_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/tpm.txt
+@pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_resort_proving_grounds
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_entertainer_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_proving_grounds/tpm.txt
+@pif_zone_resort_proving_grounds_jobs_services_job_amount_job_entertainer_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_resort_restoration_enclave
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_healthcare_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_restoration_enclave/tpm.txt
+@pif_zone_resort_restoration_enclave_jobs_services_job_amount_job_healthcare_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_spawning
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_spawning_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_spawning/tpm.txt
+@pif_zone_spawning_jobs_services_job_amount_job_spawning_drone_add_1 = 50
+
+# -----------------------------------------------------------------------------
+# zone_spawning_hive
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_spawning_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_spawning_hive/tpm.txt
+@pif_zone_spawning_hive_jobs_services_job_amount_job_spawning_drone_add_1 = 50
+
+# -----------------------------------------------------------------------------
+# zone_subterranean_urban
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_services_job_amount_job_logistics_drone_add_1 = 75
+
+# -----------------------------------------------------------------------------
+# zone_trade
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_services_job_amount_job_logistics_drone_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_trade_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_services_job_amount_job_logistics_drone_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_services_job_amount_job_logistics_drone_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_services_job_amount_job_logistics_drone_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_services_job_amount_job_logistics_drone_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_services_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_services_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_services_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_services_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_services_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_logistics_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_services_job_amount_job_logistics_drone_add_1 = 100

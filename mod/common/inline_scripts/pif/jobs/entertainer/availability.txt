@@ -1,0 +1,23 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: entertainer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible = {
+	if = {
+		limit = {
+			entertainer_is_duelist_trigger = yes
+		}
+		battle_thrall_job_check_trigger = yes
+	}
+	else = {
+		entertainer_job_check_trigger = yes
+	}
+}

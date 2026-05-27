@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_industrial_subsidiary = {
+	base_buildtime = @pif_building_industrial_subsidiary_construction_base_buildtime_1
+	owner_type = corporate
+	category = manufacturing
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_industrial_subsidiary/building_config"
+	inline_script = "pif/buildings/building_industrial_subsidiary/availability"
+	inline_script = "pif/buildings/building_industrial_subsidiary/economy"
+	inline_script = "pif/buildings/building_industrial_subsidiary/lifecycle"
+	inline_script = "pif/buildings/building_industrial_subsidiary/jobs"
+	inline_script = "pif/buildings/building_industrial_subsidiary/country_jobs"
+	inline_script = "pif/buildings/building_industrial_subsidiary/economic_modifiers"
+	inline_script = "pif/buildings/building_industrial_subsidiary/pop_modifiers"
+	inline_script = "pif/buildings/building_industrial_subsidiary/planet_state"
+	inline_script = "pif/buildings/building_industrial_subsidiary/tpm"
+	inline_script = "pif/buildings/building_industrial_subsidiary/ai"
+}

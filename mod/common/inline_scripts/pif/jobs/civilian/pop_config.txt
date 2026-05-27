@@ -1,0 +1,10 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: civilian
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+count_as_available_for_ai = @pif_civilian_job_flags_count_as_available_for_ai_2
+
+weight = {
+	weight = @pif_civilian_job_weight_weight_1
+}

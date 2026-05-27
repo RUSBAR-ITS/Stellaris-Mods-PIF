@@ -1,0 +1,9 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_hab_mining
+# Vanilla source: districts/03_habitat_districts.txt
+
+on_built = {
+	planet_event = {
+		id = megastructures.210
+	}
+}

@@ -1,0 +1,13 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: machine_nurse
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	modifier = {
+		planet_jobs_complex_and_simple_drone_produces_mult = @pif_machine_nurse_economic_modifiers_planet_jobs_complex_and_simple_drone_produces_mult_1
+	}
+}

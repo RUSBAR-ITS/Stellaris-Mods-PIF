@@ -1,0 +1,14 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: physician_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_physician_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|physician_drone|RESOURCE|unity|
+	mult = value:scripted_job_weight_shroud_forged_mult
+}

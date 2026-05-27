@@ -1,0 +1,26 @@
+# PIF building category: AI
+# Vanilla building: building_underground_clubs
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+ai_weight = {
+	weight = @pif_building_underground_clubs_ai_weight_1
+	modifier = {
+		factor = @pif_building_underground_clubs_ai_factor_2
+		branch_office_owner = {
+			has_monthly_income = {
+				resource = energy
+				value < 0
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_building_underground_clubs_ai_factor_3
+		branch_office_owner = {
+			has_monthly_income = {
+				resource = energy
+				value > 50
+			}
+		}
+	}
+}

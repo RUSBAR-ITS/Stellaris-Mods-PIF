@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_stronghold
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+building_sets = {
+	government
+	fortress
+}

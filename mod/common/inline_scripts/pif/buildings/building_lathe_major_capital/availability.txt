@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_lathe_major_capital
+# Vanilla class: capital
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+can_build = no
+
+potential = {
+	uses_district_set = cosmogenesis_world
+	exists = owner
+	owner = {
+		has_ascension_perk = ap_cosmogenesis
+	}
+}

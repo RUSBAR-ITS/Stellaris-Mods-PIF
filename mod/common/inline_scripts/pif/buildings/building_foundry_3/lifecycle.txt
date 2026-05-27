@@ -1,0 +1,15 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_foundry_3
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		owner = {
+			is_wilderness_empire = yes
+		}
+	}
+}

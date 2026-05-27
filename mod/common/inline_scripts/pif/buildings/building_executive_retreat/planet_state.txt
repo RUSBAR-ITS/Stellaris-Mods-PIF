@@ -1,0 +1,20 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_executive_retreat
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_mult = @pif_building_executive_retreat_planet_state_planet_amenities_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			is_criminal_syndicate = yes
+		}
+	}
+	planet_crime_floor_add = @pif_building_executive_retreat_planet_state_planet_crime_floor_add_2
+}

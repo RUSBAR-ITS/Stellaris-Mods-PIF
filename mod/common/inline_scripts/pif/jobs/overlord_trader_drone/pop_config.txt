@@ -1,0 +1,34 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: overlord_trader_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+can_set_priority = @pif_overlord_trader_drone_job_flags_can_set_priority_2
+
+tags = {
+	trade
+}
+
+weight = {
+	weight = @pif_overlord_trader_drone_job_weight_weight_1
+	mult = value:scripted_job_weight_shroud_forged_mult
+}
+
+auto_trait_prio = {
+	trait_thrifty
+	trait_commercial_genius
+	trait_robot_trading_algorithms
+	trait_cyborg_trading_algorithms
+	trait_malleable_trade
+	trait_adaptive_trade
+}
+
+promotion = {
+	time = @pif_overlord_trader_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,16 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_composer_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_composer_sanctum_cost_cost_minerals_1
+		sr_zro = @pif_building_composer_sanctum_cost_cost_sr_zro_2
+	}
+	upkeep = {
+		energy = @pif_building_composer_sanctum_upkeep_upkeep_energy_1
+		sr_zro = @pif_building_composer_sanctum_upkeep_upkeep_sr_zro_2
+	}
+}

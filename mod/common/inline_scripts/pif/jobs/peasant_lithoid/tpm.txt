@@ -1,0 +1,6 @@
+# PIF job category: TPM
+# Vanilla job: peasant_lithoid
+# Vanilla class: worker
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+# Empty PIF job category hook.

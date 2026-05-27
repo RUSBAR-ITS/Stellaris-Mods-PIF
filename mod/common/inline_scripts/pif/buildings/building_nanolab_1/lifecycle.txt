@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_nanolab_1
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		NOT = {
+			owner = {
+				has_tradition = tr_nanotech_adopt
+			}
+		}
+		has_modifier = slave_colony
+		has_modifier = resort_colony
+	}
+}
+
+upgrades = {
+	"building_nanolab_2"
+}

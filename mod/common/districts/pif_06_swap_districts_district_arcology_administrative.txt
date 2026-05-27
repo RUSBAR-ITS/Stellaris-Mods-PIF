@@ -1,0 +1,19 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/06_swap_districts.txt
+# Object class: active_mask
+
+district_arcology_administrative = {
+	overlay_icon = GFX_district_unity
+	zone_slots = {
+		slot_empty
+	}
+	show_on_uncolonized = {
+		always = no
+	}
+	potential = {
+		always = no
+	}
+	triggered_name = {
+		text = city_bureaucracy_1
+	}
+}

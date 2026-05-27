@@ -1,0 +1,8 @@
+# PIF building category: AI
+# Vanilla building: building_galactic_stock_exchange
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+ai_resource_production = {
+	trade = @pif_building_galactic_stock_exchange_ai_trade_1
+}

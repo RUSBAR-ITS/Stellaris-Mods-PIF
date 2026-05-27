@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_holotemple = {
+	base_buildtime = @pif_building_holotemple_construction_base_buildtime_1
+	category = unity
+	inline_script = "pif/buildings/building_holotemple/building_config"
+	inline_script = "pif/buildings/building_holotemple/availability"
+	inline_script = "pif/buildings/building_holotemple/economy"
+	inline_script = "pif/buildings/building_holotemple/lifecycle"
+	inline_script = "pif/buildings/building_holotemple/jobs"
+	inline_script = "pif/buildings/building_holotemple/country_jobs"
+	inline_script = "pif/buildings/building_holotemple/economic_modifiers"
+	inline_script = "pif/buildings/building_holotemple/pop_modifiers"
+	inline_script = "pif/buildings/building_holotemple/planet_state"
+	inline_script = "pif/buildings/building_holotemple/tpm"
+	inline_script = "pif/buildings/building_holotemple/ai"
+}

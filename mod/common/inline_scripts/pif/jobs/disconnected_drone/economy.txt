@@ -1,0 +1,8 @@
+# PIF job category: ECONOMY
+# Vanilla job: disconnected_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+resources = {
+	category = planet_disconnected_drones
+}

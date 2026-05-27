@@ -1,0 +1,40 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_luxury_residence
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+potential = {
+	OR = {
+		NOT = {
+			is_planet_class = pc_habitat
+		}
+		AND = {
+			exists = owner
+			owner = {
+				is_void_dweller_empire = yes
+			}
+		}
+	}
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		free_amenities < @pif_building_luxury_residence_availability_thresholds_free_amenities_1
+		days_passed = 0
+	}
+	NOR = {
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+	exists = owner
+	owner = {
+		is_regular_empire = yes
+		NOT = {
+			has_valid_civic = civic_shared_burden
+		}
+	}
+	NOT = {
+		has_building = building_low_tech_capital
+	}
+}

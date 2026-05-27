@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_identity_complex
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+# Empty PIF building category hook.

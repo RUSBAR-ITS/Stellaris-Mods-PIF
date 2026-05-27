@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_lifecrypt_corporate_1
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+base_cap_amount = @pif_building_lifecrypt_corporate_1_limits_base_cap_amount_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_civic = civic_entropy_drinkers_corporate
+	}
+}
+
+show_tech_unlock_if = {
+	has_civic = civic_entropy_drinkers_corporate
+}
+
+prerequisites = {
+	"tech_cultural_heritage"
+}

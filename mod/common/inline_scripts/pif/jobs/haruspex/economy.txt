@@ -1,0 +1,25 @@
+# PIF job category: ECONOMY
+# Vanilla job: haruspex
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_haruspex_job_output_output_unity_1
+		engineering_research = @pif_haruspex_job_output_output_engineering_research_2
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_megacorp = yes
+			}
+		}
+		engineering_research = @pif_haruspex_job_output_output_engineering_research_3
+		trade = @pif_haruspex_job_output_output_trade_4
+	}
+	upkeep = {
+		consumer_goods = @pif_haruspex_job_upkeep_upkeep_consumer_goods_1
+	}
+}

@@ -1,0 +1,7 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_mining_uncapped
+# Vanilla source: districts/02_rural_districts.txt
+
+potential = {
+	always = no
+}

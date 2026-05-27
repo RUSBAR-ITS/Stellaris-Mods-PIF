@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_forge_of_the_fellowship
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_forge_of_the_fellowship_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_forge_of_the_fellowship_upkeep_upkeep_energy_1
+	}
+}

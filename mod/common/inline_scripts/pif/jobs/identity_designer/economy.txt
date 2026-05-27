@@ -1,0 +1,25 @@
+# PIF job category: ECONOMY
+# Vanilla job: identity_designer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_pop_assemblers
+	produces = {
+		engineering_research = @pif_identity_designer_job_output_output_engineering_research_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				NOT = {
+					has_country_flag = identity_designer_converter
+				}
+			}
+		}
+		engineering_research = @pif_identity_designer_job_output_output_engineering_research_2
+	}
+	upkeep = {
+		alloys = @pif_identity_designer_job_upkeep_upkeep_alloys_1
+	}
+}

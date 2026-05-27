@@ -1,0 +1,14 @@
+# PIF job category: TPM
+# Vanilla job: purge_processing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_origin = origin_evolutionary_predators
+		}
+	}
+	custom_tooltip = evolutionary_predators_pops_tt
+}

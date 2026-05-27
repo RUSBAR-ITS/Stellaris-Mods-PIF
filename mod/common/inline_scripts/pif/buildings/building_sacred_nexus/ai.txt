@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_sacred_nexus
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+# Empty PIF building category hook.

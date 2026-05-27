@@ -1,0 +1,31 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_splinter_hive
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+on_built = {
+	planet = {
+		add_blocker = {
+			type = d_spawning_complex_blocker
+		}
+		owner.overlord.capital_scope = {
+			append_symbiotic_link = yes
+			refresh_splinter_hive_modifier = yes
+		}
+	}
+}
+
+on_destroy = {
+	planet = {
+		if = {
+			limit = {
+				has_deposit = d_spawning_complex_blocker
+			}
+			remove_deposit = d_spawning_complex_blocker
+		}
+		owner.overlord.capital_scope = {
+			remove_symbiotic_link = yes
+			refresh_splinter_hive_modifier = yes
+		}
+	}
+}

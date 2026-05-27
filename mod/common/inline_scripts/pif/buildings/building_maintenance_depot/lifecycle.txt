@@ -1,0 +1,20 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_maintenance_depot
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_gestalt = no
+		}
+		owner = {
+			is_wilderness_empire = yes
+		}
+	}
+}
+
+convert_to = {
+	building_commercial_zone
+}

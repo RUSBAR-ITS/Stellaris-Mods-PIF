@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/04_gestalt_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+calculator_biologist = {
+	category = complex_drone
+	inline_script = "pif/jobs/calculator_biologist/swap"
+	inline_script = "pif/jobs/calculator_biologist/availability"
+	inline_script = "pif/jobs/calculator_biologist/pop_config"
+	inline_script = "pif/jobs/calculator_biologist/economy"
+	inline_script = "pif/jobs/calculator_biologist/planet_state"
+	inline_script = "pif/jobs/calculator_biologist/country_modifiers"
+	inline_script = "pif/jobs/calculator_biologist/pop_modifiers"
+	inline_script = "pif/jobs/calculator_biologist/economic_modifiers"
+	inline_script = "pif/jobs/calculator_biologist/tpm"
+}

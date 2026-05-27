@@ -1,0 +1,14 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_experimentation_chambers_3
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+destroy_trigger = {
+	OR = {
+		owner = {
+			is_twisted_experimenters_empire = no
+		}
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}

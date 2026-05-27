@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/09_first_contact_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+broken_shackles_scavenger = {
+	category = worker
+	inline_script = "pif/jobs/broken_shackles_scavenger/swap"
+	inline_script = "pif/jobs/broken_shackles_scavenger/availability"
+	inline_script = "pif/jobs/broken_shackles_scavenger/pop_config"
+	inline_script = "pif/jobs/broken_shackles_scavenger/economy"
+	inline_script = "pif/jobs/broken_shackles_scavenger/planet_state"
+	inline_script = "pif/jobs/broken_shackles_scavenger/country_modifiers"
+	inline_script = "pif/jobs/broken_shackles_scavenger/pop_modifiers"
+	inline_script = "pif/jobs/broken_shackles_scavenger/economic_modifiers"
+	inline_script = "pif/jobs/broken_shackles_scavenger/tpm"
+}

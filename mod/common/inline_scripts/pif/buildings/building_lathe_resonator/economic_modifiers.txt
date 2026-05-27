@@ -1,0 +1,16 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_lathe_resonator
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	planet_jobs_upkeep_mult = @pif_building_lathe_resonator_economic_modifiers_planet_jobs_upkeep_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_produces_mult = @pif_building_lathe_resonator_economic_modifiers_planet_jobs_produces_mult_2
+	mult = value:num_chip_slave_raw
+}

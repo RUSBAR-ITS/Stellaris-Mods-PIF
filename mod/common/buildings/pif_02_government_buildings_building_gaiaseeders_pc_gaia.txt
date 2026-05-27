@@ -1,0 +1,42 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_gaiaseeders_pc_gaia = {
+	base_buildtime = @pif_building_gaiaseeders_pc_gaia_construction_base_buildtime_1
+	position_priority = 0
+	icon = building_gaiaseeders_4
+	category = government
+	triggered_desc = {
+		text = building_gaiaseeders_4_effect_desc
+		trigger = {
+			exists = planet
+			planet = {
+				NOT = {
+					is_planet_class = pc_gaia
+				}
+			}
+		}
+	}
+	triggered_desc = {
+		text = gaia_seeder_bloomed_pops_effect
+	}
+	triggered_desc = {
+		text = gaia_seeder_bloom_timer_tooltip
+		trigger = {
+			has_planet_flag = gaia_seeder_bloom_timer
+		}
+	}
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/building_config"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/availability"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/economy"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/lifecycle"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/jobs"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/country_jobs"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/economic_modifiers"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/pop_modifiers"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/planet_state"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/tpm"
+	inline_script = "pif/buildings/building_gaiaseeders_pc_gaia/ai"
+}

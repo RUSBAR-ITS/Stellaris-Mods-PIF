@@ -1,0 +1,7 @@
+# PIF category: AI
+# Vanilla district: district_polytechnic
+# Vanilla source: districts/02_rural_districts.txt
+
+ai_weight_coefficient = @pif_district_polytechnic_ai_ai_weight_coefficient
+
+additional_ai_weight = @pif_district_polytechnic_ai_additional_ai_weight

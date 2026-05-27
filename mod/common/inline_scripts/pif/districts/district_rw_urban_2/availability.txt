@@ -1,0 +1,8 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_rw_urban_2
+# Vanilla source: districts/04_ringworld_districts.txt
+
+potential = {
+	exists = owner
+	uses_district_set = ring_world
+}

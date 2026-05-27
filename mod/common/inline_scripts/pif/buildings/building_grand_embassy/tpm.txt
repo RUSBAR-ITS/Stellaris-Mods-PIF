@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_grand_embassy
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	envoys_add = @pif_building_grand_embassy_tpm_envoys_add_1
+}

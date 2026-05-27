@@ -1,0 +1,26 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: bath_attendant
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_worker_coop
+			}
+		}
+	}
+	pop_cat_ruler_bonus_workforce_mult = @pif_bath_attendant_pop_modifiers_pop_cat_ruler_bonus_workforce_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_worker_coop
+		}
+	}
+	pop_bureaucrat_bonus_workforce_mult = @pif_bath_attendant_pop_modifiers_pop_bureaucrat_bonus_workforce_mult_2
+}

@@ -1,0 +1,11 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_identity_complex
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+building_sets = {
+	government
+	urban
+	research
+	physics
+}

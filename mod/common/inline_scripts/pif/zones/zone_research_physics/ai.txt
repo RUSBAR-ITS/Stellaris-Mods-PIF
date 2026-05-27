@@ -1,0 +1,7 @@
+# PIF zone category: AI
+# Vanilla zone: zone_research_physics
+# Vanilla source: zones/00_zones.txt
+
+ai_priority = @pif_zone_research_physics_ai_ai_priority_ai_priority_1
+
+ai_weight_coefficient = @pif_zone_research_physics_ai_ai_weight_coefficient_ai_weight_coefficient_2

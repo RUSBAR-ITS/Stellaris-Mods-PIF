@@ -1,0 +1,29 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: bio_trophy_unprocessing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_bio_trophy_unprocessing_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+}
+
+possible = {
+	OR = {
+		is_pop_category = bio_trophy
+		is_pop_category = bio_trophy_unemployment
+	}
+	owner = {
+		NOT = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+	planet = {
+		NOT = {
+			is_planet_class = pc_cosmogenesis_world
+		}
+	}
+}

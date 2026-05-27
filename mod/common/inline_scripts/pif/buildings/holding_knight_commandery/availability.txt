@@ -1,0 +1,26 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_knight_commandery
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_knight_commandery_limits_planet_limit_1
+
+potential = {
+	owner = {
+		is_wilderness_empire = no
+		overlord = {
+			has_origin = origin_toxic_knights
+			NOT = {
+				has_country_flag = quest_abandoned
+			}
+		}
+	}
+}
+
+allow = {
+	exists = planet
+	planet = {
+		is_capital = yes
+		pop_amount >= @pif_holding_knight_commandery_availability_thresholds_pop_amount_1
+	}
+}

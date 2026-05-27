@@ -1,0 +1,26 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: squire
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+tags = {
+	soldier
+	amenities
+}
+
+count_as_available_for_ai = @pif_squire_job_flags_count_as_available_for_ai_2
+
+weight = {
+	weight = @pif_squire_job_weight_weight_1
+	factor = @pif_squire_job_weight_factor_2
+}
+
+promotion = {
+	time = @pif_squire_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

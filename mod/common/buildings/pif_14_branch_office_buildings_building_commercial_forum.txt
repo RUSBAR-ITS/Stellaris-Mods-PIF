@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_commercial_forum = {
+	base_buildtime = @pif_building_commercial_forum_construction_base_buildtime_1
+	owner_type = corporate
+	category = government
+	inline_script = "pif/buildings/building_commercial_forum/building_config"
+	inline_script = "pif/buildings/building_commercial_forum/availability"
+	inline_script = "pif/buildings/building_commercial_forum/economy"
+	inline_script = "pif/buildings/building_commercial_forum/lifecycle"
+	inline_script = "pif/buildings/building_commercial_forum/jobs"
+	inline_script = "pif/buildings/building_commercial_forum/country_jobs"
+	inline_script = "pif/buildings/building_commercial_forum/economic_modifiers"
+	inline_script = "pif/buildings/building_commercial_forum/pop_modifiers"
+	inline_script = "pif/buildings/building_commercial_forum/planet_state"
+	inline_script = "pif/buildings/building_commercial_forum/tpm"
+	inline_script = "pif/buildings/building_commercial_forum/ai"
+}

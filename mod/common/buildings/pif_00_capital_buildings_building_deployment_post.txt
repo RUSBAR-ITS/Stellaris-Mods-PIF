@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/00_capital_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_deployment_post = {
+	capital = yes
+	position_priority = 0
+	capital_tier = 1
+	category = government
+	inline_script = "pif/buildings/building_deployment_post/building_config"
+	inline_script = "pif/buildings/building_deployment_post/availability"
+	inline_script = "pif/buildings/building_deployment_post/economy"
+	inline_script = "pif/buildings/building_deployment_post/lifecycle"
+	inline_script = "pif/buildings/building_deployment_post/jobs"
+	inline_script = "pif/buildings/building_deployment_post/country_jobs"
+	inline_script = "pif/buildings/building_deployment_post/economic_modifiers"
+	inline_script = "pif/buildings/building_deployment_post/pop_modifiers"
+	inline_script = "pif/buildings/building_deployment_post/planet_state"
+	inline_script = "pif/buildings/building_deployment_post/tpm"
+	inline_script = "pif/buildings/building_deployment_post/ai"
+}

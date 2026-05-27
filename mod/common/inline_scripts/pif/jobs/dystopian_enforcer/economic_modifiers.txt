@@ -1,0 +1,18 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: dystopian_enforcer
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_oligarchic_authority = yes
+			OR = {
+				has_country_flag = synth_physical
+				has_country_flag = synth_virtual
+			}
+		}
+	}
+	planet_jobs_ruler_produces_mult = @pif_dystopian_enforcer_economic_modifiers_planet_jobs_ruler_produces_mult_1
+}

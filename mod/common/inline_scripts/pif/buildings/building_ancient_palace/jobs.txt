@@ -1,0 +1,30 @@
+# PIF building category: JOBS
+# Vanilla building: building_ancient_palace
+# Vanilla class: capital
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = no
+		}
+	}
+	modifier = {
+		job_fe_overseer_add = @pif_building_ancient_palace_jobs_job_fe_overseer_add_1
+		job_fe_protector_add = @pif_building_ancient_palace_jobs_job_fe_protector_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+	}
+	modifier = {
+		job_fe_sky_cardinal_add = @pif_building_ancient_palace_jobs_job_fe_sky_cardinal_add_3
+		job_fe_protector_add = @pif_building_ancient_palace_jobs_job_fe_protector_add_2
+	}
+}

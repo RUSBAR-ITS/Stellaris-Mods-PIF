@@ -1,0 +1,33 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: logistics_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_no_happiness_add = @pif_logistics_drone_planet_state_planet_amenities_no_happiness_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_synchronicity_integrated_preservation
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_logistics_drone_planet_state_planet_amenities_no_happiness_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_virtuality_5
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_logistics_drone_planet_state_planet_amenities_no_happiness_add_2
+}

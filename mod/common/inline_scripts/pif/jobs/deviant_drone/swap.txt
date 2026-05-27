@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: deviant_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = criminal
+	}
+}

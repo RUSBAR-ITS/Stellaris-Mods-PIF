@@ -1,0 +1,8 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_the_beholder
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+empire_limit = @pif_building_the_beholder_limits_empire_limit_1
+
+can_build = no

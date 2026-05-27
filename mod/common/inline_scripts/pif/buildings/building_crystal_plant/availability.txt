@@ -1,0 +1,25 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_crystal_plant
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+planet_limit = @pif_building_crystal_plant_limits_planet_limit_1
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+prerequisites = {
+	"tech_rare_crystals"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

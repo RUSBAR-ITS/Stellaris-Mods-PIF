@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: intelligence_officer
+# Vanilla class: no_category
+# Vanilla source: pop_jobs/10_paragon_fake_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = colonist
+	}
+}

@@ -1,0 +1,37 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_machine_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_machine_empire = yes
+			is_country_type = ai_empire
+			AND = {
+				exists = event_target:mechanocalibrator_country
+				is_same_value = event_target:mechanocalibrator_country
+			}
+		}
+		is_fallen_empire = no
+	}
+	uses_habitat_capitals = no
+	NOT = {
+		is_planet_class = pc_cosmogenesis_world
+	}
+}
+
+allow = {
+	sapient_pop_amount >= @pif_building_machine_capital_availability_thresholds_sapient_pop_amount_1
+}
+
+prerequisites = {
+	"tech_planetary_government"
+}
+
+show_tech_unlock_if = {
+	is_machine_empire = yes
+}

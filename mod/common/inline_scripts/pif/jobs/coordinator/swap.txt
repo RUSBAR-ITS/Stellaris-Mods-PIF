@@ -1,0 +1,54 @@
+# PIF job category: SWAP
+# Vanilla job: coordinator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_machine_capital
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_wilderness_empire = no
+			}
+		}
+		name = synapse_drone
+		desc = synapse_drone
+		icon = synapse_drone
+		building_icon = building_hive_capital
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 2
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_memorialist_empire = yes
+			}
+		}
+		name = chronicle_drone
+		desc = chronicle_drone
+		icon = chronicle_drone
+		building_icon = building_galactic_memorial_1
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 3
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = choirsymbiont
+		desc = choirsymbiont
+		icon = choirsymbiont
+		building_icon = building_commensal_clearing_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

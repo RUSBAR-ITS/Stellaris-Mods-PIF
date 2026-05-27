@@ -1,0 +1,68 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: dimensional_portal_researcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_normal
+		}
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_dimensional_portal_researcher_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_high
+		}
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_dimensional_portal_researcher_planet_state_planet_amenities_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_low
+		}
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_dimensional_portal_researcher_planet_state_planet_amenities_add_3
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_crisis
+		}
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_dimensional_portal_researcher_planet_state_planet_amenities_add_4
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

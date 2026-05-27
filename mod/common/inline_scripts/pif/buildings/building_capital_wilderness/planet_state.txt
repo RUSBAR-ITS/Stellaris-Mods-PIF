@@ -1,0 +1,49 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_capital_wilderness
+# Vanilla class: capital
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 1
+	}
+	planet_max_districts_add = @pif_building_capital_wilderness_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 5
+	}
+	planet_max_districts_add = @pif_building_capital_wilderness_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 10
+	}
+	planet_max_districts_add = @pif_building_capital_wilderness_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = yes
+			has_tradition = tr_purity_finish
+		}
+	}
+	planet_building_build_speed_mult = @pif_building_capital_wilderness_construction_planet_building_build_speed_mult_2
+	planet_decision_enact_speed_mult = @pif_building_capital_wilderness_construction_planet_decision_enact_speed_mult_3
+}

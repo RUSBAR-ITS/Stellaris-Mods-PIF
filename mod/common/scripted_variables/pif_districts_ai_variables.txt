@@ -1,0 +1,454 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: AI
+# AI planning hints and AI weighting constants for districts.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_city
+# -----------------------------------------------------------------------------
+# Controls: AI planning hint for alloys production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.alloys
+@pif_district_city_ai_ai_resource_production_alloys = 10
+
+# Controls: AI planning hint for consumer_goods production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.consumer_goods
+@pif_district_city_ai_ai_resource_production_consumer_goods = 10
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_city_ai_ai_resource_production_engineering_research = 5
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_city_ai_ai_resource_production_engineering_research_2 = 10
+
+# Controls: AI planning hint for physics_research production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_city_ai_ai_resource_production_physics_research = 5
+
+# Controls: AI planning hint for physics_research production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_city_ai_ai_resource_production_physics_research_2 = 10
+
+# Controls: AI planning hint for society_research production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_city_ai_ai_resource_production_society_research = 5
+
+# Controls: AI planning hint for society_research production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_city_ai_ai_resource_production_society_research_2 = 10
+
+# Controls: AI planning hint for trade production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.trade
+@pif_district_city_ai_ai_resource_production_trade = 10
+
+# Controls: AI planning hint for unity production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_city_ai_ai_resource_production_unity_2 = 5
+
+# Controls: AI planning hint for unity production.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_city_ai_ai_resource_production_unity = 10
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_logic
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/ai.txt
+# Contexts: additional_ai_weight
+@pif_district_cosmogenesis_world_logic_ai_additional_ai_weight = 200
+
+# Controls: AI district planning weight/tuning value.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/ai.txt
+# Contexts: ai_weight_coefficient
+@pif_district_cosmogenesis_world_logic_ai_ai_weight_coefficient = 1.2
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_science
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/ai.txt
+# Contexts: additional_ai_weight
+@pif_district_cosmogenesis_world_science_ai_additional_ai_weight = 200
+
+# Controls: AI district planning weight/tuning value.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/ai.txt
+# Contexts: ai_weight_coefficient
+@pif_district_cosmogenesis_world_science_ai_ai_weight_coefficient = 1.2
+
+
+# -----------------------------------------------------------------------------
+# district_craglands
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/ai.txt
+# Contexts: additional_ai_weight
+@pif_district_craglands_ai_additional_ai_weight = 10
+
+# Controls: AI planning hint for unity production.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_craglands_ai_ai_resource_production_unity = 5
+
+
+# -----------------------------------------------------------------------------
+# district_farming
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/ai.txt
+# Contexts: ai_weight_coefficient
+# Resolved vanilla variable(s): @rural_district_ai_coefficient
+@pif_district_farming_ai_ai_weight_coefficient = 0.75
+
+
+# -----------------------------------------------------------------------------
+# district_generator
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/ai.txt
+# Contexts: ai_weight_coefficient
+# Resolved vanilla variable(s): @rural_district_ai_coefficient
+@pif_district_generator_ai_ai_weight_coefficient = 0.75
+
+
+# -----------------------------------------------------------------------------
+# district_geothermal
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/ai.txt
+# Contexts: ai_weight_coefficient
+# Resolved vanilla variable(s): @rural_district_ai_coefficient
+@pif_district_geothermal_ai_ai_weight_coefficient = 0.75
+
+
+# -----------------------------------------------------------------------------
+# district_hab_housing
+# -----------------------------------------------------------------------------
+# Controls: AI planning hint for alloys production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.alloys
+@pif_district_hab_housing_ai_ai_resource_production_alloys = 10
+
+# Controls: AI planning hint for consumer_goods production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.consumer_goods
+@pif_district_hab_housing_ai_ai_resource_production_consumer_goods = 10
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_hab_housing_ai_ai_resource_production_engineering_research = 5
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_hab_housing_ai_ai_resource_production_engineering_research_2 = 10
+
+# Controls: AI planning hint for physics_research production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_hab_housing_ai_ai_resource_production_physics_research = 5
+
+# Controls: AI planning hint for physics_research production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_hab_housing_ai_ai_resource_production_physics_research_2 = 10
+
+# Controls: AI planning hint for society_research production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_hab_housing_ai_ai_resource_production_society_research = 5
+
+# Controls: AI planning hint for society_research production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_hab_housing_ai_ai_resource_production_society_research_2 = 10
+
+# Controls: AI planning hint for trade production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.trade
+@pif_district_hab_housing_ai_ai_resource_production_trade = 10
+
+# Controls: AI planning hint for unity production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_hab_housing_ai_ai_resource_production_unity_2 = 5
+
+# Controls: AI planning hint for unity production.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_hab_housing_ai_ai_resource_production_unity = 10
+
+
+# -----------------------------------------------------------------------------
+# district_hive
+# -----------------------------------------------------------------------------
+# Controls: AI planning hint for alloys production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.alloys
+@pif_district_hive_ai_ai_resource_production_alloys = 10
+
+# Controls: AI planning hint for consumer_goods production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.consumer_goods
+@pif_district_hive_ai_ai_resource_production_consumer_goods = 10
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_hive_ai_ai_resource_production_engineering_research = 5
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_hive_ai_ai_resource_production_engineering_research_2 = 10
+
+# Controls: AI planning hint for physics_research production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_hive_ai_ai_resource_production_physics_research = 5
+
+# Controls: AI planning hint for physics_research production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_hive_ai_ai_resource_production_physics_research_2 = 10
+
+# Controls: AI planning hint for society_research production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_hive_ai_ai_resource_production_society_research = 5
+
+# Controls: AI planning hint for society_research production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_hive_ai_ai_resource_production_society_research_2 = 10
+
+# Controls: AI planning hint for trade production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.trade
+@pif_district_hive_ai_ai_resource_production_trade = 10
+
+# Controls: AI planning hint for unity production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_hive_ai_ai_resource_production_unity_2 = 5
+
+# Controls: AI planning hint for unity production.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_hive_ai_ai_resource_production_unity = 10
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/ai.txt
+# Contexts: additional_ai_weight
+@pif_district_hollow_mountains_ai_additional_ai_weight = 10
+
+# Controls: AI planning hint for minerals production.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/ai.txt
+# Contexts: ai_resource_production.minerals
+@pif_district_hollow_mountains_ai_ai_resource_production_minerals = 5
+
+
+# -----------------------------------------------------------------------------
+# district_melting
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/ai.txt
+# Contexts: ai_weight_coefficient
+# Resolved vanilla variable(s): @rural_district_ai_coefficient
+@pif_district_melting_ai_ai_weight_coefficient = 0.75
+
+
+# -----------------------------------------------------------------------------
+# district_mining
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/ai.txt
+# Contexts: ai_weight_coefficient
+# Resolved vanilla variable(s): @rural_district_ai_coefficient
+@pif_district_mining_ai_ai_weight_coefficient = 0.75
+
+
+# -----------------------------------------------------------------------------
+# district_nexus
+# -----------------------------------------------------------------------------
+# Controls: AI planning hint for alloys production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.alloys
+@pif_district_nexus_ai_ai_resource_production_alloys = 10
+
+# Controls: AI planning hint for consumer_goods production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.consumer_goods
+@pif_district_nexus_ai_ai_resource_production_consumer_goods = 10
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_nexus_ai_ai_resource_production_engineering_research = 5
+
+# Controls: AI planning hint for engineering_research production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.engineering_research
+@pif_district_nexus_ai_ai_resource_production_engineering_research_2 = 10
+
+# Controls: AI planning hint for physics_research production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_nexus_ai_ai_resource_production_physics_research = 5
+
+# Controls: AI planning hint for physics_research production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.physics_research
+@pif_district_nexus_ai_ai_resource_production_physics_research_2 = 10
+
+# Controls: AI planning hint for society_research production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_nexus_ai_ai_resource_production_society_research = 5
+
+# Controls: AI planning hint for society_research production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.society_research
+@pif_district_nexus_ai_ai_resource_production_society_research_2 = 10
+
+# Controls: AI planning hint for trade production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.trade
+@pif_district_nexus_ai_ai_resource_production_trade = 10
+
+# Controls: AI planning hint for unity production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_nexus_ai_ai_resource_production_unity_2 = 5
+
+# Controls: AI planning hint for unity production.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/ai.txt
+# Contexts: ai_resource_production.unity
+@pif_district_nexus_ai_ai_resource_production_unity = 10
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/ai.txt
+# Contexts: additional_ai_weight
+@pif_district_orchard_forests_ai_additional_ai_weight = 10
+
+# Controls: AI planning hint for food production.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/ai.txt
+# Contexts: ai_resource_production.food
+@pif_district_orchard_forests_ai_ai_resource_production_food = 5
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/ai.txt
+# Contexts: additional_ai_weight
+@pif_district_photosynthesis_fields_ai_additional_ai_weight = 10
+
+# Controls: AI planning hint for energy production.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/ai.txt
+# Contexts: ai_resource_production.energy
+@pif_district_photosynthesis_fields_ai_ai_resource_production_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_polytechnic
+# -----------------------------------------------------------------------------
+# Controls: AI district planning weight/tuning value.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/ai.txt
+# Contexts: additional_ai_weight
+@pif_district_polytechnic_ai_additional_ai_weight = 100
+
+# Controls: AI district planning weight/tuning value.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/ai.txt
+# Contexts: ai_weight_coefficient
+@pif_district_polytechnic_ai_ai_weight_coefficient = 1.5

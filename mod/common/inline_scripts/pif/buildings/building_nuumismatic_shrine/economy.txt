@@ -1,0 +1,15 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_nuumismatic_shrine
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+resources = {
+	cost = {
+		minerals = @pif_building_nuumismatic_shrine_cost_cost_minerals_1
+		trade = @pif_building_nuumismatic_shrine_cost_cost_trade_2
+	}
+	upkeep = {
+		trade = @pif_building_nuumismatic_shrine_upkeep_upkeep_trade_1
+	}
+	category = planet_buildings
+}

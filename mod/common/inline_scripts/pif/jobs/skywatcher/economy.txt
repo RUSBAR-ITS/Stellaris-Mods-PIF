@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: skywatcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+resources = {
+	category = planet_soldiers
+	upkeep = {
+		alloys = @pif_skywatcher_job_upkeep_upkeep_alloys_1
+	}
+}

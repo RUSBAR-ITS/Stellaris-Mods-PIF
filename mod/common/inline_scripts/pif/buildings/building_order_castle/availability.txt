@@ -1,0 +1,6 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_order_castle
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+can_build = no

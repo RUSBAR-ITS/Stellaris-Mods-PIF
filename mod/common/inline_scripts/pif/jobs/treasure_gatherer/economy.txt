@@ -1,0 +1,18 @@
+# PIF job category: ECONOMY
+# Vanilla job: treasure_gatherer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+resources = {
+	category = planet_treasure_gatherers
+	produces = {
+		energy = @pif_treasure_gatherer_job_output_output_energy_1
+		minerals = @pif_treasure_gatherer_job_output_output_minerals_2
+		unity = @pif_treasure_gatherer_job_output_output_unity_3
+		society_research = @pif_treasure_gatherer_job_output_output_society_research_4
+		trade = @pif_treasure_gatherer_job_output_output_trade_5
+	}
+	upkeep = {
+		consumer_goods = @pif_treasure_gatherer_job_upkeep_upkeep_consumer_goods_1
+	}
+}

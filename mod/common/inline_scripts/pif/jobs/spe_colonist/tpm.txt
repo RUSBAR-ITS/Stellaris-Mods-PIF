@@ -1,0 +1,14 @@
+# PIF job category: TPM
+# Vanilla job: spe_colonist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_building_build_speed_mult = @pif_spe_colonist_tpm_planet_building_build_speed_mult_1
+	planet_stability_add = @pif_spe_colonist_tpm_planet_stability_add_2
+	pop_happiness = @pif_spe_colonist_tpm_pop_happiness_3
+	planet_resettlement_unemployed_destination_mult = @pif_spe_colonist_tpm_planet_resettlement_unemployed_destination_mult_4
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_waste_reprocessing_center = {
+	icon = building_waste_reprocessing_center
+	base_buildtime = @pif_building_waste_reprocessing_center_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_waste_reprocessing_center/building_config"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/availability"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/economy"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/lifecycle"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/jobs"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/country_jobs"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/economic_modifiers"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/pop_modifiers"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/planet_state"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/tpm"
+	inline_script = "pif/buildings/building_waste_reprocessing_center/ai"
+}

@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_genomic_facility
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+building_sets = {
+	government
+	research
+	society
+}

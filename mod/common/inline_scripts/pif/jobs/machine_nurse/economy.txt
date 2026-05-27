@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: machine_nurse
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_bio_trophies
+	produces = {
+		unity = @pif_machine_nurse_job_output_output_unity_1
+	}
+	upkeep = {
+		energy = @pif_machine_nurse_job_upkeep_upkeep_energy_1
+	}
+}

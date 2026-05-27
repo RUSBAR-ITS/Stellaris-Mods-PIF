@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_churning_tunnels_3 = {
+	icon = "churning_tunnels_3"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_churning_tunnels_3_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_churning_tunnels_3/building_config"
+	inline_script = "pif/buildings/building_churning_tunnels_3/availability"
+	inline_script = "pif/buildings/building_churning_tunnels_3/economy"
+	inline_script = "pif/buildings/building_churning_tunnels_3/lifecycle"
+	inline_script = "pif/buildings/building_churning_tunnels_3/jobs"
+	inline_script = "pif/buildings/building_churning_tunnels_3/country_jobs"
+	inline_script = "pif/buildings/building_churning_tunnels_3/economic_modifiers"
+	inline_script = "pif/buildings/building_churning_tunnels_3/pop_modifiers"
+	inline_script = "pif/buildings/building_churning_tunnels_3/planet_state"
+	inline_script = "pif/buildings/building_churning_tunnels_3/tpm"
+	inline_script = "pif/buildings/building_churning_tunnels_3/ai"
+}

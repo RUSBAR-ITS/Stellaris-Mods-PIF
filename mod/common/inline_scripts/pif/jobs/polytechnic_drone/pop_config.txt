@@ -1,0 +1,20 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: polytechnic_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+auto_generate_description = @pif_polytechnic_drone_job_flags_auto_generate_description_1
+
+weight = {
+	weight = @pif_polytechnic_drone_job_weight_weight_1
+	mult = value:job_weights_research_modifier|JOB|polytechnic_drone|
+	modifier = {
+		factor = @pif_polytechnic_drone_job_weight_factor_2
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+}

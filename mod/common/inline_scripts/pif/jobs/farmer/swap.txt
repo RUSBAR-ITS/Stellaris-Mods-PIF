@@ -1,0 +1,48 @@
+# PIF job category: SWAP
+# Vanilla job: farmer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = building_food_processing_facility
+	}
+	swap_type = {
+		trigger = {
+			farmer_is_titan_hunter_trigger = yes
+		}
+		name = titan_hunter
+		desc = titan_hunter
+		icon = hunter_gatherer
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			farmer_is_puddle_technician_trigger = yes
+		}
+		name = puddle_technician
+		desc = puddle_technician
+		icon = puddle_technician
+		weight = 15
+	}
+	swap_type = {
+		trigger = {
+			farmer_is_gas_extractor_trigger = yes
+		}
+		name = gas_extractor
+		desc = gas_extractor
+		icon = gas_extractor
+		building_icon = building_gas_extractors
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			farmer_is_angler_trigger = yes
+		}
+		name = angler
+		desc = angler
+		icon = angler
+		weight = 50
+	}
+}

@@ -1,0 +1,9 @@
+# PIF category: ZONE_SLOTS
+# Vanilla district: district_hab_housing
+# Vanilla source: districts/03_habitat_districts.txt
+
+zone_slots = {
+	slot_city_government
+	slot_habitat_01
+	slot_habitat_02
+}

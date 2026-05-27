@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/17_paragon_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_contained_ecosphere = {
+	icon = building_contained_ecosphere
+	position_priority = 1
+	category = resource
+	inline_script = "pif/buildings/building_contained_ecosphere/building_config"
+	inline_script = "pif/buildings/building_contained_ecosphere/availability"
+	inline_script = "pif/buildings/building_contained_ecosphere/economy"
+	inline_script = "pif/buildings/building_contained_ecosphere/lifecycle"
+	inline_script = "pif/buildings/building_contained_ecosphere/jobs"
+	inline_script = "pif/buildings/building_contained_ecosphere/country_jobs"
+	inline_script = "pif/buildings/building_contained_ecosphere/economic_modifiers"
+	inline_script = "pif/buildings/building_contained_ecosphere/pop_modifiers"
+	inline_script = "pif/buildings/building_contained_ecosphere/planet_state"
+	inline_script = "pif/buildings/building_contained_ecosphere/tpm"
+	inline_script = "pif/buildings/building_contained_ecosphere/ai"
+}

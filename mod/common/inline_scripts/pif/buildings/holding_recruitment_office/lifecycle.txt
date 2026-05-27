@@ -1,0 +1,13 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_recruitment_office
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+on_built = {
+	planet = {
+		planet_event = {
+			id = subject.5010
+			days = @pif_holding_recruitment_office_economic_modifiers_days_1
+		}
+	}
+}

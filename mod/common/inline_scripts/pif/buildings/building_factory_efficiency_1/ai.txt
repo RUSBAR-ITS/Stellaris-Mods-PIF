@@ -1,0 +1,11 @@
+# PIF building category: AI
+# Vanilla building: building_factory_efficiency_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+ai_resource_production = {
+	consumer_goods = @pif_building_factory_efficiency_1_ai_consumer_goods_1
+	trigger = {
+		has_any_factory_zone = yes
+	}
+}

@@ -1,0 +1,17 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: machine_nurse
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+is_capped_by_modifier = @pif_machine_nurse_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_sapient = yes
+}
+
+possible = {
+	has_citizenship_type = {
+		type = citizenship_organic_trophy
+		country = owner
+	}
+}

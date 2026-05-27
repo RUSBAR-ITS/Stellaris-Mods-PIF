@@ -1,0 +1,37 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: foundry
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_foundry_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|foundry|RESOURCE|alloys|
+	modifier = {
+		factor = @pif_foundry_job_weight_factor_2
+		is_enslaved = yes
+		can_take_servant_job = no
+	}
+	modifier = {
+		factor = @pif_foundry_job_weight_factor_3
+		has_trait = trait_cyborg_creed_of_construction
+	}
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_foundry_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

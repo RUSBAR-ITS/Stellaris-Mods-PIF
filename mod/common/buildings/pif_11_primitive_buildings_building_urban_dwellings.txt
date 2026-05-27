@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_urban_dwellings = {
+	icon = building_residence
+	category = amenity
+	inline_script = "pif/buildings/building_urban_dwellings/building_config"
+	inline_script = "pif/buildings/building_urban_dwellings/availability"
+	inline_script = "pif/buildings/building_urban_dwellings/economy"
+	inline_script = "pif/buildings/building_urban_dwellings/lifecycle"
+	inline_script = "pif/buildings/building_urban_dwellings/jobs"
+	inline_script = "pif/buildings/building_urban_dwellings/country_jobs"
+	inline_script = "pif/buildings/building_urban_dwellings/economic_modifiers"
+	inline_script = "pif/buildings/building_urban_dwellings/pop_modifiers"
+	inline_script = "pif/buildings/building_urban_dwellings/planet_state"
+	inline_script = "pif/buildings/building_urban_dwellings/tpm"
+	inline_script = "pif/buildings/building_urban_dwellings/ai"
+}

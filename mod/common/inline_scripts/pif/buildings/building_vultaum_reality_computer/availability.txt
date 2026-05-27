@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_vultaum_reality_computer
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+planet_limit = @pif_building_vultaum_reality_computer_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_secrets_vultaum"
+}

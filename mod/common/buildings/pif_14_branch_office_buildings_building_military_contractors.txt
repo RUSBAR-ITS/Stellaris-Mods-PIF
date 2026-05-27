@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_military_contractors = {
+	base_buildtime = @pif_building_military_contractors_construction_base_buildtime_1
+	owner_type = corporate
+	category = army
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_military_contractors/building_config"
+	inline_script = "pif/buildings/building_military_contractors/availability"
+	inline_script = "pif/buildings/building_military_contractors/economy"
+	inline_script = "pif/buildings/building_military_contractors/lifecycle"
+	inline_script = "pif/buildings/building_military_contractors/jobs"
+	inline_script = "pif/buildings/building_military_contractors/country_jobs"
+	inline_script = "pif/buildings/building_military_contractors/economic_modifiers"
+	inline_script = "pif/buildings/building_military_contractors/pop_modifiers"
+	inline_script = "pif/buildings/building_military_contractors/planet_state"
+	inline_script = "pif/buildings/building_military_contractors/tpm"
+	inline_script = "pif/buildings/building_military_contractors/ai"
+}

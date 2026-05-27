@@ -1,0 +1,9 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_habitat_volatile_motes
+# Vanilla source: zones/01_habitat_zones.txt
+
+convert_to = {
+	zone_volatile_motes
+	zone_volatile_motes_nexus
+	zone_volatile_motes_hive
+}

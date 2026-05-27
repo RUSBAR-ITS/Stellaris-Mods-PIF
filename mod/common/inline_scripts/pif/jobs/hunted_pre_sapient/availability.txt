@@ -1,0 +1,22 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: hunted_pre_sapient
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+is_capped_by_modifier = @pif_hunted_pre_sapient_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_sapient = no
+}
+
+possible = {
+	planet = {
+		exists = owner
+		owner = {
+			has_policy_flag = pre_sapients_eat
+		}
+	}
+	NOT = {
+		has_trait = trait_nascent_stage
+	}
+}

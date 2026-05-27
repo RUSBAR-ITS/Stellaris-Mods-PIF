@@ -1,0 +1,40 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_breeder
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_breeders
+	upkeep = {
+		trigger = {
+			exists = owner.overlord
+			owner.overlord = {
+				is_lithoid = yes
+			}
+		}
+		minerals = @pif_overlord_breeder_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner.overlord
+			owner.overlord = {
+				OR = {
+					is_machine_empire = yes
+					is_mechanical_empire = yes
+				}
+			}
+		}
+		energy = @pif_overlord_breeder_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner.overlord
+			owner.overlord = {
+				is_lithoid = no
+				is_machine_empire = no
+				is_mechanical_empire = no
+			}
+		}
+		food = @pif_overlord_breeder_job_upkeep_upkeep_food_3
+	}
+}

@@ -1,0 +1,12 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_forge_of_the_fellowship
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_artisans_produces_mult = @pif_building_forge_of_the_fellowship_economic_modifiers_planet_artisans_produces_mult_1
+	planet_metallurgists_produces_mult = @pif_building_forge_of_the_fellowship_economic_modifiers_planet_metallurgists_produces_mult_2
+}

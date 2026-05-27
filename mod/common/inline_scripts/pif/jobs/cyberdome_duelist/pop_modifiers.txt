@@ -1,0 +1,11 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: cyberdome_duelist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_happiness = @pif_cyberdome_duelist_pop_modifiers_pop_happiness_1
+}

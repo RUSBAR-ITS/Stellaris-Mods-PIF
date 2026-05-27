@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: simple_drone
+
+underground_contact_drone = {
+	category = simple_drone
+	inline_script = "pif/jobs/underground_contact_drone/swap"
+	inline_script = "pif/jobs/underground_contact_drone/availability"
+	inline_script = "pif/jobs/underground_contact_drone/pop_config"
+	inline_script = "pif/jobs/underground_contact_drone/economy"
+	inline_script = "pif/jobs/underground_contact_drone/planet_state"
+	inline_script = "pif/jobs/underground_contact_drone/country_modifiers"
+	inline_script = "pif/jobs/underground_contact_drone/pop_modifiers"
+	inline_script = "pif/jobs/underground_contact_drone/economic_modifiers"
+	inline_script = "pif/jobs/underground_contact_drone/tpm"
+}

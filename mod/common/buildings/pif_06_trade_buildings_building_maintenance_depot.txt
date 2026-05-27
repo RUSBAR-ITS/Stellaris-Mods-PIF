@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/06_trade_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_maintenance_depot = {
+	base_buildtime = @pif_building_maintenance_depot_construction_base_buildtime_1
+	category = trade
+	inline_script = "pif/buildings/building_maintenance_depot/building_config"
+	inline_script = "pif/buildings/building_maintenance_depot/availability"
+	inline_script = "pif/buildings/building_maintenance_depot/economy"
+	inline_script = "pif/buildings/building_maintenance_depot/lifecycle"
+	inline_script = "pif/buildings/building_maintenance_depot/jobs"
+	inline_script = "pif/buildings/building_maintenance_depot/country_jobs"
+	inline_script = "pif/buildings/building_maintenance_depot/economic_modifiers"
+	inline_script = "pif/buildings/building_maintenance_depot/pop_modifiers"
+	inline_script = "pif/buildings/building_maintenance_depot/planet_state"
+	inline_script = "pif/buildings/building_maintenance_depot/tpm"
+	inline_script = "pif/buildings/building_maintenance_depot/ai"
+}

@@ -1,0 +1,18 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: purge_unprocessing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+first_come_first_served = @pif_purge_unprocessing_job_flags_first_come_first_served_2
+
+demotion = {
+	time = @pif_purge_unprocessing_demotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = civilian
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+ignores_sapience = @pif_purge_unprocessing_job_flags_ignores_sapience_3

@@ -1,0 +1,136 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_imperial_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_imperial_authority = yes
+			is_cyber_imperial = no
+			is_synth_imperial = no
+			is_purity_authority = no
+			is_cloning_authority = no
+			is_mutation_authority = no
+			is_transcendent_authority = no
+			is_corporeal_authority = no
+			capital_scope.solar_system = {
+				is_same_value = ROOT.solar_system
+			}
+		}
+	}
+	planet_jobs_produces_mult = @pif_building_imperial_capital_economic_modifiers_planet_jobs_produces_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_modifier = cyber_implant_taxes
+		}
+		exists = growing_species
+		growing_species = {
+			species = {
+				has_trait = trait_cybernetic
+			}
+		}
+	}
+	planet_augmentors_upkeep_mult = @pif_building_imperial_capital_economic_modifiers_planet_augmentors_upkeep_mult_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_oligarchic_authority = yes
+			has_country_flag = cyber_individualist
+		}
+	}
+	key = auth_cyber_oligarchic_individualist
+	planet_jobs_ruler_produces_mult = @pif_building_imperial_capital_economic_modifiers_planet_jobs_ruler_produces_mult_3
+	mult = planet.value:count_specialists
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_democratic_authority = yes
+			has_country_flag = synth_physical
+		}
+	}
+	key = auth_synth_democratic_physical
+	planet_districts_energy_upkeep_mult = @pif_building_imperial_capital_economic_modifiers_planet_districts_energy_upkeep_mult_4
+	mult = value:count_any_districts
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			AND = {
+				has_origin = origin_storm_chasers
+				has_technology = tech_industrial_storm_protection
+			}
+		}
+		solar_system = {
+			has_star_flag = storm_system
+		}
+	}
+	modifier = {
+		planet_miners_minerals_produces_add = @pif_building_imperial_capital_economic_modifiers_planet_miners_minerals_produces_add_5
+		planet_farmers_food_produces_add = @pif_building_imperial_capital_economic_modifiers_planet_farmers_food_produces_add_6
+		planet_technician_energy_produces_add = @pif_building_imperial_capital_economic_modifiers_planet_technician_energy_produces_add_7
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			AND = {
+				has_origin = origin_storm_chasers
+				has_technology = tech_advanced_industrial_storm_protection
+			}
+		}
+		solar_system = {
+			has_star_flag = storm_system
+		}
+	}
+	modifier = {
+		planet_miners_minerals_produces_add = @pif_building_imperial_capital_economic_modifiers_planet_miners_minerals_produces_add_5
+		planet_farmers_food_produces_add = @pif_building_imperial_capital_economic_modifiers_planet_farmers_food_produces_add_6
+		planet_technician_energy_produces_add = @pif_building_imperial_capital_economic_modifiers_planet_technician_energy_produces_add_7
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_galactic_community_member = yes
+			AND = {
+				has_origin = origin_storm_chasers
+				has_technology = tech_industrial_storm_protection
+			}
+		}
+	}
+	modifier = {
+		planet_miners_produces_mult = @pif_building_imperial_capital_economic_modifiers_planet_miners_produces_mult_8
+		planet_farmers_produces_mult = @pif_building_imperial_capital_economic_modifiers_planet_farmers_produces_mult_9
+		planet_technician_produces_mult = @pif_building_imperial_capital_economic_modifiers_planet_technician_produces_mult_10
+	}
+	mult = value:storm_building_production_multiplier
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_cosmic_storms_dlc = yes
+		exists = owner
+		owner = {
+			has_origin = origin_storm_chasers
+		}
+	}
+	planet_jobs_unity_produces_mult = @pif_building_imperial_capital_economic_modifiers_planet_jobs_unity_produces_mult_11
+}

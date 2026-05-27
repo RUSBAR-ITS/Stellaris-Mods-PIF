@@ -1,0 +1,20 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: presapient_processing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+first_come_first_served = @pif_presapient_processing_job_flags_first_come_first_served_2
+
+demotion = {
+	time = @pif_presapient_processing_demotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = pre_sapients
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+weight = {
+	weight = @pif_presapient_processing_job_weight_weight_1
+}

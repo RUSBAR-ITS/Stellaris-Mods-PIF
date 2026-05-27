@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/01_ruler_jobs.txt
+# Object type: pop_job
+# Job class: ruler
+
+executive = {
+	category = ruler
+	inline_script = "pif/jobs/executive/swap"
+	inline_script = "pif/jobs/executive/availability"
+	inline_script = "pif/jobs/executive/pop_config"
+	inline_script = "pif/jobs/executive/economy"
+	inline_script = "pif/jobs/executive/planet_state"
+	inline_script = "pif/jobs/executive/country_modifiers"
+	inline_script = "pif/jobs/executive/pop_modifiers"
+	inline_script = "pif/jobs/executive/economic_modifiers"
+	inline_script = "pif/jobs/executive/tpm"
+}

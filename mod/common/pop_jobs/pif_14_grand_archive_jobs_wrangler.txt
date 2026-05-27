@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/14_grand_archive_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+wrangler = {
+	category = specialist
+	inline_script = "pif/jobs/wrangler/swap"
+	inline_script = "pif/jobs/wrangler/availability"
+	inline_script = "pif/jobs/wrangler/pop_config"
+	inline_script = "pif/jobs/wrangler/economy"
+	inline_script = "pif/jobs/wrangler/planet_state"
+	inline_script = "pif/jobs/wrangler/country_modifiers"
+	inline_script = "pif/jobs/wrangler/pop_modifiers"
+	inline_script = "pif/jobs/wrangler/economic_modifiers"
+	inline_script = "pif/jobs/wrangler/tpm"
+}

@@ -1,0 +1,6 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: transference_volunteer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+# Empty PIF job category hook.

@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: neural_chip_unprocessing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_lathe_capital
+		icon = organic_battery
+	}
+}

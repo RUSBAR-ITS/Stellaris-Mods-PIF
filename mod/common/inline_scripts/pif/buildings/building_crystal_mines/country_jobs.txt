@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_crystal_mines
+# Vanilla class: regular
+# Vanilla source: buildings/10_deposit_buildings.txt
+
+# Empty PIF building category hook.

@@ -1,0 +1,35 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_military_academy
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	pop_soldier_bonus_workforce_mult = @pif_building_military_academy_pop_modifiers_pop_soldier_bonus_workforce_mult_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	pop_warrior_drone_bonus_workforce_mult = @pif_building_military_academy_pop_modifiers_pop_warrior_drone_bonus_workforce_mult_2
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_origin = origin_toxic_knights
+		}
+	}
+	pop_knight_bonus_workforce_mult = @pif_building_military_academy_pop_modifiers_pop_knight_bonus_workforce_mult_3
+	pop_knight_commander_bonus_workforce_mult = @pif_building_military_academy_pop_modifiers_pop_knight_commander_bonus_workforce_mult_4
+}

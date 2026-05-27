@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+translucer = {
+	category = specialist
+	inline_script = "pif/jobs/translucer/swap"
+	inline_script = "pif/jobs/translucer/availability"
+	inline_script = "pif/jobs/translucer/pop_config"
+	inline_script = "pif/jobs/translucer/economy"
+	inline_script = "pif/jobs/translucer/planet_state"
+	inline_script = "pif/jobs/translucer/country_modifiers"
+	inline_script = "pif/jobs/translucer/pop_modifiers"
+	inline_script = "pif/jobs/translucer/economic_modifiers"
+	inline_script = "pif/jobs/translucer/tpm"
+}

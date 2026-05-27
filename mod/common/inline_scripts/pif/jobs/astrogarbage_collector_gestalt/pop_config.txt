@@ -1,0 +1,37 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: astrogarbage_collector_gestalt
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_astrogarbage_collector_gestalt_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|astrogarbage_collector_gestalt|RESOURCE|alloys|
+	modifier = {
+		factor = @pif_astrogarbage_collector_gestalt_job_weight_factor_2
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_astrogarbage_collector_gestalt_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

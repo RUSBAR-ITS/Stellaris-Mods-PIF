@@ -1,0 +1,80 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: warrior_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	soldier
+}
+
+weight = {
+	weight = @pif_warrior_drone_job_weight_weight_1
+	modifier = {
+		weight = @pif_warrior_drone_job_weight_weight_2
+		exists = owner
+		owner = {
+			is_at_war = yes
+		}
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_3
+		planet = {
+			exists = leader
+			leader = {
+				leader_class = commander
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_4
+		has_trait = trait_resilient
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_4
+		has_trait = trait_very_strong
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_5
+		has_trait = trait_strong
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_6
+		has_trait = trait_weak
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_7
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_8
+		planet = {
+			pop_amount < 1200
+		}
+		owner = {
+			is_ai = yes
+		}
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_9
+		has_trait = trait_lithoid
+	}
+	modifier = {
+		factor = @pif_warrior_drone_job_weight_factor_10
+		has_trait = trait_cybernetic
+	}
+}
+
+promotion = {
+	time = @pif_warrior_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

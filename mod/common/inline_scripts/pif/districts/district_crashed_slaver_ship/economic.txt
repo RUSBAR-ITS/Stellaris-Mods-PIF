@@ -1,0 +1,10 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_crashed_slaver_ship
+# Vanilla source: districts/00_urban_districts.txt
+
+resources = {
+	category = planet_districts_cities
+	upkeep = {
+		energy = @pif_district_crashed_slaver_ship_economy_district_upkeep_energy
+	}
+}

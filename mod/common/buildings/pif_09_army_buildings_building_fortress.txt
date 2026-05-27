@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/09_army_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_fortress = {
+	base_buildtime = @pif_building_fortress_construction_base_buildtime_1
+	position_priority = 100
+	category = army
+	inline_script = "pif/buildings/building_fortress/building_config"
+	inline_script = "pif/buildings/building_fortress/availability"
+	inline_script = "pif/buildings/building_fortress/economy"
+	inline_script = "pif/buildings/building_fortress/lifecycle"
+	inline_script = "pif/buildings/building_fortress/jobs"
+	inline_script = "pif/buildings/building_fortress/country_jobs"
+	inline_script = "pif/buildings/building_fortress/economic_modifiers"
+	inline_script = "pif/buildings/building_fortress/pop_modifiers"
+	inline_script = "pif/buildings/building_fortress/planet_state"
+	inline_script = "pif/buildings/building_fortress/tpm"
+	inline_script = "pif/buildings/building_fortress/ai"
+}

@@ -1,0 +1,72 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: politician
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+tags = {
+	unity
+	amenities
+}
+
+triggered_tags = {
+	trigger = {
+		OR = {
+			politician_is_high_priest = yes
+			politician_is_technophant = yes
+			politician_is_superstitious_beliefs_high_priest = yes
+			politician_is_superstitious_beliefs_high_priest_corporate = yes
+			politician_is_fire_oracle = yes
+			politician_is_blazewright = yes
+			politician_is_radiant_priest = yes
+			politician_is_pyrocrat = yes
+			politician_is_ashbroker = yes
+			politician_is_blazing_harbinger = yes
+		}
+	}
+	tags = {
+		psionic_aura
+	}
+}
+
+weight = {
+	weight = @pif_politician_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_politician_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_politician_job_weight_factor_3
+		exists = planet
+		exists = planet.controller
+		planet.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_charismatic
+	trait_crafted_smiles
+	trait_robot_emotion_emulators
+	trait_cyborg_stainless_steel_smile
+	trait_malleable_ameneties
+	trait_adaptive_amenities
+}
+
+promotion = {
+	time = @pif_politician_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = ruler
+			AMOUNT = local_pop_amount
+		}
+	}
+}

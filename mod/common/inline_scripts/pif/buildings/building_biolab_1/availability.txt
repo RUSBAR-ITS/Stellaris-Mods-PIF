@@ -1,0 +1,36 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_biolab_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+can_build = yes
+
+planet_limit = @pif_building_biolab_1_limits_planet_limit_1
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		has_any_research_society_zone = yes
+		has_any_unspecialized_research_zone = yes
+	}
+}
+
+prerequisites = {
+	"tech_society_1"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

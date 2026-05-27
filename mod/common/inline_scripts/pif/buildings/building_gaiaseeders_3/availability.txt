@@ -1,0 +1,10 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_gaiaseeders_3
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+can_build = no
+
+allow = {
+	can_build_gaiaseeder = yes
+}

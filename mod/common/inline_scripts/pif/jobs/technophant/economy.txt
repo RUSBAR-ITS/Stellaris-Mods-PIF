@@ -1,0 +1,15 @@
+# PIF job category: ECONOMY
+# Vanilla job: technophant
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_technophant_job_output_output_unity_1
+		engineering_research = @pif_technophant_job_output_output_engineering_research_2
+	}
+	upkeep = {
+		consumer_goods = @pif_technophant_job_upkeep_upkeep_consumer_goods_1
+	}
+}

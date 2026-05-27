@@ -1,0 +1,11 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_unity_wilderness
+# Vanilla source: zones/03_wilderness_zones.txt
+
+zone_sets = {
+	urban
+}
+
+included_building_sets = {
+	unity
+}

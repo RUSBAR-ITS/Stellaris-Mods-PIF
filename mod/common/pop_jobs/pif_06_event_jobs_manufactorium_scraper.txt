@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: no_category
+
+manufactorium_scraper = {
+	inline_script = "pif/jobs/manufactorium_scraper/swap"
+	inline_script = "pif/jobs/manufactorium_scraper/availability"
+	inline_script = "pif/jobs/manufactorium_scraper/pop_config"
+	inline_script = "pif/jobs/manufactorium_scraper/economy"
+	inline_script = "pif/jobs/manufactorium_scraper/planet_state"
+	inline_script = "pif/jobs/manufactorium_scraper/country_modifiers"
+	inline_script = "pif/jobs/manufactorium_scraper/pop_modifiers"
+	inline_script = "pif/jobs/manufactorium_scraper/economic_modifiers"
+	inline_script = "pif/jobs/manufactorium_scraper/tpm"
+}

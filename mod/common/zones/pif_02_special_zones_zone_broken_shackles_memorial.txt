@@ -1,0 +1,32 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/02_special_zones.txt
+# Object type: zone
+
+zone_broken_shackles_memorial = {
+	icon = "GFX_district_specialization_broken_shackles_memorial"
+	base_buildtime = @pif_zone_broken_shackles_memorial_construction_zone_build_time_1
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_broken_shackles_memorial_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = job_civilian_ethics_effect
+	}
+	triggered_desc = {
+		text = NEW_LINE
+	}
+	triggered_desc = {
+		text = zone_cannot_be_rebuilt
+	}
+	inline_script = "pif/zones/zone_broken_shackles_memorial/availability"
+	inline_script = "pif/zones/zone_broken_shackles_memorial/zone_config"
+	inline_script = "pif/zones/zone_broken_shackles_memorial/economy"
+	inline_script = "pif/zones/zone_broken_shackles_memorial/tpm"
+	inline_script = "pif/zones/zone_broken_shackles_memorial/lifecycle"
+	inline_script = "pif/zones/zone_broken_shackles_memorial/ai"
+}

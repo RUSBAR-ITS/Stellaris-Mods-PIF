@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_fe_clinic_1
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+# Empty PIF building category hook.

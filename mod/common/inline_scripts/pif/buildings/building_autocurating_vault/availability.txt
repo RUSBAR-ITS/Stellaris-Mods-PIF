@@ -1,0 +1,38 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_autocurating_vault
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_autocurating_vault_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	is_special_colony_type = no
+	owner = {
+		is_machine_empire = no
+		is_megacorp = no
+		is_spiritualist = no
+		is_wilderness_empire = no
+		OR = {
+			is_hive_empire = yes
+			has_make_spiritualist_perk = no
+		}
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_autocurating_vault"
+}
+
+show_tech_unlock_if = {
+	is_machine_empire = no
+	is_spiritualist = no
+	is_megacorp = no
+	is_wilderness_empire = no
+	OR = {
+		is_hive_empire = yes
+		has_make_spiritualist_perk = no
+	}
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+battle_thrall = {
+	category = specialist
+	inline_script = "pif/jobs/battle_thrall/swap"
+	inline_script = "pif/jobs/battle_thrall/availability"
+	inline_script = "pif/jobs/battle_thrall/pop_config"
+	inline_script = "pif/jobs/battle_thrall/economy"
+	inline_script = "pif/jobs/battle_thrall/planet_state"
+	inline_script = "pif/jobs/battle_thrall/country_modifiers"
+	inline_script = "pif/jobs/battle_thrall/pop_modifiers"
+	inline_script = "pif/jobs/battle_thrall/economic_modifiers"
+	inline_script = "pif/jobs/battle_thrall/tpm"
+}

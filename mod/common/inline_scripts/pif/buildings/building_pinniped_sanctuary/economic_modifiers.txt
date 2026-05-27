@@ -1,0 +1,6 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_pinniped_sanctuary
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+# Empty PIF building category hook.

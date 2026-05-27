@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/03_wilderness_zones.txt
+# Object type: zone
+
+zone_urban_wilderness = {
+	icon = GFX_district_specialization_wilderness_urban
+	base_buildtime = @pif_zone_urban_wilderness_construction_zone_build_time_1
+	max_buildings = @pif_zone_urban_wilderness_building_capacity_max_buildings_1
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_urban_triggered_desc
+	}
+	inline_script = "pif/zones/zone_urban_wilderness/availability"
+	inline_script = "pif/zones/zone_urban_wilderness/zone_config"
+	inline_script = "pif/zones/zone_urban_wilderness/economy"
+	inline_script = "pif/zones/zone_urban_wilderness/tpm"
+	inline_script = "pif/zones/zone_urban_wilderness/lifecycle"
+	inline_script = "pif/zones/zone_urban_wilderness/ai"
+}

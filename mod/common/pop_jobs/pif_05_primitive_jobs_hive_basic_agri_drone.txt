@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: simple_drone
+
+hive_basic_agri_drone = {
+	category = simple_drone
+	inline_script = "pif/jobs/hive_basic_agri_drone/swap"
+	inline_script = "pif/jobs/hive_basic_agri_drone/availability"
+	inline_script = "pif/jobs/hive_basic_agri_drone/pop_config"
+	inline_script = "pif/jobs/hive_basic_agri_drone/economy"
+	inline_script = "pif/jobs/hive_basic_agri_drone/planet_state"
+	inline_script = "pif/jobs/hive_basic_agri_drone/country_modifiers"
+	inline_script = "pif/jobs/hive_basic_agri_drone/pop_modifiers"
+	inline_script = "pif/jobs/hive_basic_agri_drone/economic_modifiers"
+	inline_script = "pif/jobs/hive_basic_agri_drone/tpm"
+}

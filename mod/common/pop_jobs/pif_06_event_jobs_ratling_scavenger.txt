@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+ratling_scavenger = {
+	category = worker
+	inline_script = "pif/jobs/ratling_scavenger/swap"
+	inline_script = "pif/jobs/ratling_scavenger/availability"
+	inline_script = "pif/jobs/ratling_scavenger/pop_config"
+	inline_script = "pif/jobs/ratling_scavenger/economy"
+	inline_script = "pif/jobs/ratling_scavenger/planet_state"
+	inline_script = "pif/jobs/ratling_scavenger/country_modifiers"
+	inline_script = "pif/jobs/ratling_scavenger/pop_modifiers"
+	inline_script = "pif/jobs/ratling_scavenger/economic_modifiers"
+	inline_script = "pif/jobs/ratling_scavenger/tpm"
+}

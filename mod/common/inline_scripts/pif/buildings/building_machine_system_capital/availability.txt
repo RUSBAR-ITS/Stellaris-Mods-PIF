@@ -1,0 +1,29 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_machine_system_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_machine_empire = yes
+			is_country_type = ai_empire
+		}
+		is_fallen_empire = no
+	}
+}
+
+allow = {
+	sapient_pop_amount >= @pif_building_machine_system_capital_availability_thresholds_sapient_pop_amount_1
+}
+
+prerequisites = {
+	"tech_galactic_administration"
+}
+
+show_tech_unlock_if = {
+	is_machine_empire = yes
+}

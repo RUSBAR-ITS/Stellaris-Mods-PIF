@@ -1,0 +1,23 @@
+unlock = {
+	custom_tooltip = {
+		fail_text = zone_unavailable_tech_space_science_1
+		OR = {
+			AND = {
+				is_capital = yes
+				exists = owner
+				owner = {
+					is_void_dweller_empire = yes
+				}
+			}
+			has_deposit = d_payback_habitat_research
+			AND = {
+				exists = owner
+				owner = {
+					has_tech_or_functional_civic = {
+						TECH = tech_space_science_1
+					}
+				}
+			}
+		}
+	}
+}

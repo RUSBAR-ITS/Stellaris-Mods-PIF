@@ -1,0 +1,5 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_research_physics_ring_world
+# Vanilla source: zones/04_secondary_zones.txt
+
+

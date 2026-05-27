@@ -1,0 +1,52 @@
+# PIF job category: ECONOMY
+# Vanilla job: drone_wrangler
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+resources = {
+	category = planet_primal_jobs
+	produces = {
+		society_research = @pif_drone_wrangler_job_output_output_society_research_1
+		unity = @pif_drone_wrangler_job_output_output_unity_2
+	}
+	produces = {
+		trigger = {
+			wrangler_is_hunter_drone_trigger = yes
+		}
+		food = @pif_drone_wrangler_job_output_output_food_3
+		society_research = @pif_drone_wrangler_job_output_output_society_research_4
+	}
+	produces = {
+		trigger = {
+			wrangler_is_symbiosis_integrator_trigger = yes
+		}
+		unity = @pif_drone_wrangler_job_output_output_unity_5
+		society_research = @pif_drone_wrangler_job_output_output_society_research_6
+	}
+	upkeep = {
+		trigger = {
+			wrangler_is_beastfighter_trigger = no
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_drone_wrangler_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			wrangler_is_beastfighter_trigger = no
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		energy = @pif_drone_wrangler_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			wrangler_is_beastfighter_trigger = yes
+		}
+		alloys = @pif_drone_wrangler_job_upkeep_upkeep_alloys_3
+	}
+}

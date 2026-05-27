@@ -1,0 +1,33 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_habitat_knights
+# Vanilla source: zones/01_habitat_zones.txt
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_toxic_knights
+		NOT = {
+			has_country_flag = quest_abandoned
+		}
+	}
+	OR = {
+		has_planet_flag = toxic_knights_habitat
+		has_building = building_order_castle
+	}
+}
+
+unlock = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			has_origin = origin_toxic_knights
+			NOT = {
+				has_country_flag = quest_abandoned
+			}
+		}
+		OR = {
+			has_planet_flag = toxic_knights_habitat
+			has_building = building_order_castle
+		}
+	}
+}

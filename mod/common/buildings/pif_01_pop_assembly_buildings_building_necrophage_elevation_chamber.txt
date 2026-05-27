@@ -1,0 +1,58 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_necrophage_elevation_chamber = {
+	icon = building_chamber_of_elevation_1
+	base_buildtime = @pif_building_necrophage_elevation_chamber_construction_base_buildtime_1
+	position_priority = 100
+	skip_automation_upgrading = yes
+	category = pop_assembly
+	desc = {
+		trigger = {
+			OR = {
+				NOT = {
+					exists = owner
+				}
+				owner = {
+					is_hive_empire = no
+				}
+			}
+		}
+		text = building_necrophage_elevation_chamber_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		text = building_necrophage_elevation_chamber_desc_hive
+	}
+	triggered_desc = {
+		text = necrophage_elevation_timer_tooltip
+		trigger = {
+			has_planet_flag = necrophage_elevation_timer
+		}
+	}
+	triggered_desc = {
+		text = building_necrophage_elevation_chamber_scaling_tooltip
+	}
+	triggered_desc = {
+		text = disables_necrophage_growth
+	}
+	is_essential = yes
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/building_config"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/availability"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/economy"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/lifecycle"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/jobs"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/country_jobs"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/economic_modifiers"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/pop_modifiers"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/planet_state"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/tpm"
+	inline_script = "pif/buildings/building_necrophage_elevation_chamber/ai"
+}

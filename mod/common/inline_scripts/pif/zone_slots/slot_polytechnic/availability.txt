@@ -1,0 +1,11 @@
+unlock = {
+	custom_tooltip = {
+		fail_text = zone_unavailable_tech_planetary_unification
+		exists = owner
+		owner = {
+			has_tech_or_functional_civic = {
+				TECH = tech_planetary_unification
+			}
+		}
+	}
+}

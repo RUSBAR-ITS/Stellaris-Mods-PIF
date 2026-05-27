@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_cradle_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_influence_produces_mult = @pif_building_cradle_sanctum_economic_modifiers_country_influence_produces_mult_1
+	envoy_improve_relations_mult = 0.20
+}

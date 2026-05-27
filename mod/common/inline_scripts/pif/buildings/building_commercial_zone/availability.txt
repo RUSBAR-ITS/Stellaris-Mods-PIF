@@ -1,0 +1,42 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_commercial_zone
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_regular_empire = yes
+	}
+	NOR = {
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+	NOT = {
+		has_building = building_low_tech_capital
+	}
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		owner = {
+			is_megacorp = yes
+		}
+		has_any_trade_zone = yes
+		NOR = {
+			has_building = building_commercial_zone
+			has_building = building_commercial_megaplex
+		}
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_interplanetary_commerce"
+}
+
+show_tech_unlock_if = {
+	is_regular_empire = yes
+}

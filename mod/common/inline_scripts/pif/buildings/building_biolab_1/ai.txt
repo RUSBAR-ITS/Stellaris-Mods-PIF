@@ -1,0 +1,23 @@
+# PIF building category: AI
+# Vanilla building: building_biolab_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+exempt_from_ai_planet_specialization = no
+
+ai_weight_coefficient = @pif_building_biolab_1_ai_ai_weight_coefficient_1
+
+ai_resource_production = {
+	society_research = @pif_building_biolab_1_ai_society_research_2
+	trigger = {
+		has_any_unspecialized_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	society_research = @pif_building_biolab_1_ai_society_research_2
+	mult = @pif_building_biolab_1_ai_mult_3
+	trigger = {
+		has_any_research_engineering_zone = yes
+	}
+}

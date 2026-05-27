@@ -1,0 +1,29 @@
+# PIF building category: TPM
+# Vanilla building: building_military_academy
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_tactical_algorithms
+		}
+	}
+	ship_evasion_mult = 0.02
+	ship_tracking_mult = 0.01
+	ship_shield_penetration_add = 0.05
+	ship_armor_penetration_add = 0.05
+	mult = owner.value:tactical_algorithms_scaling_mult
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_tactical_algorithms
+		}
+	}
+	ship_shield_hardening_add = 0.1
+	mult = owner.value:tactical_algorithms_enclave_scaling_mult
+}

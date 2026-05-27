@@ -1,0 +1,24 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: stratovent_refiner_upg
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	strategic_resource
+	exotic_gases
+}
+
+weight = {
+	weight = @pif_stratovent_refiner_upg_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|stratovent_refiner_upg|RESOURCE|exotic_gases|
+}
+
+promotion = {
+	time = @pif_stratovent_refiner_upg_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

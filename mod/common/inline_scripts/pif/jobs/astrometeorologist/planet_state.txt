@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: astrometeorologist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/12_cosmic_storm_jobs.txt
+
+# Empty PIF job category hook.

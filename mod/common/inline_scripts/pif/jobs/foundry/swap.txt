@@ -1,0 +1,19 @@
+# PIF job category: SWAP
+# Vanilla job: foundry
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_foundry_1
+	}
+	swap_type = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		name = catalytic_technician
+		desc = job_catalytic_technician_desc
+		weight = 5
+	}
+}

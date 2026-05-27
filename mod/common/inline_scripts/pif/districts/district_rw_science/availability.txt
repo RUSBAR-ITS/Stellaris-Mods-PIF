@@ -1,0 +1,24 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_rw_science
+# Vanilla source: districts/04_ringworld_districts.txt
+
+potential = {
+	always = no
+}
+
+prerequisites = {
+	tech_basic_science_lab_1
+}
+
+allow = {
+	hidden_trigger = {
+		OR = {
+			NOT = {
+				exists = owner
+			}
+			owner = {
+				has_technology = tech_basic_science_lab_1
+			}
+		}
+	}
+}

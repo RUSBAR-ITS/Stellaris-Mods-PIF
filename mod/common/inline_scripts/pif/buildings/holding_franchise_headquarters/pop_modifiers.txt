@@ -1,0 +1,58 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: holding_franchise_headquarters
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		owner.overlord = {
+			is_fanatic_spiritualist = yes
+		}
+	}
+	pop_ethic_spiritualist_attraction_mult = @pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner.overlord = {
+			is_fanatic_materialist = yes
+		}
+	}
+	pop_ethic_materialist_attraction_mult = @pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_materialist_attraction_mult_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner.overlord = {
+			is_fanatic_xenophobe = yes
+		}
+	}
+	pop_ethic_xenophobe_attraction_mult = @pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_xenophobe_attraction_mult_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner.overlord = {
+			is_fanatic_xenophile = yes
+		}
+	}
+	pop_ethic_xenophile_attraction_mult = @pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_xenophile_attraction_mult_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner.overlord = {
+			is_fanatic_authoritarian = yes
+		}
+	}
+	pop_ethic_authoritarian_attraction_mult = @pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_authoritarian_attraction_mult_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner.overlord = {
+			is_fanatic_egalitarian = yes
+		}
+	}
+	pop_ethic_egalitarian_attraction_mult = @pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_egalitarian_attraction_mult_6
+}

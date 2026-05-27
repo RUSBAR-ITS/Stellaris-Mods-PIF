@@ -1,0 +1,12 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: slave_orderly
+# Vanilla class: worker
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_experiment_engineer_bonus_workforce_mult = @pif_slave_orderly_pop_modifiers_pop_experiment_engineer_bonus_workforce_mult_1
+	pop_test_subject_bonus_workforce_mult = @pif_slave_orderly_pop_modifiers_pop_test_subject_bonus_workforce_mult_2
+}

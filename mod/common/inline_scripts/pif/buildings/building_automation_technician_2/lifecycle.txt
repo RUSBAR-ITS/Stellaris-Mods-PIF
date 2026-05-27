@@ -1,0 +1,13 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_automation_technician_2
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+destroy_trigger = {
+	owner = {
+		OR = {
+			is_wilderness_empire = yes
+			is_tankbound_empire = yes
+		}
+	}
+}

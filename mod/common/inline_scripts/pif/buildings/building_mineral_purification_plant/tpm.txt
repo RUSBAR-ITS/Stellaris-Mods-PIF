@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_mineral_purification_plant
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+# Empty PIF building category hook.

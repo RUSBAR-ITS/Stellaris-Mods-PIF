@@ -1,0 +1,34 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: odd_factory_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_odd_factory_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|odd_factory_drone|RESOURCE|alloys|
+	modifier = {
+		factor = @pif_odd_factory_drone_job_weight_factor_2
+		planet = {
+			pop_amount < 200
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_odd_factory_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

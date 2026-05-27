@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/00_capital_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_colony_shelter = {
+	capital = yes
+	position_priority = 0
+	capital_tier = 1
+	category = government
+	inline_script = "pif/buildings/building_colony_shelter/building_config"
+	inline_script = "pif/buildings/building_colony_shelter/availability"
+	inline_script = "pif/buildings/building_colony_shelter/economy"
+	inline_script = "pif/buildings/building_colony_shelter/lifecycle"
+	inline_script = "pif/buildings/building_colony_shelter/jobs"
+	inline_script = "pif/buildings/building_colony_shelter/country_jobs"
+	inline_script = "pif/buildings/building_colony_shelter/economic_modifiers"
+	inline_script = "pif/buildings/building_colony_shelter/pop_modifiers"
+	inline_script = "pif/buildings/building_colony_shelter/planet_state"
+	inline_script = "pif/buildings/building_colony_shelter/tpm"
+	inline_script = "pif/buildings/building_colony_shelter/ai"
+}

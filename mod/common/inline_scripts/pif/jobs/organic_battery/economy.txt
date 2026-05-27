@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: organic_battery
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_organic_batteries
+	produces = {
+		energy = @pif_organic_battery_job_output_output_energy_1
+	}
+}

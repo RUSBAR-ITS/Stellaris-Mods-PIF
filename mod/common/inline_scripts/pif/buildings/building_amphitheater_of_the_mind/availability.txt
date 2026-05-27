@@ -1,0 +1,47 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_amphitheater_of_the_mind
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_amphitheater_of_the_mind_limits_planet_limit_1
+
+empire_limit = {
+	base = @pif_building_amphitheater_of_the_mind_limits_base_2
+	modifier = {
+		mult = @pif_building_amphitheater_of_the_mind_limits_mult_3
+		has_country_flag = cybernetic_creed_research
+	}
+}
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+	exists = owner
+	owner = {
+		has_origin = origin_cybernetic_creed
+		NOR = {
+			has_country_flag = cybernetic_creed_war
+			has_country_flag = cybernetic_creed_labor
+			has_country_flag = cybernetic_creed_construction
+			has_country_flag = cybernetic_creed_general
+		}
+	}
+}
+
+allow = {
+	exists = owner
+	has_upgraded_capital = yes
+	hidden_trigger = {
+		owner = {
+			has_origin = origin_cybernetic_creed
+		}
+	}
+	custom_tooltip = {
+		fail_text = not_cybernetic_creed_research
+		owner = {
+			has_country_flag = cybernetic_creed_research
+		}
+	}
+}

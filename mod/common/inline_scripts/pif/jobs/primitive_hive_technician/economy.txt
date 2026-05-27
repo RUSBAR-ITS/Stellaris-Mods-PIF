@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_hive_technician
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_technician
+	produces = {
+		energy = @pif_primitive_hive_technician_job_output_output_energy_1
+	}
+}

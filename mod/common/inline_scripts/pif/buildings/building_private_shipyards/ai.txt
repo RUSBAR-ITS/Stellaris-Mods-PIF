@@ -1,0 +1,8 @@
+# PIF building category: AI
+# Vanilla building: building_private_shipyards
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+ai_weight = {
+	weight = @pif_building_private_shipyards_ai_weight_1
+}

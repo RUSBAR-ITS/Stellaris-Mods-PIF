@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_paragon_memory_vaults
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+building_sets = {
+	government
+	urban
+	unity
+}

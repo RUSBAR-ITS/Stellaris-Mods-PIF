@@ -1,0 +1,6 @@
+potential = {
+	always = no
+}
+unlock = {
+	always = no
+}

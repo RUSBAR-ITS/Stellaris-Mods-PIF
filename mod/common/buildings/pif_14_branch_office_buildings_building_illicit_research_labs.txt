@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_illicit_research_labs = {
+	base_buildtime = @pif_building_illicit_research_labs_construction_base_buildtime_1
+	owner_type = corporate
+	category = research
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_illicit_research_labs/building_config"
+	inline_script = "pif/buildings/building_illicit_research_labs/availability"
+	inline_script = "pif/buildings/building_illicit_research_labs/economy"
+	inline_script = "pif/buildings/building_illicit_research_labs/lifecycle"
+	inline_script = "pif/buildings/building_illicit_research_labs/jobs"
+	inline_script = "pif/buildings/building_illicit_research_labs/country_jobs"
+	inline_script = "pif/buildings/building_illicit_research_labs/economic_modifiers"
+	inline_script = "pif/buildings/building_illicit_research_labs/pop_modifiers"
+	inline_script = "pif/buildings/building_illicit_research_labs/planet_state"
+	inline_script = "pif/buildings/building_illicit_research_labs/tpm"
+	inline_script = "pif/buildings/building_illicit_research_labs/ai"
+}

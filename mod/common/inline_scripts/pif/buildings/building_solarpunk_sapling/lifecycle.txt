@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_solarpunk_sapling
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_demolish = yes
+
+can_be_ruined = no
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_primitive = no
+	}
+}
+
+upgrades = {}
+
+on_destroy = {}
+
+on_repaired = {}

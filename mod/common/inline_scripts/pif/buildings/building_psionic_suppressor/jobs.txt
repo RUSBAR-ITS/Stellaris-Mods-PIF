@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: building_psionic_suppressor
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_bureaucrat_add = @pif_building_psionic_suppressor_jobs_job_bureaucrat_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = no
+		}
+	}
+	job_coordinator_add = @pif_building_psionic_suppressor_jobs_job_coordinator_add_2
+}

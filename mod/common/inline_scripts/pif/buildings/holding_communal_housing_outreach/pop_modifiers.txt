@@ -1,0 +1,15 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: holding_communal_housing_outreach
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_egalitarian = no
+			is_gestalt = no
+		}
+	}
+	pop_ethic_egalitarian_attraction_mult = @pif_holding_communal_housing_outreach_pop_modifiers_pop_ethic_egalitarian_attraction_mult_1
+}

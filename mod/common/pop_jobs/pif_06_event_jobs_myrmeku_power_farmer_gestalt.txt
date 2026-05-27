@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+myrmeku_power_farmer_gestalt = {
+	category = complex_drone
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/swap"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/availability"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/pop_config"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/economy"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/planet_state"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/country_modifiers"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/pop_modifiers"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/economic_modifiers"
+	inline_script = "pif/jobs/myrmeku_power_farmer_gestalt/tpm"
+}

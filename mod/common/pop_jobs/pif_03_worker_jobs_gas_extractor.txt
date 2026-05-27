@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+gas_extractor = {
+	category = worker
+	inline_script = "pif/jobs/gas_extractor/swap"
+	inline_script = "pif/jobs/gas_extractor/availability"
+	inline_script = "pif/jobs/gas_extractor/pop_config"
+	inline_script = "pif/jobs/gas_extractor/economy"
+	inline_script = "pif/jobs/gas_extractor/planet_state"
+	inline_script = "pif/jobs/gas_extractor/country_modifiers"
+	inline_script = "pif/jobs/gas_extractor/pop_modifiers"
+	inline_script = "pif/jobs/gas_extractor/economic_modifiers"
+	inline_script = "pif/jobs/gas_extractor/tpm"
+}

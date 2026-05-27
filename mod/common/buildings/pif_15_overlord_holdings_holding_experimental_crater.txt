@@ -1,0 +1,25 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_experimental_crater = {
+	base_buildtime = @pif_holding_experimental_crater_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_experimental_crater
+	category = research
+	triggered_desc = {
+		text = holding_experimental_crater_effect
+	}
+	inline_script = "pif/buildings/holding_experimental_crater/building_config"
+	inline_script = "pif/buildings/holding_experimental_crater/availability"
+	inline_script = "pif/buildings/holding_experimental_crater/economy"
+	inline_script = "pif/buildings/holding_experimental_crater/lifecycle"
+	inline_script = "pif/buildings/holding_experimental_crater/jobs"
+	inline_script = "pif/buildings/holding_experimental_crater/country_jobs"
+	inline_script = "pif/buildings/holding_experimental_crater/economic_modifiers"
+	inline_script = "pif/buildings/holding_experimental_crater/pop_modifiers"
+	inline_script = "pif/buildings/holding_experimental_crater/planet_state"
+	inline_script = "pif/buildings/holding_experimental_crater/tpm"
+	inline_script = "pif/buildings/holding_experimental_crater/ai"
+}

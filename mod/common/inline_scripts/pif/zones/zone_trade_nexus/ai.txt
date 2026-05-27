@@ -1,0 +1,7 @@
+# PIF zone category: AI
+# Vanilla zone: zone_trade_nexus
+# Vanilla source: zones/04_secondary_zones.txt
+
+ai_weight_coefficient = @pif_zone_trade_nexus_ai_ai_weight_coefficient_ai_weight_coefficient_1
+
+ai_priority = @pif_zone_trade_nexus_ai_ai_priority_ai_priority_2

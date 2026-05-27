@@ -1,0 +1,11 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: overlord_recruiter_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_defense_armies_add = @pif_overlord_recruiter_drone_planet_state_planet_defense_armies_add_1
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+polytechnic_mentor = {
+	category = specialist
+	inline_script = "pif/jobs/polytechnic_mentor/swap"
+	inline_script = "pif/jobs/polytechnic_mentor/availability"
+	inline_script = "pif/jobs/polytechnic_mentor/pop_config"
+	inline_script = "pif/jobs/polytechnic_mentor/economy"
+	inline_script = "pif/jobs/polytechnic_mentor/planet_state"
+	inline_script = "pif/jobs/polytechnic_mentor/country_modifiers"
+	inline_script = "pif/jobs/polytechnic_mentor/pop_modifiers"
+	inline_script = "pif/jobs/polytechnic_mentor/economic_modifiers"
+	inline_script = "pif/jobs/polytechnic_mentor/tpm"
+}

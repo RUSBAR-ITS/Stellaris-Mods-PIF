@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/00_urban_districts.txt
+# Object class: real
+
+district_srw_commercial = {
+	base_buildtime = @pif_district_srw_commercial_construction_build_time_days
+	overlay_icon = GFX_district_trade
+	min_for_deposits_on_planet = @pif_district_srw_commercial_limits_min_for_deposits_on_planet
+	max_for_deposits_on_planet = @pif_district_srw_commercial_limits_max_for_deposits_on_planet
+	show_on_uncolonized = {
+		always = no
+		exists = from
+		from = {
+			is_regular_empire = yes
+		}
+		uses_district_set = shattered_ring_world
+	}
+	inline_script = "pif/districts/district_srw_commercial/zone_slots"
+	inline_script = "pif/districts/district_srw_commercial/availability"
+	inline_script = "pif/districts/district_srw_commercial/economic"
+	inline_script = "pif/districts/district_srw_commercial/tpm"
+	inline_script = "pif/districts/district_srw_commercial/lifecycle"
+	inline_script = "pif/districts/district_srw_commercial/ai"
+}

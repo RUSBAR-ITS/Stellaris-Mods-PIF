@@ -1,0 +1,18 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_traders
+	upkeep = {
+		trade = @pif_overlord_trader_job_upkeep_upkeep_trade_1
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_traders
+	produces = {
+		trade = @pif_overlord_trader_overlord_output_overlord_output_trade_1
+	}
+}

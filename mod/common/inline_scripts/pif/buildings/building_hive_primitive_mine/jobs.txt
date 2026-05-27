@@ -1,0 +1,21 @@
+# PIF building category: JOBS
+# Vanilla building: building_hive_primitive_mine
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_primitive_hive_miner_add = @pif_building_hive_primitive_mine_jobs_job_primitive_hive_miner_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_lithoid_empire = yes
+		}
+	}
+	job_primitive_hive_miner_add = @pif_building_hive_primitive_mine_jobs_job_primitive_hive_miner_add_2
+}

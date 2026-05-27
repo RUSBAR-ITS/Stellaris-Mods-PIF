@@ -1,0 +1,16 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_dread_outpost
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+on_built = {
+	planet = {
+		set_planet_flag = active_dread_outpost
+	}
+}
+
+on_destroy = {
+	planet = {
+		remove_planet_flag = active_dread_outpost
+	}
+}

@@ -1,0 +1,59 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/22_biogenesis_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_genomic_facility = {
+	base_buildtime = @pif_building_genomic_facility_construction_base_buildtime_1
+	category = amenity
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = healthcare_is_genomic_researcher_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = spawning_is_genomic_researcher_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				has_completed_genetic_situation = no
+			}
+		}
+		text = job_genomic_researcher_situation_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+				has_completed_genetic_situation = no
+			}
+		}
+		text = job_genomic_drone_situation_effect_desc
+	}
+	is_essential = yes
+	inline_script = "pif/buildings/building_genomic_facility/building_config"
+	inline_script = "pif/buildings/building_genomic_facility/availability"
+	inline_script = "pif/buildings/building_genomic_facility/economy"
+	inline_script = "pif/buildings/building_genomic_facility/lifecycle"
+	inline_script = "pif/buildings/building_genomic_facility/jobs"
+	inline_script = "pif/buildings/building_genomic_facility/country_jobs"
+	inline_script = "pif/buildings/building_genomic_facility/economic_modifiers"
+	inline_script = "pif/buildings/building_genomic_facility/pop_modifiers"
+	inline_script = "pif/buildings/building_genomic_facility/planet_state"
+	inline_script = "pif/buildings/building_genomic_facility/tpm"
+	inline_script = "pif/buildings/building_genomic_facility/ai"
+}

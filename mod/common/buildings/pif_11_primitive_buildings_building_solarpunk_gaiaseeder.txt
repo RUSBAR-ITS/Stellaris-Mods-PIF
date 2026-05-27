@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_solarpunk_gaiaseeder = {
+	icon = building_gaiaseeders_4
+	base_buildtime = @pif_building_solarpunk_gaiaseeder_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/building_config"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/availability"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/economy"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/lifecycle"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/jobs"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/country_jobs"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/economic_modifiers"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/pop_modifiers"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/planet_state"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/tpm"
+	inline_script = "pif/buildings/building_solarpunk_gaiaseeder/ai"
+}

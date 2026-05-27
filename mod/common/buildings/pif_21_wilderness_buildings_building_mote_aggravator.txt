@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_mote_aggravator = {
+	icon = "mote_aggravator"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_mote_aggravator_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_mote_aggravator/building_config"
+	inline_script = "pif/buildings/building_mote_aggravator/availability"
+	inline_script = "pif/buildings/building_mote_aggravator/economy"
+	inline_script = "pif/buildings/building_mote_aggravator/lifecycle"
+	inline_script = "pif/buildings/building_mote_aggravator/jobs"
+	inline_script = "pif/buildings/building_mote_aggravator/country_jobs"
+	inline_script = "pif/buildings/building_mote_aggravator/economic_modifiers"
+	inline_script = "pif/buildings/building_mote_aggravator/pop_modifiers"
+	inline_script = "pif/buildings/building_mote_aggravator/planet_state"
+	inline_script = "pif/buildings/building_mote_aggravator/tpm"
+	inline_script = "pif/buildings/building_mote_aggravator/ai"
+}

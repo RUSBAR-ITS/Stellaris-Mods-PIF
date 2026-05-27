@@ -1,0 +1,15 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hive_crude_huts
+# Vanilla class: capital
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_primitive = yes
+		is_hive_empire = yes
+		has_country_flag = stone_age
+	}
+}

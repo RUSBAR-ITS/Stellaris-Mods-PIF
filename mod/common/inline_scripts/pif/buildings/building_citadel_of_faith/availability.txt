@@ -1,0 +1,29 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_citadel_of_faith
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_citadel_of_faith_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_spiritualist = yes
+			AND = {
+				is_gestalt = no
+				has_make_spiritualist_perk = yes
+			}
+		}
+	}
+	NOR = {
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_transcendent_faith"
+}

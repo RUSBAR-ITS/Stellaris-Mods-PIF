@@ -1,0 +1,11 @@
+# PIF job category: TPM
+# Vanilla job: production_overseer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	bonus_automated_workforce_mult = @pif_production_overseer_tpm_bonus_automated_workforce_mult_1
+}

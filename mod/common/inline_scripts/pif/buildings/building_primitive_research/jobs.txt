@@ -1,0 +1,26 @@
+# PIF building category: JOBS
+# Vanilla building: building_primitive_research
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_primitive_researcher_2_add = @pif_building_primitive_research_jobs_job_primitive_researcher_2_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_calculator_physicist_add = @pif_building_primitive_research_jobs_job_calculator_physicist_add_2
+	job_calculator_biologist_add = @pif_building_primitive_research_jobs_job_calculator_biologist_add_3
+	job_calculator_engineer_add = @pif_building_primitive_research_jobs_job_calculator_engineer_add_4
+}

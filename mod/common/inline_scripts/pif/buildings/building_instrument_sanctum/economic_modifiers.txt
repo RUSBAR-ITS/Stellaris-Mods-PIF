@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_instrument_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_trade_produces_mult = @pif_building_instrument_sanctum_economic_modifiers_planet_jobs_trade_produces_mult_1
+}

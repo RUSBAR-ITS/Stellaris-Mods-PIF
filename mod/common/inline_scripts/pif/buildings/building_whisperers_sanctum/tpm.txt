@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_whisperers_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	envoys_add = @pif_building_whisperers_sanctum_tpm_envoys_add_1
+	spy_network_daily_value_mult = 0.15
+}

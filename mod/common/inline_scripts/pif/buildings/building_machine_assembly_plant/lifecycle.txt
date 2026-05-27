@@ -1,0 +1,30 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_machine_assembly_plant
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+convert_to = {
+	building_robot_assembly_plant
+}
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_robot_empire = no
+		}
+		AND = {
+			owner = {
+				is_ai = yes
+			}
+			free_district_slots = @pif_building_machine_assembly_plant_planet_state_free_district_slots_1
+			free_building_slots = @pif_building_machine_assembly_plant_planet_state_free_building_slots_4
+			free_housing <= @pif_building_machine_assembly_plant_planet_state_free_housing_3
+			free_jobs <= 0
+		}
+	}
+}
+
+upgrades = {
+	building_machine_assembly_complex
+}

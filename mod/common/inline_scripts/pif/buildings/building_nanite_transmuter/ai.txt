@@ -1,0 +1,13 @@
+# PIF building category: AI
+# Vanilla building: building_nanite_transmuter
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+ai_resource_production = {
+	rare_crystals = @pif_building_nanite_transmuter_ai_rare_crystals_1
+	volatile_motes = @pif_building_nanite_transmuter_ai_volatile_motes_2
+	exotic_gases = @pif_building_nanite_transmuter_ai_exotic_gases_3
+	trigger = {
+		always = yes
+	}
+}

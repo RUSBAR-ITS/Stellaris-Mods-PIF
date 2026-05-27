@@ -1,0 +1,6 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: symbiosis_nexus_2
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+# Empty PIF building category hook.

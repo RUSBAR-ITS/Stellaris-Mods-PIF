@@ -1,0 +1,52 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_mindlink
+# Vanilla source: districts/00_special_districts.txt
+
+conversion_ratio = @pif_district_mindlink_conversion_conversion_ratio
+
+convert_to = {
+	district_arcology_housing
+	district_rw_city
+	district_rw_hive
+	district_rw_nexus
+	district_city
+	district_nexus
+	district_hive
+	district_hab_housing
+	district_crashed_slaver_ship
+	district_craglands
+}
+
+on_queued = {
+	if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+			any_owned_pop_group = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+		}
+		random_owned_pop_group = {
+			limit = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+			kill_pop_group = {
+				pop_group = this
+				amount = local_spent_biomass
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+		}
+		owner = {
+			global_biomass_spender = yes
+		}
+	}
+}
+
+on_unqueued = {
+	unqueue_biomass_effect = yes
+}

@@ -1,0 +1,19 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_primitive_research = {
+	category = research
+	inline_script = "pif/buildings/building_primitive_research/building_config"
+	inline_script = "pif/buildings/building_primitive_research/availability"
+	inline_script = "pif/buildings/building_primitive_research/economy"
+	inline_script = "pif/buildings/building_primitive_research/lifecycle"
+	inline_script = "pif/buildings/building_primitive_research/jobs"
+	inline_script = "pif/buildings/building_primitive_research/country_jobs"
+	inline_script = "pif/buildings/building_primitive_research/economic_modifiers"
+	inline_script = "pif/buildings/building_primitive_research/pop_modifiers"
+	inline_script = "pif/buildings/building_primitive_research/planet_state"
+	inline_script = "pif/buildings/building_primitive_research/tpm"
+	inline_script = "pif/buildings/building_primitive_research/ai"
+}

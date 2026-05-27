@@ -1,0 +1,32 @@
+# PIF job category: SWAP
+# Vanilla job: drone_wrangler
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = wildlife_ranch
+		icon = wrangler
+	}
+	swap_type = {
+		trigger = {
+			wrangler_is_hunter_drone_trigger = yes
+		}
+		name = hunter_drone
+		desc = hunter_drone
+		icon = trophy_hunter
+		building_icon = hunting_grounds
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			wrangler_is_symbiosis_integrator_trigger = yes
+		}
+		name = symbiosis_integrator
+		desc = symbiosis_integrator
+		icon = animal_handler
+		building_icon = wildlife_sanctuary
+		weight = 5
+	}
+}

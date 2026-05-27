@@ -1,0 +1,12 @@
+# PIF building category: JOBS
+# Vanilla building: building_smuggling_rings
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_trader_add = @pif_building_smuggling_rings_jobs_job_trader_add_1
+	job_criminal_add = @pif_building_smuggling_rings_jobs_job_criminal_add_2
+}

@@ -1,0 +1,18 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_prison_industrial
+# Vanilla source: districts/00_urban_districts.txt
+
+prerequisites = {
+	tech_basic_industry
+}
+
+potential = {
+	always = no
+}
+
+allow = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}

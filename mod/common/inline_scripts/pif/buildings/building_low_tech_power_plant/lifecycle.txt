@@ -1,0 +1,17 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_low_tech_power_plant
+# Vanilla class: regular
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+can_demolish = yes
+
+can_be_ruined = yes
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		NOT = {
+			has_origin = origin_broken_shackles
+		}
+	}
+}

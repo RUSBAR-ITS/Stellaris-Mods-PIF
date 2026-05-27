@@ -1,0 +1,17 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: bureaucrat
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_specialist_job
+
+possible = {
+	complex_specialist_job_check_trigger = yes
+}

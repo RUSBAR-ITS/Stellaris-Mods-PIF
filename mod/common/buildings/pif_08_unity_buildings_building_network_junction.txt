@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_network_junction = {
+	base_buildtime = @pif_building_network_junction_construction_base_buildtime_1
+	icon = building_heritage_site
+	category = unity
+	inline_script = "pif/buildings/building_network_junction/building_config"
+	inline_script = "pif/buildings/building_network_junction/availability"
+	inline_script = "pif/buildings/building_network_junction/economy"
+	inline_script = "pif/buildings/building_network_junction/lifecycle"
+	inline_script = "pif/buildings/building_network_junction/jobs"
+	inline_script = "pif/buildings/building_network_junction/country_jobs"
+	inline_script = "pif/buildings/building_network_junction/economic_modifiers"
+	inline_script = "pif/buildings/building_network_junction/pop_modifiers"
+	inline_script = "pif/buildings/building_network_junction/planet_state"
+	inline_script = "pif/buildings/building_network_junction/tpm"
+	inline_script = "pif/buildings/building_network_junction/ai"
+}

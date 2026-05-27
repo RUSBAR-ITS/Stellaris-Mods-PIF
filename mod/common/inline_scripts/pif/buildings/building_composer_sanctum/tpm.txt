@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_composer_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		has_shroud_dlc = yes
+	}
+	leader_lifespan_add = @pif_building_composer_sanctum_tpm_leader_lifespan_add_1
+}

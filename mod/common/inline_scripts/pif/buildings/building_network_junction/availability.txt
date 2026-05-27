@@ -1,0 +1,31 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_network_junction
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_network_junction_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_machine_empire = yes
+		NOT = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_colonial_bureaucracy"
+}
+
+show_tech_unlock_if = {
+	is_machine_empire = yes
+	NOT = {
+		has_valid_civic = civic_machine_servitor
+	}
+}

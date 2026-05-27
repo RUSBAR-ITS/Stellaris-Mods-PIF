@@ -1,0 +1,205 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: PLANET_OUTPUT_MODIFIERS
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_betharian
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_energy_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt
+@pif_zone_betharian_planet_output_modifiers_planet_miners_energy_produces_add_1 = 6
+
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt
+@pif_zone_betharian_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -2
+
+# -----------------------------------------------------------------------------
+# zone_betharian_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_energy_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_planet_output_modifiers_planet_miners_energy_produces_add_1 = 6
+
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -2
+
+# -----------------------------------------------------------------------------
+# zone_betharian_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_energy_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_planet_output_modifiers_planet_miners_energy_produces_add_1 = 6
+
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -2
+
+# -----------------------------------------------------------------------------
+# zone_broken_shackles_memorial
+# -----------------------------------------------------------------------------
+# Controls: planet_amenities_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_planet_output_modifiers_planet_amenities_add_1 = 500
+
+# Controls: planet_civilians_unity_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_planet_output_modifiers_planet_civilians_unity_produces_add_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_central_spire
+# -----------------------------------------------------------------------------
+# Controls: planet_jobs_engineering_research_produces_mult.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_planet_output_modifiers_planet_jobs_engineering_research_produces_mult_3 = 0.15
+
+# Controls: planet_jobs_physics_research_produces_mult.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_planet_output_modifiers_planet_jobs_physics_research_produces_mult_1 = 0.15
+
+# Controls: planet_jobs_society_research_produces_mult.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_planet_output_modifiers_planet_jobs_society_research_produces_mult_2 = 0.15
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: planet_farmers_exotic_gases_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
+@pif_zone_exotic_gases_planet_output_modifiers_planet_farmers_exotic_gases_produces_add_1 = 0.75
+
+# Controls: planet_farmers_food_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
+@pif_zone_exotic_gases_planet_output_modifiers_planet_farmers_food_produces_add_2 = -3
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_farmers_exotic_gases_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_planet_output_modifiers_planet_farmers_exotic_gases_produces_add_1 = 0.75
+
+# Controls: planet_farmers_food_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_planet_output_modifiers_planet_farmers_food_produces_add_2 = -3
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_farmers_exotic_gases_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_planet_output_modifiers_planet_farmers_exotic_gases_produces_add_1 = 0.75
+
+# Controls: planet_farmers_food_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_planet_output_modifiers_planet_farmers_food_produces_add_2 = -3
+
+# -----------------------------------------------------------------------------
+# zone_habitat_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: planet_farmers_exotic_gases_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
+@pif_zone_habitat_exotic_gases_planet_output_modifiers_planet_farmers_exotic_gases_produces_add_1 = 0.75
+
+# Controls: planet_farmers_food_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
+@pif_zone_habitat_exotic_gases_planet_output_modifiers_planet_farmers_food_produces_add_2 = -3
+
+# -----------------------------------------------------------------------------
+# zone_habitat_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt
+@pif_zone_habitat_rare_crystals_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -2
+
+# Controls: planet_miners_rare_crystals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt
+@pif_zone_habitat_rare_crystals_planet_output_modifiers_planet_miners_rare_crystals_produces_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# zone_habitat_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: planet_technician_energy_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
+@pif_zone_habitat_volatile_motes_planet_output_modifiers_planet_technician_energy_produces_add_2 = -3
+
+# Controls: planet_technician_volatile_motes_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
+@pif_zone_habitat_volatile_motes_planet_output_modifiers_planet_technician_volatile_motes_produces_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# zone_minerals_physics
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -1
+
+# Controls: planet_miners_physics_research_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_planet_output_modifiers_planet_miners_physics_research_produces_add_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt
+@pif_zone_rare_crystals_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -2
+
+# Controls: planet_miners_rare_crystals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt
+@pif_zone_rare_crystals_planet_output_modifiers_planet_miners_rare_crystals_produces_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -2
+
+# Controls: planet_miners_rare_crystals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_planet_output_modifiers_planet_miners_rare_crystals_produces_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_miners_minerals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_planet_output_modifiers_planet_miners_minerals_produces_add_2 = -2
+
+# Controls: planet_miners_rare_crystals_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_planet_output_modifiers_planet_miners_rare_crystals_produces_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: planet_technician_energy_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
+@pif_zone_volatile_motes_planet_output_modifiers_planet_technician_energy_produces_add_2 = -3
+
+# Controls: planet_technician_volatile_motes_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
+@pif_zone_volatile_motes_planet_output_modifiers_planet_technician_volatile_motes_produces_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_technician_energy_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_planet_output_modifiers_planet_technician_energy_produces_add_2 = -3
+
+# Controls: planet_technician_volatile_motes_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_planet_output_modifiers_planet_technician_volatile_motes_produces_add_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_technician_energy_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_planet_output_modifiers_planet_technician_energy_produces_add_2 = -3
+
+# Controls: planet_technician_volatile_motes_produces_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_planet_output_modifiers_planet_technician_volatile_motes_produces_add_1 = 0.75

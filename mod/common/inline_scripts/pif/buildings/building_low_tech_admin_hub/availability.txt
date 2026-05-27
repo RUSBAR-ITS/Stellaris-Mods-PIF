@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_low_tech_admin_hub
+# Vanilla class: regular
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+can_build = no
+
+empire_limit = {
+	base = @pif_building_low_tech_admin_hub_limits_base_1
+}
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_broken_shackles
+	}
+	OR = {
+		has_deposit = d_crashed_slaver_ship
+		has_deposit = d_crashed_slaver_ship_memorial
+	}
+}

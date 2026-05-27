@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: holding_distributed_processing
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	monthly_loyalty = @pif_holding_distributed_processing_tpm_monthly_loyalty_1
+}

@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: overlord_manager
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+# Empty PIF job category hook.

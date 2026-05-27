@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/16_shroud_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+test_subject = {
+	category = criminal
+	inline_script = "pif/jobs/test_subject/swap"
+	inline_script = "pif/jobs/test_subject/availability"
+	inline_script = "pif/jobs/test_subject/pop_config"
+	inline_script = "pif/jobs/test_subject/economy"
+	inline_script = "pif/jobs/test_subject/planet_state"
+	inline_script = "pif/jobs/test_subject/country_modifiers"
+	inline_script = "pif/jobs/test_subject/pop_modifiers"
+	inline_script = "pif/jobs/test_subject/economic_modifiers"
+	inline_script = "pif/jobs/test_subject/tpm"
+}

@@ -1,0 +1,43 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_necrophage_house_of_apotheosis
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_necrophage
+		has_trait = trait_necrophage
+		NOR = {
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+		is_ai = no
+	}
+}
+
+allow = {
+	hidden_trigger = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			any_owned_species = {
+				species_can_be_necrophaged = yes
+			}
+		}
+	}
+}
+
+prerequisites = {
+	tech_glandular_acclimation
+}
+
+show_tech_unlock_if = {
+	has_origin = origin_necrophage
+	has_trait = trait_necrophage
+}

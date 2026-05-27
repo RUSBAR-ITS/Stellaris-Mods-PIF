@@ -1,0 +1,26 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_autochthon_monument = {
+	base_buildtime = @pif_building_autochthon_monument_construction_base_buildtime_1
+	category = unity
+	triggered_desc = {
+		text = building_autochthon_monument_effect
+	}
+	triggered_desc = {
+		text = job_civilian_ethics_effect
+	}
+	inline_script = "pif/buildings/building_autochthon_monument/building_config"
+	inline_script = "pif/buildings/building_autochthon_monument/availability"
+	inline_script = "pif/buildings/building_autochthon_monument/economy"
+	inline_script = "pif/buildings/building_autochthon_monument/lifecycle"
+	inline_script = "pif/buildings/building_autochthon_monument/jobs"
+	inline_script = "pif/buildings/building_autochthon_monument/country_jobs"
+	inline_script = "pif/buildings/building_autochthon_monument/economic_modifiers"
+	inline_script = "pif/buildings/building_autochthon_monument/pop_modifiers"
+	inline_script = "pif/buildings/building_autochthon_monument/planet_state"
+	inline_script = "pif/buildings/building_autochthon_monument/tpm"
+	inline_script = "pif/buildings/building_autochthon_monument/ai"
+}

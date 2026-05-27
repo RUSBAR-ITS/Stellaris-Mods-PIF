@@ -1,0 +1,17 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_craglands
+# Vanilla source: districts/05_wilderness_districts.txt
+
+potential = {
+	uses_district_set = standard
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+	NAND = {
+		is_capital = yes
+		owner = {
+			has_menace_perk = menp_behemoth_mind_meld
+		}
+	}
+}

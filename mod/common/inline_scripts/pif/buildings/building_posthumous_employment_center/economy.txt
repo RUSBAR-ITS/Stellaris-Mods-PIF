@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_posthumous_employment_center
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_posthumous_employment_center_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_posthumous_employment_center_upkeep_upkeep_energy_1
+	}
+}

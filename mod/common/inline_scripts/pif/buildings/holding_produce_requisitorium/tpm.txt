@@ -1,0 +1,21 @@
+# PIF building category: TPM
+# Vanilla building: holding_produce_requisitorium
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	monthly_loyalty = @pif_holding_produce_requisitorium_tpm_monthly_loyalty_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner.overlord
+		owner.overlord = {
+			country_uses_consumer_goods = yes
+		}
+	}
+	monthly_loyalty = @pif_holding_produce_requisitorium_tpm_monthly_loyalty_1
+}

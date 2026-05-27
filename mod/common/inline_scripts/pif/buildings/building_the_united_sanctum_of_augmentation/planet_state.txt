@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_the_united_sanctum_of_augmentation
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+# Empty PIF building category hook.

@@ -1,0 +1,11 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_psi_corps
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_stability_add = @pif_building_psi_corps_planet_state_planet_stability_add_1
+}

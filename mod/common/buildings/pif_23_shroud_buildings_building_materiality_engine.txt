@@ -1,0 +1,29 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/23_shroud_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_materiality_engine = {
+	base_buildtime = @pif_building_materiality_engine_construction_base_buildtime_1
+	category = manufacturing
+	triggered_desc = {
+		text = physics_unit_is_extradimensional_research_unit_tt
+	}
+	triggered_desc = {
+		text = NEW_LINE
+	}
+	triggered_desc = {
+		text = building_materiality_engine_tt
+	}
+	inline_script = "pif/buildings/building_materiality_engine/building_config"
+	inline_script = "pif/buildings/building_materiality_engine/availability"
+	inline_script = "pif/buildings/building_materiality_engine/economy"
+	inline_script = "pif/buildings/building_materiality_engine/lifecycle"
+	inline_script = "pif/buildings/building_materiality_engine/jobs"
+	inline_script = "pif/buildings/building_materiality_engine/country_jobs"
+	inline_script = "pif/buildings/building_materiality_engine/economic_modifiers"
+	inline_script = "pif/buildings/building_materiality_engine/pop_modifiers"
+	inline_script = "pif/buildings/building_materiality_engine/planet_state"
+	inline_script = "pif/buildings/building_materiality_engine/tpm"
+	inline_script = "pif/buildings/building_materiality_engine/ai"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+unifier = {
+	category = specialist
+	inline_script = "pif/jobs/unifier/swap"
+	inline_script = "pif/jobs/unifier/availability"
+	inline_script = "pif/jobs/unifier/pop_config"
+	inline_script = "pif/jobs/unifier/economy"
+	inline_script = "pif/jobs/unifier/planet_state"
+	inline_script = "pif/jobs/unifier/country_modifiers"
+	inline_script = "pif/jobs/unifier/pop_modifiers"
+	inline_script = "pif/jobs/unifier/economic_modifiers"
+	inline_script = "pif/jobs/unifier/tpm"
+}

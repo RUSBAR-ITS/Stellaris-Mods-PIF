@@ -1,0 +1,47 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: disconnected_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+tags = {}
+
+weight = {
+	weight = @pif_disconnected_drone_job_weight_weight_1
+	modifier = {
+		add = @pif_disconnected_drone_job_weight_add_2
+		exists = planet
+		OR = {
+			planet = {
+				free_jobs_of_type = {
+					job = livestock_zoo_animal
+					value >= 100
+				}
+			}
+			planet = {
+				free_jobs_of_type = {
+					job = livestock_zoo_beast
+					value >= 100
+				}
+			}
+			AND = {
+				disconnected_drone_can_be_worker = yes
+				planet = {
+					free_jobs_of_type = {
+						category = worker
+						value >= 100
+					}
+				}
+			}
+		}
+	}
+}
+
+promotion = {
+	time = @pif_disconnected_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

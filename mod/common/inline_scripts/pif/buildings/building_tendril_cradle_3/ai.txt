@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_tendril_cradle_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+ai_estimate_without_unemployment = yes

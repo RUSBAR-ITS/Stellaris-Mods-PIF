@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_hab_mining
+# Vanilla source: districts/03_habitat_districts.txt
+
+

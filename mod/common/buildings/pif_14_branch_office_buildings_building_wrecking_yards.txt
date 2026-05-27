@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_wrecking_yards = {
+	base_buildtime = @pif_building_wrecking_yards_construction_base_buildtime_1
+	owner_type = corporate
+	category = manufacturing
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_wrecking_yards/building_config"
+	inline_script = "pif/buildings/building_wrecking_yards/availability"
+	inline_script = "pif/buildings/building_wrecking_yards/economy"
+	inline_script = "pif/buildings/building_wrecking_yards/lifecycle"
+	inline_script = "pif/buildings/building_wrecking_yards/jobs"
+	inline_script = "pif/buildings/building_wrecking_yards/country_jobs"
+	inline_script = "pif/buildings/building_wrecking_yards/economic_modifiers"
+	inline_script = "pif/buildings/building_wrecking_yards/pop_modifiers"
+	inline_script = "pif/buildings/building_wrecking_yards/planet_state"
+	inline_script = "pif/buildings/building_wrecking_yards/tpm"
+	inline_script = "pif/buildings/building_wrecking_yards/ai"
+}

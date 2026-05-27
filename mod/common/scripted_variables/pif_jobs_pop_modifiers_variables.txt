@@ -1,0 +1,333 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: POP_MODIFIERS
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# alien_hunter
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/jobs/alien_hunter/pop_modifiers.txt
+@pif_alien_hunter_pop_modifiers_pop_environment_tolerance_1 = 0.025
+
+# -----------------------------------------------------------------------------
+# astrogarbage_collector
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/jobs/astrogarbage_collector/pop_modifiers.txt
+@pif_astrogarbage_collector_pop_modifiers_pop_environment_tolerance_1 = 0.025
+
+# -----------------------------------------------------------------------------
+# astrogarbage_collector_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/jobs/astrogarbage_collector_gestalt/pop_modifiers.txt
+@pif_astrogarbage_collector_gestalt_pop_modifiers_pop_environment_tolerance_1 = 0.015
+
+# -----------------------------------------------------------------------------
+# augmentor
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/augmentor/pop_modifiers.txt
+@pif_augmentor_pop_modifiers_logistic_growth_mult_1 = 0.1
+
+# Controls: Job modifier value: planet_pop_assembly_add.
+# Used in: common/inline_scripts/pif/jobs/augmentor/pop_modifiers.txt
+@pif_augmentor_pop_modifiers_planet_pop_assembly_add_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# augmentor_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/pop_modifiers.txt
+@pif_augmentor_drone_pop_modifiers_bonus_pop_growth_3 = 3
+
+# Controls: Job modifier value: bonus_pop_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/pop_modifiers.txt
+@pif_augmentor_drone_pop_modifiers_bonus_pop_growth_mult_2 = 0.10
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/pop_modifiers.txt
+@pif_augmentor_drone_pop_modifiers_logistic_growth_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# bath_attendant
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_bureaucrat_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant/pop_modifiers.txt
+@pif_bath_attendant_pop_modifiers_pop_bureaucrat_bonus_workforce_mult_2 = 0.025
+
+# Controls: Job modifier value: pop_cat_ruler_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant/pop_modifiers.txt
+@pif_bath_attendant_pop_modifiers_pop_cat_ruler_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# bath_attendant_machine
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_bio_trophy_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant_machine/pop_modifiers.txt
+@pif_bath_attendant_machine_pop_modifiers_pop_bio_trophy_bonus_workforce_mult_2 = 0.05
+
+# Controls: Job modifier value: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant_machine/pop_modifiers.txt
+@pif_bath_attendant_machine_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/bio_trophy/pop_modifiers.txt
+@pif_bio_trophy_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_citizen_happiness.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/pop_modifiers.txt
+@pif_bureaucrat_pop_modifiers_pop_citizen_happiness_1 = 0.00625
+
+# Controls: Job modifier value: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/pop_modifiers.txt
+@pif_bureaucrat_pop_modifiers_pop_government_ethic_attraction_2 = 0.10
+
+# -----------------------------------------------------------------------------
+# civilian
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_citizen_happiness.
+# Used in: common/inline_scripts/pif/jobs/civilian/pop_modifiers.txt
+@pif_civilian_pop_modifiers_pop_citizen_happiness_1 = 0.00625
+
+# -----------------------------------------------------------------------------
+# cyberdome_duelist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/cyberdome_duelist/pop_modifiers.txt
+@pif_cyberdome_duelist_pop_modifiers_pop_happiness_1 = 0.02
+
+# -----------------------------------------------------------------------------
+# dystopian_enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/pop_modifiers.txt
+@pif_dystopian_enforcer_pop_modifiers_pop_happiness_1 = -0.025
+
+# -----------------------------------------------------------------------------
+# dystopian_telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/pop_modifiers.txt
+@pif_dystopian_telepath_pop_modifiers_logistic_growth_mult_2 = 0.02
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/pop_modifiers.txt
+@pif_dystopian_telepath_pop_modifiers_logistic_growth_mult_3 = 0.03
+
+# Controls: Job modifier value: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/pop_modifiers.txt
+@pif_dystopian_telepath_pop_modifiers_planet_pop_assembly_mult_4 = 0.05
+
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/pop_modifiers.txt
+@pif_dystopian_telepath_pop_modifiers_pop_happiness_1 = -0.025
+
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/pop_modifiers.txt
+@pif_dystopian_telepath_pop_modifiers_pop_happiness_5 = 0.03
+
+# -----------------------------------------------------------------------------
+# enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/enforcer/pop_modifiers.txt
+@pif_enforcer_pop_modifiers_pop_happiness_1 = -0.025
+
+# -----------------------------------------------------------------------------
+# healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/healthcare/pop_modifiers.txt
+@pif_healthcare_pop_modifiers_bonus_pop_growth_mult_2 = 0.05
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/healthcare/pop_modifiers.txt
+@pif_healthcare_pop_modifiers_logistic_growth_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# necro_apprentice
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/necro_apprentice/pop_modifiers.txt
+@pif_necro_apprentice_pop_modifiers_bonus_pop_growth_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# overlord_bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/overlord_bio_trophy/pop_modifiers.txt
+@pif_overlord_bio_trophy_pop_modifiers_pop_happiness_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# overlord_healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/pop_modifiers.txt
+@pif_overlord_healthcare_pop_modifiers_bonus_pop_growth_mult_2 = 0.05
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/pop_modifiers.txt
+@pif_overlord_healthcare_pop_modifiers_logistic_growth_mult_1 = 0.05
+
+# Controls: Job modifier value: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/pop_modifiers.txt
+@pif_overlord_healthcare_pop_modifiers_pop_environment_tolerance_3 = 0.025
+
+# -----------------------------------------------------------------------------
+# overlord_replicator
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_pop_assembly_add.
+# Used in: common/inline_scripts/pif/jobs/overlord_replicator/pop_modifiers.txt
+@pif_overlord_replicator_pop_modifiers_planet_pop_assembly_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone/pop_modifiers.txt
+@pif_overlord_spawning_drone_pop_modifiers_bonus_pop_growth_1 = 2
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone/pop_modifiers.txt
+@pif_overlord_spawning_drone_pop_modifiers_logistic_growth_mult_2 = 0.1
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone_lithoid/pop_modifiers.txt
+@pif_overlord_spawning_drone_lithoid_pop_modifiers_bonus_pop_growth_1 = 2
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone_lithoid/pop_modifiers.txt
+@pif_overlord_spawning_drone_lithoid_pop_modifiers_logistic_growth_mult_2 = 0.1
+
+# -----------------------------------------------------------------------------
+# reassigner
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/reassigner/pop_modifiers.txt
+@pif_reassigner_pop_modifiers_bonus_pop_growth_1 = 1
+
+# -----------------------------------------------------------------------------
+# replicator
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_pop_assembly_add.
+# Used in: common/inline_scripts/pif/jobs/replicator/pop_modifiers.txt
+@pif_replicator_pop_modifiers_planet_pop_assembly_add_1 = 1
+
+# Controls: Job modifier value: planet_pop_assembly_add.
+# Used in: common/inline_scripts/pif/jobs/replicator/pop_modifiers.txt
+@pif_replicator_pop_modifiers_planet_pop_assembly_add_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# roboticist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/roboticist/pop_modifiers.txt
+@pif_roboticist_pop_modifiers_bonus_pop_growth_3 = 0.5
+
+# Controls: Job modifier value: planet_pop_assembly_add.
+# Used in: common/inline_scripts/pif/jobs/roboticist/pop_modifiers.txt
+@pif_roboticist_pop_modifiers_planet_pop_assembly_add_1 = 2
+
+# Controls: Job modifier value: planet_pop_assembly_add.
+# Used in: common/inline_scripts/pif/jobs/roboticist/pop_modifiers.txt
+@pif_roboticist_pop_modifiers_planet_pop_assembly_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# slave_orderly
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_experiment_engineer_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/slave_orderly/pop_modifiers.txt
+@pif_slave_orderly_pop_modifiers_pop_experiment_engineer_bonus_workforce_mult_1 = 0.025
+
+# Controls: Job modifier value: pop_test_subject_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/slave_orderly/pop_modifiers.txt
+@pif_slave_orderly_pop_modifiers_pop_test_subject_bonus_workforce_mult_2 = 0.025
+
+# -----------------------------------------------------------------------------
+# slave_overseer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/pop_modifiers.txt
+@pif_slave_overseer_pop_modifiers_pop_happiness_1 = -0.025
+
+# -----------------------------------------------------------------------------
+# spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/pop_modifiers.txt
+@pif_spawning_drone_pop_modifiers_bonus_pop_growth_1 = 2
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/pop_modifiers.txt
+@pif_spawning_drone_pop_modifiers_logistic_growth_mult_2 = 0.1
+
+# -----------------------------------------------------------------------------
+# squire
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/jobs/squire/pop_modifiers.txt
+@pif_squire_pop_modifiers_bonus_pop_growth_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# stasis_warden
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/pop_modifiers.txt
+@pif_stasis_warden_pop_modifiers_pop_happiness_1 = -0.025
+
+# -----------------------------------------------------------------------------
+# telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/pop_modifiers.txt
+@pif_telepath_pop_modifiers_logistic_growth_mult_2 = 0.02
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/pop_modifiers.txt
+@pif_telepath_pop_modifiers_logistic_growth_mult_3 = 0.03
+
+# Controls: Job modifier value: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/pop_modifiers.txt
+@pif_telepath_pop_modifiers_planet_pop_assembly_mult_4 = 0.05
+
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/telepath/pop_modifiers.txt
+@pif_telepath_pop_modifiers_pop_happiness_1 = -0.025
+
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/telepath/pop_modifiers.txt
+@pif_telepath_pop_modifiers_pop_happiness_5 = 0.03
+
+# -----------------------------------------------------------------------------
+# telepath_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/pop_modifiers.txt
+@pif_telepath_drone_pop_modifiers_logistic_growth_mult_2 = 0.02
+
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/pop_modifiers.txt
+@pif_telepath_drone_pop_modifiers_logistic_growth_mult_3 = 0.03
+
+# Controls: Job modifier value: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/pop_modifiers.txt
+@pif_telepath_drone_pop_modifiers_planet_pop_assembly_mult_4 = 0.05
+
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/pop_modifiers.txt
+@pif_telepath_drone_pop_modifiers_pop_happiness_1 = -0.025
+
+# Controls: Job modifier value: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/pop_modifiers.txt
+@pif_telepath_drone_pop_modifiers_pop_happiness_5 = 0.03

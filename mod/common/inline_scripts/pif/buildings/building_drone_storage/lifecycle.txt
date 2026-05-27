@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_drone_storage
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_machine_empire = no
+	}
+}
+
+convert_to = {
+	building_luxury_residence
+	building_communal_housing
+	building_hive_warren
+}
+
+upgrades = {
+	"building_drone_megastorage"
+}

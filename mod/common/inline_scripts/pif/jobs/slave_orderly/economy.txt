@@ -1,0 +1,6 @@
+# PIF job category: ECONOMY
+# Vanilla job: slave_orderly
+# Vanilla class: worker
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {}

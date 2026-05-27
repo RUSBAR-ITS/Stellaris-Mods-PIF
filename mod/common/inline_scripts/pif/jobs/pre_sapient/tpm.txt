@@ -1,0 +1,10 @@
+# PIF job category: TPM
+# Vanilla job: pre_sapient
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+}

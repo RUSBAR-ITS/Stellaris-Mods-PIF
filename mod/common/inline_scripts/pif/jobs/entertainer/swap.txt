@@ -1,0 +1,67 @@
+# PIF job category: SWAP
+# Vanilla job: entertainer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_holo_theatres
+	}
+	swap_type = {
+		trigger = {
+			entertainer_is_duelist_trigger = yes
+			entertainer_is_storm_dancer_trigger = no
+		}
+		name = duelist
+		desc = duelist
+		icon = duelist
+		condition_string = BATTLE_THRALL_JOB_TRIGGER
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			entertainer_is_duelist_trigger = no
+			entertainer_is_storm_dancer_trigger = yes
+		}
+		name = storm_dancer
+		desc = storm_dancer
+		icon = storm_dancer
+		building_icon = building_storm_summoning_theater
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			entertainer_is_curator_trigger = yes
+		}
+		name = curator
+		desc = curator
+		icon = historical_curator
+		building_icon = aesthetic_wonders_holomuseum
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			entertainer_is_duelist_trigger = yes
+			entertainer_is_storm_dancer_trigger = yes
+		}
+		name = storm_duelist
+		desc = storm_duelist
+		icon = duelist
+		building_icon = building_storm_summoning_theater
+		condition_string = BATTLE_THRALL_JOB_TRIGGER
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			entertainer_is_duelist_trigger = yes
+			entertainer_is_curator_trigger = yes
+		}
+		name = reenactor
+		desc = reenactor
+		icon = duelist
+		building_icon = aesthetic_wonders_holomuseum
+		condition_string = BATTLE_THRALL_JOB_TRIGGER
+		weight = 20
+	}
+}

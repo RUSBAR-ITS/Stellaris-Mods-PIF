@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+bath_attendant_individual_machine = {
+	category = specialist
+	inline_script = "pif/jobs/bath_attendant_individual_machine/swap"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/availability"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/pop_config"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/economy"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/planet_state"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/country_modifiers"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/pop_modifiers"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/economic_modifiers"
+	inline_script = "pif/jobs/bath_attendant_individual_machine/tpm"
+}

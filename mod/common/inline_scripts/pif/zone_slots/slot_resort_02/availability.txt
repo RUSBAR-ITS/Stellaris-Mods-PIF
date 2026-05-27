@@ -1,0 +1,18 @@
+unlock = {
+	custom_tooltip = {
+		fail_text = zone_city_02_prereq
+		OR = {
+			is_capital = yes
+			AND = {
+				is_capital = no
+				exists = owner
+				owner = {
+					has_tech_or_functional_civic = {
+						TECH = tech_colonial_centralization
+					}
+				}
+				has_upgraded_capital = yes
+			}
+		}
+	}
+}

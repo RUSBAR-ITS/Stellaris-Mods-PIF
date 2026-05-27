@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_master_archive
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	num_tech_alternatives_add = 2
+}

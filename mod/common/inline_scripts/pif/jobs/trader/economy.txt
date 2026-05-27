@@ -1,0 +1,38 @@
+# PIF job category: ECONOMY
+# Vanilla job: trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_traders
+	produces = {
+		trade = @pif_trader_job_output_output_trade_1
+	}
+	produces = {
+		trigger = {
+			trader_is_subterranean = yes
+		}
+		trade = @pif_trader_job_output_output_trade_2
+	}
+	upkeep = {
+		consumer_goods = @pif_trader_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			trader_is_subterranean = yes
+		}
+		consumer_goods = @pif_trader_job_upkeep_upkeep_consumer_goods_1
+	}
+}
+
+overlord_resources = {
+	category = planet_corporate_franchising_meddling
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_franchise_headquarters
+			}
+		}
+		unity = @pif_trader_overlord_output_overlord_output_unity_1
+	}
+}

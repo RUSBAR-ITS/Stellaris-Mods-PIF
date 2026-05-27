@@ -1,0 +1,15 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: dystopian_enforcer
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible = {
+	battle_thrall_job_check_trigger = yes
+}

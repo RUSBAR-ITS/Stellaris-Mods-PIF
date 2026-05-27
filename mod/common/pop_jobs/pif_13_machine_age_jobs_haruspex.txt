@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+haruspex = {
+	category = specialist
+	inline_script = "pif/jobs/haruspex/swap"
+	inline_script = "pif/jobs/haruspex/availability"
+	inline_script = "pif/jobs/haruspex/pop_config"
+	inline_script = "pif/jobs/haruspex/economy"
+	inline_script = "pif/jobs/haruspex/planet_state"
+	inline_script = "pif/jobs/haruspex/country_modifiers"
+	inline_script = "pif/jobs/haruspex/pop_modifiers"
+	inline_script = "pif/jobs/haruspex/economic_modifiers"
+	inline_script = "pif/jobs/haruspex/tpm"
+}

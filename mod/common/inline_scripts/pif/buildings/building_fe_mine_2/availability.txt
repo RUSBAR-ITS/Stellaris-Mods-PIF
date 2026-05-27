@@ -1,0 +1,46 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_fe_mine_2
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_build = no
+
+planet_limit = @pif_building_fe_mine_2_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_fallen_empire = yes
+			has_technology = tech_fe_mine_2
+			has_country_flag = fe_mine_1_can_build
+		}
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+	NOT = {
+		is_planet_class = pc_ringworld_habitable
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = ancrel.10004.failtext
+		exists = owner
+		owner = {
+			OR = {
+				check_variable = {
+					which = fe_mine_1_upgrade_count
+					value >= 1
+				}
+				is_fallen_empire = yes
+				has_technology = tech_fe_mine_2
+			}
+		}
+	}
+}
+
+show_in_tech = tech_fe_mine_2

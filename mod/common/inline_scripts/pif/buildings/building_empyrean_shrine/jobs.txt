@@ -1,0 +1,53 @@
+# PIF building category: JOBS
+# Vanilla building: building_empyrean_shrine
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire = yes
+		}
+	}
+	job_fe_augur_add = @pif_building_empyrean_shrine_jobs_job_fe_augur_add_1
+	job_fe_augur_automated_workforce_mult = @pif_building_empyrean_shrine_jobs_job_fe_augur_automated_workforce_mult_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_psi_corps_tradition = yes
+			is_gestalt = no
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	job_telepath_add = @pif_building_empyrean_shrine_jobs_job_telepath_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_psi_corps_tradition = yes
+			is_gestalt = no
+			has_valid_civic = civic_dystopian_society
+		}
+	}
+	job_dystopian_telepath_add = @pif_building_empyrean_shrine_jobs_job_dystopian_telepath_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_shroud_dlc = yes
+		exists = owner
+		owner = {
+			has_psi_corps_tradition = yes
+			is_gestalt = yes
+		}
+	}
+	job_telepath_drone_add = @pif_building_empyrean_shrine_jobs_job_telepath_drone_add_5
+}

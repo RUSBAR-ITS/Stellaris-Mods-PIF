@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: aid_worker_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+overlord_resources = {
+	category = planet_aid_workers
+	produces = {
+		unity = @pif_aid_worker_drone_overlord_output_overlord_output_unity_1
+	}
+}

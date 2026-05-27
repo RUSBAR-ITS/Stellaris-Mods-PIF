@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_abandoned_gene_clinic
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+building_sets = {
+	government
+}

@@ -1,0 +1,13 @@
+# PIF building category: JOBS
+# Vanilla building: building_transcendental_retreat
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	modifier = {
+		job_healthcare_add = @pif_building_transcendental_retreat_jobs_job_healthcare_add_1
+	}
+}

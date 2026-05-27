@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_grand_archive_buildings.txt
+# Object type: building
+# Building class: special
+
+wildlife_ranch = {
+	base_buildtime = @pif_wildlife_ranch_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/wildlife_ranch/building_config"
+	inline_script = "pif/buildings/wildlife_ranch/availability"
+	inline_script = "pif/buildings/wildlife_ranch/economy"
+	inline_script = "pif/buildings/wildlife_ranch/lifecycle"
+	inline_script = "pif/buildings/wildlife_ranch/jobs"
+	inline_script = "pif/buildings/wildlife_ranch/country_jobs"
+	inline_script = "pif/buildings/wildlife_ranch/economic_modifiers"
+	inline_script = "pif/buildings/wildlife_ranch/pop_modifiers"
+	inline_script = "pif/buildings/wildlife_ranch/planet_state"
+	inline_script = "pif/buildings/wildlife_ranch/tpm"
+	inline_script = "pif/buildings/wildlife_ranch/ai"
+}

@@ -1,0 +1,20 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_food_processing_center
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_farmers_food_produces_add = @pif_building_food_processing_center_economic_modifiers_planet_farmers_food_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_ringworld_output_boost = yes
+	}
+	modifier = {
+		planet_farmers_food_produces_add = @pif_building_food_processing_center_economic_modifiers_planet_farmers_food_produces_add_2
+	}
+}

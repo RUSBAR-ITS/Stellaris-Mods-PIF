@@ -1,0 +1,34 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_machine_replication
+# Vanilla source: zones/00_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_replicator_add = @pif_zone_machine_replication_jobs_services_job_amount_job_replicator_add_1
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_individual_machine = yes
+		}
+	}
+	job_roboticist_add = @pif_zone_machine_replication_jobs_services_job_amount_job_roboticist_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	zone_building_slots_add = @pif_zone_machine_replication_building_capacity_zone_building_slots_add_2
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_machine_replication_housing_planet_housing_add_1
+}

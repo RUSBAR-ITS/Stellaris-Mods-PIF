@@ -1,0 +1,15 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_default = {
+	icon = GFX_diplomatic_weight_large
+	base_buildtime = @pif_zone_default_construction_zone_build_time_1
+	max_buildings = @pif_zone_default_building_capacity_max_buildings_1
+	inline_script = "pif/zones/zone_default/availability"
+	inline_script = "pif/zones/zone_default/zone_config"
+	inline_script = "pif/zones/zone_default/economy"
+	inline_script = "pif/zones/zone_default/tpm"
+	inline_script = "pif/zones/zone_default/lifecycle"
+	inline_script = "pif/zones/zone_default/ai"
+}

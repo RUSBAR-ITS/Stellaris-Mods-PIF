@@ -1,0 +1,27 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_mindlink
+# Vanilla source: districts/00_special_districts.txt
+
+potential = {
+	exists = owner
+	is_capital = yes
+	owner = {
+		has_menace_perk = menp_behemoth_mind_meld
+	}
+}
+
+allow = {
+	hidden_trigger = {
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = penal_colony
+			has_modifier = slave_colony
+		}
+	}
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}

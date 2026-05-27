@@ -1,0 +1,82 @@
+# PIF building category: JOBS
+# Vanilla building: building_fe_lab_1
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			NOT = {
+				has_country_flag = fallen_empire_1
+			}
+		}
+	}
+	modifier = {
+		job_physicist_add = @pif_building_fe_lab_1_jobs_job_physicist_add_1
+		job_biologist_add = @pif_building_fe_lab_1_jobs_job_biologist_add_2
+		job_engineer_add = @pif_building_fe_lab_1_jobs_job_engineer_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	job_calculator_physicist_add = @pif_building_fe_lab_1_jobs_job_calculator_physicist_add_4
+	job_calculator_biologist_add = @pif_building_fe_lab_1_jobs_job_calculator_biologist_add_5
+	job_calculator_engineer_add = @pif_building_fe_lab_1_jobs_job_calculator_engineer_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_calculator_physicist_add = @pif_building_fe_lab_1_jobs_job_calculator_physicist_add_4
+	job_calculator_biologist_add = @pif_building_fe_lab_1_jobs_job_calculator_biologist_add_5
+	job_calculator_engineer_add = @pif_building_fe_lab_1_jobs_job_calculator_engineer_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = fallen_empire_1
+		}
+	}
+	job_fe_archivist_add = @pif_building_fe_lab_1_jobs_job_fe_archivist_add_7
+	job_fe_archivist_add = @pif_building_fe_lab_1_jobs_job_fe_archivist_add_7
+	job_fe_archivist_add = @pif_building_fe_lab_1_jobs_job_fe_archivist_add_7
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_physicist_automated_workforce_mult = @pif_building_fe_lab_1_jobs_job_physicist_automated_workforce_mult_8
+	job_biologist_automated_workforce_mult = @pif_building_fe_lab_1_jobs_job_biologist_automated_workforce_mult_9
+	job_engineer_automated_workforce_mult = @pif_building_fe_lab_1_jobs_job_engineer_automated_workforce_mult_10
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_wilderness_empire = no
+		}
+	}
+	job_calculator_physicist_automated_workforce_mult = @pif_building_fe_lab_1_jobs_job_calculator_physicist_automated_workforce_mult_11
+	job_calculator_biologist_automated_workforce_mult = @pif_building_fe_lab_1_jobs_job_calculator_biologist_automated_workforce_mult_12
+	job_calculator_engineer_automated_workforce_mult = @pif_building_fe_lab_1_jobs_job_calculator_engineer_automated_workforce_mult_13
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_overseer_homes = {
+	base_buildtime = @pif_building_overseer_homes_construction_base_buildtime_1
+	icon = building_residence
+	category = amenity
+	inline_script = "pif/buildings/building_overseer_homes/building_config"
+	inline_script = "pif/buildings/building_overseer_homes/availability"
+	inline_script = "pif/buildings/building_overseer_homes/economy"
+	inline_script = "pif/buildings/building_overseer_homes/lifecycle"
+	inline_script = "pif/buildings/building_overseer_homes/jobs"
+	inline_script = "pif/buildings/building_overseer_homes/country_jobs"
+	inline_script = "pif/buildings/building_overseer_homes/economic_modifiers"
+	inline_script = "pif/buildings/building_overseer_homes/pop_modifiers"
+	inline_script = "pif/buildings/building_overseer_homes/planet_state"
+	inline_script = "pif/buildings/building_overseer_homes/tpm"
+	inline_script = "pif/buildings/building_overseer_homes/ai"
+}

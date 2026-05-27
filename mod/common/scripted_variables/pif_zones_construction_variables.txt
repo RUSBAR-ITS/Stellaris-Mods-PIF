@@ -1,0 +1,1301 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: CONSTRUCTION
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_anglers
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_agrarian_anglers.txt
+@pif_zone_agrarian_anglers_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/economy.txt
+@pif_zone_agrarian_anglers_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_urban
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_agrarian_urban.txt
+@pif_zone_agrarian_urban_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/economy.txt
+@pif_zone_agrarian_urban_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_anglers
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_anglers.txt
+@pif_zone_anglers_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/economy.txt
+@pif_zone_anglers_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_betharian
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_betharian.txt
+@pif_zone_betharian_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/economy.txt
+@pif_zone_betharian_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_betharian_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_betharian_hive.txt
+@pif_zone_betharian_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/economy.txt
+@pif_zone_betharian_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_betharian_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_betharian_nexus.txt
+@pif_zone_betharian_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/economy.txt
+@pif_zone_betharian_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_broken_shackles_memorial
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_02_special_zones_zone_broken_shackles_memorial.txt
+@pif_zone_broken_shackles_memorial_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/economy.txt
+@pif_zone_broken_shackles_memorial_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_default
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_default.txt
+@pif_zone_default_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_default/economy.txt
+@pif_zone_default_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_energy
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_energy.txt
+@pif_zone_energy_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_energy/economy.txt
+@pif_zone_energy_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_energy_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_energy_hive.txt
+@pif_zone_energy_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/economy.txt
+@pif_zone_energy_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_energy_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_energy_nexus.txt
+@pif_zone_energy_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/economy.txt
+@pif_zone_energy_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_energy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_energy_ring_world.txt
+@pif_zone_energy_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/economy.txt
+@pif_zone_energy_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_energy_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_energy_wilderness.txt
+@pif_zone_energy_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/economy.txt
+@pif_zone_energy_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_exotic_gases.txt
+@pif_zone_exotic_gases_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/economy.txt
+@pif_zone_exotic_gases_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_exotic_gases_hive.txt
+@pif_zone_exotic_gases_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/economy.txt
+@pif_zone_exotic_gases_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_exotic_gases_nexus.txt
+@pif_zone_exotic_gases_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/economy.txt
+@pif_zone_exotic_gases_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_factory
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_factory.txt
+@pif_zone_factory_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_factory/economy.txt
+@pif_zone_factory_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_factory_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_factory_arcology.txt
+@pif_zone_factory_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/economy.txt
+@pif_zone_factory_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_factory_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_factory_hive.txt
+@pif_zone_factory_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/economy.txt
+@pif_zone_factory_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_factory_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_factory_nexus.txt
+@pif_zone_factory_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/economy.txt
+@pif_zone_factory_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_factory_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_factory_ring_world.txt
+@pif_zone_factory_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/economy.txt
+@pif_zone_factory_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_food
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_food.txt
+@pif_zone_food_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_food/economy.txt
+@pif_zone_food_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_food_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_food_hive.txt
+@pif_zone_food_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/economy.txt
+@pif_zone_food_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_food_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_food_ring_world.txt
+@pif_zone_food_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/economy.txt
+@pif_zone_food_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_food_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_food_wilderness.txt
+@pif_zone_food_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/economy.txt
+@pif_zone_food_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_fortress
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_fortress.txt
+@pif_zone_fortress_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/economy.txt
+@pif_zone_fortress_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_fortress_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_fortress_arcology.txt
+@pif_zone_fortress_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/economy.txt
+@pif_zone_fortress_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_fortress_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_fortress_hive.txt
+@pif_zone_fortress_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/economy.txt
+@pif_zone_fortress_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_fortress_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_fortress_nexus.txt
+@pif_zone_fortress_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/economy.txt
+@pif_zone_fortress_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_fortress_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_fortress_ring_world.txt
+@pif_zone_fortress_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/economy.txt
+@pif_zone_fortress_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_fortress_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_fortress_wilderness.txt
+@pif_zone_fortress_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/economy.txt
+@pif_zone_fortress_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_foundry
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_foundry.txt
+@pif_zone_foundry_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/economy.txt
+@pif_zone_foundry_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_foundry_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_foundry_arcology.txt
+@pif_zone_foundry_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/economy.txt
+@pif_zone_foundry_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_foundry_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_foundry_hive.txt
+@pif_zone_foundry_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/economy.txt
+@pif_zone_foundry_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_foundry_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_foundry_nexus.txt
+@pif_zone_foundry_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/economy.txt
+@pif_zone_foundry_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_foundry_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_foundry_ring_world.txt
+@pif_zone_foundry_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/economy.txt
+@pif_zone_foundry_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_foundry_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_foundry_wilderness.txt
+@pif_zone_foundry_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_wilderness/economy.txt
+@pif_zone_foundry_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_01_habitat_zones_zone_habitat_exotic_gases.txt
+@pif_zone_habitat_exotic_gases_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/economy.txt
+@pif_zone_habitat_exotic_gases_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_hydroponics
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_01_habitat_zones_zone_habitat_hydroponics.txt
+@pif_zone_habitat_hydroponics_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/economy.txt
+@pif_zone_habitat_hydroponics_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_knights
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_01_habitat_zones_zone_habitat_knights.txt
+@pif_zone_habitat_knights_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_knights/economy.txt
+@pif_zone_habitat_knights_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_01_habitat_zones_zone_habitat_rare_crystals.txt
+@pif_zone_habitat_rare_crystals_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/economy.txt
+@pif_zone_habitat_rare_crystals_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_research
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_01_habitat_zones_zone_habitat_research.txt
+@pif_zone_habitat_research_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/economy.txt
+@pif_zone_habitat_research_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_research_unity
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_01_habitat_zones_zone_habitat_research_unity.txt
+@pif_zone_habitat_research_unity_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/economy.txt
+@pif_zone_habitat_research_unity_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_01_habitat_zones_zone_habitat_volatile_motes.txt
+@pif_zone_habitat_volatile_motes_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/economy.txt
+@pif_zone_habitat_volatile_motes_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_industrial
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_industrial.txt
+@pif_zone_industrial_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/economy.txt
+@pif_zone_industrial_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_industrial_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_industrial_arcology.txt
+@pif_zone_industrial_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/economy.txt
+@pif_zone_industrial_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_industrial_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_industrial_hive.txt
+@pif_zone_industrial_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/economy.txt
+@pif_zone_industrial_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_industrial_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_industrial_nexus.txt
+@pif_zone_industrial_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/economy.txt
+@pif_zone_industrial_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_industrial_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_industrial_ring_world.txt
+@pif_zone_industrial_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/economy.txt
+@pif_zone_industrial_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_machine_replication
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_machine_replication.txt
+@pif_zone_machine_replication_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_machine_replication/economy.txt
+@pif_zone_machine_replication_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_minerals
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_minerals.txt
+@pif_zone_minerals_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_minerals/economy.txt
+@pif_zone_minerals_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_minerals_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_minerals_hive.txt
+@pif_zone_minerals_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/economy.txt
+@pif_zone_minerals_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_minerals_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_minerals_nexus.txt
+@pif_zone_minerals_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/economy.txt
+@pif_zone_minerals_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_minerals_physics
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_minerals_physics.txt
+@pif_zone_minerals_physics_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/economy.txt
+@pif_zone_minerals_physics_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_minerals_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_minerals_wilderness.txt
+@pif_zone_minerals_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_wilderness/economy.txt
+@pif_zone_minerals_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_payback_enlightenment
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_02_special_zones_zone_payback_enlightenment.txt
+@pif_zone_payback_enlightenment_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/economy.txt
+@pif_zone_payback_enlightenment_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_rare_crystals.txt
+@pif_zone_rare_crystals_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/economy.txt
+@pif_zone_rare_crystals_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_rare_crystals_hive.txt
+@pif_zone_rare_crystals_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/economy.txt
+@pif_zone_rare_crystals_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_rare_crystals_nexus.txt
+@pif_zone_rare_crystals_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/economy.txt
+@pif_zone_rare_crystals_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_research.txt
+@pif_zone_research_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research/economy.txt
+@pif_zone_research_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_arcology.txt
+@pif_zone_research_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/economy.txt
+@pif_zone_research_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_research_engineering.txt
+@pif_zone_research_engineering_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/economy.txt
+@pif_zone_research_engineering_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_engineering_arcology.txt
+@pif_zone_research_engineering_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/economy.txt
+@pif_zone_research_engineering_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_engineering_hive.txt
+@pif_zone_research_engineering_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/economy.txt
+@pif_zone_research_engineering_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_engineering_nexus.txt
+@pif_zone_research_engineering_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/economy.txt
+@pif_zone_research_engineering_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_engineering_ring_world.txt
+@pif_zone_research_engineering_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/economy.txt
+@pif_zone_research_engineering_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_hive.txt
+@pif_zone_research_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/economy.txt
+@pif_zone_research_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_nexus.txt
+@pif_zone_research_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/economy.txt
+@pif_zone_research_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_physics
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_research_physics.txt
+@pif_zone_research_physics_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/economy.txt
+@pif_zone_research_physics_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_physics_arcology.txt
+@pif_zone_research_physics_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/economy.txt
+@pif_zone_research_physics_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_physics_hive.txt
+@pif_zone_research_physics_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/economy.txt
+@pif_zone_research_physics_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_physics_nexus.txt
+@pif_zone_research_physics_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/economy.txt
+@pif_zone_research_physics_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_physics_ring_world.txt
+@pif_zone_research_physics_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/economy.txt
+@pif_zone_research_physics_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_ring_world.txt
+@pif_zone_research_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/economy.txt
+@pif_zone_research_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_society
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_research_society.txt
+@pif_zone_research_society_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/economy.txt
+@pif_zone_research_society_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_society_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_society_arcology.txt
+@pif_zone_research_society_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/economy.txt
+@pif_zone_research_society_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_society_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_society_hive.txt
+@pif_zone_research_society_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/economy.txt
+@pif_zone_research_society_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_society_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_society_nexus.txt
+@pif_zone_research_society_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/economy.txt
+@pif_zone_research_society_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_society_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_research_society_ring_world.txt
+@pif_zone_research_society_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/economy.txt
+@pif_zone_research_society_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_unity
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_research_unity.txt
+@pif_zone_research_unity_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/economy.txt
+@pif_zone_research_unity_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_unity_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_research_unity_wilderness.txt
+@pif_zone_research_unity_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/economy.txt
+@pif_zone_research_unity_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_research_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_research_wilderness.txt
+@pif_zone_research_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/economy.txt
+@pif_zone_research_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort.txt
+@pif_zone_resort_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort/economy.txt
+@pif_zone_resort_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort_entertainment
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort_entertainment.txt
+@pif_zone_resort_entertainment_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/economy.txt
+@pif_zone_resort_entertainment_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort_grand_museum
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort_grand_museum.txt
+@pif_zone_resort_grand_museum_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort_grand_museum/economy.txt
+@pif_zone_resort_grand_museum_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort_hunting_ground
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort_hunting_ground.txt
+@pif_zone_resort_hunting_ground_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort_hunting_ground/economy.txt
+@pif_zone_resort_hunting_ground_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort_proving_grounds
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort_proving_grounds.txt
+@pif_zone_resort_proving_grounds_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort_proving_grounds/economy.txt
+@pif_zone_resort_proving_grounds_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort_restoration_enclave
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort_restoration_enclave.txt
+@pif_zone_resort_restoration_enclave_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort_restoration_enclave/economy.txt
+@pif_zone_resort_restoration_enclave_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort_spiritual_retreat
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort_spiritual_retreat.txt
+@pif_zone_resort_spiritual_retreat_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort_spiritual_retreat/economy.txt
+@pif_zone_resort_spiritual_retreat_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_resort_zoo
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_resort_zoo.txt
+@pif_zone_resort_zoo_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/economy.txt
+@pif_zone_resort_zoo_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_spawning
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_spawning.txt
+@pif_zone_spawning_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_spawning/economy.txt
+@pif_zone_spawning_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_spawning_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_spawning_hive.txt
+@pif_zone_spawning_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_spawning_hive/economy.txt
+@pif_zone_spawning_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_subterranean_urban
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_subterranean_urban.txt
+@pif_zone_subterranean_urban_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/economy.txt
+@pif_zone_subterranean_urban_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_trade
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_trade.txt
+@pif_zone_trade_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_trade/economy.txt
+@pif_zone_trade_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_trade_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_trade_arcology.txt
+@pif_zone_trade_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/economy.txt
+@pif_zone_trade_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_trade_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_trade_hive.txt
+@pif_zone_trade_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/economy.txt
+@pif_zone_trade_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_trade_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_trade_nexus.txt
+@pif_zone_trade_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/economy.txt
+@pif_zone_trade_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_trade_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_trade_ring_world.txt
+@pif_zone_trade_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/economy.txt
+@pif_zone_trade_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_trade_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_trade_wilderness.txt
+@pif_zone_trade_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/economy.txt
+@pif_zone_trade_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_unity.txt
+@pif_zone_unity_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity/economy.txt
+@pif_zone_unity_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_arcology.txt
+@pif_zone_unity_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/economy.txt
+@pif_zone_unity_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_unity_bio_trophy.txt
+@pif_zone_unity_bio_trophy_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/economy.txt
+@pif_zone_unity_bio_trophy_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_bio_trophy_arcology.txt
+@pif_zone_unity_bio_trophy_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/economy.txt
+@pif_zone_unity_bio_trophy_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_bio_trophy_nexus.txt
+@pif_zone_unity_bio_trophy_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/economy.txt
+@pif_zone_unity_bio_trophy_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_bio_trophy_ring_world.txt
+@pif_zone_unity_bio_trophy_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/economy.txt
+@pif_zone_unity_bio_trophy_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_hive.txt
+@pif_zone_unity_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/economy.txt
+@pif_zone_unity_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_nexus.txt
+@pif_zone_unity_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/economy.txt
+@pif_zone_unity_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_ring_world.txt
+@pif_zone_unity_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/economy.txt
+@pif_zone_unity_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_unity_spiritualist.txt
+@pif_zone_unity_spiritualist_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/economy.txt
+@pif_zone_unity_spiritualist_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_arcology
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_spiritualist_arcology.txt
+@pif_zone_unity_spiritualist_arcology_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/economy.txt
+@pif_zone_unity_spiritualist_arcology_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_spiritualist_nexus.txt
+@pif_zone_unity_spiritualist_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/economy.txt
+@pif_zone_unity_spiritualist_nexus_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_ring_world
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_unity_spiritualist_ring_world.txt
+@pif_zone_unity_spiritualist_ring_world_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/economy.txt
+@pif_zone_unity_spiritualist_ring_world_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_unity_wilderness.txt
+@pif_zone_unity_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/economy.txt
+@pif_zone_unity_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_urban
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_urban.txt
+@pif_zone_urban_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_urban/economy.txt
+@pif_zone_urban_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_urban_wilderness
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_03_wilderness_zones_zone_urban_wilderness.txt
+@pif_zone_urban_wilderness_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_urban_wilderness/economy.txt
+@pif_zone_urban_wilderness_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_00_zones_zone_volatile_motes.txt
+@pif_zone_volatile_motes_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/economy.txt
+@pif_zone_volatile_motes_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_hive
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_volatile_motes_hive.txt
+@pif_zone_volatile_motes_hive_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/economy.txt
+@pif_zone_volatile_motes_hive_construction_zone_construction_cost_minerals_2 = 1000
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_nexus
+# -----------------------------------------------------------------------------
+# Controls: zone build time.
+# Used in: common/zones/pif_04_secondary_zones_zone_volatile_motes_nexus.txt
+@pif_zone_volatile_motes_nexus_construction_zone_build_time_1 = 360
+
+# Controls: zone construction cost: minerals.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/economy.txt
+@pif_zone_volatile_motes_nexus_construction_zone_construction_cost_minerals_2 = 1000

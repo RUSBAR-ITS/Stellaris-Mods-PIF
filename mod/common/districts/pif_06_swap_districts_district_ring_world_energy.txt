@@ -1,0 +1,118 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/06_swap_districts.txt
+# Object class: active_mask
+
+district_ring_world_energy = {
+	icon = district_generator
+	overlay_icon = GFX_district_energy
+	zone_slots = {
+		slot_empty
+	}
+	show_on_uncolonized = {
+		always = no
+	}
+	potential = {
+		always = no
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		text = automated_generator
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_habitat_hydroponics
+				value > 0
+			}
+		}
+		text = zone_habitat_hydroponics
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_4
+			}
+		}
+		text = generator_volatile_motes_4
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_3
+			}
+		}
+		text = generator_volatile_motes_3
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_2
+			}
+		}
+		text = generator_volatile_motes_2
+	}
+	triggered_name = {
+		trigger = {
+			has_volatile_motes_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_1
+			}
+		}
+		text = generator_volatile_motes_1
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_4
+			}
+		}
+		text = generator_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_3
+			}
+		}
+		text = generator_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_2
+			}
+		}
+		text = generator_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_generator_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_power_plant_1
+			}
+		}
+		text = generator_1
+	}
+	triggered_name = {
+		text = generator_0
+	}
+}

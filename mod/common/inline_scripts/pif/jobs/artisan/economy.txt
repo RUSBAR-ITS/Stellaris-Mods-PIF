@@ -1,0 +1,120 @@
+# PIF job category: ECONOMY
+# Vanilla job: artisan
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_artisans
+	produces = {
+		consumer_goods = @pif_artisan_job_output_output_consumer_goods_1
+	}
+	produces = {
+		trigger = {
+			artisan_is_artificer_trigger = yes
+		}
+		consumer_goods = @pif_artisan_job_output_output_consumer_goods_2
+		trade = @pif_artisan_job_output_output_trade_3
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				artisan_is_pearl_diver_trigger = yes
+			}
+		}
+		trade = @pif_artisan_job_output_output_trade_3
+	}
+	produces = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		consumer_goods = @pif_artisan_job_output_output_consumer_goods_4
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = no
+		}
+		minerals = @pif_artisan_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = no
+			exists = planet
+			planet = {
+				artisan_is_pearl_diver_trigger = yes
+			}
+		}
+		minerals = @pif_artisan_job_upkeep_upkeep_minerals_2
+		food = @pif_artisan_job_upkeep_upkeep_food_3
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		food = @pif_artisan_job_upkeep_upkeep_food_4
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+			exists = planet
+			planet = {
+				artisan_is_pearl_diver_trigger = yes
+			}
+		}
+		minerals = @pif_artisan_job_upkeep_upkeep_minerals_5
+		food = @pif_artisan_job_upkeep_upkeep_food_6
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		consumer_goods = @pif_artisan_job_output_output_consumer_goods_5
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		minerals = @pif_artisan_job_upkeep_upkeep_minerals_7
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		food = @pif_artisan_job_upkeep_upkeep_food_8
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_consumer_goods
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		consumer_goods = @pif_artisan_overlord_output_overlord_output_consumer_goods_1
+	}
+}

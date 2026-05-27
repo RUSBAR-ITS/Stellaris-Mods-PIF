@@ -1,0 +1,16 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_adakkaria_patriotic_institute
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+can_demolish = no
+
+can_be_disabled = yes
+
+on_built = {
+	start_patriotic_institute_spawn_storm_repeated = yes
+}
+
+on_destroy = {
+	remove_planet_flag = patriotic_institute_spawning_storms
+}

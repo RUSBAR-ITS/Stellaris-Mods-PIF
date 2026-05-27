@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_churning_stomach = {
+	icon = "churning_stomach"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_churning_stomach_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_churning_stomach/building_config"
+	inline_script = "pif/buildings/building_churning_stomach/availability"
+	inline_script = "pif/buildings/building_churning_stomach/economy"
+	inline_script = "pif/buildings/building_churning_stomach/lifecycle"
+	inline_script = "pif/buildings/building_churning_stomach/jobs"
+	inline_script = "pif/buildings/building_churning_stomach/country_jobs"
+	inline_script = "pif/buildings/building_churning_stomach/economic_modifiers"
+	inline_script = "pif/buildings/building_churning_stomach/pop_modifiers"
+	inline_script = "pif/buildings/building_churning_stomach/planet_state"
+	inline_script = "pif/buildings/building_churning_stomach/tpm"
+	inline_script = "pif/buildings/building_churning_stomach/ai"
+}

@@ -1,0 +1,825 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: JOBS
+# Job counts added by district modifiers.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_arcology_housing
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_arcology_housing
+# Used by: common/inline_scripts/pif/districts/district_arcology_housing/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_arcology_housing_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_leisure
+# -----------------------------------------------------------------------------
+# Controls: Number of entertainer jobs added by the district.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/tpm.txt
+# Contexts: triggered_planet_modifier.job_entertainer_add
+@pif_district_arcology_leisure_jobs_job_entertainer_add = 600
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_arcology_leisure_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_1
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_arcology_urban_1
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_1/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_arcology_urban_1_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_2
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_arcology_urban_2
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_2/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_arcology_urban_2_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_3
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_arcology_urban_3
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_3/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_arcology_urban_3_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: Number of battle_thrall jobs added by the district.
+# District: district_battle_thrall
+# Used by: common/inline_scripts/pif/districts/district_battle_thrall/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_battle_thrall_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_battle_thrall_jobs_job_battle_thrall_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_city
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_city_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_crashed_slaver_ship
+# -----------------------------------------------------------------------------
+# Controls: Number of broken_shackles_scavenger jobs added by the district.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/tpm.txt
+# Contexts: triggered_planet_modifier.job_broken_shackles_scavenger_add
+@pif_district_crashed_slaver_ship_jobs_job_broken_shackles_scavenger_add = 100
+
+# Controls: Number of clerk jobs added by the district.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_clerk_add
+@pif_district_crashed_slaver_ship_jobs_job_clerk_add = 100
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_crashed_slaver_ship_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_farming
+# -----------------------------------------------------------------------------
+# Controls: Number of agri_drone jobs added by the district.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_agri_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_farming_jobs_job_agri_drone_add = 200
+
+# Controls: Number of farmer jobs added by the district.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_farmer_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_farming_jobs_job_farmer_add = 200
+
+# Controls: Number of fe_acolyte_farm jobs added by the district.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_fe_acolyte_farm_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_farming_jobs_job_fe_acolyte_farm_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_generator
+# -----------------------------------------------------------------------------
+# Controls: Number of fe_acolyte_generator jobs added by the district.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_fe_acolyte_generator_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_generator_jobs_job_fe_acolyte_generator_add = 200
+
+# Controls: Number of technician jobs added by the district.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_technician_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_generator_jobs_job_technician_add = 200
+
+# Controls: Number of technician_drone jobs added by the district.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_technician_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_generator_jobs_job_technician_drone_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_geothermal
+# -----------------------------------------------------------------------------
+# Controls: Number of fe_acolyte_generator jobs added by the district.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_fe_acolyte_generator_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_geothermal_jobs_job_fe_acolyte_generator_add = 200
+
+# Controls: Number of technician jobs added by the district.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_technician_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_geothermal_jobs_job_technician_add = 200
+
+# Controls: Number of technician_drone jobs added by the district.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_technician_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_geothermal_jobs_job_technician_drone_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_hab_energy
+# -----------------------------------------------------------------------------
+# Controls: Number of fe_acolyte_generator jobs added by the district.
+# District: district_hab_energy
+# Used by: common/inline_scripts/pif/districts/district_hab_energy/tpm.txt
+# Contexts: triggered_planet_modifier.job_fe_acolyte_generator_add
+# Resolved vanilla variable(s): @habitat_rural_district_jobs
+@pif_district_hab_energy_jobs_job_fe_acolyte_generator_add = 100
+
+# Controls: Number of technician jobs added by the district.
+# District: district_hab_energy
+# Used by: common/inline_scripts/pif/districts/district_hab_energy/tpm.txt
+# Contexts: triggered_planet_modifier.job_technician_add
+# Resolved vanilla variable(s): @habitat_rural_district_jobs
+@pif_district_hab_energy_jobs_job_technician_add = 100
+
+# Controls: Number of technician_drone jobs added by the district.
+# District: district_hab_energy
+# Used by: common/inline_scripts/pif/districts/district_hab_energy/tpm.txt
+# Contexts: triggered_planet_modifier.job_technician_drone_add
+# Resolved vanilla variable(s): @habitat_rural_district_jobs
+@pif_district_hab_energy_jobs_job_technician_drone_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_hab_housing
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_hab_housing_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_hab_mining
+# -----------------------------------------------------------------------------
+# Controls: Number of fe_acolyte_mine jobs added by the district.
+# District: district_hab_mining
+# Used by: common/inline_scripts/pif/districts/district_hab_mining/tpm.txt
+# Contexts: triggered_planet_modifier.job_fe_acolyte_mine_add
+# Resolved vanilla variable(s): @habitat_rural_district_jobs
+@pif_district_hab_mining_jobs_job_fe_acolyte_mine_add = 100
+
+# Controls: Number of miner jobs added by the district.
+# District: district_hab_mining
+# Used by: common/inline_scripts/pif/districts/district_hab_mining/tpm.txt
+# Contexts: triggered_planet_modifier.job_miner_add
+# Resolved vanilla variable(s): @habitat_rural_district_jobs
+@pif_district_hab_mining_jobs_job_miner_add = 100
+
+# Controls: Number of mining_drone jobs added by the district.
+# District: district_hab_mining
+# Used by: common/inline_scripts/pif/districts/district_hab_mining/tpm.txt
+# Contexts: triggered_planet_modifier.job_mining_drone_add
+# Resolved vanilla variable(s): @habitat_rural_district_jobs
+@pif_district_hab_mining_jobs_job_mining_drone_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_hab_science
+# -----------------------------------------------------------------------------
+# Controls: Number of biologist jobs added by the district.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_biologist_add
+# Resolved vanilla variable(s): @habitat_research_district_jobs
+@pif_district_hab_science_jobs_job_biologist_add = 30
+
+# Controls: Number of calculator_biologist jobs added by the district.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_calculator_biologist_add
+# Resolved vanilla variable(s): @habitat_research_district_jobs
+@pif_district_hab_science_jobs_job_calculator_biologist_add = 30
+
+# Controls: Number of calculator_engineer jobs added by the district.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_calculator_engineer_add
+# Resolved vanilla variable(s): @habitat_research_district_jobs
+@pif_district_hab_science_jobs_job_calculator_engineer_add = 30
+
+# Controls: Number of calculator_physicist jobs added by the district.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_calculator_physicist_add
+# Resolved vanilla variable(s): @habitat_research_district_jobs
+@pif_district_hab_science_jobs_job_calculator_physicist_add = 30
+
+# Controls: Number of engineer jobs added by the district.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_engineer_add
+# Resolved vanilla variable(s): @habitat_research_district_jobs
+@pif_district_hab_science_jobs_job_engineer_add = 30
+
+# Controls: Number of physicist jobs added by the district.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_physicist_add
+# Resolved vanilla variable(s): @habitat_research_district_jobs
+@pif_district_hab_science_jobs_job_physicist_add = 30
+
+
+# -----------------------------------------------------------------------------
+# district_hive
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_hive_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains
+# -----------------------------------------------------------------------------
+# Controls: Number of mining_drone jobs added by the district.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/tpm.txt
+# Contexts: triggered_planet_modifier.job_mining_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_hollow_mountains_jobs_job_mining_drone_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_melting
+# -----------------------------------------------------------------------------
+# Controls: Number of fe_acolyte_mine jobs added by the district.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_fe_acolyte_mine_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_melting_jobs_job_fe_acolyte_mine_add = 200
+
+# Controls: Number of miner jobs added by the district.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_miner_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_melting_jobs_job_miner_add = 200
+
+# Controls: Number of mining_drone jobs added by the district.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_mining_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_melting_jobs_job_mining_drone_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_mindlink
+# -----------------------------------------------------------------------------
+# Controls: Number of transference_drone jobs added by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_transference_drone_add
+@pif_district_mindlink_jobs_job_transference_drone_add = 1500
+
+# Controls: Number of transference_volunteer jobs added by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_transference_volunteer_add
+@pif_district_mindlink_jobs_job_transference_volunteer_add = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_mining
+# -----------------------------------------------------------------------------
+# Controls: Number of fe_acolyte_mine jobs added by the district.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_fe_acolyte_mine_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_mining_jobs_job_fe_acolyte_mine_add = 200
+
+# Controls: Number of miner jobs added by the district.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_miner_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_mining_jobs_job_miner_add = 200
+
+# Controls: Number of mining_drone jobs added by the district.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_mining_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_mining_jobs_job_mining_drone_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_nexus
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_nexus_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: Number of agri_drone jobs added by the district.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/tpm.txt
+# Contexts: triggered_planet_modifier.job_agri_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_orchard_forests_jobs_job_agri_drone_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: Number of technician_drone jobs added by the district.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/tpm.txt
+# Contexts: triggered_planet_modifier.job_technician_drone_add
+# Resolved vanilla variable(s): @base_rural_district_jobs
+@pif_district_photosynthesis_fields_jobs_job_technician_drone_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_polytechnic
+# -----------------------------------------------------------------------------
+# Controls: Number of polytechnic_drone jobs added by the district.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_polytechnic_drone_add
+# Resolved vanilla variable(s): @building_static_jobs
+@pif_district_polytechnic_jobs_job_polytechnic_drone_add = 200
+
+# Controls: Number of polytechnic_mentor jobs added by the district.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_polytechnic_mentor_add
+# Resolved vanilla variable(s): @building_static_jobs
+@pif_district_polytechnic_jobs_job_polytechnic_mentor_add = 200
+
+
+# -----------------------------------------------------------------------------
+# district_prison
+# -----------------------------------------------------------------------------
+# Controls: Number of dystopian_enforcer jobs added by the district.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/tpm.txt
+# Contexts: triggered_planet_modifier.job_dystopian_enforcer_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_prison_jobs_job_dystopian_enforcer_add = 100
+
+# Controls: Number of enforcer jobs added by the district.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/tpm.txt
+# Contexts: triggered_planet_modifier.job_enforcer_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_prison_jobs_job_enforcer_add = 100
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_prison_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_prison_industrial
+# -----------------------------------------------------------------------------
+# Controls: Number of artificer_prison_worker jobs added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_artificer_prison_worker_add
+@pif_district_prison_industrial_jobs_job_artificer_prison_worker_add_2 = -100
+
+# Controls: Number of artificer_prison_worker jobs added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_artificer_prison_worker_add
+@pif_district_prison_industrial_jobs_job_artificer_prison_worker_add = 100
+
+# Controls: Number of artisan_prison_worker jobs added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_artisan_prison_worker_add
+@pif_district_prison_industrial_jobs_job_artisan_prison_worker_add_2 = -100
+
+# Controls: Number of artisan_prison_worker jobs added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_artisan_prison_worker_add
+@pif_district_prison_industrial_jobs_job_artisan_prison_worker_add = 100
+
+# Controls: Number of catalytic_technician_prison_worker jobs added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_catalytic_technician_prison_worker_add
+@pif_district_prison_industrial_jobs_job_catalytic_technician_prison_worker_add_2 = -100
+
+# Controls: Number of catalytic_technician_prison_worker jobs added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_catalytic_technician_prison_worker_add
+@pif_district_prison_industrial_jobs_job_catalytic_technician_prison_worker_add = 100
+
+# Controls: Number of foundry_prison_worker jobs added by the district.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_foundry_prison_worker_add
+@pif_district_prison_industrial_jobs_job_foundry_prison_worker_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_resort
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_resort_jobs_job_production_overseer_add = 100
+
+# Controls: Number of resort_worker jobs added by the district.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_resort_worker_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_resort_jobs_job_resort_worker_add_2 = 100
+
+# Controls: Number of resort_worker jobs added by the district.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_resort_worker_add
+# Resolved vanilla variable(s): @special_district_jobs
+@pif_district_resort_jobs_job_resort_worker_add = 300
+
+
+# -----------------------------------------------------------------------------
+# district_rw_city
+# -----------------------------------------------------------------------------
+# Controls: Number of clerk jobs added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_clerk_add
+@pif_district_rw_city_jobs_job_clerk_add = 300
+
+# Controls: Number of clerk jobs added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_clerk_add
+@pif_district_rw_city_jobs_job_clerk_add_2 = 600
+
+# Controls: Number of dystopian_enforcer jobs added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.job_dystopian_enforcer_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_rw_city_jobs_job_dystopian_enforcer_add = 100
+
+# Controls: Number of enforcer jobs added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.job_enforcer_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_rw_city_jobs_job_enforcer_add = 100
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_rw_city_jobs_job_production_overseer_add_3 = 100
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_rw_city_jobs_job_production_overseer_add = 300
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_rw_city_jobs_job_production_overseer_add_2 = 600
+
+
+# -----------------------------------------------------------------------------
+# district_rw_commercial
+# -----------------------------------------------------------------------------
+# Controls: Number of clerk jobs added by the district.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_clerk_add
+@pif_district_rw_commercial_jobs_job_clerk_add = 600
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_rw_commercial_jobs_job_production_overseer_add = 600
+
+# Controls: Number of trader jobs added by the district.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.job_trader_add | triggered_planet_modifier.modifier.job_trader_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_rw_commercial_jobs_job_trader_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_rw_farming
+# -----------------------------------------------------------------------------
+# Controls: Number of agri_drone jobs added by the district.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_agri_drone_add
+@pif_district_rw_farming_jobs_job_agri_drone_add_2 = 1000
+
+# Controls: Number of agri_drone jobs added by the district.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_agri_drone_add
+@pif_district_rw_farming_jobs_job_agri_drone_add = 1500
+
+# Controls: Number of farmer jobs added by the district.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_farmer_add
+@pif_district_rw_farming_jobs_job_farmer_add = 1000
+
+# Controls: Number of fe_acolyte_farm jobs added by the district.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_fe_acolyte_farm_add
+@pif_district_rw_farming_jobs_job_fe_acolyte_farm_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_rw_generator
+# -----------------------------------------------------------------------------
+# Controls: Number of fe_acolyte_generator jobs added by the district.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_fe_acolyte_generator_add
+@pif_district_rw_generator_jobs_job_fe_acolyte_generator_add = 1000
+
+# Controls: Number of technician jobs added by the district.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_technician_add
+@pif_district_rw_generator_jobs_job_technician_add = 1000
+
+# Controls: Number of technician_drone jobs added by the district.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/tpm.txt
+# Contexts: triggered_planet_modifier.job_technician_drone_add
+@pif_district_rw_generator_jobs_job_technician_drone_add = 1000
+
+# Controls: Number of technician_drone jobs added by the district.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/tpm.txt
+# Contexts: triggered_planet_modifier.job_technician_drone_add
+@pif_district_rw_generator_jobs_job_technician_drone_add_2 = 1500
+
+
+# -----------------------------------------------------------------------------
+# district_rw_hive
+# -----------------------------------------------------------------------------
+# Controls: Number of coordinator jobs added by the district.
+# District: district_rw_hive
+# Used by: common/inline_scripts/pif/districts/district_rw_hive/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_coordinator_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_rw_hive_jobs_job_coordinator_add = 100
+
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_hive
+# Used by: common/inline_scripts/pif/districts/district_rw_hive/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_rw_hive_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_rw_nexus
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_nexus
+# Used by: common/inline_scripts/pif/districts/district_rw_nexus/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_rw_nexus_jobs_job_production_overseer_add = 100
+
+# Controls: Number of technician_drone jobs added by the district.
+# District: district_rw_nexus
+# Used by: common/inline_scripts/pif/districts/district_rw_nexus/tpm.txt
+# Contexts: triggered_planet_modifier.job_technician_drone_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_rw_nexus_jobs_job_technician_drone_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_rw_science
+# -----------------------------------------------------------------------------
+# Controls: Number of biologist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_biologist_add
+@pif_district_rw_science_jobs_job_biologist_add_2 = 500
+
+# Controls: Number of biologist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_biologist_add
+@pif_district_rw_science_jobs_job_biologist_add = 1000
+
+# Controls: Number of calculator_biologist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_calculator_biologist_add
+@pif_district_rw_science_jobs_job_calculator_biologist_add_2 = 500
+
+# Controls: Number of calculator_biologist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_calculator_biologist_add
+@pif_district_rw_science_jobs_job_calculator_biologist_add = 1000
+
+# Controls: Number of calculator_engineer jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_calculator_engineer_add
+@pif_district_rw_science_jobs_job_calculator_engineer_add_2 = 500
+
+# Controls: Number of calculator_engineer jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_calculator_engineer_add
+@pif_district_rw_science_jobs_job_calculator_engineer_add = 1000
+
+# Controls: Number of calculator_physicist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_calculator_physicist_add
+@pif_district_rw_science_jobs_job_calculator_physicist_add_2 = 500
+
+# Controls: Number of calculator_physicist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_calculator_physicist_add
+@pif_district_rw_science_jobs_job_calculator_physicist_add = 1000
+
+# Controls: Number of engineer jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_engineer_add
+@pif_district_rw_science_jobs_job_engineer_add_2 = 500
+
+# Controls: Number of engineer jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_engineer_add
+@pif_district_rw_science_jobs_job_engineer_add = 1000
+
+# Controls: Number of physicist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.job_physicist_add
+@pif_district_rw_science_jobs_job_physicist_add_2 = 500
+
+# Controls: Number of physicist jobs added by the district.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_physicist_add
+@pif_district_rw_science_jobs_job_physicist_add = 1000
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_1
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_urban_1
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_1/tpm.txt
+# Contexts: triggered_planet_modifier.job_production_overseer_add
+@pif_district_rw_urban_1_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_2
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_urban_2
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_2/tpm.txt
+# Contexts: triggered_planet_modifier.job_production_overseer_add
+@pif_district_rw_urban_2_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_3
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_rw_urban_3
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_3/tpm.txt
+# Contexts: triggered_planet_modifier.job_production_overseer_add
+@pif_district_rw_urban_3_jobs_job_production_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_slave
+# -----------------------------------------------------------------------------
+# Controls: Number of production_overseer jobs added by the district.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_production_overseer_add
+@pif_district_slave_jobs_job_production_overseer_add = 100
+
+# Controls: Number of slave_overseer jobs added by the district.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_slave_overseer_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_slave_jobs_job_slave_overseer_add = 100
+
+
+# -----------------------------------------------------------------------------
+# district_srw_commercial
+# -----------------------------------------------------------------------------
+# Controls: Number of artisan jobs added by the district.
+# District: district_srw_commercial
+# Used by: common/inline_scripts/pif/districts/district_srw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.job_artisan_add
+@pif_district_srw_commercial_jobs_job_artisan_add = 100
+
+# Controls: Number of bureaucrat jobs added by the district.
+# District: district_srw_commercial
+# Used by: common/inline_scripts/pif/districts/district_srw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_bureaucrat_add
+# Resolved vanilla variable(s): @base_district_jobs
+@pif_district_srw_commercial_jobs_job_bureaucrat_add = 100
+
+# Controls: Number of trader jobs added by the district.
+# District: district_srw_commercial
+# Used by: common/inline_scripts/pif/districts/district_srw_commercial/tpm.txt
+# Contexts: triggered_planet_modifier.modifier.job_trader_add
+@pif_district_srw_commercial_jobs_job_trader_add = 100

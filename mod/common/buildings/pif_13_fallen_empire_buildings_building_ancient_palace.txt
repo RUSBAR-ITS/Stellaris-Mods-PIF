@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_ancient_palace = {
+	base_buildtime = @pif_building_ancient_palace_construction_base_buildtime_1
+	capital = yes
+	position_priority = 0
+	capital_tier = 5
+	icon = building_palace
+	category = government
+	inline_script = "pif/buildings/building_ancient_palace/building_config"
+	inline_script = "pif/buildings/building_ancient_palace/availability"
+	inline_script = "pif/buildings/building_ancient_palace/economy"
+	inline_script = "pif/buildings/building_ancient_palace/lifecycle"
+	inline_script = "pif/buildings/building_ancient_palace/jobs"
+	inline_script = "pif/buildings/building_ancient_palace/country_jobs"
+	inline_script = "pif/buildings/building_ancient_palace/economic_modifiers"
+	inline_script = "pif/buildings/building_ancient_palace/pop_modifiers"
+	inline_script = "pif/buildings/building_ancient_palace/planet_state"
+	inline_script = "pif/buildings/building_ancient_palace/tpm"
+	inline_script = "pif/buildings/building_ancient_palace/ai"
+}

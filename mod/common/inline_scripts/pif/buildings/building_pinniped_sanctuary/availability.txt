@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_pinniped_sanctuary
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+base_cap_amount = @pif_building_pinniped_sanctuary_limits_base_cap_amount_1
+
+empire_limit = @pif_building_pinniped_sanctuary_limits_empire_limit_2
+
+potential = {
+	owner = {
+		has_country_flag = found_subglacial_pinnipeds
+	}
+}

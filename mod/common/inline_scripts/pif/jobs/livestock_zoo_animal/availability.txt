@@ -1,0 +1,40 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: livestock_zoo_animal
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_livestock_zoo_animal_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_sapient = yes
+	is_robotic = no
+}
+
+possible = {
+	exists = owner
+	OR = {
+		AND = {
+			has_citizenship_type = {
+				type = citizenship_slavery
+				country = owner
+			}
+			has_slavery_type = {
+				type = slavery_livestock
+			}
+		}
+		has_citizenship_type = {
+			type = citizenship_protected_drone
+			country = owner
+		}
+	}
+	planet = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		has_active_building = building_xeno_zoo
+	}
+	is_lithoid = yes
+}

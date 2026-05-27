@@ -1,0 +1,17 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: fe_acolyte_generator
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_precursor_job
+
+possible = {
+	owner = {
+		is_fanatic_spiritualist = yes
+	}
+}

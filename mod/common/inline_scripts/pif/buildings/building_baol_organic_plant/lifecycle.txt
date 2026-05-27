@@ -1,0 +1,50 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_baol_organic_plant
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_ai = yes
+			country_uses_food = no
+		}
+		is_planet_class = pc_machine
+		has_modifier = resort_colony
+	}
+}
+
+on_queued = {
+	if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+			any_owned_pop_group = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+		}
+		random_owned_pop_group = {
+			limit = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+			kill_pop_group = {
+				pop_group = this
+				amount = local_spent_biomass
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+		}
+		owner = {
+			global_biomass_spender = yes
+		}
+	}
+}
+
+on_unqueued = {
+	unqueue_biomass_effect = yes
+}

@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/05_research_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_shroud_observatory_3 = {
+	base_buildtime = @pif_building_shroud_observatory_3_construction_base_buildtime_1
+	category = research
+	triggered_desc = {
+		text = biology_unit_is_observator_tt
+	}
+	inline_script = "pif/buildings/building_shroud_observatory_3/building_config"
+	inline_script = "pif/buildings/building_shroud_observatory_3/availability"
+	inline_script = "pif/buildings/building_shroud_observatory_3/economy"
+	inline_script = "pif/buildings/building_shroud_observatory_3/lifecycle"
+	inline_script = "pif/buildings/building_shroud_observatory_3/jobs"
+	inline_script = "pif/buildings/building_shroud_observatory_3/country_jobs"
+	inline_script = "pif/buildings/building_shroud_observatory_3/economic_modifiers"
+	inline_script = "pif/buildings/building_shroud_observatory_3/pop_modifiers"
+	inline_script = "pif/buildings/building_shroud_observatory_3/planet_state"
+	inline_script = "pif/buildings/building_shroud_observatory_3/tpm"
+	inline_script = "pif/buildings/building_shroud_observatory_3/ai"
+}

@@ -1,0 +1,47 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: holding_wilderness_glade
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			country_uses_food = yes
+		}
+		owner.overlord = {
+			is_lithoid = no
+		}
+	}
+	planet_jobs_food_produces_mult = @pif_holding_wilderness_glade_economic_modifiers_planet_jobs_food_produces_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			country_uses_food = yes
+		}
+		owner.overlord = {
+			is_lithoid = yes
+		}
+	}
+	planet_jobs_minerals_produces_mult = @pif_holding_wilderness_glade_economic_modifiers_planet_jobs_minerals_produces_mult_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			country_uses_food = no
+		}
+	}
+	planet_jobs_energy_produces_mult = @pif_holding_wilderness_glade_economic_modifiers_planet_jobs_energy_produces_mult_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_productive_upkeep_mult = @pif_holding_wilderness_glade_economic_modifiers_planet_jobs_productive_upkeep_mult_4
+}

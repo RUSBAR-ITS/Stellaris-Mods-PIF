@@ -1,0 +1,11 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: drone_sand_whisperer
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_drone_job

@@ -1,0 +1,23 @@
+# PIF category: TPM
+# Vanilla district: district_battle_thrall
+# Vanilla source: districts/00_urban_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_district_battle_thrall_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_fallen_empire_spiritualist = no
+		}
+	}
+	modifier = {
+		job_battle_thrall_add = @pif_district_battle_thrall_jobs_job_battle_thrall_add
+	}
+}

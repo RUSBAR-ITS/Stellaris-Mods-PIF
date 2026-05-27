@@ -1,0 +1,5 @@
+# PIF zone category: AI
+# Vanilla zone: zone_exotic_gases_nexus
+# Vanilla source: zones/04_secondary_zones.txt
+
+ai_priority = @pif_zone_exotic_gases_nexus_ai_ai_priority_ai_priority_1

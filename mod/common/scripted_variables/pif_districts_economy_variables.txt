@@ -1,0 +1,697 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: ECONOMY
+# District upkeep and direct resource production.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_arcology_housing
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_arcology_housing
+# Used by: common/inline_scripts/pif/districts/district_arcology_housing/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_arcology_housing_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_leisure
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_arcology_leisure_economy_district_upkeep_energy = 5
+
+# Controls: District resource upkeep in exotic_gases.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/economic.txt
+# Contexts: resources.upkeep.exotic_gases
+@pif_district_arcology_leisure_economy_district_upkeep_exotic_gases = 1
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_1
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_arcology_urban_1
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_1/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_arcology_urban_1_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_2
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_arcology_urban_2
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_2/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_arcology_urban_2_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_3
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_arcology_urban_3
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_3/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_arcology_urban_3_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_battle_thrall
+# Used by: common/inline_scripts/pif/districts/district_battle_thrall/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_battle_thrall_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_city
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_city_economy_district_upkeep_energy = 2
+
+# Controls: District resource upkeep in food.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/economic.txt
+# Contexts: resources.upkeep.food
+@pif_district_city_economy_district_upkeep_food = 2
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_logic
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @lathe_upkeep
+@pif_district_cosmogenesis_world_logic_economy_district_upkeep_energy = 50
+
+# Controls: Planetary neural chips flat production in advanced_logic.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/tpm.txt
+# Contexts: triggered_planet_modifier.planet_neural_chips_advanced_logic_produces_add
+@pif_district_cosmogenesis_world_logic_economy_planet_neural_chips_produces_advanced_logic = 0.025
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_science
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @lathe_upkeep
+@pif_district_cosmogenesis_world_science_economy_district_upkeep_energy = 50
+
+# Controls: Planetary neural chips flat production in engineering_research.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/tpm.txt
+# Contexts: triggered_planet_modifier.planet_neural_chips_engineering_research_produces_add
+@pif_district_cosmogenesis_world_science_economy_planet_neural_chips_produces_engineering_research = 0.75
+
+# Controls: Planetary neural chips flat production in physics_research.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/tpm.txt
+# Contexts: triggered_planet_modifier.planet_neural_chips_physics_research_produces_add
+@pif_district_cosmogenesis_world_science_economy_planet_neural_chips_produces_physics_research = 0.75
+
+# Controls: Planetary neural chips flat production in society_research.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/tpm.txt
+# Contexts: triggered_planet_modifier.planet_neural_chips_society_research_produces_add
+@pif_district_cosmogenesis_world_science_economy_planet_neural_chips_produces_society_research = 0.75
+
+
+# -----------------------------------------------------------------------------
+# district_craglands
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_craglands_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_crashed_slaver_ship
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_crashed_slaver_ship_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_farming
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_farming_economy_district_upkeep_energy = 1
+
+
+# -----------------------------------------------------------------------------
+# district_generator
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_generator_economy_district_upkeep_energy = 1
+
+
+# -----------------------------------------------------------------------------
+# district_geothermal
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_geothermal_economy_district_upkeep_energy = 1
+
+
+# -----------------------------------------------------------------------------
+# district_hab_energy
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in alloys.
+# District: district_hab_energy
+# Used by: common/inline_scripts/pif/districts/district_hab_energy/economic.txt
+# Contexts: resources.upkeep.alloys
+# Resolved vanilla variable(s): @low_hab_maintenance
+@pif_district_hab_energy_economy_district_upkeep_alloys = 0.25
+
+# Controls: District resource upkeep in energy.
+# District: district_hab_energy
+# Used by: common/inline_scripts/pif/districts/district_hab_energy/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @hab_maintenance
+@pif_district_hab_energy_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hab_housing
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in alloys.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/economic.txt
+# Contexts: resources.upkeep.alloys
+# Resolved vanilla variable(s): @low_hab_maintenance
+@pif_district_hab_housing_economy_district_upkeep_alloys = 0.25
+
+# Controls: District resource upkeep in energy.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @hab_maintenance
+@pif_district_hab_housing_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hab_mining
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in alloys.
+# District: district_hab_mining
+# Used by: common/inline_scripts/pif/districts/district_hab_mining/economic.txt
+# Contexts: resources.upkeep.alloys
+# Resolved vanilla variable(s): @low_hab_maintenance
+@pif_district_hab_mining_economy_district_upkeep_alloys = 0.25
+
+# Controls: District resource upkeep in energy.
+# District: district_hab_mining
+# Used by: common/inline_scripts/pif/districts/district_hab_mining/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @hab_maintenance
+@pif_district_hab_mining_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hab_science
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in alloys.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/economic.txt
+# Contexts: resources.upkeep.alloys
+# Resolved vanilla variable(s): @low_hab_maintenance
+@pif_district_hab_science_economy_district_upkeep_alloys = 0.25
+
+# Controls: District resource upkeep in energy.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @hab_maintenance
+@pif_district_hab_science_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hive
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_hive_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hive_1
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_hive_1
+# Used by: common/inline_scripts/pif/districts/district_hive_1/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_hive_1_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hive_2
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_hive_2
+# Used by: common/inline_scripts/pif/districts/district_hive_2/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_hive_2_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hive_3
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_hive_3
+# Used by: common/inline_scripts/pif/districts/district_hive_3/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_hive_3_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in food.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/economic.txt
+# Contexts: resources.upkeep.food
+@pif_district_hollow_mountains_economy_district_upkeep_food = 1
+
+
+# -----------------------------------------------------------------------------
+# district_melting
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_melting_economy_district_upkeep_energy = 1
+
+
+# -----------------------------------------------------------------------------
+# district_mindlink
+# -----------------------------------------------------------------------------
+# Controls: District direct resource production in engineering_research.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.engineering_research
+@pif_district_mindlink_economy_district_produces_engineering_research = 0.5
+
+# Controls: District direct resource production in engineering_research.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.engineering_research
+@pif_district_mindlink_economy_district_produces_engineering_research_2 = 100
+
+# Controls: District direct resource production in physics_research.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.physics_research
+@pif_district_mindlink_economy_district_produces_physics_research = 0.5
+
+# Controls: District direct resource production in physics_research.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.physics_research
+@pif_district_mindlink_economy_district_produces_physics_research_2 = 100
+
+# Controls: District direct resource production in society_research.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.society_research
+@pif_district_mindlink_economy_district_produces_society_research = 0.5
+
+# Controls: District direct resource production in society_research.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.society_research
+@pif_district_mindlink_economy_district_produces_society_research_2 = 100
+
+# Controls: District direct resource production in unity.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.unity
+@pif_district_mindlink_economy_district_produces_unity = 1.5
+
+# Controls: District direct resource production in unity.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.produces.unity
+@pif_district_mindlink_economy_district_produces_unity_2 = 300
+
+# Controls: District resource upkeep in food.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.upkeep.food
+@pif_district_mindlink_economy_district_upkeep_food = 2
+
+
+# -----------------------------------------------------------------------------
+# district_mining
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_mining_economy_district_upkeep_energy = 1
+
+
+# -----------------------------------------------------------------------------
+# district_nexus
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_nexus_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_1
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_nexus_1
+# Used by: common/inline_scripts/pif/districts/district_nexus_1/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_nexus_1_economy_district_upkeep_energy_2 = 2
+
+# Controls: District resource upkeep in energy.
+# District: district_nexus_1
+# Used by: common/inline_scripts/pif/districts/district_nexus_1/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_nexus_1_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_2
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_nexus_2
+# Used by: common/inline_scripts/pif/districts/district_nexus_2/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_nexus_2_economy_district_upkeep_energy_2 = 2
+
+# Controls: District resource upkeep in energy.
+# District: district_nexus_2
+# Used by: common/inline_scripts/pif/districts/district_nexus_2/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_nexus_2_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_3
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_nexus_3
+# Used by: common/inline_scripts/pif/districts/district_nexus_3/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_nexus_3_economy_district_upkeep_energy_2 = 2
+
+# Controls: District resource upkeep in energy.
+# District: district_nexus_3
+# Used by: common/inline_scripts/pif/districts/district_nexus_3/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_nexus_3_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_orchard_forests_economy_district_upkeep_energy = 1
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_photosynthesis_fields_economy_district_upkeep_energy = 1
+
+
+# -----------------------------------------------------------------------------
+# district_polytechnic
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_polytechnic_economy_district_upkeep_energy = 3
+
+
+# -----------------------------------------------------------------------------
+# district_prison
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_prison_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_prison_industrial
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_prison_industrial_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_resort
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_resort_economy_district_upkeep_energy = 2
+
+# Controls: District resource upkeep in food.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/economic.txt
+# Contexts: resources.upkeep.food
+@pif_district_resort_economy_district_upkeep_food = 2
+
+
+# -----------------------------------------------------------------------------
+# district_resort_1
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_resort_1
+# Used by: common/inline_scripts/pif/districts/district_resort_1/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_resort_1_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_resort_2
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_resort_2
+# Used by: common/inline_scripts/pif/districts/district_resort_2/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_resort_2_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_resort_3
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_resort_3
+# Used by: common/inline_scripts/pif/districts/district_resort_3/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_resort_3_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_rw_city
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_city_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_rw_commercial
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_commercial_economy_district_upkeep_energy = 5
+
+# Controls: District resource upkeep in rare_crystals.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/economic.txt
+# Contexts: resources.upkeep.rare_crystals
+# Resolved vanilla variable(s): @rw_maintenance_sr
+@pif_district_rw_commercial_economy_district_upkeep_rare_crystals = 2
+
+
+# -----------------------------------------------------------------------------
+# district_rw_farming
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_farming_economy_district_upkeep_energy = 5
+
+# Controls: District resource upkeep in volatile_motes.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/economic.txt
+# Contexts: resources.upkeep.volatile_motes
+# Resolved vanilla variable(s): @rw_maintenance_sr
+@pif_district_rw_farming_economy_district_upkeep_volatile_motes = 2
+
+
+# -----------------------------------------------------------------------------
+# district_rw_generator
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_generator_economy_district_upkeep_energy = 5
+
+# Controls: District resource upkeep in rare_crystals.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/economic.txt
+# Contexts: resources.upkeep.rare_crystals
+# Resolved vanilla variable(s): @rw_maintenance_sr
+@pif_district_rw_generator_economy_district_upkeep_rare_crystals = 2
+
+
+# -----------------------------------------------------------------------------
+# district_rw_hive
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_hive
+# Used by: common/inline_scripts/pif/districts/district_rw_hive/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_hive_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_rw_nexus
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_nexus
+# Used by: common/inline_scripts/pif/districts/district_rw_nexus/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_nexus_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_rw_science
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_science_economy_district_upkeep_energy = 5
+
+# Controls: District resource upkeep in exotic_gases.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/economic.txt
+# Contexts: resources.upkeep.exotic_gases
+# Resolved vanilla variable(s): @rw_maintenance_sr
+@pif_district_rw_science_economy_district_upkeep_exotic_gases = 2
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_1
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_urban_1
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_1/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_urban_1_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_2
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_urban_2
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_2/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_urban_2_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_3
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_rw_urban_3
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_3/economic.txt
+# Contexts: resources.upkeep.energy
+# Resolved vanilla variable(s): @rw_maintenance
+@pif_district_rw_urban_3_economy_district_upkeep_energy = 5
+
+
+# -----------------------------------------------------------------------------
+# district_slave
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_slave_economy_district_upkeep_energy = 2
+
+
+# -----------------------------------------------------------------------------
+# district_srw_commercial
+# -----------------------------------------------------------------------------
+# Controls: District resource upkeep in energy.
+# District: district_srw_commercial
+# Used by: common/inline_scripts/pif/districts/district_srw_commercial/economic.txt
+# Contexts: resources.upkeep.energy
+@pif_district_srw_commercial_economy_district_upkeep_energy = 1

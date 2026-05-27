@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/01_habitat_zones.txt
+# Object type: zone
+
+zone_habitat_knights = {
+	icon = GFX_district_specialization_knight_commander
+	base_buildtime = @pif_zone_habitat_knights_construction_zone_build_time_1
+	swap_type = district_orders_demesne
+	swap_type_weight = 5
+	max_buildings = @pif_zone_habitat_knights_building_capacity_max_buildings_1
+	inline_script = "pif/zones/zone_habitat_knights/availability"
+	inline_script = "pif/zones/zone_habitat_knights/zone_config"
+	inline_script = "pif/zones/zone_habitat_knights/economy"
+	inline_script = "pif/zones/zone_habitat_knights/tpm"
+	inline_script = "pif/zones/zone_habitat_knights/lifecycle"
+	inline_script = "pif/zones/zone_habitat_knights/ai"
+}

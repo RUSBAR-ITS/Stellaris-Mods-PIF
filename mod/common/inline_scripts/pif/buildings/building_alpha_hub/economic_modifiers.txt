@@ -1,0 +1,78 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_alpha_hub
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_bureaucrats_unity_produces_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_unity_produces_add_1
+	planet_bureaucrats_physics_research_produces_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_physics_research_produces_add_2
+	planet_bureaucrats_society_research_produces_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_society_research_produces_add_3
+	planet_bureaucrats_engineering_research_produces_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_engineering_research_produces_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_ringworld_output_boost = yes
+	}
+	planet_bureaucrats_unity_produces_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_unity_produces_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	planet_bureaucrats_consumer_goods_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_consumer_goods_upkeep_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	planet_bureaucrats_energy_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_energy_upkeep_add_7
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_lithoid_empire = no
+			is_infernal_empire = no
+		}
+	}
+	planet_bureaucrats_food_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_food_upkeep_add_8
+	planet_bureaucrats_energy_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_energy_upkeep_add_9
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_lithoid_empire = yes
+		}
+	}
+	planet_bureaucrats_minerals_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_minerals_upkeep_add_10
+	planet_bureaucrats_energy_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_energy_upkeep_add_9
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_infernal_empire = yes
+		}
+	}
+	planet_bureaucrats_alloys_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_alloys_upkeep_add_11
+	planet_bureaucrats_energy_upkeep_add = @pif_building_alpha_hub_economic_modifiers_planet_bureaucrats_energy_upkeep_add_12
+}

@@ -1,0 +1,30 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_advanced_storm_attraction_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+prerequisites = {
+	"tech_advanced_storm_manipulation"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = storm_attracting_allow
+		solar_system = {
+			system_has_storm_repelling_tech = no
+		}
+	}
+}

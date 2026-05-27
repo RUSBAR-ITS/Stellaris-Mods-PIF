@@ -1,0 +1,1261 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: JOBS_RESEARCH
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_broken_shackles_memorial
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_job_amount_job_biologist_add_2 = 20
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_job_amount_job_calculator_biologist_add_10 = 20
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_job_amount_job_calculator_engineer_add_11 = 20
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_job_amount_job_calculator_physicist_add_9 = 20
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_job_amount_job_engineer_add_3 = 20
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_job_amount_job_fe_archivist_add_12 = 20
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_jobs_research_job_amount_job_physicist_add_1 = 20
+
+# -----------------------------------------------------------------------------
+# zone_central_spire
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_job_amount_job_biologist_add_2 = 60
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_job_amount_job_calculator_biologist_add_10 = 60
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_job_amount_job_calculator_engineer_add_11 = 60
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_job_amount_job_calculator_physicist_add_9 = 60
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_job_amount_job_engineer_add_3 = 60
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_job_amount_job_fe_archivist_add_12 = 60
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_jobs_research_job_amount_job_physicist_add_1 = 60
+
+# -----------------------------------------------------------------------------
+# zone_habitat_research
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_job_amount_job_biologist_add_2 = 30
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_job_amount_job_calculator_biologist_add_10 = 30
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_job_amount_job_calculator_engineer_add_11 = 30
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_job_amount_job_calculator_physicist_add_9 = 30
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_job_amount_job_engineer_add_3 = 30
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_job_amount_job_fe_archivist_add_12 = 30
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
+@pif_zone_habitat_research_jobs_research_job_amount_job_physicist_add_1 = 30
+
+# -----------------------------------------------------------------------------
+# zone_habitat_research_unity
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_job_amount_job_biologist_add_2 = 20
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_job_amount_job_calculator_biologist_add_10 = 20
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_job_amount_job_calculator_engineer_add_11 = 20
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_job_amount_job_calculator_physicist_add_9 = 20
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_job_amount_job_engineer_add_3 = 20
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_job_amount_job_fe_archivist_add_12 = 20
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
+@pif_zone_habitat_research_unity_jobs_research_job_amount_job_physicist_add_1 = 20
+
+# -----------------------------------------------------------------------------
+# zone_minerals_physics
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_job_amount_job_calculator_physicist_add_7 = 50
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_job_amount_job_fe_archivist_add_8 = 50
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_research_job_amount_job_physicist_add_1 = 50
+
+# -----------------------------------------------------------------------------
+# zone_payback_enlightenment
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_job_amount_job_biologist_add_2 = 20
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_job_amount_job_calculator_biologist_add_10 = 20
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_job_amount_job_calculator_engineer_add_11 = 20
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_job_amount_job_calculator_physicist_add_9 = 20
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_job_amount_job_engineer_add_3 = 20
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_job_amount_job_fe_archivist_add_12 = 20
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_jobs_research_job_amount_job_physicist_add_1 = 20
+
+# -----------------------------------------------------------------------------
+# zone_research
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_job_amount_job_biologist_add_2 = 30
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_job_amount_job_calculator_biologist_add_10 = 30
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_job_amount_job_calculator_engineer_add_11 = 30
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_job_amount_job_calculator_physicist_add_9 = 30
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_job_amount_job_engineer_add_3 = 30
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_job_amount_job_fe_archivist_add_12 = 30
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_jobs_research_job_amount_job_physicist_add_1 = 30
+
+# -----------------------------------------------------------------------------
+# zone_research_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_job_amount_job_biologist_add_2 = 60
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_job_amount_job_calculator_biologist_add_10 = 60
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_job_amount_job_calculator_engineer_add_11 = 60
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_job_amount_job_calculator_physicist_add_9 = 60
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_job_amount_job_engineer_add_3 = 60
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_job_amount_job_fe_archivist_add_12 = 60
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_jobs_research_job_amount_job_physicist_add_1 = 60
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_job_amount_job_calculator_engineer_add_7 = 100
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_job_amount_job_engineer_add_1 = 100
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_jobs_research_job_amount_job_fe_archivist_add_8 = 100
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_job_amount_job_calculator_engineer_add_7 = 200
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_job_amount_job_engineer_add_1 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_job_amount_job_calculator_engineer_add_7 = 200
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_job_amount_job_engineer_add_1 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_job_amount_job_calculator_engineer_add_7 = 200
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_job_amount_job_engineer_add_1 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_job_amount_job_calculator_engineer_add_7 = 200
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_job_amount_job_engineer_add_1 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_job_amount_job_biologist_add_2 = 60
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_job_amount_job_calculator_biologist_add_10 = 60
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_job_amount_job_calculator_engineer_add_11 = 60
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_job_amount_job_calculator_physicist_add_9 = 60
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_job_amount_job_engineer_add_3 = 60
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_job_amount_job_fe_archivist_add_12 = 60
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_jobs_research_job_amount_job_physicist_add_1 = 60
+
+# -----------------------------------------------------------------------------
+# zone_research_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_job_amount_job_biologist_add_2 = 60
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_job_amount_job_calculator_biologist_add_10 = 60
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_job_amount_job_calculator_engineer_add_11 = 60
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_job_amount_job_calculator_physicist_add_9 = 60
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_job_amount_job_engineer_add_3 = 60
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_job_amount_job_fe_archivist_add_12 = 60
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_jobs_research_job_amount_job_physicist_add_1 = 60
+
+# -----------------------------------------------------------------------------
+# zone_research_physics
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_job_amount_job_calculator_physicist_add_7 = 100
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_job_amount_job_fe_archivist_add_8 = 100
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_jobs_research_job_amount_job_physicist_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_job_amount_job_calculator_physicist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_jobs_research_job_amount_job_physicist_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_job_amount_job_calculator_physicist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_jobs_research_job_amount_job_physicist_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_job_amount_job_calculator_physicist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_jobs_research_job_amount_job_physicist_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_job_amount_job_calculator_physicist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_jobs_research_job_amount_job_physicist_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_job_amount_job_biologist_add_2 = 60
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_job_amount_job_calculator_biologist_add_10 = 60
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_job_amount_job_calculator_engineer_add_11 = 60
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_job_amount_job_calculator_physicist_add_9 = 60
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_job_amount_job_engineer_add_3 = 60
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_job_amount_job_fe_archivist_add_12 = 60
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_jobs_research_job_amount_job_physicist_add_1 = 60
+
+# -----------------------------------------------------------------------------
+# zone_research_society
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_job_amount_job_biologist_add_1 = 100
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_job_amount_job_calculator_biologist_add_7 = 100
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_jobs_research_job_amount_job_fe_archivist_add_8 = 100
+
+# -----------------------------------------------------------------------------
+# zone_research_society_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_job_amount_job_biologist_add_1 = 200
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_job_amount_job_calculator_biologist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_society_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_job_amount_job_biologist_add_1 = 200
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_job_amount_job_calculator_biologist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_society_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_job_amount_job_biologist_add_1 = 200
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_job_amount_job_calculator_biologist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_society_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_job_amount_job_biologist_add_1 = 200
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_job_amount_job_calculator_biologist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_jobs_research_job_amount_job_fe_archivist_add_8 = 200
+
+# -----------------------------------------------------------------------------
+# zone_research_unity
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_job_amount_job_biologist_add_2 = 20
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_job_amount_job_calculator_biologist_add_10 = 20
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_job_amount_job_calculator_engineer_add_11 = 20
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_job_amount_job_calculator_physicist_add_9 = 20
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_job_amount_job_engineer_add_3 = 20
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_job_amount_job_fe_archivist_add_12 = 20
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_jobs_research_job_amount_job_physicist_add_1 = 20
+
+# -----------------------------------------------------------------------------
+# zone_research_unity_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_job_amount_job_biologist_add_2 = 20
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_job_amount_job_calculator_biologist_add_10 = 20
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_job_amount_job_calculator_engineer_add_11 = 20
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_job_amount_job_calculator_physicist_add_9 = 20
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_job_amount_job_engineer_add_3 = 20
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_job_amount_job_fe_archivist_add_12 = 20
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
+@pif_zone_research_unity_wilderness_jobs_research_job_amount_job_physicist_add_1 = 20
+
+# -----------------------------------------------------------------------------
+# zone_research_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_district_modifier_scaling_multiplier_4 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_district_modifier_scaling_multiplier_5 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_district_modifier_scaling_multiplier_6 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_district_modifier_scaling_multiplier_7 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_district_modifier_scaling_multiplier_8 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_job_amount_job_biologist_add_2 = 30
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_job_amount_job_calculator_biologist_add_10 = 30
+
+# Controls: job amount: job_calculator_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_job_amount_job_calculator_engineer_add_11 = 30
+
+# Controls: job amount: job_calculator_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_job_amount_job_calculator_physicist_add_9 = 30
+
+# Controls: job amount: job_engineer_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_job_amount_job_engineer_add_3 = 30
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_job_amount_job_fe_archivist_add_12 = 30
+
+# Controls: job amount: job_physicist_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
+@pif_zone_research_wilderness_jobs_research_job_amount_job_physicist_add_1 = 30
+
+# -----------------------------------------------------------------------------
+# zone_resort_zoo
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_job_amount_job_biologist_add_1 = 200
+
+# Controls: job amount: job_calculator_biologist_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_job_amount_job_calculator_biologist_add_7 = 200
+
+# Controls: job amount: job_fe_archivist_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_jobs_research_job_amount_job_fe_archivist_add_8 = 200

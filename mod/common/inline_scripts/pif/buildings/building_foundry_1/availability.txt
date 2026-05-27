@@ -1,0 +1,43 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_foundry_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+can_build = yes
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+	AND = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+		OR = {
+			has_planet_flag = ignore_ai_building_limitations
+			owner = {
+				is_ai = no
+			}
+			AND = {
+				has_any_industrial_zone = yes
+				NOR = {
+					has_building = building_foundry_1
+					has_building = building_foundry_2
+					has_building = building_foundry_3
+				}
+			}
+		}
+	}
+}
+
+prerequisites = {
+	tech_basic_industry
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}
+
+allow = {}

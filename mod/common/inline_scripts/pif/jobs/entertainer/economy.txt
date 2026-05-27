@@ -1,0 +1,70 @@
+# PIF job category: ECONOMY
+# Vanilla job: entertainer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_entertainers
+	produces = {
+		unity = @pif_entertainer_job_output_output_unity_1
+	}
+	upkeep = {
+		trigger = {
+			entertainer_is_duelist_trigger = no
+		}
+		consumer_goods = @pif_entertainer_job_upkeep_upkeep_consumer_goods_1
+	}
+	produces = {
+		trigger = {
+			entertainer_is_curator_trigger = yes
+		}
+		society_research = @pif_entertainer_job_output_output_society_research_2
+	}
+	upkeep = {
+		trigger = {
+			entertainer_is_curator_trigger = yes
+			entertainer_is_duelist_trigger = no
+		}
+		consumer_goods = @pif_entertainer_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			entertainer_is_curator_trigger = yes
+			entertainer_is_duelist_trigger = yes
+		}
+		alloys = @pif_entertainer_job_upkeep_upkeep_alloys_2
+	}
+	produces = {
+		trigger = {
+			entertainer_is_duelist_trigger = yes
+		}
+		unity = @pif_entertainer_job_output_output_unity_1
+	}
+	upkeep = {
+		trigger = {
+			entertainer_is_duelist_trigger = yes
+			entertainer_is_storm_dancer_trigger = no
+		}
+		alloys = @pif_entertainer_job_upkeep_upkeep_alloys_2
+	}
+	produces = {
+		trigger = {
+			entertainer_is_storm_dancer_trigger = yes
+		}
+		unity = @pif_entertainer_job_output_output_unity_3
+	}
+	upkeep = {
+		trigger = {
+			entertainer_is_storm_dancer_trigger = yes
+			entertainer_is_duelist_trigger = no
+		}
+		consumer_goods = @pif_entertainer_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			entertainer_is_storm_dancer_trigger = yes
+			entertainer_is_duelist_trigger = yes
+		}
+		alloys = @pif_entertainer_job_upkeep_upkeep_alloys_3
+	}
+}

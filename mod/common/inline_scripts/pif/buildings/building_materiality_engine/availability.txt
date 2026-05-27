@@ -1,0 +1,27 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_materiality_engine
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+potential = {
+	has_shroud_dlc = yes
+	exists = owner
+	owner = {
+		has_origin = origin_shroud_forged
+	}
+}
+
+empire_limit = {
+	base = @pif_building_materiality_engine_limits_base_1
+	modifier = {
+		add = materiality_engine_available
+		check_variable = {
+			which = materiality_engine_available
+			value > @pif_building_materiality_engine_limits_value_2
+		}
+	}
+}
+
+prerequisites = {
+	"tech_materiality_engine"
+}

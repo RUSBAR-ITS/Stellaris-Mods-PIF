@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: odd_factory_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = building_primitive_factory
+	}
+}

@@ -1,0 +1,24 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: low_tech_warrior
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+tags = {
+	crime
+	enforcer
+	soldier
+}
+
+weight = {
+	weight = @pif_low_tech_warrior_job_weight_weight_1
+}
+
+promotion = {
+	time = @pif_low_tech_warrior_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

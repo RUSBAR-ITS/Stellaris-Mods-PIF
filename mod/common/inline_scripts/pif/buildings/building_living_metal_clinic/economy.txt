@@ -1,0 +1,26 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_living_metal_clinic
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+resources = {
+	category = planet_branch_office_buildings
+	cost = {
+		influence = @pif_building_living_metal_clinic_cost_cost_influence_1
+		minerals = @pif_building_living_metal_clinic_cost_cost_minerals_2
+	}
+	cost = {
+		trigger = {
+			owner = {
+				has_authority = auth_corporate
+			}
+		}
+		influence = @pif_building_living_metal_clinic_cost_cost_influence_1
+	}
+	produces = {
+		exotic_gases = @pif_building_living_metal_clinic_economic_modifiers_produces_exotic_gases_1
+	}
+	upkeep = {
+		energy = @pif_building_living_metal_clinic_upkeep_upkeep_energy_1
+	}
+}

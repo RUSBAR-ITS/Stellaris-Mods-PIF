@@ -1,0 +1,5 @@
+# PIF zone category: AI
+# Vanilla zone: zone_payback_enlightenment
+# Vanilla source: zones/02_special_zones.txt
+
+

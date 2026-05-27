@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_robot_assembly_plant
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_robot_assembly_plant_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_robot_assembly_plant_upkeep_upkeep_energy_1
+	}
+}

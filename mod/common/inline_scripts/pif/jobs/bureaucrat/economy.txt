@@ -1,0 +1,174 @@
+# PIF job category: ECONOMY
+# Vanilla job: bureaucrat
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_bureaucrat_job_output_output_unity_1
+	}
+	upkeep = {
+		consumer_goods = @pif_bureaucrat_job_upkeep_upkeep_consumer_goods_1
+	}
+	produces = {
+		trigger = {
+			bureaucrat_is_manager = yes
+		}
+		trade = @pif_bureaucrat_job_output_output_trade_2
+	}
+	produces = {
+		trigger = {
+			bureaucrat_is_steward = yes
+		}
+		trade = @pif_bureaucrat_job_output_output_trade_3
+	}
+	produces = {
+		trigger = {
+			OR = {
+				bureaucrat_is_death_priest = yes
+				bureaucrat_is_cremator = yes
+			}
+		}
+		unity = @pif_bureaucrat_job_output_output_unity_4
+		society_research = @pif_bureaucrat_job_output_output_society_research_5
+	}
+	produces = {
+		trigger = {
+			bureaucrat_is_haruspex = yes
+		}
+		unity = @pif_bureaucrat_job_output_output_unity_4
+		engineering_research = @pif_bureaucrat_job_output_output_engineering_research_6
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_low_tech = yes
+			}
+		}
+		unity = @pif_bureaucrat_job_output_output_unity_4
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_low_tech = yes
+			}
+		}
+		consumer_goods = @pif_bureaucrat_job_upkeep_upkeep_consumer_goods_2
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_low_tech_manager = yes
+			}
+		}
+		unity = @pif_bureaucrat_job_output_output_unity_4
+		trade = @pif_bureaucrat_job_output_output_trade_2
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_low_tech_manager = yes
+			}
+		}
+		consumer_goods = @pif_bureaucrat_job_upkeep_upkeep_consumer_goods_2
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_low_tech_priest = yes
+			}
+		}
+		unity = @pif_bureaucrat_job_output_output_unity_4
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_low_tech_priest = yes
+			}
+		}
+		consumer_goods = @pif_bureaucrat_job_upkeep_upkeep_consumer_goods_2
+	}
+	upkeep = {
+		trigger = {
+			bureaucrat_is_unifier = yes
+		}
+		consumer_goods = @pif_bureaucrat_job_upkeep_upkeep_consumer_goods_2
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_numistic_priest = yes
+			}
+		}
+		unity = @pif_bureaucrat_job_output_output_unity_4
+		trade = @pif_bureaucrat_job_output_output_trade_7
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				bureaucrat_is_numistic_priest = yes
+			}
+		}
+		consumer_goods = @pif_bureaucrat_job_upkeep_upkeep_consumer_goods_2
+		trade = @pif_bureaucrat_job_upkeep_upkeep_trade_3
+	}
+	produces = {
+		trigger = {
+			OR = {
+				bureaucrat_is_corpse_reader = yes
+				bureaucrat_is_corpse_broker = yes
+			}
+		}
+		society_research = @pif_bureaucrat_job_output_output_society_research_5
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_materialist = yes
+			}
+			planet = {
+				bureaucrat_is_memorialist = yes
+			}
+		}
+		physics_research = @pif_bureaucrat_job_output_output_physics_research_8
+		society_research = @pif_bureaucrat_job_output_output_society_research_9
+		engineering_research = @pif_bureaucrat_job_output_output_engineering_research_10
+		mult = value:scripted_ethics_weight_mult|ETHIC|materialist|
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+			}
+			planet = {
+				bureaucrat_is_memorialist = yes
+			}
+		}
+		unity = @pif_bureaucrat_job_output_output_unity_11
+		mult = value:scripted_ethics_weight_mult|ETHIC|spiritualist|
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_egalitarian = yes
+			}
+			planet = {
+				bureaucrat_is_memorialist = yes
+			}
+		}
+		trade = @pif_bureaucrat_job_output_output_trade_12
+		mult = value:scripted_ethics_weight_mult|ETHIC|egalitarian|
+	}
+}

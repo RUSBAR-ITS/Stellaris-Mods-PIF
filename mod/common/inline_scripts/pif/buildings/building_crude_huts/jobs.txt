@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_crude_huts
+# Vanilla class: capital
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+# Empty PIF building category hook.

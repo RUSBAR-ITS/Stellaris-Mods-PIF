@@ -1,0 +1,34 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_mineral_purification_hub
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	OR = {
+		owner = {
+			is_ai = no
+		}
+		has_any_mining_district_or_building = yes
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	tech_mineral_purification_2
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

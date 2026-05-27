@@ -1,0 +1,5 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: ECONOMY
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# No variables were generated for this domain in the current vanilla baseline.

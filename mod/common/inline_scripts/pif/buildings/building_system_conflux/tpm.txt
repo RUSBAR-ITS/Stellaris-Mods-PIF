@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_system_conflux
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+# Empty PIF building category hook.

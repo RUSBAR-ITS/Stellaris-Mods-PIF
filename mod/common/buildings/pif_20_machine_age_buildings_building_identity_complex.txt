@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_identity_complex = {
+	base_buildtime = @pif_building_identity_complex_construction_base_buildtime_1
+	desc = {
+		text = building_identity_complex_desc
+	}
+	category = pop_assembly
+	is_essential = yes
+	inline_script = "pif/buildings/building_identity_complex/building_config"
+	inline_script = "pif/buildings/building_identity_complex/availability"
+	inline_script = "pif/buildings/building_identity_complex/economy"
+	inline_script = "pif/buildings/building_identity_complex/lifecycle"
+	inline_script = "pif/buildings/building_identity_complex/jobs"
+	inline_script = "pif/buildings/building_identity_complex/country_jobs"
+	inline_script = "pif/buildings/building_identity_complex/economic_modifiers"
+	inline_script = "pif/buildings/building_identity_complex/pop_modifiers"
+	inline_script = "pif/buildings/building_identity_complex/planet_state"
+	inline_script = "pif/buildings/building_identity_complex/tpm"
+	inline_script = "pif/buildings/building_identity_complex/ai"
+}

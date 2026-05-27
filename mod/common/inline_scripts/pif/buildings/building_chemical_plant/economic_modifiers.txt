@@ -1,0 +1,27 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_chemical_plant
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	industrial_jobs_volatile_motes_produces_add = @pif_building_chemical_plant_economic_modifiers_industrial_jobs_volatile_motes_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		industrial_jobs_are_catalytic_trigger = no
+	}
+	planet_metallurgists_minerals_upkeep_add = @pif_building_chemical_plant_economic_modifiers_planet_metallurgists_minerals_upkeep_add_2
+	planet_artisans_minerals_upkeep_add = @pif_building_chemical_plant_economic_modifiers_planet_artisans_minerals_upkeep_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		industrial_jobs_are_catalytic_trigger = yes
+	}
+	planet_metallurgists_food_upkeep_add = @pif_building_chemical_plant_economic_modifiers_planet_metallurgists_food_upkeep_add_4
+	planet_artisans_food_upkeep_add = @pif_building_chemical_plant_economic_modifiers_planet_artisans_food_upkeep_add_5
+}

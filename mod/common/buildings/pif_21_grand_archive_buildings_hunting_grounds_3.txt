@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_grand_archive_buildings.txt
+# Object type: building
+# Building class: special
+
+hunting_grounds_3 = {
+	base_buildtime = @pif_hunting_grounds_3_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/hunting_grounds_3/building_config"
+	inline_script = "pif/buildings/hunting_grounds_3/availability"
+	inline_script = "pif/buildings/hunting_grounds_3/economy"
+	inline_script = "pif/buildings/hunting_grounds_3/lifecycle"
+	inline_script = "pif/buildings/hunting_grounds_3/jobs"
+	inline_script = "pif/buildings/hunting_grounds_3/country_jobs"
+	inline_script = "pif/buildings/hunting_grounds_3/economic_modifiers"
+	inline_script = "pif/buildings/hunting_grounds_3/pop_modifiers"
+	inline_script = "pif/buildings/hunting_grounds_3/planet_state"
+	inline_script = "pif/buildings/hunting_grounds_3/tpm"
+	inline_script = "pif/buildings/hunting_grounds_3/ai"
+}

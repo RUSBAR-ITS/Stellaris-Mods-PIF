@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_sacrificial_temple_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_death_cult_empire = no
+		}
+		has_modifier = slave_colony
+	}
+}
+
+convert_to = {
+	building_bureaucratic_3
+	building_sacred_nexus
+	building_system_conflux
+	building_hive_confluence
+}

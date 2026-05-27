@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: corrupt_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_jobs
+	upkeep = {
+		energy = @pif_corrupt_drone_job_upkeep_upkeep_energy_1
+	}
+}

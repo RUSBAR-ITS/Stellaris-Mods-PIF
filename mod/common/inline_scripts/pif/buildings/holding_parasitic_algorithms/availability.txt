@@ -1,0 +1,29 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_parasitic_algorithms
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+empire_limit = @pif_holding_parasitic_algorithms_limits_empire_limit_1
+
+potential = {
+	has_overlord_dlc = yes
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = is_capital
+		exists = planet
+		planet = {
+			is_capital = yes
+		}
+	}
+	custom_tooltip = {
+		fail_text = subject_is_scholarium
+		exists = planet.owner
+		planet.owner = {
+			is_specialist_subject_type = {
+				TYPE = scholarium
+			}
+		}
+	}
+}

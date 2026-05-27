@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_crystal_plant
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+# Empty PIF building category hook.

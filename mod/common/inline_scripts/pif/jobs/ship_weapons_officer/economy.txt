@@ -1,0 +1,6 @@
+# PIF job category: ECONOMY
+# Vanilla job: ship_weapons_officer
+# Vanilla class: no_category
+# Vanilla source: pop_jobs/10_paragon_fake_jobs.txt
+
+# Empty PIF job category hook.

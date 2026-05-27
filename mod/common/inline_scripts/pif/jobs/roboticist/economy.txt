@@ -1,0 +1,28 @@
+# PIF job category: ECONOMY
+# Vanilla job: roboticist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_pop_assemblers
+	upkeep = {
+		alloys = @pif_roboticist_job_upkeep_upkeep_alloys_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = synth_unscheduled_updates
+			}
+		}
+		alloys = @pif_roboticist_job_upkeep_upkeep_alloys_2
+	}
+	upkeep = {
+		trigger = {
+			owner = {
+				has_active_tradition = tr_cybernetics_metabolic_reprocessing
+			}
+		}
+		alloys = @pif_roboticist_job_upkeep_upkeep_alloys_3
+	}
+}

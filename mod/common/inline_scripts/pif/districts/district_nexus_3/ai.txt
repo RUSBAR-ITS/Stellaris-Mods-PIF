@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_nexus_3
+# Vanilla source: districts/00_urban_districts.txt
+
+exempt_from_ai_planet_specialization = yes

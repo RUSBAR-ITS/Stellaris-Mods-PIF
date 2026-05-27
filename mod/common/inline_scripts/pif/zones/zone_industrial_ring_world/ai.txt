@@ -1,0 +1,15 @@
+# PIF zone category: AI
+# Vanilla zone: zone_industrial_ring_world
+# Vanilla source: zones/04_secondary_zones.txt
+
+ai_resource_production = {
+	alloys = @pif_zone_industrial_ring_world_ai_ai_resource_production_ai_resource_production_alloys_alloys_1
+	consumer_goods = @pif_zone_industrial_ring_world_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_2
+	trigger = {
+		has_any_industrial_zone = yes
+	}
+}
+
+ai_weight_coefficient = @pif_zone_industrial_ring_world_ai_ai_weight_coefficient_ai_weight_coefficient_3
+
+ai_priority = @pif_zone_industrial_ring_world_ai_ai_priority_ai_priority_4

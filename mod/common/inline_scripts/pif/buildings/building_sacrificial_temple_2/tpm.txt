@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_sacrificial_temple_2
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_ethic_spiritualist_attraction_mult = @pif_building_sacrificial_temple_2_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1
+	planet_bureaucrats_produces_mult = @pif_building_sacrificial_temple_2_economic_modifiers_planet_bureaucrats_produces_mult_1
+}

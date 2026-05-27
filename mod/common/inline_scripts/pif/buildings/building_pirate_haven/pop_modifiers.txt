@@ -1,0 +1,6 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_pirate_haven
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+# Empty PIF building category hook.

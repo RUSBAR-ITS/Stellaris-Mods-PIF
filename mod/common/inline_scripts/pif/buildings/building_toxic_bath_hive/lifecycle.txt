@@ -1,0 +1,16 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_toxic_bath_hive
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_hive_empire = no
+			NOT = {
+				has_valid_civic = civic_hive_toxic_baths
+			}
+		}
+	}
+}

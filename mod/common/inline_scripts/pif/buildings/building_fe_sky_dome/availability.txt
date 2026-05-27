@@ -1,0 +1,39 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_fe_sky_dome
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_build = yes
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_fallen_empire = yes
+			has_technology = tech_fe_dome_1
+			has_country_flag = fe_sky_dome_can_build
+		}
+	}
+	NOT = {
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = ancrel.10004.failtext
+		owner = {
+			OR = {
+				check_variable = {
+					which = fe_sky_dome_build_count
+					value >= 1
+				}
+				is_fallen_empire = yes
+				has_technology = tech_fe_dome_1
+			}
+		}
+	}
+}
+
+show_in_tech = tech_fe_dome_1

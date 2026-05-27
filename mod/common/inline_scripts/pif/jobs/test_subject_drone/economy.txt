@@ -1,0 +1,16 @@
+# PIF job category: ECONOMY
+# Vanilla job: test_subject_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {
+	category = planet_test_subjects
+	produces = {
+		engineering_research = @pif_test_subject_drone_job_output_output_engineering_research_1
+		physics_research = @pif_test_subject_drone_job_output_output_physics_research_2
+		society_research = @pif_test_subject_drone_job_output_output_society_research_3
+	}
+	upkeep = {
+		energy = @pif_test_subject_drone_job_upkeep_upkeep_energy_1
+	}
+}

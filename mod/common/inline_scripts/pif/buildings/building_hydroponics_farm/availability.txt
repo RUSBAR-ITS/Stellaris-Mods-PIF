@@ -1,0 +1,25 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hydroponics_farm
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			country_uses_food = yes
+			is_ai = no
+		}
+		is_wilderness_empire = no
+	}
+	NOT = {
+		is_planet_class = pc_machine
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	"tech_hydroponics"
+}

@@ -1,0 +1,18 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_lathe_super_capital
+# Vanilla class: capital
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+can_demolish = no
+
+can_be_ruined = no
+
+can_be_disabled = no
+
+on_built = {
+	planet = {
+		set_planet_entity = {
+			entity = "neural_calculator_phase_3_entity"
+		}
+	}
+}

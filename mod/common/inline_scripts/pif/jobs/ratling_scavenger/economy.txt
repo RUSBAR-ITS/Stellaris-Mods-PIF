@@ -1,0 +1,13 @@
+# PIF job category: ECONOMY
+# Vanilla job: ratling_scavenger
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		food = @pif_ratling_scavenger_job_output_output_food_1
+		minerals = @pif_ratling_scavenger_job_output_output_minerals_2
+		consumer_goods = @pif_ratling_scavenger_job_output_output_consumer_goods_3
+	}
+}

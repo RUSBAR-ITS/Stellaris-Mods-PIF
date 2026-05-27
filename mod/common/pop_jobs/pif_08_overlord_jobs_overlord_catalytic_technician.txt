@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+overlord_catalytic_technician = {
+	category = specialist
+	inline_script = "pif/jobs/overlord_catalytic_technician/swap"
+	inline_script = "pif/jobs/overlord_catalytic_technician/availability"
+	inline_script = "pif/jobs/overlord_catalytic_technician/pop_config"
+	inline_script = "pif/jobs/overlord_catalytic_technician/economy"
+	inline_script = "pif/jobs/overlord_catalytic_technician/planet_state"
+	inline_script = "pif/jobs/overlord_catalytic_technician/country_modifiers"
+	inline_script = "pif/jobs/overlord_catalytic_technician/pop_modifiers"
+	inline_script = "pif/jobs/overlord_catalytic_technician/economic_modifiers"
+	inline_script = "pif/jobs/overlord_catalytic_technician/tpm"
+}

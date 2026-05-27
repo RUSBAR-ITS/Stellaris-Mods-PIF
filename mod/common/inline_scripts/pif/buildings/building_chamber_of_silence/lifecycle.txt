@@ -1,0 +1,49 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_chamber_of_silence
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_be_disabled = no
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		NOR = {
+			has_tradition = tr_psionics_shroud_psi_corps
+			has_origin = origin_endbringers
+		}
+	}
+}
+
+on_built = {
+	owner = {
+		set_variable = {
+			which = num_chambers_of_silence
+			value = value:count_building_chamber_of_silence
+		}
+		refresh_endbringers_paranoia_modifier = yes
+		refresh_endbringers_madness_modifier = yes
+	}
+}
+
+on_destroy = {
+	owner = {
+		set_variable = {
+			which = num_chambers_of_silence
+			value = value:count_building_chamber_of_silence
+		}
+		refresh_endbringers_paranoia_modifier = yes
+		refresh_endbringers_madness_modifier = yes
+	}
+}
+
+on_repaired = {
+	owner = {
+		set_variable = {
+			which = num_chambers_of_silence
+			value = value:count_building_chamber_of_silence
+		}
+		refresh_endbringers_paranoia_modifier = yes
+		refresh_endbringers_madness_modifier = yes
+	}
+}

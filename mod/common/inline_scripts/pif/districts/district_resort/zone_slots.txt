@@ -1,0 +1,9 @@
+# PIF category: ZONE_SLOTS
+# Vanilla district: district_resort
+# Vanilla source: districts/00_urban_districts.txt
+
+zone_slots = {
+	slot_city_government
+	slot_resort_01
+	slot_resort_02
+}

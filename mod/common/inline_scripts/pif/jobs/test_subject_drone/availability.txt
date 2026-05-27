@@ -1,0 +1,11 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: test_subject_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+is_capped_by_modifier = @pif_test_subject_drone_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_planet = yes
+	is_sapient = yes
+}

@@ -1,0 +1,13 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_sentinel_posts
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	NOT = {
+		owner = {
+			is_gestalt = yes
+		}
+	}
+}

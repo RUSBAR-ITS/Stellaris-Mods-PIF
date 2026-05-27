@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_medical_3
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+building_sets = {
+	government
+	urban
+	medical
+}

@@ -1,0 +1,6 @@
+# PIF job category: TPM
+# Vanilla job: extradimensional_research_unit
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+# Empty PIF job category hook.

@@ -1,0 +1,44 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: skywatcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = "tech_ground_defense_planning"
+		}
+	}
+	country_naval_cap_add = @pif_skywatcher_country_modifiers_country_naval_cap_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			any_owned_leader = {
+				is_councilor = yes
+				has_trait = leader_trait_bellicose
+			}
+		}
+	}
+	country_naval_cap_add = @pif_skywatcher_country_modifiers_country_naval_cap_add_2
+	mult = value:bellicose_naval_cap
+}
+
+triggered_country_modifier = {
+	potential = {
+		planet = {
+			has_deposit = d_abandoned_black_needle_base
+		}
+	}
+	country_naval_cap_add = @pif_skywatcher_country_modifiers_country_naval_cap_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_naval_cap_add = @pif_skywatcher_country_modifiers_country_naval_cap_add_3
+}

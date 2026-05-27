@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/07_fallen_empire_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+fe_maintenance_bot = {
+	category = precursor
+	inline_script = "pif/jobs/fe_maintenance_bot/swap"
+	inline_script = "pif/jobs/fe_maintenance_bot/availability"
+	inline_script = "pif/jobs/fe_maintenance_bot/pop_config"
+	inline_script = "pif/jobs/fe_maintenance_bot/economy"
+	inline_script = "pif/jobs/fe_maintenance_bot/planet_state"
+	inline_script = "pif/jobs/fe_maintenance_bot/country_modifiers"
+	inline_script = "pif/jobs/fe_maintenance_bot/pop_modifiers"
+	inline_script = "pif/jobs/fe_maintenance_bot/economic_modifiers"
+	inline_script = "pif/jobs/fe_maintenance_bot/tpm"
+}

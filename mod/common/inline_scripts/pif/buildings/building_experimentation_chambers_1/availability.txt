@@ -1,0 +1,23 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_experimentation_chambers_1
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_twisted_experimenters_empire = yes
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}
+
+prerequisites = {
+	"tech_basic_science_lab_1"
+}
+
+show_tech_unlock_if = {
+	is_twisted_experimenters_empire = yes
+}

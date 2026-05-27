@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_advanced_storm_resistant_production
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+# Empty PIF building category hook.

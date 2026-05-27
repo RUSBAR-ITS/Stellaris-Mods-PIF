@@ -1,0 +1,42 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_park_ranger_lodge
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_park_ranger_lodge_limits_planet_limit_1
+
+potential = {
+	owner = {
+		NOT = {
+			has_valid_civic = civic_environmentalist
+		}
+		overlord = {
+			has_valid_civic = civic_environmentalist
+		}
+	}
+	NOR = {
+		is_planet_class = pc_city
+		is_planet_class = pc_hive
+		is_planet_class = pc_machine
+		is_planet_class = pc_relic
+	}
+	is_artificial = no
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = no_free_district_for_ranger_lodge
+		planet = {
+			num_free_districts = {
+				type = any
+				value > 0
+			}
+		}
+	}
+	custom_tooltip = {
+		fail_text = no_ranger_lodge_wilderness
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+}

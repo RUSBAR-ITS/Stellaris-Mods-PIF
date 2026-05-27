@@ -1,0 +1,7 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_rw_commercial
+# Vanilla source: districts/04_ringworld_districts.txt
+
+convert_to = {
+	district_rw_generator
+}

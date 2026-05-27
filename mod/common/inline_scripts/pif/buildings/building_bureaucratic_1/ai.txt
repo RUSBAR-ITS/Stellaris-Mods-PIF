@@ -1,0 +1,8 @@
+# PIF building category: AI
+# Vanilla building: building_bureaucratic_1
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+exempt_from_ai_planet_specialization = no
+
+ai_weight_coefficient = @pif_building_bureaucratic_1_ai_ai_weight_coefficient_1

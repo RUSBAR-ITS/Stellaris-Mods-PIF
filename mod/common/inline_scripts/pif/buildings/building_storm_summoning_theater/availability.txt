@@ -1,0 +1,19 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_storm_summoning_theater
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+planet_limit = @pif_building_storm_summoning_theater_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_storm_callers_empire = yes
+	}
+}
+
+allow = {
+	solar_system = {
+		system_has_storm_repelling_tech = no
+	}
+}

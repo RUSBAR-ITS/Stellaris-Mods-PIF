@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_generator
+# Vanilla source: districts/02_rural_districts.txt
+
+ai_weight_coefficient = @pif_district_generator_ai_ai_weight_coefficient

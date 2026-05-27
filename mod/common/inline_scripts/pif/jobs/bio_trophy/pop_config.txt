@@ -1,0 +1,33 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: bio_trophy
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+can_be_automated = @pif_bio_trophy_job_flags_can_be_automated_1
+
+tags = {
+	unity
+}
+
+promotion = {
+	time = @pif_bio_trophy_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = bio_trophy
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+weight = {
+	weight = @pif_bio_trophy_job_weight_weight_1
+}
+
+auto_trait_prio = {
+	trait_charismatic
+	trait_crafted_smiles
+	trait_robot_emotion_emulators
+	trait_cyborg_stainless_steel_smile
+	trait_malleable_ameneties
+	trait_adaptive_amenities
+}

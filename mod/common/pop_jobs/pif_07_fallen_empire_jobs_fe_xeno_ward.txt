@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/07_fallen_empire_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+fe_xeno_ward = {
+	category = xeno_ward
+	inline_script = "pif/jobs/fe_xeno_ward/swap"
+	inline_script = "pif/jobs/fe_xeno_ward/availability"
+	inline_script = "pif/jobs/fe_xeno_ward/pop_config"
+	inline_script = "pif/jobs/fe_xeno_ward/economy"
+	inline_script = "pif/jobs/fe_xeno_ward/planet_state"
+	inline_script = "pif/jobs/fe_xeno_ward/country_modifiers"
+	inline_script = "pif/jobs/fe_xeno_ward/pop_modifiers"
+	inline_script = "pif/jobs/fe_xeno_ward/economic_modifiers"
+	inline_script = "pif/jobs/fe_xeno_ward/tpm"
+}

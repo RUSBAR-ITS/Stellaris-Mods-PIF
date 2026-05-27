@@ -1,0 +1,32 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_dimensional_fabricator
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+resources = {
+	category = planet_buildings
+	produces = {
+		rare_crystals = @pif_building_dimensional_fabricator_economic_modifiers_produces_rare_crystals_1
+		exotic_gases = @pif_building_dimensional_fabricator_economic_modifiers_produces_exotic_gases_2
+		volatile_motes = @pif_building_dimensional_fabricator_economic_modifiers_produces_volatile_motes_3
+		sr_zro = @pif_building_dimensional_fabricator_economic_modifiers_produces_sr_zro_4
+		sr_dark_matter = @pif_building_dimensional_fabricator_economic_modifiers_produces_sr_dark_matter_5
+		sr_living_metal = @pif_building_dimensional_fabricator_economic_modifiers_produces_sr_living_metal_6
+		nanites = @pif_building_dimensional_fabricator_economic_modifiers_produces_nanites_7
+	}
+	cost = {
+		alloys = @pif_building_dimensional_fabricator_cost_cost_alloys_1
+	}
+	upkeep = {
+		alloys = @pif_building_dimensional_fabricator_upkeep_upkeep_alloys_1
+		energy = @pif_building_dimensional_fabricator_upkeep_upkeep_energy_2
+	}
+	cost = {
+		trigger = {
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_building_dimensional_fabricator_cost_cost_biomass_2
+	}
+}

@@ -1,0 +1,27 @@
+# PIF job category: ECONOMY
+# Vanilla job: fe_acolyte_artisan
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		consumer_goods = @pif_fe_acolyte_artisan_job_output_output_consumer_goods_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_factory_2
+			}
+		}
+		consumer_goods = @pif_fe_acolyte_artisan_job_output_output_consumer_goods_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_factory_3
+			}
+		}
+		consumer_goods = @pif_fe_acolyte_artisan_job_output_output_consumer_goods_3
+	}
+}

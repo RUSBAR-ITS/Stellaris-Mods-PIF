@@ -1,0 +1,24 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: fotd_protectors
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+tags = {
+	crime
+	enforcer
+}
+
+weight = {
+	weight = @pif_fotd_protectors_job_weight_weight_1
+	modifier = {
+		factor = @pif_fotd_protectors_job_weight_factor_2
+		exists = planet
+		exists = planet.controller
+		planet.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+			}
+		}
+	}
+}

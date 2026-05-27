@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_slave_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+# Empty PIF building category hook.

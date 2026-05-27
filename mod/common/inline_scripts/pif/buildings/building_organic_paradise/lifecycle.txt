@@ -1,0 +1,18 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_organic_paradise
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	NOT = {
+		owner = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}
+
+convert_to = {
+	building_paradise_dome
+	building_communal_housing_large
+}

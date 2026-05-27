@@ -1,0 +1,16 @@
+# PIF building category: TPM
+# Vanilla building: building_brain_node_4
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_physicists_physics_research_produces_add = @pif_building_brain_node_4_economic_modifiers_planet_physicists_physics_research_produces_add_1
+	planet_biologists_society_research_produces_add = @pif_building_brain_node_4_economic_modifiers_planet_biologists_society_research_produces_add_2
+	planet_engineers_engineering_research_produces_add = @pif_building_brain_node_4_economic_modifiers_planet_engineers_engineering_research_produces_add_3
+	pop_calculator_physicist_bonus_workforce_mult = @pif_building_brain_node_4_pop_modifiers_pop_calculator_physicist_bonus_workforce_mult_1
+	pop_calculator_biologist_bonus_workforce_mult = @pif_building_brain_node_4_pop_modifiers_pop_calculator_biologist_bonus_workforce_mult_2
+	pop_calculator_engineer_bonus_workforce_mult = @pif_building_brain_node_4_pop_modifiers_pop_calculator_engineer_bonus_workforce_mult_3
+}

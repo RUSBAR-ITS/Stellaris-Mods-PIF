@@ -1,0 +1,43 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_archaeo_refinery
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_exotic_gases_produces_mult = @pif_building_archaeo_refinery_economic_modifiers_planet_jobs_exotic_gases_produces_mult_1
+	planet_jobs_rare_crystals_produces_mult = @pif_building_archaeo_refinery_economic_modifiers_planet_jobs_rare_crystals_produces_mult_2
+	planet_jobs_volatile_motes_produces_mult = @pif_building_archaeo_refinery_economic_modifiers_planet_jobs_volatile_motes_produces_mult_3
+	industrial_jobs_exotic_gases_produces_add = @pif_building_archaeo_refinery_economic_modifiers_industrial_jobs_exotic_gases_produces_add_4
+	industrial_jobs_rare_crystals_produces_add = @pif_building_archaeo_refinery_economic_modifiers_industrial_jobs_rare_crystals_produces_add_5
+	industrial_jobs_volatile_motes_produces_add = @pif_building_archaeo_refinery_economic_modifiers_industrial_jobs_volatile_motes_produces_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	planet_jobs_exotic_gases_produces_mult = @pif_building_archaeo_refinery_economic_modifiers_planet_jobs_exotic_gases_produces_mult_7
+	planet_jobs_rare_crystals_produces_mult = @pif_building_archaeo_refinery_economic_modifiers_planet_jobs_rare_crystals_produces_mult_8
+	planet_jobs_volatile_motes_produces_mult = @pif_building_archaeo_refinery_economic_modifiers_planet_jobs_volatile_motes_produces_mult_9
+}
+
+triggered_planet_modifier = {
+	potential = {
+		industrial_jobs_are_catalytic_trigger = no
+	}
+	planet_metallurgists_minerals_upkeep_add = @pif_building_archaeo_refinery_economic_modifiers_planet_metallurgists_minerals_upkeep_add_10
+	planet_artisans_minerals_upkeep_add = @pif_building_archaeo_refinery_economic_modifiers_planet_artisans_minerals_upkeep_add_11
+}
+
+triggered_planet_modifier = {
+	potential = {
+		industrial_jobs_are_catalytic_trigger = yes
+	}
+	planet_metallurgists_food_upkeep_add = @pif_building_archaeo_refinery_economic_modifiers_planet_metallurgists_food_upkeep_add_12
+	planet_artisans_food_upkeep_add = @pif_building_archaeo_refinery_economic_modifiers_planet_artisans_food_upkeep_add_13
+}

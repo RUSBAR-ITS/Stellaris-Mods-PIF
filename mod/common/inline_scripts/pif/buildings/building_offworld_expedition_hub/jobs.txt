@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: building_offworld_expedition_hub
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_offworld_prospector_add = @pif_building_offworld_expedition_hub_jobs_job_offworld_prospector_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_offworld_prospector_drone_add = @pif_building_offworld_expedition_hub_jobs_job_offworld_prospector_drone_add_2
+}

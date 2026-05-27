@@ -1,0 +1,46 @@
+# PIF job category: ECONOMY
+# Vanilla job: spe_colonist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid_empire = no
+				is_infernal_empire = no
+				is_individual_machine = no
+			}
+		}
+		food = @pif_spe_colonist_job_output_output_food_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_lithoid_empire = yes
+			}
+		}
+		minerals = @pif_spe_colonist_job_output_output_minerals_2
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_infernal_empire = yes
+			}
+		}
+		alloys = @pif_spe_colonist_job_output_output_alloys_3
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_individual_machine = yes
+			}
+		}
+		energy = @pif_spe_colonist_job_output_output_energy_4
+	}
+}

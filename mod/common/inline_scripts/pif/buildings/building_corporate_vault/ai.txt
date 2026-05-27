@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_corporate_vault
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+# Empty PIF building category hook.

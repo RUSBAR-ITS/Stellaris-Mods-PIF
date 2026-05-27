@@ -1,0 +1,417 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: CONVERSION
+# District conversion ratios used when districts convert to another type.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_arcology_housing
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_arcology_housing
+# Used by: common/inline_scripts/pif/districts/district_arcology_housing/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_arcology_housing_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_leisure
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_arcology_leisure_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_1
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_arcology_urban_1
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_1/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_arcology_urban_1_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_2
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_arcology_urban_2
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_2/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_arcology_urban_2_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_3
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_arcology_urban_3
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_3/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_arcology_urban_3_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_battle_thrall
+# Used by: common/inline_scripts/pif/districts/district_battle_thrall/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_battle_thrall_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_city
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_city_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_craglands
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_craglands_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_crashed_slaver_ship
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_crashed_slaver_ship
+# Used by: common/inline_scripts/pif/districts/district_crashed_slaver_ship/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_crashed_slaver_ship_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_farming
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_farming_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_farming_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_farming_uncapped
+# Used by: common/inline_scripts/pif/districts/district_farming_uncapped/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_farming_uncapped_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_generator
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_generator_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_generator_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_generator_uncapped
+# Used by: common/inline_scripts/pif/districts/district_generator_uncapped/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_generator_uncapped_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_geothermal
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_geothermal_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_hive
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_hive_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_hive_1
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_hive_1
+# Used by: common/inline_scripts/pif/districts/district_hive_1/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_hive_1_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_hive_2
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_hive_2
+# Used by: common/inline_scripts/pif/districts/district_hive_2/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_hive_2_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_hive_3
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_hive_3
+# Used by: common/inline_scripts/pif/districts/district_hive_3/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_hive_3_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_hollow_mountains_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_hollow_mountains_uncapped
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains_uncapped/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_hollow_mountains_uncapped_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_melting
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_melting_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_mindlink
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_mindlink_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_mining
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_mining_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_mining_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_mining_uncapped
+# Used by: common/inline_scripts/pif/districts/district_mining_uncapped/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_mining_uncapped_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_nexus
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_nexus_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_1
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_nexus_1
+# Used by: common/inline_scripts/pif/districts/district_nexus_1/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_nexus_1_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_2
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_nexus_2
+# Used by: common/inline_scripts/pif/districts/district_nexus_2/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_nexus_2_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_3
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_nexus_3
+# Used by: common/inline_scripts/pif/districts/district_nexus_3/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_nexus_3_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_orchard_forests_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_orchard_forests_uncapped
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests_uncapped/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_orchard_forests_uncapped_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_photosynthesis_fields_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_photosynthesis_fields_uncapped
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields_uncapped/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_photosynthesis_fields_uncapped_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_polytechnic
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_polytechnic_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_prison
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_prison_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_prison_industrial
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_prison_industrial_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_resort
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_resort_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_rw_city
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_rw_city_conversion_conversion_ratio = 0.5
+
+
+# -----------------------------------------------------------------------------
+# district_rw_hive
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_rw_hive
+# Used by: common/inline_scripts/pif/districts/district_rw_hive/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_rw_hive_conversion_conversion_ratio = 0.5
+
+
+# -----------------------------------------------------------------------------
+# district_rw_nexus
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_rw_nexus
+# Used by: common/inline_scripts/pif/districts/district_rw_nexus/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_rw_nexus_conversion_conversion_ratio = 0.5
+
+
+# -----------------------------------------------------------------------------
+# district_slave
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_slave_conversion_conversion_ratio = 1
+
+
+# -----------------------------------------------------------------------------
+# district_srw_commercial
+# -----------------------------------------------------------------------------
+# Controls: District conversion ratio used during district type conversion.
+# District: district_srw_commercial
+# Used by: common/inline_scripts/pif/districts/district_srw_commercial/lifecycle.txt
+# Contexts: conversion_ratio
+@pif_district_srw_commercial_conversion_conversion_ratio = 1

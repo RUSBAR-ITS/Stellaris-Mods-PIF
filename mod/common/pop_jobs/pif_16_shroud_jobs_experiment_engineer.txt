@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/16_shroud_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+experiment_engineer = {
+	category = specialist
+	inline_script = "pif/jobs/experiment_engineer/swap"
+	inline_script = "pif/jobs/experiment_engineer/availability"
+	inline_script = "pif/jobs/experiment_engineer/pop_config"
+	inline_script = "pif/jobs/experiment_engineer/economy"
+	inline_script = "pif/jobs/experiment_engineer/planet_state"
+	inline_script = "pif/jobs/experiment_engineer/country_modifiers"
+	inline_script = "pif/jobs/experiment_engineer/pop_modifiers"
+	inline_script = "pif/jobs/experiment_engineer/economic_modifiers"
+	inline_script = "pif/jobs/experiment_engineer/tpm"
+}

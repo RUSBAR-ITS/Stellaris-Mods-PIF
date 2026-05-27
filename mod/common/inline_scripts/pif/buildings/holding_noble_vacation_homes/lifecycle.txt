@@ -1,0 +1,20 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_noble_vacation_homes
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+on_built = {
+	planet = {
+		owner.overlord.capital_scope = {
+			append_noble_vacation_home = yes
+			refresh_noble_vacation_home_modifier = yes
+		}
+	}
+}
+
+on_destroy = {
+	owner.overlord.capital_scope = {
+		remove_noble_vacation_home = yes
+		refresh_noble_vacation_home_modifier = yes
+	}
+}

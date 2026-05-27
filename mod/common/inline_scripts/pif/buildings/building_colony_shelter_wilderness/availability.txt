@@ -1,0 +1,13 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_colony_shelter_wilderness
+# Vanilla class: capital
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}

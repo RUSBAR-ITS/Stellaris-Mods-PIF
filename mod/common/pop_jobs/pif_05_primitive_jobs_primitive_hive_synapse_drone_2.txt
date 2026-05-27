@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+primitive_hive_synapse_drone_2 = {
+	category = complex_drone
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/swap"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/availability"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/pop_config"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/economy"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/planet_state"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/country_modifiers"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/pop_modifiers"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/economic_modifiers"
+	inline_script = "pif/jobs/primitive_hive_synapse_drone_2/tpm"
+}

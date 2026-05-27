@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_mote_harvesters
+# Vanilla class: regular
+# Vanilla source: buildings/10_deposit_buildings.txt
+
+planet_limit = @pif_building_mote_harvesters_limits_planet_limit_1
+
+potential = {
+	owner = {
+		is_wilderness_empire = no
+	}
+	has_volatile_motes_deposit = yes
+}
+
+prerequisites = {
+	"tech_mine_volatile_motes"
+}

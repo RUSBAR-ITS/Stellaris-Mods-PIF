@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_cradle_of_rebirth
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+building_sets = {
+	government
+}

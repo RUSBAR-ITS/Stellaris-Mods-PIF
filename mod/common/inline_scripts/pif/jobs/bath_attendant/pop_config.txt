@@ -1,0 +1,8 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: bath_attendant
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+weight = {
+	weight = @pif_bath_attendant_job_weight_weight_1
+}

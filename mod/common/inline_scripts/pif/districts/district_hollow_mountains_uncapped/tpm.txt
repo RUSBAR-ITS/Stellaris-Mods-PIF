@@ -1,0 +1,5 @@
+# PIF category: TPM
+# Vanilla district: district_hollow_mountains_uncapped
+# Vanilla source: districts/05_wilderness_districts.txt
+
+

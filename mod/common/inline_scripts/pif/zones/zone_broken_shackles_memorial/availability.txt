@@ -1,0 +1,11 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_broken_shackles_memorial
+# Vanilla source: zones/02_special_zones.txt
+
+potential = {
+	always = no
+}
+
+unlock = {
+	always = no
+}

@@ -1,0 +1,33 @@
+# PIF job category: ECONOMY
+# Vanilla job: augmentor
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_augmentors
+	produces = {
+		trigger = {
+			is_cyborg_empire = no
+		}
+		society_research = @pif_augmentor_job_output_output_society_research_1
+		engineering_research = @pif_augmentor_job_output_output_engineering_research_2
+	}
+	produces = {
+		trigger = {
+			is_cyborg_empire = yes
+		}
+		society_research = @pif_augmentor_job_output_output_society_research_3
+		engineering_research = @pif_augmentor_job_output_output_engineering_research_4
+	}
+	upkeep = {
+		alloys = @pif_augmentor_job_upkeep_upkeep_alloys_1
+	}
+	upkeep = {
+		trigger = {
+			owner = {
+				has_active_tradition = tr_cybernetics_metabolic_reprocessing
+			}
+		}
+		alloys = @pif_augmentor_job_upkeep_upkeep_alloys_2
+	}
+}

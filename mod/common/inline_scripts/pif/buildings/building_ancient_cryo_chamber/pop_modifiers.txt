@@ -1,0 +1,15 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_ancient_cryo_chamber
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire = no
+		}
+	}
+	BIOLOGICAL_species_trait_picks_add = @pif_building_ancient_cryo_chamber_pop_modifiers_biological_species_trait_picks_add_1
+	BIOLOGICAL_species_trait_points_add = @pif_building_ancient_cryo_chamber_pop_modifiers_biological_species_trait_points_add_2
+}

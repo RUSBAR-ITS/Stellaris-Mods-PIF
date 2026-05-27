@@ -1,0 +1,13 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_nuumismatic_shrine
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+can_demolish = yes
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_regular_empire = no
+	}
+}

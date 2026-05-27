@@ -1,0 +1,34 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: manufactorium_scraper_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	minerals
+	alloys
+	research
+}
+
+weight = {
+	weight = @pif_manufactorium_scraper_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|manufactorium_scraper_drone|RESOURCE|minerals|
+}
+
+auto_trait_prio = {
+	trait_industrious
+	trait_crack_miner
+	trait_robot_power_drills
+	trait_cyborg_power_drills
+	trait_malleable_minerals
+	trait_adaptive_minerals
+}
+
+promotion = {
+	time = @pif_manufactorium_scraper_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

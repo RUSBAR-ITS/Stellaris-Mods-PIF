@@ -1,0 +1,21 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: purge_labor_camps
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_purge_labor_camps_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = yes
+}
+
+possible = {
+	OR = {
+		has_purge_type = {
+			type = purge_labor_camps
+			country = owner
+		}
+		has_pop_group_flag = event_purge
+	}
+}

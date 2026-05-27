@@ -1,0 +1,7 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_photosynthesis_fields_uncapped
+# Vanilla source: districts/05_wilderness_districts.txt
+
+potential = {
+	always = no
+}

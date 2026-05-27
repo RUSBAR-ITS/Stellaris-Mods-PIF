@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_crystal_plant
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_crystal_plant_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_crystal_plant_upkeep_upkeep_energy_1
+	}
+}

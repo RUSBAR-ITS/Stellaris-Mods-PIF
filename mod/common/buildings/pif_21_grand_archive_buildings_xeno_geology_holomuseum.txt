@@ -1,0 +1,38 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_grand_archive_buildings.txt
+# Object type: building
+# Building class: special
+
+xeno_geology_holomuseum = {
+	base_buildtime = @pif_xeno_geology_holomuseum_construction_base_buildtime_1
+	category = amenity
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+			}
+		}
+		text = entertainers_are_curators_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = evaluators_are_curator_drones_tt
+	}
+	inline_script = "pif/buildings/xeno_geology_holomuseum/building_config"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/availability"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/economy"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/lifecycle"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/jobs"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/country_jobs"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/economic_modifiers"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/pop_modifiers"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/planet_state"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/tpm"
+	inline_script = "pif/buildings/xeno_geology_holomuseum/ai"
+}

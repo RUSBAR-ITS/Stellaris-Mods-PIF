@@ -1,0 +1,191 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: dystopian_telepath
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet
+		planet = {
+			has_modifier = anticrime_campaign
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_dystopian_telepath_planet_state_planet_crime_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_dictatorial_authority = yes
+			is_mutation_authority = yes
+			NOT = {
+				has_origin = origin_evolutionary_predators
+			}
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_dystopian_telepath_planet_state_planet_crime_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = maverick_citizens_flag
+		}
+	}
+	modifier = {
+		planet_stability_add = @pif_dystopian_telepath_planet_state_planet_stability_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	modifier = {
+		planet_stability_add = @pif_dystopian_telepath_planet_state_planet_stability_add_3
+	}
+	mult = planet.modifier:job_enforcer_stability_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		enforcer_is_educator_trigger = no
+	}
+	planet_defense_armies_add = @pif_dystopian_telepath_planet_state_planet_defense_armies_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		enforcer_is_educator_trigger = no
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	planet_crime_no_happiness_add = @pif_dystopian_telepath_planet_state_planet_crime_no_happiness_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		enforcer_is_educator_trigger = no
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	planet_crime_add = @pif_dystopian_telepath_planet_state_planet_crime_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		enforcer_is_educator_trigger = yes
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	planet_crime_no_happiness_add = @pif_dystopian_telepath_planet_state_planet_crime_no_happiness_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_edict = thought_enforcement
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_dystopian_telepath_planet_state_planet_crime_add_7
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_edict = thought_enforcement_gestalt
+		}
+	}
+	modifier = {
+		planet_crime_no_happiness_add = @pif_dystopian_telepath_planet_state_planet_crime_no_happiness_add_8
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = instrument_covenant_confirmed
+			is_gestalt = no
+		}
+	}
+	planet_amenities_add = @pif_dystopian_telepath_planet_state_planet_amenities_add_9
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = instrument_covenant_rank_1
+			is_gestalt = no
+		}
+	}
+	planet_amenities_add = @pif_dystopian_telepath_planet_state_planet_amenities_add_10
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_covenant_with_the_instrument_of_desire = yes
+			is_gestalt = yes
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_dystopian_telepath_planet_state_planet_amenities_no_happiness_add_11
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_psionics_shroud_psychometry
+			is_gestalt = yes
+		}
+	}
+	planet_crime_no_happiness_add = @pif_dystopian_telepath_planet_state_planet_crime_no_happiness_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_psionics_shroud_psychometry
+			is_gestalt = no
+		}
+	}
+	planet_crime_add = @pif_dystopian_telepath_planet_state_planet_crime_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = golden_dream_accord
+			is_gestalt = yes
+		}
+	}
+	planet_stability_mult = @pif_dystopian_telepath_planet_state_planet_stability_mult_12
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = throne_shadow_accord
+		}
+	}
+	planet_defense_armies_add = @pif_dystopian_telepath_planet_state_planet_defense_armies_add_4
+}

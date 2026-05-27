@@ -1,0 +1,28 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: xeno_zoo_animal_nascent
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+is_capped_by_modifier = @pif_xeno_zoo_animal_nascent_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_sapient = no
+}
+
+possible = {
+	planet = {
+		exists = owner
+		owner = {
+			has_policy_flag = pre_sapients_protect
+			NOT = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		OR = {
+			has_active_building = building_xeno_zoo
+			has_deposit = d_genesis_preserve
+		}
+	}
+	has_trait = trait_nascent_stage
+	is_lithoid = no
+}

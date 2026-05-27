@@ -1,0 +1,33 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_offspring_drone_feeder
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_offspring_drone_feeder
+	upkeep = {
+		trigger = {
+			exists = owner.overlord
+			owner.overlord = {
+				is_lithoid = yes
+			}
+		}
+		minerals = @pif_overlord_offspring_drone_feeder_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner.overlord
+			owner.overlord = {
+				country_uses_food = yes
+			}
+		}
+		food = @pif_overlord_offspring_drone_feeder_job_upkeep_upkeep_food_2
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_offspring_drone_feeder
+	produces = {
+		society_research = @pif_overlord_offspring_drone_feeder_overlord_output_overlord_output_society_research_1
+	}
+}

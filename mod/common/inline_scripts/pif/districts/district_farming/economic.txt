@@ -1,0 +1,38 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_farming
+# Vanilla source: districts/02_rural_districts.txt
+
+resources = {
+	category = planet_districts_farming
+	cost = {
+		minerals = @pif_district_farming_construction_build_cost_minerals
+		trigger = {
+			NOT = {
+				has_modifier = wooden_planet
+			}
+		}
+	}
+	cost = {
+		food = @pif_district_farming_construction_build_cost_food
+		trigger = {
+			has_modifier = wooden_planet
+		}
+	}
+	cost = {
+		trigger = {
+			AND = {
+				exists = owner
+				owner = {
+					is_anglers_empire = yes
+				}
+				planet = {
+					has_climate = wet
+				}
+			}
+		}
+		minerals = @pif_district_farming_construction_build_cost_minerals_2
+	}
+	upkeep = {
+		energy = @pif_district_farming_economy_district_upkeep_energy
+	}
+}

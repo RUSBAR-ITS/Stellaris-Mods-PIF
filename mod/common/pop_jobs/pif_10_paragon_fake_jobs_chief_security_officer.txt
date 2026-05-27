@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/10_paragon_fake_jobs.txt
+# Object type: pop_job
+# Job class: no_category
+
+chief_security_officer = {
+	inline_script = "pif/jobs/chief_security_officer/swap"
+	inline_script = "pif/jobs/chief_security_officer/availability"
+	inline_script = "pif/jobs/chief_security_officer/pop_config"
+	inline_script = "pif/jobs/chief_security_officer/economy"
+	inline_script = "pif/jobs/chief_security_officer/planet_state"
+	inline_script = "pif/jobs/chief_security_officer/country_modifiers"
+	inline_script = "pif/jobs/chief_security_officer/pop_modifiers"
+	inline_script = "pif/jobs/chief_security_officer/economic_modifiers"
+	inline_script = "pif/jobs/chief_security_officer/tpm"
+}

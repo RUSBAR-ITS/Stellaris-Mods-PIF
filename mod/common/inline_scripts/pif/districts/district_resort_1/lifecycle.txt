@@ -1,0 +1,5 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_resort_1
+# Vanilla source: districts/00_urban_districts.txt
+
+

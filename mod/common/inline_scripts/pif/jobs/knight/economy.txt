@@ -1,0 +1,38 @@
+# PIF job category: ECONOMY
+# Vanilla job: knight
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_knights
+	produces = {
+		trigger = {
+			exists = owner
+		}
+		unity = @pif_knight_job_output_output_unity_1
+		mult = value:knights_unity_output_modifier
+	}
+	produces = {
+		trigger = {
+			exists = owner
+		}
+		physics_research = @pif_knight_job_output_output_physics_research_2
+		engineering_research = @pif_knight_job_output_output_engineering_research_3
+		society_research = @pif_knight_job_output_output_society_research_4
+		mult = value:knights_research_output_modifier
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = cosmogenesis_knights
+			}
+		}
+		advanced_logic = @pif_knight_job_output_output_advanced_logic_5
+		mult = value:knights_research_output_modifier
+	}
+	upkeep = {
+		alloys = @pif_knight_job_upkeep_upkeep_alloys_1
+		mult = value:knights_upkeep_modifier
+	}
+}

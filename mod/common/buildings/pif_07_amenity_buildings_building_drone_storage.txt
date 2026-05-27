@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_drone_storage = {
+	base_buildtime = @pif_building_drone_storage_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_drone_storage/building_config"
+	inline_script = "pif/buildings/building_drone_storage/availability"
+	inline_script = "pif/buildings/building_drone_storage/economy"
+	inline_script = "pif/buildings/building_drone_storage/lifecycle"
+	inline_script = "pif/buildings/building_drone_storage/jobs"
+	inline_script = "pif/buildings/building_drone_storage/country_jobs"
+	inline_script = "pif/buildings/building_drone_storage/economic_modifiers"
+	inline_script = "pif/buildings/building_drone_storage/pop_modifiers"
+	inline_script = "pif/buildings/building_drone_storage/planet_state"
+	inline_script = "pif/buildings/building_drone_storage/tpm"
+	inline_script = "pif/buildings/building_drone_storage/ai"
+}

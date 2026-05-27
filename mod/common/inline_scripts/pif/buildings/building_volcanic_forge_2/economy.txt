@@ -1,0 +1,16 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_volcanic_forge_2
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_volcanic_forge_2_cost_cost_minerals_1
+		exotic_gases = @pif_building_volcanic_forge_2_cost_cost_exotic_gases_2
+	}
+	upkeep = {
+		energy = @pif_building_volcanic_forge_2_upkeep_upkeep_energy_1
+		exotic_gases = @pif_building_volcanic_forge_2_upkeep_upkeep_exotic_gases_2
+	}
+}

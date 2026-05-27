@@ -1,0 +1,48 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: mortal_initiate
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+can_be_automated = @pif_mortal_initiate_job_flags_can_be_automated_1
+
+tags = {
+	unity
+	research
+	amenities
+}
+
+weight = {
+	weight = @pif_mortal_initiate_job_weight_weight_1
+	mult = value:job_weights_multiple_resources_modifier|JOB|mortal_initiate|RESOURCE1|unity|WEIGHT1|0.5|RESOURCE2|society_research|WEIGHT2|0.3|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_mortal_initiate_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_mortal_initiate_job_weight_factor_3
+		can_take_servant_job = yes
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_mortal_initiate_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

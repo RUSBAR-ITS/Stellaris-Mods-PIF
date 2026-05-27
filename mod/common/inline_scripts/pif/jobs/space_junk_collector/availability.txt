@@ -1,0 +1,11 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: space_junk_collector
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_specialist_job

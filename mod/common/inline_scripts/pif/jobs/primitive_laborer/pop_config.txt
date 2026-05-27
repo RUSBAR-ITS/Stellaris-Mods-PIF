@@ -1,0 +1,20 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: primitive_laborer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+tags = {}
+
+weight = {
+	weight = @pif_primitive_laborer_job_weight_weight_1
+}
+
+promotion = {
+	time = @pif_primitive_laborer_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

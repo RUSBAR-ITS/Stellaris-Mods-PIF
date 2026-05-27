@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_state_academy
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	NOT = {
+		owner = {
+			has_valid_civic = civic_civil_education
+		}
+	}
+}
+
+convert_to = {
+	building_precinct_house
+}
+
+upgrades = {
+	building_center_of_guidance
+}

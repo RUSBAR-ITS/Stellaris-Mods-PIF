@@ -1,0 +1,14 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: overlord_ranger_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			country_uses_consumer_goods = yes
+		}
+	}
+	planet_pops_consumer_goods_upkeep_mult = @pif_overlord_ranger_drone_economic_modifiers_planet_pops_consumer_goods_upkeep_mult_1
+}

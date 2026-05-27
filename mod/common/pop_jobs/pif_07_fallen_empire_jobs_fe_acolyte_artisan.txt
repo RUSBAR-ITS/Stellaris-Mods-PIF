@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/07_fallen_empire_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+fe_acolyte_artisan = {
+	category = precursor
+	inline_script = "pif/jobs/fe_acolyte_artisan/swap"
+	inline_script = "pif/jobs/fe_acolyte_artisan/availability"
+	inline_script = "pif/jobs/fe_acolyte_artisan/pop_config"
+	inline_script = "pif/jobs/fe_acolyte_artisan/economy"
+	inline_script = "pif/jobs/fe_acolyte_artisan/planet_state"
+	inline_script = "pif/jobs/fe_acolyte_artisan/country_modifiers"
+	inline_script = "pif/jobs/fe_acolyte_artisan/pop_modifiers"
+	inline_script = "pif/jobs/fe_acolyte_artisan/economic_modifiers"
+	inline_script = "pif/jobs/fe_acolyte_artisan/tpm"
+}

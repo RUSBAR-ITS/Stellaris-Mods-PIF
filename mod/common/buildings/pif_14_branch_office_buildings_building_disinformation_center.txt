@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_disinformation_center = {
+	base_buildtime = @pif_building_disinformation_center_construction_base_buildtime_1
+	owner_type = corporate
+	category = government
+	inline_script = "pif/buildings/building_disinformation_center/building_config"
+	inline_script = "pif/buildings/building_disinformation_center/availability"
+	inline_script = "pif/buildings/building_disinformation_center/economy"
+	inline_script = "pif/buildings/building_disinformation_center/lifecycle"
+	inline_script = "pif/buildings/building_disinformation_center/jobs"
+	inline_script = "pif/buildings/building_disinformation_center/country_jobs"
+	inline_script = "pif/buildings/building_disinformation_center/economic_modifiers"
+	inline_script = "pif/buildings/building_disinformation_center/pop_modifiers"
+	inline_script = "pif/buildings/building_disinformation_center/planet_state"
+	inline_script = "pif/buildings/building_disinformation_center/tpm"
+	inline_script = "pif/buildings/building_disinformation_center/ai"
+}

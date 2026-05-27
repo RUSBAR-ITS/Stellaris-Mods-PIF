@@ -1,0 +1,11 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_resort_spiritual_retreat
+# Vanilla source: zones/00_zones.txt
+
+zone_sets = {
+	resort_attraction
+}
+
+included_building_sets = {
+	unity
+}

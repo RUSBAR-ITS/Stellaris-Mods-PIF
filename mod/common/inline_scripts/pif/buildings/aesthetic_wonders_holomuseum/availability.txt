@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: aesthetic_wonders_holomuseum
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+empire_limit = @pif_aesthetic_wonders_holomuseum_limits_empire_limit_1
+
+potential = {
+	owner = {
+		has_country_flag = received_collection_stage_2_reward_aesthetic_wonder
+	}
+}

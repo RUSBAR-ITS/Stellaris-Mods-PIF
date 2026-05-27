@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+gas_plant_engineer_gestalt = {
+	category = complex_drone
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/swap"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/availability"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/pop_config"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/economy"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/planet_state"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/country_modifiers"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/pop_modifiers"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/economic_modifiers"
+	inline_script = "pif/jobs/gas_plant_engineer_gestalt/tpm"
+}

@@ -1,0 +1,5 @@
+# PIF zone category: AI
+# Vanilla zone: zone_resort_restoration_enclave
+# Vanilla source: zones/00_zones.txt
+
+ai_priority = @pif_zone_resort_restoration_enclave_ai_ai_priority_ai_priority_1

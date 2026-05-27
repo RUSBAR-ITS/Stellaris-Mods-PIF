@@ -1,0 +1,14 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_exotic_gases
+# Vanilla source: zones/00_zones.txt
+
+included_building_sets = {
+	farming
+	hydroponics
+	fallen_empire_farming
+	farming_automation
+}
+
+zone_sets = {
+	food
+}

@@ -1,0 +1,28 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_affluence_center
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+resources = {
+	category = planet_buildings
+	produces = {
+		consumer_goods = @pif_building_affluence_center_economic_modifiers_produces_consumer_goods_1
+	}
+	cost = {
+		alloys = @pif_building_affluence_center_cost_cost_alloys_1
+		sr_living_metal = @pif_building_affluence_center_cost_cost_sr_living_metal_2
+	}
+	upkeep = {
+		sr_living_metal = @pif_building_affluence_center_upkeep_upkeep_sr_living_metal_1
+		alloys = @pif_building_affluence_center_upkeep_upkeep_alloys_2
+		energy = @pif_building_affluence_center_upkeep_upkeep_energy_3
+	}
+	cost = {
+		trigger = {
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_building_affluence_center_cost_cost_biomass_3
+	}
+}

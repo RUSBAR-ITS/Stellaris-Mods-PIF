@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: fe_hedonist
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		unity = @pif_fe_hedonist_job_output_output_unity_1
+	}
+}

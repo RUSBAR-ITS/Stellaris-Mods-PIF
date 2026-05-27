@@ -1,0 +1,30 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: bureaucrat
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_xenophile = yes
+		}
+		planet = {
+			bureaucrat_is_memorialist = yes
+		}
+	}
+	planet_pops_upkeep_mult = @pif_bureaucrat_economic_modifiers_planet_pops_upkeep_mult_1
+	mult = value:scripted_ethics_weight_mult|ETHIC|xenophile|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			exists = owner
+			owner = {
+				has_tradition = tr_modularity_4
+			}
+		}
+	}
+	planet_jobs_worker_produces_mult = @pif_bureaucrat_economic_modifiers_planet_jobs_worker_produces_mult_2
+}

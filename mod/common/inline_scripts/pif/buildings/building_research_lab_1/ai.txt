@@ -1,0 +1,8 @@
+# PIF building category: AI
+# Vanilla building: building_research_lab_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+exempt_from_ai_planet_specialization = no
+
+ai_weight_coefficient = @pif_building_research_lab_1_ai_ai_weight_coefficient_1

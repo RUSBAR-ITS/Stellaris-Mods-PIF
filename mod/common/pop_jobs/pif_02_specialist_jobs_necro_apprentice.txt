@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+necro_apprentice = {
+	category = specialist
+	inline_script = "pif/jobs/necro_apprentice/swap"
+	inline_script = "pif/jobs/necro_apprentice/availability"
+	inline_script = "pif/jobs/necro_apprentice/pop_config"
+	inline_script = "pif/jobs/necro_apprentice/economy"
+	inline_script = "pif/jobs/necro_apprentice/planet_state"
+	inline_script = "pif/jobs/necro_apprentice/country_modifiers"
+	inline_script = "pif/jobs/necro_apprentice/pop_modifiers"
+	inline_script = "pif/jobs/necro_apprentice/economic_modifiers"
+	inline_script = "pif/jobs/necro_apprentice/tpm"
+}

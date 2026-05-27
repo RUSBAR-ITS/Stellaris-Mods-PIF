@@ -1,0 +1,16 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_augmentation_center
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_augmentation_center_limits_planet_limit_1
+
+potential = {
+	owner = {
+		OR = {
+			has_country_flag = augmentation_center_available
+			has_active_tradition = tr_cybernetics_augmentation_centers
+			has_active_tradition = tr_cybernetics_assimilator_augmentation_centers
+		}
+	}
+}

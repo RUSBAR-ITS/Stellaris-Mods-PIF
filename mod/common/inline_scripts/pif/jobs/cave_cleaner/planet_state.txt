@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: cave_cleaner
+# Vanilla class: no_category
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+# Empty PIF job category hook.

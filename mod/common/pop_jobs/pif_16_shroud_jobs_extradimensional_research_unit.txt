@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/16_shroud_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+extradimensional_research_unit = {
+	category = complex_drone
+	inline_script = "pif/jobs/extradimensional_research_unit/swap"
+	inline_script = "pif/jobs/extradimensional_research_unit/availability"
+	inline_script = "pif/jobs/extradimensional_research_unit/pop_config"
+	inline_script = "pif/jobs/extradimensional_research_unit/economy"
+	inline_script = "pif/jobs/extradimensional_research_unit/planet_state"
+	inline_script = "pif/jobs/extradimensional_research_unit/country_modifiers"
+	inline_script = "pif/jobs/extradimensional_research_unit/pop_modifiers"
+	inline_script = "pif/jobs/extradimensional_research_unit/economic_modifiers"
+	inline_script = "pif/jobs/extradimensional_research_unit/tpm"
+}

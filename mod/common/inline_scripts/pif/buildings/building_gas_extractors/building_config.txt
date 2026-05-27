@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_gas_extractors
+# Vanilla class: regular
+# Vanilla source: buildings/10_deposit_buildings.txt
+
+building_sets = {
+	farming
+}

@@ -1,0 +1,24 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_habitat_hydroponics
+# Vanilla source: zones/01_habitat_zones.txt
+
+potential = {
+	hidden_trigger = {
+		exists = owner
+	}
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+unlock = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+	owner = {
+		has_technology = tech_hydroponics
+	}
+}

@@ -1,0 +1,28 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_industrial_subsidiary
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+resources = {
+	category = planet_branch_office_buildings
+	cost = {
+		influence = @pif_building_industrial_subsidiary_cost_cost_influence_1
+		minerals = @pif_building_industrial_subsidiary_cost_cost_minerals_2
+	}
+	cost = {
+		trigger = {
+			owner = {
+				has_authority = auth_corporate
+			}
+		}
+		influence = @pif_building_industrial_subsidiary_cost_cost_influence_1
+	}
+	produces = {
+		alloys = @pif_building_industrial_subsidiary_economic_modifiers_produces_alloys_1
+		consumer_goods = @pif_building_industrial_subsidiary_economic_modifiers_produces_consumer_goods_2
+		mult = value:branch_office_value_for_buildings
+	}
+	upkeep = {
+		energy = @pif_building_industrial_subsidiary_upkeep_upkeep_energy_1
+	}
+}

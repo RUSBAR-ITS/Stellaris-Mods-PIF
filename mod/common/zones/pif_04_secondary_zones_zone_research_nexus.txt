@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/04_secondary_zones.txt
+# Object type: zone
+
+zone_research_nexus = {
+	icon = GFX_district_specialization_research
+	base_buildtime = @pif_zone_research_nexus_construction_zone_build_time_1
+	swap_type = district_nexus_research
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_research_nexus/availability"
+	inline_script = "pif/zones/zone_research_nexus/zone_config"
+	inline_script = "pif/zones/zone_research_nexus/economy"
+	inline_script = "pif/zones/zone_research_nexus/tpm"
+	inline_script = "pif/zones/zone_research_nexus/lifecycle"
+	inline_script = "pif/zones/zone_research_nexus/ai"
+}

@@ -1,0 +1,18 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: civilian
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_xenophile = yes
+		}
+		planet = {
+			has_ethics_output = yes
+		}
+	}
+	planet_pops_upkeep_mult = @pif_civilian_economic_modifiers_planet_pops_upkeep_mult_1
+	mult = value:scripted_ethics_weight_mult|ETHIC|xenophile|
+}

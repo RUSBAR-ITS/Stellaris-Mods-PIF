@@ -1,0 +1,14 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_knightly_theme_park
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			is_criminal_syndicate = yes
+			is_legit_or_legal_criminal = yes
+		}
+	}
+	planet_crime_floor_add = @pif_building_knightly_theme_park_planet_state_planet_crime_floor_add_1
+}

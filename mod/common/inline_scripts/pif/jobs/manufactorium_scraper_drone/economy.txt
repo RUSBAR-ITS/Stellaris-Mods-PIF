@@ -1,0 +1,13 @@
+# PIF job category: ECONOMY
+# Vanilla job: manufactorium_scraper_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		minerals = @pif_manufactorium_scraper_drone_job_output_output_minerals_1
+		alloys = @pif_manufactorium_scraper_drone_job_output_output_alloys_2
+		engineering_research = @pif_manufactorium_scraper_drone_job_output_output_engineering_research_3
+	}
+}

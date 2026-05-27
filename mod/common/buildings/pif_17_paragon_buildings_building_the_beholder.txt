@@ -1,0 +1,40 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/17_paragon_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_the_beholder = {
+	icon = building_temple_of_whispers
+	category = manufacturing
+	triggered_desc = {
+		trigger = {
+			NOT = {
+				exists = event_target:beholder_leader
+			}
+		}
+		text = building_the_beholder_unknown_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = event_target:beholder_leader
+		}
+		text = building_the_beholder_known_desc
+	}
+	triggered_desc = {
+		text = beholder_psi_pops_timer_tooltip
+		trigger = {
+			has_planet_flag = beholder_psi_pops_timer
+		}
+	}
+	inline_script = "pif/buildings/building_the_beholder/building_config"
+	inline_script = "pif/buildings/building_the_beholder/availability"
+	inline_script = "pif/buildings/building_the_beholder/economy"
+	inline_script = "pif/buildings/building_the_beholder/lifecycle"
+	inline_script = "pif/buildings/building_the_beholder/jobs"
+	inline_script = "pif/buildings/building_the_beholder/country_jobs"
+	inline_script = "pif/buildings/building_the_beholder/economic_modifiers"
+	inline_script = "pif/buildings/building_the_beholder/pop_modifiers"
+	inline_script = "pif/buildings/building_the_beholder/planet_state"
+	inline_script = "pif/buildings/building_the_beholder/tpm"
+	inline_script = "pif/buildings/building_the_beholder/ai"
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_machine_primitive_node = {
+	icon = building_autochthon_monument
+	category = unity
+	inline_script = "pif/buildings/building_machine_primitive_node/building_config"
+	inline_script = "pif/buildings/building_machine_primitive_node/availability"
+	inline_script = "pif/buildings/building_machine_primitive_node/economy"
+	inline_script = "pif/buildings/building_machine_primitive_node/lifecycle"
+	inline_script = "pif/buildings/building_machine_primitive_node/jobs"
+	inline_script = "pif/buildings/building_machine_primitive_node/country_jobs"
+	inline_script = "pif/buildings/building_machine_primitive_node/economic_modifiers"
+	inline_script = "pif/buildings/building_machine_primitive_node/pop_modifiers"
+	inline_script = "pif/buildings/building_machine_primitive_node/planet_state"
+	inline_script = "pif/buildings/building_machine_primitive_node/tpm"
+	inline_script = "pif/buildings/building_machine_primitive_node/ai"
+}

@@ -1,0 +1,9 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_identity_repository
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	robotic_pop_bonus_workforce_mult = @pif_building_identity_repository_pop_modifiers_robotic_pop_bonus_workforce_mult_1
+	mult = owner.value:identity_repository_scaling_mult
+}

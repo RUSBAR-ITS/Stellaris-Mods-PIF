@@ -1,0 +1,11 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: overlord_offspring_drone_feeder_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_simple_drone_produces_mult = @pif_overlord_offspring_drone_feeder_drone_economic_modifiers_planet_jobs_simple_drone_produces_mult_1
+}

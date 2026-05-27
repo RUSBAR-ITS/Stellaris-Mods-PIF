@@ -1,0 +1,31 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_bio_reactor_2
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+can_build = no
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	NOR = {
+		is_planet_class = pc_machine
+		has_modifier = resort_colony
+	}
+	OR = {
+		owner = {
+			is_ai = no
+		}
+		has_any_farming_district_or_building = yes
+	}
+}
+
+prerequisites = {
+	"tech_bio_reactor_2"
+}

@@ -1,0 +1,43 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: transference_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+can_be_automated = @pif_transference_drone_job_flags_can_be_automated_1
+
+tags = {
+	telepath
+	unity
+}
+
+weight = {
+	mult = @pif_transference_drone_job_weight_mult_1
+	mult = value:job_weights_modifier|JOB|transference_drone|RESOURCE|unity|
+	modifier = {
+		factor = @pif_transference_drone_job_weight_factor_2
+		has_citizenship_rights = no
+	}
+	modifier = {
+		factor = @pif_transference_drone_job_weight_factor_3
+		has_trait = trait_resilient
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_transference_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

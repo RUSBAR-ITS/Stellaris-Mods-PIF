@@ -1,0 +1,9 @@
+# PIF category: ZONE_SLOTS
+# Vanilla district: district_arcology_housing
+# Vanilla source: districts/01_arcology_districts.txt
+
+zone_slots = {
+	slot_city_government
+	slot_city_01
+	slot_city_02
+}

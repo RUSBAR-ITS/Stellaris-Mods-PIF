@@ -1,0 +1,16 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_research_efficiency_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			is_galactic_community_member = yes
+		}
+		is_active_resolution = "resolution_galacticstudies_extradimensional_experimentation"
+		has_modifier = pm_extradimensional_experimentation
+	}
+	planet_physicists_sr_zro_upkeep_add = @pif_building_research_efficiency_1_economic_modifiers_planet_physicists_sr_zro_upkeep_add_1
+	planet_physicists_physics_research_produces_add = @pif_building_research_efficiency_1_economic_modifiers_planet_physicists_physics_research_produces_add_2
+}

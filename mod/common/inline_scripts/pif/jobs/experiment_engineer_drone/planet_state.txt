@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: experiment_engineer_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+# Empty PIF job category hook.

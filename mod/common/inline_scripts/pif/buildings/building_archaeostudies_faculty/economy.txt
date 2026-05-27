@@ -1,0 +1,15 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_archaeostudies_faculty
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_archaeostudies_faculty_cost_cost_minerals_1
+		minor_artifacts = @pif_building_archaeostudies_faculty_cost_cost_minor_artifacts_2
+	}
+	upkeep = {
+		energy = @pif_building_archaeostudies_faculty_upkeep_upkeep_energy_1
+	}
+}

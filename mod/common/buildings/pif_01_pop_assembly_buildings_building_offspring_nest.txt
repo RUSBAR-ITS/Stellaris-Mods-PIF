@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_offspring_nest = {
+	base_buildtime = @pif_building_offspring_nest_construction_base_buildtime_1
+	category = pop_assembly
+	triggered_desc = {
+		text = offspring_nest_tooltip
+	}
+	inline_script = "pif/buildings/building_offspring_nest/building_config"
+	inline_script = "pif/buildings/building_offspring_nest/availability"
+	inline_script = "pif/buildings/building_offspring_nest/economy"
+	inline_script = "pif/buildings/building_offspring_nest/lifecycle"
+	inline_script = "pif/buildings/building_offspring_nest/jobs"
+	inline_script = "pif/buildings/building_offspring_nest/country_jobs"
+	inline_script = "pif/buildings/building_offspring_nest/economic_modifiers"
+	inline_script = "pif/buildings/building_offspring_nest/pop_modifiers"
+	inline_script = "pif/buildings/building_offspring_nest/planet_state"
+	inline_script = "pif/buildings/building_offspring_nest/tpm"
+	inline_script = "pif/buildings/building_offspring_nest/ai"
+}

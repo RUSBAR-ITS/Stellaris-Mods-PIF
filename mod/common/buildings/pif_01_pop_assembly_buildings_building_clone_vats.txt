@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_clone_vats = {
+	base_buildtime = @pif_building_clone_vats_construction_base_buildtime_1
+	category = pop_assembly
+	inline_script = "pif/buildings/building_clone_vats/building_config"
+	inline_script = "pif/buildings/building_clone_vats/availability"
+	inline_script = "pif/buildings/building_clone_vats/economy"
+	inline_script = "pif/buildings/building_clone_vats/lifecycle"
+	inline_script = "pif/buildings/building_clone_vats/jobs"
+	inline_script = "pif/buildings/building_clone_vats/country_jobs"
+	inline_script = "pif/buildings/building_clone_vats/economic_modifiers"
+	inline_script = "pif/buildings/building_clone_vats/pop_modifiers"
+	inline_script = "pif/buildings/building_clone_vats/planet_state"
+	inline_script = "pif/buildings/building_clone_vats/tpm"
+	inline_script = "pif/buildings/building_clone_vats/ai"
+}

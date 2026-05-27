@@ -1,0 +1,30 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/04_ringworld_districts.txt
+# Object class: real
+
+district_rw_urban_2 = {
+	icon = district_rw_city_secondary
+	base_buildtime = @pif_district_rw_urban_2_construction_build_time_days
+	overlay_icon = GFX_district_housing
+	show_on_uncolonized = {
+		exists = from
+		uses_district_set = ring_world
+	}
+	triggered_desc = {
+		trigger = {
+			planet = {
+				has_deposit = d_arcane_generator
+				NOT = {
+					has_district = district_rw_city
+				}
+			}
+		}
+		text = arcane_generator_upkeep_desc
+	}
+	inline_script = "pif/districts/district_rw_urban_2/zone_slots"
+	inline_script = "pif/districts/district_rw_urban_2/availability"
+	inline_script = "pif/districts/district_rw_urban_2/economic"
+	inline_script = "pif/districts/district_rw_urban_2/tpm"
+	inline_script = "pif/districts/district_rw_urban_2/lifecycle"
+	inline_script = "pif/districts/district_rw_urban_2/ai"
+}

@@ -1,0 +1,11 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: knight_commander
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_naval_cap_add = @pif_knight_commander_country_modifiers_country_naval_cap_add_1
+}

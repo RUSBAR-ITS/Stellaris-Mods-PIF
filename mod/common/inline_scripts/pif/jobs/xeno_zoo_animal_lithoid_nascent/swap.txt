@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: xeno_zoo_animal_lithoid_nascent
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_xeno_zoo
+	}
+}

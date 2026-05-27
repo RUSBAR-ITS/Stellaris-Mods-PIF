@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_experimentation_chambers_3
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_build = no
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_basic_science_lab_3"
+}
+
+show_tech_unlock_if = {
+	is_twisted_experimenters_empire = yes
+}

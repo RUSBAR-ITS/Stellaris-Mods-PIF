@@ -1,0 +1,30 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_aid_agency
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_aid_agency_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = overlord_is_homicidal
+		exists = owner.overlord
+		owner.overlord = {
+			is_homicidal = no
+		}
+	}
+	custom_tooltip = {
+		fail_text = overlord_is_xenophobe
+		exists = owner.overlord
+		owner.overlord = {
+			is_xenophobe = no
+		}
+	}
+}

@@ -1,0 +1,12 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_resort
+# Vanilla source: zones/00_zones.txt
+
+zone_sets = {
+	resort
+}
+
+included_building_sets = {
+	urban
+	origin
+}

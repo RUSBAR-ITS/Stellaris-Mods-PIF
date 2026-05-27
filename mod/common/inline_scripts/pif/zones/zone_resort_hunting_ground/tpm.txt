@@ -1,0 +1,14 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_resort_hunting_ground
+# Vanilla source: zones/00_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+	}
+	job_wrangler_add = @pif_zone_resort_hunting_ground_jobs_resource_extraction_job_amount_job_wrangler_add_1
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_resort_hunting_ground_housing_planet_housing_add_1
+}

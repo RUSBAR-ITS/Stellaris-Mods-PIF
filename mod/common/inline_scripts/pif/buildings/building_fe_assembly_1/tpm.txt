@@ -1,0 +1,51 @@
+# PIF building category: TPM
+# Vanilla building: building_fe_assembly_1
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			OR = {
+				has_origin = origin_mechanists
+				is_individual_machine = yes
+				has_country_flag = synthetic_empire
+			}
+		}
+		any_owned_pop_group = {
+			has_auto_modding_trait = yes
+		}
+	}
+	modifier = {
+		auto_mod_monthly_add = @pif_building_fe_assembly_1_tpm_auto_mod_monthly_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = synth_safe_updates
+		}
+	}
+	modifier = {
+		planet_pop_assembly_mult = @pif_building_fe_assembly_1_pop_modifiers_planet_pop_assembly_mult_2
+		planet_stability_add = @pif_building_fe_assembly_1_planet_state_planet_stability_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+		any_owned_pop_group = {
+			has_auto_modding_trait = yes
+		}
+	}
+	modifier = {
+		auto_mod_monthly_add = @pif_building_fe_assembly_1_tpm_auto_mod_monthly_add_1
+	}
+}

@@ -1,0 +1,13 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_srw_commercial
+# Vanilla source: districts/00_urban_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		minerals = @pif_district_srw_commercial_construction_build_cost_minerals
+	}
+	upkeep = {
+		energy = @pif_district_srw_commercial_economy_district_upkeep_energy
+	}
+}

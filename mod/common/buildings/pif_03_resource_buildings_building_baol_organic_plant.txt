@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/03_resource_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_baol_organic_plant = {
+	base_buildtime = @pif_building_baol_organic_plant_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_baol_organic_plant/building_config"
+	inline_script = "pif/buildings/building_baol_organic_plant/availability"
+	inline_script = "pif/buildings/building_baol_organic_plant/economy"
+	inline_script = "pif/buildings/building_baol_organic_plant/lifecycle"
+	inline_script = "pif/buildings/building_baol_organic_plant/jobs"
+	inline_script = "pif/buildings/building_baol_organic_plant/country_jobs"
+	inline_script = "pif/buildings/building_baol_organic_plant/economic_modifiers"
+	inline_script = "pif/buildings/building_baol_organic_plant/pop_modifiers"
+	inline_script = "pif/buildings/building_baol_organic_plant/planet_state"
+	inline_script = "pif/buildings/building_baol_organic_plant/tpm"
+	inline_script = "pif/buildings/building_baol_organic_plant/ai"
+}

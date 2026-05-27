@@ -1,0 +1,19 @@
+# PIF category: AI
+# Vanilla district: district_hollow_mountains
+# Vanilla source: districts/05_wilderness_districts.txt
+
+ai_resource_production = {
+	minerals = @pif_district_hollow_mountains_ai_ai_resource_production_minerals
+	trigger = {
+		OR = {
+			has_building = building_churning_tunnels_1
+			has_building = building_churning_tunnels_2
+			has_building = building_churning_tunnels_3
+			has_building = building_churning_tunnels_4
+		}
+	}
+}
+
+ai_estimate_without_unemployment = yes
+
+additional_ai_weight = @pif_district_hollow_mountains_ai_additional_ai_weight

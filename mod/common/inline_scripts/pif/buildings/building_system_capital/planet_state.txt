@@ -1,0 +1,47 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_system_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_system_capital_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_system_capital_planet_state_planet_amenities_add_2
+	planet_max_branch_office_buildings_add = @pif_building_system_capital_planet_state_planet_max_branch_office_buildings_add_3
+	planet_defense_armies_add = @pif_building_system_capital_planet_state_planet_defense_armies_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 1
+	}
+	planet_max_districts_add = @pif_building_system_capital_planet_state_planet_max_districts_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 5
+	}
+	planet_max_districts_add = @pif_building_system_capital_planet_state_planet_max_districts_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 10
+	}
+	planet_max_districts_add = @pif_building_system_capital_planet_state_planet_max_districts_add_5
+}

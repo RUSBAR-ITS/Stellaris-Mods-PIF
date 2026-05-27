@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/00_urban_districts.txt
+# Object class: real
+
+district_prison = {
+	base_buildtime = @pif_district_prison_construction_build_time_days
+	icon = district_city
+	overlay_icon = GFX_district_government
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			is_regular_empire = yes
+		}
+		has_modifier = penal_colony
+	}
+	inline_script = "pif/districts/district_prison/zone_slots"
+	inline_script = "pif/districts/district_prison/availability"
+	inline_script = "pif/districts/district_prison/economic"
+	inline_script = "pif/districts/district_prison/tpm"
+	inline_script = "pif/districts/district_prison/lifecycle"
+	inline_script = "pif/districts/district_prison/ai"
+}

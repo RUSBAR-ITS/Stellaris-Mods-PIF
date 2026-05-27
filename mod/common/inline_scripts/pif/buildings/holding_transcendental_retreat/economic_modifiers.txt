@@ -1,0 +1,14 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: holding_transcendental_retreat
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_natural_design_empire = yes
+		}
+	}
+	planet_jobs_produces_mult = @pif_holding_transcendental_retreat_economic_modifiers_planet_jobs_produces_mult_1
+}

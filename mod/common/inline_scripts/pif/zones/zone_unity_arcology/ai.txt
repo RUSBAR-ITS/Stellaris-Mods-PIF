@@ -1,0 +1,12 @@
+# PIF zone category: AI
+# Vanilla zone: zone_unity_arcology
+# Vanilla source: zones/04_secondary_zones.txt
+
+ai_resource_production = {
+	unity = @pif_zone_unity_arcology_ai_ai_resource_production_ai_resource_production_unity_unity_1
+	trigger = {
+		has_any_unity_zone = yes
+	}
+}
+
+ai_priority = @pif_zone_unity_arcology_ai_ai_priority_ai_priority_2

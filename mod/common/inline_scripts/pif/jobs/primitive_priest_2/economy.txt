@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_priest_2
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		unity = @pif_primitive_priest_2_job_output_output_unity_1
+	}
+}

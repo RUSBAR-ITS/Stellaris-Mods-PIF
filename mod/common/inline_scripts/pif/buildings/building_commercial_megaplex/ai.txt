@@ -1,0 +1,17 @@
+# PIF building category: AI
+# Vanilla building: building_commercial_megaplex
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+ai_resource_production = {
+	energy = @pif_building_commercial_megaplex_ai_energy_1
+	trigger = {
+		OR = {
+			num_unemployed >= @pif_building_commercial_megaplex_ai_num_unemployed_2
+			num_assigned_jobs = {
+				job = servant
+				value >= @pif_building_commercial_megaplex_ai_value_3
+			}
+		}
+	}
+}

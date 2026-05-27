@@ -1,0 +1,265 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: TPM
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# augmentor_drone
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/tpm.txt
+@pif_augmentor_drone_tpm_fake_pop_growth_mod_1 = 3
+
+# -----------------------------------------------------------------------------
+# colonist
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_building_build_speed_mult.
+# Used in: common/inline_scripts/pif/jobs/colonist/tpm.txt
+@pif_colonist_tpm_planet_building_build_speed_mult_1 = 0.10
+
+# Controls: Fallback mixed/special job modifier: planet_resettlement_unemployed_destination_mult.
+# Used in: common/inline_scripts/pif/jobs/colonist/tpm.txt
+@pif_colonist_tpm_planet_resettlement_unemployed_destination_mult_4 = 0.10
+
+# Controls: Fallback mixed/special job modifier: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/colonist/tpm.txt
+@pif_colonist_tpm_planet_stability_add_2 = 5
+
+# Controls: Fallback mixed/special job modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/colonist/tpm.txt
+@pif_colonist_tpm_pop_happiness_3 = 0.05
+
+# -----------------------------------------------------------------------------
+# coordinator
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_jobs_simple_drone_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/coordinator/tpm.txt
+@pif_coordinator_tpm_planet_jobs_simple_drone_produces_mult_2 = 0.01
+
+# Controls: Fallback mixed/special job modifier: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/coordinator/tpm.txt
+@pif_coordinator_tpm_planet_stability_add_1 = 2
+
+# -----------------------------------------------------------------------------
+# dystopian_enforcer
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/tpm.txt
+@pif_dystopian_enforcer_tpm_planet_crime_add_1 = -20
+
+# Controls: Fallback mixed/special job modifier: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/tpm.txt
+@pif_dystopian_enforcer_tpm_planet_defense_armies_add_2 = 0.5
+
+# Controls: Fallback mixed/special job modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/tpm.txt
+@pif_dystopian_enforcer_tpm_pop_government_ethic_attraction_3 = 0.1
+
+# -----------------------------------------------------------------------------
+# dystopian_telepath
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/tpm.txt
+@pif_dystopian_telepath_tpm_planet_crime_add_1 = -5
+
+# Controls: Fallback mixed/special job modifier: planet_crime_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/tpm.txt
+@pif_dystopian_telepath_tpm_planet_crime_mult_3 = -0.10
+
+# Controls: Fallback mixed/special job modifier: planet_jobs_unity_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/tpm.txt
+@pif_dystopian_telepath_tpm_planet_jobs_unity_produces_mult_4 = -0.10
+
+# Controls: Fallback mixed/special job modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/tpm.txt
+@pif_dystopian_telepath_tpm_pop_government_ethic_attraction_2 = 0.1
+
+# -----------------------------------------------------------------------------
+# enforcer
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/tpm.txt
+@pif_enforcer_tpm_planet_crime_add_1 = -20
+
+# Controls: Fallback mixed/special job modifier: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/enforcer/tpm.txt
+@pif_enforcer_tpm_planet_defense_armies_add_2 = 0.5
+
+# Controls: Fallback mixed/special job modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/jobs/enforcer/tpm.txt
+@pif_enforcer_tpm_pop_government_ethic_attraction_3 = 0.1
+
+# -----------------------------------------------------------------------------
+# necro_apprentice
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/necro_apprentice/tpm.txt
+@pif_necro_apprentice_tpm_fake_pop_growth_mod_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone/tpm.txt
+@pif_overlord_spawning_drone_tpm_fake_pop_growth_mod_1 = 2
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone_lithoid/tpm.txt
+@pif_overlord_spawning_drone_lithoid_tpm_fake_pop_growth_mod_1 = 2
+
+# -----------------------------------------------------------------------------
+# production_overseer
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: bonus_automated_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/production_overseer/tpm.txt
+@pif_production_overseer_tpm_bonus_automated_workforce_mult_1 = 0.02
+
+# -----------------------------------------------------------------------------
+# reassigner
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/reassigner/tpm.txt
+@pif_reassigner_tpm_fake_pop_growth_mod_1 = 1
+
+# -----------------------------------------------------------------------------
+# roboticist
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: artisan_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/roboticist/tpm.txt
+@pif_roboticist_tpm_artisan_jobs_bonus_workforce_mult_3 = 0.025
+
+# Controls: Fallback mixed/special job modifier: biologist_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/roboticist/tpm.txt
+@pif_roboticist_tpm_biologist_jobs_bonus_workforce_mult_6 = 0.025
+
+# Controls: Fallback mixed/special job modifier: bureaucrat_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/roboticist/tpm.txt
+@pif_roboticist_tpm_bureaucrat_jobs_bonus_workforce_mult_4 = 0.025
+
+# Controls: Fallback mixed/special job modifier: engineer_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/roboticist/tpm.txt
+@pif_roboticist_tpm_engineer_jobs_bonus_workforce_mult_7 = 0.025
+
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/roboticist/tpm.txt
+@pif_roboticist_tpm_fake_pop_growth_mod_1 = 0.5
+
+# Controls: Fallback mixed/special job modifier: foundry_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/roboticist/tpm.txt
+@pif_roboticist_tpm_foundry_jobs_bonus_workforce_mult_2 = 0.025
+
+# Controls: Fallback mixed/special job modifier: physicist_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/roboticist/tpm.txt
+@pif_roboticist_tpm_physicist_jobs_bonus_workforce_mult_5 = 0.025
+
+# -----------------------------------------------------------------------------
+# skywatcher
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: defensive_stations_tracking_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/tpm.txt
+@pif_skywatcher_tpm_defensive_stations_tracking_add_1 = 5
+
+# Controls: Fallback mixed/special job modifier: defensive_stations_weapon_range_mult.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/tpm.txt
+@pif_skywatcher_tpm_defensive_stations_weapon_range_mult_2 = 0.10
+
+# -----------------------------------------------------------------------------
+# skywatcher_drone
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: defensive_stations_tracking_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/tpm.txt
+@pif_skywatcher_drone_tpm_defensive_stations_tracking_add_1 = 5
+
+# Controls: Fallback mixed/special job modifier: defensive_stations_weapon_range_mult.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/tpm.txt
+@pif_skywatcher_drone_tpm_defensive_stations_weapon_range_mult_2 = 0.10
+
+# -----------------------------------------------------------------------------
+# spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/tpm.txt
+@pif_spawning_drone_tpm_fake_pop_growth_mod_1 = 2
+
+# -----------------------------------------------------------------------------
+# spe_colonist
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_building_build_speed_mult.
+# Used in: common/inline_scripts/pif/jobs/spe_colonist/tpm.txt
+@pif_spe_colonist_tpm_planet_building_build_speed_mult_1 = 0.10
+
+# Controls: Fallback mixed/special job modifier: planet_resettlement_unemployed_destination_mult.
+# Used in: common/inline_scripts/pif/jobs/spe_colonist/tpm.txt
+@pif_spe_colonist_tpm_planet_resettlement_unemployed_destination_mult_4 = 0.10
+
+# Controls: Fallback mixed/special job modifier: planet_stability_add.
+# Used in: common/inline_scripts/pif/jobs/spe_colonist/tpm.txt
+@pif_spe_colonist_tpm_planet_stability_add_2 = 5
+
+# Controls: Fallback mixed/special job modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/jobs/spe_colonist/tpm.txt
+@pif_spe_colonist_tpm_pop_happiness_3 = 0.05
+
+# -----------------------------------------------------------------------------
+# squire
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/jobs/squire/tpm.txt
+@pif_squire_tpm_fake_pop_growth_mod_5 = 0.1
+
+# Controls: Fallback mixed/special job modifier: planet_defense_armies_add.
+# Used in: common/inline_scripts/pif/jobs/squire/tpm.txt
+@pif_squire_tpm_planet_defense_armies_add_1 = 0.5
+
+# Controls: Fallback mixed/special job modifier: planet_knights_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/squire/tpm.txt
+@pif_squire_tpm_planet_knights_upkeep_mult_3 = 0.005
+
+# Controls: Fallback mixed/special job modifier: pop_knight_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/squire/tpm.txt
+@pif_squire_tpm_pop_knight_bonus_workforce_mult_2 = 0.025
+
+# Controls: Fallback mixed/special job modifier: pop_knight_commander_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/squire/tpm.txt
+@pif_squire_tpm_pop_knight_commander_bonus_workforce_mult_4 = 0.0125
+
+# -----------------------------------------------------------------------------
+# telepath
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/tpm.txt
+@pif_telepath_tpm_planet_crime_add_1 = -5
+
+# Controls: Fallback mixed/special job modifier: planet_crime_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/tpm.txt
+@pif_telepath_tpm_planet_crime_mult_3 = -0.10
+
+# Controls: Fallback mixed/special job modifier: planet_jobs_unity_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/tpm.txt
+@pif_telepath_tpm_planet_jobs_unity_produces_mult_4 = -0.10
+
+# Controls: Fallback mixed/special job modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/jobs/telepath/tpm.txt
+@pif_telepath_tpm_pop_government_ethic_attraction_2 = 0.1
+
+# -----------------------------------------------------------------------------
+# telepath_drone
+# -----------------------------------------------------------------------------
+# Controls: Fallback mixed/special job modifier: planet_crime_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/tpm.txt
+@pif_telepath_drone_tpm_planet_crime_add_1 = -5
+
+# Controls: Fallback mixed/special job modifier: planet_crime_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/tpm.txt
+@pif_telepath_drone_tpm_planet_crime_mult_3 = -0.10
+
+# Controls: Fallback mixed/special job modifier: planet_jobs_unity_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/tpm.txt
+@pif_telepath_drone_tpm_planet_jobs_unity_produces_mult_4 = -0.10
+
+# Controls: Fallback mixed/special job modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/tpm.txt
+@pif_telepath_drone_tpm_pop_government_ethic_attraction_2 = 0.1

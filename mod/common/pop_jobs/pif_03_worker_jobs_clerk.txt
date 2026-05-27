@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+clerk = {
+	category = worker
+	inline_script = "pif/jobs/clerk/swap"
+	inline_script = "pif/jobs/clerk/availability"
+	inline_script = "pif/jobs/clerk/pop_config"
+	inline_script = "pif/jobs/clerk/economy"
+	inline_script = "pif/jobs/clerk/planet_state"
+	inline_script = "pif/jobs/clerk/country_modifiers"
+	inline_script = "pif/jobs/clerk/pop_modifiers"
+	inline_script = "pif/jobs/clerk/economic_modifiers"
+	inline_script = "pif/jobs/clerk/tpm"
+}

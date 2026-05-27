@@ -1,0 +1,110 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: puddle_technician
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	food
+	alloys
+}
+
+weight = {
+	weight = @pif_puddle_technician_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|farmer|RESOURCE|food|
+	modifier = {
+		factor = @pif_puddle_technician_job_weight_factor_2
+		owner = {
+			has_valid_civic = civic_agrarian_idyll
+		}
+	}
+	modifier = {
+		factor = @pif_puddle_technician_job_weight_factor_3
+		is_enslaved = yes
+		can_take_servant_job = no
+		NOT = {
+			has_slavery_type = {
+				type = slavery_indentured
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_puddle_technician_job_weight_factor_4
+		OR = {
+			is_non_sapient_robot = yes
+			is_shackled_robot = yes
+		}
+		can_take_servant_job = no
+		owner = {
+			has_technology = tech_droid_workers
+		}
+	}
+	modifier = {
+		factor = @pif_puddle_technician_job_weight_factor_5
+		OR = {
+			is_non_sapient_robot = yes
+			is_shackled_robot = yes
+		}
+		can_take_servant_job = no
+		owner = {
+			NOT = {
+				has_technology = tech_droid_workers
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_puddle_technician_job_weight_factor_6
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		owner = {
+			has_valid_civic = civic_agrarian_idyll
+		}
+	}
+	modifier = {
+		factor = @pif_puddle_technician_job_weight_factor_7
+		exists = planet
+		planet = {
+			has_available_jobs = farmer
+		}
+		exists = owner
+		owner = {
+			is_ai = yes
+			has_monthly_income = {
+				resource = food
+				value < 10
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_puddle_technician_job_weight_factor_8
+		has_trait = trait_lithoid
+		owner = {
+			is_lithoid_empire = yes
+			country_uses_food = no
+			has_monthly_income = {
+				resource = food
+				value >= 0
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_agrarian
+	trait_farm_hands
+	trait_robot_harvesters
+	trait_cyborg_harvesters
+	trait_malleable_food
+	trait_adaptive_food
+}
+
+promotion = {
+	time = @pif_puddle_technician_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

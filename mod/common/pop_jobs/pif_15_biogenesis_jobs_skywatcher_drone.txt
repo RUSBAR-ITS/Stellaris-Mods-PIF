@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_biogenesis_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+skywatcher_drone = {
+	category = complex_drone
+	inline_script = "pif/jobs/skywatcher_drone/swap"
+	inline_script = "pif/jobs/skywatcher_drone/availability"
+	inline_script = "pif/jobs/skywatcher_drone/pop_config"
+	inline_script = "pif/jobs/skywatcher_drone/economy"
+	inline_script = "pif/jobs/skywatcher_drone/planet_state"
+	inline_script = "pif/jobs/skywatcher_drone/country_modifiers"
+	inline_script = "pif/jobs/skywatcher_drone/pop_modifiers"
+	inline_script = "pif/jobs/skywatcher_drone/economic_modifiers"
+	inline_script = "pif/jobs/skywatcher_drone/tpm"
+}

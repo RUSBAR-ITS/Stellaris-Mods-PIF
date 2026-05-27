@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+machine_nurse = {
+	category = bio_trophy
+	inline_script = "pif/jobs/machine_nurse/swap"
+	inline_script = "pif/jobs/machine_nurse/availability"
+	inline_script = "pif/jobs/machine_nurse/pop_config"
+	inline_script = "pif/jobs/machine_nurse/economy"
+	inline_script = "pif/jobs/machine_nurse/planet_state"
+	inline_script = "pif/jobs/machine_nurse/country_modifiers"
+	inline_script = "pif/jobs/machine_nurse/pop_modifiers"
+	inline_script = "pif/jobs/machine_nurse/economic_modifiers"
+	inline_script = "pif/jobs/machine_nurse/tpm"
+}

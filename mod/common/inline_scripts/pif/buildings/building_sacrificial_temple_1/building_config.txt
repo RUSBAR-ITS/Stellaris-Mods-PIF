@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_sacrificial_temple_1
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+building_sets = {
+	unity
+}

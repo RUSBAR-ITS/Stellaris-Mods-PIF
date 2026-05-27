@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_transcendental_retreat = {
+	base_buildtime = @pif_building_transcendental_retreat_construction_base_buildtime_1
+	category = pop_assembly
+	triggered_desc = {
+		text = natural_design_ascension_bonus
+	}
+	inline_script = "pif/buildings/building_transcendental_retreat/building_config"
+	inline_script = "pif/buildings/building_transcendental_retreat/availability"
+	inline_script = "pif/buildings/building_transcendental_retreat/economy"
+	inline_script = "pif/buildings/building_transcendental_retreat/lifecycle"
+	inline_script = "pif/buildings/building_transcendental_retreat/jobs"
+	inline_script = "pif/buildings/building_transcendental_retreat/country_jobs"
+	inline_script = "pif/buildings/building_transcendental_retreat/economic_modifiers"
+	inline_script = "pif/buildings/building_transcendental_retreat/pop_modifiers"
+	inline_script = "pif/buildings/building_transcendental_retreat/planet_state"
+	inline_script = "pif/buildings/building_transcendental_retreat/tpm"
+	inline_script = "pif/buildings/building_transcendental_retreat/ai"
+}

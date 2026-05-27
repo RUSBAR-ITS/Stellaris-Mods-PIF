@@ -1,0 +1,32 @@
+# PIF job category: ECONOMY
+# Vanilla job: stasis_warden
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_enforcers
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = maverick_citizens_flag
+			}
+		}
+		unity = @pif_stasis_warden_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		unity = @pif_stasis_warden_job_output_output_unity_2
+	}
+	upkeep = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		consumer_goods = @pif_stasis_warden_job_upkeep_upkeep_consumer_goods_1
+	}
+	produces = {
+		physics_research = @pif_stasis_warden_job_output_output_physics_research_3
+	}
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_system_conflux = {
+	base_buildtime = @pif_building_system_conflux_construction_base_buildtime_1
+	icon = building_hypercomms_forum
+	category = unity
+	inline_script = "pif/buildings/building_system_conflux/building_config"
+	inline_script = "pif/buildings/building_system_conflux/availability"
+	inline_script = "pif/buildings/building_system_conflux/economy"
+	inline_script = "pif/buildings/building_system_conflux/lifecycle"
+	inline_script = "pif/buildings/building_system_conflux/jobs"
+	inline_script = "pif/buildings/building_system_conflux/country_jobs"
+	inline_script = "pif/buildings/building_system_conflux/economic_modifiers"
+	inline_script = "pif/buildings/building_system_conflux/pop_modifiers"
+	inline_script = "pif/buildings/building_system_conflux/planet_state"
+	inline_script = "pif/buildings/building_system_conflux/tpm"
+	inline_script = "pif/buildings/building_system_conflux/ai"
+}

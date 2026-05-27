@@ -1,0 +1,31 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_volcanic_forge_1
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+base_cap_amount = @pif_building_volcanic_forge_1_limits_base_cap_amount_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_world_forger_empire = yes
+	}
+	NOR = {
+		is_planet_class = pc_city
+		is_planet_class = pc_machine
+		is_planet_class = pc_hive
+		is_artificial = yes
+		AND = {
+			is_terraforming = yes
+			is_scripted_terraforming = no
+		}
+	}
+}
+
+allow = {
+	num_uncleared_blockers = 0
+}
+
+prerequisites = {
+	"tech_volcanic_forge"
+}

@@ -1,0 +1,32 @@
+# PIF job category: ECONOMY
+# Vanilla job: shroud_trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {
+	category = planet_traders
+	produces = {
+		trade = @pif_shroud_trader_job_output_output_trade_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_breached_shroud = yes
+			}
+		}
+		unity = @pif_shroud_trader_job_output_output_unity_2
+	}
+	upkeep = {
+		consumer_goods = @pif_shroud_trader_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_breached_shroud = yes
+			}
+		}
+		consumer_goods = @pif_shroud_trader_job_upkeep_upkeep_consumer_goods_1
+	}
+}

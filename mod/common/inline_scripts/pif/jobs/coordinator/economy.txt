@@ -1,0 +1,51 @@
+# PIF job category: ECONOMY
+# Vanilla job: coordinator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_coordinator_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_memorialist_empire = yes
+			}
+		}
+		unity = @pif_coordinator_job_output_output_unity_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_lithoid_or_infernal_empire = no
+			}
+		}
+		food = @pif_coordinator_job_upkeep_upkeep_food_1
+		energy = @pif_coordinator_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_lithoid_or_infernal_empire = yes
+			}
+		}
+		minerals = @pif_coordinator_job_upkeep_upkeep_minerals_3
+		energy = @pif_coordinator_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+		}
+		energy = @pif_coordinator_job_upkeep_upkeep_energy_4
+	}
+}

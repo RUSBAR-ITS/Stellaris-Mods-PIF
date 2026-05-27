@@ -1,0 +1,14 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: entertainer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_modifier = exploitation_accord
+		}
+	}
+	planet_jobs_produces_mult = @pif_entertainer_economic_modifiers_planet_jobs_produces_mult_1
+}

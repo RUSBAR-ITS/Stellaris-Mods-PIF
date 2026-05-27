@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: drone_sand_whisperer
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = wildlife_ranch
+		icon = sand_whisperer
+	}
+}

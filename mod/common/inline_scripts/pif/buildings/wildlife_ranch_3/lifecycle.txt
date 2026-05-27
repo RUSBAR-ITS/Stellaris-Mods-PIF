@@ -1,0 +1,24 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: wildlife_ranch_3
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+destroy_trigger = {
+	owner = {
+		OR = {
+			NOT = {
+				has_origin = origin_primal_calling
+			}
+			wrangler_is_trophy_hunter_trigger = yes
+			wrangler_is_animal_handler_trigger = yes
+			wrangler_is_beastfighter_trigger = yes
+		}
+	}
+}
+
+convert_to = {
+	hunting_grounds_3
+	wildlife_sanctuary_3
+	primal_arena_3
+	symbiosis_nexus_3
+}

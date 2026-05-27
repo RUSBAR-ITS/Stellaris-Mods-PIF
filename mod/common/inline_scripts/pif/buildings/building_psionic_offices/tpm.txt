@@ -1,0 +1,14 @@
+# PIF building category: TPM
+# Vanilla building: building_psionic_offices
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_authority = auth_corporate
+			is_corporeal_authority = yes
+		}
+	}
+	psionic_aura_effectiveness_mult = 0.02
+}

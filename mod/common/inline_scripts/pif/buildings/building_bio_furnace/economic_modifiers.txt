@@ -1,0 +1,12 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_bio_furnace
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_farmers_food_produces_add = @pif_building_bio_furnace_economic_modifiers_planet_farmers_food_produces_add_2
+	planet_farmers_alloys_produces_add = @pif_building_bio_furnace_economic_modifiers_planet_farmers_alloys_produces_add_3
+}

@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_abandoned_gene_clinic = {
+	icon = building_ancient_cryo_chamber
+	position_priority = 100
+	category = amenity
+	triggered_desc = {
+		text = building_abandoned_gene_clinic_tt
+	}
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/building_config"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/availability"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/economy"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/lifecycle"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/jobs"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/country_jobs"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/economic_modifiers"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/pop_modifiers"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/planet_state"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/tpm"
+	inline_script = "pif/buildings/building_abandoned_gene_clinic/ai"
+}

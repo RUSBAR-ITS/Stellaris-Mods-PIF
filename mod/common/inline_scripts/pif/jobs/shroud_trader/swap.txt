@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: shroud_trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_psi_corps
+		icon = telepath
+	}
+}

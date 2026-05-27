@@ -1,0 +1,27 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_parasitic_algorithms
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+on_built = {
+	planet = {
+		set_planet_flag = has_science_ministry
+	}
+}
+
+on_destroy = {
+	planet = {
+		remove_planet_flag = has_science_ministry
+	}
+}
+
+destroy_trigger = {
+	exists = planet.owner
+	planet.owner = {
+		NOT = {
+			is_specialist_subject_type = {
+				TYPE = scholarium
+			}
+		}
+	}
+}

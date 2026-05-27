@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_sentinel_posts
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_patrol_drone_add = @pif_building_sentinel_posts_jobs_job_patrol_drone_add_1
+}

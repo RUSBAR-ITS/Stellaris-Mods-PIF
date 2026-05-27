@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_lathe_resonator = {
+	base_buildtime = @pif_building_lathe_resonator_construction_base_buildtime_1
+	category = resource
+	triggered_desc = {
+		text = lathe_resonator_tt
+	}
+	inline_script = "pif/buildings/building_lathe_resonator/building_config"
+	inline_script = "pif/buildings/building_lathe_resonator/availability"
+	inline_script = "pif/buildings/building_lathe_resonator/economy"
+	inline_script = "pif/buildings/building_lathe_resonator/lifecycle"
+	inline_script = "pif/buildings/building_lathe_resonator/jobs"
+	inline_script = "pif/buildings/building_lathe_resonator/country_jobs"
+	inline_script = "pif/buildings/building_lathe_resonator/economic_modifiers"
+	inline_script = "pif/buildings/building_lathe_resonator/pop_modifiers"
+	inline_script = "pif/buildings/building_lathe_resonator/planet_state"
+	inline_script = "pif/buildings/building_lathe_resonator/tpm"
+	inline_script = "pif/buildings/building_lathe_resonator/ai"
+}

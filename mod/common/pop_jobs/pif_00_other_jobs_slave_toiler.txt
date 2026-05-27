@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+slave_toiler = {
+	category = worker
+	inline_script = "pif/jobs/slave_toiler/swap"
+	inline_script = "pif/jobs/slave_toiler/availability"
+	inline_script = "pif/jobs/slave_toiler/pop_config"
+	inline_script = "pif/jobs/slave_toiler/economy"
+	inline_script = "pif/jobs/slave_toiler/planet_state"
+	inline_script = "pif/jobs/slave_toiler/country_modifiers"
+	inline_script = "pif/jobs/slave_toiler/pop_modifiers"
+	inline_script = "pif/jobs/slave_toiler/economic_modifiers"
+	inline_script = "pif/jobs/slave_toiler/tpm"
+}

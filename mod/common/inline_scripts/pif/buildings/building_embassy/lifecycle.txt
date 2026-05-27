@@ -1,0 +1,22 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_embassy
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+upgrades = {
+	"building_grand_embassy"
+}
+
+destroy_trigger = {
+	OR = {
+		AND = {
+			exists = owner
+			owner = {
+				is_regular_empire = no
+			}
+		}
+		planet = {
+			is_capital = no
+		}
+	}
+}

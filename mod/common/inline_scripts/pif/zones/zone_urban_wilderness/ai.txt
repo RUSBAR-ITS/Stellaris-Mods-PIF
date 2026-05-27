@@ -1,0 +1,5 @@
+# PIF zone category: AI
+# Vanilla zone: zone_urban_wilderness
+# Vanilla source: zones/03_wilderness_zones.txt
+
+

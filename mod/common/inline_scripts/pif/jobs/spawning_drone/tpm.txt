@@ -1,0 +1,8 @@
+# PIF job category: TPM
+# Vanilla job: spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	fake_pop_growth_mod = @pif_spawning_drone_tpm_fake_pop_growth_mod_1
+}

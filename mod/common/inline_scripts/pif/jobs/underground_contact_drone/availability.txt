@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: underground_contact_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+possible = {
+	always = no
+}

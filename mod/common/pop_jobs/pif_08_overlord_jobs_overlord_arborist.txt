@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+overlord_arborist = {
+	category = worker
+	inline_script = "pif/jobs/overlord_arborist/swap"
+	inline_script = "pif/jobs/overlord_arborist/availability"
+	inline_script = "pif/jobs/overlord_arborist/pop_config"
+	inline_script = "pif/jobs/overlord_arborist/economy"
+	inline_script = "pif/jobs/overlord_arborist/planet_state"
+	inline_script = "pif/jobs/overlord_arborist/country_modifiers"
+	inline_script = "pif/jobs/overlord_arborist/pop_modifiers"
+	inline_script = "pif/jobs/overlord_arborist/economic_modifiers"
+	inline_script = "pif/jobs/overlord_arborist/tpm"
+}

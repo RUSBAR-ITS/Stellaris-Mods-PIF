@@ -1,0 +1,6 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_lathe_major_capital
+# Vanilla class: capital
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+# Empty PIF building category hook.

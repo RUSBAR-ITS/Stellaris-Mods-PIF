@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+robot_caretaker = {
+	category = specialist
+	inline_script = "pif/jobs/robot_caretaker/swap"
+	inline_script = "pif/jobs/robot_caretaker/availability"
+	inline_script = "pif/jobs/robot_caretaker/pop_config"
+	inline_script = "pif/jobs/robot_caretaker/economy"
+	inline_script = "pif/jobs/robot_caretaker/planet_state"
+	inline_script = "pif/jobs/robot_caretaker/country_modifiers"
+	inline_script = "pif/jobs/robot_caretaker/pop_modifiers"
+	inline_script = "pif/jobs/robot_caretaker/economic_modifiers"
+	inline_script = "pif/jobs/robot_caretaker/tpm"
+}

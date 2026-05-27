@@ -1,0 +1,22 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: reassigner
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	pop_assembly
+}
+
+weight = {
+	weight = @pif_reassigner_job_weight_weight_1
+}
+
+promotion = {
+	time = @pif_reassigner_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_galactic_memorial_2
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+# Empty PIF building category hook.

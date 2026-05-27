@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_toxic_bath_hive
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+# Empty PIF building category hook.

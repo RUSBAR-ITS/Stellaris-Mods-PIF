@@ -1,0 +1,28 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_primitive_clinic
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_demolish = yes
+
+can_be_ruined = no
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_primitive = no
+			is_hive_empire = no
+		}
+	}
+}
+
+upgrades = {}
+
+convert_to = {
+	building_medical_1
+}
+
+on_destroy = {}
+
+on_repaired = {}

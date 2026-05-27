@@ -1,0 +1,44 @@
+# PIF building category: JOBS
+# Vanilla building: building_churning_tunnels_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire_spiritualist = no
+		}
+	}
+	modifier = {
+		job_miner_add = @pif_building_churning_tunnels_2_jobs_job_miner_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		NOT = {
+			is_planet_class = pc_shattered_ring_habitable
+		}
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+	}
+	modifier = {
+		job_fe_acolyte_mine_add = @pif_building_churning_tunnels_2_jobs_job_fe_acolyte_mine_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	modifier = {
+		job_mining_drone_add = @pif_building_churning_tunnels_2_jobs_job_mining_drone_add_3
+	}
+}

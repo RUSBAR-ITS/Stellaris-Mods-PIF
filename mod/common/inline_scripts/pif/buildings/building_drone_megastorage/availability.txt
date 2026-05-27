@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_drone_megastorage
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+can_build = no
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+potential = {
+	has_building = building_drone_storage
+}
+
+prerequisites = {
+	"tech_micro_replicators"
+}

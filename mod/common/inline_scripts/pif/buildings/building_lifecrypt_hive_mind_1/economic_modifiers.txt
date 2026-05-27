@@ -1,0 +1,37 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_lifecrypt_hive_mind_1
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_unity_produces_mult = @pif_building_lifecrypt_hive_mind_1_economic_modifiers_planet_jobs_unity_produces_mult_2
+	planet_maintenance_drones_unity_produces_add = @pif_building_lifecrypt_hive_mind_1_economic_modifiers_planet_maintenance_drones_unity_produces_add_3
+	planet_maintenance_drones_trade_produces_add = @pif_building_lifecrypt_hive_mind_1_economic_modifiers_planet_maintenance_drones_trade_produces_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = no
+		}
+	}
+	modifier = {
+		planet_maintenance_drones_minerals_upkeep_add = @pif_building_lifecrypt_hive_mind_1_economic_modifiers_planet_maintenance_drones_minerals_upkeep_add_5
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	modifier = {
+		planet_maintenance_drones_energy_upkeep_add = @pif_building_lifecrypt_hive_mind_1_economic_modifiers_planet_maintenance_drones_energy_upkeep_add_6
+	}
+}

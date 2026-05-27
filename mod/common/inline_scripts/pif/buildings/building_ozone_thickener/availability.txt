@@ -1,0 +1,41 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_ozone_thickener
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = yes
+
+planet_limit = @pif_building_ozone_thickener_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+	if = {
+		limit = {
+			exists = orbital_defence
+		}
+		orbital_defence = {
+			exists = starbase
+			starbase = {
+				NOR = {
+					has_starbase_building = ring_orbital_shield_generator
+					is_starbase_building_building = ring_orbital_shield_generator
+				}
+			}
+		}
+	}
+}
+
+prerequisites = {
+	"tech_planetary_shield_generator"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = yes
+}

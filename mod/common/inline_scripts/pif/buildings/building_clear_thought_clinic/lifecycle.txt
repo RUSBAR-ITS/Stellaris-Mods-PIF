@@ -1,0 +1,73 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_clear_thought_clinic
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+on_built = {
+	planet.owner = {
+		save_event_target_as = planet_owner
+	}
+	branch_office_owner = {
+		save_event_target_as = branch_office_owner
+		random_spynetwork = {
+			limit = {
+				owner = {
+					is_same_value = event_target:branch_office_owner
+				}
+				target = {
+					is_same_value = event_target:planet_owner
+				}
+			}
+			add_modifier = {
+				modifier = clear_thought_clinic_modifier
+				days = @pif_building_clear_thought_clinic_economic_modifiers_days_3
+			}
+		}
+	}
+}
+
+on_destroy = {
+	planet = {
+		save_event_target_as = planet
+	}
+	planet.owner = {
+		save_event_target_as = planet_owner
+	}
+	branch_office_owner = {
+		save_event_target_as = branch_office_owner
+	}
+	if = {
+		limit = {
+			event_target:planet_owner = {
+				any_owned_planet = {
+					NOT = {
+						is_same_value = event_target:planet
+					}
+					has_branch_office = yes
+					branch_office_owner = {
+						is_same_value = event_target:branch_office_owner
+					}
+					has_holding = {
+						holding = building_clear_thought_clinic
+						owner = event_target:branch_office_owner
+					}
+				}
+			}
+		}
+	}
+	else = {
+		event_target:branch_office_owner = {
+			random_spynetwork = {
+				limit = {
+					owner = {
+						is_same_value = event_target:branch_office_owner
+					}
+					target = {
+						is_same_value = event_target:planet_owner
+					}
+				}
+				remove_modifier = clear_thought_clinic_modifier
+			}
+		}
+	}
+}

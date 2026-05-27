@@ -1,0 +1,39 @@
+# PIF job category: ECONOMY
+# Vanilla job: astral_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/11_astral_planes_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_astral_drone_job_output_output_physics_research_1
+		engineering_research = @pif_astral_drone_job_output_output_engineering_research_2
+		society_research = @pif_astral_drone_job_output_output_society_research_3
+		astral_threads = @pif_astral_drone_job_output_output_astral_threads_4
+	}
+	upkeep = {
+		minerals = @pif_astral_drone_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		minerals = @pif_astral_drone_job_upkeep_upkeep_minerals_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_research
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		physics_research = @pif_astral_drone_overlord_output_overlord_output_physics_research_1
+		engineering_research = @pif_astral_drone_overlord_output_overlord_output_engineering_research_2
+		society_research = @pif_astral_drone_overlord_output_overlord_output_society_research_3
+	}
+}

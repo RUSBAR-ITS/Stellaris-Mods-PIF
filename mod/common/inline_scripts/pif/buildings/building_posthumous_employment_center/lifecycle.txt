@@ -1,0 +1,24 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_posthumous_employment_center
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			NOT = {
+				has_valid_civic = civic_permanent_employment
+			}
+		}
+		AND = {
+			owner = {
+				is_ai = yes
+			}
+			free_district_slots = @pif_building_posthumous_employment_center_planet_state_free_district_slots_1
+			free_building_slots = @pif_building_posthumous_employment_center_planet_state_free_building_slots_4
+			free_housing <= @pif_building_posthumous_employment_center_planet_state_free_housing_3
+			free_jobs <= 0
+		}
+	}
+}

@@ -1,0 +1,22 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_industrial_subsidiary
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_scavengers
+		}
+	}
+	job_capital_trader_add = @pif_building_industrial_subsidiary_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_relentless_industrialists
+		}
+	}
+	job_capital_trader_add = @pif_building_industrial_subsidiary_country_jobs_job_capital_trader_add_1
+}

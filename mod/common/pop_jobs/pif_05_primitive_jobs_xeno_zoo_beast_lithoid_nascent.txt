@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+xeno_zoo_beast_lithoid_nascent = {
+	category = pre_sapients
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/swap"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/availability"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/pop_config"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/economy"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/planet_state"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/country_modifiers"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/pop_modifiers"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/economic_modifiers"
+	inline_script = "pif/jobs/xeno_zoo_beast_lithoid_nascent/tpm"
+}

@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: overlord_reassigner
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_posthumous_employment_center
+		icon = necromancer
+	}
+}

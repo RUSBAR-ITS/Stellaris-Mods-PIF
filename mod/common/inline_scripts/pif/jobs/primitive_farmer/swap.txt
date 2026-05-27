@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: primitive_farmer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_primitive_farm
+	}
+}

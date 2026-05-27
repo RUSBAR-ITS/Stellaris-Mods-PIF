@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: storm_dancer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/99_swap_jobs.txt
+
+possible = {
+	always = no
+}

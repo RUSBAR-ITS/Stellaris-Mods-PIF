@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_natural_furnace_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_foundry_bonus_workforce_mult = @pif_building_natural_furnace_3_pop_modifiers_pop_foundry_bonus_workforce_mult_1
+	planet_metallurgists_alloys_produces_add = @pif_building_natural_furnace_3_economic_modifiers_planet_metallurgists_alloys_produces_add_1
+	planet_metallurgists_minerals_upkeep_add = @pif_building_natural_furnace_3_economic_modifiers_planet_metallurgists_minerals_upkeep_add_2
+}

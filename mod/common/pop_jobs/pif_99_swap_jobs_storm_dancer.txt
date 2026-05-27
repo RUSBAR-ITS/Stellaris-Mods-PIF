@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/99_swap_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+storm_dancer = {
+	category = specialist
+	inline_script = "pif/jobs/storm_dancer/swap"
+	inline_script = "pif/jobs/storm_dancer/availability"
+	inline_script = "pif/jobs/storm_dancer/pop_config"
+	inline_script = "pif/jobs/storm_dancer/economy"
+	inline_script = "pif/jobs/storm_dancer/planet_state"
+	inline_script = "pif/jobs/storm_dancer/country_modifiers"
+	inline_script = "pif/jobs/storm_dancer/pop_modifiers"
+	inline_script = "pif/jobs/storm_dancer/economic_modifiers"
+	inline_script = "pif/jobs/storm_dancer/tpm"
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_gaiaseeders_3 = {
+	base_buildtime = @pif_building_gaiaseeders_3_construction_base_buildtime_1
+	category = government
+	inline_script = "pif/buildings/building_gaiaseeders_3/building_config"
+	inline_script = "pif/buildings/building_gaiaseeders_3/availability"
+	inline_script = "pif/buildings/building_gaiaseeders_3/economy"
+	inline_script = "pif/buildings/building_gaiaseeders_3/lifecycle"
+	inline_script = "pif/buildings/building_gaiaseeders_3/jobs"
+	inline_script = "pif/buildings/building_gaiaseeders_3/country_jobs"
+	inline_script = "pif/buildings/building_gaiaseeders_3/economic_modifiers"
+	inline_script = "pif/buildings/building_gaiaseeders_3/pop_modifiers"
+	inline_script = "pif/buildings/building_gaiaseeders_3/planet_state"
+	inline_script = "pif/buildings/building_gaiaseeders_3/tpm"
+	inline_script = "pif/buildings/building_gaiaseeders_3/ai"
+}

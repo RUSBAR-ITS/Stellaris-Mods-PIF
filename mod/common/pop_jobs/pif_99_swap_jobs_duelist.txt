@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/99_swap_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+duelist = {
+	category = specialist
+	inline_script = "pif/jobs/duelist/swap"
+	inline_script = "pif/jobs/duelist/availability"
+	inline_script = "pif/jobs/duelist/pop_config"
+	inline_script = "pif/jobs/duelist/economy"
+	inline_script = "pif/jobs/duelist/planet_state"
+	inline_script = "pif/jobs/duelist/country_modifiers"
+	inline_script = "pif/jobs/duelist/pop_modifiers"
+	inline_script = "pif/jobs/duelist/economic_modifiers"
+	inline_script = "pif/jobs/duelist/tpm"
+}

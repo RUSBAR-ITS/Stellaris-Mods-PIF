@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: xeno_zoo_beast
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_livestock_farmers
+	upkeep = {
+		food = @pif_xeno_zoo_beast_job_upkeep_upkeep_food_1
+	}
+}

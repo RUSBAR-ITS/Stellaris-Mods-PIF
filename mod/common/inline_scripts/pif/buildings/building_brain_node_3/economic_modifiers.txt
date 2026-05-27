@@ -1,0 +1,13 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_brain_node_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_physicists_physics_research_produces_add = @pif_building_brain_node_3_economic_modifiers_planet_physicists_physics_research_produces_add_1
+	planet_biologists_society_research_produces_add = @pif_building_brain_node_3_economic_modifiers_planet_biologists_society_research_produces_add_2
+	planet_engineers_engineering_research_produces_add = @pif_building_brain_node_3_economic_modifiers_planet_engineers_engineering_research_produces_add_3
+}

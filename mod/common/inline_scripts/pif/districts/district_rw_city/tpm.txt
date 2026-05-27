@@ -1,0 +1,155 @@
+# PIF category: TPM
+# Vanilla district: district_rw_city
+# Vanilla source: districts/04_ringworld_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_district_rw_city_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	job_enforcer_add = @pif_district_rw_city_jobs_job_enforcer_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			has_valid_civic = civic_dystopian_society
+		}
+	}
+	job_dystopian_enforcer_add = @pif_district_rw_city_jobs_job_dystopian_enforcer_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_agrarian_idyll
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_rw_city_housing_planet_housing_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire = no
+			is_tankbound_empire = no
+		}
+	}
+	modifier = {
+		job_clerk_add = @pif_district_rw_city_jobs_job_clerk_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire = no
+			is_tankbound_empire = yes
+		}
+	}
+	modifier = {
+		job_production_overseer_add = @pif_district_rw_city_jobs_job_production_overseer_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire = no
+			has_active_tradition = tr_virtuality_4
+			is_tankbound_empire = no
+		}
+	}
+	modifier = {
+		job_clerk_add = @pif_district_rw_city_jobs_job_clerk_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_fallen_empire = no
+			has_active_tradition = tr_virtuality_4
+			is_tankbound_empire = yes
+		}
+	}
+	modifier = {
+		job_production_overseer_add = @pif_district_rw_city_jobs_job_production_overseer_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_prosperity_public_works
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_rw_city_housing_planet_housing_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_1
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_rw_city_housing_planet_housing_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_2
+			NOT = {
+				has_valid_civic = civic_agrarian_idyll
+			}
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_rw_city_housing_planet_housing_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_tankbound_empire = yes
+		}
+	}
+	modifier = {
+		job_production_overseer_add = @pif_district_rw_city_jobs_job_production_overseer_add_3
+	}
+}

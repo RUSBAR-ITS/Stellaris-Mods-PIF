@@ -1,0 +1,35 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_nexus_2
+# Vanilla source: districts/00_urban_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		trigger = {
+			NOT = {
+				has_deposit = d_machine_prototype_pc_machine
+			}
+		}
+		minerals = @pif_district_nexus_2_construction_build_cost_minerals
+	}
+	cost = {
+		trigger = {
+			has_deposit = d_machine_prototype_pc_machine
+		}
+		minerals = @pif_district_nexus_2_construction_build_cost_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			NOT = {
+				has_deposit = d_machine_prototype_pc_machine
+			}
+		}
+		energy = @pif_district_nexus_2_economy_district_upkeep_energy
+	}
+	upkeep = {
+		trigger = {
+			has_deposit = d_machine_prototype_pc_machine
+		}
+		energy = @pif_district_nexus_2_economy_district_upkeep_energy_2
+	}
+}

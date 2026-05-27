@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_hive_miner
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		minerals = @pif_primitive_hive_miner_job_output_output_minerals_1
+	}
+}

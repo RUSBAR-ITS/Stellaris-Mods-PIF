@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: holding_splinter_hive
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+resources = {
+	category = planet_holdings
+	cost = {
+		minerals = @pif_holding_splinter_hive_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_holding_splinter_hive_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,25 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_urban
+# Vanilla source: zones/00_zones.txt
+
+zone_sets = {
+	urban
+	habitat_urban
+}
+
+include = {
+	all
+}
+
+excluded_building_sets = {
+	generator
+	mining
+	farming
+	knights
+	betharian
+	generator_automation
+	mining_automation
+	farming_automation
+	urban_automation_arcology
+	urban_automation
+}

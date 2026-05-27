@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: maintenance_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_maintenance_drones
+	produces = {
+		trade = @pif_maintenance_drone_job_output_output_trade_1
+	}
+}

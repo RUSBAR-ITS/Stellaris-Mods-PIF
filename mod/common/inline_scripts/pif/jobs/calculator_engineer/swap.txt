@@ -1,0 +1,50 @@
+# PIF job category: SWAP
+# Vanilla job: calculator_engineer
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_research_lab_1
+		icon = engineer
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_wilderness_empire = no
+			}
+		}
+		name = brain_drone_engineer
+		desc = brain_drone_engineer
+		icon = brain_drone_engineer
+		building_icon = building_research_lab_1
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 2
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = evosymbiont_engineer
+		desc = evosymbiont
+		icon = brain_drone_engineer
+		building_icon = brain_node_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			engineer_is_nanotech_researcher_trigger = yes
+		}
+		name = nanotech_research_unit
+		desc = nanotech_research_unit
+		building_icon = building_nanolab_1
+		weight = 15
+	}
+}

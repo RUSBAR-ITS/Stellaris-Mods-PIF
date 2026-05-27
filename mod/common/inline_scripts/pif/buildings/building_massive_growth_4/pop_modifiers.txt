@@ -1,0 +1,6 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_massive_growth_4
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+# Empty PIF building category hook.

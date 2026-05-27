@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/16_shroud_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+slave_orderly = {
+	category = worker
+	inline_script = "pif/jobs/slave_orderly/swap"
+	inline_script = "pif/jobs/slave_orderly/availability"
+	inline_script = "pif/jobs/slave_orderly/pop_config"
+	inline_script = "pif/jobs/slave_orderly/economy"
+	inline_script = "pif/jobs/slave_orderly/planet_state"
+	inline_script = "pif/jobs/slave_orderly/country_modifiers"
+	inline_script = "pif/jobs/slave_orderly/pop_modifiers"
+	inline_script = "pif/jobs/slave_orderly/economic_modifiers"
+	inline_script = "pif/jobs/slave_orderly/tpm"
+}

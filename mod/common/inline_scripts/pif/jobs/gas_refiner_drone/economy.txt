@@ -1,0 +1,44 @@
+# PIF job category: ECONOMY
+# Vanilla job: gas_refiner_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_refiners
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = no
+			}
+		}
+		exotic_gases = @pif_gas_refiner_drone_job_output_output_exotic_gases_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = yes
+			}
+		}
+		exotic_gases = @pif_gas_refiner_drone_job_output_output_exotic_gases_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = no
+			}
+		}
+		minerals = @pif_gas_refiner_drone_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_catalytic_empire = yes
+			}
+		}
+		food = @pif_gas_refiner_drone_job_upkeep_upkeep_food_2
+	}
+}

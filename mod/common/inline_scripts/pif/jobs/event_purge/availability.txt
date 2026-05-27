@@ -1,0 +1,10 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: event_purge
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+is_capped_by_modifier = @pif_event_purge_job_flags_is_capped_by_modifier_1
+
+possible = {
+	has_pop_group_flag = event_purge
+}

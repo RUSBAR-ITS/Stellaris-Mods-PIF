@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_junkheap
+# Vanilla class: capital
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_junkheap_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_junkheap_planet_state_planet_amenities_add_2
+	job_ratling_scavenger_add = @pif_building_junkheap_jobs_job_ratling_scavenger_add_1
+}

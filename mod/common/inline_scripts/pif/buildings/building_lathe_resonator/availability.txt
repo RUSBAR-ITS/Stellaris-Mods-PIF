@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_lathe_resonator
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_lathe_resonator_limits_planet_limit_1
+
+potential = {
+	is_planet_class = pc_cosmogenesis_world
+}
+
+prerequisites = {
+	tech_lathe_resonator
+}

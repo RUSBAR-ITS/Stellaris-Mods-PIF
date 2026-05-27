@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_food_processing_center
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+# Empty PIF building category hook.

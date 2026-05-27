@@ -1,0 +1,60 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: haruspex
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+tags = {
+	unity
+	research
+	amenities
+}
+
+weight = {
+	weight = @pif_haruspex_job_weight_weight_1
+	mult = value:job_weights_multiple_resources_modifier|JOB|haruspex|RESOURCE1|unity|WEIGHT1|0.50|RESOURCE2|engineering_research|WEIGHT2|0.50|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_haruspex_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_haruspex_job_weight_factor_3
+		exists = owner
+		owner = {
+			has_civic = civic_exalted_priesthood
+		}
+	}
+	modifier = {
+		factor = @pif_haruspex_job_weight_factor_4
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_haruspex_job_weight_factor_4
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_indentured
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_haruspex_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

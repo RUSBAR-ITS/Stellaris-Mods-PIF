@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/09_first_contact_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+low_tech_priest = {
+	category = specialist
+	inline_script = "pif/jobs/low_tech_priest/swap"
+	inline_script = "pif/jobs/low_tech_priest/availability"
+	inline_script = "pif/jobs/low_tech_priest/pop_config"
+	inline_script = "pif/jobs/low_tech_priest/economy"
+	inline_script = "pif/jobs/low_tech_priest/planet_state"
+	inline_script = "pif/jobs/low_tech_priest/country_modifiers"
+	inline_script = "pif/jobs/low_tech_priest/pop_modifiers"
+	inline_script = "pif/jobs/low_tech_priest/economic_modifiers"
+	inline_script = "pif/jobs/low_tech_priest/tpm"
+}

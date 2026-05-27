@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+soldier = {
+	category = specialist
+	inline_script = "pif/jobs/soldier/swap"
+	inline_script = "pif/jobs/soldier/availability"
+	inline_script = "pif/jobs/soldier/pop_config"
+	inline_script = "pif/jobs/soldier/economy"
+	inline_script = "pif/jobs/soldier/planet_state"
+	inline_script = "pif/jobs/soldier/country_modifiers"
+	inline_script = "pif/jobs/soldier/pop_modifiers"
+	inline_script = "pif/jobs/soldier/economic_modifiers"
+	inline_script = "pif/jobs/soldier/tpm"
+}

@@ -1,0 +1,53 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_resource_silo
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	exists = owner
+	hidden_trigger = {
+		OR = {
+			owner = {
+				is_ai = no
+			}
+			AND = {
+				NOT = {
+					has_building = building_resource_silo
+				}
+				OR = {
+					owner = {
+						is_machine_empire = yes
+						has_active_tradition = tr_domination_modular_depot
+					}
+					is_active_resolution = "resolution_greatergood_balance_in_the_middle"
+					is_active_resolution = "resolution_greatergood_universal_prosperity_mandate"
+					owner = {
+						has_ascension_perk = ap_arcology_project
+						NOT = {
+							has_technology = tech_mega_engineering
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+prerequisites = {
+	"tech_basic_industry"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

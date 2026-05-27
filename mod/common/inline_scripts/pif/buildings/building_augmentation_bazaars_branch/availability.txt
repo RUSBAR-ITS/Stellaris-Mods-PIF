@@ -1,0 +1,19 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_augmentation_bazaars_branch
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+planet_limit = @pif_building_augmentation_bazaars_branch_limits_planet_limit_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		has_valid_civic = civic_augmentation_bazaars
+	}
+}
+
+allow = {
+	always = yes
+}
+
+prerequisites = {}

@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/04_secondary_zones.txt
+# Object type: zone
+
+zone_research_physics_hive = {
+	icon = GFX_district_specialization_physics
+	base_buildtime = @pif_zone_research_physics_hive_construction_zone_build_time_1
+	swap_type = district_hive_research_physics
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_research_physics_hive/availability"
+	inline_script = "pif/zones/zone_research_physics_hive/zone_config"
+	inline_script = "pif/zones/zone_research_physics_hive/economy"
+	inline_script = "pif/zones/zone_research_physics_hive/tpm"
+	inline_script = "pif/zones/zone_research_physics_hive/lifecycle"
+	inline_script = "pif/zones/zone_research_physics_hive/ai"
+}

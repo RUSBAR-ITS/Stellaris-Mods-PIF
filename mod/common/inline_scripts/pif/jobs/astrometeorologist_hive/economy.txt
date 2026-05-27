@@ -1,0 +1,6 @@
+# PIF job category: ECONOMY
+# Vanilla job: astrometeorologist_hive
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/12_cosmic_storm_jobs.txt
+
+# Empty PIF job category hook.

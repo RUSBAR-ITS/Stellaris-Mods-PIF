@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_planetary_shield_generator
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		has_cosmic_storms_dlc = yes
+	}
+	planet_storm_devastation_mult = -0.5
+}

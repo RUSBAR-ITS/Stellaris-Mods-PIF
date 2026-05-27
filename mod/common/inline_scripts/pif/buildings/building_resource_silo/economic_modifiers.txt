@@ -1,0 +1,31 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_resource_silo
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_resource_max_add = @pif_building_resource_silo_economic_modifiers_country_resource_max_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_construction_templates
+		}
+	}
+	country_resource_max_add = @pif_building_resource_silo_economic_modifiers_country_resource_max_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_obsessional_directive
+		}
+	}
+	country_resource_max_consumer_goods_add = @pif_building_resource_silo_economic_modifiers_country_resource_max_consumer_goods_add_2
+}

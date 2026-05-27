@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+livestock = {
+	category = worker
+	inline_script = "pif/jobs/livestock/swap"
+	inline_script = "pif/jobs/livestock/availability"
+	inline_script = "pif/jobs/livestock/pop_config"
+	inline_script = "pif/jobs/livestock/economy"
+	inline_script = "pif/jobs/livestock/planet_state"
+	inline_script = "pif/jobs/livestock/country_modifiers"
+	inline_script = "pif/jobs/livestock/pop_modifiers"
+	inline_script = "pif/jobs/livestock/economic_modifiers"
+	inline_script = "pif/jobs/livestock/tpm"
+}

@@ -1,0 +1,19 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_drone_storage
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_machine_empire = yes
+	}
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		free_amenities < @pif_building_drone_storage_availability_thresholds_free_amenities_1
+		days_passed = 0
+	}
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/06_trade_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_commercial_megaplex = {
+	base_buildtime = @pif_building_commercial_megaplex_construction_base_buildtime_1
+	category = trade
+	inline_script = "pif/buildings/building_commercial_megaplex/building_config"
+	inline_script = "pif/buildings/building_commercial_megaplex/availability"
+	inline_script = "pif/buildings/building_commercial_megaplex/economy"
+	inline_script = "pif/buildings/building_commercial_megaplex/lifecycle"
+	inline_script = "pif/buildings/building_commercial_megaplex/jobs"
+	inline_script = "pif/buildings/building_commercial_megaplex/country_jobs"
+	inline_script = "pif/buildings/building_commercial_megaplex/economic_modifiers"
+	inline_script = "pif/buildings/building_commercial_megaplex/pop_modifiers"
+	inline_script = "pif/buildings/building_commercial_megaplex/planet_state"
+	inline_script = "pif/buildings/building_commercial_megaplex/tpm"
+	inline_script = "pif/buildings/building_commercial_megaplex/ai"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+overlord_offspring_drone_feeder = {
+	category = specialist
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/swap"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/availability"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/pop_config"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/economy"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/planet_state"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/country_modifiers"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/pop_modifiers"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/economic_modifiers"
+	inline_script = "pif/jobs/overlord_offspring_drone_feeder/tpm"
+}

@@ -1,0 +1,963 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: AI
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_anglers
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/ai.txt
+@pif_zone_agrarian_anglers_ai_ai_priority_ai_priority_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_urban
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/ai.txt
+@pif_zone_agrarian_urban_ai_ai_priority_ai_priority_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_anglers
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/ai.txt
+@pif_zone_anglers_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_betharian
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/ai.txt
+@pif_zone_betharian_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_betharian_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/ai.txt
+@pif_zone_betharian_hive_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_betharian_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/ai.txt
+@pif_zone_betharian_nexus_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_central_spire
+# -----------------------------------------------------------------------------
+# Controls: ai_resource_production.ai_resource_production.engineering_research.engineering_research.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/ai.txt
+@pif_zone_central_spire_ai_ai_resource_production_ai_resource_production_engineering_research_engin_3 = 12
+
+# Controls: ai_resource_production.ai_resource_production.physics_research.physics_research.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/ai.txt
+@pif_zone_central_spire_ai_ai_resource_production_ai_resource_production_physics_research_physics_r_1 = 12
+
+# Controls: ai_resource_production.ai_resource_production.society_research.society_research.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/ai.txt
+@pif_zone_central_spire_ai_ai_resource_production_ai_resource_production_society_research_society_r_2 = 12
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/ai.txt
+@pif_zone_central_spire_ai_ai_weight_coefficient_ai_weight_coefficient_4 = 1.2
+
+# -----------------------------------------------------------------------------
+# zone_cosmogenesis_default
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_cosmogenesis_default/ai.txt
+@pif_zone_cosmogenesis_default_ai_ai_priority_ai_priority_1 = 0
+
+# -----------------------------------------------------------------------------
+# zone_default
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_default/ai.txt
+@pif_zone_default_ai_ai_priority_ai_priority_1 = 0
+
+# -----------------------------------------------------------------------------
+# zone_energy
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_energy/ai.txt
+@pif_zone_energy_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_energy_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/ai.txt
+@pif_zone_energy_hive_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_energy_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/ai.txt
+@pif_zone_energy_nexus_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_energy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/ai.txt
+@pif_zone_energy_ring_world_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/ai.txt
+@pif_zone_exotic_gases_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/ai.txt
+@pif_zone_exotic_gases_hive_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/ai.txt
+@pif_zone_exotic_gases_nexus_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_factory
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_factory/ai.txt
+@pif_zone_factory_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_factory/ai.txt
+@pif_zone_factory_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_factory_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/ai.txt
+@pif_zone_factory_arcology_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/ai.txt
+@pif_zone_factory_arcology_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_factory_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/ai.txt
+@pif_zone_factory_hive_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/ai.txt
+@pif_zone_factory_hive_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_factory_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/ai.txt
+@pif_zone_factory_nexus_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/ai.txt
+@pif_zone_factory_nexus_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_factory_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/ai.txt
+@pif_zone_factory_ring_world_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/ai.txt
+@pif_zone_factory_ring_world_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_food
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_food/ai.txt
+@pif_zone_food_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_food_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/ai.txt
+@pif_zone_food_hive_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_food_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/ai.txt
+@pif_zone_food_ring_world_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_fortress
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/ai.txt
+@pif_zone_fortress_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_fortress_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/ai.txt
+@pif_zone_fortress_arcology_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_fortress_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/ai.txt
+@pif_zone_fortress_hive_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_fortress_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/ai.txt
+@pif_zone_fortress_nexus_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_fortress_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/ai.txt
+@pif_zone_fortress_ring_world_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_foundry
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/ai.txt
+@pif_zone_foundry_ai_ai_priority_ai_priority_3 = 10
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/ai.txt
+@pif_zone_foundry_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 20
+
+# Controls: ai_weight_coefficient_2.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/ai.txt
+@pif_zone_foundry_ai_ai_weight_coefficient_2_ai_weight_coefficient_4 = 1.2
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/ai.txt
+@pif_zone_foundry_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# zone_foundry_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/ai.txt
+@pif_zone_foundry_arcology_ai_ai_priority_ai_priority_3 = 10
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/ai.txt
+@pif_zone_foundry_arcology_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 20
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/ai.txt
+@pif_zone_foundry_arcology_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# zone_foundry_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/ai.txt
+@pif_zone_foundry_hive_ai_ai_priority_ai_priority_3 = 10
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/ai.txt
+@pif_zone_foundry_hive_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 20
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/ai.txt
+@pif_zone_foundry_hive_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# zone_foundry_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/ai.txt
+@pif_zone_foundry_nexus_ai_ai_priority_ai_priority_3 = 10
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/ai.txt
+@pif_zone_foundry_nexus_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 20
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/ai.txt
+@pif_zone_foundry_nexus_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# zone_foundry_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/ai.txt
+@pif_zone_foundry_ring_world_ai_ai_priority_ai_priority_3 = 10
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/ai.txt
+@pif_zone_foundry_ring_world_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 20
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/ai.txt
+@pif_zone_foundry_ring_world_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# zone_habitat_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/ai.txt
+@pif_zone_habitat_exotic_gases_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_habitat_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/ai.txt
+@pif_zone_habitat_rare_crystals_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_habitat_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/ai.txt
+@pif_zone_habitat_volatile_motes_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_industrial
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/ai.txt
+@pif_zone_industrial_ai_ai_priority_ai_priority_4 = 8
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/ai.txt
+@pif_zone_industrial_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/ai.txt
+@pif_zone_industrial_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_2 = 10
+
+# Controls: ai_weight_coefficient_2.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/ai.txt
+@pif_zone_industrial_ai_ai_weight_coefficient_2_ai_weight_coefficient_5 = 1.1
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/ai.txt
+@pif_zone_industrial_ai_ai_weight_coefficient_ai_weight_coefficient_3 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_industrial_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/ai.txt
+@pif_zone_industrial_arcology_ai_ai_priority_ai_priority_4 = 8
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/ai.txt
+@pif_zone_industrial_arcology_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/ai.txt
+@pif_zone_industrial_arcology_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/ai.txt
+@pif_zone_industrial_arcology_ai_ai_weight_coefficient_ai_weight_coefficient_3 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_industrial_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/ai.txt
+@pif_zone_industrial_hive_ai_ai_priority_ai_priority_4 = 8
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/ai.txt
+@pif_zone_industrial_hive_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/ai.txt
+@pif_zone_industrial_hive_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/ai.txt
+@pif_zone_industrial_hive_ai_ai_weight_coefficient_ai_weight_coefficient_3 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_industrial_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/ai.txt
+@pif_zone_industrial_nexus_ai_ai_priority_ai_priority_4 = 8
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/ai.txt
+@pif_zone_industrial_nexus_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/ai.txt
+@pif_zone_industrial_nexus_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/ai.txt
+@pif_zone_industrial_nexus_ai_ai_weight_coefficient_ai_weight_coefficient_3 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_industrial_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/ai.txt
+@pif_zone_industrial_ring_world_ai_ai_priority_ai_priority_4 = 8
+
+# Controls: ai_resource_production.ai_resource_production.alloys.alloys.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/ai.txt
+@pif_zone_industrial_ring_world_ai_ai_resource_production_ai_resource_production_alloys_alloys_1 = 10
+
+# Controls: ai_resource_production.ai_resource_production.consumer_goods.consumer_goods.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/ai.txt
+@pif_zone_industrial_ring_world_ai_ai_resource_production_ai_resource_production_consumer_goods_consumer_go_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/ai.txt
+@pif_zone_industrial_ring_world_ai_ai_weight_coefficient_ai_weight_coefficient_3 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_machine_replication
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_machine_replication/ai.txt
+@pif_zone_machine_replication_ai_ai_priority_ai_priority_1 = 12
+
+# -----------------------------------------------------------------------------
+# zone_minerals
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_minerals/ai.txt
+@pif_zone_minerals_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_minerals_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/ai.txt
+@pif_zone_minerals_hive_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_minerals_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/ai.txt
+@pif_zone_minerals_nexus_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_minerals_physics
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/ai.txt
+@pif_zone_minerals_physics_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/ai.txt
+@pif_zone_rare_crystals_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/ai.txt
+@pif_zone_rare_crystals_hive_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/ai.txt
+@pif_zone_rare_crystals_nexus_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_research
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research/ai.txt
+@pif_zone_research_ai_ai_priority_ai_priority_5 = 10
+
+# Controls: ai_resource_production.ai_resource_production.engineering_research.engineering_research.
+# Used in: common/inline_scripts/pif/zones/zone_research/ai.txt
+@pif_zone_research_ai_ai_resource_production_ai_resource_production_engineering_research_engin_3 = 5
+
+# Controls: ai_resource_production.ai_resource_production.physics_research.physics_research.
+# Used in: common/inline_scripts/pif/zones/zone_research/ai.txt
+@pif_zone_research_ai_ai_resource_production_ai_resource_production_physics_research_physics_r_1 = 5
+
+# Controls: ai_resource_production.ai_resource_production.society_research.society_research.
+# Used in: common/inline_scripts/pif/zones/zone_research/ai.txt
+@pif_zone_research_ai_ai_resource_production_ai_resource_production_society_research_society_r_2 = 5
+
+# Controls: ai_weight_coefficient_2.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research/ai.txt
+@pif_zone_research_ai_ai_weight_coefficient_2_ai_weight_coefficient_6 = 1.2
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research/ai.txt
+@pif_zone_research_ai_ai_weight_coefficient_ai_weight_coefficient_4 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/ai.txt
+@pif_zone_research_arcology_ai_ai_priority_ai_priority_5 = 10
+
+# Controls: ai_resource_production.ai_resource_production.engineering_research.engineering_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/ai.txt
+@pif_zone_research_arcology_ai_ai_resource_production_ai_resource_production_engineering_research_engin_3 = 5
+
+# Controls: ai_resource_production.ai_resource_production.physics_research.physics_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/ai.txt
+@pif_zone_research_arcology_ai_ai_resource_production_ai_resource_production_physics_research_physics_r_1 = 5
+
+# Controls: ai_resource_production.ai_resource_production.society_research.society_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/ai.txt
+@pif_zone_research_arcology_ai_ai_resource_production_ai_resource_production_society_research_society_r_2 = 5
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/ai.txt
+@pif_zone_research_arcology_ai_ai_weight_coefficient_ai_weight_coefficient_4 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/ai.txt
+@pif_zone_research_engineering_ai_ai_priority_ai_priority_1 = 15
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/ai.txt
+@pif_zone_research_engineering_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/ai.txt
+@pif_zone_research_hive_ai_ai_priority_ai_priority_5 = 10
+
+# Controls: ai_resource_production.ai_resource_production.engineering_research.engineering_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/ai.txt
+@pif_zone_research_hive_ai_ai_resource_production_ai_resource_production_engineering_research_engin_3 = 5
+
+# Controls: ai_resource_production.ai_resource_production.physics_research.physics_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/ai.txt
+@pif_zone_research_hive_ai_ai_resource_production_ai_resource_production_physics_research_physics_r_1 = 5
+
+# Controls: ai_resource_production.ai_resource_production.society_research.society_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/ai.txt
+@pif_zone_research_hive_ai_ai_resource_production_ai_resource_production_society_research_society_r_2 = 5
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/ai.txt
+@pif_zone_research_hive_ai_ai_weight_coefficient_ai_weight_coefficient_4 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/ai.txt
+@pif_zone_research_nexus_ai_ai_priority_ai_priority_5 = 10
+
+# Controls: ai_resource_production.ai_resource_production.engineering_research.engineering_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/ai.txt
+@pif_zone_research_nexus_ai_ai_resource_production_ai_resource_production_engineering_research_engin_3 = 5
+
+# Controls: ai_resource_production.ai_resource_production.physics_research.physics_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/ai.txt
+@pif_zone_research_nexus_ai_ai_resource_production_ai_resource_production_physics_research_physics_r_1 = 5
+
+# Controls: ai_resource_production.ai_resource_production.society_research.society_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/ai.txt
+@pif_zone_research_nexus_ai_ai_resource_production_ai_resource_production_society_research_society_r_2 = 5
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/ai.txt
+@pif_zone_research_nexus_ai_ai_weight_coefficient_ai_weight_coefficient_4 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_physics
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/ai.txt
+@pif_zone_research_physics_ai_ai_priority_ai_priority_1 = 15
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/ai.txt
+@pif_zone_research_physics_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/ai.txt
+@pif_zone_research_ring_world_ai_ai_priority_ai_priority_5 = 10
+
+# Controls: ai_resource_production.ai_resource_production.engineering_research.engineering_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/ai.txt
+@pif_zone_research_ring_world_ai_ai_resource_production_ai_resource_production_engineering_research_engin_3 = 5
+
+# Controls: ai_resource_production.ai_resource_production.physics_research.physics_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/ai.txt
+@pif_zone_research_ring_world_ai_ai_resource_production_ai_resource_production_physics_research_physics_r_1 = 5
+
+# Controls: ai_resource_production.ai_resource_production.society_research.society_research.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/ai.txt
+@pif_zone_research_ring_world_ai_ai_resource_production_ai_resource_production_society_research_society_r_2 = 5
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/ai.txt
+@pif_zone_research_ring_world_ai_ai_weight_coefficient_ai_weight_coefficient_4 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_society
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/ai.txt
+@pif_zone_research_society_ai_ai_priority_ai_priority_1 = 15
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/ai.txt
+@pif_zone_research_society_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 1.1
+
+# -----------------------------------------------------------------------------
+# zone_research_unity
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/ai.txt
+@pif_zone_research_unity_ai_ai_priority_ai_priority_1 = 8
+
+# -----------------------------------------------------------------------------
+# zone_resort
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort/ai.txt
+@pif_zone_resort_ai_ai_priority_ai_priority_1 = 5
+
+# -----------------------------------------------------------------------------
+# zone_resort_entertainment
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/ai.txt
+@pif_zone_resort_entertainment_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_resort_grand_museum
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort_grand_museum/ai.txt
+@pif_zone_resort_grand_museum_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_resort_hunting_ground
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort_hunting_ground/ai.txt
+@pif_zone_resort_hunting_ground_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_resort_proving_grounds
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort_proving_grounds/ai.txt
+@pif_zone_resort_proving_grounds_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_resort_restoration_enclave
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort_restoration_enclave/ai.txt
+@pif_zone_resort_restoration_enclave_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_resort_spiritual_retreat
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort_spiritual_retreat/ai.txt
+@pif_zone_resort_spiritual_retreat_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_resort_zoo
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/ai.txt
+@pif_zone_resort_zoo_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_spawning
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_spawning/ai.txt
+@pif_zone_spawning_ai_ai_priority_ai_priority_1 = 12
+
+# -----------------------------------------------------------------------------
+# zone_spawning_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_spawning_hive/ai.txt
+@pif_zone_spawning_hive_ai_ai_priority_ai_priority_1 = 12
+
+# -----------------------------------------------------------------------------
+# zone_subterranean_urban
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/ai.txt
+@pif_zone_subterranean_urban_ai_ai_priority_ai_priority_1 = 1
+
+# -----------------------------------------------------------------------------
+# zone_trade
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_trade/ai.txt
+@pif_zone_trade_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_weight_coefficient_2.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_trade/ai.txt
+@pif_zone_trade_ai_ai_weight_coefficient_2_ai_weight_coefficient_3 = 0.25
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_trade/ai.txt
+@pif_zone_trade_ai_ai_weight_coefficient_ai_weight_coefficient_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_trade_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/ai.txt
+@pif_zone_trade_arcology_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/ai.txt
+@pif_zone_trade_arcology_ai_ai_weight_coefficient_ai_weight_coefficient_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_trade_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/ai.txt
+@pif_zone_trade_hive_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/ai.txt
+@pif_zone_trade_hive_ai_ai_weight_coefficient_ai_weight_coefficient_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_trade_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/ai.txt
+@pif_zone_trade_nexus_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/ai.txt
+@pif_zone_trade_nexus_ai_ai_weight_coefficient_ai_weight_coefficient_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_trade_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/ai.txt
+@pif_zone_trade_ring_world_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/ai.txt
+@pif_zone_trade_ring_world_ai_ai_weight_coefficient_ai_weight_coefficient_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_unity
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity/ai.txt
+@pif_zone_unity_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity/ai.txt
+@pif_zone_unity_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/ai.txt
+@pif_zone_unity_arcology_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/ai.txt
+@pif_zone_unity_arcology_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/ai.txt
+@pif_zone_unity_bio_trophy_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/ai.txt
+@pif_zone_unity_bio_trophy_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/ai.txt
+@pif_zone_unity_bio_trophy_arcology_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/ai.txt
+@pif_zone_unity_bio_trophy_arcology_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/ai.txt
+@pif_zone_unity_bio_trophy_nexus_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/ai.txt
+@pif_zone_unity_bio_trophy_nexus_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/ai.txt
+@pif_zone_unity_bio_trophy_ring_world_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/ai.txt
+@pif_zone_unity_bio_trophy_ring_world_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/ai.txt
+@pif_zone_unity_hive_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/ai.txt
+@pif_zone_unity_hive_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/ai.txt
+@pif_zone_unity_nexus_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/ai.txt
+@pif_zone_unity_nexus_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/ai.txt
+@pif_zone_unity_ring_world_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/ai.txt
+@pif_zone_unity_ring_world_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/ai.txt
+@pif_zone_unity_spiritualist_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/ai.txt
+@pif_zone_unity_spiritualist_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_arcology
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/ai.txt
+@pif_zone_unity_spiritualist_arcology_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/ai.txt
+@pif_zone_unity_spiritualist_arcology_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/ai.txt
+@pif_zone_unity_spiritualist_nexus_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/ai.txt
+@pif_zone_unity_spiritualist_nexus_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_ring_world
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/ai.txt
+@pif_zone_unity_spiritualist_ring_world_ai_ai_priority_ai_priority_2 = 10
+
+# Controls: ai_resource_production.ai_resource_production.unity.unity.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/ai.txt
+@pif_zone_unity_spiritualist_ring_world_ai_ai_resource_production_ai_resource_production_unity_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# zone_urban
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_urban/ai.txt
+@pif_zone_urban_ai_ai_priority_ai_priority_1 = 2
+
+# Controls: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/zones/zone_urban/ai.txt
+@pif_zone_urban_ai_ai_weight_coefficient_ai_weight_coefficient_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/ai.txt
+@pif_zone_volatile_motes_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_hive
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/ai.txt
+@pif_zone_volatile_motes_hive_ai_ai_priority_ai_priority_1 = 10
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_nexus
+# -----------------------------------------------------------------------------
+# Controls: ai_priority.ai_priority.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/ai.txt
+@pif_zone_volatile_motes_nexus_ai_ai_priority_ai_priority_1 = 10

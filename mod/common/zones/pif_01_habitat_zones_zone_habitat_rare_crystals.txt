@@ -1,0 +1,34 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/01_habitat_zones.txt
+# Object type: zone
+
+zone_habitat_rare_crystals = {
+	icon = GFX_district_specialization_rare_crystals
+	base_buildtime = @pif_zone_habitat_rare_crystals_construction_zone_build_time_1
+	triggered_desc = {
+		text = miner_is_crystal_miner_tt
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+	}
+	triggered_desc = {
+		text = mining_drone_is_crystal_miner_tt
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+	}
+	swap_type = district_hab_mining_rare_crystals
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_habitat_rare_crystals/availability"
+	inline_script = "pif/zones/zone_habitat_rare_crystals/zone_config"
+	inline_script = "pif/zones/zone_habitat_rare_crystals/economy"
+	inline_script = "pif/zones/zone_habitat_rare_crystals/tpm"
+	inline_script = "pif/zones/zone_habitat_rare_crystals/lifecycle"
+	inline_script = "pif/zones/zone_habitat_rare_crystals/ai"
+}

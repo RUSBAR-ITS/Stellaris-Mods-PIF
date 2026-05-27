@@ -1,0 +1,18 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: farmer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_agrarian_idyll
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_farmer_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

@@ -1,0 +1,66 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: neural_chip_unprocessing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+first_come_first_served = @pif_neural_chip_unprocessing_job_flags_first_come_first_served_2
+
+demotion = {
+	time = @pif_neural_chip_unprocessing_demotion_time_1
+	effect = {
+		if = {
+			limit = {
+				owner = {
+					is_gestalt = no
+				}
+			}
+			pop_amount_change_category = {
+				CATEGORY = civilian
+				AMOUNT = local_pop_amount
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					is_gestalt = yes
+					has_valid_civic = civic_machine_servitor
+				}
+				species = {
+					is_robotic = no
+				}
+			}
+			pop_amount_change_category = {
+				CATEGORY = bio_trophy
+				AMOUNT = local_pop_amount
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					is_gestalt = yes
+					is_wilderness_empire = no
+				}
+			}
+			pop_amount_change_category = {
+				CATEGORY = maintenance_drone
+				AMOUNT = local_pop_amount
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					is_gestalt = yes
+					is_wilderness_empire = yes
+				}
+			}
+			pop_amount_change_category = {
+				CATEGORY = wilderness_heart_strata
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+weight = {
+	weight = @pif_neural_chip_unprocessing_job_weight_weight_1
+}

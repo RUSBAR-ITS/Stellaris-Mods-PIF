@@ -1,0 +1,20 @@
+# PIF building category: AI
+# Vanilla building: building_storm_repellent_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+custom_storm_ai_weight = {
+	weight = @pif_building_storm_repellent_center_ai_weight_1
+	modifier = {
+		add = @pif_building_storm_repellent_center_ai_add_2
+		AND = {
+			exists = owner
+			owner = {
+				num_cosmic_storms_encountered >= 2
+			}
+			solar_system = {
+				is_on_border = yes
+			}
+		}
+	}
+}

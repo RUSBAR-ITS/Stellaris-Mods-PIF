@@ -1,0 +1,14 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_simulation_1
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_unity_produces_mult = @pif_building_simulation_1_economic_modifiers_planet_jobs_unity_produces_mult_2
+	planet_maintenance_drones_unity_produces_add = @pif_building_simulation_1_economic_modifiers_planet_maintenance_drones_unity_produces_add_3
+	planet_maintenance_drones_trade_produces_add = @pif_building_simulation_1_economic_modifiers_planet_maintenance_drones_trade_produces_add_4
+	planet_maintenance_drones_minerals_upkeep_add = @pif_building_simulation_1_economic_modifiers_planet_maintenance_drones_minerals_upkeep_add_5
+}

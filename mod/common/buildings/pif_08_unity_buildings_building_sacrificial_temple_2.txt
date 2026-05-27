@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_sacrificial_temple_2 = {
+	base_buildtime = @pif_building_sacrificial_temple_2_construction_base_buildtime_1
+	position_priority = 100
+	category = unity
+	inline_script = "pif/buildings/building_sacrificial_temple_2/building_config"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/availability"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/economy"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/lifecycle"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/jobs"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/country_jobs"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/economic_modifiers"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/pop_modifiers"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/planet_state"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/tpm"
+	inline_script = "pif/buildings/building_sacrificial_temple_2/ai"
+}

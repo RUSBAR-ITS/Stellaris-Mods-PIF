@@ -1,0 +1,32 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_grand_battlements_of_steel
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+can_be_ruined = no
+
+can_demolish = no
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		owner = {
+			OR = {
+				NOT = {
+					has_origin = origin_cybernetic_creed
+				}
+				AND = {
+					has_origin = origin_cybernetic_creed
+					OR = {
+						has_country_flag = cybernetic_creed_research
+						has_country_flag = cybernetic_creed_construction
+						has_country_flag = cybernetic_creed_labor
+						has_country_flag = cybernetic_creed_general
+					}
+				}
+			}
+		}
+	}
+}

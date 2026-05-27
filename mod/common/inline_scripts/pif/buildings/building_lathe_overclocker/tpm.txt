@@ -1,0 +1,21 @@
+# PIF building category: TPM
+# Vanilla building: building_lathe_overclocker
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		NOT = {
+			owner = {
+				has_deficit = energy
+			}
+		}
+	}
+	modifier = {
+		planet_neural_chips_physics_research_produces_add = @pif_building_lathe_overclocker_economic_modifiers_planet_neural_chips_physics_research_produces_add_1
+		planet_neural_chips_society_research_produces_add = @pif_building_lathe_overclocker_economic_modifiers_planet_neural_chips_society_research_produces_add_2
+		planet_neural_chips_engineering_research_produces_add = @pif_building_lathe_overclocker_economic_modifiers_planet_neural_chips_engineering_research_produces_add_3
+		planet_neural_chips_advanced_logic_produces_add = @pif_building_lathe_overclocker_economic_modifiers_planet_neural_chips_advanced_logic_produces_add_4
+		pop_purge_speed = @pif_building_lathe_overclocker_pop_modifiers_pop_purge_speed_1
+	}
+}

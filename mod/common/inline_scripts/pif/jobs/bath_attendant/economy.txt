@@ -1,0 +1,20 @@
+# PIF job category: ECONOMY
+# Vanilla job: bath_attendant
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_bath_attendants
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_megacorp = yes
+			}
+		}
+		trade = @pif_bath_attendant_job_output_output_trade_1
+	}
+	upkeep = {
+		consumer_goods = @pif_bath_attendant_job_upkeep_upkeep_consumer_goods_1
+	}
+}

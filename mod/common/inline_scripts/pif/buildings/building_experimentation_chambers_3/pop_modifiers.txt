@@ -1,0 +1,14 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_experimentation_chambers_3
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	pop_ethic_materialist_attraction_mult = @pif_building_experimentation_chambers_3_pop_modifiers_pop_ethic_materialist_attraction_mult_1
+}

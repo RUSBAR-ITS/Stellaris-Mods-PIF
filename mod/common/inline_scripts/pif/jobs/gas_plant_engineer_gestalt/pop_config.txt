@@ -1,0 +1,24 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: gas_plant_engineer_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	strategic_resource
+	exotic_gases
+}
+
+weight = {
+	weight = @pif_gas_plant_engineer_gestalt_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|gas_plant_engineer_gestalt|RESOURCE|exotic_gases|
+}
+
+promotion = {
+	time = @pif_gas_plant_engineer_gestalt_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

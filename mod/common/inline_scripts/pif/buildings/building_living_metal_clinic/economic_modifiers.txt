@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_living_metal_clinic
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_worker_produces_mult = @pif_building_living_metal_clinic_economic_modifiers_planet_jobs_worker_produces_mult_2
+}

@@ -1,0 +1,37 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_resort_major_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 1
+	}
+	planet_max_districts_add = @pif_building_resort_major_capital_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 5
+	}
+	planet_max_districts_add = @pif_building_resort_major_capital_planet_state_planet_max_districts_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 10
+	}
+	planet_max_districts_add = @pif_building_resort_major_capital_planet_state_planet_max_districts_add_1
+}

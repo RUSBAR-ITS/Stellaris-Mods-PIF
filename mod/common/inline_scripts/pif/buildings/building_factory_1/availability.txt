@@ -1,0 +1,43 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_factory_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+can_build = yes
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			country_uses_consumer_goods = yes
+			has_origin = origin_fear_of_the_dark
+		}
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		owner = {
+			has_valid_civic = civic_machine_obsessional_directive
+		}
+		AND = {
+			has_any_factory_zone = yes
+			NOR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+			}
+		}
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	tech_basic_industry
+}

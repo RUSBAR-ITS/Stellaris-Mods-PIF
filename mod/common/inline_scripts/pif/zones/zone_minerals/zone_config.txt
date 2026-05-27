@@ -1,0 +1,14 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_minerals
+# Vanilla source: zones/00_zones.txt
+
+included_building_sets = {
+	mining
+	fallen_empire_mining
+	mining_automation
+}
+
+zone_sets = {
+	minerals
+	habitat_minerals
+}

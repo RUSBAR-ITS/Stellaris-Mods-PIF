@@ -1,0 +1,36 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: knight_commander
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+tags = {
+	unity
+	research
+	amenities
+	soldier
+}
+
+weight = {
+	weight = @pif_knight_commander_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|knight_commander|RESOURCE|unity|
+	mult = value:job_weights_research_modifier|JOB|knight_commander|
+}
+
+auto_trait_prio = {
+	trait_charismatic
+	trait_crafted_smiles
+	trait_robot_emotion_emulators
+	trait_cyborg_stainless_steel_smile
+	trait_malleable_ameneties
+	trait_adaptive_amenities
+}
+
+promotion = {
+	time = @pif_knight_commander_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = ruler
+			AMOUNT = local_pop_amount
+		}
+	}
+}

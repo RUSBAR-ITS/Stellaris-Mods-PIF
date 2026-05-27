@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_hyper_entertainment_forum
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_entertainers_upkeep_mult = @pif_building_hyper_entertainment_forum_economic_modifiers_planet_entertainers_upkeep_mult_1
+}

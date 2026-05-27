@@ -1,0 +1,14 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_lathe_super_capital
+# Vanilla class: capital
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_max_districts_add = @pif_building_lathe_super_capital_planet_state_planet_max_districts_add_1
+	planet_housing_add = @pif_building_lathe_super_capital_planet_state_planet_housing_add_2
+	planet_amenities_add = @pif_building_lathe_super_capital_planet_state_planet_amenities_add_3
+	planet_stability_add = @pif_building_lathe_super_capital_planet_state_planet_stability_add_4
+}

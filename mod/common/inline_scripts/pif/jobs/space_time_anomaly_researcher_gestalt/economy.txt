@@ -1,0 +1,31 @@
+# PIF job category: ECONOMY
+# Vanilla job: space_time_anomaly_researcher_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_space_time_anomaly_researcher_gestalt_job_output_output_physics_research_1
+		engineering_research = @pif_space_time_anomaly_researcher_gestalt_job_output_output_engineering_research_2
+		sr_dark_matter = @pif_space_time_anomaly_researcher_gestalt_job_output_output_sr_dark_matter_3
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		energy = @pif_space_time_anomaly_researcher_gestalt_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_space_time_anomaly_researcher_gestalt_job_upkeep_upkeep_minerals_2
+	}
+}

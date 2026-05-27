@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_sentinel_posts
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+# Empty PIF building category hook.

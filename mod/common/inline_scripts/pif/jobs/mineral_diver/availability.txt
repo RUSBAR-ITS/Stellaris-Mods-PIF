@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: mineral_diver
+# Vanilla class: no_category
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+possible = {
+	always = no
+}

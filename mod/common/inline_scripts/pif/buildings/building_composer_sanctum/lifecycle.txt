@@ -1,0 +1,24 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_composer_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			AND = {
+				has_shroud_dlc = no
+				NOT = {
+					has_country_flag = composer_covenant_rank_1
+				}
+			}
+			AND = {
+				has_shroud_dlc = yes
+				NOT = {
+					has_country_flag = fertility_accord
+				}
+			}
+		}
+	}
+}

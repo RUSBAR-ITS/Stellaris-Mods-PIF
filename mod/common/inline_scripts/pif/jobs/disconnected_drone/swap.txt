@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: disconnected_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_mineral_purification_plant
+		icon = synapse_drone
+	}
+}

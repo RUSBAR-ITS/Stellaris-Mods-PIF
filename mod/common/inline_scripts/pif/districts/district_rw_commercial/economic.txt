@@ -1,0 +1,15 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_rw_commercial
+# Vanilla source: districts/04_ringworld_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		minerals = @pif_district_rw_commercial_construction_build_cost_minerals
+		rare_crystals = @pif_district_rw_commercial_construction_build_cost_rare_crystals
+	}
+	upkeep = {
+		energy = @pif_district_rw_commercial_economy_district_upkeep_energy
+		rare_crystals = @pif_district_rw_commercial_economy_district_upkeep_rare_crystals
+	}
+}

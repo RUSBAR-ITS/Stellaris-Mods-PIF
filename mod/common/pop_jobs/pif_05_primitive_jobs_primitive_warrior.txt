@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+primitive_warrior = {
+	category = specialist
+	inline_script = "pif/jobs/primitive_warrior/swap"
+	inline_script = "pif/jobs/primitive_warrior/availability"
+	inline_script = "pif/jobs/primitive_warrior/pop_config"
+	inline_script = "pif/jobs/primitive_warrior/economy"
+	inline_script = "pif/jobs/primitive_warrior/planet_state"
+	inline_script = "pif/jobs/primitive_warrior/country_modifiers"
+	inline_script = "pif/jobs/primitive_warrior/pop_modifiers"
+	inline_script = "pif/jobs/primitive_warrior/economic_modifiers"
+	inline_script = "pif/jobs/primitive_warrior/tpm"
+}

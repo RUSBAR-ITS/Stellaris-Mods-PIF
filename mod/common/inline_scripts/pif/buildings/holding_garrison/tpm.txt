@@ -1,0 +1,51 @@
+# PIF building category: TPM
+# Vanilla building: holding_garrison
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_crime_add = @pif_holding_garrison_planet_state_planet_crime_add_1
+	monthly_loyalty = @pif_holding_garrison_tpm_monthly_loyalty_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		overlord_has_num_armies_on_planet = {
+			NUM = 1
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_holding_garrison_planet_state_planet_crime_add_1
+		pop_happiness = @pif_holding_garrison_pop_modifiers_pop_happiness_1
+		monthly_loyalty = @pif_holding_garrison_tpm_monthly_loyalty_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		overlord_has_num_armies_on_planet = {
+			NUM = 2
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_holding_garrison_planet_state_planet_crime_add_2
+		pop_happiness = @pif_holding_garrison_pop_modifiers_pop_happiness_2
+		monthly_loyalty = @pif_holding_garrison_tpm_monthly_loyalty_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		overlord_has_more_than_num_armies_on_planet = {
+			NUM = 2
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_holding_garrison_planet_state_planet_crime_add_3
+		pop_happiness = @pif_holding_garrison_pop_modifiers_pop_happiness_3
+		monthly_loyalty = @pif_holding_garrison_tpm_monthly_loyalty_3
+	}
+}

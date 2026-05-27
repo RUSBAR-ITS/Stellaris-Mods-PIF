@@ -1,0 +1,34 @@
+# PIF building category: TPM
+# Vanilla building: building_spawning_pool
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_gene_tailoring
+		}
+		any_owned_pop_group = {
+			has_auto_modding_trait = yes
+		}
+	}
+	modifier = {
+		auto_mod_monthly_add = @pif_building_spawning_pool_tpm_auto_mod_monthly_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			game_start_auto_mod_empire = yes
+		}
+		any_owned_pop_group = {
+			has_auto_modding_trait = yes
+		}
+	}
+	modifier = {
+		auto_mod_monthly_add = @pif_building_spawning_pool_tpm_auto_mod_monthly_add_1
+	}
+}

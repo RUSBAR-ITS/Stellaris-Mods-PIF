@@ -1,0 +1,60 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_gaiaseeders_1
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+can_be_disabled = no
+
+upgrades = {
+	"building_gaiaseeders_2"
+}
+
+destroy_trigger = {
+	OR = {
+		is_planet_class = pc_gaia
+		is_planet_class = pc_city
+		is_planet_class = pc_hive
+		is_planet_class = pc_machine
+		is_planet_class = pc_relic
+		NOT = {
+			exists = owner
+		}
+		owner = {
+			is_idyllic_bloom_empire = no
+		}
+	}
+}
+
+on_queued = {
+	if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+			any_owned_pop_group = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+		}
+		random_owned_pop_group = {
+			limit = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+			kill_pop_group = {
+				pop_group = this
+				amount = local_spent_biomass
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+		}
+		owner = {
+			global_biomass_spender = yes
+		}
+	}
+}
+
+on_unqueued = {
+	unqueue_biomass_effect = yes
+}

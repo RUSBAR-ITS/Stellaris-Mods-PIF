@@ -1,0 +1,26 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_temple
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			OR = {
+				AND = {
+					is_spiritualist = no
+					has_make_spiritualist_perk = no
+				}
+				is_gestalt = yes
+			}
+		}
+		has_modifier = slave_colony
+	}
+}
+
+convert_to = {
+	building_bureaucratic_1
+	building_hive_node
+	building_uplink_node
+}

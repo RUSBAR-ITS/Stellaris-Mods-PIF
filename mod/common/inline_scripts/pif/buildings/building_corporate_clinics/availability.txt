@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_corporate_clinics
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+planet_limit = @pif_building_corporate_clinics_limits_planet_limit_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		OR = {
+			has_valid_civic = civic_private_healthcare_corporate
+			has_valid_civic = civic_corporate_toxic_baths
+			has_valid_civic = civic_corporate_toxic_baths_individual_machine
+		}
+	}
+}

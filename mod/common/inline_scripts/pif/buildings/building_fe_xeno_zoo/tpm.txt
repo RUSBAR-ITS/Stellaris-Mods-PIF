@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_fe_xeno_zoo
+# Vanilla class: capital
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_add = @pif_building_fe_xeno_zoo_planet_state_planet_amenities_add_1
+	job_fe_xeno_keeper_add = @pif_building_fe_xeno_zoo_jobs_job_fe_xeno_keeper_add_1
+	planet_housing_add = @pif_building_fe_xeno_zoo_planet_state_planet_housing_add_2
+}

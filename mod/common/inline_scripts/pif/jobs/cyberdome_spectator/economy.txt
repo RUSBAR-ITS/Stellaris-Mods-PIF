@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: cyberdome_spectator
+# Vanilla class: worker
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_cyberdome_spectator
+	produces = {
+		energy = @pif_cyberdome_spectator_job_output_output_energy_1
+		trade = @pif_cyberdome_spectator_job_output_output_trade_2
+	}
+}

@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: genomic_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+possible = {
+	always = no
+}

@@ -1,0 +1,15 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_arcology_leisure
+# Vanilla source: districts/01_arcology_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		minerals = @pif_district_arcology_leisure_construction_build_cost_minerals
+		exotic_gases = @pif_district_arcology_leisure_construction_build_cost_exotic_gases
+	}
+	upkeep = {
+		energy = @pif_district_arcology_leisure_economy_district_upkeep_energy
+		exotic_gases = @pif_district_arcology_leisure_economy_district_upkeep_exotic_gases
+	}
+}

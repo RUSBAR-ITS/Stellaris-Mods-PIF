@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/11_astral_planes_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+astral_researcher = {
+	category = specialist
+	inline_script = "pif/jobs/astral_researcher/swap"
+	inline_script = "pif/jobs/astral_researcher/availability"
+	inline_script = "pif/jobs/astral_researcher/pop_config"
+	inline_script = "pif/jobs/astral_researcher/economy"
+	inline_script = "pif/jobs/astral_researcher/planet_state"
+	inline_script = "pif/jobs/astral_researcher/country_modifiers"
+	inline_script = "pif/jobs/astral_researcher/pop_modifiers"
+	inline_script = "pif/jobs/astral_researcher/economic_modifiers"
+	inline_script = "pif/jobs/astral_researcher/tpm"
+}

@@ -1,0 +1,24 @@
+# PIF building category: TPM
+# Vanilla building: building_clone_army_clone_vat
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	clone_soldiers_sustained = 2500
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_cloning_authority = yes
+			is_megacorp = yes
+		}
+	}
+	planet_jobs_trade_produces_mult = @pif_building_clone_army_clone_vat_economic_modifiers_planet_jobs_trade_produces_mult_1
+	planet_amenities_add = @pif_building_clone_army_clone_vat_planet_state_planet_amenities_add_1
+	mult = @pif_building_clone_army_clone_vat_economic_modifiers_planet_jobs_trade_produces_mult_2
+}

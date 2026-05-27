@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_hyper_entertainment_forum
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+# Empty PIF building category hook.

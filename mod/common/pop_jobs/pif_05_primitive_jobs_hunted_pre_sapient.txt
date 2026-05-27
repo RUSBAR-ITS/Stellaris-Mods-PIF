@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+hunted_pre_sapient = {
+	category = pre_sapients
+	inline_script = "pif/jobs/hunted_pre_sapient/swap"
+	inline_script = "pif/jobs/hunted_pre_sapient/availability"
+	inline_script = "pif/jobs/hunted_pre_sapient/pop_config"
+	inline_script = "pif/jobs/hunted_pre_sapient/economy"
+	inline_script = "pif/jobs/hunted_pre_sapient/planet_state"
+	inline_script = "pif/jobs/hunted_pre_sapient/country_modifiers"
+	inline_script = "pif/jobs/hunted_pre_sapient/pop_modifiers"
+	inline_script = "pif/jobs/hunted_pre_sapient/economic_modifiers"
+	inline_script = "pif/jobs/hunted_pre_sapient/tpm"
+}

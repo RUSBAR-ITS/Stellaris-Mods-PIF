@@ -1,0 +1,135 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: DISTRICT_LIMITS
+# Deposit/feature based district cap-generation values.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_farming
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_farming
+# Used by: common/districts/pif_02_rural_districts_district_farming.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_farming_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_farming
+# Used by: common/districts/pif_02_rural_districts_district_farming.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_farming_limits_min_for_deposits_on_planet = 3
+
+
+# -----------------------------------------------------------------------------
+# district_generator
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_generator
+# Used by: common/districts/pif_02_rural_districts_district_generator.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_generator_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_generator
+# Used by: common/districts/pif_02_rural_districts_district_generator.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_generator_limits_min_for_deposits_on_planet = 3
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_hollow_mountains
+# Used by: common/districts/pif_05_wilderness_districts_district_hollow_mountains.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_hollow_mountains_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_hollow_mountains
+# Used by: common/districts/pif_05_wilderness_districts_district_hollow_mountains.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_hollow_mountains_limits_min_for_deposits_on_planet = 1
+
+
+# -----------------------------------------------------------------------------
+# district_melting
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_melting
+# Used by: common/districts/pif_02_rural_districts_district_melting.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_melting_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_melting
+# Used by: common/districts/pif_02_rural_districts_district_melting.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_melting_limits_min_for_deposits_on_planet = 5
+
+
+# -----------------------------------------------------------------------------
+# district_mining
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_mining
+# Used by: common/districts/pif_02_rural_districts_district_mining.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_mining_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_mining
+# Used by: common/districts/pif_02_rural_districts_district_mining.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_mining_limits_min_for_deposits_on_planet = 1
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_orchard_forests
+# Used by: common/districts/pif_05_wilderness_districts_district_orchard_forests.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_orchard_forests_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_orchard_forests
+# Used by: common/districts/pif_05_wilderness_districts_district_orchard_forests.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_orchard_forests_limits_min_for_deposits_on_planet = 3
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_photosynthesis_fields
+# Used by: common/districts/pif_05_wilderness_districts_district_photosynthesis_fields.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_photosynthesis_fields_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_photosynthesis_fields
+# Used by: common/districts/pif_05_wilderness_districts_district_photosynthesis_fields.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_photosynthesis_fields_limits_min_for_deposits_on_planet = 3
+
+
+# -----------------------------------------------------------------------------
+# district_srw_commercial
+# -----------------------------------------------------------------------------
+# Controls: Deposit-based district cap generation value.
+# District: district_srw_commercial
+# Used by: common/districts/pif_00_urban_districts_district_srw_commercial.txt
+# Contexts: max_for_deposits_on_planet
+@pif_district_srw_commercial_limits_max_for_deposits_on_planet = 15
+
+# Controls: Deposit-based district cap generation value.
+# District: district_srw_commercial
+# Used by: common/districts/pif_00_urban_districts_district_srw_commercial.txt
+# Contexts: min_for_deposits_on_planet
+@pif_district_srw_commercial_limits_min_for_deposits_on_planet = 3

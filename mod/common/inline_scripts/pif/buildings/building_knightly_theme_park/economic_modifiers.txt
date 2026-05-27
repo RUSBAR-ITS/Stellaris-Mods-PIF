@@ -1,0 +1,29 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_knightly_theme_park
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_entertainers_trade_produces_add = @pif_building_knightly_theme_park_economic_modifiers_planet_entertainers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_civic = civic_corporate_hedonism
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_knightly_theme_park_economic_modifiers_planet_entertainers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_civic = civic_corporate_hyperspace_specialty
+		}
+	}
+	planet_entertainers_trade_produces_add = @pif_building_knightly_theme_park_economic_modifiers_planet_entertainers_trade_produces_add_2
+}

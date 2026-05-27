@@ -1,0 +1,16 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_clear_thought_clinic
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+resources = {
+	category = planet_branch_office_buildings
+	cost = {
+		minerals = @pif_building_clear_thought_clinic_cost_cost_minerals_1
+	}
+	produces = {
+		energy = @pif_building_clear_thought_clinic_economic_modifiers_produces_energy_1
+		society_research = @pif_building_clear_thought_clinic_economic_modifiers_produces_society_research_2
+		mult = value:branch_office_value_for_buildings
+	}
+}

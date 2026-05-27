@@ -1,0 +1,13 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_hive_cerebellum_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_primitive_hive_cerebellum_drone_job_output_output_physics_research_1
+		engineering_research = @pif_primitive_hive_cerebellum_drone_job_output_output_engineering_research_2
+		society_research = @pif_primitive_hive_cerebellum_drone_job_output_output_society_research_3
+	}
+}

@@ -1,0 +1,24 @@
+# PIF job category: SWAP
+# Vanilla job: transference_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_hive_confluence
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = neurosymbiont
+		desc = neurosymbiont
+		building_icon = bio_electric_stimulator_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

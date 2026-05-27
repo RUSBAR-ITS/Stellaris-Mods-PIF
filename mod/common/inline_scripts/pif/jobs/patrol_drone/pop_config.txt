@@ -1,0 +1,74 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: patrol_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	crime
+	enforcer
+}
+
+weight = {
+	weight = @pif_patrol_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|patrol_drone|RESOURCE|unity|FACTOR|0.25|
+	mult = value:scripted_job_weight_shroud_forged_mult
+	modifier = {
+		factor = @pif_patrol_drone_job_weight_factor_2
+	}
+	modifier = {
+		weight = @pif_patrol_drone_job_weight_weight_3
+		exists = owner
+		owner = {
+			is_at_war = yes
+		}
+	}
+	modifier = {
+		factor = @pif_patrol_drone_job_weight_factor_4
+		has_trait = trait_resilient
+	}
+	modifier = {
+		factor = @pif_patrol_drone_job_weight_factor_4
+		planet = {
+			planet_crime > 0
+		}
+		has_trait = trait_very_strong
+	}
+	modifier = {
+		factor = @pif_patrol_drone_job_weight_factor_5
+		planet = {
+			planet_crime > 0
+		}
+		has_trait = trait_strong
+	}
+	modifier = {
+		factor = @pif_patrol_drone_job_weight_factor_6
+		has_trait = trait_weak
+	}
+	modifier = {
+		factor = @pif_patrol_drone_job_weight_factor_5
+		has_trait = trait_lithoid
+	}
+	modifier = {
+		factor = @pif_patrol_drone_job_weight_factor_7
+		has_trait = trait_cybernetic
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_patrol_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,41 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_wilderness_glade
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_wilderness_glade_limits_planet_limit_1
+
+potential = {
+	has_overlord_dlc = yes
+	owner = {
+		overlord = {
+			is_wilderness_empire = yes
+		}
+		is_wilderness_empire = no
+		OR = {
+			is_machine_empire = no
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = no_free_district_for_wilderness_glade
+		planet = {
+			num_free_districts = {
+				type = any
+				value > 0
+			}
+		}
+	}
+	custom_tooltip = {
+		fail_text = WILDERNESS_NATURAL_WORLDS_DECLINE
+		planet = {
+			is_habitable_for_wilderness = yes
+		}
+	}
+	planet = {
+		pop_amount >= @pif_holding_wilderness_glade_availability_thresholds_pop_amount_1
+	}
+}

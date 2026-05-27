@@ -1,0 +1,11 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_hab_energy
+# Vanilla source: districts/03_habitat_districts.txt
+
+convert_to = {}
+
+on_built = {
+	planet_event = {
+		id = megastructures.200
+	}
+}

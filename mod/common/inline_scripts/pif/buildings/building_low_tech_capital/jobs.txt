@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: building_low_tech_capital
+# Vanilla class: capital
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_tankbound_empire = no
+		}
+	}
+	job_colonist_add = @pif_building_low_tech_capital_jobs_job_colonist_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_tankbound_empire = yes
+		}
+	}
+	job_spe_colonist_add = @pif_building_low_tech_capital_jobs_job_spe_colonist_add_2
+}

@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_subversive_shrine
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_bureaucrat_add = @pif_building_subversive_shrine_jobs_job_bureaucrat_add_1
+	pop_ethic_spiritualist_attraction_mult = @pif_building_subversive_shrine_pop_modifiers_pop_ethic_spiritualist_attraction_mult_2
+}

@@ -1,0 +1,80 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: telepath
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = eater_covenant_confirmed
+		}
+	}
+	country_naval_cap_add = @pif_telepath_country_modifiers_country_naval_cap_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = eater_covenant_rank_1
+		}
+	}
+	country_naval_cap_add = @pif_telepath_country_modifiers_country_naval_cap_add_2
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_covenant_with_the_cradle_of_souls = yes
+			is_gestalt = no
+		}
+	}
+	pop_factions_produces_mult = @pif_telepath_country_modifiers_pop_factions_produces_mult_3
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_dictatorial_authority = yes
+			OR = {
+				is_transcendent_authority = yes
+				is_corporeal_authority = yes
+			}
+		}
+	}
+	country_edict_fund_add = @pif_telepath_country_modifiers_country_edict_fund_add_4
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_imperial_authority = yes
+			is_corporeal_authority = yes
+		}
+	}
+	psionic_aura_effectiveness_mult = @pif_telepath_country_modifiers_psionic_aura_effectiveness_mult_5
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = endless_sands_accord
+		}
+	}
+	leader_lifespan_mult = @pif_telepath_country_modifiers_leader_lifespan_mult_6
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = bladeless_sword_accord
+		}
+	}
+	diplo_weight_mult = @pif_telepath_country_modifiers_diplo_weight_mult_7
+}

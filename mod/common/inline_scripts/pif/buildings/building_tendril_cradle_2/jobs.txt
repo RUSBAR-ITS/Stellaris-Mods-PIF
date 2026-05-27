@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_tendril_cradle_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_logistics_drone_add = @pif_building_tendril_cradle_2_jobs_job_logistics_drone_add_1
+}

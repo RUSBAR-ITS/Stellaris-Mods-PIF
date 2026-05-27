@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_primitive_research
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_build = no
+
+planet_limit = @pif_building_primitive_research_limits_planet_limit_1
+
+potential = {
+	always = yes
+}

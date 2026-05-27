@@ -1,0 +1,16 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: deviant_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+can_set_priority = @pif_deviant_drone_job_flags_can_set_priority_2
+
+contributes_to_diplo_weight = @pif_deviant_drone_job_flags_contributes_to_diplo_weight_3
+
+tags = {
+	crime
+}
+
+weight = {
+	weight = @pif_deviant_drone_job_weight_weight_1
+}

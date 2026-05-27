@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_noble_vacation_homes
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_noble_vacation_homes_limits_planet_limit_1
+
+potential = {
+	owner.overlord = {
+		has_valid_civic = civic_aristocratic_elite
+	}
+}

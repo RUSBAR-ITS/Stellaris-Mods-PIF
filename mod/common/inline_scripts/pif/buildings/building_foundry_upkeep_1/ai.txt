@@ -1,0 +1,26 @@
+# PIF building category: AI
+# Vanilla building: building_foundry_upkeep_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+ai_resource_production = {
+	minerals = @pif_building_foundry_upkeep_1_ai_minerals_1
+	trigger = {
+		exists = owner
+		owner = {
+			is_catalytic_empire = no
+		}
+		has_any_foundry_zone = yes
+	}
+}
+
+ai_resource_production = {
+	food = @pif_building_foundry_upkeep_1_ai_food_2
+	trigger = {
+		exists = owner
+		owner = {
+			is_catalytic_empire = yes
+		}
+		has_any_foundry_zone = yes
+	}
+}

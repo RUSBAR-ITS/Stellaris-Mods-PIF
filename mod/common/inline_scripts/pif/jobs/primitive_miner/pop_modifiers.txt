@@ -1,0 +1,6 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: primitive_miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+# Empty PIF job category hook.

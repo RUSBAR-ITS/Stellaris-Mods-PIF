@@ -1,0 +1,86 @@
+# PIF job category: ECONOMY
+# Vanilla job: dimensional_portal_researcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_dimensional_portal_researcher_job_output_output_physics_research_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_closed
+			}
+		}
+		physics_research = @pif_dimensional_portal_researcher_job_output_output_physics_research_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_energy
+			}
+		}
+		energy = @pif_dimensional_portal_researcher_job_output_output_energy_3
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_void
+			}
+		}
+		sr_dark_matter = @pif_dimensional_portal_researcher_job_output_output_sr_dark_matter_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_void2
+			}
+		}
+		sr_dark_matter = @pif_dimensional_portal_researcher_job_output_output_sr_dark_matter_5
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_trade_normal
+			}
+		}
+		trade = @pif_dimensional_portal_researcher_job_output_output_trade_6
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_trade_high
+			}
+		}
+		trade = @pif_dimensional_portal_researcher_job_output_output_trade_7
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_trade_low
+			}
+		}
+		trade = @pif_dimensional_portal_researcher_job_output_output_trade_8
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_trade_crisis
+			}
+		}
+		trade = @pif_dimensional_portal_researcher_job_output_output_trade_9
+	}
+	upkeep = {
+		consumer_goods = @pif_dimensional_portal_researcher_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_hell
+			}
+		}
+		consumer_goods = @pif_dimensional_portal_researcher_job_upkeep_upkeep_consumer_goods_1
+	}
+}

@@ -1,0 +1,43 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_sentinel_posts
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_gestalt = yes
+	}
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	hidden_trigger = {
+		OR = {
+			owner = {
+				is_ai = no
+			}
+			AND = {
+				NOT = {
+					has_building = building_sentinel_posts
+				}
+				NOT = {
+					has_forbidden_jobs = patrol_drone
+				}
+				NOT = {
+					has_available_jobs = patrol_drone
+				}
+			}
+		}
+	}
+}
+
+prerequisites = {
+	"tech_planetary_government"
+}
+
+show_tech_unlock_if = {
+	is_gestalt = yes
+}

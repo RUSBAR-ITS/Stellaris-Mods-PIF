@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_psionic_suppressor
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+building_sets = {
+	unity
+	urban
+}

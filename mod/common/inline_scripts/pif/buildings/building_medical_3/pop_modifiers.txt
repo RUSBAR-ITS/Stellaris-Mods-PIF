@@ -1,0 +1,15 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_medical_3
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_purity_heightened_attributes_tradition = yes
+		}
+	}
+	organic_pop_bonus_workforce_mult = @pif_building_medical_3_pop_modifiers_organic_pop_bonus_workforce_mult_1
+	mult = @pif_building_medical_3_pop_modifiers_organic_pop_bonus_workforce_mult_2
+}

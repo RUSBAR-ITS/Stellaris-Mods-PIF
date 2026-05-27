@@ -1,0 +1,19 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_resort_major_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_demolish = no
+
+can_be_ruined = no
+
+can_be_disabled = no
+
+convert_to = {
+	building_hive_major_capital
+	building_machine_major_capital
+	building_major_capital
+	building_ancient_control_center
+	building_ancient_palace
+	building_major_capital_wilderness
+}

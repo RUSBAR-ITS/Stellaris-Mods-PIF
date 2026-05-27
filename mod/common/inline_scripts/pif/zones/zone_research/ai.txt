@@ -1,0 +1,18 @@
+# PIF zone category: AI
+# Vanilla zone: zone_research
+# Vanilla source: zones/00_zones.txt
+
+ai_resource_production = {
+	physics_research = @pif_zone_research_ai_ai_resource_production_ai_resource_production_physics_research_physics_r_1
+	society_research = @pif_zone_research_ai_ai_resource_production_ai_resource_production_society_research_society_r_2
+	engineering_research = @pif_zone_research_ai_ai_resource_production_ai_resource_production_engineering_research_engin_3
+	trigger = {
+		has_any_research_zone = yes
+	}
+}
+
+ai_weight_coefficient = @pif_zone_research_ai_ai_weight_coefficient_ai_weight_coefficient_4
+
+ai_priority = @pif_zone_research_ai_ai_priority_ai_priority_5
+
+ai_weight_coefficient = @pif_zone_research_ai_ai_weight_coefficient_2_ai_weight_coefficient_6

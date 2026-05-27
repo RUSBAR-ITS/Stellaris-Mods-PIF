@@ -1,0 +1,5 @@
+# PIF category: TPM
+# Vanilla district: district_farming_uncapped
+# Vanilla source: districts/02_rural_districts.txt
+
+

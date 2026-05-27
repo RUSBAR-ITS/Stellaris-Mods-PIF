@@ -1,0 +1,7 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_nexus_2
+# Vanilla source: districts/00_urban_districts.txt
+
+potential = {
+	uses_district_set = machine_world
+}

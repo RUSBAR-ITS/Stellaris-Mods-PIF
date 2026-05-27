@@ -1,0 +1,23 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_resort_restoration_enclave
+# Vanilla source: zones/00_zones.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+		NOT = {
+			has_zone = {
+				zone = zone_resort_restoration_enclave
+			}
+		}
+	}
+}
+
+planet_limit = {
+	base = @pif_zone_resort_restoration_enclave_zone_limits_planet_limit_planet_limit_base_base_1
+}
+
+unlock = {
+	has_modifier = resort_colony
+}

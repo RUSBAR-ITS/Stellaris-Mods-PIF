@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_sacrificial_shrine = {
+	base_buildtime = @pif_holding_sacrificial_shrine_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_sacrificial_temple_2
+	category = unity
+	inline_script = "pif/buildings/holding_sacrificial_shrine/building_config"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/availability"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/economy"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/lifecycle"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/jobs"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/country_jobs"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/economic_modifiers"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/pop_modifiers"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/planet_state"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/tpm"
+	inline_script = "pif/buildings/holding_sacrificial_shrine/ai"
+}

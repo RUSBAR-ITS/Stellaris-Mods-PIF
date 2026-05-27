@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_mote_aggravator
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_chemist_drone_add = @pif_building_mote_aggravator_jobs_job_chemist_drone_add_1
+}

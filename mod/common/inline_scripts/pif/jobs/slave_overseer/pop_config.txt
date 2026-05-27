@@ -1,0 +1,14 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: slave_overseer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+tags = {
+	crime
+	enforcer
+}
+
+weight = {
+	weight = @pif_slave_overseer_job_weight_weight_1
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+}

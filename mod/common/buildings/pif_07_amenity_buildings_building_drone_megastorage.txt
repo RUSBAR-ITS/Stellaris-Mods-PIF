@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_drone_megastorage = {
+	base_buildtime = @pif_building_drone_megastorage_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_drone_megastorage/building_config"
+	inline_script = "pif/buildings/building_drone_megastorage/availability"
+	inline_script = "pif/buildings/building_drone_megastorage/economy"
+	inline_script = "pif/buildings/building_drone_megastorage/lifecycle"
+	inline_script = "pif/buildings/building_drone_megastorage/jobs"
+	inline_script = "pif/buildings/building_drone_megastorage/country_jobs"
+	inline_script = "pif/buildings/building_drone_megastorage/economic_modifiers"
+	inline_script = "pif/buildings/building_drone_megastorage/pop_modifiers"
+	inline_script = "pif/buildings/building_drone_megastorage/planet_state"
+	inline_script = "pif/buildings/building_drone_megastorage/tpm"
+	inline_script = "pif/buildings/building_drone_megastorage/ai"
+}

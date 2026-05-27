@@ -1,0 +1,6 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: wildlife_ranch
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+# Empty PIF building category hook.

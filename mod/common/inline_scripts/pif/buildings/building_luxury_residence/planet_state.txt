@@ -1,0 +1,12 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_luxury_residence
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_luxury_residence_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_luxury_residence_planet_state_planet_amenities_add_2
+}

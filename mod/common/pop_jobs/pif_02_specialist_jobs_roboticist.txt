@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+roboticist = {
+	category = specialist
+	inline_script = "pif/jobs/roboticist/swap"
+	inline_script = "pif/jobs/roboticist/availability"
+	inline_script = "pif/jobs/roboticist/pop_config"
+	inline_script = "pif/jobs/roboticist/economy"
+	inline_script = "pif/jobs/roboticist/planet_state"
+	inline_script = "pif/jobs/roboticist/country_modifiers"
+	inline_script = "pif/jobs/roboticist/pop_modifiers"
+	inline_script = "pif/jobs/roboticist/economic_modifiers"
+	inline_script = "pif/jobs/roboticist/tpm"
+}

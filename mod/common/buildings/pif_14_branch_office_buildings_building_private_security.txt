@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_private_security = {
+	base_buildtime = @pif_building_private_security_construction_base_buildtime_1
+	owner_type = corporate
+	category = government
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_private_security/building_config"
+	inline_script = "pif/buildings/building_private_security/availability"
+	inline_script = "pif/buildings/building_private_security/economy"
+	inline_script = "pif/buildings/building_private_security/lifecycle"
+	inline_script = "pif/buildings/building_private_security/jobs"
+	inline_script = "pif/buildings/building_private_security/country_jobs"
+	inline_script = "pif/buildings/building_private_security/economic_modifiers"
+	inline_script = "pif/buildings/building_private_security/pop_modifiers"
+	inline_script = "pif/buildings/building_private_security/planet_state"
+	inline_script = "pif/buildings/building_private_security/tpm"
+	inline_script = "pif/buildings/building_private_security/ai"
+}

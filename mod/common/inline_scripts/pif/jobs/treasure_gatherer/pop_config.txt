@@ -1,0 +1,37 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: treasure_gatherer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+tags = {
+	energy
+	unity
+	minerals
+	research
+}
+
+weight = {
+	weight = @pif_treasure_gatherer_job_weight_weight_1
+	mult = value:job_weights_multiple_resources_modifier|JOB|treasure_gatherer|RESOURCE1|energy|WEIGHT1|1.6|RESOURCE2|minerals|WEIGHT2|1.0|
+	mult = value:job_weights_multiple_resources_modifier|JOB|treasure_gatherer|RESOURCE1|unity|WEIGHT1|1|RESOURCE2|society_research|WEIGHT2|0.1|
+	mult = value:job_weights_modifier|JOB|treasure_gatherer|RESOURCE|trade|
+}
+
+auto_trait_prio = {
+	trait_ingenious
+	trait_technical_skill
+	trait_robot_superconductive
+	trait_cyborg_superconductive
+	trait_malleable_energy
+	trait_adaptive_energy
+}
+
+promotion = {
+	time = @pif_treasure_gatherer_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

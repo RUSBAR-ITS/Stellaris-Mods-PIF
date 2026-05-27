@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_underground_clubs = {
+	base_buildtime = @pif_building_underground_clubs_construction_base_buildtime_1
+	owner_type = corporate
+	category = amenity
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_underground_clubs/building_config"
+	inline_script = "pif/buildings/building_underground_clubs/availability"
+	inline_script = "pif/buildings/building_underground_clubs/economy"
+	inline_script = "pif/buildings/building_underground_clubs/lifecycle"
+	inline_script = "pif/buildings/building_underground_clubs/jobs"
+	inline_script = "pif/buildings/building_underground_clubs/country_jobs"
+	inline_script = "pif/buildings/building_underground_clubs/economic_modifiers"
+	inline_script = "pif/buildings/building_underground_clubs/pop_modifiers"
+	inline_script = "pif/buildings/building_underground_clubs/planet_state"
+	inline_script = "pif/buildings/building_underground_clubs/tpm"
+	inline_script = "pif/buildings/building_underground_clubs/ai"
+}

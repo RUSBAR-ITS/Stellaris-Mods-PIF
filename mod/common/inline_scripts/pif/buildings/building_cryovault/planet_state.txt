@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_cryovault
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+# Empty PIF building category hook.

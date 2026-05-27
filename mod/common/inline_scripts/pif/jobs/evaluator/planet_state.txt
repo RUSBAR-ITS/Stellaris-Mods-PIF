@@ -1,0 +1,9 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: evaluator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	planet_amenities_no_happiness_add = @pif_evaluator_planet_state_planet_amenities_no_happiness_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_hive_cluster
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_hive_empire = no
+			is_wilderness_empire = yes
+		}
+	}
+}
+
+convert_to = {
+	building_bureaucratic_2
+	building_holotemple
+	building_commensal_clearing_3
+	building_network_junction
+}

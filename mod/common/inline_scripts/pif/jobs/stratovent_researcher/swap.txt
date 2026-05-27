@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: stratovent_researcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_nanolab_1
+		icon = xeno_zoo_keeper
+	}
+}

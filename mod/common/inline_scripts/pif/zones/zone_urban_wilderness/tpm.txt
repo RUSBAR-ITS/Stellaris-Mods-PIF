@@ -1,0 +1,10 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_urban_wilderness
+# Vanilla source: zones/03_wilderness_zones.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	zone_building_slots_add = @pif_zone_urban_wilderness_building_capacity_zone_building_slots_add_2
+}

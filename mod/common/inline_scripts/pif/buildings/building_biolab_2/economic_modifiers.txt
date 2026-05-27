@@ -1,0 +1,12 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_biolab_2
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_biologists_society_research_produces_add = @pif_building_biolab_2_economic_modifiers_planet_biologists_society_research_produces_add_1
+	planet_biologists_exotic_gases_upkeep_add = @pif_building_biolab_2_economic_modifiers_planet_biologists_exotic_gases_upkeep_add_2
+}

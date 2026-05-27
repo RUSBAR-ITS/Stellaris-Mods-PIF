@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_fe_fortress = {
+	base_buildtime = @pif_building_fe_fortress_construction_base_buildtime_1
+	category = army
+	inline_script = "pif/buildings/building_fe_fortress/building_config"
+	inline_script = "pif/buildings/building_fe_fortress/availability"
+	inline_script = "pif/buildings/building_fe_fortress/economy"
+	inline_script = "pif/buildings/building_fe_fortress/lifecycle"
+	inline_script = "pif/buildings/building_fe_fortress/jobs"
+	inline_script = "pif/buildings/building_fe_fortress/country_jobs"
+	inline_script = "pif/buildings/building_fe_fortress/economic_modifiers"
+	inline_script = "pif/buildings/building_fe_fortress/pop_modifiers"
+	inline_script = "pif/buildings/building_fe_fortress/planet_state"
+	inline_script = "pif/buildings/building_fe_fortress/tpm"
+	inline_script = "pif/buildings/building_fe_fortress/ai"
+}

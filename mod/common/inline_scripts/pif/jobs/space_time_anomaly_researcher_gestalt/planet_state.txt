@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: space_time_anomaly_researcher_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+# Empty PIF job category hook.

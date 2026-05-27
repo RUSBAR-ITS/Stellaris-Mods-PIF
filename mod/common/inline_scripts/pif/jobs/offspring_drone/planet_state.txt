@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: offspring_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+# Empty PIF job category hook.

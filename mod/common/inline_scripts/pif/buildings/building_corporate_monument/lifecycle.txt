@@ -1,0 +1,33 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_corporate_monument
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		has_modifier = slave_colony
+		owner = {
+			OR = {
+				is_megacorp = no
+				is_memorialist_empire = yes
+				is_entropy_drinkers_empire = yes
+			}
+		}
+	}
+}
+
+convert_to = {
+	building_autochthon_monument
+	building_simulation_1
+	building_galactic_memorial_1
+	building_sensorium_1
+	building_lifecrypt_1
+	building_lifecrypt_machine_1
+	building_lifecrypt_hive_mind_1
+	building_lifecrypt_corporate_1
+}
+
+upgrades = {
+	building_corporate_site
+}

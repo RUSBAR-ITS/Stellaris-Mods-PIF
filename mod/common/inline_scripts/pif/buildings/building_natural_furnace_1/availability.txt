@@ -1,0 +1,25 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_natural_furnace_1
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = no
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+prerequisites = {
+	tech_basic_industry
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = yes
+}

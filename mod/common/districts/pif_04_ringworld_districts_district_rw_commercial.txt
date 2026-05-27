@@ -1,0 +1,27 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/04_ringworld_districts.txt
+# Object class: real
+
+district_rw_commercial = {
+	base_buildtime = @pif_district_rw_commercial_construction_build_time_days
+	show_on_uncolonized = {
+		always = no
+	}
+	triggered_desc = {
+		trigger = {
+			planet = {
+				has_deposit = d_arcane_generator
+				NOT = {
+					has_district = district_rw_commercial
+				}
+			}
+		}
+		text = arcane_generator_upkeep_desc
+	}
+	inline_script = "pif/districts/district_rw_commercial/zone_slots"
+	inline_script = "pif/districts/district_rw_commercial/availability"
+	inline_script = "pif/districts/district_rw_commercial/economic"
+	inline_script = "pif/districts/district_rw_commercial/tpm"
+	inline_script = "pif/districts/district_rw_commercial/lifecycle"
+	inline_script = "pif/districts/district_rw_commercial/ai"
+}

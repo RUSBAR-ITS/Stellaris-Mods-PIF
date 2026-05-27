@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+slave_processing = {
+	category = slave_unemployment2
+	inline_script = "pif/jobs/slave_processing/swap"
+	inline_script = "pif/jobs/slave_processing/availability"
+	inline_script = "pif/jobs/slave_processing/pop_config"
+	inline_script = "pif/jobs/slave_processing/economy"
+	inline_script = "pif/jobs/slave_processing/planet_state"
+	inline_script = "pif/jobs/slave_processing/country_modifiers"
+	inline_script = "pif/jobs/slave_processing/pop_modifiers"
+	inline_script = "pif/jobs/slave_processing/economic_modifiers"
+	inline_script = "pif/jobs/slave_processing/tpm"
+}

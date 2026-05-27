@@ -1,0 +1,30 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_knightly_theme_park = {
+	base_buildtime = @pif_building_knightly_theme_park_construction_base_buildtime_1
+	icon = building_order_holding
+	owner_type = corporate
+	category = amenity
+	custom_tooltip = branch_office_building_trade_bonus
+	custom_tooltip = trade_value_from_workers
+	triggered_desc = {
+		trigger = {
+			exists = planet.owner
+		}
+		text = knightly_theme_park_quest_effect_desc
+	}
+	inline_script = "pif/buildings/building_knightly_theme_park/building_config"
+	inline_script = "pif/buildings/building_knightly_theme_park/availability"
+	inline_script = "pif/buildings/building_knightly_theme_park/economy"
+	inline_script = "pif/buildings/building_knightly_theme_park/lifecycle"
+	inline_script = "pif/buildings/building_knightly_theme_park/jobs"
+	inline_script = "pif/buildings/building_knightly_theme_park/country_jobs"
+	inline_script = "pif/buildings/building_knightly_theme_park/economic_modifiers"
+	inline_script = "pif/buildings/building_knightly_theme_park/pop_modifiers"
+	inline_script = "pif/buildings/building_knightly_theme_park/planet_state"
+	inline_script = "pif/buildings/building_knightly_theme_park/tpm"
+	inline_script = "pif/buildings/building_knightly_theme_park/ai"
+}

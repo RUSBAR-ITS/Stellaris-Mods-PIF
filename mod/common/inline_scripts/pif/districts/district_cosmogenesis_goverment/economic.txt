@@ -1,0 +1,5 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_cosmogenesis_goverment
+# Vanilla source: districts/00_special_districts.txt
+
+

@@ -1,0 +1,34 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: energy_thrall
+# Vanilla class: worker
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+tags = {
+	unity
+	energy_thrall
+}
+
+weight = {
+	weight = @pif_energy_thrall_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|energy_thrall|RESOURCE|unity|
+	modifier = {
+		factor = @pif_energy_thrall_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_energy_thrall_job_weight_factor_3
+		can_take_servant_job = yes
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}

@@ -1,0 +1,51 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_mindlink
+# Vanilla source: districts/00_special_districts.txt
+
+resources = {
+	category = planet_districts_cities
+	cost = {
+		food = @pif_district_mindlink_construction_build_cost_food
+	}
+	cost = {
+		trigger = {
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_district_mindlink_construction_build_cost_biomass
+	}
+	upkeep = {
+		food = @pif_district_mindlink_economy_district_upkeep_food
+	}
+	produces = {
+		trigger = {
+			owner = {
+				is_variable_set = pops_transferred
+			}
+			owner = {
+				is_wilderness_empire = no
+			}
+		}
+		unity = @pif_district_mindlink_economy_district_produces_unity
+		physics_research = @pif_district_mindlink_economy_district_produces_physics_research
+		society_research = @pif_district_mindlink_economy_district_produces_society_research
+		engineering_research = @pif_district_mindlink_economy_district_produces_engineering_research
+		mult = owner.value:transferred_pops_district_percent
+	}
+	produces = {
+		trigger = {
+			owner = {
+				is_variable_set = pops_transferred
+			}
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		unity = @pif_district_mindlink_economy_district_produces_unity_2
+		physics_research = @pif_district_mindlink_economy_district_produces_physics_research_2
+		society_research = @pif_district_mindlink_economy_district_produces_society_research_2
+		engineering_research = @pif_district_mindlink_economy_district_produces_engineering_research_2
+		mult = owner.value:transferred_pops_district_percent
+	}
+}

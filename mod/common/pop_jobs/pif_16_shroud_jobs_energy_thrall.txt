@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/16_shroud_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+energy_thrall = {
+	category = worker
+	inline_script = "pif/jobs/energy_thrall/swap"
+	inline_script = "pif/jobs/energy_thrall/availability"
+	inline_script = "pif/jobs/energy_thrall/pop_config"
+	inline_script = "pif/jobs/energy_thrall/economy"
+	inline_script = "pif/jobs/energy_thrall/planet_state"
+	inline_script = "pif/jobs/energy_thrall/country_modifiers"
+	inline_script = "pif/jobs/energy_thrall/pop_modifiers"
+	inline_script = "pif/jobs/energy_thrall/economic_modifiers"
+	inline_script = "pif/jobs/energy_thrall/tpm"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/16_shroud_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+production_overseer = {
+	category = specialist
+	inline_script = "pif/jobs/production_overseer/swap"
+	inline_script = "pif/jobs/production_overseer/availability"
+	inline_script = "pif/jobs/production_overseer/pop_config"
+	inline_script = "pif/jobs/production_overseer/economy"
+	inline_script = "pif/jobs/production_overseer/planet_state"
+	inline_script = "pif/jobs/production_overseer/country_modifiers"
+	inline_script = "pif/jobs/production_overseer/pop_modifiers"
+	inline_script = "pif/jobs/production_overseer/economic_modifiers"
+	inline_script = "pif/jobs/production_overseer/tpm"
+}

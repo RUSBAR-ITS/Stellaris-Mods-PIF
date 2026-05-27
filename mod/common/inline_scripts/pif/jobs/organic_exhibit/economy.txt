@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: organic_exhibit
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_bio_trophies
+	produces = {
+		unity = @pif_organic_exhibit_job_output_output_unity_1
+	}
+	upkeep = {
+		food = @pif_organic_exhibit_job_upkeep_upkeep_food_1
+	}
+}

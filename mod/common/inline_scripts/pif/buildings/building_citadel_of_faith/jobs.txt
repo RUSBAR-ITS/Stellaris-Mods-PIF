@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: building_citadel_of_faith
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_exalted_priesthood
+		}
+	}
+	job_politician_add = @pif_building_citadel_of_faith_jobs_job_politician_add_1
+}

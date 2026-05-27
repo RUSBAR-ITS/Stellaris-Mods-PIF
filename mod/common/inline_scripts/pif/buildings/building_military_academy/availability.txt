@@ -1,0 +1,36 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_military_academy
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+empire_limit = @pif_building_military_academy_limits_empire_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+		NOT = {
+			has_valid_civic = civic_reanimated_armies
+		}
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {
+	OR = {
+		has_major_upgraded_capital = yes
+		AND = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_machine_tactical_algorithms
+			}
+		}
+	}
+}
+
+prerequisites = {
+	"tech_centralized_command"
+}

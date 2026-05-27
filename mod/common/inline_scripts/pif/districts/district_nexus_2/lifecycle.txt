@@ -1,0 +1,11 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_nexus_2
+# Vanilla source: districts/00_urban_districts.txt
+
+conversion_ratio = @pif_district_nexus_2_conversion_conversion_ratio
+
+convert_to = {
+	district_hive_2
+	district_mining
+	district_hollow_mountains
+}

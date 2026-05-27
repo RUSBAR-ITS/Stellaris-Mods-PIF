@@ -1,0 +1,34 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: cyberdome_duelist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+tags = {
+	unity
+	amenities
+}
+
+weight = {
+	weight = @pif_cyberdome_duelist_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|duelist|RESOURCE|unity|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+auto_trait_prio = {
+	trait_charismatic
+	trait_crafted_smiles
+	trait_robot_emotion_emulators
+	trait_cyborg_stainless_steel_smile
+	trait_malleable_ameneties
+	trait_adaptive_amenities
+}
+
+promotion = {
+	time = @pif_cyberdome_duelist_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

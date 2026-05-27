@@ -1,0 +1,86 @@
+# PIF category: AI
+# Vanilla district: district_hive
+# Vanilla source: districts/00_urban_districts.txt
+
+exempt_from_ai_planet_specialization = yes
+
+ai_resource_production = {
+	alloys = @pif_district_hive_ai_ai_resource_production_alloys
+	trigger = {
+		OR = {
+			has_any_foundry_zone = yes
+			has_mixed_industrial_zone = yes
+		}
+	}
+}
+
+ai_resource_production = {
+	consumer_goods = @pif_district_hive_ai_ai_resource_production_consumer_goods
+	trigger = {
+		OR = {
+			has_any_factory_zone = yes
+			has_mixed_industrial_zone = yes
+		}
+	}
+}
+
+ai_resource_production = {
+	physics_research = @pif_district_hive_ai_ai_resource_production_physics_research
+	society_research = @pif_district_hive_ai_ai_resource_production_society_research
+	engineering_research = @pif_district_hive_ai_ai_resource_production_engineering_research
+	trigger = {
+		has_any_unspecialized_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	physics_research = @pif_district_hive_ai_ai_resource_production_physics_research_2
+	trigger = {
+		has_any_research_physics_zone = yes
+	}
+}
+
+ai_resource_production = {
+	society_research = @pif_district_hive_ai_ai_resource_production_society_research_2
+	trigger = {
+		has_any_research_society_zone = yes
+	}
+}
+
+ai_resource_production = {
+	engineering_research = @pif_district_hive_ai_ai_resource_production_engineering_research_2
+	trigger = {
+		has_any_research_engineering_zone = yes
+	}
+}
+
+ai_resource_production = {
+	unity = @pif_district_hive_ai_ai_resource_production_unity
+	trigger = {
+		has_any_unity_zone = yes
+	}
+}
+
+ai_resource_production = {
+	unity = @pif_district_hive_ai_ai_resource_production_unity_2
+	trigger = {
+		OR = {
+			has_zone = {
+				zone = zone_research_unity
+			}
+			has_zone = {
+				zone = zone_habitat_research_unity
+			}
+			has_zone = {
+				zone = zone_research_unity_wilderness
+			}
+		}
+	}
+}
+
+ai_resource_production = {
+	trade = @pif_district_hive_ai_ai_resource_production_trade
+	trigger = {
+		has_any_trade_zone = yes
+	}
+}

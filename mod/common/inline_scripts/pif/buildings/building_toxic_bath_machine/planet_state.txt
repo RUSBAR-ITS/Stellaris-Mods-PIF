@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_toxic_bath_machine
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+# Empty PIF building category hook.

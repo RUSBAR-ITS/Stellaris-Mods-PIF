@@ -1,0 +1,60 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: enforcer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		enforcer_is_educator_trigger = no
+	}
+	planet_crime_add = @pif_enforcer_planet_state_planet_crime_add_1
+	planet_defense_armies_add = @pif_enforcer_planet_state_planet_defense_armies_add_2
+	planet_stability_add = @pif_enforcer_planet_state_planet_stability_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet
+		planet = {
+			has_modifier = anticrime_campaign
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_enforcer_planet_state_planet_crime_add_4
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_dictatorial_authority = yes
+			is_mutation_authority = yes
+			NOT = {
+				has_origin = origin_evolutionary_predators
+			}
+		}
+	}
+	modifier = {
+		planet_crime_add = @pif_enforcer_planet_state_planet_crime_add_5
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = maverick_citizens_flag
+		}
+	}
+	modifier = {
+		planet_stability_add = @pif_enforcer_planet_state_planet_stability_add_6
+	}
+}
+
+triggered_planet_modifier = {
+	modifier = {
+		planet_stability_add = @pif_enforcer_planet_state_planet_stability_add_6
+	}
+	mult = planet.modifier:job_enforcer_stability_add
+}

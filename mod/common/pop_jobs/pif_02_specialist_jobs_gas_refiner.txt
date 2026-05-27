@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+gas_refiner = {
+	category = specialist
+	inline_script = "pif/jobs/gas_refiner/swap"
+	inline_script = "pif/jobs/gas_refiner/availability"
+	inline_script = "pif/jobs/gas_refiner/pop_config"
+	inline_script = "pif/jobs/gas_refiner/economy"
+	inline_script = "pif/jobs/gas_refiner/planet_state"
+	inline_script = "pif/jobs/gas_refiner/country_modifiers"
+	inline_script = "pif/jobs/gas_refiner/pop_modifiers"
+	inline_script = "pif/jobs/gas_refiner/economic_modifiers"
+	inline_script = "pif/jobs/gas_refiner/tpm"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+offworld_prospector = {
+	category = specialist
+	inline_script = "pif/jobs/offworld_prospector/swap"
+	inline_script = "pif/jobs/offworld_prospector/availability"
+	inline_script = "pif/jobs/offworld_prospector/pop_config"
+	inline_script = "pif/jobs/offworld_prospector/economy"
+	inline_script = "pif/jobs/offworld_prospector/planet_state"
+	inline_script = "pif/jobs/offworld_prospector/country_modifiers"
+	inline_script = "pif/jobs/offworld_prospector/pop_modifiers"
+	inline_script = "pif/jobs/offworld_prospector/economic_modifiers"
+	inline_script = "pif/jobs/offworld_prospector/tpm"
+}

@@ -1,0 +1,28 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: catalytic_technician_prison_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_catalytic_technician_prison_worker_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|catalytic_technician|RESOURCE|alloys|
+	modifier = {
+		factor = @pif_catalytic_technician_prison_worker_job_weight_factor_2
+		is_enslaved = yes
+		can_take_servant_job = no
+	}
+}
+
+promotion = {
+	time = @pif_catalytic_technician_prison_worker_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

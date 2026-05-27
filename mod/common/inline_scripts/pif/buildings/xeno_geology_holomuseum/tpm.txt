@@ -1,0 +1,43 @@
+# PIF building category: TPM
+# Vanilla building: xeno_geology_holomuseum
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	job_entertainer_add = @pif_xeno_geology_holomuseum_jobs_job_entertainer_add_1
+	planet_entertainers_unity_produces_add = @pif_xeno_geology_holomuseum_economic_modifiers_planet_entertainers_unity_produces_add_2
+	planet_entertainers_engineering_research_produces_add = @pif_xeno_geology_holomuseum_economic_modifiers_planet_entertainers_engineering_research_produces_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_evaluator_add = @pif_xeno_geology_holomuseum_jobs_job_evaluator_add_2
+	planet_evaluators_unity_produces_add = @pif_xeno_geology_holomuseum_economic_modifiers_planet_evaluators_unity_produces_add_5
+	planet_evaluators_engineering_research_produces_add = @pif_xeno_geology_holomuseum_economic_modifiers_planet_evaluators_engineering_research_produces_add_6
+	planet_evaluators_minerals_upkeep_add = @pif_xeno_geology_holomuseum_economic_modifiers_planet_evaluators_minerals_upkeep_add_7
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	job_evaluator_add = @pif_xeno_geology_holomuseum_jobs_job_evaluator_add_2
+	planet_evaluators_unity_produces_add = @pif_xeno_geology_holomuseum_economic_modifiers_planet_evaluators_unity_produces_add_5
+	planet_evaluators_engineering_research_produces_add = @pif_xeno_geology_holomuseum_economic_modifiers_planet_evaluators_engineering_research_produces_add_6
+}

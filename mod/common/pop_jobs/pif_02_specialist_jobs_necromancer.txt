@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+necromancer = {
+	category = specialist
+	inline_script = "pif/jobs/necromancer/swap"
+	inline_script = "pif/jobs/necromancer/availability"
+	inline_script = "pif/jobs/necromancer/pop_config"
+	inline_script = "pif/jobs/necromancer/economy"
+	inline_script = "pif/jobs/necromancer/planet_state"
+	inline_script = "pif/jobs/necromancer/country_modifiers"
+	inline_script = "pif/jobs/necromancer/pop_modifiers"
+	inline_script = "pif/jobs/necromancer/economic_modifiers"
+	inline_script = "pif/jobs/necromancer/tpm"
+}

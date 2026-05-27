@@ -1,0 +1,18 @@
+# PIF building category: TPM
+# Vanilla building: holding_recruitment_office
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_country_modifier = {
+	country_naval_cap_add = @pif_holding_recruitment_office_tpm_country_naval_cap_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_pacifist = yes
+		}
+	}
+	monthly_loyalty = @pif_holding_recruitment_office_tpm_monthly_loyalty_2
+}

@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: cave_cleaner_gestalt
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		minerals = @pif_cave_cleaner_gestalt_job_output_output_minerals_1
+	}
+	upkeep = {
+		energy = @pif_cave_cleaner_gestalt_job_upkeep_upkeep_energy_1
+	}
+}

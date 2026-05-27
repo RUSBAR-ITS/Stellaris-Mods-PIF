@@ -1,0 +1,32 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_galactic_memorial_2 = {
+	base_buildtime = @pif_building_galactic_memorial_2_construction_base_buildtime_1
+	category = unity
+	triggered_desc = {
+		text = building_heritage_site_effect
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+			}
+		}
+		text = job_civilian_ethics_effect
+	}
+	inline_script = "pif/buildings/building_galactic_memorial_2/building_config"
+	inline_script = "pif/buildings/building_galactic_memorial_2/availability"
+	inline_script = "pif/buildings/building_galactic_memorial_2/economy"
+	inline_script = "pif/buildings/building_galactic_memorial_2/lifecycle"
+	inline_script = "pif/buildings/building_galactic_memorial_2/jobs"
+	inline_script = "pif/buildings/building_galactic_memorial_2/country_jobs"
+	inline_script = "pif/buildings/building_galactic_memorial_2/economic_modifiers"
+	inline_script = "pif/buildings/building_galactic_memorial_2/pop_modifiers"
+	inline_script = "pif/buildings/building_galactic_memorial_2/planet_state"
+	inline_script = "pif/buildings/building_galactic_memorial_2/tpm"
+	inline_script = "pif/buildings/building_galactic_memorial_2/ai"
+}

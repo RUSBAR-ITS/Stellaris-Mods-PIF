@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: replicator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_pop_assemblers
+	upkeep = {
+		alloys = @pif_replicator_job_upkeep_upkeep_alloys_1
+	}
+}

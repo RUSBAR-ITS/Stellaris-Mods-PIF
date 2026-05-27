@@ -1,0 +1,17 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: servant
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_servant_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+	is_being_purged = no
+	is_being_assimilated = no
+}
+
+possible = {
+	can_take_servant_job = yes
+}

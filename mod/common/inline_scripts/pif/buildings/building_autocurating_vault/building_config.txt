@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_autocurating_vault
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+building_sets = {
+	unity
+}

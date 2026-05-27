@@ -1,0 +1,12 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: livestock_infernal
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_livestock_infernal_job_weight_weight_1
+}

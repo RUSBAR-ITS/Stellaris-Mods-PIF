@@ -1,0 +1,14 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_betharian_hive
+# Vanilla source: zones/04_secondary_zones.txt
+
+included_building_sets = {
+	mining
+	fallen_empire_mining
+	betharian
+	mining_automation
+}
+
+zone_sets = {
+	hive
+}

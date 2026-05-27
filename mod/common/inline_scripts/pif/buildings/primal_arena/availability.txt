@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: primal_arena
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+planet_limit = @pif_primal_arena_limits_planet_limit_1
+
+potential = {
+	owner = {
+		has_beastfighter_job = yes
+	}
+}

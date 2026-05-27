@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: holding_tree_of_life_sapling
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	monthly_loyalty = @pif_holding_tree_of_life_sapling_tpm_monthly_loyalty_1
+	pop_environment_tolerance = @pif_holding_tree_of_life_sapling_pop_modifiers_pop_environment_tolerance_1
+	planet_farmers_food_produces_add = @pif_holding_tree_of_life_sapling_economic_modifiers_planet_farmers_food_produces_add_1
+}

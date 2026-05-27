@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_augmentation_bazaars_branch = {
+	base_buildtime = @pif_building_augmentation_bazaars_branch_construction_base_buildtime_1
+	icon = building_corporate_augmentation_bazaars
+	category = trade
+	owner_type = corporate
+	custom_tooltip = branch_office_building_trade_bonus
+	custom_tooltip = trade_value_from_specialists
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/building_config"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/availability"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/economy"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/lifecycle"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/jobs"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/country_jobs"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/economic_modifiers"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/pop_modifiers"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/planet_state"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/tpm"
+	inline_script = "pif/buildings/building_augmentation_bazaars_branch/ai"
+}

@@ -1,0 +1,11 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_habitat_research
+# Vanilla source: zones/01_habitat_zones.txt
+
+zone_sets = {
+	habitat_research
+}
+
+included_building_sets = {
+	research
+}

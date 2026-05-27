@@ -1,0 +1,29 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/05_wilderness_districts.txt
+# Object class: real
+
+district_hollow_mountains = {
+	expansion_planner = yes
+	base_buildtime = @pif_district_hollow_mountains_construction_build_time_days
+	overlay_icon = GFX_district_minerals
+	inherits_capped_modifiers_from = district_mining
+	is_uncapped = {
+		is_wilderness_mining_district_uncapped = yes
+	}
+	min_for_deposits_on_planet = @pif_district_hollow_mountains_limits_min_for_deposits_on_planet
+	max_for_deposits_on_planet = @pif_district_hollow_mountains_limits_max_for_deposits_on_planet
+	show_on_uncolonized = {
+		uses_district_set = standard
+		exists = from
+		from = {
+			is_wilderness_empire = yes
+		}
+	}
+	expansion_planner_type = district_mining
+	inline_script = "pif/districts/district_hollow_mountains/zone_slots"
+	inline_script = "pif/districts/district_hollow_mountains/availability"
+	inline_script = "pif/districts/district_hollow_mountains/economic"
+	inline_script = "pif/districts/district_hollow_mountains/tpm"
+	inline_script = "pif/districts/district_hollow_mountains/lifecycle"
+	inline_script = "pif/districts/district_hollow_mountains/ai"
+}

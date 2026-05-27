@@ -1,0 +1,19 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_primitive_power_plant = {
+	category = resource
+	inline_script = "pif/buildings/building_primitive_power_plant/building_config"
+	inline_script = "pif/buildings/building_primitive_power_plant/availability"
+	inline_script = "pif/buildings/building_primitive_power_plant/economy"
+	inline_script = "pif/buildings/building_primitive_power_plant/lifecycle"
+	inline_script = "pif/buildings/building_primitive_power_plant/jobs"
+	inline_script = "pif/buildings/building_primitive_power_plant/country_jobs"
+	inline_script = "pif/buildings/building_primitive_power_plant/economic_modifiers"
+	inline_script = "pif/buildings/building_primitive_power_plant/pop_modifiers"
+	inline_script = "pif/buildings/building_primitive_power_plant/planet_state"
+	inline_script = "pif/buildings/building_primitive_power_plant/tpm"
+	inline_script = "pif/buildings/building_primitive_power_plant/ai"
+}

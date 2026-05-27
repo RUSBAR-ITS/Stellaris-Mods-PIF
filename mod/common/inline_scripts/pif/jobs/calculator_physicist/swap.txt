@@ -1,0 +1,88 @@
+# PIF job category: SWAP
+# Vanilla job: calculator_physicist
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_research_lab_1
+		icon = physicist
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+			physicist_is_astrometeorologist_trigger = yes
+		}
+		name = astrometeorologist_machine
+		desc = astrometeorologist_machine
+		icon = astrometeorologist_machine
+		building_icon = building_astrometeorology_observation_center
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_wilderness_empire = no
+			}
+		}
+		name = brain_drone_physicist
+		desc = brain_drone_physicist
+		icon = brain_drone_physicist
+		building_icon = building_research_lab_1
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 50
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+			physicist_is_astrometeorologist_trigger = yes
+		}
+		name = astrometeorologist_hive
+		desc = astrometeorologist_hive
+		icon = astrometeorologist_hive
+		building_icon = building_astrometeorology_observation_center
+		weight = 55
+	}
+	swap_type = {
+		trigger = {
+			physicist_is_dimensional_portal_researcher_trigger = yes
+		}
+		name = dimensional_portal_researcher_gestalt
+		desc = dimensional_portal_researcher_gestalt
+		weight = 60
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = evosymbiont_physicist
+		desc = evosymbiont
+		icon = brain_drone_physicist
+		building_icon = brain_node_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 100
+	}
+	swap_type = {
+		trigger = {
+			physicist_is_extradimensional_research_unit_trigger = yes
+		}
+		name = extradimensional_research_unit
+		desc = job_extradimensional_research_unit_desc
+		icon = extradimensional_research_unit
+		building_icon = building_materiality_engine
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 100
+	}
+}

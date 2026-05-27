@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/09_army_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_military_academy = {
+	base_buildtime = @pif_building_military_academy_construction_base_buildtime_1
+	category = army
+	inline_script = "pif/buildings/building_military_academy/building_config"
+	inline_script = "pif/buildings/building_military_academy/availability"
+	inline_script = "pif/buildings/building_military_academy/economy"
+	inline_script = "pif/buildings/building_military_academy/lifecycle"
+	inline_script = "pif/buildings/building_military_academy/jobs"
+	inline_script = "pif/buildings/building_military_academy/country_jobs"
+	inline_script = "pif/buildings/building_military_academy/economic_modifiers"
+	inline_script = "pif/buildings/building_military_academy/pop_modifiers"
+	inline_script = "pif/buildings/building_military_academy/planet_state"
+	inline_script = "pif/buildings/building_military_academy/tpm"
+	inline_script = "pif/buildings/building_military_academy/ai"
+}

@@ -1,0 +1,33 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_knight
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+overlord_resources = {
+	category = planet_knights
+	produces = {
+		unity = @pif_overlord_knight_overlord_output_overlord_output_unity_1
+		mult = value:knights_unity_output_modifier
+	}
+	produces = {
+		physics_research = @pif_overlord_knight_overlord_output_overlord_output_physics_research_2
+		engineering_research = @pif_overlord_knight_overlord_output_overlord_output_engineering_research_3
+		society_research = @pif_overlord_knight_overlord_output_overlord_output_society_research_4
+		mult = value:knights_research_output_modifier
+	}
+}
+
+resources = {
+	category = planet_knights
+	upkeep = {
+		alloys = @pif_overlord_knight_job_upkeep_upkeep_alloys_1
+		trigger = {
+			exists = owner.overlord
+			owner.overlord = {
+				NOT = {
+					has_modifier = luminous_blades
+				}
+			}
+		}
+	}
+}

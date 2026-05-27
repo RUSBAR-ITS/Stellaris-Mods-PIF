@@ -1,0 +1,32 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: low_tech_bureaucrat
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_low_tech_bureaucrat_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|low_tech_bureaucrat|RESOURCE|unity|
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_low_tech_bureaucrat_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

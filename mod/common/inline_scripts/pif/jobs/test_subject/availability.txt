@@ -1,0 +1,23 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: test_subject
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+is_capped_by_modifier = @pif_test_subject_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+}
+
+possible = {
+	NOT = {
+		has_citizenship_type = {
+			country = owner
+			type = citizenship_robot_servitude
+		}
+	}
+	owner = {
+		is_gestalt = no
+	}
+}

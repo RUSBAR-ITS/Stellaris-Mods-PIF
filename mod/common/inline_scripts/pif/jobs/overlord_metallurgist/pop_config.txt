@@ -1,0 +1,29 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: overlord_metallurgist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+can_set_priority = @pif_overlord_metallurgist_job_flags_can_set_priority_2
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_overlord_metallurgist_job_weight_weight_1
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_overlord_metallurgist_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

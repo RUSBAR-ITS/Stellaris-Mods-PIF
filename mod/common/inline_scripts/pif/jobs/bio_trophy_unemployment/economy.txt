@@ -1,0 +1,8 @@
+# PIF job category: ECONOMY
+# Vanilla job: bio_trophy_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_unemployment.txt
+
+resources = {
+	category = unemployment_resources
+}

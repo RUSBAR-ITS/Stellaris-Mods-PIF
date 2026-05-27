@@ -1,0 +1,29 @@
+# PIF job category: ECONOMY
+# Vanilla job: slave_overseer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_enforcers
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = maverick_citizens_flag
+			}
+		}
+		unity = @pif_slave_overseer_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		unity = @pif_slave_overseer_job_output_output_unity_2
+	}
+	upkeep = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		consumer_goods = @pif_slave_overseer_job_upkeep_upkeep_consumer_goods_1
+	}
+}

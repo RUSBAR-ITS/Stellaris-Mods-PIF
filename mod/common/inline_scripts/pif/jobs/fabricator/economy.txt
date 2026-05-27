@@ -1,0 +1,106 @@
+# PIF job category: ECONOMY
+# Vanilla job: fabricator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_metallurgists
+	produces = {
+		alloys = @pif_fabricator_job_output_output_alloys_1
+	}
+	produces = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		alloys = @pif_fabricator_job_output_output_alloys_2
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+			}
+		}
+		alloys = @pif_fabricator_job_output_output_alloys_3
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+			}
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		alloys = @pif_fabricator_job_output_output_alloys_4
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = no
+		}
+		minerals = @pif_fabricator_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = no
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+			}
+		}
+		minerals = @pif_fabricator_job_upkeep_upkeep_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		food = @pif_fabricator_job_upkeep_upkeep_food_3
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+			}
+		}
+		food = @pif_fabricator_job_upkeep_upkeep_food_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		alloys = @pif_fabricator_job_output_output_alloys_5
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = no
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		minerals = @pif_fabricator_job_upkeep_upkeep_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		food = @pif_fabricator_job_upkeep_upkeep_food_4
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_alloys
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		alloys = @pif_fabricator_overlord_output_overlord_output_alloys_1
+	}
+}

@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_gaiaseeders_pc_gaia
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+planet_limit = @pif_building_gaiaseeders_pc_gaia_limits_planet_limit_1
+
+potential = {
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			is_country_type = default
+			is_idyllic_bloom_empire = yes
+		}
+		is_planet_class = pc_gaia
+		NOR = {
+			has_building = building_gaiaseeders_4
+			has_building_construction = building_gaiaseeders_4
+			has_building = building_gaiaseeders_pc_gaia
+			has_building_construction = building_gaiaseeders_pc_gaia
+		}
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+	can_build_gaiaseeder = yes
+}

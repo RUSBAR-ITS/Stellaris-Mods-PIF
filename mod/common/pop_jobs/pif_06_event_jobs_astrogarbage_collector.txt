@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+astrogarbage_collector = {
+	category = worker
+	inline_script = "pif/jobs/astrogarbage_collector/swap"
+	inline_script = "pif/jobs/astrogarbage_collector/availability"
+	inline_script = "pif/jobs/astrogarbage_collector/pop_config"
+	inline_script = "pif/jobs/astrogarbage_collector/economy"
+	inline_script = "pif/jobs/astrogarbage_collector/planet_state"
+	inline_script = "pif/jobs/astrogarbage_collector/country_modifiers"
+	inline_script = "pif/jobs/astrogarbage_collector/pop_modifiers"
+	inline_script = "pif/jobs/astrogarbage_collector/economic_modifiers"
+	inline_script = "pif/jobs/astrogarbage_collector/tpm"
+}

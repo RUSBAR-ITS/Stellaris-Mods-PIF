@@ -1,0 +1,20 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_galactic_stock_exchange
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+planet_limit = @pif_building_galactic_stock_exchange_limits_planet_limit_1
+
+potential = {
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_galactic_markets"
+}

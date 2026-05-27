@@ -1,0 +1,15 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_toxic_bath_hive
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+building_sets = {
+	government
+	urban
+	industrial
+	foundry
+	factory
+	entertainment
+	research
+	unity
+}

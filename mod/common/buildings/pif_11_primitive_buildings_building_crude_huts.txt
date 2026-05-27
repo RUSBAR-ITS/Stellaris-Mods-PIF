@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_crude_huts = {
+	capital = yes
+	position_priority = 0
+	capital_tier = 0
+	category = amenity
+	inline_script = "pif/buildings/building_crude_huts/building_config"
+	inline_script = "pif/buildings/building_crude_huts/availability"
+	inline_script = "pif/buildings/building_crude_huts/economy"
+	inline_script = "pif/buildings/building_crude_huts/lifecycle"
+	inline_script = "pif/buildings/building_crude_huts/jobs"
+	inline_script = "pif/buildings/building_crude_huts/country_jobs"
+	inline_script = "pif/buildings/building_crude_huts/economic_modifiers"
+	inline_script = "pif/buildings/building_crude_huts/pop_modifiers"
+	inline_script = "pif/buildings/building_crude_huts/planet_state"
+	inline_script = "pif/buildings/building_crude_huts/tpm"
+	inline_script = "pif/buildings/building_crude_huts/ai"
+}

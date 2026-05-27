@@ -1,0 +1,52 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_augmentation_center
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cyber_augmentation_center_government
+		}
+	}
+	modifier = {
+		planet_jobs_unity_produces_mult = @pif_building_augmentation_center_economic_modifiers_planet_jobs_unity_produces_mult_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cyber_augmentation_center_corporate
+		}
+	}
+	modifier = {
+		planet_jobs_consumer_goods_produces_mult = @pif_building_augmentation_center_economic_modifiers_planet_jobs_consumer_goods_produces_mult_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cyber_augmentation_center_independent
+		}
+	}
+	modifier = {
+		planet_jobs_upkeep_mult = @pif_building_augmentation_center_economic_modifiers_planet_jobs_upkeep_mult_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cyber_focus_everyone
+		}
+	}
+	modifier = {
+		planet_jobs_produces_mult = @pif_building_augmentation_center_economic_modifiers_planet_jobs_produces_mult_4
+	}
+}

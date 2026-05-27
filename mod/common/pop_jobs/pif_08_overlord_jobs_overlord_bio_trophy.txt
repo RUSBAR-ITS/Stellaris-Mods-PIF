@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+overlord_bio_trophy = {
+	category = worker
+	inline_script = "pif/jobs/overlord_bio_trophy/swap"
+	inline_script = "pif/jobs/overlord_bio_trophy/availability"
+	inline_script = "pif/jobs/overlord_bio_trophy/pop_config"
+	inline_script = "pif/jobs/overlord_bio_trophy/economy"
+	inline_script = "pif/jobs/overlord_bio_trophy/planet_state"
+	inline_script = "pif/jobs/overlord_bio_trophy/country_modifiers"
+	inline_script = "pif/jobs/overlord_bio_trophy/pop_modifiers"
+	inline_script = "pif/jobs/overlord_bio_trophy/economic_modifiers"
+	inline_script = "pif/jobs/overlord_bio_trophy/tpm"
+}

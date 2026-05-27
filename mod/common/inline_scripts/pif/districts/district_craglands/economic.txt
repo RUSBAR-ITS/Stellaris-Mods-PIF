@@ -1,0 +1,16 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_craglands
+# Vanilla source: districts/05_wilderness_districts.txt
+
+resources = {
+	category = planet_districts_cities
+	cost = {
+		minerals = @pif_district_craglands_construction_build_cost_minerals
+	}
+	cost = {
+		biomass = @pif_district_craglands_construction_build_cost_biomass
+	}
+	upkeep = {
+		energy = @pif_district_craglands_economy_district_upkeep_energy
+	}
+}

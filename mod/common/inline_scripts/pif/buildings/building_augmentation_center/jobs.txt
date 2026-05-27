@@ -1,0 +1,52 @@
+# PIF building category: JOBS
+# Vanilla building: building_augmentation_center
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	modifier = {
+		job_augmentor_add = @pif_building_augmentation_center_jobs_job_augmentor_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_cybernetics_augmentation_overload
+		}
+	}
+	modifier = {
+		job_augmentor_add = @pif_building_augmentation_center_jobs_job_augmentor_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	modifier = {
+		job_augmentor_drone_add = @pif_building_augmentation_center_jobs_job_augmentor_drone_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+	}
+	modifier = {
+		job_augmentor_drone_add = @pif_building_augmentation_center_jobs_job_augmentor_drone_add_2
+	}
+}

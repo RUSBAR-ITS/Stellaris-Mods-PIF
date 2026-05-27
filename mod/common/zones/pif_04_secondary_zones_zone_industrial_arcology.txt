@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/04_secondary_zones.txt
+# Object type: zone
+
+zone_industrial_arcology = {
+	icon = GFX_district_specialization_industrial
+	base_buildtime = @pif_zone_industrial_arcology_construction_zone_build_time_1
+	swap_type = district_arcology_mixed_industry
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_industrial_arcology/availability"
+	inline_script = "pif/zones/zone_industrial_arcology/zone_config"
+	inline_script = "pif/zones/zone_industrial_arcology/economy"
+	inline_script = "pif/zones/zone_industrial_arcology/tpm"
+	inline_script = "pif/zones/zone_industrial_arcology/lifecycle"
+	inline_script = "pif/zones/zone_industrial_arcology/ai"
+}

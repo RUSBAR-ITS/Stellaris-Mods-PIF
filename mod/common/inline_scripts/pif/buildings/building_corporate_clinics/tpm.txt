@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_corporate_clinics
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_healthcare_add = @pif_building_corporate_clinics_jobs_job_healthcare_add_1
+	job_healthcare_amenities_add = @pif_building_corporate_clinics_jobs_job_healthcare_amenities_add_3
+	planet_doctors_trade_produces_add = @pif_building_corporate_clinics_economic_modifiers_planet_doctors_trade_produces_add_4
+}

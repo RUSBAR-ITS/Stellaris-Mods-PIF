@@ -1,0 +1,13 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_toxic_bath_machine
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	habitability_floor_add = @pif_building_toxic_bath_machine_pop_modifiers_habitability_floor_add_1
+	habitability_ceil_add = @pif_building_toxic_bath_machine_pop_modifiers_habitability_ceil_add_2
+	pop_environment_tolerance = @pif_building_toxic_bath_machine_pop_modifiers_pop_environment_tolerance_3
+}

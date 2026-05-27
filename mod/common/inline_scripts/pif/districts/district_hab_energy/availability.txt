@@ -1,0 +1,7 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_hab_energy
+# Vanilla source: districts/03_habitat_districts.txt
+
+potential = {
+	uses_district_set = habitat
+}

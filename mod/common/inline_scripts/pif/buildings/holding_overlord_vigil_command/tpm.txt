@@ -1,0 +1,40 @@
+# PIF building category: TPM
+# Vanilla building: holding_overlord_vigil_command
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_country_modifier = {
+	potential = {
+		planet.owner = {
+			is_specialist_subject_tier = {
+				TYPE = bulwark
+				TIER = 1
+			}
+		}
+	}
+	starbase_defense_platform_capacity_add = @pif_holding_overlord_vigil_command_tpm_starbase_defense_platform_capacity_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		planet.owner = {
+			is_specialist_subject_tier = {
+				TYPE = bulwark
+				TIER = 2
+			}
+		}
+	}
+	starbase_defense_platform_capacity_add = @pif_holding_overlord_vigil_command_tpm_starbase_defense_platform_capacity_add_2
+}
+
+triggered_country_modifier = {
+	potential = {
+		planet.owner = {
+			is_specialist_subject_tier = {
+				TYPE = bulwark
+				TIER = 3
+			}
+		}
+	}
+	starbase_defense_platform_capacity_add = @pif_holding_overlord_vigil_command_tpm_starbase_defense_platform_capacity_add_3
+}

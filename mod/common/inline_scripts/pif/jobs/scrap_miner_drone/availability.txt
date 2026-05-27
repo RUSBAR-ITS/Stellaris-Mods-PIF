@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: scrap_miner_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+possible = {
+	always = no
+}

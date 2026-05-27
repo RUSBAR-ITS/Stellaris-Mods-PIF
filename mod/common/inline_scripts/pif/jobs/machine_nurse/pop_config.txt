@@ -1,0 +1,33 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: machine_nurse
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_machine_nurse_job_weight_weight_1
+	modifier = {
+		factor = @pif_machine_nurse_job_weight_factor_2
+		exists = planet
+		exists = planet.controller
+		OR = {
+			planet.controller = {
+				any_situation = {
+					is_situation_type = situation_geomagnetic_storm
+				}
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}

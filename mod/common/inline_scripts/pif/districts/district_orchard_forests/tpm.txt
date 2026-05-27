@@ -1,0 +1,33 @@
+# PIF category: TPM
+# Vanilla district: district_orchard_forests
+# Vanilla source: districts/05_wilderness_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_agri_drone_add = @pif_district_orchard_forests_jobs_job_agri_drone_add
+	planet_housing_add = @pif_district_orchard_forests_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_prosperity_public_works
+		}
+	}
+	planet_housing_add = @pif_district_orchard_forests_housing_planet_housing_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = yes
+			has_tradition = tr_purity_finish
+		}
+	}
+	planet_building_build_speed_mult = @pif_district_orchard_forests_infrastructure_effects_planet_building_build_speed_mult
+	planet_decision_enact_speed_mult = @pif_district_orchard_forests_infrastructure_effects_planet_decision_enact_speed_mult
+}

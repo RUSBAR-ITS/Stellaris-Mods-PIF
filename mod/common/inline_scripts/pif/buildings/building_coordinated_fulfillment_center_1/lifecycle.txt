@@ -1,0 +1,19 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_coordinated_fulfillment_center_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_relentless_industrialist_empire = no
+		}
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}
+
+upgrades = {
+	building_coordinated_fulfillment_center_2
+}

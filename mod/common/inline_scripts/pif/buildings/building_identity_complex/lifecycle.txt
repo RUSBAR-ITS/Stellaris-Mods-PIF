@@ -1,0 +1,13 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_identity_complex
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	NOT = {
+		owner = {
+			has_country_flag = identity_complex_available
+		}
+	}
+}

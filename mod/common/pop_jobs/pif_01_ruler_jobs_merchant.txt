@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/01_ruler_jobs.txt
+# Object type: pop_job
+# Job class: ruler
+
+merchant = {
+	category = ruler
+	inline_script = "pif/jobs/merchant/swap"
+	inline_script = "pif/jobs/merchant/availability"
+	inline_script = "pif/jobs/merchant/pop_config"
+	inline_script = "pif/jobs/merchant/economy"
+	inline_script = "pif/jobs/merchant/planet_state"
+	inline_script = "pif/jobs/merchant/country_modifiers"
+	inline_script = "pif/jobs/merchant/pop_modifiers"
+	inline_script = "pif/jobs/merchant/economic_modifiers"
+	inline_script = "pif/jobs/merchant/tpm"
+}

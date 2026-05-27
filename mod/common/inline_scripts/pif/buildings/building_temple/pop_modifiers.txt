@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_temple
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_ethic_spiritualist_attraction_mult = @pif_building_temple_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1
+}

@@ -1,0 +1,73 @@
+# PIF building category: TPM
+# Vanilla building: building_machine_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_machine_capital_planet_state_planet_housing_add_2
+	planet_amenities_add = @pif_building_machine_capital_planet_state_planet_amenities_add_3
+	job_replicator_add = @pif_building_machine_capital_jobs_job_replicator_add_10
+	job_coordinator_add = @pif_building_machine_capital_jobs_job_coordinator_add_11
+	job_patrol_drone_add = @pif_building_machine_capital_jobs_job_patrol_drone_add_12
+	job_logistics_drone_add = @pif_building_machine_capital_jobs_job_logistics_drone_add_13
+	planet_defense_armies_add = @pif_building_machine_capital_planet_state_planet_defense_armies_add_4
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		is_capital = yes
+		owner = {
+			is_megacorp = yes
+			has_origin = origin_evolutionary_predators
+			is_mutation_authority = yes
+		}
+	}
+	commercial_pact_mult = @pif_building_machine_capital_tpm_commercial_pact_mult_1
+	mult = owner.species.species_traits_evopred_count
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_worker_coop_empire = no
+			has_active_tradition = tr_domination_imperious_architecture
+		}
+	}
+	planet_housing_add = @pif_building_machine_capital_planet_state_planet_housing_add_5
+	job_politician_add = @pif_building_machine_capital_jobs_job_politician_add_14
+	mult = value:imperious_architecture_scaling_value
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_worker_coop_empire = yes
+			has_active_tradition = tr_domination_imperious_architecture
+		}
+	}
+	planet_housing_add = @pif_building_machine_capital_planet_state_planet_housing_add_5
+	job_bureaucrat_add = @pif_building_machine_capital_jobs_job_bureaucrat_add_15
+	mult = value:imperious_architecture_scaling_value
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_wilderness_empire = no
+			has_active_tradition = tr_domination_synaptic_extensions
+		}
+	}
+	planet_housing_add = @pif_building_machine_capital_planet_state_planet_housing_add_6
+	job_coordinator_add = @pif_building_machine_capital_jobs_job_coordinator_add_16
+	mult = value:imperious_architecture_scaling_value
+}

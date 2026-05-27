@@ -1,0 +1,5 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_cosmogenesis_world_science
+# Vanilla source: districts/00_special_districts.txt
+
+

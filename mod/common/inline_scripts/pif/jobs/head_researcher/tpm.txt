@@ -1,0 +1,6 @@
+# PIF job category: TPM
+# Vanilla job: head_researcher
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+# Empty PIF job category hook.

@@ -1,0 +1,76 @@
+# PIF building category: JOBS
+# Vanilla building: building_toxic_bath_machine
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_bath_attendant_add = @pif_building_toxic_bath_machine_jobs_job_bath_attendant_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			OR = {
+				has_councilor = {
+					COUNCILOR = "councilor_toxic_baths"
+				}
+				has_councilor = {
+					COUNCILOR = "councilor_toxic_baths_individual_machine"
+				}
+				has_councilor = {
+					COUNCILOR = "councilor_corporate_toxic_baths"
+				}
+				has_councilor = {
+					COUNCILOR = "councilor_corporate_toxic_baths_individual_machine"
+				}
+			}
+		}
+	}
+	job_bath_attendant_add = @pif_building_toxic_bath_machine_jobs_job_bath_attendant_add_1
+	mult = value:bath_attendant_skill|MULT|0.1|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			OR = {
+				has_councilor_with_trait_tier1or2 = {
+					COUNCILOR = "councilor_toxic_baths"
+					TRAIT = leader_trait_substance_abuser
+				}
+				has_councilor_with_trait_tier1or2 = {
+					COUNCILOR = "councilor_toxic_baths_individual_machine"
+					TRAIT = leader_trait_substance_abuser
+				}
+				has_councilor_with_trait_tier1or2 = {
+					COUNCILOR = "councilor_corporate_toxic_baths"
+					TRAIT = leader_trait_substance_abuser
+				}
+				has_councilor_with_trait_tier1or2 = {
+					COUNCILOR = "councilor_corporate_toxic_baths_individual_machine"
+					TRAIT = leader_trait_substance_abuser
+				}
+			}
+		}
+	}
+	job_bath_attendant_add = @pif_building_toxic_bath_machine_jobs_job_bath_attendant_add_1
+	mult = value:bath_attendant_skill|MULT|0.05|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_bath_attendant_machine_add = @pif_building_toxic_bath_machine_jobs_job_bath_attendant_machine_add_2
+}

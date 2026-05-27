@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+mote_harvester = {
+	category = worker
+	inline_script = "pif/jobs/mote_harvester/swap"
+	inline_script = "pif/jobs/mote_harvester/availability"
+	inline_script = "pif/jobs/mote_harvester/pop_config"
+	inline_script = "pif/jobs/mote_harvester/economy"
+	inline_script = "pif/jobs/mote_harvester/planet_state"
+	inline_script = "pif/jobs/mote_harvester/country_modifiers"
+	inline_script = "pif/jobs/mote_harvester/pop_modifiers"
+	inline_script = "pif/jobs/mote_harvester/economic_modifiers"
+	inline_script = "pif/jobs/mote_harvester/tpm"
+}

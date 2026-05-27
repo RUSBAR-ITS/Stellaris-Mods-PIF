@@ -1,0 +1,6 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: mining_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+# Empty PIF job category hook.

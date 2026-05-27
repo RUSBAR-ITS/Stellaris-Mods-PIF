@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_psi_corps = {
+	base_buildtime = @pif_building_psi_corps_construction_base_buildtime_1
+	category = government
+	triggered_desc = {
+		text = psionic_bonus_workforce_from_telepaths_tt
+	}
+	is_essential = yes
+	inline_script = "pif/buildings/building_psi_corps/building_config"
+	inline_script = "pif/buildings/building_psi_corps/availability"
+	inline_script = "pif/buildings/building_psi_corps/economy"
+	inline_script = "pif/buildings/building_psi_corps/lifecycle"
+	inline_script = "pif/buildings/building_psi_corps/jobs"
+	inline_script = "pif/buildings/building_psi_corps/country_jobs"
+	inline_script = "pif/buildings/building_psi_corps/economic_modifiers"
+	inline_script = "pif/buildings/building_psi_corps/pop_modifiers"
+	inline_script = "pif/buildings/building_psi_corps/planet_state"
+	inline_script = "pif/buildings/building_psi_corps/tpm"
+	inline_script = "pif/buildings/building_psi_corps/ai"
+}

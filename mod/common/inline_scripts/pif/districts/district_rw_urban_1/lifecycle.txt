@@ -1,0 +1,5 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_rw_urban_1
+# Vanilla source: districts/04_ringworld_districts.txt
+
+

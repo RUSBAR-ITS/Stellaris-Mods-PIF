@@ -1,0 +1,17 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_factory_upkeep_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+destroy_trigger = {
+	OR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		AND = {
+			exists = owner
+			owner = {
+				country_uses_consumer_goods = no
+			}
+		}
+	}
+}

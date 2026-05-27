@@ -1,0 +1,5 @@
+# PIF zone category: AI
+# Vanilla zone: zone_energy
+# Vanilla source: zones/00_zones.txt
+
+ai_priority = @pif_zone_energy_ai_ai_priority_ai_priority_1

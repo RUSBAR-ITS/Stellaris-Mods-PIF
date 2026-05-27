@@ -1,0 +1,6 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_ai_emporium
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+# Empty PIF building category hook.

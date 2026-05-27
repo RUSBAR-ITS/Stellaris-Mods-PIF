@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_maintenance_depot
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+building_sets = {
+	urban
+	trade
+}

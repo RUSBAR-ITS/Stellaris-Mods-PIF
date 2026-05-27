@@ -1,0 +1,12 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_subterranean_cache
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+building_sets = {
+	government
+	mining
+	farming
+	generator
+	urban
+}

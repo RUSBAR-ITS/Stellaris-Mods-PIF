@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_class_4_singularity = {
+	base_buildtime = @pif_building_class_4_singularity_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_class_4_singularity/building_config"
+	inline_script = "pif/buildings/building_class_4_singularity/availability"
+	inline_script = "pif/buildings/building_class_4_singularity/economy"
+	inline_script = "pif/buildings/building_class_4_singularity/lifecycle"
+	inline_script = "pif/buildings/building_class_4_singularity/jobs"
+	inline_script = "pif/buildings/building_class_4_singularity/country_jobs"
+	inline_script = "pif/buildings/building_class_4_singularity/economic_modifiers"
+	inline_script = "pif/buildings/building_class_4_singularity/pop_modifiers"
+	inline_script = "pif/buildings/building_class_4_singularity/planet_state"
+	inline_script = "pif/buildings/building_class_4_singularity/tpm"
+	inline_script = "pif/buildings/building_class_4_singularity/ai"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+bio_trophy = {
+	category = bio_trophy
+	inline_script = "pif/jobs/bio_trophy/swap"
+	inline_script = "pif/jobs/bio_trophy/availability"
+	inline_script = "pif/jobs/bio_trophy/pop_config"
+	inline_script = "pif/jobs/bio_trophy/economy"
+	inline_script = "pif/jobs/bio_trophy/planet_state"
+	inline_script = "pif/jobs/bio_trophy/country_modifiers"
+	inline_script = "pif/jobs/bio_trophy/pop_modifiers"
+	inline_script = "pif/jobs/bio_trophy/economic_modifiers"
+	inline_script = "pif/jobs/bio_trophy/tpm"
+}

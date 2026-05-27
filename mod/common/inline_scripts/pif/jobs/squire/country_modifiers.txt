@@ -1,0 +1,35 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: squire
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = planet
+		planet = {
+			exists = owner
+			owner = {
+				has_technology = "tech_ground_defense_planning"
+			}
+		}
+	}
+	modifier = {
+		country_naval_cap_add = @pif_squire_country_modifiers_country_naval_cap_add_1
+	}
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			any_owned_leader = {
+				is_councilor = yes
+				has_trait = leader_trait_bellicose
+			}
+		}
+	}
+	modifier = {
+		country_naval_cap_add = @pif_squire_country_modifiers_country_naval_cap_add_2
+	}
+	mult = value:bellicose_naval_cap
+}

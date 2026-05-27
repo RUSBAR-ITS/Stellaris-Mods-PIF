@@ -1,0 +1,54 @@
+# PIF category: TPM
+# Vanilla district: district_hab_mining
+# Vanilla source: districts/03_habitat_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_district_hab_mining_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_mining_drone_add = @pif_district_hab_mining_jobs_job_mining_drone_add
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	job_mining_drone_add = @pif_district_hab_mining_jobs_job_mining_drone_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_fallen_empire_spiritualist = no
+		}
+	}
+	job_miner_add = @pif_district_hab_mining_jobs_job_miner_add
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+	}
+	job_fe_acolyte_mine_add = @pif_district_hab_mining_jobs_job_fe_acolyte_mine_add
+	mult = owner.value:hab_void_dweller_jobs
+}

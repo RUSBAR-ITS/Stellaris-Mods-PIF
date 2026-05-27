@@ -1,0 +1,9 @@
+# PIF building category: AI
+# Vanilla building: building_private_mining_consortium
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+ai_weight = {
+	factor = @pif_building_private_mining_consortium_ai_factor_1
+	mult = value:num_jobs_with_tag|TAG|minerals|
+}

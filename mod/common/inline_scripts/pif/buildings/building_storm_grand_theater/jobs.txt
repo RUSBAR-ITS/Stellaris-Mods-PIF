@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: building_storm_grand_theater
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_entertainer_add = @pif_building_storm_grand_theater_jobs_job_entertainer_add_1
+}

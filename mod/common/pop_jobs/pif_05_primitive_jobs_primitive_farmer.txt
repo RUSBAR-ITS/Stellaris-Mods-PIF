@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+primitive_farmer = {
+	category = worker
+	inline_script = "pif/jobs/primitive_farmer/swap"
+	inline_script = "pif/jobs/primitive_farmer/availability"
+	inline_script = "pif/jobs/primitive_farmer/pop_config"
+	inline_script = "pif/jobs/primitive_farmer/economy"
+	inline_script = "pif/jobs/primitive_farmer/planet_state"
+	inline_script = "pif/jobs/primitive_farmer/country_modifiers"
+	inline_script = "pif/jobs/primitive_farmer/pop_modifiers"
+	inline_script = "pif/jobs/primitive_farmer/economic_modifiers"
+	inline_script = "pif/jobs/primitive_farmer/tpm"
+}

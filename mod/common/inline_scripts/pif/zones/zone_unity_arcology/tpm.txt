@@ -1,0 +1,294 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_unity_arcology
+# Vanilla source: zones/04_secondary_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_4
+			is_regular_empire = yes
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_2
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			has_active_tradition = tr_virtuality_4
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+	mult = owner.value:hab_void_dweller_virtual_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_3
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_4
+			is_regular_empire = yes
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_4
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_5
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_4
+			is_regular_empire = yes
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_bureaucrat_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_6
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_4
+			is_gestalt = yes
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_2
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			has_active_tradition = tr_virtuality_4
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+	mult = owner.value:hab_void_dweller_virtual_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_3
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_4
+			is_gestalt = yes
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_4
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_5
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			has_active_tradition = tr_virtuality_4
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_coordinator_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_coordinator_add_7
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_6
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_servitor
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_bio_trophy_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bio_trophy_add_8
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_5
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_servitor
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_bio_trophy_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bio_trophy_add_8
+	mult = owner.value:hab_void_dweller_jobs_mult|MULT|5|
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_servitor
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_bio_trophy_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bio_trophy_add_8
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_9
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_servitor
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_bio_trophy_add = @pif_zone_unity_arcology_jobs_unity_admin_job_amount_job_bio_trophy_add_8
+	mult = @pif_zone_unity_arcology_jobs_unity_admin_district_modifier_scaling_multiplier_10
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	zone_building_slots_add = @pif_zone_unity_arcology_building_capacity_zone_building_slots_add_1
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_unity_arcology_housing_planet_housing_add_1
+}

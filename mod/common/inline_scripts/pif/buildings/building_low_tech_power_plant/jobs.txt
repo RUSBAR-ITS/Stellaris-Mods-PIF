@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_low_tech_power_plant
+# Vanilla class: regular
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_low_tech_technician_add = @pif_building_low_tech_power_plant_jobs_job_low_tech_technician_add_1
+}

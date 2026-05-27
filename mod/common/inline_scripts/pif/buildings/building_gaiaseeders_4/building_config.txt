@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_gaiaseeders_4
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+building_sets = {
+	government
+	urban
+}

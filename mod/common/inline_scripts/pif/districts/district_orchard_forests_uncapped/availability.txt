@@ -1,0 +1,13 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_orchard_forests_uncapped
+# Vanilla source: districts/05_wilderness_districts.txt
+
+potential = {
+	always = no
+}
+
+allow = {
+	NOT = {
+		has_modifier = resort_colony
+	}
+}

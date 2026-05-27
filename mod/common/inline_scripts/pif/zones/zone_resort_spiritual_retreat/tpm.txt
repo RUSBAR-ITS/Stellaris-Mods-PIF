@@ -1,0 +1,14 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_resort_spiritual_retreat
+# Vanilla source: zones/00_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+	}
+	job_bureaucrat_add = @pif_zone_resort_spiritual_retreat_jobs_unity_admin_job_amount_job_bureaucrat_add_1
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_resort_spiritual_retreat_housing_planet_housing_add_1
+}

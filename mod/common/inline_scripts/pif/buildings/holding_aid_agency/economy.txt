@@ -1,0 +1,46 @@
+# PIF building category: ECONOMY
+# Vanilla building: holding_aid_agency
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+resources = {
+	category = planet_holdings
+	cost = {
+		minerals = @pif_holding_aid_agency_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_holding_aid_agency_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = planet.owner
+			planet.owner = {
+				is_lithoid = yes
+			}
+		}
+		minerals = @pif_holding_aid_agency_upkeep_upkeep_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			exists = planet.owner
+			planet.owner = {
+				OR = {
+					is_machine_empire = yes
+					is_mechanical_empire = yes
+				}
+			}
+		}
+		energy = @pif_holding_aid_agency_upkeep_upkeep_energy_3
+	}
+	upkeep = {
+		trigger = {
+			exists = planet.owner
+			planet.owner = {
+				is_lithoid = no
+				is_machine_empire = no
+				is_mechanical_empire = no
+			}
+		}
+		food = @pif_holding_aid_agency_upkeep_upkeep_food_4
+	}
+}

@@ -1,0 +1,6 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: xeno_zoo_beast_lithoid_nascent
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+# Empty PIF job category hook.

@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: captain
+# Vanilla class: no_category
+# Vanilla source: pop_jobs/10_paragon_fake_jobs.txt
+
+possible = {
+	always = no
+}

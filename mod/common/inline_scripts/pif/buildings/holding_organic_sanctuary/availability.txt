@@ -1,0 +1,24 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_organic_sanctuary
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_organic_sanctuary_limits_planet_limit_1
+
+potential = {
+	owner.overlord = {
+		has_valid_civic = civic_machine_servitor
+	}
+	owner = {
+		is_machine_empire = no
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = no_organic_sanctuary_wilderness
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+}

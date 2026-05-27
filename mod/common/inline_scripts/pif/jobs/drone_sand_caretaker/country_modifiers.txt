@@ -1,0 +1,6 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: drone_sand_caretaker
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+# Empty PIF job category hook.

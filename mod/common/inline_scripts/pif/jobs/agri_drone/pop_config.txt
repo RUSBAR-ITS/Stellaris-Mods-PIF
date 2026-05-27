@@ -1,0 +1,80 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: agri_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	food
+}
+
+weight = {
+	weight = @pif_agri_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|agri_drone|RESOURCE|food|
+	modifier = {
+		factor = @pif_agri_drone_job_weight_factor_2
+		owner = {
+			has_monthly_income = {
+				resource = food
+				value > 50
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_agri_drone_job_weight_factor_2
+		owner = {
+			is_robot_empire = yes
+		}
+	}
+	modifier = {
+		factor = @pif_agri_drone_job_weight_factor_3
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+	modifier = {
+		factor = @pif_agri_drone_job_weight_factor_4
+		has_trait = trait_lithoid
+		owner = {
+			is_lithoid_empire = yes
+			country_uses_food = no
+			has_monthly_income = {
+				resource = food
+				value >= 0
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_agri_drone_job_weight_factor_4
+		has_trait = trait_infernal
+		owner = {
+			is_infernal_empire = yes
+			country_uses_food = no
+			has_monthly_income = {
+				resource = food
+				value >= 0
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_agrarian
+	trait_farm_hands
+	trait_robot_harvesters
+	trait_cyborg_harvesters
+	trait_malleable_food
+	trait_adaptive_food
+}
+
+promotion = {
+	time = @pif_agri_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

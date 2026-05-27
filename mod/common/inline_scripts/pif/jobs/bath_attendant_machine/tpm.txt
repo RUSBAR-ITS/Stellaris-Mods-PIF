@@ -1,0 +1,6 @@
+# PIF job category: TPM
+# Vanilla job: bath_attendant_machine
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+# Empty PIF job category hook.

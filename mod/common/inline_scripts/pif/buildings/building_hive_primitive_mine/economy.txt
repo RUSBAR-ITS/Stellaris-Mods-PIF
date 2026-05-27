@@ -1,0 +1,6 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_hive_primitive_mine
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+# Empty PIF building category hook.

@@ -1,0 +1,44 @@
+# PIF building category: TPM
+# Vanilla building: building_hive_primitive_capital
+# Vanilla class: capital
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_primitive = yes
+			OR = {
+				has_country_flag = machine_age
+				has_country_flag = industrial_age
+			}
+		}
+	}
+	job_primitive_hive_synapse_drone_2_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_synapse_drone_2_add_1
+	job_primitive_hive_warrior_2_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_warrior_2_add_2
+	job_primitive_hive_brain_drone_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_brain_drone_add_3
+	job_primitive_hive_spawning_drone_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_spawning_drone_add_4
+	planet_housing_add = @pif_building_hive_primitive_capital_planet_state_planet_housing_add_1
+	planet_amenities_no_happiness_add = @pif_building_hive_primitive_capital_pop_modifiers_planet_amenities_no_happiness_add_1
+	planet_crime_no_happiness_add = @pif_building_hive_primitive_capital_pop_modifiers_planet_crime_no_happiness_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_primitive = yes
+			OR = {
+				has_country_flag = atomic_age
+				has_country_flag = early_space_age
+			}
+		}
+	}
+	job_primitive_hive_synapse_drone_2_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_synapse_drone_2_add_1
+	job_primitive_hive_warrior_2_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_warrior_2_add_2
+	job_primitive_hive_brain_drone_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_brain_drone_add_3
+	job_primitive_hive_spawning_drone_add = @pif_building_hive_primitive_capital_jobs_job_primitive_hive_spawning_drone_add_5
+	planet_housing_add = @pif_building_hive_primitive_capital_planet_state_planet_housing_add_1
+	planet_amenities_no_happiness_add = @pif_building_hive_primitive_capital_pop_modifiers_planet_amenities_no_happiness_add_1
+	planet_crime_no_happiness_add = @pif_building_hive_primitive_capital_pop_modifiers_planet_crime_no_happiness_add_2
+}

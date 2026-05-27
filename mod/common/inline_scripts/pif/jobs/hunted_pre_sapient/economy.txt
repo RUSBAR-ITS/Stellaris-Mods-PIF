@@ -1,0 +1,27 @@
+# PIF job category: ECONOMY
+# Vanilla job: hunted_pre_sapient
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_livestock_farmers
+	produces = {
+		food = @pif_hunted_pre_sapient_job_output_output_food_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_food_processing_facility
+			}
+		}
+		food = @pif_hunted_pre_sapient_job_output_output_food_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_food_processing_center
+			}
+		}
+		food = @pif_hunted_pre_sapient_job_output_output_food_3
+	}
+}

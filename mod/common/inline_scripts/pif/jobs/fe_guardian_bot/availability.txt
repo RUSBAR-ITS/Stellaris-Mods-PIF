@@ -1,0 +1,20 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: fe_guardian_bot
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+is_capped_by_modifier = @pif_fe_guardian_bot_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+	is_robotic = yes
+}
+
+possible_precalc = can_fill_precursor_job
+
+possible = {
+	owner = {
+		is_machine_empire = yes
+	}
+}

@@ -1,0 +1,24 @@
+# PIF building category: AI
+# Vanilla building: building_production_center
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+ai_resource_production = {
+	alloys = @pif_building_production_center_ai_alloys_1
+	trigger = {
+		OR = {
+			has_any_foundry_zone = yes
+			has_mixed_industrial_zone = yes
+		}
+	}
+}
+
+ai_resource_production = {
+	consumer_goods = @pif_building_production_center_ai_consumer_goods_2
+	trigger = {
+		OR = {
+			has_any_factory_zone = yes
+			has_mixed_industrial_zone = yes
+		}
+	}
+}

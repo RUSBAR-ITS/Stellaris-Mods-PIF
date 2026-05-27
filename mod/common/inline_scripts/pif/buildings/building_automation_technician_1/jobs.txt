@@ -1,0 +1,12 @@
+# PIF building category: JOBS
+# Vanilla building: building_automation_technician_1
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_technician_automated_workforce_mult = @pif_building_automation_technician_1_jobs_job_technician_automated_workforce_mult_1
+	job_technician_drone_automated_workforce_mult = @pif_building_automation_technician_1_jobs_job_technician_drone_automated_workforce_mult_2
+}

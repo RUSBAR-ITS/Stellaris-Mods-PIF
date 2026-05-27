@@ -1,0 +1,50 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/05_research_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_archaeostudies_faculty = {
+	base_buildtime = @pif_building_archaeostudies_faculty_construction_base_buildtime_1
+	category = research
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = biologist_is_archaeo_engineer_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		text = biology_drone_is_archaeo_engineer_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		text = biology_unit_is_archaeo_engineer_tt
+	}
+	triggered_desc = {
+		text = building_archaeostudies_faculty_relic_effect
+	}
+	inline_script = "pif/buildings/building_archaeostudies_faculty/building_config"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/availability"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/economy"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/lifecycle"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/jobs"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/country_jobs"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/economic_modifiers"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/pop_modifiers"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/planet_state"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/tpm"
+	inline_script = "pif/buildings/building_archaeostudies_faculty/ai"
+}

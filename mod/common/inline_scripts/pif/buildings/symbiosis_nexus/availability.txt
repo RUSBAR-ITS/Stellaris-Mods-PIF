@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: symbiosis_nexus
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+planet_limit = @pif_symbiosis_nexus_limits_planet_limit_1
+
+potential = {
+	owner = {
+		has_symbiosis_integrator_job = yes
+	}
+}

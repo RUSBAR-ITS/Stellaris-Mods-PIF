@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_ozone_thickener = {
+	icon = "ozone_thickener"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_ozone_thickener_construction_base_buildtime_1
+	category = army
+	inline_script = "pif/buildings/building_ozone_thickener/building_config"
+	inline_script = "pif/buildings/building_ozone_thickener/availability"
+	inline_script = "pif/buildings/building_ozone_thickener/economy"
+	inline_script = "pif/buildings/building_ozone_thickener/lifecycle"
+	inline_script = "pif/buildings/building_ozone_thickener/jobs"
+	inline_script = "pif/buildings/building_ozone_thickener/country_jobs"
+	inline_script = "pif/buildings/building_ozone_thickener/economic_modifiers"
+	inline_script = "pif/buildings/building_ozone_thickener/pop_modifiers"
+	inline_script = "pif/buildings/building_ozone_thickener/planet_state"
+	inline_script = "pif/buildings/building_ozone_thickener/tpm"
+	inline_script = "pif/buildings/building_ozone_thickener/ai"
+}

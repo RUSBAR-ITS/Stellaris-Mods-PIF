@@ -1,0 +1,18 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+crisis_purge = {
+	category = purge
+	purge = purge_normal
+	inline_script = "pif/jobs/crisis_purge/swap"
+	inline_script = "pif/jobs/crisis_purge/availability"
+	inline_script = "pif/jobs/crisis_purge/pop_config"
+	inline_script = "pif/jobs/crisis_purge/economy"
+	inline_script = "pif/jobs/crisis_purge/planet_state"
+	inline_script = "pif/jobs/crisis_purge/country_modifiers"
+	inline_script = "pif/jobs/crisis_purge/pop_modifiers"
+	inline_script = "pif/jobs/crisis_purge/economic_modifiers"
+	inline_script = "pif/jobs/crisis_purge/tpm"
+}

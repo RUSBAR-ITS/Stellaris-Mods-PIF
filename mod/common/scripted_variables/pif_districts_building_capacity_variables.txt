@@ -1,0 +1,27 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: BUILDING_CAPACITY
+# Building capacity / max-building modifiers provided by districts.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_logic
+# -----------------------------------------------------------------------------
+# Controls: Additional building capacity unlocked by the district.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/tpm.txt
+# Contexts: triggered_planet_modifier.pc_cosmogenesis_world_max_buildings_add
+@pif_district_cosmogenesis_world_logic_building_capacity_pc_cosmogenesis_world_max_buildings_add = 1
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_science
+# -----------------------------------------------------------------------------
+# Controls: Additional building capacity unlocked by the district.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/tpm.txt
+# Contexts: triggered_planet_modifier.pc_cosmogenesis_world_max_buildings_add
+@pif_district_cosmogenesis_world_science_building_capacity_pc_cosmogenesis_world_max_buildings_add = 1

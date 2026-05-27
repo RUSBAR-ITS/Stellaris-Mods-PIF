@@ -1,0 +1,42 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_psi_corps
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+planet_limit = @pif_building_psi_corps_limits_planet_limit_1
+
+potential = {
+	owner = {
+		has_psi_corps_tradition = yes
+		NOT = {
+			has_origin = origin_endbringers
+		}
+	}
+	OR = {
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
+		AND = {
+			has_modifier = resort_colony
+			has_designation = col_pleasure
+		}
+	}
+}
+
+allow = {
+	if = {
+		limit = {
+			exists = orbital_defence
+		}
+		orbital_defence = {
+			exists = starbase
+			starbase = {
+				NOR = {
+					has_starbase_building = ring_psi_corps
+					is_starbase_building_building = ring_psi_corps
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: physician_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {
+	category = planet_doctors
+	produces = {
+		unity = @pif_physician_drone_job_output_output_unity_1
+	}
+	upkeep = {
+		energy = @pif_physician_drone_job_upkeep_upkeep_energy_1
+	}
+}

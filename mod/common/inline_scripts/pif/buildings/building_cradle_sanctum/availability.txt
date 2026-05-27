@@ -1,0 +1,24 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_cradle_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+empire_limit = {
+	base = @pif_building_cradle_sanctum_limits_base_1
+}
+
+potential = {
+	has_shroud_dlc = yes
+	exists = owner
+	owner = {
+		has_country_flag = trust_accord
+	}
+	NOR = {
+		has_designation = col_resort
+		has_modifier = slave_colony
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}

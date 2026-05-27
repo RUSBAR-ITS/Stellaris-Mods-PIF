@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: holding_knight_commandery
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+resources = {
+	category = planet_holdings
+	cost = {
+		minerals = @pif_holding_knight_commandery_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_holding_knight_commandery_upkeep_upkeep_energy_1
+	}
+}

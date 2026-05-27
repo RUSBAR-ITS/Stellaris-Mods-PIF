@@ -1,0 +1,5 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_habitat_hydroponics
+# Vanilla source: zones/01_habitat_zones.txt
+
+

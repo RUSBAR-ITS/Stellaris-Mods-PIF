@@ -1,0 +1,43 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_stronghold
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+potential = {
+	exists = owner
+	NOT = {
+		has_modifier = resort_colony
+	}
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	exists = owner
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		has_any_fortress_zone = yes
+		AND = {
+			num_buildings = {
+				type = building_stronghold
+				value < 2
+			}
+			num_buildings = {
+				type = building_fortress
+				value < 2
+			}
+		}
+	}
+}
+
+prerequisites = {
+	"tech_planetary_defenses"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

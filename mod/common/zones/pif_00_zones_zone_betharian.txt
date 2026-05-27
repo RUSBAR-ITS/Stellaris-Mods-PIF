@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_betharian = {
+	icon = GFX_district_specialization_betharian
+	base_buildtime = @pif_zone_betharian_construction_zone_build_time_1
+	swap_type = district_mining_betharian
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_betharian/availability"
+	inline_script = "pif/zones/zone_betharian/zone_config"
+	inline_script = "pif/zones/zone_betharian/economy"
+	inline_script = "pif/zones/zone_betharian/tpm"
+	inline_script = "pif/zones/zone_betharian/lifecycle"
+	inline_script = "pif/zones/zone_betharian/ai"
+}

@@ -1,0 +1,28 @@
+# PIF job category: TPM
+# Vanilla job: telepath
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		enforcer_is_educator_trigger = yes
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	planet_crime_add = @pif_telepath_tpm_planet_crime_add_1
+	pop_government_ethic_attraction = @pif_telepath_tpm_pop_government_ethic_attraction_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_imperial_authority = yes
+			is_corporeal_authority = yes
+		}
+	}
+	planet_crime_mult = @pif_telepath_tpm_planet_crime_mult_3
+	planet_jobs_unity_produces_mult = @pif_telepath_tpm_planet_jobs_unity_produces_mult_4
+}

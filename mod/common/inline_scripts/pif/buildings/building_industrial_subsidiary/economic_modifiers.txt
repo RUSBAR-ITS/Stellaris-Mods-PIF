@@ -1,0 +1,32 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_industrial_subsidiary
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_artisans_trade_produces_add = @pif_building_industrial_subsidiary_economic_modifiers_planet_artisans_trade_produces_add_3
+	planet_metallurgists_trade_produces_add = @pif_building_industrial_subsidiary_economic_modifiers_planet_metallurgists_trade_produces_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_scavengers
+		}
+	}
+	planet_artisans_trade_produces_add = @pif_building_industrial_subsidiary_economic_modifiers_planet_artisans_trade_produces_add_3
+	planet_metallurgists_trade_produces_add = @pif_building_industrial_subsidiary_economic_modifiers_planet_metallurgists_trade_produces_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_relentless_industrialists
+		}
+	}
+	planet_artisans_trade_produces_add = @pif_building_industrial_subsidiary_economic_modifiers_planet_artisans_trade_produces_add_3
+	planet_metallurgists_trade_produces_add = @pif_building_industrial_subsidiary_economic_modifiers_planet_metallurgists_trade_produces_add_4
+}

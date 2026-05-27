@@ -1,0 +1,657 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: HOUSING
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_betharian_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_housing_planet_housing_add_1 = 1
+
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_housing_planet_housing_add_2 = -600
+
+# -----------------------------------------------------------------------------
+# zone_betharian_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_housing_planet_housing_add_1 = 1
+
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_housing_planet_housing_add_2 = -600
+
+# -----------------------------------------------------------------------------
+# zone_broken_shackles_memorial
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
+@pif_zone_broken_shackles_memorial_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_central_spire
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
+@pif_zone_central_spire_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_energy_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt
+@pif_zone_energy_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_energy_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt
+@pif_zone_energy_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_energy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt
+@pif_zone_energy_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_factory
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory/tpm.txt
+@pif_zone_factory_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_factory_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/tpm.txt
+@pif_zone_factory_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_factory_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/tpm.txt
+@pif_zone_factory_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_factory_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/tpm.txt
+@pif_zone_factory_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_factory_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/tpm.txt
+@pif_zone_factory_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_food_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt
+@pif_zone_food_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_food_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt
+@pif_zone_food_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_fortress
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt
+@pif_zone_fortress_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_fortress_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt
+@pif_zone_fortress_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_fortress_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt
+@pif_zone_fortress_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_fortress_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt
+@pif_zone_fortress_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_fortress_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt
+@pif_zone_fortress_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_foundry
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/tpm.txt
+@pif_zone_foundry_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_foundry_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/tpm.txt
+@pif_zone_foundry_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_foundry_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/tpm.txt
+@pif_zone_foundry_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_foundry_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/tpm.txt
+@pif_zone_foundry_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_foundry_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/tpm.txt
+@pif_zone_foundry_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_habitat_knights
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_knights/tpm.txt
+@pif_zone_habitat_knights_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_industrial
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
+@pif_zone_industrial_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_industrial_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
+@pif_zone_industrial_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_industrial_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
+@pif_zone_industrial_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_industrial_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
+@pif_zone_industrial_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_industrial_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
+@pif_zone_industrial_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_machine_replication
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_machine_replication/tpm.txt
+@pif_zone_machine_replication_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_minerals_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt
+@pif_zone_minerals_hive_housing_planet_housing_add_1 = 1
+
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt
+@pif_zone_minerals_hive_housing_planet_housing_add_2 = -600
+
+# -----------------------------------------------------------------------------
+# zone_minerals_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt
+@pif_zone_minerals_nexus_housing_planet_housing_add_1 = 1
+
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt
+@pif_zone_minerals_nexus_housing_planet_housing_add_2 = -600
+
+# -----------------------------------------------------------------------------
+# zone_payback_enlightenment
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
+@pif_zone_payback_enlightenment_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_housing_planet_housing_add_1 = 1
+
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_housing_planet_housing_add_2 = -600
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_housing_planet_housing_add_1 = 1
+
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_housing_planet_housing_add_2 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
+@pif_zone_research_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_research_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
+@pif_zone_research_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
+@pif_zone_research_engineering_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
+@pif_zone_research_engineering_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
+@pif_zone_research_engineering_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
+@pif_zone_research_engineering_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_engineering_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
+@pif_zone_research_engineering_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_research_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
+@pif_zone_research_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
+@pif_zone_research_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_physics
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
+@pif_zone_research_physics_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
+@pif_zone_research_physics_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
+@pif_zone_research_physics_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
+@pif_zone_research_physics_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_physics_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
+@pif_zone_research_physics_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_research_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
+@pif_zone_research_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_research_society
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
+@pif_zone_research_society_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_research_society_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
+@pif_zone_research_society_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_society_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
+@pif_zone_research_society_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_society_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
+@pif_zone_research_society_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_research_society_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
+@pif_zone_research_society_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_research_unity
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
+@pif_zone_research_unity_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
+@pif_zone_resort_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort_entertainment
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/tpm.txt
+@pif_zone_resort_entertainment_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort_grand_museum
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_grand_museum/tpm.txt
+@pif_zone_resort_grand_museum_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort_hunting_ground
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_hunting_ground/tpm.txt
+@pif_zone_resort_hunting_ground_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort_proving_grounds
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_proving_grounds/tpm.txt
+@pif_zone_resort_proving_grounds_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort_restoration_enclave
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_restoration_enclave/tpm.txt
+@pif_zone_resort_restoration_enclave_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort_spiritual_retreat
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_spiritual_retreat/tpm.txt
+@pif_zone_resort_spiritual_retreat_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_resort_zoo
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_zoo/tpm.txt
+@pif_zone_resort_zoo_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_spawning
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_spawning/tpm.txt
+@pif_zone_spawning_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_spawning_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_spawning_hive/tpm.txt
+@pif_zone_spawning_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_trade
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_trade_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_trade_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_trade_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_trade_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_unity
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
+@pif_zone_unity_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_unity_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
+@pif_zone_unity_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
+@pif_zone_unity_bio_trophy_housing_planet_housing_add_1 = -500
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
+@pif_zone_unity_bio_trophy_arcology_housing_planet_housing_add_1 = -1500
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
+@pif_zone_unity_bio_trophy_nexus_housing_planet_housing_add_1 = -1500
+
+# -----------------------------------------------------------------------------
+# zone_unity_bio_trophy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
+@pif_zone_unity_bio_trophy_ring_world_housing_planet_housing_add_1 = -1500
+
+# -----------------------------------------------------------------------------
+# zone_unity_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
+@pif_zone_unity_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_unity_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
+@pif_zone_unity_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_unity_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
+@pif_zone_unity_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
+@pif_zone_unity_spiritualist_housing_planet_housing_add_1 = -200
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_arcology
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
+@pif_zone_unity_spiritualist_arcology_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
+@pif_zone_unity_spiritualist_nexus_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_unity_spiritualist_ring_world
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
+@pif_zone_unity_spiritualist_ring_world_housing_planet_housing_add_1 = -1000
+
+# -----------------------------------------------------------------------------
+# zone_urban
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_urban/tpm.txt
+@pif_zone_urban_housing_planet_housing_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_hive
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_housing_planet_housing_add_1 = -600
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_nexus
+# -----------------------------------------------------------------------------
+# Controls: planet_housing_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_housing_planet_housing_add_1 = -600

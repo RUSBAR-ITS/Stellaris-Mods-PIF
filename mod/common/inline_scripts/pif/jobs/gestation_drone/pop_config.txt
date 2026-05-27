@@ -1,0 +1,33 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: gestation_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	pop_growth
+}
+
+weight = {
+	weight = @pif_gestation_drone_job_weight_weight_1
+	modifier = {
+		factor = @pif_gestation_drone_job_weight_factor_2
+		exists = planet
+		exists = planet.controller
+		planet.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+			}
+		}
+	}
+}
+
+promotion = {
+	time = @pif_gestation_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

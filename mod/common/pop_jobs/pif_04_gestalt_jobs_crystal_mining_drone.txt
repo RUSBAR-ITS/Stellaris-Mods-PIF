@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/04_gestalt_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+crystal_mining_drone = {
+	category = complex_drone
+	inline_script = "pif/jobs/crystal_mining_drone/swap"
+	inline_script = "pif/jobs/crystal_mining_drone/availability"
+	inline_script = "pif/jobs/crystal_mining_drone/pop_config"
+	inline_script = "pif/jobs/crystal_mining_drone/economy"
+	inline_script = "pif/jobs/crystal_mining_drone/planet_state"
+	inline_script = "pif/jobs/crystal_mining_drone/country_modifiers"
+	inline_script = "pif/jobs/crystal_mining_drone/pop_modifiers"
+	inline_script = "pif/jobs/crystal_mining_drone/economic_modifiers"
+	inline_script = "pif/jobs/crystal_mining_drone/tpm"
+}

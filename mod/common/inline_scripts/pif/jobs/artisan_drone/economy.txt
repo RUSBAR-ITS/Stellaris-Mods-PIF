@@ -1,0 +1,51 @@
+# PIF job category: ECONOMY
+# Vanilla job: artisan_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_artisans
+	produces = {
+		consumer_goods = @pif_artisan_drone_job_output_output_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = no
+		}
+		minerals = @pif_artisan_drone_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		food = @pif_artisan_drone_job_upkeep_upkeep_food_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		consumer_goods = @pif_artisan_drone_job_output_output_consumer_goods_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_consumer_goods
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+				exists = owner.overlord
+				owner.overlord = {
+					country_uses_consumer_goods = yes
+				}
+			}
+		}
+		consumer_goods = @pif_artisan_drone_overlord_output_overlord_output_consumer_goods_1
+	}
+}

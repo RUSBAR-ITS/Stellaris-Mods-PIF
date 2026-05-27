@@ -1,0 +1,298 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_clone_army_clone_vat
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 2200
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 2200
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_2
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 2200
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 2000
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 2200
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 2000
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_4
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 2000
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 1800
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 2000
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 1800
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_6
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 1800
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 1600
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_7
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 1800
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 1600
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_8
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 1600
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 1400
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_9
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 1600
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 1400
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_10
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 1400
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 1200
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_11
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 1400
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 1200
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_12
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 1200
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 1000
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_13
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 1200
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 1000
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_14
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 1000
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 800
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_15
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 1000
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 800
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_16
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 800
+			}
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value > 600
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_17
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 800
+		}
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value > 600
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_18
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		has_infertile_clone_soldier_trait = yes
+		planet = {
+			check_variable = {
+				which = clone_pops_missing_per_vat
+				value <= 600
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_19
+}
+
+triggered_planet_modifier = {
+	potential = {
+		check_variable = {
+			which = clone_pops_missing_per_vat
+			value <= 600
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_20
+}

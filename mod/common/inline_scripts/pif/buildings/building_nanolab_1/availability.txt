@@ -1,0 +1,20 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_nanolab_1
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_nanolab_1_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_tradition = tr_nanotech_adopt
+	}
+}
+
+allow = {
+	exists = owner
+	owner = {
+		has_tradition = tr_nanotech_adopt
+	}
+}

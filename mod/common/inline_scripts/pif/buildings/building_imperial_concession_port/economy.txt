@@ -1,0 +1,26 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_imperial_concession_port
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+resources = {
+	category = planet_branch_office_buildings
+	cost = {
+		influence = @pif_building_imperial_concession_port_cost_cost_influence_1
+		minerals = @pif_building_imperial_concession_port_cost_cost_minerals_2
+	}
+	cost = {
+		trigger = {
+			owner = {
+				has_authority = auth_corporate
+			}
+		}
+		influence = @pif_building_imperial_concession_port_cost_cost_influence_1
+	}
+	produces = {
+		energy = @pif_building_imperial_concession_port_economic_modifiers_produces_energy_1
+	}
+	produces = {
+		trade = @pif_building_imperial_concession_port_economic_modifiers_produces_trade_2
+	}
+}

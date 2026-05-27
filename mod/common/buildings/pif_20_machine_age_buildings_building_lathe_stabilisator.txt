@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_lathe_stabilisator = {
+	base_buildtime = @pif_building_lathe_stabilisator_construction_base_buildtime_1
+	category = government
+	inline_script = "pif/buildings/building_lathe_stabilisator/building_config"
+	inline_script = "pif/buildings/building_lathe_stabilisator/availability"
+	inline_script = "pif/buildings/building_lathe_stabilisator/economy"
+	inline_script = "pif/buildings/building_lathe_stabilisator/lifecycle"
+	inline_script = "pif/buildings/building_lathe_stabilisator/jobs"
+	inline_script = "pif/buildings/building_lathe_stabilisator/country_jobs"
+	inline_script = "pif/buildings/building_lathe_stabilisator/economic_modifiers"
+	inline_script = "pif/buildings/building_lathe_stabilisator/pop_modifiers"
+	inline_script = "pif/buildings/building_lathe_stabilisator/planet_state"
+	inline_script = "pif/buildings/building_lathe_stabilisator/tpm"
+	inline_script = "pif/buildings/building_lathe_stabilisator/ai"
+}

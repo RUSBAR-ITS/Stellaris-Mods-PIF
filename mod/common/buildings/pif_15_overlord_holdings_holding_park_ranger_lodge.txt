@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_park_ranger_lodge = {
+	base_buildtime = @pif_holding_park_ranger_lodge_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_park_ranger_lodge
+	category = amenity
+	inline_script = "pif/buildings/holding_park_ranger_lodge/building_config"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/availability"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/economy"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/lifecycle"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/jobs"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/country_jobs"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/economic_modifiers"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/pop_modifiers"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/planet_state"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/tpm"
+	inline_script = "pif/buildings/holding_park_ranger_lodge/ai"
+}

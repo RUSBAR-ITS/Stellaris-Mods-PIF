@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_order_keep
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+can_demolish = no
+
+can_be_disabled = no
+
+destroy_trigger = {
+	OR = {
+		NOT = {
+			exists = owner
+		}
+		NOT = {
+			owner = {
+				has_origin = origin_toxic_knights
+			}
+		}
+	}
+}

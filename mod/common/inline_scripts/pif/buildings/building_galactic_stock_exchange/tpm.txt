@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_galactic_stock_exchange
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_trade_fee = -0.05
+}

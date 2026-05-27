@@ -1,0 +1,39 @@
+# PIF building category: AI
+# Vanilla building: building_institute
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+ai_weight_coefficient = @pif_building_institute_ai_ai_weight_coefficient_1
+
+ai_resource_production = {
+	physics_research = @pif_building_institute_ai_physics_research_2
+	society_research = @pif_building_institute_ai_society_research_3
+	engineering_research = @pif_building_institute_ai_engineering_research_4
+	trigger = {
+		has_any_unspecialized_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	physics_research = @pif_building_institute_ai_physics_research_2
+	mult = @pif_building_institute_ai_mult_5
+	trigger = {
+		has_any_research_physics_zone = yes
+	}
+}
+
+ai_resource_production = {
+	society_research = @pif_building_institute_ai_society_research_3
+	mult = @pif_building_institute_ai_mult_5
+	trigger = {
+		has_any_research_society_zone = yes
+	}
+}
+
+ai_resource_production = {
+	engineering_research = @pif_building_institute_ai_engineering_research_4
+	mult = @pif_building_institute_ai_mult_5
+	trigger = {
+		has_any_research_engineering_zone = yes
+	}
+}

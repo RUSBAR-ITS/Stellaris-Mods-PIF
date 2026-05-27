@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_supercomputer
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+# Empty PIF building category hook.

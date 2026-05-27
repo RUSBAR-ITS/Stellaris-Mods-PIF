@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: wildlife_ranch
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+building_sets = {
+	government
+	urban
+}

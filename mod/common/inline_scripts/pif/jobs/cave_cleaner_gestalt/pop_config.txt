@@ -1,0 +1,32 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: cave_cleaner_gestalt
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	minerals
+}
+
+weight = {
+	weight = @pif_cave_cleaner_gestalt_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|cave_cleaner_gestalt|RESOURCE|minerals|
+}
+
+auto_trait_prio = {
+	trait_industrious
+	trait_crack_miner
+	trait_robot_power_drills
+	trait_cyborg_power_drills
+	trait_malleable_minerals
+	trait_adaptive_minerals
+}
+
+promotion = {
+	time = @pif_cave_cleaner_gestalt_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

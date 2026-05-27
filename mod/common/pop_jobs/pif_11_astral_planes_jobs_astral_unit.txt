@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/11_astral_planes_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+astral_unit = {
+	category = complex_drone
+	inline_script = "pif/jobs/astral_unit/swap"
+	inline_script = "pif/jobs/astral_unit/availability"
+	inline_script = "pif/jobs/astral_unit/pop_config"
+	inline_script = "pif/jobs/astral_unit/economy"
+	inline_script = "pif/jobs/astral_unit/planet_state"
+	inline_script = "pif/jobs/astral_unit/country_modifiers"
+	inline_script = "pif/jobs/astral_unit/pop_modifiers"
+	inline_script = "pif/jobs/astral_unit/economic_modifiers"
+	inline_script = "pif/jobs/astral_unit/tpm"
+}

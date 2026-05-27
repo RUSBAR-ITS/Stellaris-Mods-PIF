@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_mindlink
+# Vanilla source: districts/00_special_districts.txt
+
+exempt_from_ai_planet_specialization = yes

@@ -1,0 +1,14 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: offworld_prospector_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	strategic_resource
+	sr_living_metal
+	volatile_motes
+}
+
+weight = {
+	weight = @pif_offworld_prospector_drone_job_weight_weight_1
+}

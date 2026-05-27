@@ -1,0 +1,11 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_machine_replication
+# Vanilla source: zones/00_zones.txt
+
+zone_sets = {
+	urban
+}
+
+included_building_sets = {
+	urban
+}

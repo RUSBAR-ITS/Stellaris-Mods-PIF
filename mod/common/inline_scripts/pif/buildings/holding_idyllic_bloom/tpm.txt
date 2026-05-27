@@ -1,0 +1,26 @@
+# PIF building category: TPM
+# Vanilla building: holding_idyllic_bloom
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			has_ascension_perk = ap_hydrocentric
+		}
+	}
+	monthly_loyalty = @pif_holding_idyllic_bloom_tpm_monthly_loyalty_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			NOT = {
+				has_ascension_perk = ap_hydrocentric
+			}
+		}
+	}
+	monthly_loyalty = @pif_holding_idyllic_bloom_tpm_monthly_loyalty_2
+}

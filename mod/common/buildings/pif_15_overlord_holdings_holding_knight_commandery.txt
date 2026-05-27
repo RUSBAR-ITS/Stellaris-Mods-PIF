@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_knight_commandery = {
+	base_buildtime = @pif_holding_knight_commandery_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_order_holding
+	category = government
+	inline_script = "pif/buildings/holding_knight_commandery/building_config"
+	inline_script = "pif/buildings/holding_knight_commandery/availability"
+	inline_script = "pif/buildings/holding_knight_commandery/economy"
+	inline_script = "pif/buildings/holding_knight_commandery/lifecycle"
+	inline_script = "pif/buildings/holding_knight_commandery/jobs"
+	inline_script = "pif/buildings/holding_knight_commandery/country_jobs"
+	inline_script = "pif/buildings/holding_knight_commandery/economic_modifiers"
+	inline_script = "pif/buildings/holding_knight_commandery/pop_modifiers"
+	inline_script = "pif/buildings/holding_knight_commandery/planet_state"
+	inline_script = "pif/buildings/holding_knight_commandery/tpm"
+	inline_script = "pif/buildings/holding_knight_commandery/ai"
+}

@@ -1,0 +1,47 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/19_cosmic_storm_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_astrometeorology_observation_center = {
+	base_buildtime = @pif_building_astrometeorology_observation_center_construction_base_buildtime_1
+	category = research
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = physicist_is_astrometeorologist_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		text = physics_calculator_is_astrometeorologist_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		text = physics_brain_drone_is_astrometeorologist_tt
+	}
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/building_config"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/availability"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/economy"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/lifecycle"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/jobs"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/country_jobs"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/economic_modifiers"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/pop_modifiers"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/planet_state"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/tpm"
+	inline_script = "pif/buildings/building_astrometeorology_observation_center/ai"
+}

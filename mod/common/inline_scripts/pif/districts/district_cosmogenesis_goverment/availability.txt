@@ -1,0 +1,11 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_cosmogenesis_goverment
+# Vanilla source: districts/00_special_districts.txt
+
+potential = {
+	uses_district_set = cosmogenesis_world
+	exists = owner
+	owner = {
+		has_ascension_perk = ap_cosmogenesis
+	}
+}

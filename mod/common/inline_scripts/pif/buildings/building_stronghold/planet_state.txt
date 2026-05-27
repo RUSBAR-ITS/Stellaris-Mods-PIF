@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_stronghold
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+# Empty PIF building category hook.

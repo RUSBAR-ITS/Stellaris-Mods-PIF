@@ -1,0 +1,17 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: slave_overseer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			exists = ruler
+			ruler = {
+				has_trait = leader_trait_legendary_harsh_ruler
+			}
+		}
+	}
+	pop_happiness = @pif_slave_overseer_pop_modifiers_pop_happiness_1
+}

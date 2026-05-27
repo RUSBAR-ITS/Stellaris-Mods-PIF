@@ -1,0 +1,11 @@
+# PIF building category: AI
+# Vanilla building: building_food_processing_facility
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+ai_resource_production = {
+	food = @pif_building_food_processing_facility_ai_food_1
+	trigger = {
+		has_any_agriculture_zone = yes
+	}
+}

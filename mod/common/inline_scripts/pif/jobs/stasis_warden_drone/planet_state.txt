@@ -1,0 +1,11 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: stasis_warden_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_crime_no_happiness_add = @pif_stasis_warden_drone_planet_state_planet_crime_no_happiness_add_1
+}

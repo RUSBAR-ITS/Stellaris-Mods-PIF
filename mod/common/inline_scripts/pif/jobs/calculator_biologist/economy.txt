@@ -1,0 +1,87 @@
+# PIF job category: ECONOMY
+# Vanilla job: calculator_biologist
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_biologists
+	produces = {
+		society_research = @pif_calculator_biologist_job_output_output_society_research_1
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				biologist_is_observator_trigger = yes
+			}
+		}
+		physics_research = @pif_calculator_biologist_job_output_output_physics_research_2
+		society_research = @pif_calculator_biologist_job_output_output_society_research_3
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+			exists = planet
+			planet = {
+				biologist_is_observator_trigger = no
+			}
+		}
+		energy = @pif_calculator_biologist_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+			}
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		energy = @pif_calculator_biologist_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_calculator_biologist_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		minerals = @pif_calculator_biologist_job_upkeep_upkeep_minerals_4
+	}
+	upkeep = {
+		trigger = {
+			planet = {
+				biologist_is_observator_trigger = yes
+			}
+		}
+		sr_zro = @pif_calculator_biologist_job_upkeep_upkeep_sr_zro_5
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_research
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		society_research = @pif_calculator_biologist_overlord_output_overlord_output_society_research_1
+	}
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/07_fallen_empire_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+fe_hedonist = {
+	category = precursor
+	inline_script = "pif/jobs/fe_hedonist/swap"
+	inline_script = "pif/jobs/fe_hedonist/availability"
+	inline_script = "pif/jobs/fe_hedonist/pop_config"
+	inline_script = "pif/jobs/fe_hedonist/economy"
+	inline_script = "pif/jobs/fe_hedonist/planet_state"
+	inline_script = "pif/jobs/fe_hedonist/country_modifiers"
+	inline_script = "pif/jobs/fe_hedonist/pop_modifiers"
+	inline_script = "pif/jobs/fe_hedonist/economic_modifiers"
+	inline_script = "pif/jobs/fe_hedonist/tpm"
+}

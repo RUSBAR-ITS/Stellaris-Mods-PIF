@@ -1,0 +1,8 @@
+# PIF building category: AI
+# Vanilla building: building_heritage_site
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+ai_resource_production = {
+	unity = @pif_building_heritage_site_ai_unity_1
+}

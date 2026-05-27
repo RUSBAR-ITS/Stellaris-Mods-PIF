@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_nourishment_complex = {
+	base_buildtime = @pif_building_nourishment_complex_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_nourishment_complex/building_config"
+	inline_script = "pif/buildings/building_nourishment_complex/availability"
+	inline_script = "pif/buildings/building_nourishment_complex/economy"
+	inline_script = "pif/buildings/building_nourishment_complex/lifecycle"
+	inline_script = "pif/buildings/building_nourishment_complex/jobs"
+	inline_script = "pif/buildings/building_nourishment_complex/country_jobs"
+	inline_script = "pif/buildings/building_nourishment_complex/economic_modifiers"
+	inline_script = "pif/buildings/building_nourishment_complex/pop_modifiers"
+	inline_script = "pif/buildings/building_nourishment_complex/planet_state"
+	inline_script = "pif/buildings/building_nourishment_complex/tpm"
+	inline_script = "pif/buildings/building_nourishment_complex/ai"
+}

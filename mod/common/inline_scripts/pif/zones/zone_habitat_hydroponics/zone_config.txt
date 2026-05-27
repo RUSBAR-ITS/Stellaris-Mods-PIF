@@ -1,0 +1,16 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_habitat_hydroponics
+# Vanilla source: zones/01_habitat_zones.txt
+
+zone_sets = {
+	habitat_energy
+}
+
+included_building_sets = {
+	generator
+	fallen_empire_generator
+	hydroponics
+	farming
+	fallen_empire_farming
+	generator_automation
+}

@@ -1,0 +1,25 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_psi_corps
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		OR = {
+			num_assigned_jobs = {
+				job = telepath
+				value > 0
+			}
+			num_assigned_jobs = {
+				job = dystopian_telepath
+				value > 0
+			}
+			num_assigned_jobs = {
+				job = telepath_drone
+				value > 0
+			}
+		}
+	}
+	psionic_pop_bonus_workforce_mult = @pif_building_psi_corps_pop_modifiers_psionic_pop_bonus_workforce_mult_1
+	mult = value:psionic_workforce_from_telepaths
+}

@@ -1,0 +1,6 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_military_academy
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+can_be_ruined = no

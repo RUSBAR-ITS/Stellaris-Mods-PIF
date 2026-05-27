@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_commensal_clearing_4
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_bureaucrats_unity_produces_add = @pif_building_commensal_clearing_4_economic_modifiers_planet_bureaucrats_unity_produces_add_1
+	pop_bureaucrat_bonus_workforce_mult = @pif_building_commensal_clearing_4_pop_modifiers_pop_bureaucrat_bonus_workforce_mult_1
+}

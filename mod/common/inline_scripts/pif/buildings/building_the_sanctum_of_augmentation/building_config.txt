@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_the_sanctum_of_augmentation
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+building_sets = {
+	government
+	unity
+}

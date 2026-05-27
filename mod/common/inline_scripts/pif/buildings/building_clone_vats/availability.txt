@@ -1,0 +1,65 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_clone_vats
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+planet_limit = {
+	base = @pif_building_clone_vats_limits_base_1
+	modifier = {
+		exists = owner
+		owner = {
+			has_tradition = tr_cloning_finish
+		}
+		has_upgraded_capital = yes
+		add = @pif_building_clone_vats_limits_add_2
+	}
+	modifier = {
+		exists = owner
+		owner = {
+			has_tradition = tr_cloning_finish
+		}
+		has_major_upgraded_capital = yes
+		add = @pif_building_clone_vats_limits_add_2
+	}
+	modifier = {
+		exists = owner
+		owner = {
+			has_tradition = tr_cloning_finish
+		}
+		has_fully_upgraded_capital = yes
+		add = @pif_building_clone_vats_limits_add_2
+	}
+}
+
+potential = {
+	exists = owner
+	NOT = {
+		has_modifier = resort_colony
+	}
+	OR = {
+		owner = {
+			is_ai = no
+		}
+		NOT = {
+			exists = assembling_species
+		}
+		assembling_species = {
+			is_organic_species = yes
+		}
+	}
+	OR = {
+		owner = {
+			is_ai = no
+		}
+		NAND = {
+			free_district_slots = @pif_building_clone_vats_planet_state_free_district_slots_1
+			free_building_slots <= @pif_building_clone_vats_planet_state_free_building_slots_2
+			free_housing <= @pif_building_clone_vats_planet_state_free_housing_3
+			free_jobs <= 0
+		}
+	}
+}
+
+prerequisites = {
+	tech_cloning
+}

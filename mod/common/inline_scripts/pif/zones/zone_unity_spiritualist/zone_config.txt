@@ -1,0 +1,15 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_unity_spiritualist
+# Vanilla source: zones/00_zones.txt
+
+included_building_sets = {
+	unity
+	urban_automation
+	origin
+}
+
+zone_sets = {
+	urban
+	habitat_urban
+	polytechnic
+}

@@ -1,0 +1,31 @@
+# PIF job category: ECONOMY
+# Vanilla job: fe_acolyte_farm
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		food = @pif_fe_acolyte_farm_job_output_output_food_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+			}
+		}
+		food = @pif_fe_acolyte_farm_job_output_output_food_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_food
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+			}
+		}
+		food = @pif_fe_acolyte_farm_overlord_output_overlord_output_food_1
+	}
+}

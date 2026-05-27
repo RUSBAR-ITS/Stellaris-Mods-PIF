@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_affluence_emporium = {
+	base_buildtime = @pif_building_affluence_emporium_construction_base_buildtime_1
+	icon = building_affluence_emporium
+	category = manufacturing
+	inline_script = "pif/buildings/building_affluence_emporium/building_config"
+	inline_script = "pif/buildings/building_affluence_emporium/availability"
+	inline_script = "pif/buildings/building_affluence_emporium/economy"
+	inline_script = "pif/buildings/building_affluence_emporium/lifecycle"
+	inline_script = "pif/buildings/building_affluence_emporium/jobs"
+	inline_script = "pif/buildings/building_affluence_emporium/country_jobs"
+	inline_script = "pif/buildings/building_affluence_emporium/economic_modifiers"
+	inline_script = "pif/buildings/building_affluence_emporium/pop_modifiers"
+	inline_script = "pif/buildings/building_affluence_emporium/planet_state"
+	inline_script = "pif/buildings/building_affluence_emporium/tpm"
+	inline_script = "pif/buildings/building_affluence_emporium/ai"
+}

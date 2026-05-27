@@ -1,0 +1,740 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: JOBS_RESOURCE_EXTRACTION
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_anglers
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 50
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_resource_extraction_job_amount_job_farmer_add_1 = 50
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 50
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_urban
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 75
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_resource_extraction_job_amount_job_farmer_add_1 = 75
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 75
+
+# -----------------------------------------------------------------------------
+# zone_anglers
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 50
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_resource_extraction_job_amount_job_farmer_add_1 = 50
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 50
+
+# -----------------------------------------------------------------------------
+# zone_betharian
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt
+@pif_zone_betharian_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt
+@pif_zone_betharian_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt
+@pif_zone_betharian_jobs_resource_extraction_job_amount_job_miner_add_1 = 100
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt
+@pif_zone_betharian_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_betharian_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_jobs_resource_extraction_job_amount_job_miner_add_1 = 200
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
+@pif_zone_betharian_hive_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_betharian_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_jobs_resource_extraction_job_amount_job_miner_add_1 = 200
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
+@pif_zone_betharian_nexus_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_energy
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy/tpm.txt
+@pif_zone_energy_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy/tpm.txt
+@pif_zone_energy_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy/tpm.txt
+@pif_zone_energy_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 100
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy/tpm.txt
+@pif_zone_energy_jobs_resource_extraction_job_amount_job_technician_add_1 = 100
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy/tpm.txt
+@pif_zone_energy_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 100
+
+# -----------------------------------------------------------------------------
+# zone_energy_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt
+@pif_zone_energy_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt
+@pif_zone_energy_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt
+@pif_zone_energy_hive_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 200
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt
+@pif_zone_energy_hive_jobs_resource_extraction_job_amount_job_technician_add_1 = 200
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt
+@pif_zone_energy_hive_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_energy_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt
+@pif_zone_energy_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt
+@pif_zone_energy_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt
+@pif_zone_energy_nexus_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 200
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt
+@pif_zone_energy_nexus_jobs_resource_extraction_job_amount_job_technician_add_1 = 200
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt
+@pif_zone_energy_nexus_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_energy_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt
+@pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt
+@pif_zone_energy_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt
+@pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 200
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt
+@pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_add_1 = 200
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt
+@pif_zone_energy_ring_world_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_energy_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/tpm.txt
+@pif_zone_energy_wilderness_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/tpm.txt
+@pif_zone_energy_wilderness_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/tpm.txt
+@pif_zone_energy_wilderness_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 100
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/tpm.txt
+@pif_zone_energy_wilderness_jobs_resource_extraction_job_amount_job_technician_add_1 = 100
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/tpm.txt
+@pif_zone_energy_wilderness_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 100
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
+@pif_zone_exotic_gases_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
+@pif_zone_exotic_gases_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
+@pif_zone_exotic_gases_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 100
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
+@pif_zone_exotic_gases_jobs_resource_extraction_job_amount_job_farmer_add_1 = 100
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
+@pif_zone_exotic_gases_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 200
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_jobs_resource_extraction_job_amount_job_farmer_add_1 = 200
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
+@pif_zone_exotic_gases_hive_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_exotic_gases_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 200
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_jobs_resource_extraction_job_amount_job_farmer_add_1 = 200
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
+@pif_zone_exotic_gases_nexus_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_food
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food/tpm.txt
+@pif_zone_food_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food/tpm.txt
+@pif_zone_food_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_food/tpm.txt
+@pif_zone_food_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 100
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_food/tpm.txt
+@pif_zone_food_jobs_resource_extraction_job_amount_job_farmer_add_1 = 100
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_food/tpm.txt
+@pif_zone_food_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_food_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt
+@pif_zone_food_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt
+@pif_zone_food_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt
+@pif_zone_food_hive_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 200
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt
+@pif_zone_food_hive_jobs_resource_extraction_job_amount_job_farmer_add_1 = 200
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt
+@pif_zone_food_hive_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_food_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt
+@pif_zone_food_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt
+@pif_zone_food_ring_world_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt
+@pif_zone_food_ring_world_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 200
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt
+@pif_zone_food_ring_world_jobs_resource_extraction_job_amount_job_farmer_add_1 = 200
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt
+@pif_zone_food_ring_world_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_food_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/tpm.txt
+@pif_zone_food_wilderness_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/tpm.txt
+@pif_zone_food_wilderness_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/tpm.txt
+@pif_zone_food_wilderness_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 100
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/tpm.txt
+@pif_zone_food_wilderness_jobs_resource_extraction_job_amount_job_farmer_add_1 = 100
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/tpm.txt
+@pif_zone_food_wilderness_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_habitat_exotic_gases
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
+@pif_zone_habitat_exotic_gases_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
+@pif_zone_habitat_exotic_gases_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
+@pif_zone_habitat_exotic_gases_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 100
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
+@pif_zone_habitat_exotic_gases_jobs_resource_extraction_job_amount_job_farmer_add_1 = 100
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
+@pif_zone_habitat_exotic_gases_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_habitat_hydroponics
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/tpm.txt
+@pif_zone_habitat_hydroponics_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/tpm.txt
+@pif_zone_habitat_hydroponics_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_agri_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/tpm.txt
+@pif_zone_habitat_hydroponics_jobs_resource_extraction_job_amount_job_agri_drone_add_5 = 100
+
+# Controls: job amount: job_farmer_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/tpm.txt
+@pif_zone_habitat_hydroponics_jobs_resource_extraction_job_amount_job_farmer_add_1 = 100
+
+# Controls: job amount: job_fe_acolyte_farm_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/tpm.txt
+@pif_zone_habitat_hydroponics_jobs_resource_extraction_job_amount_job_fe_acolyte_farm_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_habitat_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt
+@pif_zone_habitat_rare_crystals_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt
+@pif_zone_habitat_rare_crystals_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt
+@pif_zone_habitat_rare_crystals_jobs_resource_extraction_job_amount_job_miner_add_1 = 100
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt
+@pif_zone_habitat_rare_crystals_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_habitat_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
+@pif_zone_habitat_volatile_motes_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
+@pif_zone_habitat_volatile_motes_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
+@pif_zone_habitat_volatile_motes_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 100
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
+@pif_zone_habitat_volatile_motes_jobs_resource_extraction_job_amount_job_technician_add_1 = 100
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
+@pif_zone_habitat_volatile_motes_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 100
+
+# -----------------------------------------------------------------------------
+# zone_minerals
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals/tpm.txt
+@pif_zone_minerals_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals/tpm.txt
+@pif_zone_minerals_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals/tpm.txt
+@pif_zone_minerals_jobs_resource_extraction_job_amount_job_miner_add_1 = 100
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals/tpm.txt
+@pif_zone_minerals_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_minerals_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt
+@pif_zone_minerals_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt
+@pif_zone_minerals_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt
+@pif_zone_minerals_hive_jobs_resource_extraction_job_amount_job_miner_add_1 = 200
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt
+@pif_zone_minerals_hive_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_minerals_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt
+@pif_zone_minerals_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt
+@pif_zone_minerals_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt
+@pif_zone_minerals_nexus_jobs_resource_extraction_job_amount_job_miner_add_1 = 200
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt
+@pif_zone_minerals_nexus_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_minerals_physics
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_resource_extraction_job_amount_job_miner_add_1 = 50
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
+@pif_zone_minerals_physics_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 50
+
+# -----------------------------------------------------------------------------
+# zone_minerals_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_wilderness/tpm.txt
+@pif_zone_minerals_wilderness_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_wilderness/tpm.txt
+@pif_zone_minerals_wilderness_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_wilderness/tpm.txt
+@pif_zone_minerals_wilderness_jobs_resource_extraction_job_amount_job_miner_add_1 = 100
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_wilderness/tpm.txt
+@pif_zone_minerals_wilderness_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt
+@pif_zone_rare_crystals_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt
+@pif_zone_rare_crystals_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt
+@pif_zone_rare_crystals_jobs_resource_extraction_job_amount_job_miner_add_1 = 100
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt
+@pif_zone_rare_crystals_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_jobs_resource_extraction_job_amount_job_miner_add_1 = 200
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
+@pif_zone_rare_crystals_hive_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_rare_crystals_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_jobs_resource_extraction_job_amount_job_miner_add_1 = 200
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
+@pif_zone_rare_crystals_nexus_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_resort_hunting_ground
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_wrangler_add.
+# Used in: common/inline_scripts/pif/zones/zone_resort_hunting_ground/tpm.txt
+@pif_zone_resort_hunting_ground_jobs_resource_extraction_job_amount_job_wrangler_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_subterranean_urban
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_miner_add.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_resource_extraction_job_amount_job_miner_add_1 = 75
+
+# Controls: job amount: job_mining_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_resource_extraction_job_amount_job_mining_drone_add_4 = 75
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
+@pif_zone_volatile_motes_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
+@pif_zone_volatile_motes_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
+@pif_zone_volatile_motes_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 100
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
+@pif_zone_volatile_motes_jobs_resource_extraction_job_amount_job_technician_add_1 = 100
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
+@pif_zone_volatile_motes_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 100
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 200
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_jobs_resource_extraction_job_amount_job_technician_add_1 = 200
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
+@pif_zone_volatile_motes_hive_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_volatile_motes_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_jobs_resource_extraction_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fe_acolyte_generator_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_jobs_resource_extraction_job_amount_job_fe_acolyte_generator_add_4 = 200
+
+# Controls: job amount: job_technician_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_jobs_resource_extraction_job_amount_job_technician_add_1 = 200
+
+# Controls: job amount: job_technician_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
+@pif_zone_volatile_motes_nexus_jobs_resource_extraction_job_amount_job_technician_drone_add_5 = 200

@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: holding_franchise_headquarters
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	monthly_loyalty = @pif_holding_franchise_headquarters_tpm_monthly_loyalty_1
+	job_overlord_manager_add = @pif_holding_franchise_headquarters_jobs_job_overlord_manager_add_1
+	planet_traders_trade_produces_add = @pif_holding_franchise_headquarters_economic_modifiers_planet_traders_trade_produces_add_1
+}

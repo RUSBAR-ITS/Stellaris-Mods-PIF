@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_stone_palace = {
+	capital = yes
+	position_priority = 0
+	capital_tier = 0
+	category = government
+	inline_script = "pif/buildings/building_stone_palace/building_config"
+	inline_script = "pif/buildings/building_stone_palace/availability"
+	inline_script = "pif/buildings/building_stone_palace/economy"
+	inline_script = "pif/buildings/building_stone_palace/lifecycle"
+	inline_script = "pif/buildings/building_stone_palace/jobs"
+	inline_script = "pif/buildings/building_stone_palace/country_jobs"
+	inline_script = "pif/buildings/building_stone_palace/economic_modifiers"
+	inline_script = "pif/buildings/building_stone_palace/pop_modifiers"
+	inline_script = "pif/buildings/building_stone_palace/planet_state"
+	inline_script = "pif/buildings/building_stone_palace/tpm"
+	inline_script = "pif/buildings/building_stone_palace/ai"
+}

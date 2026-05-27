@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/10_deposit_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_mote_harvesters = {
+	base_buildtime = @pif_building_mote_harvesters_construction_base_buildtime_1
+	icon = building_mote_harvesting_traps
+	category = resource
+	inline_script = "pif/buildings/building_mote_harvesters/building_config"
+	inline_script = "pif/buildings/building_mote_harvesters/availability"
+	inline_script = "pif/buildings/building_mote_harvesters/economy"
+	inline_script = "pif/buildings/building_mote_harvesters/lifecycle"
+	inline_script = "pif/buildings/building_mote_harvesters/jobs"
+	inline_script = "pif/buildings/building_mote_harvesters/country_jobs"
+	inline_script = "pif/buildings/building_mote_harvesters/economic_modifiers"
+	inline_script = "pif/buildings/building_mote_harvesters/pop_modifiers"
+	inline_script = "pif/buildings/building_mote_harvesters/planet_state"
+	inline_script = "pif/buildings/building_mote_harvesters/tpm"
+	inline_script = "pif/buildings/building_mote_harvesters/ai"
+}

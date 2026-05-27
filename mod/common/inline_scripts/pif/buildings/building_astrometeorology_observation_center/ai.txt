@@ -1,0 +1,23 @@
+# PIF building category: AI
+# Vanilla building: building_astrometeorology_observation_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+custom_storm_ai_weight = {
+	weight = @pif_building_astrometeorology_observation_center_ai_weight_1
+	modifier = {
+		add = @pif_building_astrometeorology_observation_center_ai_add_2
+		solar_system = {
+			has_environmental_effects = yes
+		}
+	}
+	modifier = {
+		factor = @pif_building_astrometeorology_observation_center_ai_factor_3
+		AND = {
+			exists = owner
+			solar_system = {
+				system_has_storm_attraction_tech = yes
+			}
+		}
+	}
+}

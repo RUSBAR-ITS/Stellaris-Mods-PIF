@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: bath_attendant_hive
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_toxic_bath_hive
+	}
+}

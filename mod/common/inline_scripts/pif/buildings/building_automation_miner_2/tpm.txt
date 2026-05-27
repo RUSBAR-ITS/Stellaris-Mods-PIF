@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_automation_miner_2
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+# Empty PIF building category hook.

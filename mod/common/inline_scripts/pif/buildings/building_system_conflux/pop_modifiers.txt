@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_system_conflux
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_coordinator_bonus_workforce_mult = @pif_building_system_conflux_pop_modifiers_pop_coordinator_bonus_workforce_mult_1
+}

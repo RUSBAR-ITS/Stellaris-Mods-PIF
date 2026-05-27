@@ -1,0 +1,25 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_uplink_node
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_machine_empire = yes
+		NOT = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}
+
+prerequisites = {
+	"tech_planetary_government"
+}
+
+show_tech_unlock_if = {
+	is_machine_empire = yes
+	NOT = {
+		has_valid_civic = civic_machine_servitor
+	}
+}

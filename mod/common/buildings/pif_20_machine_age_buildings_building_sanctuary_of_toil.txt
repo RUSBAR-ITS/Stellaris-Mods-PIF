@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_sanctuary_of_toil = {
+	position_priority = 100
+	base_buildtime = @pif_building_sanctuary_of_toil_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_sanctuary_of_toil/building_config"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/availability"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/economy"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/lifecycle"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/jobs"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/country_jobs"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/economic_modifiers"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/pop_modifiers"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/planet_state"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/tpm"
+	inline_script = "pif/buildings/building_sanctuary_of_toil/ai"
+}

@@ -1,0 +1,34 @@
+# PIF category: TPM
+# Vanilla district: district_polytechnic
+# Vanilla source: districts/02_rural_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_district_polytechnic_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	modifier = {
+		job_polytechnic_mentor_add = @pif_district_polytechnic_jobs_job_polytechnic_mentor_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	modifier = {
+		job_polytechnic_drone_add = @pif_district_polytechnic_jobs_job_polytechnic_drone_add
+	}
+}

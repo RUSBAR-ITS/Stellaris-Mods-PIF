@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+robot_servant_processing = {
+	category = robot_servant
+	inline_script = "pif/jobs/robot_servant_processing/swap"
+	inline_script = "pif/jobs/robot_servant_processing/availability"
+	inline_script = "pif/jobs/robot_servant_processing/pop_config"
+	inline_script = "pif/jobs/robot_servant_processing/economy"
+	inline_script = "pif/jobs/robot_servant_processing/planet_state"
+	inline_script = "pif/jobs/robot_servant_processing/country_modifiers"
+	inline_script = "pif/jobs/robot_servant_processing/pop_modifiers"
+	inline_script = "pif/jobs/robot_servant_processing/economic_modifiers"
+	inline_script = "pif/jobs/robot_servant_processing/tpm"
+}

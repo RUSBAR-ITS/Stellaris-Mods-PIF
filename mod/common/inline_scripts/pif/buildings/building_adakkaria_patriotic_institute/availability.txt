@@ -1,0 +1,16 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_adakkaria_patriotic_institute
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+planet_limit = @pif_building_adakkaria_patriotic_institute_limits_planet_limit_1
+
+can_build = yes
+
+potential = {
+	exists = owner
+	owner = {
+		has_country_flag = adakkaria_world_found
+	}
+	has_planet_flag = adSul_capital
+}

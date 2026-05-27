@@ -1,0 +1,20 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: clip_maximizer
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+is_capped_by_modifier = @pif_clip_maximizer_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	has_planet = yes
+	is_being_purged = yes
+}
+
+possible = {
+	exists = owner
+	has_purge_type = {
+		type = purge_clips
+		country = owner
+	}
+}

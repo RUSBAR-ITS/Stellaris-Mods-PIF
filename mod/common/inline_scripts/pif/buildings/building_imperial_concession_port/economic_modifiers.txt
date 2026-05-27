@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_imperial_concession_port
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_politicians_trade_produces_add = @pif_building_imperial_concession_port_economic_modifiers_planet_politicians_trade_produces_add_3
+}

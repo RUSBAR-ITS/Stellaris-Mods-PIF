@@ -1,0 +1,6 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: livestock
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+# Empty PIF job category hook.

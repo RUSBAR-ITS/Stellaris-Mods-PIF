@@ -1,0 +1,47 @@
+# PIF job category: TPM
+# Vanilla job: roboticist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_cybernetics_metabolic_reprocessing
+		}
+	}
+	fake_pop_growth_mod = @pif_roboticist_tpm_fake_pop_growth_mod_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_policy_flag = computation_core_production
+		}
+	}
+	foundry_jobs_bonus_workforce_mult = @pif_roboticist_tpm_foundry_jobs_bonus_workforce_mult_2
+	artisan_jobs_bonus_workforce_mult = @pif_roboticist_tpm_artisan_jobs_bonus_workforce_mult_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_policy_flag = computation_core_stability
+		}
+	}
+	bureaucrat_jobs_bonus_workforce_mult = @pif_roboticist_tpm_bureaucrat_jobs_bonus_workforce_mult_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_policy_flag = computation_core_research
+		}
+	}
+	physicist_jobs_bonus_workforce_mult = @pif_roboticist_tpm_physicist_jobs_bonus_workforce_mult_5
+	biologist_jobs_bonus_workforce_mult = @pif_roboticist_tpm_biologist_jobs_bonus_workforce_mult_6
+	engineer_jobs_bonus_workforce_mult = @pif_roboticist_tpm_engineer_jobs_bonus_workforce_mult_7
+}

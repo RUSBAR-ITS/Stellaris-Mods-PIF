@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_minerals_physics = {
+	icon = GFX_district_specialization_physics
+	base_buildtime = @pif_zone_minerals_physics_construction_zone_build_time_1
+	swap_type = district_mining_physics
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_minerals_physics/availability"
+	inline_script = "pif/zones/zone_minerals_physics/zone_config"
+	inline_script = "pif/zones/zone_minerals_physics/economy"
+	inline_script = "pif/zones/zone_minerals_physics/tpm"
+	inline_script = "pif/zones/zone_minerals_physics/lifecycle"
+	inline_script = "pif/zones/zone_minerals_physics/ai"
+}

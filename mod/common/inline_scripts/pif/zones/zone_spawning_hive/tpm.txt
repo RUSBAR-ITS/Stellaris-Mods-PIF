@@ -1,0 +1,24 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_spawning_hive
+# Vanilla source: zones/04_secondary_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	job_spawning_drone_add = @pif_zone_spawning_hive_jobs_services_job_amount_job_spawning_drone_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	zone_building_slots_add = @pif_zone_spawning_hive_building_capacity_zone_building_slots_add_2
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_spawning_hive_housing_planet_housing_add_1
+}

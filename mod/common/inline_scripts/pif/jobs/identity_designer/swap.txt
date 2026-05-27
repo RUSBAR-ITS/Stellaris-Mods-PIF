@@ -1,0 +1,23 @@
+# PIF job category: SWAP
+# Vanilla job: identity_designer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_identity_complex
+		icon = identity_designer
+		desc = job_identity_designer_desc
+	}
+	swap_type = {
+		desc = job_identity_designer_converter_desc
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = identity_designer_converter
+			}
+		}
+		weight = 1
+	}
+}

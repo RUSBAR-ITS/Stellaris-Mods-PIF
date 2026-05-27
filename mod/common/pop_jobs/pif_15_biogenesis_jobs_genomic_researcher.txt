@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_biogenesis_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+genomic_researcher = {
+	category = specialist
+	inline_script = "pif/jobs/genomic_researcher/swap"
+	inline_script = "pif/jobs/genomic_researcher/availability"
+	inline_script = "pif/jobs/genomic_researcher/pop_config"
+	inline_script = "pif/jobs/genomic_researcher/economy"
+	inline_script = "pif/jobs/genomic_researcher/planet_state"
+	inline_script = "pif/jobs/genomic_researcher/country_modifiers"
+	inline_script = "pif/jobs/genomic_researcher/pop_modifiers"
+	inline_script = "pif/jobs/genomic_researcher/economic_modifiers"
+	inline_script = "pif/jobs/genomic_researcher/tpm"
+}

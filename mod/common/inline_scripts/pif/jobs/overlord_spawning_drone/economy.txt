@@ -1,0 +1,26 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_pop_assemblers
+	upkeep = {
+		trigger = {
+			exists = planet.assembling_species
+			planet.assembling_species = {
+				is_lithoid = no
+			}
+		}
+		food = @pif_overlord_spawning_drone_job_upkeep_upkeep_food_1
+	}
+	upkeep = {
+		trigger = {
+			exists = planet.assembling_species
+			planet.assembling_species = {
+				is_lithoid = yes
+			}
+		}
+		minerals = @pif_overlord_spawning_drone_job_upkeep_upkeep_minerals_2
+	}
+}

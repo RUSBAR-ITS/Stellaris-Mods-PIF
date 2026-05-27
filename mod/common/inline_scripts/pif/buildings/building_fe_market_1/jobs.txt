@@ -1,0 +1,59 @@
+# PIF building category: JOBS
+# Vanilla building: building_fe_market_1
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_trader_add = @pif_building_fe_market_1_jobs_job_trader_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			has_active_tradition = tr_mercantile_commercial_enterprise
+		}
+	}
+	job_trader_add = @pif_building_fe_market_1_jobs_job_trader_add_1
+	mult = @pif_building_fe_market_1_jobs_job_trader_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_logistics_drone_add = @pif_building_fe_market_1_jobs_job_logistics_drone_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			has_active_tradition = tr_logistics_2
+		}
+	}
+	job_logistics_drone_add = @pif_building_fe_market_1_jobs_job_logistics_drone_add_3
+	mult = @pif_building_fe_market_1_jobs_job_logistics_drone_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+	job_trader_automated_workforce_mult = @pif_building_fe_market_1_jobs_job_trader_automated_workforce_mult_5
+	job_logistics_drone_automated_workforce_mult = @pif_building_fe_market_1_jobs_job_logistics_drone_automated_workforce_mult_6
+}

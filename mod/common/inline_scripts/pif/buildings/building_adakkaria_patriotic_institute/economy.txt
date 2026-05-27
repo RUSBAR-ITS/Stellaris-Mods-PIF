@@ -1,0 +1,15 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_adakkaria_patriotic_institute
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_adakkaria_patriotic_institute_cost_cost_minerals_1
+		sr_zro = @pif_building_adakkaria_patriotic_institute_cost_cost_sr_zro_2
+	}
+	upkeep = {
+		energy = @pif_building_adakkaria_patriotic_institute_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,75 @@
+# PIF job category: ECONOMY
+# Vanilla job: telepath
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_telepaths
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = maverick_citizens_flag
+			}
+		}
+		unity = @pif_telepath_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		unity = @pif_telepath_job_output_output_unity_2
+	}
+	upkeep = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		consumer_goods = @pif_telepath_job_upkeep_upkeep_consumer_goods_1
+	}
+	produces = {
+		unity = @pif_telepath_job_output_output_unity_3
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_active_tradition = tr_domination_judgment_corps
+			}
+		}
+		unity = @pif_telepath_job_output_output_unity_4
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = whisperers_covenant_confirmed
+			}
+		}
+		physics_research = @pif_telepath_job_output_output_physics_research_5
+		engineering_research = @pif_telepath_job_output_output_engineering_research_6
+		society_research = @pif_telepath_job_output_output_society_research_7
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = whisperers_covenant_rank_1
+			}
+		}
+		physics_research = @pif_telepath_job_output_output_physics_research_5
+		engineering_research = @pif_telepath_job_output_output_engineering_research_6
+		society_research = @pif_telepath_job_output_output_society_research_7
+	}
+	upkeep = {
+		energy = @pif_telepath_job_upkeep_upkeep_energy_2
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				has_modifier = anticrime_campaign
+			}
+		}
+		energy = @pif_telepath_job_upkeep_upkeep_energy_3
+	}
+}

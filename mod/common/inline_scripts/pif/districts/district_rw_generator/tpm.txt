@@ -1,0 +1,53 @@
+# PIF category: TPM
+# Vanilla district: district_rw_generator
+# Vanilla source: districts/04_ringworld_districts.txt
+
+triggered_planet_modifier = {
+	planet_housing_add = @pif_district_rw_generator_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_technician_drone_add = @pif_district_rw_generator_jobs_job_technician_drone_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	planet_housing_add = @pif_district_rw_generator_housing_planet_housing_add_2
+	job_technician_drone_add = @pif_district_rw_generator_jobs_job_technician_drone_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_fallen_empire_spiritualist = no
+		}
+	}
+	modifier = {
+		job_technician_add = @pif_district_rw_generator_jobs_job_technician_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+	}
+	modifier = {
+		job_fe_acolyte_generator_add = @pif_district_rw_generator_jobs_job_fe_acolyte_generator_add
+	}
+}

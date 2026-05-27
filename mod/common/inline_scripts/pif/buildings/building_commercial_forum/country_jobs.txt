@@ -1,0 +1,31 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_commercial_forum
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_trading_posts
+		}
+	}
+	job_capital_trader_add = @pif_building_commercial_forum_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_franchising
+		}
+	}
+	job_capital_trader_add = @pif_building_commercial_forum_country_jobs_job_capital_trader_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_memory_vault_corporate
+		}
+	}
+	job_capital_trader_add = @pif_building_commercial_forum_country_jobs_job_capital_trader_add_1
+}

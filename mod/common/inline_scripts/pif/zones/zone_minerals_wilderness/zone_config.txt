@@ -1,0 +1,12 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_minerals_wilderness
+# Vanilla source: zones/03_wilderness_zones.txt
+
+zone_sets = {
+	minerals
+}
+
+included_building_sets = {
+	mining
+	fallen_empire_mining
+}

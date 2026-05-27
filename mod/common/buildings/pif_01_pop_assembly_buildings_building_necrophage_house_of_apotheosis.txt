@@ -1,0 +1,53 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_necrophage_house_of_apotheosis = {
+	icon = building_chamber_of_elevation_2
+	base_buildtime = @pif_building_necrophage_house_of_apotheosis_construction_base_buildtime_1
+	position_priority = 100
+	category = pop_assembly
+	desc = {
+		trigger = {
+			OR = {
+				NOT = {
+					exists = owner
+				}
+				owner = {
+					is_hive_empire = no
+				}
+			}
+		}
+		text = building_necrophage_house_of_apotheosis_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		text = building_necrophage_house_of_apotheosis_desc_hive
+	}
+	triggered_desc = {
+		text = disables_necrophage_growth
+	}
+	triggered_desc = {
+		text = necrophage_elevation_timer_tooltip
+		trigger = {
+			has_planet_flag = necrophage_elevation_timer
+		}
+	}
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/building_config"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/availability"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/economy"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/lifecycle"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/jobs"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/country_jobs"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/economic_modifiers"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/pop_modifiers"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/planet_state"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/tpm"
+	inline_script = "pif/buildings/building_necrophage_house_of_apotheosis/ai"
+}

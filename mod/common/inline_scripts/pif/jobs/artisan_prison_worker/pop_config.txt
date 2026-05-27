@@ -1,0 +1,43 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: artisan_prison_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+tags = {
+	consumer_goods
+}
+
+weight = {
+	weight = @pif_artisan_prison_worker_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|artisan|RESOURCE|consumer_goods|
+	modifier = {
+		factor = @pif_artisan_prison_worker_job_weight_factor_2
+		is_enslaved = yes
+		can_take_servant_job = no
+	}
+	modifier = {
+		factor = @pif_artisan_prison_worker_job_weight_factor_3
+		exists = planet
+		planet = {
+			has_available_jobs = "artisan"
+		}
+		exists = owner
+		owner = {
+			is_ai = yes
+			has_monthly_income = {
+				resource = consumer_goods
+				value < 5
+			}
+		}
+	}
+}
+
+promotion = {
+	time = @pif_artisan_prison_worker_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

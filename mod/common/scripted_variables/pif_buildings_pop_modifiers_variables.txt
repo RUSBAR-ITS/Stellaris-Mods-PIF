@@ -1,0 +1,2263 @@
+# Planetary Infrastructure Framework (PIF)
+# Building variables: POP_MODIFIERS
+# Values are resolved from the Stellaris 4.3.7 vanilla buildings baseline.
+# Variables are grouped by building object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# building_ancient_cryo_chamber
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: BIOLOGICAL_species_trait_picks_add.
+# Used in: common/inline_scripts/pif/buildings/building_ancient_cryo_chamber/pop_modifiers.txt
+@pif_building_ancient_cryo_chamber_pop_modifiers_biological_species_trait_picks_add_1 = 1
+
+# Controls: Building pop modifier: BIOLOGICAL_species_trait_points_add.
+# Used in: common/inline_scripts/pif/buildings/building_ancient_cryo_chamber/pop_modifiers.txt
+@pif_building_ancient_cryo_chamber_pop_modifiers_biological_species_trait_points_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# building_augmentation_center
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_cat_ruler_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_center/pop_modifiers.txt
+@pif_building_augmentation_center_pop_modifiers_pop_cat_ruler_bonus_workforce_mult_1 = 0.1
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_center/pop_modifiers.txt
+@pif_building_augmentation_center_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_cat_worker_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_center/pop_modifiers.txt
+@pif_building_augmentation_center_pop_modifiers_pop_cat_worker_bonus_workforce_mult_3 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_automation_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: district_automated_workforce.
+# Used in: common/inline_scripts/pif/buildings/building_automation_1/pop_modifiers.txt
+@pif_building_automation_1_pop_modifiers_district_automated_workforce_1 = 0.25
+
+# -----------------------------------------------------------------------------
+# building_automation_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: district_automated_workforce.
+# Used in: common/inline_scripts/pif/buildings/building_automation_2/pop_modifiers.txt
+@pif_building_automation_2_pop_modifiers_district_automated_workforce_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# building_avatar_chamber_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_avatar_chamber_1/pop_modifiers.txt
+@pif_building_avatar_chamber_1_pop_modifiers_planet_amenities_no_happiness_add_1 = 200
+
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_avatar_chamber_1/pop_modifiers.txt, common/inline_scripts/pif/buildings/building_avatar_chamber_1/tpm.txt
+@pif_building_avatar_chamber_1_pop_modifiers_planet_amenities_no_happiness_add_2 = 400
+
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_avatar_chamber_1/pop_modifiers.txt
+@pif_building_avatar_chamber_1_pop_modifiers_planet_amenities_no_happiness_add_3 = 800
+
+# -----------------------------------------------------------------------------
+# building_avatar_chamber_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_avatar_chamber_2/tpm.txt
+@pif_building_avatar_chamber_2_pop_modifiers_planet_amenities_no_happiness_add_1 = 600
+
+# -----------------------------------------------------------------------------
+# building_avatar_chamber_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_avatar_chamber_3/tpm.txt
+@pif_building_avatar_chamber_3_pop_modifiers_planet_amenities_no_happiness_add_1 = 800
+
+# -----------------------------------------------------------------------------
+# building_avatar_chamber_4
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_avatar_chamber_4/tpm.txt
+@pif_building_avatar_chamber_4_pop_modifiers_planet_amenities_no_happiness_add_1 = 1200
+
+# -----------------------------------------------------------------------------
+# building_bioelectric_stimulator_4
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_technician_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_bioelectric_stimulator_4/tpm.txt
+@pif_building_bioelectric_stimulator_4_pop_modifiers_pop_technician_drone_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_biolab_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: biologist_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_3/tpm.txt
+@pif_building_biolab_3_pop_modifiers_biologist_jobs_bonus_workforce_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_brain_node_4
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_calculator_biologist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_brain_node_4/tpm.txt
+@pif_building_brain_node_4_pop_modifiers_pop_calculator_biologist_bonus_workforce_mult_2 = 0.05
+
+# Controls: Building pop modifier: pop_calculator_engineer_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_brain_node_4/tpm.txt
+@pif_building_brain_node_4_pop_modifiers_pop_calculator_engineer_bonus_workforce_mult_3 = 0.05
+
+# Controls: Building pop modifier: pop_calculator_physicist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_brain_node_4/tpm.txt
+@pif_building_brain_node_4_pop_modifiers_pop_calculator_physicist_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_bureaucratic_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_bureaucrat_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_bureaucratic_3/pop_modifiers.txt
+@pif_building_bureaucratic_3_pop_modifiers_pop_bureaucrat_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_capital/pop_modifiers.txt
+@pif_building_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/pop_modifiers.txt
+@pif_building_capital_wilderness_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_chamber_of_silence
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: psionic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_chamber_of_silence/pop_modifiers.txt
+@pif_building_chamber_of_silence_pop_modifiers_psionic_pop_bonus_workforce_mult_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_churning_tunnels_4
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_mining_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_churning_tunnels_4/tpm.txt
+@pif_building_churning_tunnels_4_pop_modifiers_pop_mining_drone_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_clear_thought_clinic
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_clear_thought_clinic/tpm.txt
+@pif_building_clear_thought_clinic_pop_modifiers_pop_happiness_1 = -0.05
+
+# -----------------------------------------------------------------------------
+# building_clone_army_clone_vat
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_1 = 20
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_11 = 9
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_13 = 7
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_15 = 5
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_17 = 4
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_19 = 2
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_3 = 19
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_5 = 17
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_7 = 14
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_bonus_pop_growth_9 = 12
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_10 = 12
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_12 = 9
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_14 = 7
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_16 = 5
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_18 = 4
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_2 = 20
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_20 = 2
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_4 = 19
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_6 = 17
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_army_clone_vat/pop_modifiers.txt
+@pif_building_clone_army_clone_vat_pop_modifiers_fake_pop_growth_mod_8 = 14
+
+# -----------------------------------------------------------------------------
+# building_clone_vats
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_vats/pop_modifiers.txt
+@pif_building_clone_vats_pop_modifiers_bonus_pop_growth_1 = 1.5
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_vats/pop_modifiers.txt
+@pif_building_clone_vats_pop_modifiers_bonus_pop_growth_3 = 3
+
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_clone_vats/pop_modifiers.txt
+@pif_building_clone_vats_pop_modifiers_bonus_pop_growth_5 = 4.5
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_vats/pop_modifiers.txt
+@pif_building_clone_vats_pop_modifiers_fake_pop_growth_mod_2 = 1.5
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_vats/pop_modifiers.txt
+@pif_building_clone_vats_pop_modifiers_fake_pop_growth_mod_4 = 3
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_clone_vats/pop_modifiers.txt
+@pif_building_clone_vats_pop_modifiers_fake_pop_growth_mod_6 = 4.5
+
+# -----------------------------------------------------------------------------
+# building_colony_shelter
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/pop_modifiers.txt
+@pif_building_colony_shelter_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_colony_shelter_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/pop_modifiers.txt
+@pif_building_colony_shelter_wilderness_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_commensal_clearing_4
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_bureaucrat_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_commensal_clearing_4/tpm.txt
+@pif_building_commensal_clearing_4_pop_modifiers_pop_bureaucrat_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_composer_sanctum
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_composer_sanctum/pop_modifiers.txt
+@pif_building_composer_sanctum_pop_modifiers_pop_environment_tolerance_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_coordinated_fulfillment_center_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: habitability_ceil_add.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_1/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_1_pop_modifiers_habitability_ceil_add_3 = -0.075
+
+# Controls: Building pop modifier: habitability_ceil_add.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_1/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_1_pop_modifiers_habitability_ceil_add_4 = -0.025
+
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_1/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_1_pop_modifiers_logistic_growth_mult_1 = -0.15
+
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_1/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_1_pop_modifiers_logistic_growth_mult_2 = -0.05
+
+# -----------------------------------------------------------------------------
+# building_coordinated_fulfillment_center_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: habitability_ceil_add.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_2/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_2_pop_modifiers_habitability_ceil_add_3 = -0.1
+
+# Controls: Building pop modifier: habitability_ceil_add.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_2/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_2_pop_modifiers_habitability_ceil_add_4 = -0.05
+
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_2/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_2_pop_modifiers_logistic_growth_mult_1 = -0.25
+
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_2/pop_modifiers.txt
+@pif_building_coordinated_fulfillment_center_2_pop_modifiers_logistic_growth_mult_2 = -0.15
+
+# -----------------------------------------------------------------------------
+# building_cryovault
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_cryovault/tpm.txt
+@pif_building_cryovault_pop_modifiers_pop_environment_tolerance_1 = 0.25
+
+# -----------------------------------------------------------------------------
+# building_cyberdome
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_resettlement_unemployed_destination_mult.
+# Used in: common/inline_scripts/pif/buildings/building_cyberdome/tpm.txt
+@pif_building_cyberdome_pop_modifiers_planet_resettlement_unemployed_destination_mult_1 = 0.25
+
+# -----------------------------------------------------------------------------
+# building_deployment_post
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/pop_modifiers.txt
+@pif_building_deployment_post_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_disinformation_center
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/buildings/building_disinformation_center/pop_modifiers.txt
+@pif_building_disinformation_center_pop_modifiers_pop_government_ethic_attraction_1 = -0.25
+
+# -----------------------------------------------------------------------------
+# building_drone_megastorage
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_drone_megastorage/tpm.txt
+@pif_building_drone_megastorage_pop_modifiers_planet_amenities_no_happiness_add_1 = 3000
+
+# -----------------------------------------------------------------------------
+# building_drone_storage
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_drone_storage/tpm.txt
+@pif_building_drone_storage_pop_modifiers_planet_amenities_no_happiness_add_1 = 1500
+
+# -----------------------------------------------------------------------------
+# building_engineering_facility_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: engineer_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_3/tpm.txt
+@pif_building_engineering_facility_3_pop_modifiers_engineer_jobs_bonus_workforce_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_expanded_warren
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_expanded_warren/tpm.txt
+@pif_building_expanded_warren_pop_modifiers_planet_amenities_no_happiness_add_1 = 3000
+
+# -----------------------------------------------------------------------------
+# building_experimentation_chambers_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_materialist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_experimentation_chambers_1/pop_modifiers.txt
+@pif_building_experimentation_chambers_1_pop_modifiers_pop_ethic_materialist_attraction_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_experimentation_chambers_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_materialist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_experimentation_chambers_2/pop_modifiers.txt
+@pif_building_experimentation_chambers_2_pop_modifiers_pop_ethic_materialist_attraction_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_experimentation_chambers_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_materialist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_experimentation_chambers_3/pop_modifiers.txt
+@pif_building_experimentation_chambers_3_pop_modifiers_pop_ethic_materialist_attraction_mult_1 = 0.15
+
+# -----------------------------------------------------------------------------
+# building_factory_efficiency_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: artisan_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_factory_efficiency_1/pop_modifiers.txt
+@pif_building_factory_efficiency_1_pop_modifiers_artisan_jobs_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_fe_administration_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_housing_usage_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_administration_2/pop_modifiers.txt
+@pif_building_fe_administration_2_pop_modifiers_pop_housing_usage_mult_1 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_fe_administration_hive_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_housing_usage_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_administration_hive_2/pop_modifiers.txt
+@pif_building_fe_administration_hive_2_pop_modifiers_pop_housing_usage_mult_1 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_fe_administration_machine_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_housing_usage_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_administration_machine_2/pop_modifiers.txt
+@pif_building_fe_administration_machine_2_pop_modifiers_pop_housing_usage_mult_1 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_fe_assembly_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_assembly_1/pop_modifiers.txt
+@pif_building_fe_assembly_1_pop_modifiers_planet_pop_assembly_mult_1 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_assembly_1/tpm.txt
+@pif_building_fe_assembly_1_pop_modifiers_planet_pop_assembly_mult_2 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_fe_assembly_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_assembly_2/pop_modifiers.txt
+@pif_building_fe_assembly_2_pop_modifiers_planet_pop_assembly_mult_1 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_assembly_2/tpm.txt
+@pif_building_fe_assembly_2_pop_modifiers_planet_pop_assembly_mult_2 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_fe_clinic_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_clinic_1/pop_modifiers.txt
+@pif_building_fe_clinic_1_pop_modifiers_organic_pop_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_fe_clinic_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_clinic_2/pop_modifiers.txt
+@pif_building_fe_clinic_2_pop_modifiers_organic_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_clinic_2/pop_modifiers.txt
+@pif_building_fe_clinic_2_pop_modifiers_organic_pop_bonus_workforce_mult_2 = 2
+
+# -----------------------------------------------------------------------------
+# building_fe_security_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_security_2/pop_modifiers.txt
+@pif_building_fe_security_2_pop_modifiers_planet_crime_no_happiness_add_1 = -40
+
+# -----------------------------------------------------------------------------
+# building_fe_temple_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_housing_usage_mult.
+# Used in: common/inline_scripts/pif/buildings/building_fe_temple_2/pop_modifiers.txt
+@pif_building_fe_temple_2_pop_modifiers_pop_housing_usage_mult_1 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_foundry_efficiency_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: foundry_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_foundry_efficiency_1/pop_modifiers.txt
+@pif_building_foundry_efficiency_1_pop_modifiers_foundry_jobs_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_gaiaseeders_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_gaiaseeders_1/pop_modifiers.txt
+@pif_building_gaiaseeders_1_pop_modifiers_logistic_growth_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_gaiaseeders_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_gaiaseeders_2/pop_modifiers.txt
+@pif_building_gaiaseeders_2_pop_modifiers_logistic_growth_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_gaiaseeders_2/pop_modifiers.txt
+@pif_building_gaiaseeders_2_pop_modifiers_pop_environment_tolerance_2 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_gaiaseeders_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_gaiaseeders_3/pop_modifiers.txt
+@pif_building_gaiaseeders_3_pop_modifiers_pop_environment_tolerance_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# building_galactic_memorial_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_1/pop_modifiers.txt
+@pif_building_galactic_memorial_1_pop_modifiers_planet_crime_no_happiness_add_2 = -20
+
+# Controls: Building pop modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_1/pop_modifiers.txt
+@pif_building_galactic_memorial_1_pop_modifiers_pop_government_ethic_attraction_1 = 0.20
+
+# -----------------------------------------------------------------------------
+# building_galactic_memorial_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_2/pop_modifiers.txt
+@pif_building_galactic_memorial_2_pop_modifiers_planet_crime_no_happiness_add_2 = -20
+
+# Controls: Building pop modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_2/pop_modifiers.txt
+@pif_building_galactic_memorial_2_pop_modifiers_pop_government_ethic_attraction_1 = 0.20
+
+# -----------------------------------------------------------------------------
+# building_galactic_memorial_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_3/pop_modifiers.txt
+@pif_building_galactic_memorial_3_pop_modifiers_planet_crime_no_happiness_add_2 = -20
+
+# Controls: Building pop modifier: pop_government_ethic_attraction.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_3/pop_modifiers.txt
+@pif_building_galactic_memorial_3_pop_modifiers_pop_government_ethic_attraction_1 = 0.20
+
+# -----------------------------------------------------------------------------
+# building_galactic_stock_exchange
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_trader_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_stock_exchange/pop_modifiers.txt
+@pif_building_galactic_stock_exchange_pop_modifiers_pop_trader_bonus_workforce_mult_1 = 0.15
+
+# -----------------------------------------------------------------------------
+# building_genomic_facility
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: bonus_pop_growth.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/pop_modifiers.txt
+@pif_building_genomic_facility_pop_modifiers_bonus_pop_growth_4 = 1.0
+
+# Controls: Building pop modifier: fake_pop_growth_mod.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/pop_modifiers.txt
+@pif_building_genomic_facility_pop_modifiers_fake_pop_growth_mod_3 = 1.0
+
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/pop_modifiers.txt
+@pif_building_genomic_facility_pop_modifiers_logistic_growth_mult_1 = 0.10
+
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/pop_modifiers.txt
+@pif_building_genomic_facility_pop_modifiers_organic_pop_bonus_workforce_mult_6 = 0.15
+
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/pop_modifiers.txt
+@pif_building_genomic_facility_pop_modifiers_planet_amenities_no_happiness_add_5 = 500
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/pop_modifiers.txt
+@pif_building_genomic_facility_pop_modifiers_pop_environment_tolerance_2 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_hab_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/pop_modifiers.txt
+@pif_building_hab_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_hab_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/tpm.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_environment_tolerance_12 = 0.10
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/pop_modifiers.txt
+@pif_building_hab_major_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_hab_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/tpm.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_environment_tolerance_12 = 0.20
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/pop_modifiers.txt
+@pif_building_hab_system_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_hive_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/pop_modifiers.txt
+@pif_building_hive_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_hive_confluence
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_coordinator_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_confluence/pop_modifiers.txt
+@pif_building_hive_confluence_pop_modifiers_pop_coordinator_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_hive_crude_huts
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_crude_huts/tpm.txt
+@pif_building_hive_crude_huts_pop_modifiers_planet_amenities_no_happiness_add_1 = 500
+
+# Controls: Building pop modifier: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_crude_huts/tpm.txt
+@pif_building_hive_crude_huts_pop_modifiers_planet_crime_no_happiness_add_2 = -10
+
+# -----------------------------------------------------------------------------
+# building_hive_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/pop_modifiers.txt
+@pif_building_hive_major_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_hive_primitive_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_primitive_capital/tpm.txt
+@pif_building_hive_primitive_capital_pop_modifiers_planet_amenities_no_happiness_add_1 = 2500
+
+# Controls: Building pop modifier: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_primitive_capital/tpm.txt
+@pif_building_hive_primitive_capital_pop_modifiers_planet_crime_no_happiness_add_2 = -20
+
+# -----------------------------------------------------------------------------
+# building_hive_stone_palace
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_stone_palace/tpm.txt
+@pif_building_hive_stone_palace_pop_modifiers_planet_amenities_no_happiness_add_1 = 2500
+
+# Controls: Building pop modifier: planet_crime_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_stone_palace/tpm.txt
+@pif_building_hive_stone_palace_pop_modifiers_planet_crime_no_happiness_add_2 = -10
+
+# -----------------------------------------------------------------------------
+# building_hive_transcendental_retreat
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_transcendental_retreat/pop_modifiers.txt
+@pif_building_hive_transcendental_retreat_pop_modifiers_logistic_growth_mult_1 = 0.025
+
+# Controls: Building pop modifier: planet_pop_assemblers_unity_produces_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_transcendental_retreat/pop_modifiers.txt
+@pif_building_hive_transcendental_retreat_pop_modifiers_planet_pop_assemblers_unity_produces_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# building_hive_warren
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_hive_warren/tpm.txt
+@pif_building_hive_warren_pop_modifiers_planet_amenities_no_happiness_add_1 = 1500
+
+# -----------------------------------------------------------------------------
+# building_holotemple
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_holotemple/tpm.txt
+@pif_building_holotemple_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_identity_repository
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: robotic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_identity_repository/pop_modifiers.txt
+@pif_building_identity_repository_pop_modifiers_robotic_pop_bonus_workforce_mult_1 = 0.000075
+
+# -----------------------------------------------------------------------------
+# building_imperial_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/pop_modifiers.txt
+@pif_building_imperial_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_imperial_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/pop_modifiers.txt
+@pif_building_imperial_capital_wilderness_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_imperial_hive_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/pop_modifiers.txt
+@pif_building_imperial_hive_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_imperial_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/pop_modifiers.txt
+@pif_building_imperial_machine_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_instrument_sanctum
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_instrument_sanctum/pop_modifiers.txt
+@pif_building_instrument_sanctum_pop_modifiers_pop_happiness_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_lathe_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_capital/pop_modifiers.txt
+@pif_building_lathe_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_lathe_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_major_capital/pop_modifiers.txt
+@pif_building_lathe_major_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_major_capital/pop_modifiers.txt
+@pif_building_lathe_major_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_overclocker
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_purge_speed.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_overclocker/tpm.txt
+@pif_building_lathe_overclocker_pop_modifiers_pop_purge_speed_1 = 0.75
+
+# -----------------------------------------------------------------------------
+# building_lathe_preserver
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_purge_speed.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_preserver/pop_modifiers.txt
+@pif_building_lathe_preserver_pop_modifiers_pop_purge_speed_1 = -0.15
+
+# -----------------------------------------------------------------------------
+# building_lathe_super_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_super_capital/pop_modifiers.txt
+@pif_building_lathe_super_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_super_capital/pop_modifiers.txt
+@pif_building_lathe_super_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.2
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_super_capital/pop_modifiers.txt
+@pif_building_lathe_super_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.3
+
+# -----------------------------------------------------------------------------
+# building_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/pop_modifiers.txt
+@pif_building_machine_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_machine_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/pop_modifiers.txt
+@pif_building_machine_major_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_machine_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/pop_modifiers.txt
+@pif_building_machine_system_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/pop_modifiers.txt
+@pif_building_major_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_major_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/pop_modifiers.txt
+@pif_building_major_capital_wilderness_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_massive_growth_4
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_agri_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_massive_growth_4/tpm.txt
+@pif_building_massive_growth_4_pop_modifiers_pop_agri_drone_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_medical_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_medical_1/pop_modifiers.txt
+@pif_building_medical_1_pop_modifiers_organic_pop_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_medical_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/pop_modifiers.txt
+@pif_building_medical_2_pop_modifiers_organic_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/pop_modifiers.txt
+@pif_building_medical_2_pop_modifiers_organic_pop_bonus_workforce_mult_2 = 2
+
+# Controls: Building pop modifier: pop_amenities_usage_organic_mult.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/tpm.txt
+@pif_building_medical_2_pop_modifiers_pop_amenities_usage_organic_mult_3 = -0.10
+
+# -----------------------------------------------------------------------------
+# building_medical_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_medical_3/pop_modifiers.txt
+@pif_building_medical_3_pop_modifiers_organic_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: organic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_medical_3/pop_modifiers.txt
+@pif_building_medical_3_pop_modifiers_organic_pop_bonus_workforce_mult_2 = 3
+
+# Controls: Building pop modifier: pop_amenities_usage_organic_mult.
+# Used in: common/inline_scripts/pif/buildings/building_medical_3/tpm.txt
+@pif_building_medical_3_pop_modifiers_pop_amenities_usage_organic_mult_3 = -0.10
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_medical_3/tpm.txt
+@pif_building_medical_3_pop_modifiers_pop_environment_tolerance_4 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_military_academy
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_knight_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_military_academy/pop_modifiers.txt
+@pif_building_military_academy_pop_modifiers_pop_knight_bonus_workforce_mult_3 = 0.05
+
+# Controls: Building pop modifier: pop_knight_commander_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_military_academy/pop_modifiers.txt
+@pif_building_military_academy_pop_modifiers_pop_knight_commander_bonus_workforce_mult_4 = 0.025
+
+# Controls: Building pop modifier: pop_soldier_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_military_academy/pop_modifiers.txt
+@pif_building_military_academy_pop_modifiers_pop_soldier_bonus_workforce_mult_1 = 0.15
+
+# Controls: Building pop modifier: pop_warrior_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_military_academy/pop_modifiers.txt
+@pif_building_military_academy_pop_modifiers_pop_warrior_drone_bonus_workforce_mult_2 = 0.15
+
+# -----------------------------------------------------------------------------
+# building_natural_furnace_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_foundry_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_natural_furnace_3/tpm.txt
+@pif_building_natural_furnace_3_pop_modifiers_pop_foundry_bonus_workforce_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_necrophage_elevation_chamber
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: organic_pops_last_month_growth.
+# Used in: common/inline_scripts/pif/buildings/building_necrophage_elevation_chamber/jobs.txt
+@pif_building_necrophage_elevation_chamber_pop_modifiers_organic_pops_last_month_growth_1 = 1
+
+# Controls: Building pop modifier: organic_pops_last_month_growth.
+# Used in: common/inline_scripts/pif/buildings/building_necrophage_elevation_chamber/jobs.txt
+@pif_building_necrophage_elevation_chamber_pop_modifiers_organic_pops_last_month_growth_2 = 2
+
+# -----------------------------------------------------------------------------
+# building_nourishment_center
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_nourishment_center/pop_modifiers.txt
+@pif_building_nourishment_center_pop_modifiers_pop_environment_tolerance_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_order_castle
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_resettlement_unemployed_destination_mult.
+# Used in: common/inline_scripts/pif/buildings/building_order_castle/tpm.txt
+@pif_building_order_castle_pop_modifiers_planet_resettlement_unemployed_destination_mult_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# building_order_keep
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_resettlement_unemployed_destination_mult.
+# Used in: common/inline_scripts/pif/buildings/building_order_keep/tpm.txt
+@pif_building_order_keep_pop_modifiers_planet_resettlement_unemployed_destination_mult_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_paragon_memory_vaults
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: species_leader_exp_gain.
+# Used in: common/inline_scripts/pif/buildings/building_paragon_memory_vaults/pop_modifiers.txt
+@pif_building_paragon_memory_vaults_pop_modifiers_species_leader_exp_gain_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_physics_lab_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: physicist_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_3/tpm.txt
+@pif_building_physics_lab_3_pop_modifiers_physicist_jobs_bonus_workforce_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_pinniped_sanctuary
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_pinniped_sanctuary/pop_modifiers.txt
+@pif_building_pinniped_sanctuary_pop_modifiers_pop_happiness_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_psi_corps
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: psionic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_psi_corps/pop_modifiers.txt
+@pif_building_psi_corps_pop_modifiers_psionic_pop_bonus_workforce_mult_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_research_efficiency_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: researcher_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_research_efficiency_1/pop_modifiers.txt
+@pif_building_research_efficiency_1_pop_modifiers_researcher_jobs_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_resort_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/pop_modifiers.txt
+@pif_building_resort_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_resort_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/pop_modifiers.txt
+@pif_building_resort_major_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_robot_assembly_complex
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_robot_assembly_complex/pop_modifiers.txt
+@pif_building_robot_assembly_complex_pop_modifiers_planet_pop_assembly_mult_1 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_robot_assembly_complex/tpm.txt
+@pif_building_robot_assembly_complex_pop_modifiers_planet_pop_assembly_mult_2 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_robot_assembly_plant
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_robot_assembly_plant/pop_modifiers.txt
+@pif_building_robot_assembly_plant_pop_modifiers_planet_pop_assembly_mult_1 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assembly_mult.
+# Used in: common/inline_scripts/pif/buildings/building_robot_assembly_plant/tpm.txt
+@pif_building_robot_assembly_plant_pop_modifiers_planet_pop_assembly_mult_2 = -0.1
+
+# -----------------------------------------------------------------------------
+# building_sacred_nexus
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_bureaucrat_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_sacred_nexus/pop_modifiers.txt
+@pif_building_sacred_nexus_pop_modifiers_pop_bureaucrat_bonus_workforce_mult_2 = 0.10
+
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_sacred_nexus/pop_modifiers.txt
+@pif_building_sacred_nexus_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1 = 0.15
+
+# -----------------------------------------------------------------------------
+# building_sacrificial_temple_1
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_sacrificial_temple_1/pop_modifiers.txt
+@pif_building_sacrificial_temple_1_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_sacrificial_temple_2
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_sacrificial_temple_2/tpm.txt
+@pif_building_sacrificial_temple_2_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_sacrificial_temple_3
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_sacrificial_temple_3/pop_modifiers.txt
+@pif_building_sacrificial_temple_3_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1 = 0.15
+
+# Controls: Building pop modifier: pop_mortal_initiate_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_sacrificial_temple_3/pop_modifiers.txt
+@pif_building_sacrificial_temple_3_pop_modifiers_pop_mortal_initiate_bonus_workforce_mult_2 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_slave_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/pop_modifiers.txt
+@pif_building_slave_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_slave_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/pop_modifiers.txt
+@pif_building_slave_major_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_slave_processing
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_resettlement_unemployed_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_processing/pop_modifiers.txt
+@pif_building_slave_processing_pop_modifiers_planet_resettlement_unemployed_mult_3 = -0.50
+
+# Controls: Building pop modifier: pop_cat_slave_political_power.
+# Used in: common/inline_scripts/pif/buildings/building_slave_processing/pop_modifiers.txt
+@pif_building_slave_processing_pop_modifiers_pop_cat_slave_political_power_2 = -0.25
+
+# Controls: Building pop modifier: pop_slave_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_processing/pop_modifiers.txt
+@pif_building_slave_processing_pop_modifiers_pop_slave_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_subversive_shrine
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_subversive_shrine/tpm.txt
+@pif_building_subversive_shrine_pop_modifiers_pop_ethic_spiritualist_attraction_mult_2 = 0.25
+
+# Controls: Building pop modifier: pop_ethics_shift_speed_mult.
+# Used in: common/inline_scripts/pif/buildings/building_subversive_shrine/pop_modifiers.txt
+@pif_building_subversive_shrine_pop_modifiers_pop_ethics_shift_speed_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/pop_modifiers.txt
+@pif_building_system_capital_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_system_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_logistic_growth_mult_4 = 0.1
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_7 = 0.10
+
+# Controls: Building pop modifier: planet_pop_assemblers_upkeep_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_planet_pop_assemblers_upkeep_mult_8 = 0.20
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_1 = 0.05
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_2 = 0.1
+
+# Controls: Building pop modifier: pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_bonus_workforce_mult_3 = 0.15
+
+# Controls: Building pop modifier: pop_cat_complex_drone_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_11 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_10 = 0.02
+
+# Controls: Building pop modifier: pop_cat_specialist_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_9 = 0.01
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_happiness_5 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/pop_modifiers.txt
+@pif_building_system_capital_wilderness_pop_modifiers_pop_happiness_6 = 0.1
+
+# -----------------------------------------------------------------------------
+# building_system_conflux
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_coordinator_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_conflux/pop_modifiers.txt
+@pif_building_system_conflux_pop_modifiers_pop_coordinator_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_temple
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_temple/pop_modifiers.txt
+@pif_building_temple_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_temple_of_prosperity
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/building_temple_of_prosperity/tpm.txt
+@pif_building_temple_of_prosperity_pop_modifiers_pop_ethic_spiritualist_attraction_mult_2 = 0.5
+
+# Controls: Building pop modifier: pop_ethics_shift_speed_mult.
+# Used in: common/inline_scripts/pif/buildings/building_temple_of_prosperity/pop_modifiers.txt
+@pif_building_temple_of_prosperity_pop_modifiers_pop_ethics_shift_speed_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# building_the_beholder
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: psionic_pop_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/buildings/building_the_beholder/pop_modifiers.txt
+@pif_building_the_beholder_pop_modifiers_psionic_pop_bonus_workforce_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_toxic_bath
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: habitability_ceil_add.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath/pop_modifiers.txt
+@pif_building_toxic_bath_pop_modifiers_habitability_ceil_add_2 = -0.10
+
+# Controls: Building pop modifier: habitability_floor_add.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath/pop_modifiers.txt
+@pif_building_toxic_bath_pop_modifiers_habitability_floor_add_1 = -0.10
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath/pop_modifiers.txt
+@pif_building_toxic_bath_pop_modifiers_pop_environment_tolerance_3 = -0.10
+
+# -----------------------------------------------------------------------------
+# building_toxic_bath_hive
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: habitability_ceil_add.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath_hive/pop_modifiers.txt
+@pif_building_toxic_bath_hive_pop_modifiers_habitability_ceil_add_2 = -0.10
+
+# Controls: Building pop modifier: habitability_floor_add.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath_hive/pop_modifiers.txt
+@pif_building_toxic_bath_hive_pop_modifiers_habitability_floor_add_1 = -0.10
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath_hive/pop_modifiers.txt
+@pif_building_toxic_bath_hive_pop_modifiers_pop_environment_tolerance_3 = -0.10
+
+# -----------------------------------------------------------------------------
+# building_toxic_bath_machine
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: habitability_ceil_add.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath_machine/pop_modifiers.txt
+@pif_building_toxic_bath_machine_pop_modifiers_habitability_ceil_add_2 = -0.10
+
+# Controls: Building pop modifier: habitability_floor_add.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath_machine/pop_modifiers.txt
+@pif_building_toxic_bath_machine_pop_modifiers_habitability_floor_add_1 = -0.10
+
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/building_toxic_bath_machine/pop_modifiers.txt
+@pif_building_toxic_bath_machine_pop_modifiers_pop_environment_tolerance_3 = -0.10
+
+# -----------------------------------------------------------------------------
+# building_transcendental_retreat
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/buildings/building_transcendental_retreat/tpm.txt
+@pif_building_transcendental_retreat_pop_modifiers_logistic_growth_mult_1 = 0.025
+
+# -----------------------------------------------------------------------------
+# building_trophy_vault
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_cat_bio_trophy_happiness.
+# Used in: common/inline_scripts/pif/buildings/building_trophy_vault/tpm.txt
+@pif_building_trophy_vault_pop_modifiers_pop_cat_bio_trophy_happiness_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# building_wilderness_storm_relief
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_wilderness_storm_relief/pop_modifiers.txt
+@pif_building_wilderness_storm_relief_pop_modifiers_planet_amenities_no_happiness_add_1 = 800
+
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/building_wilderness_storm_relief/pop_modifiers.txt
+@pif_building_wilderness_storm_relief_pop_modifiers_planet_amenities_no_happiness_add_2 = 100
+
+# -----------------------------------------------------------------------------
+# building_xeno_tourism_agency
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_resettlement_unemployed_destination_mult.
+# Used in: common/inline_scripts/pif/buildings/building_xeno_tourism_agency/pop_modifiers.txt
+@pif_building_xeno_tourism_agency_pop_modifiers_planet_resettlement_unemployed_destination_mult_1 = 0.25
+
+# -----------------------------------------------------------------------------
+# holding_communal_housing_outreach
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_egalitarian_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/holding_communal_housing_outreach/pop_modifiers.txt
+@pif_holding_communal_housing_outreach_pop_modifiers_pop_ethic_egalitarian_attraction_mult_1 = 1
+
+# -----------------------------------------------------------------------------
+# holding_franchise_headquarters
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_ethic_authoritarian_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/holding_franchise_headquarters/pop_modifiers.txt
+@pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_authoritarian_attraction_mult_5 = 1
+
+# Controls: Building pop modifier: pop_ethic_egalitarian_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/holding_franchise_headquarters/pop_modifiers.txt
+@pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_egalitarian_attraction_mult_6 = 1
+
+# Controls: Building pop modifier: pop_ethic_materialist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/holding_franchise_headquarters/pop_modifiers.txt
+@pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_materialist_attraction_mult_2 = 1
+
+# Controls: Building pop modifier: pop_ethic_spiritualist_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/holding_franchise_headquarters/pop_modifiers.txt
+@pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1 = 1
+
+# Controls: Building pop modifier: pop_ethic_xenophile_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/holding_franchise_headquarters/pop_modifiers.txt
+@pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_xenophile_attraction_mult_4 = 1
+
+# Controls: Building pop modifier: pop_ethic_xenophobe_attraction_mult.
+# Used in: common/inline_scripts/pif/buildings/holding_franchise_headquarters/pop_modifiers.txt
+@pif_holding_franchise_headquarters_pop_modifiers_pop_ethic_xenophobe_attraction_mult_3 = 1
+
+# -----------------------------------------------------------------------------
+# holding_garrison
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/holding_garrison/tpm.txt
+@pif_holding_garrison_pop_modifiers_pop_happiness_1 = -0.05
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/holding_garrison/tpm.txt
+@pif_holding_garrison_pop_modifiers_pop_happiness_2 = -0.1
+
+# Controls: Building pop modifier: pop_happiness.
+# Used in: common/inline_scripts/pif/buildings/holding_garrison/tpm.txt
+@pif_holding_garrison_pop_modifiers_pop_happiness_3 = -0.15
+
+# -----------------------------------------------------------------------------
+# holding_idyllic_bloom
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/holding_idyllic_bloom/pop_modifiers.txt
+@pif_holding_idyllic_bloom_pop_modifiers_pop_environment_tolerance_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# holding_noble_vacation_homes
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: planet_amenities_no_happiness_add.
+# Used in: common/inline_scripts/pif/buildings/holding_noble_vacation_homes/pop_modifiers.txt
+@pif_holding_noble_vacation_homes_pop_modifiers_planet_amenities_no_happiness_add_1 = -1500
+
+# -----------------------------------------------------------------------------
+# holding_tree_of_life_sapling
+# -----------------------------------------------------------------------------
+# Controls: Building pop modifier: pop_environment_tolerance.
+# Used in: common/inline_scripts/pif/buildings/holding_tree_of_life_sapling/tpm.txt
+@pif_holding_tree_of_life_sapling_pop_modifiers_pop_environment_tolerance_1 = 0.1

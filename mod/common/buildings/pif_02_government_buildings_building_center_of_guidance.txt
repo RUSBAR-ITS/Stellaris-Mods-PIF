@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_center_of_guidance = {
+	base_buildtime = @pif_building_center_of_guidance_construction_base_buildtime_1
+	category = government
+	inline_script = "pif/buildings/building_center_of_guidance/building_config"
+	inline_script = "pif/buildings/building_center_of_guidance/availability"
+	inline_script = "pif/buildings/building_center_of_guidance/economy"
+	inline_script = "pif/buildings/building_center_of_guidance/lifecycle"
+	inline_script = "pif/buildings/building_center_of_guidance/jobs"
+	inline_script = "pif/buildings/building_center_of_guidance/country_jobs"
+	inline_script = "pif/buildings/building_center_of_guidance/economic_modifiers"
+	inline_script = "pif/buildings/building_center_of_guidance/pop_modifiers"
+	inline_script = "pif/buildings/building_center_of_guidance/planet_state"
+	inline_script = "pif/buildings/building_center_of_guidance/tpm"
+	inline_script = "pif/buildings/building_center_of_guidance/ai"
+}

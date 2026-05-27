@@ -1,0 +1,45 @@
+# PIF job category: ECONOMY
+# Vanilla job: purge_processing_robot
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		alloys = @pif_purge_processing_robot_job_output_output_alloys_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_fanatic_purifiers
+			}
+		}
+		unity = @pif_purge_processing_robot_job_output_output_unity_2
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_hive_devouring_swarm
+			}
+		}
+		society_research = @pif_purge_processing_robot_job_output_output_society_research_3
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_foundry_2
+			}
+		}
+		alloys = @pif_purge_processing_robot_job_output_output_alloys_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_foundry_3
+			}
+		}
+		alloys = @pif_purge_processing_robot_job_output_output_alloys_5
+	}
+}

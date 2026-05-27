@@ -1,0 +1,5 @@
+# PIF zone category: AI
+# Vanilla zone: zone_habitat_rare_crystals
+# Vanilla source: zones/01_habitat_zones.txt
+
+ai_priority = @pif_zone_habitat_rare_crystals_ai_ai_priority_ai_priority_1

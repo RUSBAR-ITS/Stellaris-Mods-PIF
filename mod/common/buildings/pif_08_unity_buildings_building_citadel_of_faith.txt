@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_citadel_of_faith = {
+	base_buildtime = @pif_building_citadel_of_faith_construction_base_buildtime_1
+	category = unity
+	inline_script = "pif/buildings/building_citadel_of_faith/building_config"
+	inline_script = "pif/buildings/building_citadel_of_faith/availability"
+	inline_script = "pif/buildings/building_citadel_of_faith/economy"
+	inline_script = "pif/buildings/building_citadel_of_faith/lifecycle"
+	inline_script = "pif/buildings/building_citadel_of_faith/jobs"
+	inline_script = "pif/buildings/building_citadel_of_faith/country_jobs"
+	inline_script = "pif/buildings/building_citadel_of_faith/economic_modifiers"
+	inline_script = "pif/buildings/building_citadel_of_faith/pop_modifiers"
+	inline_script = "pif/buildings/building_citadel_of_faith/planet_state"
+	inline_script = "pif/buildings/building_citadel_of_faith/tpm"
+	inline_script = "pif/buildings/building_citadel_of_faith/ai"
+}

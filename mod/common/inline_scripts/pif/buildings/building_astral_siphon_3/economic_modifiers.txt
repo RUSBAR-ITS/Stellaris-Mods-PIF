@@ -1,0 +1,49 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_astral_siphon_3
+# Vanilla class: regular
+# Vanilla source: buildings/18_astral_planes_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_resource_max_astral_threads_add = @pif_building_astral_siphon_3_economic_modifiers_country_resource_max_astral_threads_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_physicists_physics_research_produces_add = @pif_building_astral_siphon_3_economic_modifiers_planet_physicists_physics_research_produces_add_2
+	planet_physicists_astral_threads_produces_add = @pif_building_astral_siphon_3_economic_modifiers_planet_physicists_astral_threads_produces_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	planet_physicists_consumer_goods_upkeep_add = @pif_building_astral_siphon_3_economic_modifiers_planet_physicists_consumer_goods_upkeep_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	planet_physicists_energy_upkeep_add = @pif_building_astral_siphon_3_economic_modifiers_planet_physicists_energy_upkeep_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	planet_physicists_minerals_upkeep_add = @pif_building_astral_siphon_3_economic_modifiers_planet_physicists_minerals_upkeep_add_6
+}

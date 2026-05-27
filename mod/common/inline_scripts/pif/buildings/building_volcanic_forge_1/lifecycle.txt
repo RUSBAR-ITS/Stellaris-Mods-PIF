@@ -1,0 +1,28 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_volcanic_forge_1
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+destroy_trigger = {
+	OR = {
+		is_planet_class = pc_city
+		is_planet_class = pc_machine
+		is_planet_class = pc_hive
+		AND = {
+			exists = owner
+			owner = {
+				is_world_forger_empire = no
+			}
+		}
+	}
+}
+
+on_destroy = {
+	planet_event = {
+		id = infernals.32
+	}
+}
+
+upgrades = {
+	building_volcanic_forge_2
+}

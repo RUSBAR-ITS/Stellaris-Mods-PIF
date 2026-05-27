@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_bioelectric_stimulator_3
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_technician_energy_produces_add = @pif_building_bioelectric_stimulator_3_economic_modifiers_planet_technician_energy_produces_add_1
+}

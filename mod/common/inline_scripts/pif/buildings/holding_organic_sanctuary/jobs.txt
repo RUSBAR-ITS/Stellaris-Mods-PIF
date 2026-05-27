@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: holding_organic_sanctuary
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = yes
+		}
+	}
+	job_overlord_bio_trophy_drone_add = @pif_holding_organic_sanctuary_jobs_job_overlord_bio_trophy_drone_add_1
+}

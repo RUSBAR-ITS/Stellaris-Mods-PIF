@@ -1,0 +1,12 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: transference_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	ship_fire_rate_mult = @pif_transference_drone_country_modifiers_ship_fire_rate_mult_1
+	ship_armor_mult = @pif_transference_drone_country_modifiers_ship_armor_mult_2
+}

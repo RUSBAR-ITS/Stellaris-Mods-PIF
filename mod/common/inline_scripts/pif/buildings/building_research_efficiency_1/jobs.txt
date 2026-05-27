@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_research_efficiency_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+# Empty PIF building category hook.

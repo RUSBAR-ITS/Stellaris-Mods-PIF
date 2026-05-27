@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: bio_trophy_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_unemployment.txt
+
+swappable_data = {
+	default = {
+		icon = unemployment
+		building_icon = building_organic_sanctuary
+	}
+}

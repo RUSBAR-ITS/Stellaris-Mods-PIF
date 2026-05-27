@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: hive_basic_agri_drone_lithoid
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		minerals = @pif_hive_basic_agri_drone_lithoid_job_output_output_minerals_1
+	}
+}

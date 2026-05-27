@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: primitive_hive_synapse_drone_2
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_primitive_capital
+		icon = synapse_drone
+	}
+}

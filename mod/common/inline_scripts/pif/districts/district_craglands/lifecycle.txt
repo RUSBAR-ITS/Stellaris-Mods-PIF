@@ -1,0 +1,48 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_craglands
+# Vanilla source: districts/05_wilderness_districts.txt
+
+conversion_ratio = @pif_district_craglands_conversion_conversion_ratio
+
+convert_to = {
+	district_arcology_housing
+	district_rw_city
+	district_nexus
+	district_hive
+	district_city
+	district_mindlink
+}
+
+on_queued = {
+	if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+			any_owned_pop_group = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+		}
+		random_owned_pop_group = {
+			limit = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+			kill_pop_group = {
+				pop_group = this
+				amount = local_spent_biomass
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+		}
+		owner = {
+			global_biomass_spender = yes
+		}
+	}
+}
+
+on_unqueued = {
+	unqueue_biomass_effect = yes
+}

@@ -1,0 +1,13 @@
+# PIF job category: ECONOMY
+# Vanilla job: mind_thrall_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+overlord_resources = {
+	category = planet_mind_thralls
+	produces = {
+		physics_research = @pif_mind_thrall_drone_overlord_output_overlord_output_physics_research_1
+		engineering_research = @pif_mind_thrall_drone_overlord_output_overlord_output_engineering_research_2
+		society_research = @pif_mind_thrall_drone_overlord_output_overlord_output_society_research_3
+	}
+}

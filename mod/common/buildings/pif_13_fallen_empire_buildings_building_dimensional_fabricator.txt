@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/13_fallen_empire_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_dimensional_fabricator = {
+	base_buildtime = @pif_building_dimensional_fabricator_construction_base_buildtime_1
+	icon = building_dimensional_fabricator
+	category = manufacturing
+	inline_script = "pif/buildings/building_dimensional_fabricator/building_config"
+	inline_script = "pif/buildings/building_dimensional_fabricator/availability"
+	inline_script = "pif/buildings/building_dimensional_fabricator/economy"
+	inline_script = "pif/buildings/building_dimensional_fabricator/lifecycle"
+	inline_script = "pif/buildings/building_dimensional_fabricator/jobs"
+	inline_script = "pif/buildings/building_dimensional_fabricator/country_jobs"
+	inline_script = "pif/buildings/building_dimensional_fabricator/economic_modifiers"
+	inline_script = "pif/buildings/building_dimensional_fabricator/pop_modifiers"
+	inline_script = "pif/buildings/building_dimensional_fabricator/planet_state"
+	inline_script = "pif/buildings/building_dimensional_fabricator/tpm"
+	inline_script = "pif/buildings/building_dimensional_fabricator/ai"
+}

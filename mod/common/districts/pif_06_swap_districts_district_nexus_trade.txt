@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/06_swap_districts.txt
+# Object class: active_mask
+
+district_nexus_trade = {
+	icon = district_arcology_trade
+	overlay_icon = GFX_district_trade
+	zone_slots = {
+		slot_empty
+	}
+	show_on_uncolonized = {
+		always = no
+	}
+	potential = {
+		always = no
+	}
+	triggered_name = {
+		text = city_logistics_machine_1
+	}
+}

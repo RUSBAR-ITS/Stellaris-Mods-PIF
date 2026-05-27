@@ -1,0 +1,13 @@
+# PIF job category: ECONOMY
+# Vanilla job: fe_archivist
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		society_research = @pif_fe_archivist_job_output_output_society_research_1
+		physics_research = @pif_fe_archivist_job_output_output_physics_research_2
+		engineering_research = @pif_fe_archivist_job_output_output_engineering_research_3
+	}
+}

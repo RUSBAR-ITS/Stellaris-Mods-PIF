@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_organic_paradise = {
+	base_buildtime = @pif_building_organic_paradise_construction_base_buildtime_1
+	icon = building_paradise_dome
+	category = unity
+	inline_script = "pif/buildings/building_organic_paradise/building_config"
+	inline_script = "pif/buildings/building_organic_paradise/availability"
+	inline_script = "pif/buildings/building_organic_paradise/economy"
+	inline_script = "pif/buildings/building_organic_paradise/lifecycle"
+	inline_script = "pif/buildings/building_organic_paradise/jobs"
+	inline_script = "pif/buildings/building_organic_paradise/country_jobs"
+	inline_script = "pif/buildings/building_organic_paradise/economic_modifiers"
+	inline_script = "pif/buildings/building_organic_paradise/pop_modifiers"
+	inline_script = "pif/buildings/building_organic_paradise/planet_state"
+	inline_script = "pif/buildings/building_organic_paradise/tpm"
+	inline_script = "pif/buildings/building_organic_paradise/ai"
+}

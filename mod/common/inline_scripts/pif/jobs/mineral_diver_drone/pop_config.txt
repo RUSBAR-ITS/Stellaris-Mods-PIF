@@ -1,0 +1,33 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: mineral_diver_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	minerals
+	alloys
+}
+
+weight = {
+	weight = @pif_mineral_diver_drone_job_weight_weight_1
+	mult = value:job_weights_multiple_resources_modifier|JOB|mineral_diver_drone|RESOURCE1|minerals|WEIGHT1|0.5|RESOURCE2|alloys|WEIGHT2|0.5|
+}
+
+auto_trait_prio = {
+	trait_industrious
+	trait_crack_miner
+	trait_robot_power_drills
+	trait_cyborg_power_drills
+	trait_malleable_minerals
+	trait_adaptive_minerals
+}
+
+promotion = {
+	time = @pif_mineral_diver_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

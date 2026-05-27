@@ -1,0 +1,29 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/22_extreme_frontiers_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_pinniped_sanctuary = {
+	base_buildtime = @pif_building_pinniped_sanctuary_construction_base_buildtime_1
+	category = amenity
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = biologist_is_xeno_zoo_keeper_tt
+	}
+	inline_script = "pif/buildings/building_pinniped_sanctuary/building_config"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/availability"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/economy"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/lifecycle"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/jobs"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/country_jobs"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/economic_modifiers"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/pop_modifiers"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/planet_state"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/tpm"
+	inline_script = "pif/buildings/building_pinniped_sanctuary/ai"
+}

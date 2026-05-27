@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/00_urban_districts.txt
+# Object class: real
+
+district_hive_1 = {
+	icon = district_hive_secondary
+	base_buildtime = @pif_district_hive_1_construction_build_time_days
+	overlay_icon = GFX_district_housing
+	show_on_uncolonized = {
+		uses_district_set = hive_world
+	}
+	triggered_name = {
+		text = district_hive
+	}
+	inline_script = "pif/districts/district_hive_1/zone_slots"
+	inline_script = "pif/districts/district_hive_1/availability"
+	inline_script = "pif/districts/district_hive_1/economic"
+	inline_script = "pif/districts/district_hive_1/tpm"
+	inline_script = "pif/districts/district_hive_1/lifecycle"
+	inline_script = "pif/districts/district_hive_1/ai"
+}

@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_commercial_megaplex
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_traders_upkeep_mult = @pif_building_commercial_megaplex_economic_modifiers_planet_traders_upkeep_mult_1
+}

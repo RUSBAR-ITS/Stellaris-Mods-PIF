@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_splinter_hive = {
+	base_buildtime = @pif_holding_splinter_hive_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_splinter_hive
+	category = pop_assembly
+	inline_script = "pif/buildings/holding_splinter_hive/building_config"
+	inline_script = "pif/buildings/holding_splinter_hive/availability"
+	inline_script = "pif/buildings/holding_splinter_hive/economy"
+	inline_script = "pif/buildings/holding_splinter_hive/lifecycle"
+	inline_script = "pif/buildings/holding_splinter_hive/jobs"
+	inline_script = "pif/buildings/holding_splinter_hive/country_jobs"
+	inline_script = "pif/buildings/holding_splinter_hive/economic_modifiers"
+	inline_script = "pif/buildings/holding_splinter_hive/pop_modifiers"
+	inline_script = "pif/buildings/holding_splinter_hive/planet_state"
+	inline_script = "pif/buildings/holding_splinter_hive/tpm"
+	inline_script = "pif/buildings/holding_splinter_hive/ai"
+}

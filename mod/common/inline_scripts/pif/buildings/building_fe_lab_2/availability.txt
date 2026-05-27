@@ -1,0 +1,51 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_fe_lab_2
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_build = no
+
+planet_limit = @pif_building_fe_lab_2_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_fallen_empire = yes
+			has_technology = tech_fe_lab_2
+			has_country_flag = fe_lab_1_can_build
+		}
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = ancrel.10004.failtext
+		exists = owner
+		owner = {
+			OR = {
+				check_variable = {
+					which = fe_lab_1_upgrade_count
+					value >= 1
+				}
+				is_fallen_empire = yes
+				has_technology = tech_fe_lab_2
+			}
+		}
+	}
+	custom_tooltip = {
+		fail_text = cosmogenesis_aborted_tt
+		NOT = {
+			owner = {
+				has_country_flag = cosmogenesis_aborted
+			}
+		}
+	}
+}
+
+show_in_tech = tech_fe_lab_2

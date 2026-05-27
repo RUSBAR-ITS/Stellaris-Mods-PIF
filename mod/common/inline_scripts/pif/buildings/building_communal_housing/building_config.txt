@@ -1,0 +1,11 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_communal_housing
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+building_sets = {
+	government
+	urban
+	entertainment
+	resort
+}

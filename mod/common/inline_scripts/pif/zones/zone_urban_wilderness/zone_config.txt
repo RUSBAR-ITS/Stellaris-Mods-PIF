@@ -1,0 +1,19 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_urban_wilderness
+# Vanilla source: zones/03_wilderness_zones.txt
+
+zone_sets = {
+	urban
+}
+
+include = {
+	all
+}
+
+excluded_building_sets = {
+	generator
+	mining
+	farming
+	knights
+	betharian
+}

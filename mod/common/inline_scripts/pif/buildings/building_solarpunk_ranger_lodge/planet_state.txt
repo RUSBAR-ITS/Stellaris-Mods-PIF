@@ -1,0 +1,6 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_solarpunk_ranger_lodge
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+# Empty PIF building category hook.

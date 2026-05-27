@@ -1,0 +1,16 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: drone_wrangler
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		wrangler_is_symbiosis_integrator_trigger = no
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = yes
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_drone_wrangler_planet_state_planet_amenities_no_happiness_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

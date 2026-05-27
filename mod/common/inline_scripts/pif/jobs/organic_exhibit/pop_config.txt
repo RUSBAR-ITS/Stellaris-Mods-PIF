@@ -1,0 +1,12 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: organic_exhibit
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_organic_exhibit_job_weight_weight_1
+}

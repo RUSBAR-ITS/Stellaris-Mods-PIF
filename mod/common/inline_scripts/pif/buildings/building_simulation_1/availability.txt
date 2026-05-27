@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_simulation_1
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_simulation_1_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	NOT = {
+		has_modifier = slave_colony
+	}
+	owner = {
+		is_machine_empire = yes
+		is_memorialist_empire = no
+		is_entropy_drinkers_empire = no
+	}
+}
+
+prerequisites = {
+	"tech_cultural_heritage"
+}
+
+show_tech_unlock_if = {
+	is_machine_empire = yes
+	is_memorialist_empire = no
+	is_entropy_drinkers_empire = no
+}

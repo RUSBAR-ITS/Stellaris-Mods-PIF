@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/16_first_contact_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_low_tech_admin_hub = {
+	category = unity
+	base_buildtime = @pif_building_low_tech_admin_hub_construction_base_buildtime_1
+	inline_script = "pif/buildings/building_low_tech_admin_hub/building_config"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/availability"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/economy"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/lifecycle"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/jobs"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/country_jobs"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/economic_modifiers"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/pop_modifiers"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/planet_state"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/tpm"
+	inline_script = "pif/buildings/building_low_tech_admin_hub/ai"
+}

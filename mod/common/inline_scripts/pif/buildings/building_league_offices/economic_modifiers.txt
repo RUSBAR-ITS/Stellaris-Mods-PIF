@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_league_offices
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_bureaucrats_unity_produces_add = @pif_building_league_offices_economic_modifiers_planet_bureaucrats_unity_produces_add_1
+}

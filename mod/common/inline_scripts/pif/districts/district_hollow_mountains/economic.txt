@@ -1,0 +1,16 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_hollow_mountains
+# Vanilla source: districts/05_wilderness_districts.txt
+
+resources = {
+	category = planet_districts_mining
+	cost = {
+		minerals = @pif_district_hollow_mountains_construction_build_cost_minerals
+	}
+	cost = {
+		biomass = @pif_district_hollow_mountains_construction_build_cost_biomass
+	}
+	upkeep = {
+		food = @pif_district_hollow_mountains_economy_district_upkeep_food
+	}
+}

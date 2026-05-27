@@ -1,0 +1,21 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: primitive_hive_spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+is_capped_by_modifier = @pif_primitive_hive_spawning_drone_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_drone_job
+
+possible = {
+	owner = {
+		is_primitive = yes
+	}
+}

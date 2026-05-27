@@ -1,0 +1,6 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_mine_generic
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+# Empty PIF building category hook.

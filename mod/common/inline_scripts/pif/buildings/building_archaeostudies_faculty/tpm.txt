@@ -1,0 +1,19 @@
+# PIF building category: TPM
+# Vanilla building: building_archaeostudies_faculty
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		is_planet_class = pc_relic
+	}
+	category_archaeostudies_research_speed_mult = 0.25
+}
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	category_archaeostudies_research_speed_mult = 0.25
+	country_resource_max_minor_artifacts_add = @pif_building_archaeostudies_faculty_economic_modifiers_country_resource_max_minor_artifacts_add_8
+}

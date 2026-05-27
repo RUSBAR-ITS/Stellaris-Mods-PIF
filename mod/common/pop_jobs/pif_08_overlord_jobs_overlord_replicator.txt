@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/08_overlord_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+overlord_replicator = {
+	category = complex_drone
+	inline_script = "pif/jobs/overlord_replicator/swap"
+	inline_script = "pif/jobs/overlord_replicator/availability"
+	inline_script = "pif/jobs/overlord_replicator/pop_config"
+	inline_script = "pif/jobs/overlord_replicator/economy"
+	inline_script = "pif/jobs/overlord_replicator/planet_state"
+	inline_script = "pif/jobs/overlord_replicator/country_modifiers"
+	inline_script = "pif/jobs/overlord_replicator/pop_modifiers"
+	inline_script = "pif/jobs/overlord_replicator/economic_modifiers"
+	inline_script = "pif/jobs/overlord_replicator/tpm"
+}

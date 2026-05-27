@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_hypercomms_forum
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+building_sets = {
+	government
+	unity
+}

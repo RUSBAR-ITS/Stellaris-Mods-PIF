@@ -1,0 +1,27 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_commercial_megaplex
+# Vanilla class: regular
+# Vanilla source: buildings/06_trade_buildings.txt
+
+planet_limit = @pif_building_commercial_megaplex_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_regular_empire = yes
+	}
+	NOR = {
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_interstellar_economics"
+}
+
+show_tech_unlock_if = {
+	is_regular_empire = yes
+}

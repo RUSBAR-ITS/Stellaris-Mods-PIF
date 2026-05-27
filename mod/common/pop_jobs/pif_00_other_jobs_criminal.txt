@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+criminal = {
+	category = criminal
+	inline_script = "pif/jobs/criminal/swap"
+	inline_script = "pif/jobs/criminal/availability"
+	inline_script = "pif/jobs/criminal/pop_config"
+	inline_script = "pif/jobs/criminal/economy"
+	inline_script = "pif/jobs/criminal/planet_state"
+	inline_script = "pif/jobs/criminal/country_modifiers"
+	inline_script = "pif/jobs/criminal/pop_modifiers"
+	inline_script = "pif/jobs/criminal/economic_modifiers"
+	inline_script = "pif/jobs/criminal/tpm"
+}

@@ -1,0 +1,13 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_arcology_housing
+# Vanilla source: districts/01_arcology_districts.txt
+
+potential = {
+	uses_district_set = city_world
+	NAND = {
+		is_capital = yes
+		owner = {
+			has_menace_perk = menp_behemoth_mind_meld
+		}
+	}
+}

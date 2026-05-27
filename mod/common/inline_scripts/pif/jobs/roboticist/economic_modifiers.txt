@@ -1,0 +1,15 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: roboticist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		check_modifier_value = {
+			modifier = job_roboticist_branch_office_value_mult
+			value > @pif_roboticist_economic_modifiers_value_1
+		}
+	}
+	branch_office_value_mult = @pif_roboticist_economic_modifiers_branch_office_value_mult_2
+	mult = value:roboticist_branch_office_value_mult
+}

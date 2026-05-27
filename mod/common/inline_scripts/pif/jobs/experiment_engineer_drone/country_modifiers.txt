@@ -1,0 +1,24 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: experiment_engineer_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = planet
+	}
+	modifier = {
+		country_naval_cap_add = @pif_experiment_engineer_drone_country_modifiers_country_naval_cap_add_1
+	}
+	mult = planet.modifier:job_researcher_naval_cap_add
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_crisis_level = crisis_hyperthermia_level_4
+		}
+	}
+	country_naval_cap_add = @pif_experiment_engineer_drone_country_modifiers_country_naval_cap_add_1
+}

@@ -1,0 +1,29 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/05_wilderness_districts.txt
+# Object class: real
+
+district_orchard_forests = {
+	expansion_planner = yes
+	base_buildtime = @pif_district_orchard_forests_construction_build_time_days
+	overlay_icon = GFX_district_food
+	inherits_capped_modifiers_from = district_farming
+	is_uncapped = {
+		is_wilderness_farming_district_uncapped = yes
+	}
+	min_for_deposits_on_planet = @pif_district_orchard_forests_limits_min_for_deposits_on_planet
+	max_for_deposits_on_planet = @pif_district_orchard_forests_limits_max_for_deposits_on_planet
+	show_on_uncolonized = {
+		uses_district_set = standard
+		exists = from
+		from = {
+			is_wilderness_empire = yes
+		}
+	}
+	expansion_planner_type = district_farming
+	inline_script = "pif/districts/district_orchard_forests/zone_slots"
+	inline_script = "pif/districts/district_orchard_forests/availability"
+	inline_script = "pif/districts/district_orchard_forests/economic"
+	inline_script = "pif/districts/district_orchard_forests/tpm"
+	inline_script = "pif/districts/district_orchard_forests/lifecycle"
+	inline_script = "pif/districts/district_orchard_forests/ai"
+}

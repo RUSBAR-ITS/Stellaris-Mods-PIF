@@ -1,0 +1,18 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_slave_processing
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			NOR = {
+				is_regular_empire = yes
+				has_policy_flag = slavery_allowed
+				has_exploited_disconnected_drones = yes
+			}
+		}
+		has_modifier = resort_colony
+	}
+}

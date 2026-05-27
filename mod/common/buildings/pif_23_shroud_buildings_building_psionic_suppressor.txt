@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/23_shroud_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_psionic_suppressor = {
+	base_buildtime = @pif_building_psionic_suppressor_construction_base_buildtime_1
+	category = unity
+	triggered_desc = {
+		text = building_psionic_suppressor_tt
+	}
+	inline_script = "pif/buildings/building_psionic_suppressor/building_config"
+	inline_script = "pif/buildings/building_psionic_suppressor/availability"
+	inline_script = "pif/buildings/building_psionic_suppressor/economy"
+	inline_script = "pif/buildings/building_psionic_suppressor/lifecycle"
+	inline_script = "pif/buildings/building_psionic_suppressor/jobs"
+	inline_script = "pif/buildings/building_psionic_suppressor/country_jobs"
+	inline_script = "pif/buildings/building_psionic_suppressor/economic_modifiers"
+	inline_script = "pif/buildings/building_psionic_suppressor/pop_modifiers"
+	inline_script = "pif/buildings/building_psionic_suppressor/planet_state"
+	inline_script = "pif/buildings/building_psionic_suppressor/tpm"
+	inline_script = "pif/buildings/building_psionic_suppressor/ai"
+}

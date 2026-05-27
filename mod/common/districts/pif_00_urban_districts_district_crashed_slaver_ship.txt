@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/00_urban_districts.txt
+# Object class: real
+
+district_crashed_slaver_ship = {
+	is_uncapped = {
+		always = no
+	}
+	can_demolish = no
+	overlay_icon = GFX_district_government
+	show_on_uncolonized = {
+		always = no
+		exists = from
+		from = {
+			is_wilderness_empire = no
+		}
+	}
+	inline_script = "pif/districts/district_crashed_slaver_ship/zone_slots"
+	inline_script = "pif/districts/district_crashed_slaver_ship/availability"
+	inline_script = "pif/districts/district_crashed_slaver_ship/economic"
+	inline_script = "pif/districts/district_crashed_slaver_ship/tpm"
+	inline_script = "pif/districts/district_crashed_slaver_ship/lifecycle"
+	inline_script = "pif/districts/district_crashed_slaver_ship/ai"
+}

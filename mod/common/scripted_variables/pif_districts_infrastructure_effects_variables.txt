@@ -1,0 +1,71 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: INFRASTRUCTURE_EFFECTS
+# Infrastructure-related speed modifiers provided by districts.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_craglands
+# -----------------------------------------------------------------------------
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/tpm.txt
+# Contexts: triggered_planet_modifier.planet_building_build_speed_mult
+@pif_district_craglands_infrastructure_effects_planet_building_build_speed_mult = 0.03
+
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/tpm.txt
+# Contexts: triggered_planet_modifier.planet_decision_enact_speed_mult
+@pif_district_craglands_infrastructure_effects_planet_decision_enact_speed_mult = 0.03
+
+
+# -----------------------------------------------------------------------------
+# district_mindlink
+# -----------------------------------------------------------------------------
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.planet_building_build_speed_mult
+@pif_district_mindlink_infrastructure_effects_planet_building_build_speed_mult = 0.03
+
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/tpm.txt
+# Contexts: triggered_planet_modifier.planet_decision_enact_speed_mult
+@pif_district_mindlink_infrastructure_effects_planet_decision_enact_speed_mult = 0.03
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/tpm.txt
+# Contexts: triggered_planet_modifier.planet_building_build_speed_mult
+@pif_district_orchard_forests_infrastructure_effects_planet_building_build_speed_mult = 0.03
+
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/tpm.txt
+# Contexts: triggered_planet_modifier.planet_decision_enact_speed_mult
+@pif_district_orchard_forests_infrastructure_effects_planet_decision_enact_speed_mult = 0.03
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/tpm.txt
+# Contexts: triggered_planet_modifier.planet_building_build_speed_mult
+@pif_district_photosynthesis_fields_infrastructure_effects_planet_building_build_speed_mult = 0.03
+
+# Controls: Planet infrastructure/decision speed modifier provided by the district.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/tpm.txt
+# Contexts: triggered_planet_modifier.planet_decision_enact_speed_mult
+@pif_district_photosynthesis_fields_infrastructure_effects_planet_decision_enact_speed_mult = 0.03

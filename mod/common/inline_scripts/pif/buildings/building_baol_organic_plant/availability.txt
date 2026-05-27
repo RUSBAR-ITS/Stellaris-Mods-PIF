@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_baol_organic_plant
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+planet_limit = @pif_building_baol_organic_plant_limits_planet_limit_1
+
+potential = {
+	NOR = {
+		is_planet_class = pc_machine
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	"tech_secrets_baol"
+}

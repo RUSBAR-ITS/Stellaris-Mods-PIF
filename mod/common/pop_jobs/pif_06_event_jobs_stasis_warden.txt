@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+stasis_warden = {
+	category = specialist
+	inline_script = "pif/jobs/stasis_warden/swap"
+	inline_script = "pif/jobs/stasis_warden/availability"
+	inline_script = "pif/jobs/stasis_warden/pop_config"
+	inline_script = "pif/jobs/stasis_warden/economy"
+	inline_script = "pif/jobs/stasis_warden/planet_state"
+	inline_script = "pif/jobs/stasis_warden/country_modifiers"
+	inline_script = "pif/jobs/stasis_warden/pop_modifiers"
+	inline_script = "pif/jobs/stasis_warden/economic_modifiers"
+	inline_script = "pif/jobs/stasis_warden/tpm"
+}

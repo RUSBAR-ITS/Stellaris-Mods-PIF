@@ -1,0 +1,19 @@
+# PIF building category: TPM
+# Vanilla building: holding_parasitic_algorithms
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	all_technology_research_speed = 0.03
+	planet_researchers_upkeep_mult = @pif_holding_parasitic_algorithms_economic_modifiers_planet_researchers_upkeep_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	monthly_loyalty = @pif_holding_parasitic_algorithms_tpm_monthly_loyalty_1
+}

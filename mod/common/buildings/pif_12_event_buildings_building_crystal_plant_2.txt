@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_crystal_plant_2 = {
+	base_buildtime = @pif_building_crystal_plant_2_construction_base_buildtime_1
+	category = manufacturing
+	inline_script = "pif/buildings/building_crystal_plant_2/building_config"
+	inline_script = "pif/buildings/building_crystal_plant_2/availability"
+	inline_script = "pif/buildings/building_crystal_plant_2/economy"
+	inline_script = "pif/buildings/building_crystal_plant_2/lifecycle"
+	inline_script = "pif/buildings/building_crystal_plant_2/jobs"
+	inline_script = "pif/buildings/building_crystal_plant_2/country_jobs"
+	inline_script = "pif/buildings/building_crystal_plant_2/economic_modifiers"
+	inline_script = "pif/buildings/building_crystal_plant_2/pop_modifiers"
+	inline_script = "pif/buildings/building_crystal_plant_2/planet_state"
+	inline_script = "pif/buildings/building_crystal_plant_2/tpm"
+	inline_script = "pif/buildings/building_crystal_plant_2/ai"
+}

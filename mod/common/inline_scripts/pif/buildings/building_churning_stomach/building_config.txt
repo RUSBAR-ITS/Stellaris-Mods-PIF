@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_churning_stomach
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+building_sets = {
+	government
+	foundry
+}

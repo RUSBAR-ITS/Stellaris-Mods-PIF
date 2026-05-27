@@ -1,0 +1,68 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: stasis_warden_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	research
+	enforcer
+	crime
+}
+
+weight = {
+	weight = @pif_stasis_warden_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|patrol_drone|RESOURCE|unity|FACTOR|0.25|
+	modifier = {
+		factor = @pif_stasis_warden_drone_job_weight_factor_2
+		planet = {
+			planet_crime > 22
+		}
+	}
+	modifier = {
+		weight = @pif_stasis_warden_drone_job_weight_weight_3
+		exists = owner
+		owner = {
+			is_at_war = yes
+		}
+	}
+	modifier = {
+		factor = @pif_stasis_warden_drone_job_weight_factor_4
+		has_trait = trait_resilient
+	}
+	modifier = {
+		factor = @pif_stasis_warden_drone_job_weight_factor_4
+		planet = {
+			planet_crime > 0
+		}
+		has_trait = trait_very_strong
+	}
+	modifier = {
+		factor = @pif_stasis_warden_drone_job_weight_factor_5
+		planet = {
+			planet_crime > 0
+		}
+		has_trait = trait_strong
+	}
+	modifier = {
+		factor = @pif_stasis_warden_drone_job_weight_factor_6
+		has_trait = trait_weak
+	}
+	modifier = {
+		factor = @pif_stasis_warden_drone_job_weight_factor_5
+		has_trait = trait_lithoid
+	}
+	modifier = {
+		factor = @pif_stasis_warden_drone_job_weight_factor_7
+		has_trait = trait_cybernetic
+	}
+}
+
+promotion = {
+	time = @pif_stasis_warden_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

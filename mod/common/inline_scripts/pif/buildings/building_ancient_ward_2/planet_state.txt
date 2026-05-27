@@ -1,0 +1,11 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_ancient_ward_2
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_orbital_bombardment_damage = @pif_building_ancient_ward_2_planet_state_planet_orbital_bombardment_damage_1
+}

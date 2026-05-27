@@ -1,0 +1,18 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_contained_ecosphere
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_contained_ecosphere_cost_cost_minerals_1
+		alloys = @pif_building_contained_ecosphere_cost_cost_alloys_2
+	}
+	upkeep = {
+		energy = @pif_building_contained_ecosphere_upkeep_upkeep_energy_1
+	}
+	produces = {
+		food = @pif_building_contained_ecosphere_economic_modifiers_produces_food_1
+	}
+}

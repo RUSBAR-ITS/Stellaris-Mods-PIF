@@ -1,0 +1,35 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: chemist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	strategic_resource
+	volatile_motes
+}
+
+weight = {
+	weight = @pif_chemist_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|chemist|RESOURCE|volatile_motes|
+	modifier = {
+		factor = @pif_chemist_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_chemist_job_weight_factor_3
+		can_take_servant_job = yes
+	}
+}
+
+promotion = {
+	time = @pif_chemist_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hyper_entertainment_forum
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+planet_limit = @pif_building_hyper_entertainment_forum_limits_planet_limit_1
+
+can_build = no
+
+prerequisites = {
+	"tech_hyper_entertainment_forum"
+}

@@ -1,0 +1,10 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_prison_industrial
+# Vanilla source: districts/00_urban_districts.txt
+
+conversion_ratio = @pif_district_prison_industrial_conversion_conversion_ratio
+
+convert_to = {
+	district_arcology_arms_industry
+	district_battle_thrall
+}

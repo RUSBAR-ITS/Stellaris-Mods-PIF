@@ -1,0 +1,43 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: bureaucrat
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_militarist = yes
+		}
+		planet = {
+			bureaucrat_is_memorialist = yes
+		}
+	}
+	country_naval_cap_add = @pif_bureaucrat_country_modifiers_country_naval_cap_add_1
+	mult = value:scripted_ethics_weight_mult|ETHIC|militarist|
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_authoritarian = yes
+		}
+		planet = {
+			bureaucrat_is_memorialist = yes
+		}
+	}
+	country_edict_fund_add = @pif_bureaucrat_country_modifiers_country_edict_fund_add_2
+	mult = value:scripted_ethics_weight_mult|ETHIC|authoritarian|
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_efficient_bureaucracy
+		}
+	}
+	country_edict_fund_add = @pif_bureaucrat_country_modifiers_country_edict_fund_add_3
+	mult = value:job_total_output_modifier|JOB|bureaucrat|RESOURCE|unity|
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_sentinel_posts = {
+	base_buildtime = @pif_building_sentinel_posts_construction_base_buildtime_1
+	category = government
+	inline_script = "pif/buildings/building_sentinel_posts/building_config"
+	inline_script = "pif/buildings/building_sentinel_posts/availability"
+	inline_script = "pif/buildings/building_sentinel_posts/economy"
+	inline_script = "pif/buildings/building_sentinel_posts/lifecycle"
+	inline_script = "pif/buildings/building_sentinel_posts/jobs"
+	inline_script = "pif/buildings/building_sentinel_posts/country_jobs"
+	inline_script = "pif/buildings/building_sentinel_posts/economic_modifiers"
+	inline_script = "pif/buildings/building_sentinel_posts/pop_modifiers"
+	inline_script = "pif/buildings/building_sentinel_posts/planet_state"
+	inline_script = "pif/buildings/building_sentinel_posts/tpm"
+	inline_script = "pif/buildings/building_sentinel_posts/ai"
+}

@@ -1,0 +1,314 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: ECONOMIC_MODIFIERS
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_worker_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/economic_modifiers.txt
+@pif_bureaucrat_economic_modifiers_planet_jobs_worker_produces_mult_2 = 0.02
+
+# Controls: Job modifier value: planet_pops_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/economic_modifiers.txt
+@pif_bureaucrat_economic_modifiers_planet_pops_upkeep_mult_1 = -0.00625
+
+# -----------------------------------------------------------------------------
+# cave_cleaner_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_minerals_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/cave_cleaner_gestalt/economic_modifiers.txt
+@pif_cave_cleaner_gestalt_economic_modifiers_planet_jobs_minerals_produces_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# civilian
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_pops_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/civilian/economic_modifiers.txt
+@pif_civilian_economic_modifiers_planet_pops_upkeep_mult_1 = -0.00625
+
+# -----------------------------------------------------------------------------
+# clerk
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_trade_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/clerk/economic_modifiers.txt
+@pif_clerk_economic_modifiers_planet_jobs_trade_produces_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# coordinator
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_simple_drone_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/coordinator/economic_modifiers.txt
+@pif_coordinator_economic_modifiers_planet_jobs_simple_drone_produces_mult_1 = 0.02
+
+# -----------------------------------------------------------------------------
+# criminal
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: branch_office_criminal_syndicate_value_add.
+# Used in: common/inline_scripts/pif/jobs/criminal/economic_modifiers.txt
+@pif_criminal_economic_modifiers_branch_office_criminal_syndicate_value_add_1 = 7.5
+
+# Controls: Job modifier value: branch_office_criminal_syndicate_value_add.
+# Used in: common/inline_scripts/pif/jobs/criminal/economic_modifiers.txt
+@pif_criminal_economic_modifiers_branch_office_criminal_syndicate_value_add_2 = 0.25
+
+# -----------------------------------------------------------------------------
+# dystopian_enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_ruler_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/economic_modifiers.txt
+@pif_dystopian_enforcer_economic_modifiers_planet_jobs_ruler_produces_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# dystopian_telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_biologists_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_biologists_upkeep_mult_4 = -0.05
+
+# Controls: Job modifier value: planet_engineers_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_engineers_upkeep_mult_6 = -0.05
+
+# Controls: Job modifier value: planet_jobs_ruler_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_jobs_ruler_produces_mult_1 = 0.10
+
+# Controls: Job modifier value: planet_jobs_trade_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_jobs_trade_produces_mult_3 = 0.02
+
+# Controls: Job modifier value: planet_metallurgists_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_metallurgists_produces_mult_7 = 0.05
+
+# Controls: Job modifier value: planet_miners_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_miners_produces_mult_8 = 0.10
+
+# Controls: Job modifier value: planet_physicists_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_physicists_upkeep_mult_5 = -0.05
+
+# Controls: Job modifier value: planet_telepaths_unity_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economic_modifiers.txt
+@pif_dystopian_telepath_economic_modifiers_planet_telepaths_unity_produces_mult_2 = 0.03
+
+# -----------------------------------------------------------------------------
+# enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_ruler_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/enforcer/economic_modifiers.txt
+@pif_enforcer_economic_modifiers_planet_jobs_ruler_produces_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# entertainer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/entertainer/economic_modifiers.txt
+@pif_entertainer_economic_modifiers_planet_jobs_produces_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# gas_plant_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_exotic_gases_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/gas_plant_engineer/economic_modifiers.txt
+@pif_gas_plant_engineer_economic_modifiers_planet_jobs_exotic_gases_produces_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# gas_plant_engineer_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_exotic_gases_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/gas_plant_engineer_gestalt/economic_modifiers.txt
+@pif_gas_plant_engineer_gestalt_economic_modifiers_planet_jobs_exotic_gases_produces_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# haruspex
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_worker_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/haruspex/economic_modifiers.txt
+@pif_haruspex_economic_modifiers_planet_jobs_worker_produces_mult_1 = 0.02
+
+# -----------------------------------------------------------------------------
+# healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_pops_organics_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/healthcare/economic_modifiers.txt
+@pif_healthcare_economic_modifiers_planet_pops_organics_upkeep_mult_1 = -0.025
+
+# -----------------------------------------------------------------------------
+# identity_designer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: branch_office_value_mult.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/economic_modifiers.txt
+@pif_identity_designer_economic_modifiers_branch_office_value_mult_1 = 1
+
+# -----------------------------------------------------------------------------
+# low_tech_bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_worker_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/low_tech_bureaucrat/economic_modifiers.txt
+@pif_low_tech_bureaucrat_economic_modifiers_planet_jobs_worker_produces_mult_1 = 0.02
+
+# -----------------------------------------------------------------------------
+# low_tech_manager
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_worker_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/low_tech_manager/economic_modifiers.txt
+@pif_low_tech_manager_economic_modifiers_planet_jobs_worker_produces_mult_1 = 0.02
+
+# -----------------------------------------------------------------------------
+# low_tech_priest
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_worker_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/low_tech_priest/economic_modifiers.txt
+@pif_low_tech_priest_economic_modifiers_planet_jobs_worker_produces_mult_1 = 0.02
+
+# -----------------------------------------------------------------------------
+# machine_nurse
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_complex_and_simple_drone_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/machine_nurse/economic_modifiers.txt
+@pif_machine_nurse_economic_modifiers_planet_jobs_complex_and_simple_drone_produces_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_worker_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder/economic_modifiers.txt
+@pif_overlord_offspring_drone_feeder_economic_modifiers_planet_jobs_worker_produces_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_simple_drone_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder_drone/economic_modifiers.txt
+@pif_overlord_offspring_drone_feeder_drone_economic_modifiers_planet_jobs_simple_drone_produces_mult_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# overlord_ranger
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_pops_consumer_goods_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_ranger/economic_modifiers.txt
+@pif_overlord_ranger_economic_modifiers_planet_pops_consumer_goods_upkeep_mult_1 = -0.1
+
+# -----------------------------------------------------------------------------
+# overlord_ranger_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_pops_consumer_goods_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/overlord_ranger_drone/economic_modifiers.txt
+@pif_overlord_ranger_drone_economic_modifiers_planet_pops_consumer_goods_upkeep_mult_1 = -0.1
+
+# -----------------------------------------------------------------------------
+# roboticist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: branch_office_value_mult.
+# Used in: common/inline_scripts/pif/jobs/roboticist/economic_modifiers.txt
+@pif_roboticist_economic_modifiers_branch_office_value_mult_2 = 1
+
+# Controls: Job modifier value: value.
+# Used in: common/inline_scripts/pif/jobs/roboticist/economic_modifiers.txt
+@pif_roboticist_economic_modifiers_value_1 = 0
+
+# -----------------------------------------------------------------------------
+# slave_overseer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_ruler_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/economic_modifiers.txt
+@pif_slave_overseer_economic_modifiers_planet_jobs_ruler_produces_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_simple_drone_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/economic_modifiers.txt
+@pif_spawning_drone_economic_modifiers_planet_jobs_simple_drone_produces_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# stasis_warden
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_jobs_ruler_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/economic_modifiers.txt
+@pif_stasis_warden_economic_modifiers_planet_jobs_ruler_produces_mult_1 = 0.10
+
+# -----------------------------------------------------------------------------
+# telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_biologists_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_biologists_upkeep_mult_4 = -0.05
+
+# Controls: Job modifier value: planet_engineers_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_engineers_upkeep_mult_6 = -0.05
+
+# Controls: Job modifier value: planet_jobs_ruler_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_jobs_ruler_produces_mult_1 = 0.10
+
+# Controls: Job modifier value: planet_jobs_trade_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_jobs_trade_produces_mult_3 = 0.02
+
+# Controls: Job modifier value: planet_metallurgists_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_metallurgists_produces_mult_7 = 0.05
+
+# Controls: Job modifier value: planet_miners_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_miners_produces_mult_8 = 0.10
+
+# Controls: Job modifier value: planet_physicists_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_physicists_upkeep_mult_5 = -0.05
+
+# Controls: Job modifier value: planet_telepaths_unity_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/economic_modifiers.txt
+@pif_telepath_economic_modifiers_planet_telepaths_unity_produces_mult_2 = 0.03
+
+# -----------------------------------------------------------------------------
+# telepath_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_biologists_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_biologists_upkeep_mult_4 = -0.05
+
+# Controls: Job modifier value: planet_engineers_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_engineers_upkeep_mult_6 = -0.05
+
+# Controls: Job modifier value: planet_jobs_ruler_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_jobs_ruler_produces_mult_1 = 0.10
+
+# Controls: Job modifier value: planet_jobs_trade_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_jobs_trade_produces_mult_3 = 0.02
+
+# Controls: Job modifier value: planet_metallurgists_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_metallurgists_produces_mult_7 = 0.05
+
+# Controls: Job modifier value: planet_miners_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_miners_produces_mult_8 = 0.10
+
+# Controls: Job modifier value: planet_physicists_upkeep_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_physicists_upkeep_mult_5 = -0.05
+
+# Controls: Job modifier value: planet_telepaths_unity_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economic_modifiers.txt
+@pif_telepath_drone_economic_modifiers_planet_telepaths_unity_produces_mult_2 = 0.03
+
+# -----------------------------------------------------------------------------
+# test_subject
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: branch_office_criminal_syndicate_value_add.
+# Used in: common/inline_scripts/pif/jobs/test_subject/economic_modifiers.txt
+@pif_test_subject_economic_modifiers_branch_office_criminal_syndicate_value_add_1 = 7.5
+
+# Controls: Job modifier value: branch_office_criminal_syndicate_value_add.
+# Used in: common/inline_scripts/pif/jobs/test_subject/economic_modifiers.txt
+@pif_test_subject_economic_modifiers_branch_office_criminal_syndicate_value_add_2 = 0.25

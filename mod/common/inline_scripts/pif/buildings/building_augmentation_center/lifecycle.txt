@@ -1,0 +1,15 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_augmentation_center
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		NOR = {
+			has_country_flag = augmentation_center_available
+			has_active_tradition = tr_cybernetics_augmentation_centers
+			has_active_tradition = tr_cybernetics_assimilator_augmentation_centers
+		}
+	}
+}

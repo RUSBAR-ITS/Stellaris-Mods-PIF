@@ -1,0 +1,51 @@
+# PIF building category: AI
+# Vanilla building: building_organic_paradise
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+ai_weight_coefficient = @pif_building_organic_paradise_ai_ai_weight_coefficient_1
+
+ai_resource_production = {
+	unity = @pif_building_organic_paradise_ai_unity_2
+	physics_research = @pif_building_organic_paradise_ai_physics_research_3
+	trigger = {
+		any_owned_pop_group = {
+			is_pop_category = bio_trophy_unemployment
+		}
+		planet_resource_compare = {
+			resource = physics_research
+			value >= @pif_building_organic_paradise_ai_value_4
+			type = produces
+		}
+	}
+}
+
+ai_resource_production = {
+	unity = @pif_building_organic_paradise_ai_unity_2
+	alloys = @pif_building_organic_paradise_ai_alloys_5
+	trigger = {
+		any_owned_pop_group = {
+			is_pop_category = bio_trophy_unemployment
+		}
+		planet_resource_compare = {
+			resource = alloys
+			value >= @pif_building_organic_paradise_ai_value_4
+			type = produces
+		}
+	}
+}
+
+ai_resource_production = {
+	unity = @pif_building_organic_paradise_ai_unity_2
+	consumer_goods = @pif_building_organic_paradise_ai_consumer_goods_6
+	trigger = {
+		any_owned_pop_group = {
+			is_pop_category = bio_trophy_unemployment
+		}
+		planet_resource_compare = {
+			resource = consumer_goods
+			value >= @pif_building_organic_paradise_ai_value_4
+			type = produces
+		}
+	}
+}

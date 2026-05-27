@@ -1,0 +1,23 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: criminal
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_criminal_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_sapient = yes
+}
+
+possible = {
+	NOT = {
+		has_citizenship_type = {
+			country = owner
+			type = citizenship_robot_servitude
+		}
+	}
+	owner = {
+		is_gestalt = no
+	}
+}

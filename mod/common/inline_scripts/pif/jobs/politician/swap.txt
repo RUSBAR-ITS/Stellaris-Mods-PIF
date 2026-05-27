@@ -1,0 +1,195 @@
+# PIF job category: SWAP
+# Vanilla job: politician
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = RULER_JOB_TRIGGER
+		building_icon = building_capital
+		icon = politician
+	}
+	swap_type = {
+		trigger = {
+			politician_is_executive = yes
+		}
+		name = executive
+		icon = executive
+		desc = job_executive_desc
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			politician_is_science_director = yes
+		}
+		name = head_researcher
+		icon = researcher
+		desc = job_head_researcher_desc
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			politician_is_noble = yes
+		}
+		name = noble
+		icon = noble
+		desc = job_noble_desc
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			politician_is_merchant = yes
+		}
+		name = merchant
+		icon = merchant
+		desc = job_merchant_desc
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			politician_is_high_priest = yes
+		}
+		name = high_priest
+		icon = high_priest
+		desc = job_high_priest_desc
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			politician_is_technophant = yes
+		}
+		name = technophant
+		icon = technophant
+		desc = job_technophant_desc
+		weight = 30
+	}
+	swap_type = {
+		trigger = {
+			politician_is_fire_oracle = yes
+		}
+		name = fire_oracle
+		icon = fire_oracle
+		desc = job_fire_oracle_desc
+		weight = 25
+	}
+	swap_type = {
+		trigger = {
+			politician_is_blazewright = yes
+		}
+		name = blazewright
+		icon = blazewright
+		desc = job_blazewright_desc
+		weight = 26
+	}
+	swap_type = {
+		trigger = {
+			politician_is_radiant_priest = yes
+		}
+		name = radiant_priest
+		icon = radiant_priest
+		desc = job_radiant_priest_desc
+		weight = 26
+	}
+	swap_type = {
+		trigger = {
+			politician_is_pyrocrat = yes
+		}
+		name = pyrocrat
+		icon = pyrocrat
+		desc = job_pyrocrat_desc
+		weight = 26
+	}
+	swap_type = {
+		trigger = {
+			politician_is_ashbroker = yes
+		}
+		name = ashbroker
+		icon = ashbroker
+		desc = job_ashbroker_desc
+		weight = 26
+	}
+	swap_type = {
+		trigger = {
+			politician_is_blazing_harbinger = yes
+		}
+		name = blazing_harbinger
+		icon = pyrocrat
+		desc = job_blazing_harbinger_desc
+		weight = 27
+	}
+	swap_type = {
+		trigger = {
+			politician_is_planetary_warden = yes
+		}
+		name = warden
+		icon = enforcer
+		desc = job_warden_desc
+		weight = 15
+	}
+	swap_type = {
+		trigger = {
+			politician_is_noble = yes
+			politician_is_science_director = yes
+		}
+		name = noble_researcher
+		icon = noble
+		desc = job_noble_researcher_desc
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			politician_is_noble = yes
+			politician_is_high_priest = yes
+		}
+		name = sacred_noble
+		icon = noble
+		desc = job_sacred_noble_desc
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			politician_is_augmentation_merchant = yes
+		}
+		name = augmentation_merchant
+		icon = augmentor
+		desc = job_augmentation_merchant_desc
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			politician_is_superstitious_beliefs_high_priest = yes
+		}
+		name = superstitious_beliefs_high_priest
+		desc = superstitious_beliefs_high_priest
+		icon = superstitious_beliefs_priest
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			politician_is_superstitious_beliefs_high_priest_corporate = yes
+		}
+		name = superstitious_beliefs_high_priest_corporate
+		desc = superstitious_beliefs_high_priest_corporate
+		icon = superstitious_beliefs_priest
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			politician_is_visionary = yes
+		}
+		name = visionary
+		desc = visionary
+		icon = executive
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			politician_is_noble = yes
+			politician_is_merchant = yes
+		}
+		name = noble_merchant
+		icon = noble
+		desc = job_noble_merchant_desc
+		weight = 20
+	}
+}

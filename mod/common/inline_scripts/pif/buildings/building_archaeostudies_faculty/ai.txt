@@ -1,0 +1,21 @@
+# PIF building category: AI
+# Vanilla building: building_archaeostudies_faculty
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+ai_weight_coefficient = @pif_building_archaeostudies_faculty_ai_ai_weight_coefficient_1
+
+ai_resource_production = {
+	society_research = @pif_building_archaeostudies_faculty_ai_society_research_2
+	trigger = {
+		has_any_unspecialized_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	society_research = @pif_building_archaeostudies_faculty_ai_society_research_2
+	mult = @pif_building_archaeostudies_faculty_ai_mult_3
+	trigger = {
+		has_any_research_engineering_zone = yes
+	}
+}

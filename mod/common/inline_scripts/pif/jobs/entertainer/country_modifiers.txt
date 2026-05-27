@@ -1,0 +1,11 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: entertainer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		entertainer_is_duelist_trigger = yes
+	}
+	country_naval_cap_add = @pif_entertainer_country_modifiers_country_naval_cap_add_1
+}

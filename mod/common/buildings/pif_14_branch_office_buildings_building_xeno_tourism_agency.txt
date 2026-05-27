@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_xeno_tourism_agency = {
+	base_buildtime = @pif_building_xeno_tourism_agency_construction_base_buildtime_1
+	owner_type = corporate
+	category = government
+	custom_tooltip = trade_value_from_workers_double
+	inline_script = "pif/buildings/building_xeno_tourism_agency/building_config"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/availability"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/economy"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/lifecycle"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/jobs"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/country_jobs"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/economic_modifiers"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/pop_modifiers"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/planet_state"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/tpm"
+	inline_script = "pif/buildings/building_xeno_tourism_agency/ai"
+}

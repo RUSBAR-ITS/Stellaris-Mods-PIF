@@ -1,0 +1,26 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: robot_servant_unprocessing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_robot_servant_unprocessing_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_robotic = yes
+}
+
+possible = {
+	NOT = {
+		hidden_trigger = {
+			exists = owner
+		}
+		has_citizenship_type = {
+			type = citizenship_robot_servitude
+			country = owner
+		}
+	}
+	is_pop_category = robot_servant
+}

@@ -1,0 +1,33 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: low_tech_manager
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+tags = {
+	trade
+	unity
+}
+
+weight = {
+	weight = @pif_low_tech_manager_job_weight_weight_1
+	mult = value:job_weights_multiple_resources_modifier|JOB|low_tech_bureaucrat|RESOURCE1|unity|WEIGHT1|0.5|RESOURCE2|trade|WEIGHT2|0.5|
+}
+
+auto_trait_prio = {
+	trait_thrifty
+	trait_commercial_genius
+	trait_robot_trading_algorithms
+	trait_cyborg_trading_algorithms
+	trait_malleable_trade
+	trait_adaptive_trade
+}
+
+promotion = {
+	time = @pif_low_tech_manager_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

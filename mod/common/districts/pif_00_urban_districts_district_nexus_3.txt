@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/00_urban_districts.txt
+# Object class: real
+
+district_nexus_3 = {
+	icon = district_nexus_secondary
+	base_buildtime = @pif_district_nexus_3_construction_build_time_days
+	overlay_icon = GFX_district_housing
+	show_on_uncolonized = {
+		uses_district_set = machine_world
+	}
+	triggered_name = {
+		text = district_nexus_name
+	}
+	inline_script = "pif/districts/district_nexus_3/zone_slots"
+	inline_script = "pif/districts/district_nexus_3/availability"
+	inline_script = "pif/districts/district_nexus_3/economic"
+	inline_script = "pif/districts/district_nexus_3/tpm"
+	inline_script = "pif/districts/district_nexus_3/lifecycle"
+	inline_script = "pif/districts/district_nexus_3/ai"
+}

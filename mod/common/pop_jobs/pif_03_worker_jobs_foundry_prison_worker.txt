@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+foundry_prison_worker = {
+	category = worker
+	inline_script = "pif/jobs/foundry_prison_worker/swap"
+	inline_script = "pif/jobs/foundry_prison_worker/availability"
+	inline_script = "pif/jobs/foundry_prison_worker/pop_config"
+	inline_script = "pif/jobs/foundry_prison_worker/economy"
+	inline_script = "pif/jobs/foundry_prison_worker/planet_state"
+	inline_script = "pif/jobs/foundry_prison_worker/country_modifiers"
+	inline_script = "pif/jobs/foundry_prison_worker/pop_modifiers"
+	inline_script = "pif/jobs/foundry_prison_worker/economic_modifiers"
+	inline_script = "pif/jobs/foundry_prison_worker/tpm"
+}

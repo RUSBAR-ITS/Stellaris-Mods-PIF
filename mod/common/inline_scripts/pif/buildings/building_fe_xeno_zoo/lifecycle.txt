@@ -1,0 +1,14 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_fe_xeno_zoo
+# Vanilla class: capital
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_demolish = yes
+
+convert_to = {
+	building_hive_capital
+	building_machine_capital
+	building_capital
+}
+
+upgrades = {}

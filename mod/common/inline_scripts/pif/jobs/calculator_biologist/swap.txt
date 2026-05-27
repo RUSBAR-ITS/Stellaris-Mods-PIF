@@ -1,0 +1,83 @@
+# PIF job category: SWAP
+# Vanilla job: calculator_biologist
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_research_lab_1
+		icon = biologist
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_wilderness_empire = no
+			}
+		}
+		name = brain_drone_biologist
+		desc = brain_drone_biologist
+		icon = brain_drone_biologist
+		building_icon = building_research_lab_1
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 2
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			has_building = building_archaeostudies_faculty
+			owner = {
+				is_hive_empire = yes
+				is_wilderness_empire = no
+			}
+		}
+		name = archaeo_drone
+		desc = archaeo_drone
+		icon = archaeo_drone
+		building_icon = building_archaeostudies_faculty
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 3
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			has_building = building_archaeostudies_faculty
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		name = archaeo_unit
+		desc = archaeo_unit
+		icon = archaeo_unit
+		building_icon = building_archaeostudies_faculty
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 3
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = evosymbiont_biologist
+		desc = evosymbiont
+		icon = brain_drone_biologist
+		building_icon = brain_node_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			biologist_is_observator_trigger = yes
+		}
+		name = observator_drone
+		desc = job_observator_drone_desc
+		icon = observator_drone
+		building_icon = building_shroud_observatory_1
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

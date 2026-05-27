@@ -1,0 +1,148 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: JOBS_DEFENSE
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_fortress
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt
+@pif_zone_fortress_jobs_defense_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt
+@pif_zone_fortress_jobs_defense_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_battle_thrall_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt
+@pif_zone_fortress_jobs_defense_job_amount_job_battle_thrall_add_4 = 100
+
+# Controls: job amount: job_soldier_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt
+@pif_zone_fortress_jobs_defense_job_amount_job_soldier_add_1 = 100
+
+# Controls: job amount: job_warrior_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt
+@pif_zone_fortress_jobs_defense_job_amount_job_warrior_drone_add_5 = 100
+
+# -----------------------------------------------------------------------------
+# zone_fortress_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt
+@pif_zone_fortress_arcology_jobs_defense_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt
+@pif_zone_fortress_arcology_jobs_defense_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_battle_thrall_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt
+@pif_zone_fortress_arcology_jobs_defense_job_amount_job_battle_thrall_add_4 = 200
+
+# Controls: job amount: job_soldier_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt
+@pif_zone_fortress_arcology_jobs_defense_job_amount_job_soldier_add_1 = 200
+
+# Controls: job amount: job_warrior_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt
+@pif_zone_fortress_arcology_jobs_defense_job_amount_job_warrior_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_fortress_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt
+@pif_zone_fortress_hive_jobs_defense_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt
+@pif_zone_fortress_hive_jobs_defense_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_battle_thrall_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt
+@pif_zone_fortress_hive_jobs_defense_job_amount_job_battle_thrall_add_4 = 200
+
+# Controls: job amount: job_soldier_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt
+@pif_zone_fortress_hive_jobs_defense_job_amount_job_soldier_add_1 = 200
+
+# Controls: job amount: job_warrior_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt
+@pif_zone_fortress_hive_jobs_defense_job_amount_job_warrior_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_fortress_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt
+@pif_zone_fortress_nexus_jobs_defense_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt
+@pif_zone_fortress_nexus_jobs_defense_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_battle_thrall_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt
+@pif_zone_fortress_nexus_jobs_defense_job_amount_job_battle_thrall_add_4 = 200
+
+# Controls: job amount: job_soldier_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt
+@pif_zone_fortress_nexus_jobs_defense_job_amount_job_soldier_add_1 = 200
+
+# Controls: job amount: job_warrior_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt
+@pif_zone_fortress_nexus_jobs_defense_job_amount_job_warrior_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_fortress_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt
+@pif_zone_fortress_ring_world_jobs_defense_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt
+@pif_zone_fortress_ring_world_jobs_defense_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_battle_thrall_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt
+@pif_zone_fortress_ring_world_jobs_defense_job_amount_job_battle_thrall_add_4 = 200
+
+# Controls: job amount: job_soldier_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt
+@pif_zone_fortress_ring_world_jobs_defense_job_amount_job_soldier_add_1 = 200
+
+# Controls: job amount: job_warrior_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt
+@pif_zone_fortress_ring_world_jobs_defense_job_amount_job_warrior_drone_add_5 = 200
+
+# -----------------------------------------------------------------------------
+# zone_fortress_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/tpm.txt
+@pif_zone_fortress_wilderness_jobs_defense_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/tpm.txt
+@pif_zone_fortress_wilderness_jobs_defense_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_battle_thrall_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/tpm.txt
+@pif_zone_fortress_wilderness_jobs_defense_job_amount_job_battle_thrall_add_4 = 100
+
+# Controls: job amount: job_soldier_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/tpm.txt
+@pif_zone_fortress_wilderness_jobs_defense_job_amount_job_soldier_add_1 = 100
+
+# Controls: job amount: job_warrior_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/tpm.txt
+@pif_zone_fortress_wilderness_jobs_defense_job_amount_job_warrior_drone_add_5 = 100
+
+# -----------------------------------------------------------------------------
+# zone_habitat_knights
+# -----------------------------------------------------------------------------
+# Controls: job amount: job_knight_add.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_knights/tpm.txt
+@pif_zone_habitat_knights_jobs_defense_job_amount_job_knight_add_1 = 50

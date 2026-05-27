@@ -1,0 +1,18 @@
+# PIF building category: AI
+# Vanilla building: building_augmentation_bazaars_branch
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+ai_resource_production = {
+	energy = @pif_building_augmentation_bazaars_branch_ai_energy_1
+	trigger = {
+		solar_system = {}
+	}
+}
+
+ai_resource_production = {
+	energy = @pif_building_augmentation_bazaars_branch_ai_energy_2
+	trigger = {
+		solar_system = {}
+	}
+}

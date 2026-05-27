@@ -1,0 +1,19 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_primitive_factory = {
+	category = manufacturing
+	inline_script = "pif/buildings/building_primitive_factory/building_config"
+	inline_script = "pif/buildings/building_primitive_factory/availability"
+	inline_script = "pif/buildings/building_primitive_factory/economy"
+	inline_script = "pif/buildings/building_primitive_factory/lifecycle"
+	inline_script = "pif/buildings/building_primitive_factory/jobs"
+	inline_script = "pif/buildings/building_primitive_factory/country_jobs"
+	inline_script = "pif/buildings/building_primitive_factory/economic_modifiers"
+	inline_script = "pif/buildings/building_primitive_factory/pop_modifiers"
+	inline_script = "pif/buildings/building_primitive_factory/planet_state"
+	inline_script = "pif/buildings/building_primitive_factory/tpm"
+	inline_script = "pif/buildings/building_primitive_factory/ai"
+}

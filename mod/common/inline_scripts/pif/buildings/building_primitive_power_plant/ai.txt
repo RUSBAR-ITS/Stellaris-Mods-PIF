@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_primitive_power_plant
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+# Empty PIF building category hook.

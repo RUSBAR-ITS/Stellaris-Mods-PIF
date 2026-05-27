@@ -1,0 +1,18 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+clip_maximizer = {
+	category = purge
+	purge = purge_clips
+	inline_script = "pif/jobs/clip_maximizer/swap"
+	inline_script = "pif/jobs/clip_maximizer/availability"
+	inline_script = "pif/jobs/clip_maximizer/pop_config"
+	inline_script = "pif/jobs/clip_maximizer/economy"
+	inline_script = "pif/jobs/clip_maximizer/planet_state"
+	inline_script = "pif/jobs/clip_maximizer/country_modifiers"
+	inline_script = "pif/jobs/clip_maximizer/pop_modifiers"
+	inline_script = "pif/jobs/clip_maximizer/economic_modifiers"
+	inline_script = "pif/jobs/clip_maximizer/tpm"
+}

@@ -1,0 +1,30 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_necrophage_house_of_apotheosis
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			OR = {
+				NOT = {
+					has_origin = origin_necrophage
+				}
+				NOT = {
+					has_trait = trait_necrophage
+				}
+			}
+		}
+		AND = {
+			owner = {
+				is_ai = yes
+			}
+			NOT = {
+				any_owned_species = {
+					species_can_be_necrophaged = yes
+				}
+			}
+		}
+	}
+}

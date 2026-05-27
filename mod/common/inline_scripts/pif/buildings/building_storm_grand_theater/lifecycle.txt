@@ -1,0 +1,19 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_storm_grand_theater
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_storm_callers_empire = no
+	}
+}
+
+on_built = {
+	create_influence_field_if_needed = yes
+}
+
+on_enabled = {
+	create_influence_field_if_needed = yes
+}

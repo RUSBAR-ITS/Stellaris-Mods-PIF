@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/05_primitive_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+hunter_gatherer = {
+	category = worker
+	inline_script = "pif/jobs/hunter_gatherer/swap"
+	inline_script = "pif/jobs/hunter_gatherer/availability"
+	inline_script = "pif/jobs/hunter_gatherer/pop_config"
+	inline_script = "pif/jobs/hunter_gatherer/economy"
+	inline_script = "pif/jobs/hunter_gatherer/planet_state"
+	inline_script = "pif/jobs/hunter_gatherer/country_modifiers"
+	inline_script = "pif/jobs/hunter_gatherer/pop_modifiers"
+	inline_script = "pif/jobs/hunter_gatherer/economic_modifiers"
+	inline_script = "pif/jobs/hunter_gatherer/tpm"
+}

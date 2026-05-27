@@ -1,0 +1,27 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_food_processing_center
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			OR = {
+				AND = {
+					is_ai = yes
+					country_uses_food = no
+				}
+				is_wilderness_empire = yes
+			}
+		}
+		AND = {
+			owner = {
+				is_ai = yes
+			}
+			has_any_farming_district_or_building = no
+		}
+		is_planet_class = pc_machine
+		has_modifier = resort_colony
+	}
+}

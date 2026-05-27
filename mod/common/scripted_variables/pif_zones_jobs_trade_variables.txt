@@ -1,0 +1,246 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: JOBS_TRADE
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_anglers
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_trade_job_amount_job_trader_add_1 = 50
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_urban
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
+@pif_zone_agrarian_urban_jobs_trade_job_amount_job_trader_add_1 = 75
+
+# -----------------------------------------------------------------------------
+# zone_subterranean_urban
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
+@pif_zone_subterranean_urban_jobs_trade_job_amount_job_trader_add_1 = 75
+
+# -----------------------------------------------------------------------------
+# zone_trade
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
+@pif_zone_trade_jobs_trade_job_amount_job_trader_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_trade_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
+@pif_zone_trade_arcology_jobs_trade_job_amount_job_trader_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
+@pif_zone_trade_hive_jobs_trade_job_amount_job_trader_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
+@pif_zone_trade_nexus_jobs_trade_job_amount_job_trader_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
+@pif_zone_trade_ring_world_jobs_trade_job_amount_job_trader_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_trade_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_trade_district_modifier_scaling_multiplier_2 = 0.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_trade_district_modifier_scaling_multiplier_3 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_trade_district_modifier_scaling_multiplier_4 = 1.5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_trade_district_modifier_scaling_multiplier_5 = 5
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_trade_district_modifier_scaling_multiplier_6 = 2.5
+
+# Controls: job amount: job_trader_add.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
+@pif_zone_trade_wilderness_jobs_trade_job_amount_job_trader_add_1 = 100

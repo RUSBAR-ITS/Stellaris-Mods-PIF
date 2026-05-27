@@ -1,0 +1,11 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_hive_primitive_dwellings
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_hive_primitive_dwellings_planet_state_planet_housing_add_1
+}

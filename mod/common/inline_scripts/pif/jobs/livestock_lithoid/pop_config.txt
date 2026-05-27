@@ -1,0 +1,10 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: livestock_lithoid
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+first_come_first_served = @pif_livestock_lithoid_job_flags_first_come_first_served_2
+
+weight = {
+	weight = @pif_livestock_lithoid_job_weight_weight_1
+}

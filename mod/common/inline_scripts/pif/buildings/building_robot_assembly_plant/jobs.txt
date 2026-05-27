@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: building_robot_assembly_plant
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_roboticist_add = @pif_building_robot_assembly_plant_jobs_job_roboticist_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_replicator_add = @pif_building_robot_assembly_plant_jobs_job_replicator_add_2
+}

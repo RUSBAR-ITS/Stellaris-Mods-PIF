@@ -1,0 +1,256 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: DEMOTION
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# bio_trophy_processing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/bio_trophy_processing/pop_config.txt
+@pif_bio_trophy_processing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# bio_trophy_unprocessing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/bio_trophy_unprocessing/pop_config.txt
+@pif_bio_trophy_unprocessing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# clip_maximizer
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/clip_maximizer/pop_config.txt
+@pif_clip_maximizer_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# complex_drone_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/complex_drone_unemployment/pop_config.txt
+@pif_complex_drone_unemployment_demotion_time_1 = 1
+
+# -----------------------------------------------------------------------------
+# crisis_purge
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/crisis_purge/pop_config.txt
+@pif_crisis_purge_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# event_purge
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/event_purge/pop_config.txt
+@pif_event_purge_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# heart_processing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/heart_processing/pop_config.txt
+@pif_heart_processing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# neural_chip_processing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/neural_chip_processing/pop_config.txt
+@pif_neural_chip_processing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# neural_chip_unprocessing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/neural_chip_unprocessing/pop_config.txt
+@pif_neural_chip_unprocessing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# pre_sapient_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/pre_sapient_nascent/pop_config.txt
+@pif_pre_sapient_nascent_demotion_time_1 = 1800
+
+# -----------------------------------------------------------------------------
+# presapient_processing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/presapient_processing/pop_config.txt
+@pif_presapient_processing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# presapient_unprocessing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/presapient_unprocessing/pop_config.txt
+@pif_presapient_unprocessing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge/pop_config.txt
+@pif_purge_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_labor_camps
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_labor_camps/pop_config.txt
+@pif_purge_labor_camps_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_lithoid/pop_config.txt
+@pif_purge_lithoid_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_matrix
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_matrix/pop_config.txt
+@pif_purge_matrix_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_processing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_processing/pop_config.txt
+@pif_purge_processing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_processing_infernal
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_processing_infernal/pop_config.txt
+@pif_purge_processing_infernal_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_processing_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_processing_lithoid/pop_config.txt
+@pif_purge_processing_lithoid_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_processing_robot
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_processing_robot/pop_config.txt
+@pif_purge_processing_robot_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_robot
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_robot/pop_config.txt
+@pif_purge_robot_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_sacrifice
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_sacrifice/pop_config.txt
+@pif_purge_sacrifice_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# purge_unprocessing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/purge_unprocessing/pop_config.txt
+@pif_purge_unprocessing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# robot_servant_processing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/robot_servant_processing/pop_config.txt
+@pif_robot_servant_processing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# robot_servant_unprocessing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/robot_servant_unprocessing/pop_config.txt
+@pif_robot_servant_unprocessing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# ruler_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/ruler_unemployment/pop_config.txt
+@pif_ruler_unemployment_demotion_time_1 = 1
+
+# -----------------------------------------------------------------------------
+# simple_drone_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/simple_drone_unemployment/pop_config.txt
+@pif_simple_drone_unemployment_demotion_time_1 = 1
+
+# -----------------------------------------------------------------------------
+# slave_processing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/slave_processing/pop_config.txt
+@pif_slave_processing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# slave_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/slave_unemployment/pop_config.txt
+@pif_slave_unemployment_demotion_time_1 = 1
+
+# -----------------------------------------------------------------------------
+# slave_unprocessing
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/slave_unprocessing/pop_config.txt
+@pif_slave_unprocessing_demotion_time_1 = 0
+
+# -----------------------------------------------------------------------------
+# specialist_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/specialist_unemployment/pop_config.txt
+@pif_specialist_unemployment_demotion_time_1 = 1
+
+# -----------------------------------------------------------------------------
+# worker_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/worker_unemployment/pop_config.txt
+@pif_worker_unemployment_demotion_time_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_lithoid_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_lithoid_nascent/pop_config.txt
+@pif_xeno_zoo_animal_lithoid_nascent_demotion_time_1 = 1800
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_nascent/pop_config.txt
+@pif_xeno_zoo_animal_nascent_demotion_time_1 = 1800
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_lithoid_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_lithoid_nascent/pop_config.txt
+@pif_xeno_zoo_beast_lithoid_nascent_demotion_time_1 = 1800
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job demotion time.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_nascent/pop_config.txt
+@pif_xeno_zoo_beast_nascent_demotion_time_1 = 1800

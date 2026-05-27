@@ -1,0 +1,21 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: hunter_gatherer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+tags = {}
+
+weight = {
+	weight = @pif_hunter_gatherer_job_weight_weight_1
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+promotion = {
+	time = @pif_hunter_gatherer_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

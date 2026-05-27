@@ -1,0 +1,71 @@
+# PIF building category: JOBS
+# Vanilla building: building_order_keep
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_country_flag = toxoids_7060_A
+		}
+	}
+	job_knight_add = @pif_building_order_keep_jobs_job_knight_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			NOT = {
+				has_country_flag = quest_over
+			}
+		}
+	}
+	modifier = {
+		job_knight_add = @pif_building_order_keep_jobs_job_knight_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_country_flag = toxoids_7130_a
+		}
+	}
+	job_knight_add = @pif_building_order_keep_jobs_job_knight_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_country_flag = toxoids_7060_B
+		}
+	}
+	job_knight_add = @pif_building_order_keep_jobs_job_knight_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_country_flag = toxoids_7040_c
+		}
+	}
+	job_knight_add = @pif_building_order_keep_jobs_job_knight_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_country_flag = toxoids_7095_a
+		}
+	}
+	job_knight_add = @pif_building_order_keep_jobs_job_knight_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_country_flag = toxoids_7160_a
+		}
+	}
+	job_knight_add = @pif_building_order_keep_jobs_job_knight_add_1
+}

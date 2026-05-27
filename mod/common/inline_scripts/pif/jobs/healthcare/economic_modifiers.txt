@@ -1,0 +1,14 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: healthcare
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet
+		planet = {
+			has_building = building_medical_3
+		}
+	}
+	planet_pops_organics_upkeep_mult = @pif_healthcare_economic_modifiers_planet_pops_organics_upkeep_mult_1
+}

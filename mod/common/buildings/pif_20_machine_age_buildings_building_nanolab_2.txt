@@ -1,0 +1,38 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_nanolab_2 = {
+	base_buildtime = @pif_building_nanolab_2_construction_base_buildtime_1
+	category = research
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = engineer_is_nanotech_researcher_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		text = engineering_calculator_is_nanotech_researcher_tt
+	}
+	inline_script = "pif/buildings/building_nanolab_2/building_config"
+	inline_script = "pif/buildings/building_nanolab_2/availability"
+	inline_script = "pif/buildings/building_nanolab_2/economy"
+	inline_script = "pif/buildings/building_nanolab_2/lifecycle"
+	inline_script = "pif/buildings/building_nanolab_2/jobs"
+	inline_script = "pif/buildings/building_nanolab_2/country_jobs"
+	inline_script = "pif/buildings/building_nanolab_2/economic_modifiers"
+	inline_script = "pif/buildings/building_nanolab_2/pop_modifiers"
+	inline_script = "pif/buildings/building_nanolab_2/planet_state"
+	inline_script = "pif/buildings/building_nanolab_2/tpm"
+	inline_script = "pif/buildings/building_nanolab_2/ai"
+}

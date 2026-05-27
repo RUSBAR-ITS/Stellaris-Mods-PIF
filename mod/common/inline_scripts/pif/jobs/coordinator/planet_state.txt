@@ -1,0 +1,26 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: coordinator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_memorialist_empire = yes
+		}
+	}
+	modifier = {
+		planet_stability_add = @pif_coordinator_planet_state_planet_stability_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_active_building = building_league_offices
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_coordinator_planet_state_planet_amenities_no_happiness_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

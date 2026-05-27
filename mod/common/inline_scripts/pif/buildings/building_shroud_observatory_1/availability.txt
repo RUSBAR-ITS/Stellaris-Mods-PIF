@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_shroud_observatory_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_shroud_forged
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = SHROUD_RIFT_MISSING_TT
+		has_deposit = d_shroud_rift_deposit
+	}
+}

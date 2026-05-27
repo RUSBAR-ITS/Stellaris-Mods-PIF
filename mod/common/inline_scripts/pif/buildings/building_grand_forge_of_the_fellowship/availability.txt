@@ -1,0 +1,22 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_grand_forge_of_the_fellowship
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+can_build = no
+
+allow = {
+	has_major_upgraded_capital = yes
+	hidden_trigger = {
+		exists = owner
+		owner = {
+			has_origin = origin_cybernetic_creed
+		}
+	}
+	custom_tooltip = {
+		fail_text = not_cybernetic_creed_construction
+		owner = {
+			has_country_flag = cybernetic_creed_construction
+		}
+	}
+}

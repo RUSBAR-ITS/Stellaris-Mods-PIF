@@ -1,0 +1,16 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_sacrificial_shrine
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_sacrificial_shrine_limits_planet_limit_1
+
+potential = {
+	owner.overlord = {
+		is_death_cult_empire = yes
+	}
+	owner = {
+		is_machine_empire = no
+		is_wilderness_empire = no
+	}
+}

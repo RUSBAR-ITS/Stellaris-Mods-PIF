@@ -1,0 +1,28 @@
+# PIF building category: JOBS
+# Vanilla building: building_offspring_nest
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	modifier = {
+		job_spawning_drone_add = @pif_building_offspring_nest_jobs_job_spawning_drone_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_cybernetics_synaptic_sub_processing
+		}
+	}
+	modifier = {
+		job_augmentor_drone_add = @pif_building_offspring_nest_jobs_job_augmentor_drone_add_2
+	}
+}

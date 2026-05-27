@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_holotemple
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_ethic_spiritualist_attraction_mult = @pif_building_holotemple_pop_modifiers_pop_ethic_spiritualist_attraction_mult_1
+	planet_bureaucrats_upkeep_mult = @pif_building_holotemple_economic_modifiers_planet_bureaucrats_upkeep_mult_1
+}

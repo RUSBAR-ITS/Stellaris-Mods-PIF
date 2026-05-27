@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_low_tech_capital
+# Vanilla class: capital
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_low_tech_warrior_add = @pif_building_low_tech_capital_jobs_job_low_tech_warrior_add_3
+	planet_housing_add = @pif_building_low_tech_capital_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_low_tech_capital_planet_state_planet_amenities_add_2
+}

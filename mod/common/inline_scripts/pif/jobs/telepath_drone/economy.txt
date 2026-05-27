@@ -1,0 +1,54 @@
+# PIF job category: ECONOMY
+# Vanilla job: telepath_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+resources = {
+	category = planet_telepaths
+	produces = {
+		unity = @pif_telepath_drone_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_active_tradition = tr_domination_judgment_corps
+			}
+		}
+		unity = @pif_telepath_drone_job_output_output_unity_2
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = whisperers_covenant_confirmed
+			}
+		}
+		physics_research = @pif_telepath_drone_job_output_output_physics_research_3
+		engineering_research = @pif_telepath_drone_job_output_output_engineering_research_4
+		society_research = @pif_telepath_drone_job_output_output_society_research_5
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_country_flag = whisperers_covenant_rank_1
+			}
+		}
+		physics_research = @pif_telepath_drone_job_output_output_physics_research_3
+		engineering_research = @pif_telepath_drone_job_output_output_engineering_research_4
+		society_research = @pif_telepath_drone_job_output_output_society_research_5
+	}
+	upkeep = {
+		energy = @pif_telepath_drone_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				has_modifier = anticrime_campaign
+			}
+		}
+		energy = @pif_telepath_drone_job_upkeep_upkeep_energy_2
+	}
+}

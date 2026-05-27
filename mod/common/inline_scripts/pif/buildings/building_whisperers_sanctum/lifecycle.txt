@@ -1,0 +1,51 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_whisperers_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+destroy_trigger = {
+	has_shroud_dlc = no
+	exists = owner
+	NOT = {
+		owner = {
+			has_country_flag = whisperers_covenant_rank_1
+		}
+	}
+}
+
+on_built = {
+	if = {
+		limit = {
+			has_first_contact_dlc = yes
+		}
+		planet = {
+			solar_system = {
+				starbase = {
+					fleet = {
+						add_modifier = {
+							modifier = covenant_detection_first_contact
+							days = @pif_building_whisperers_sanctum_economic_modifiers_days_1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+on_destroy = {
+	if = {
+		limit = {
+			has_first_contact_dlc = yes
+		}
+		planet = {
+			solar_system = {
+				starbase = {
+					fleet = {
+						remove_modifier = covenant_detection_first_contact
+					}
+				}
+			}
+		}
+	}
+}

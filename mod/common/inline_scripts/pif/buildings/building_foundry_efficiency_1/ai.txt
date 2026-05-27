@@ -1,0 +1,11 @@
+# PIF building category: AI
+# Vanilla building: building_foundry_efficiency_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+ai_resource_production = {
+	alloys = @pif_building_foundry_efficiency_1_ai_alloys_1
+	trigger = {
+		has_any_foundry_zone = yes
+	}
+}

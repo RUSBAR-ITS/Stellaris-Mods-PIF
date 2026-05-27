@@ -1,0 +1,61 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: maintenance_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_no_happiness_add = @pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_active_tradition = tr_versatility_finish
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.orbital_defence
+		planet.orbital_defence = {
+			exists = starbase
+			starbase = {
+				has_starbase_building = ring_maintenance_hub
+			}
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_3
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			is_ringworld = yes
+			has_building = building_alpha_hub
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_3
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			is_planet_class = pc_hive
+		}
+		exists = owner
+		owner = {
+			has_country_flag = cyber_hive_integrated
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_maintenance_drone_planet_state_planet_amenities_no_happiness_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

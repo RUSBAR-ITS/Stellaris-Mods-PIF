@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_nuumismatic_shrine
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+building_sets = {
+	government
+	urban
+	unity
+}

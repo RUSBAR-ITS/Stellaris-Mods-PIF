@@ -1,0 +1,54 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/17_paragon_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_paragon_memory_vaults = {
+	base_buildtime = @pif_building_paragon_memory_vaults_construction_base_buildtime_1
+	category = unity
+	is_essential = yes
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				OR = {
+					has_civic = civic_memory_vault
+					has_civic = civic_memory_vault_corporate
+				}
+			}
+		}
+		text = building_paragon_memory_vaults_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_civic = civic_memory_vault_machine
+			}
+		}
+		text = building_paragon_memory_vaults_machine_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_civic = civic_memory_vault_hive
+			}
+		}
+		text = building_paragon_memory_vaults_hive_desc
+	}
+	triggered_desc = {
+		text = memory_vault_tooltip
+	}
+	inline_script = "pif/buildings/building_paragon_memory_vaults/building_config"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/availability"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/economy"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/lifecycle"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/jobs"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/country_jobs"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/economic_modifiers"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/pop_modifiers"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/planet_state"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/tpm"
+	inline_script = "pif/buildings/building_paragon_memory_vaults/ai"
+}

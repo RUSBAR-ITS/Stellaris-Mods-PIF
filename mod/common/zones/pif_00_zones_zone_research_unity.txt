@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_research_unity = {
+	icon = GFX_district_specialization_bureaucrat
+	base_buildtime = @pif_zone_research_unity_construction_zone_build_time_1
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_research_unity_triggered_desc
+	}
+	inline_script = "pif/zones/zone_research_unity/availability"
+	inline_script = "pif/zones/zone_research_unity/zone_config"
+	inline_script = "pif/zones/zone_research_unity/economy"
+	inline_script = "pif/zones/zone_research_unity/tpm"
+	inline_script = "pif/zones/zone_research_unity/lifecycle"
+	inline_script = "pif/zones/zone_research_unity/ai"
+}

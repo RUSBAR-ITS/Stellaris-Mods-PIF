@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_disinformation_center
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	spy_network_levels_add = 5
+}

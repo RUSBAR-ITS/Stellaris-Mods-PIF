@@ -1,0 +1,39 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: logistics_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	trade
+}
+
+weight = {
+	weight = @pif_logistics_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|logistics_drone|RESOURCE|trade|
+	modifier = {
+		factor = @pif_logistics_drone_job_weight_factor_2
+		planet = {
+			free_amenities < 0
+			has_available_jobs = logistics_drone
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_thrifty
+	trait_commercial_genius
+	trait_robot_trading_algorithms
+	trait_cyborg_trading_algorithms
+	trait_malleable_trade
+	trait_adaptive_trade
+}
+
+promotion = {
+	time = @pif_logistics_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,10 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_ai_emporium
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+on_built = {
+	planet.owner = {
+		create_built_robot_species = yes
+	}
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+telepath = {
+	category = specialist
+	inline_script = "pif/jobs/telepath/swap"
+	inline_script = "pif/jobs/telepath/availability"
+	inline_script = "pif/jobs/telepath/pop_config"
+	inline_script = "pif/jobs/telepath/economy"
+	inline_script = "pif/jobs/telepath/planet_state"
+	inline_script = "pif/jobs/telepath/country_modifiers"
+	inline_script = "pif/jobs/telepath/pop_modifiers"
+	inline_script = "pif/jobs/telepath/economic_modifiers"
+	inline_script = "pif/jobs/telepath/tpm"
+}

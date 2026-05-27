@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: fe_overseer
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = politician
+		building_icon = building_palace
+	}
+}

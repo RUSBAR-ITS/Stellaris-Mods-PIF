@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_resort_spiritual_retreat = {
+	icon = GFX_district_specialization_priest
+	base_buildtime = @pif_zone_resort_spiritual_retreat_construction_zone_build_time_1
+	swap_type = district_resort_spiritual_retreat
+	swap_type_weight = 5
+	max_buildings = @pif_zone_resort_spiritual_retreat_building_capacity_max_buildings_1
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_trade_triggered_desc
+	}
+	inline_script = "pif/zones/zone_resort_spiritual_retreat/availability"
+	inline_script = "pif/zones/zone_resort_spiritual_retreat/zone_config"
+	inline_script = "pif/zones/zone_resort_spiritual_retreat/economy"
+	inline_script = "pif/zones/zone_resort_spiritual_retreat/tpm"
+	inline_script = "pif/zones/zone_resort_spiritual_retreat/lifecycle"
+	inline_script = "pif/zones/zone_resort_spiritual_retreat/ai"
+}

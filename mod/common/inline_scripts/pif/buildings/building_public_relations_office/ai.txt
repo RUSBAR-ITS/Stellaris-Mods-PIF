@@ -1,0 +1,8 @@
+# PIF building category: AI
+# Vanilla building: building_public_relations_office
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+ai_weight = {
+	weight = @pif_building_public_relations_office_ai_weight_1
+}

@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_astral_siphon_1
+# Vanilla class: regular
+# Vanilla source: buildings/18_astral_planes_buildings.txt
+
+building_sets = {
+	research
+	physics
+}

@@ -1,0 +1,6 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: skywatcher_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+# Empty PIF job category hook.

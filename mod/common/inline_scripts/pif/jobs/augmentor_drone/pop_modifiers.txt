@@ -1,0 +1,23 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: augmentor_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		is_cyborg_empire = yes
+	}
+	logistic_growth_mult = @pif_augmentor_drone_pop_modifiers_logistic_growth_mult_1
+	bonus_pop_growth_mult = @pif_augmentor_drone_pop_modifiers_bonus_pop_growth_mult_2
+}
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+	bonus_pop_growth = @pif_augmentor_drone_pop_modifiers_bonus_pop_growth_3
+}

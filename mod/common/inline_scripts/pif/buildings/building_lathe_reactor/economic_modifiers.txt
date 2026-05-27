@@ -1,0 +1,13 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_lathe_reactor
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_upkeep_mult = @pif_building_lathe_reactor_economic_modifiers_planet_jobs_upkeep_mult_1
+	planet_buildings_upkeep_mult = @pif_building_lathe_reactor_economic_modifiers_planet_buildings_upkeep_mult_2
+	planet_districts_energy_upkeep_mult = @pif_building_lathe_reactor_economic_modifiers_planet_districts_energy_upkeep_mult_3
+}

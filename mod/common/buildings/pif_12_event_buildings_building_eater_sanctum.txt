@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_eater_sanctum = {
+	base_buildtime = @pif_building_eater_sanctum_construction_base_buildtime_1
+	category = government
+	inline_script = "pif/buildings/building_eater_sanctum/building_config"
+	inline_script = "pif/buildings/building_eater_sanctum/availability"
+	inline_script = "pif/buildings/building_eater_sanctum/economy"
+	inline_script = "pif/buildings/building_eater_sanctum/lifecycle"
+	inline_script = "pif/buildings/building_eater_sanctum/jobs"
+	inline_script = "pif/buildings/building_eater_sanctum/country_jobs"
+	inline_script = "pif/buildings/building_eater_sanctum/economic_modifiers"
+	inline_script = "pif/buildings/building_eater_sanctum/pop_modifiers"
+	inline_script = "pif/buildings/building_eater_sanctum/planet_state"
+	inline_script = "pif/buildings/building_eater_sanctum/tpm"
+	inline_script = "pif/buildings/building_eater_sanctum/ai"
+}

@@ -1,0 +1,33 @@
+# PIF job category: ECONOMY
+# Vanilla job: polytechnic_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_mentors
+	upkeep = {
+		minerals = @pif_polytechnic_drone_job_upkeep_upkeep_minerals_1
+	}
+	produces = {
+		unity = @pif_polytechnic_drone_job_output_output_unity_1
+		physics_research = @pif_polytechnic_drone_job_output_output_physics_research_2
+		society_research = @pif_polytechnic_drone_job_output_output_society_research_3
+		engineering_research = @pif_polytechnic_drone_job_output_output_engineering_research_4
+	}
+	produces = {
+		unity = @pif_polytechnic_drone_job_output_output_unity_5
+		mult = value:mentor_scale_value|TAG|minerals|
+	}
+	produces = {
+		physics_research = @pif_polytechnic_drone_job_output_output_physics_research_6
+		mult = value:mentor_scale_value|TAG|energy|
+	}
+	produces = {
+		society_research = @pif_polytechnic_drone_job_output_output_society_research_7
+		mult = value:mentor_scale_value|TAG|consumer_goods|
+	}
+	produces = {
+		engineering_research = @pif_polytechnic_drone_job_output_output_engineering_research_8
+		mult = value:mentor_scale_value|TAG|alloys|
+	}
+}

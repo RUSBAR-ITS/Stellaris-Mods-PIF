@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: titan_hunter
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = hunter_gatherer
+	}
+}

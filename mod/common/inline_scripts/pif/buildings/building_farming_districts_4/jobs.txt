@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_farming_districts_4
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+# Empty PIF building category hook.

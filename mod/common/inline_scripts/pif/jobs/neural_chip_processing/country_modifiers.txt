@@ -1,0 +1,6 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: neural_chip_processing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+# Empty PIF job category hook.

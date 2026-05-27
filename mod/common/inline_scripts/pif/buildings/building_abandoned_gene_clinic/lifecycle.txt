@@ -1,0 +1,15 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_abandoned_gene_clinic
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+can_demolish = no
+
+destroy_trigger = {
+	exists = owner
+	NOT = {
+		owner = {
+			has_origin = origin_synthetic_fertility
+		}
+	}
+}

@@ -1,0 +1,12 @@
+# PIF building category: JOBS
+# Vanilla building: building_bio_reprocessing_facilities
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_farmer_add = @pif_building_bio_reprocessing_facilities_jobs_job_farmer_add_1
+	job_criminal_add = @pif_building_bio_reprocessing_facilities_jobs_job_criminal_add_2
+}

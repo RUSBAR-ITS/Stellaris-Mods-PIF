@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_system_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+additional_ai_weight = @pif_building_system_capital_ai_additional_ai_weight_1

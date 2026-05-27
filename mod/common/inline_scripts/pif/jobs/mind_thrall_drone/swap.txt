@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: mind_thrall_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = holding_distributed_processing
+		icon = mind_thrall
+	}
+}

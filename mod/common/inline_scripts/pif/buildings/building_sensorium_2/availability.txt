@@ -1,0 +1,33 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_sensorium_2
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	NOT = {
+		has_modifier = slave_colony
+	}
+	owner = {
+		is_hive_empire = yes
+		is_memorialist_empire = no
+		is_entropy_drinkers_empire = no
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_heritage_site"
+}
+
+show_tech_unlock_if = {
+	is_hive_empire = yes
+	is_memorialist_empire = no
+	is_entropy_drinkers_empire = no
+}

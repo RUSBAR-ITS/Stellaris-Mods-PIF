@@ -1,0 +1,34 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/04_secondary_zones.txt
+# Object type: zone
+
+zone_exotic_gases_nexus = {
+	icon = GFX_district_specialization_exotic_gases
+	base_buildtime = @pif_zone_exotic_gases_nexus_construction_zone_build_time_1
+	triggered_desc = {
+		text = farmer_is_gas_extractor_tt
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+	}
+	triggered_desc = {
+		text = agri_drone_is_gas_extractor_tt
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+	}
+	swap_type = district_nexus_exotic_gases
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_exotic_gases_nexus/availability"
+	inline_script = "pif/zones/zone_exotic_gases_nexus/zone_config"
+	inline_script = "pif/zones/zone_exotic_gases_nexus/economy"
+	inline_script = "pif/zones/zone_exotic_gases_nexus/tpm"
+	inline_script = "pif/zones/zone_exotic_gases_nexus/lifecycle"
+	inline_script = "pif/zones/zone_exotic_gases_nexus/ai"
+}

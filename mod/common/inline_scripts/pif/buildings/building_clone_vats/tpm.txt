@@ -1,0 +1,68 @@
+# PIF building category: TPM
+# Vanilla building: building_clone_vats
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_gene_tailoring
+		}
+		any_owned_pop_group = {
+			has_auto_modding_trait = yes
+		}
+	}
+	modifier = {
+		auto_mod_monthly_add = @pif_building_clone_vats_tpm_auto_mod_monthly_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			game_start_auto_mod_empire = yes
+		}
+		any_owned_pop_group = {
+			has_auto_modding_trait = yes
+		}
+	}
+	modifier = {
+		auto_mod_monthly_add = @pif_building_clone_vats_tpm_auto_mod_monthly_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = clone_army_full_potential
+			has_active_tradition = tr_cloning_adopt_clone_army
+		}
+	}
+	clone_soldiers_sustained = 500
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = clone_army_full_potential
+			has_active_tradition = tr_cloning_finish_clone_army
+		}
+	}
+	clone_soldiers_sustained = 500
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_cloning_authority = yes
+			is_megacorp = yes
+		}
+	}
+	planet_jobs_trade_produces_mult = @pif_building_clone_vats_economic_modifiers_planet_jobs_trade_produces_mult_1
+	planet_amenities_add = @pif_building_clone_vats_planet_state_planet_amenities_add_5
+}

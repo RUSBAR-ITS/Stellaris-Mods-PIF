@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_grand_archive_buildings.txt
+# Object type: building
+# Building class: special
+
+symbiosis_nexus = {
+	base_buildtime = @pif_symbiosis_nexus_construction_base_buildtime_1
+	category = amenity
+	icon = wildlife_sanctuary
+	inline_script = "pif/buildings/symbiosis_nexus/building_config"
+	inline_script = "pif/buildings/symbiosis_nexus/availability"
+	inline_script = "pif/buildings/symbiosis_nexus/economy"
+	inline_script = "pif/buildings/symbiosis_nexus/lifecycle"
+	inline_script = "pif/buildings/symbiosis_nexus/jobs"
+	inline_script = "pif/buildings/symbiosis_nexus/country_jobs"
+	inline_script = "pif/buildings/symbiosis_nexus/economic_modifiers"
+	inline_script = "pif/buildings/symbiosis_nexus/pop_modifiers"
+	inline_script = "pif/buildings/symbiosis_nexus/planet_state"
+	inline_script = "pif/buildings/symbiosis_nexus/tpm"
+	inline_script = "pif/buildings/symbiosis_nexus/ai"
+}

@@ -1,0 +1,16 @@
+# PIF zone category: AI
+# Vanilla zone: zone_foundry
+# Vanilla source: zones/00_zones.txt
+
+ai_resource_production = {
+	alloys = @pif_zone_foundry_ai_ai_resource_production_ai_resource_production_alloys_alloys_1
+	trigger = {
+		has_any_foundry_zone = yes
+	}
+}
+
+ai_weight_coefficient = @pif_zone_foundry_ai_ai_weight_coefficient_ai_weight_coefficient_2
+
+ai_priority = @pif_zone_foundry_ai_ai_priority_ai_priority_3
+
+ai_weight_coefficient = @pif_zone_foundry_ai_ai_weight_coefficient_2_ai_weight_coefficient_4

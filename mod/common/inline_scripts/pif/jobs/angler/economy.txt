@@ -1,0 +1,6 @@
+# PIF job category: ECONOMY
+# Vanilla job: angler
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+# Empty PIF job category hook.

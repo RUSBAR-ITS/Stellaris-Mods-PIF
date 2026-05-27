@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_strange_worlds_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+sand_whisperer = {
+	category = specialist
+	inline_script = "pif/jobs/sand_whisperer/swap"
+	inline_script = "pif/jobs/sand_whisperer/availability"
+	inline_script = "pif/jobs/sand_whisperer/pop_config"
+	inline_script = "pif/jobs/sand_whisperer/economy"
+	inline_script = "pif/jobs/sand_whisperer/planet_state"
+	inline_script = "pif/jobs/sand_whisperer/country_modifiers"
+	inline_script = "pif/jobs/sand_whisperer/pop_modifiers"
+	inline_script = "pif/jobs/sand_whisperer/economic_modifiers"
+	inline_script = "pif/jobs/sand_whisperer/tpm"
+}

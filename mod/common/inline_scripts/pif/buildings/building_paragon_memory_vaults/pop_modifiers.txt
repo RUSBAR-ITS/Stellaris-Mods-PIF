@@ -1,0 +1,26 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_paragon_memory_vaults
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_memory_vault_empire = yes
+		}
+	}
+	species_leader_exp_gain = @pif_building_paragon_memory_vaults_pop_modifiers_species_leader_exp_gain_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_memory_vault_empire = yes
+			is_variable_set = paragon_memory_vault
+		}
+	}
+	species_leader_exp_gain = @pif_building_paragon_memory_vaults_pop_modifiers_species_leader_exp_gain_1
+	mult = owner.paragon_memory_vault
+}

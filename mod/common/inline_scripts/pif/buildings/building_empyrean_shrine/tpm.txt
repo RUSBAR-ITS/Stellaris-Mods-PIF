@@ -1,0 +1,26 @@
+# PIF building category: TPM
+# Vanilla building: building_empyrean_shrine
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		has_shroud_dlc = no
+		exists = owner
+		owner = {
+			has_country_flag = breached_shroud
+		}
+	}
+	shroud_delve_cost = -0.25
+}
+
+triggered_country_modifier = {
+	potential = {
+		has_shroud_dlc = yes
+		exists = owner
+		owner = {
+			has_country_flag = breached_shroud
+		}
+	}
+	shroud_delve_cooldown = -0.1
+}

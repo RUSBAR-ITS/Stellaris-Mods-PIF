@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_major_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+# Empty PIF building category hook.

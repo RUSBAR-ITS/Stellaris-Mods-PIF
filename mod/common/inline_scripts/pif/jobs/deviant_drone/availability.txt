@@ -1,0 +1,17 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: deviant_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_deviant_drone_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_planet = yes
+	is_sapient = yes
+}
+
+possible = {
+	planet = {
+		has_drone_deviancy_modifier = yes
+	}
+}

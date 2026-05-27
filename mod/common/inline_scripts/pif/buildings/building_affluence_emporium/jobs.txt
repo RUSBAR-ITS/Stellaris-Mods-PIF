@@ -1,0 +1,36 @@
+# PIF building category: JOBS
+# Vanilla building: building_affluence_emporium
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_artisan_add = @pif_building_affluence_emporium_jobs_job_artisan_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_wilderness_empire = no
+		}
+	}
+	job_artisan_drone_add = @pif_building_affluence_emporium_jobs_job_artisan_drone_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+	job_artisan_automated_workforce_mult = @pif_building_affluence_emporium_jobs_job_artisan_automated_workforce_mult_3
+	job_artisan_drone_automated_workforce_mult = @pif_building_affluence_emporium_jobs_job_artisan_drone_automated_workforce_mult_4
+}

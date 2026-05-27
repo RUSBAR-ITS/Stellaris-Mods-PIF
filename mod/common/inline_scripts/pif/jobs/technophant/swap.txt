@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: technophant
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = RULER_JOB_TRIGGER
+		building_icon = building_citadel_of_faith
+	}
+}

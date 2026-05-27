@@ -1,0 +1,11 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: overlord_bio_trophy
+# Vanilla class: worker
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	pop_happiness = @pif_overlord_bio_trophy_pop_modifiers_pop_happiness_1
+}

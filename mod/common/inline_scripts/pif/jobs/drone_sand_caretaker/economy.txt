@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: drone_sand_caretaker
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+resources = {
+	category = planet_jobs_productive
+	produces = {
+		sr_zro = @pif_drone_sand_caretaker_job_output_output_sr_zro_1
+	}
+	upkeep = {
+		energy = @pif_drone_sand_caretaker_job_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_lathe_validator
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_lathe_validator_limits_planet_limit_1
+
+potential = {
+	is_planet_class = pc_cosmogenesis_world
+	exists = owner
+	owner = {
+		has_ascension_perk = ap_cosmogenesis
+	}
+}
+
+prerequisites = {
+	tech_lathe_validator
+}

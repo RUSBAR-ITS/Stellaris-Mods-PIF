@@ -1,0 +1,385 @@
+# Planetary Infrastructure Framework (PIF)
+# Zone variables: JOBS_INDUSTRY
+# Values are resolved from Stellaris 4.3.7 vanilla zones and inline scripts.
+
+# -----------------------------------------------------------------------------
+# zone_agrarian_anglers
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_industry_job_amount_job_artisan_add_1 = 50
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
+@pif_zone_agrarian_anglers_jobs_industry_job_amount_job_artisan_drone_add_4 = 50
+
+# -----------------------------------------------------------------------------
+# zone_anglers
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_industry_job_amount_job_artisan_add_1 = 50
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
+@pif_zone_anglers_jobs_industry_job_amount_job_artisan_drone_add_4 = 50
+
+# -----------------------------------------------------------------------------
+# zone_factory
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory/tpm.txt
+@pif_zone_factory_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory/tpm.txt
+@pif_zone_factory_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory/tpm.txt
+@pif_zone_factory_jobs_industry_job_amount_job_artisan_add_1 = 100
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory/tpm.txt
+@pif_zone_factory_jobs_industry_job_amount_job_artisan_drone_add_4 = 100
+
+# -----------------------------------------------------------------------------
+# zone_factory_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/tpm.txt
+@pif_zone_factory_arcology_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/tpm.txt
+@pif_zone_factory_arcology_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/tpm.txt
+@pif_zone_factory_arcology_jobs_industry_job_amount_job_artisan_add_1 = 200
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/tpm.txt
+@pif_zone_factory_arcology_jobs_industry_job_amount_job_artisan_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_factory_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/tpm.txt
+@pif_zone_factory_hive_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/tpm.txt
+@pif_zone_factory_hive_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/tpm.txt
+@pif_zone_factory_hive_jobs_industry_job_amount_job_artisan_add_1 = 200
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/tpm.txt
+@pif_zone_factory_hive_jobs_industry_job_amount_job_artisan_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_factory_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/tpm.txt
+@pif_zone_factory_nexus_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/tpm.txt
+@pif_zone_factory_nexus_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/tpm.txt
+@pif_zone_factory_nexus_jobs_industry_job_amount_job_artisan_add_1 = 200
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/tpm.txt
+@pif_zone_factory_nexus_jobs_industry_job_amount_job_artisan_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_factory_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/tpm.txt
+@pif_zone_factory_ring_world_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/tpm.txt
+@pif_zone_factory_ring_world_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/tpm.txt
+@pif_zone_factory_ring_world_jobs_industry_job_amount_job_artisan_add_1 = 200
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/tpm.txt
+@pif_zone_factory_ring_world_jobs_industry_job_amount_job_artisan_drone_add_4 = 200
+
+# -----------------------------------------------------------------------------
+# zone_foundry
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/tpm.txt
+@pif_zone_foundry_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/tpm.txt
+@pif_zone_foundry_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/tpm.txt
+@pif_zone_foundry_jobs_industry_job_amount_job_fabricator_add_4 = 100
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/tpm.txt
+@pif_zone_foundry_jobs_industry_job_amount_job_foundry_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_foundry_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/tpm.txt
+@pif_zone_foundry_arcology_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/tpm.txt
+@pif_zone_foundry_arcology_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/tpm.txt
+@pif_zone_foundry_arcology_jobs_industry_job_amount_job_fabricator_add_4 = 200
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/tpm.txt
+@pif_zone_foundry_arcology_jobs_industry_job_amount_job_foundry_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_foundry_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/tpm.txt
+@pif_zone_foundry_hive_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/tpm.txt
+@pif_zone_foundry_hive_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/tpm.txt
+@pif_zone_foundry_hive_jobs_industry_job_amount_job_fabricator_add_4 = 200
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/tpm.txt
+@pif_zone_foundry_hive_jobs_industry_job_amount_job_foundry_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_foundry_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/tpm.txt
+@pif_zone_foundry_nexus_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/tpm.txt
+@pif_zone_foundry_nexus_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/tpm.txt
+@pif_zone_foundry_nexus_jobs_industry_job_amount_job_fabricator_add_4 = 200
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/tpm.txt
+@pif_zone_foundry_nexus_jobs_industry_job_amount_job_foundry_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_foundry_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/tpm.txt
+@pif_zone_foundry_ring_world_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/tpm.txt
+@pif_zone_foundry_ring_world_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/tpm.txt
+@pif_zone_foundry_ring_world_jobs_industry_job_amount_job_fabricator_add_4 = 200
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/tpm.txt
+@pif_zone_foundry_ring_world_jobs_industry_job_amount_job_foundry_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# zone_foundry_wilderness
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_wilderness/tpm.txt
+@pif_zone_foundry_wilderness_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_wilderness/tpm.txt
+@pif_zone_foundry_wilderness_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_wilderness/tpm.txt
+@pif_zone_foundry_wilderness_jobs_industry_job_amount_job_fabricator_add_4 = 100
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_wilderness/tpm.txt
+@pif_zone_foundry_wilderness_jobs_industry_job_amount_job_foundry_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_industrial
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
+@pif_zone_industrial_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
+@pif_zone_industrial_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
+@pif_zone_industrial_jobs_industry_job_amount_job_artisan_add_5 = 50
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
+@pif_zone_industrial_jobs_industry_job_amount_job_artisan_drone_add_6 = 50
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
+@pif_zone_industrial_jobs_industry_job_amount_job_fabricator_add_4 = 50
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
+@pif_zone_industrial_jobs_industry_job_amount_job_foundry_add_1 = 50
+
+# -----------------------------------------------------------------------------
+# zone_industrial_arcology
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
+@pif_zone_industrial_arcology_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
+@pif_zone_industrial_arcology_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
+@pif_zone_industrial_arcology_jobs_industry_job_amount_job_artisan_add_5 = 100
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
+@pif_zone_industrial_arcology_jobs_industry_job_amount_job_artisan_drone_add_6 = 100
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
+@pif_zone_industrial_arcology_jobs_industry_job_amount_job_fabricator_add_4 = 100
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
+@pif_zone_industrial_arcology_jobs_industry_job_amount_job_foundry_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_industrial_hive
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
+@pif_zone_industrial_hive_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
+@pif_zone_industrial_hive_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
+@pif_zone_industrial_hive_jobs_industry_job_amount_job_artisan_add_5 = 100
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
+@pif_zone_industrial_hive_jobs_industry_job_amount_job_artisan_drone_add_6 = 100
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
+@pif_zone_industrial_hive_jobs_industry_job_amount_job_fabricator_add_4 = 100
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
+@pif_zone_industrial_hive_jobs_industry_job_amount_job_foundry_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_industrial_nexus
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
+@pif_zone_industrial_nexus_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
+@pif_zone_industrial_nexus_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
+@pif_zone_industrial_nexus_jobs_industry_job_amount_job_artisan_add_5 = 100
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
+@pif_zone_industrial_nexus_jobs_industry_job_amount_job_artisan_drone_add_6 = 100
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
+@pif_zone_industrial_nexus_jobs_industry_job_amount_job_fabricator_add_4 = 100
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
+@pif_zone_industrial_nexus_jobs_industry_job_amount_job_foundry_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# zone_industrial_ring_world
+# -----------------------------------------------------------------------------
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
+@pif_zone_industrial_ring_world_jobs_industry_district_modifier_scaling_multiplier_2 = 3
+
+# Controls: district modifier scaling multiplier.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
+@pif_zone_industrial_ring_world_jobs_industry_district_modifier_scaling_multiplier_3 = 5
+
+# Controls: job amount: job_artisan_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
+@pif_zone_industrial_ring_world_jobs_industry_job_amount_job_artisan_add_5 = 100
+
+# Controls: job amount: job_artisan_drone_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
+@pif_zone_industrial_ring_world_jobs_industry_job_amount_job_artisan_drone_add_6 = 100
+
+# Controls: job amount: job_fabricator_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
+@pif_zone_industrial_ring_world_jobs_industry_job_amount_job_fabricator_add_4 = 100
+
+# Controls: job amount: job_foundry_add.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
+@pif_zone_industrial_ring_world_jobs_industry_job_amount_job_foundry_add_1 = 100

@@ -1,0 +1,40 @@
+# PIF job category: SWAP
+# Vanilla job: engineer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_research_lab_1
+	}
+	swap_type = {
+		trigger = {
+			engineer_is_manufactorium_scraper_trigger = yes
+		}
+		name = manufactorium_scraper
+		desc = manufactorium_scraper
+		icon = broken_shackles_scavenger
+		building_icon = building_research_lab_1
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			engineer_is_munitions_decommissioner_trigger = yes
+		}
+		name = munitions_decommissioner
+		desc = munitions_decommissioner
+		icon = munitions_decommissioner
+		building_icon = building_research_lab_1
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			engineer_is_nanotech_researcher_trigger = yes
+		}
+		name = nanotech_researcher
+		desc = nanotech_researcher
+		building_icon = building_nanolab_1
+		weight = 15
+	}
+}

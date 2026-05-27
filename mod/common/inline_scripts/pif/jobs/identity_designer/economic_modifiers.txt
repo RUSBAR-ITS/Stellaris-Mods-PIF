@@ -1,0 +1,12 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: identity_designer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	branch_office_value_mult = @pif_identity_designer_economic_modifiers_branch_office_value_mult_1
+	mult = value:roboticist_branch_office_value_mult
+}

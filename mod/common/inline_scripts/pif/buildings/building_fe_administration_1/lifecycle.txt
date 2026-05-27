@@ -1,0 +1,74 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_fe_administration_1
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_demolish = yes
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_fallen_empire = no
+		OR = {
+			is_regular_empire = no
+			is_spiritualist = yes
+			has_make_spiritualist_perk = yes
+		}
+	}
+}
+
+convert_to = {
+	building_fe_administration_hive_1
+	building_fe_temple_1
+	building_fe_administration_machine_1
+}
+
+upgrades = {
+	building_fe_administration_2
+}
+
+on_queued = {
+	if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+			any_owned_pop_group = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+		}
+		random_owned_pop_group = {
+			limit = {
+				has_trait = trait_wilderness
+				pop_group_size > local_spent_biomass
+			}
+			kill_pop_group = {
+				pop_group = this
+				amount = local_spent_biomass
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_set = local_spent_biomass
+		}
+		owner = {
+			global_biomass_spender = yes
+		}
+	}
+	owner = {
+		subtract_variable = {
+			which = fe_administration_1_build_count
+			value = 1
+		}
+	}
+}
+
+on_unqueued = {
+	unqueue_biomass_effect = yes
+	owner = {
+		change_variable = {
+			which = fe_administration_1_build_count
+			value = 1
+		}
+	}
+}

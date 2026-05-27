@@ -1,0 +1,19 @@
+# PIF category: AI
+# Vanilla district: district_photosynthesis_fields
+# Vanilla source: districts/05_wilderness_districts.txt
+
+ai_resource_production = {
+	energy = @pif_district_photosynthesis_fields_ai_ai_resource_production_energy
+	trigger = {
+		OR = {
+			has_building = building_bioelectric_stimulator_1
+			has_building = building_bioelectric_stimulator_2
+			has_building = building_bioelectric_stimulator_3
+			has_building = building_bioelectric_stimulator_4
+		}
+	}
+}
+
+ai_estimate_without_unemployment = yes
+
+additional_ai_weight = @pif_district_photosynthesis_fields_ai_additional_ai_weight

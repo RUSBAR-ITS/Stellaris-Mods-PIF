@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_league_offices = {
+	base_buildtime = @pif_building_league_offices_construction_base_buildtime_1
+	category = unity
+	triggered_desc = {
+		text = building_league_offices_effect
+	}
+	inline_script = "pif/buildings/building_league_offices/building_config"
+	inline_script = "pif/buildings/building_league_offices/availability"
+	inline_script = "pif/buildings/building_league_offices/economy"
+	inline_script = "pif/buildings/building_league_offices/lifecycle"
+	inline_script = "pif/buildings/building_league_offices/jobs"
+	inline_script = "pif/buildings/building_league_offices/country_jobs"
+	inline_script = "pif/buildings/building_league_offices/economic_modifiers"
+	inline_script = "pif/buildings/building_league_offices/pop_modifiers"
+	inline_script = "pif/buildings/building_league_offices/planet_state"
+	inline_script = "pif/buildings/building_league_offices/tpm"
+	inline_script = "pif/buildings/building_league_offices/ai"
+}

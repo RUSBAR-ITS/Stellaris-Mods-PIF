@@ -1,0 +1,16 @@
+# PIF building category: AI
+# Vanilla building: building_grand_concert_hall_of_the_mind
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+ai_resource_production = {
+	trigger = {
+		planet_resource_compare = {
+			resource = physics_research
+			value >= @pif_building_grand_concert_hall_of_the_mind_ai_value_1
+		}
+	}
+	physics_research = @pif_building_grand_concert_hall_of_the_mind_ai_physics_research_2
+	society_research = @pif_building_grand_concert_hall_of_the_mind_ai_society_research_3
+	engineering_research = @pif_building_grand_concert_hall_of_the_mind_ai_engineering_research_4
+}

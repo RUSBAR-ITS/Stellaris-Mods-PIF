@@ -1,0 +1,40 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: artisan_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+tags = {
+	consumer_goods
+}
+
+weight = {
+	weight = @pif_artisan_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|artisan_drone|RESOURCE|consumer_goods|
+	mult = value:scripted_job_weight_shroud_forged_mult
+	modifier = {
+		factor = @pif_artisan_drone_job_weight_factor_2
+		exists = owner
+		years_passed < 1
+		owner = {
+			has_valid_civic = civic_machine_assimilator
+		}
+		has_trait = trait_cybernetic
+	}
+	modifier = {
+		factor = @pif_artisan_drone_job_weight_factor_3
+		exists = owner
+		owner = {
+			has_deficit = consumer_goods
+		}
+	}
+}
+
+promotion = {
+	time = @pif_artisan_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

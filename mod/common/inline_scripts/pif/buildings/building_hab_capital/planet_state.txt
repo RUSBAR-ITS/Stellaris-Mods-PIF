@@ -1,0 +1,87 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_hab_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_hab_capital_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_hab_capital_planet_state_planet_amenities_add_2
+	planet_max_branch_office_buildings_add = @pif_building_hab_capital_planet_state_planet_max_branch_office_buildings_add_3
+	planet_defense_armies_add = @pif_building_hab_capital_planet_state_planet_defense_armies_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 1
+	}
+	planet_max_districts_add = @pif_building_hab_capital_planet_state_planet_max_districts_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 5
+	}
+	planet_max_districts_add = @pif_building_hab_capital_planet_state_planet_max_districts_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_virtuality_5
+		}
+		has_planetary_ascension_tier >= 10
+	}
+	planet_max_districts_add = @pif_building_hab_capital_planet_state_planet_max_districts_add_5
+}
+
+triggered_planet_modifier = {
+	key = origins_traditions_tech_key
+	potential = {
+		exists = owner
+		is_planet_class = pc_habitat
+	}
+	planet_max_districts_add = @pif_building_hab_capital_planet_state_planet_max_districts_add_5
+	mult = owner.modifier:habitat_max_districts_add
+}
+
+triggered_planet_modifier = {
+	key = major_celestial_objects_key
+	potential = {
+		exists = owner
+		is_planet_class = pc_habitat
+	}
+	planet_max_districts_add = @pif_building_hab_capital_planet_state_planet_max_districts_add_6
+	mult = value:districts_from_major_celestial_objects_value
+}
+
+triggered_planet_modifier = {
+	key = minor_celestial_objects_key
+	potential = {
+		exists = owner
+		owner = {
+			is_void_dweller_empire = yes
+		}
+		is_planet_class = pc_habitat
+	}
+	planet_max_districts_add = @pif_building_hab_capital_planet_state_planet_max_districts_add_6
+	mult = solar_system.value:num_minor_celestial_objects
+}
+
+triggered_planet_modifier = {
+	modifier = {
+		planet_stability_add = @pif_building_hab_capital_planet_state_planet_stability_add_7
+	}
+	mult = modifier:habitat_stability_add
+}

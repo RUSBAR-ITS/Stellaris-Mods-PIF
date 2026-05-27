@@ -1,0 +1,13 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: fotd_protectors
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_crime_add = @pif_fotd_protectors_planet_state_planet_crime_add_1
+	planet_defense_armies_add = @pif_fotd_protectors_planet_state_planet_defense_armies_add_2
+	planet_stability_add = @pif_fotd_protectors_planet_state_planet_stability_add_3
+}

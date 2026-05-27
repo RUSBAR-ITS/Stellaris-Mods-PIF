@@ -1,0 +1,28 @@
+# PIF job category: ECONOMY
+# Vanilla job: bath_attendant_machine
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_bath_attendants_machine
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				NOT = {
+					has_valid_civic = civic_machine_servitor
+				}
+			}
+		}
+		minerals = @pif_bath_attendant_machine_job_upkeep_upkeep_minerals_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		consumer_goods = @pif_bath_attendant_machine_job_upkeep_upkeep_consumer_goods_2
+	}
+}

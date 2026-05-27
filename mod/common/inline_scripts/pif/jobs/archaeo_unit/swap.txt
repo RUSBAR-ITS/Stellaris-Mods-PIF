@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: archaeo_unit
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_archaeostudies_faculty
+	}
+}

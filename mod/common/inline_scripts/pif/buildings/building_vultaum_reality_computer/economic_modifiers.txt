@@ -1,0 +1,31 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_vultaum_reality_computer
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_physicists_physics_research_produces_add = @pif_building_vultaum_reality_computer_economic_modifiers_planet_physicists_physics_research_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	planet_physicists_physics_research_produces_add = @pif_building_vultaum_reality_computer_economic_modifiers_planet_physicists_physics_research_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_ascension_perk = ap_cosmogenesis
+		}
+	}
+	planet_physicists_advanced_logic_produces_add = @pif_building_vultaum_reality_computer_economic_modifiers_planet_physicists_advanced_logic_produces_add_2
+}

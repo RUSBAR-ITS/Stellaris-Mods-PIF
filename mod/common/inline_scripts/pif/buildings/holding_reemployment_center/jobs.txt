@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: holding_reemployment_center
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = no
+		}
+	}
+	job_overlord_reassigner_add = @pif_holding_reemployment_center_jobs_job_overlord_reassigner_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = yes
+		}
+	}
+	job_overlord_reassigner_drone_add = @pif_holding_reemployment_center_jobs_job_overlord_reassigner_drone_add_2
+}

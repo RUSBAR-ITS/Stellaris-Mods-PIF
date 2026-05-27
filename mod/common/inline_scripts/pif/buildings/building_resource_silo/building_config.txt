@@ -1,0 +1,11 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_resource_silo
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+building_sets = {
+	generator
+	mining
+	farming
+	urban
+}

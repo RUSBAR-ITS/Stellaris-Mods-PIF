@@ -1,0 +1,14 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_factory = {
+	icon = GFX_district_specialization_factory
+	base_buildtime = @pif_zone_factory_construction_zone_build_time_1
+	inline_script = "pif/zones/zone_factory/availability"
+	inline_script = "pif/zones/zone_factory/zone_config"
+	inline_script = "pif/zones/zone_factory/economy"
+	inline_script = "pif/zones/zone_factory/tpm"
+	inline_script = "pif/zones/zone_factory/lifecycle"
+	inline_script = "pif/zones/zone_factory/ai"
+}

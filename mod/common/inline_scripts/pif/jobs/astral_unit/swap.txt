@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: astral_unit
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/11_astral_planes_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_astral_siphon_1
+		icon = astral_researcher
+	}
+}

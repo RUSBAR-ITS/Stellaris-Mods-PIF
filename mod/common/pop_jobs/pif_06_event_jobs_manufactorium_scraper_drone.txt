@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: simple_drone
+
+manufactorium_scraper_drone = {
+	category = simple_drone
+	inline_script = "pif/jobs/manufactorium_scraper_drone/swap"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/availability"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/pop_config"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/economy"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/planet_state"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/country_modifiers"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/pop_modifiers"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/economic_modifiers"
+	inline_script = "pif/jobs/manufactorium_scraper_drone/tpm"
+}

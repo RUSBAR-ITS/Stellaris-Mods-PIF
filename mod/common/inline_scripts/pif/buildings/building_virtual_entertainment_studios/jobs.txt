@@ -1,0 +1,25 @@
+# PIF building category: JOBS
+# Vanilla building: building_virtual_entertainment_studios
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_artisan_add = @pif_building_virtual_entertainment_studios_jobs_job_artisan_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_wilderness_empire = no
+		}
+	}
+	job_artisan_drone_add = @pif_building_virtual_entertainment_studios_jobs_job_artisan_drone_add_2
+}

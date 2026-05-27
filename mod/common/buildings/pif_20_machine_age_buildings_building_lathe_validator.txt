@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_lathe_validator = {
+	base_buildtime = @pif_building_lathe_validator_construction_base_buildtime_1
+	category = research
+	triggered_desc = {
+		text = building_lathe_validator_tt
+	}
+	inline_script = "pif/buildings/building_lathe_validator/building_config"
+	inline_script = "pif/buildings/building_lathe_validator/availability"
+	inline_script = "pif/buildings/building_lathe_validator/economy"
+	inline_script = "pif/buildings/building_lathe_validator/lifecycle"
+	inline_script = "pif/buildings/building_lathe_validator/jobs"
+	inline_script = "pif/buildings/building_lathe_validator/country_jobs"
+	inline_script = "pif/buildings/building_lathe_validator/economic_modifiers"
+	inline_script = "pif/buildings/building_lathe_validator/pop_modifiers"
+	inline_script = "pif/buildings/building_lathe_validator/planet_state"
+	inline_script = "pif/buildings/building_lathe_validator/tpm"
+	inline_script = "pif/buildings/building_lathe_validator/ai"
+}

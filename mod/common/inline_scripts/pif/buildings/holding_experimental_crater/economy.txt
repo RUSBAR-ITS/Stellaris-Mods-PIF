@@ -1,0 +1,12 @@
+# PIF building category: ECONOMY
+# Vanilla building: holding_experimental_crater
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+resources = {
+	category = planet_holdings
+	produces = {
+		engineering_research = @pif_holding_experimental_crater_economic_modifiers_produces_engineering_research_1
+		physics_research = @pif_holding_experimental_crater_economic_modifiers_produces_physics_research_2
+	}
+}

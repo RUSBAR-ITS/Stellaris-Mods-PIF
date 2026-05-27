@@ -1,0 +1,27 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_natural_furnace_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+can_build = no
+
+planet_limit = @pif_building_natural_furnace_2_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+prerequisites = {
+	tech_alloys_1
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = yes
+}

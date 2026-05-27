@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_bureaucrat
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_politicians
+	produces = {
+		unity = @pif_primitive_bureaucrat_job_output_output_unity_1
+	}
+}

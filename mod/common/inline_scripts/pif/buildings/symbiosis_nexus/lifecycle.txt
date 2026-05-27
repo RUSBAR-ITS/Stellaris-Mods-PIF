@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: symbiosis_nexus
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+destroy_trigger = {
+	owner = {
+		has_symbiosis_integrator_job = no
+	}
+}
+
+convert_to = {
+	wildlife_ranch
+	hunting_grounds
+	wildlife_sanctuary
+	primal_arena
+}
+
+upgrades = {
+	"symbiosis_nexus_2"
+}

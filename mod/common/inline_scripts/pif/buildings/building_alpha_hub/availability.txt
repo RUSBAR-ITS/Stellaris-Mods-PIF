@@ -1,0 +1,31 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_alpha_hub
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_alpha_hub_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_machine_empire = yes
+		NOT = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_autocurating_vault"
+}
+
+show_tech_unlock_if = {
+	is_machine_empire = yes
+	NOT = {
+		has_valid_civic = civic_machine_servitor
+	}
+}

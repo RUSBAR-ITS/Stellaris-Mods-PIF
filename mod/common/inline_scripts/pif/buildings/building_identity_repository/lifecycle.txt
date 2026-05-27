@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_identity_repository
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+can_demolish = no
+
+can_be_disabled = no
+
+destroy_trigger = {
+	exists = owner
+	NOT = {
+		owner = {
+			has_origin = origin_synthetic_fertility
+		}
+	}
+}
+
+convert_to = {
+	building_research_lab_1
+}

@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: sand_caretaker
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		icon = sand_whisperer
+	}
+}

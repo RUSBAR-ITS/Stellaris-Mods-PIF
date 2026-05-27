@@ -1,0 +1,13 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_shroud_observatory_3
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_biologists_physics_research_produces_add = @pif_building_shroud_observatory_3_economic_modifiers_planet_biologists_physics_research_produces_add_1
+	planet_biologists_society_research_produces_add = @pif_building_shroud_observatory_3_economic_modifiers_planet_biologists_society_research_produces_add_2
+	planet_biologists_sr_zro_upkeep_add = @pif_building_shroud_observatory_3_economic_modifiers_planet_biologists_sr_zro_upkeep_add_3
+}

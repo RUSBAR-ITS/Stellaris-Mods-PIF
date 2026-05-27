@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/11_astral_planes_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+munitions_decommissioner = {
+	category = specialist
+	inline_script = "pif/jobs/munitions_decommissioner/swap"
+	inline_script = "pif/jobs/munitions_decommissioner/availability"
+	inline_script = "pif/jobs/munitions_decommissioner/pop_config"
+	inline_script = "pif/jobs/munitions_decommissioner/economy"
+	inline_script = "pif/jobs/munitions_decommissioner/planet_state"
+	inline_script = "pif/jobs/munitions_decommissioner/country_modifiers"
+	inline_script = "pif/jobs/munitions_decommissioner/pop_modifiers"
+	inline_script = "pif/jobs/munitions_decommissioner/economic_modifiers"
+	inline_script = "pif/jobs/munitions_decommissioner/tpm"
+}

@@ -1,0 +1,17 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_rw_hive
+# Vanilla source: districts/04_ringworld_districts.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_hive_empire = yes
+	}
+	uses_district_set = ring_world
+	NAND = {
+		is_capital = yes
+		owner = {
+			has_menace_perk = menp_behemoth_mind_meld
+		}
+	}
+}

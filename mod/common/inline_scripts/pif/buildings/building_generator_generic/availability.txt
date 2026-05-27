@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_generator_generic
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+prerequisites = {
+	"tech_power_plant_1"
+}

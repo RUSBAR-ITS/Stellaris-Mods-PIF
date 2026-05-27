@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: hunted_pre_sapient_lithoid
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = livestock
+	}
+}

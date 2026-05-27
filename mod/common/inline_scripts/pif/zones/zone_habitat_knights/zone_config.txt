@@ -1,0 +1,13 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_habitat_knights
+# Vanilla source: zones/01_habitat_zones.txt
+
+zone_sets = {
+	habitat_urban
+}
+
+included_building_sets = {
+	knights
+	fortress
+	origin
+}

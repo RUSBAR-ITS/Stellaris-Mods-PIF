@@ -1,0 +1,25 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: building_fe_stronghold
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+planetary_ftl_inhibitor = yes
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_orbital_bombardment_damage = @pif_building_fe_stronghold_planet_state_planet_orbital_bombardment_damage_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = yes
+			has_tradition = tr_purity_finish
+		}
+	}
+	planet_building_build_speed_mult = @pif_building_fe_stronghold_construction_planet_building_build_speed_mult_2
+	planet_decision_enact_speed_mult = @pif_building_fe_stronghold_construction_planet_decision_enact_speed_mult_3
+}

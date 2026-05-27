@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: wildlife_sanctuary_2
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+destroy_trigger = {
+	owner = {
+		has_animal_handler_job = no
+	}
+}
+
+convert_to = {
+	wildlife_ranch_2
+	hunting_grounds_2
+	primal_arena_2
+	symbiosis_nexus_2
+}
+
+upgrades = {
+	"wildlife_sanctuary_3"
+}

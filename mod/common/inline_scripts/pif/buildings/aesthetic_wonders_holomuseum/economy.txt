@@ -1,0 +1,22 @@
+# PIF building category: ECONOMY
+# Vanilla building: aesthetic_wonders_holomuseum
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_aesthetic_wonders_holomuseum_cost_cost_minerals_1
+	}
+	cost = {
+		trigger = {
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_aesthetic_wonders_holomuseum_cost_cost_biomass_2
+	}
+	upkeep = {
+		energy = @pif_aesthetic_wonders_holomuseum_upkeep_upkeep_energy_1
+	}
+}

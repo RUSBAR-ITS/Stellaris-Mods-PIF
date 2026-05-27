@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_farming_districts_4
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+building_sets = {
+	farming
+}

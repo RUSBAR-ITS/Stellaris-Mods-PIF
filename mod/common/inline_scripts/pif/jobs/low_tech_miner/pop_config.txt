@@ -1,0 +1,32 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: low_tech_miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+tags = {
+	minerals
+}
+
+weight = {
+	weight = @pif_low_tech_miner_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|low_tech_miner|RESOURCE|minerals|
+}
+
+auto_trait_prio = {
+	trait_industrious
+	trait_crack_miner
+	trait_robot_power_drills
+	trait_cyborg_power_drills
+	trait_malleable_minerals
+	trait_adaptive_minerals
+}
+
+promotion = {
+	time = @pif_low_tech_miner_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

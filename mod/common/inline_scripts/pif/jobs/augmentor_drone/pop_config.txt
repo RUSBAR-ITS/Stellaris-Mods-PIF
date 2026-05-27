@@ -1,0 +1,50 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: augmentor_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+tags = {
+	research
+	amenities
+}
+
+weight = {
+	weight = @pif_augmentor_drone_job_weight_weight_1
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_augmentor_drone_job_weight_factor_2
+		planet = {
+			has_modifier = planet_population_control_gestalt
+		}
+	}
+	modifier = {
+		factor = @pif_augmentor_drone_job_weight_factor_3
+		exists = planet
+		exists = planet.controller
+		planet.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_intelligent
+	trait_artificial_intelligence
+	trait_robot_logic_engines
+	trait_cyborg_logic_engines
+	trait_malleable_research
+	trait_adaptive_research
+}
+
+promotion = {
+	time = @pif_augmentor_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

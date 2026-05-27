@@ -1,0 +1,1406 @@
+# Planetary Infrastructure Framework (PIF)
+# Building variables: AI
+# Values are resolved from the Stellaris 4.3.7 vanilla buildings baseline.
+# Variables are grouped by building object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# building_advanced_storm_attraction_center
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_advanced_storm_attraction_center/ai.txt
+@pif_building_advanced_storm_attraction_center_ai_add_2 = 10
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_advanced_storm_attraction_center/ai.txt
+@pif_building_advanced_storm_attraction_center_ai_weight_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_advanced_storm_resistant_production
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_advanced_storm_resistant_production/ai.txt
+@pif_building_advanced_storm_resistant_production_ai_add_2 = 2
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_advanced_storm_resistant_production/ai.txt
+@pif_building_advanced_storm_resistant_production_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_ai_emporium
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_ai_emporium/ai.txt
+@pif_building_ai_emporium_ai_weight_1 = 2
+
+# Controls: AI tuning value: ai_weight.ai_weight.modifier.modifier.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_ai_emporium/ai.txt
+@pif_building_ai_emporium_ai_weight_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# building_amphitheater_of_the_mind
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_amphitheater_of_the_mind/ai.txt
+@pif_building_amphitheater_of_the_mind_ai_engineering_research_4 = 5
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_amphitheater_of_the_mind/ai.txt
+@pif_building_amphitheater_of_the_mind_ai_physics_research_2 = 5
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_amphitheater_of_the_mind/ai.txt
+@pif_building_amphitheater_of_the_mind_ai_society_research_3 = 5
+
+# Controls: AI resource-production hint: value.
+# Used in: common/inline_scripts/pif/buildings/building_amphitheater_of_the_mind/ai.txt
+@pif_building_amphitheater_of_the_mind_ai_value_1 = 30
+
+# -----------------------------------------------------------------------------
+# building_amusement_megaplex
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_amusement_megaplex/ai.txt
+@pif_building_amusement_megaplex_ai_weight_1 = 2
+
+# Controls: AI tuning value: ai_weight.ai_weight.modifier.modifier.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_amusement_megaplex/ai.txt
+@pif_building_amusement_megaplex_ai_weight_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# building_archaeostudies_faculty
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_archaeostudies_faculty/ai.txt
+@pif_building_archaeostudies_faculty_ai_ai_weight_coefficient_1 = 1.5
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_archaeostudies_faculty/ai.txt
+@pif_building_archaeostudies_faculty_ai_mult_3 = 5
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_archaeostudies_faculty/ai.txt
+@pif_building_archaeostudies_faculty_ai_society_research_2 = 5
+
+# -----------------------------------------------------------------------------
+# building_astrometeorology_observation_center
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_astrometeorology_observation_center/ai.txt
+@pif_building_astrometeorology_observation_center_ai_add_2 = 3
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier_2.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_astrometeorology_observation_center/ai.txt
+@pif_building_astrometeorology_observation_center_ai_factor_3 = 2
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_astrometeorology_observation_center/ai.txt
+@pif_building_astrometeorology_observation_center_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_augmentation_bazaars
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_bazaars/ai.txt
+@pif_building_augmentation_bazaars_ai_energy_1 = 5
+
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_bazaars/ai.txt
+@pif_building_augmentation_bazaars_ai_energy_2 = 3
+
+# -----------------------------------------------------------------------------
+# building_augmentation_bazaars_branch
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_bazaars_branch/ai.txt
+@pif_building_augmentation_bazaars_branch_ai_energy_1 = 5
+
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_bazaars_branch/ai.txt
+@pif_building_augmentation_bazaars_branch_ai_energy_2 = 3
+
+# -----------------------------------------------------------------------------
+# building_autochthon_monument
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_autochthon_monument/ai.txt
+@pif_building_autochthon_monument_ai_unity_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_baol_organic_plant
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: food.
+# Used in: common/inline_scripts/pif/buildings/building_baol_organic_plant/ai.txt
+@pif_building_baol_organic_plant_ai_food_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_bio_reprocessing_facilities
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_bio_reprocessing_facilities/ai.txt
+@pif_building_bio_reprocessing_facilities_ai_factor_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_biolab_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_1/ai.txt
+@pif_building_biolab_1_ai_ai_weight_coefficient_1 = 1.2
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_1/ai.txt
+@pif_building_biolab_1_ai_mult_3 = 5
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_1/ai.txt
+@pif_building_biolab_1_ai_society_research_2 = 5
+
+# -----------------------------------------------------------------------------
+# building_biolab_2
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_2/ai.txt
+@pif_building_biolab_2_ai_mult_2 = 5
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_2/ai.txt
+@pif_building_biolab_2_ai_society_research_1 = 7.5
+
+# -----------------------------------------------------------------------------
+# building_biolab_3
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_3/ai.txt
+@pif_building_biolab_3_ai_mult_2 = 5
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_biolab_3/ai.txt
+@pif_building_biolab_3_ai_society_research_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_bureaucratic_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_bureaucratic_1/ai.txt
+@pif_building_bureaucratic_1_ai_ai_weight_coefficient_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_capital/ai.txt
+@pif_building_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_carceral_test_facility
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_carceral_test_facility/ai.txt
+@pif_building_carceral_test_facility_ai_weight_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_clear_thought_clinic
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_clear_thought_clinic/ai.txt
+@pif_building_clear_thought_clinic_ai_weight_1 = 2
+
+# Controls: AI tuning value: ai_weight.ai_weight.modifier.modifier.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_clear_thought_clinic/ai.txt
+@pif_building_clear_thought_clinic_ai_weight_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# building_commercial_forum
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_commercial_forum/ai.txt
+@pif_building_commercial_forum_ai_weight_1 = 50
+
+# -----------------------------------------------------------------------------
+# building_commercial_megaplex
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_commercial_megaplex/ai.txt
+@pif_building_commercial_megaplex_ai_energy_1 = 6
+
+# Controls: AI resource-production hint: num_unemployed.
+# Used in: common/inline_scripts/pif/buildings/building_commercial_megaplex/ai.txt
+@pif_building_commercial_megaplex_ai_num_unemployed_2 = 1000
+
+# Controls: AI resource-production hint: value.
+# Used in: common/inline_scripts/pif/buildings/building_commercial_megaplex/ai.txt
+@pif_building_commercial_megaplex_ai_value_3 = 1000
+
+# -----------------------------------------------------------------------------
+# building_communal_housing
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_communal_housing/ai.txt
+@pif_building_communal_housing_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_communal_housing_large
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_communal_housing_large/ai.txt
+@pif_building_communal_housing_large_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_coordinated_fulfillment_center_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_1/ai.txt
+@pif_building_coordinated_fulfillment_center_1_ai_alloys_1 = 10
+
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_1/ai.txt
+@pif_building_coordinated_fulfillment_center_1_ai_consumer_goods_2 = 10
+
+# -----------------------------------------------------------------------------
+# building_coordinated_fulfillment_center_2
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_2/ai.txt
+@pif_building_coordinated_fulfillment_center_2_ai_alloys_1 = 10
+
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_coordinated_fulfillment_center_2/ai.txt
+@pif_building_coordinated_fulfillment_center_2_ai_consumer_goods_2 = 15
+
+# -----------------------------------------------------------------------------
+# building_corporate_clinics
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_corporate_clinics/ai.txt
+@pif_building_corporate_clinics_ai_weight_1 = 120
+
+# -----------------------------------------------------------------------------
+# building_corporate_embassy
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.modifier.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_corporate_embassy/ai.txt
+@pif_building_corporate_embassy_ai_factor_2 = 10
+
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_corporate_embassy/ai.txt
+@pif_building_corporate_embassy_ai_weight_1 = 50
+
+# -----------------------------------------------------------------------------
+# building_corporate_forum
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_corporate_forum/ai.txt
+@pif_building_corporate_forum_ai_unity_1 = 20
+
+# -----------------------------------------------------------------------------
+# building_corporate_monument
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_corporate_monument/ai.txt
+@pif_building_corporate_monument_ai_unity_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_corporate_site
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_corporate_site/ai.txt
+@pif_building_corporate_site_ai_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_cradle_of_rebirth
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_cradle_of_rebirth/ai.txt
+@pif_building_cradle_of_rebirth_ai_additional_ai_weight_2 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_cradle_of_rebirth/ai.txt
+@pif_building_cradle_of_rebirth_ai_ai_weight_coefficient_1 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_disinformation_center
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_disinformation_center/ai.txt
+@pif_building_disinformation_center_ai_weight_1 = 50
+
+# -----------------------------------------------------------------------------
+# building_drone_megastorage
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_drone_megastorage/ai.txt
+@pif_building_drone_megastorage_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_drone_storage
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_drone_storage/ai.txt
+@pif_building_drone_storage_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_energy_grid
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_energy_grid/ai.txt
+@pif_building_energy_grid_ai_energy_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_energy_nexus
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_energy_nexus/ai.txt
+@pif_building_energy_nexus_ai_energy_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_engineering_facility_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_1/ai.txt
+@pif_building_engineering_facility_1_ai_ai_weight_coefficient_1 = 1.2
+
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_1/ai.txt
+@pif_building_engineering_facility_1_ai_engineering_research_2 = 5
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_1/ai.txt
+@pif_building_engineering_facility_1_ai_mult_3 = 5
+
+# -----------------------------------------------------------------------------
+# building_engineering_facility_2
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_2/ai.txt
+@pif_building_engineering_facility_2_ai_engineering_research_1 = 7.5
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_2/ai.txt
+@pif_building_engineering_facility_2_ai_mult_2 = 5
+
+# -----------------------------------------------------------------------------
+# building_engineering_facility_3
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_3/ai.txt
+@pif_building_engineering_facility_3_ai_engineering_research_1 = 10
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_engineering_facility_3/ai.txt
+@pif_building_engineering_facility_3_ai_mult_2 = 5
+
+# -----------------------------------------------------------------------------
+# building_executive_retreat
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_executive_retreat/ai.txt
+@pif_building_executive_retreat_ai_factor_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_expanded_warren
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_expanded_warren/ai.txt
+@pif_building_expanded_warren_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_factory_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_factory_1/ai.txt
+@pif_building_factory_1_ai_ai_weight_coefficient_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_factory_efficiency_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_factory_efficiency_1/ai.txt
+@pif_building_factory_efficiency_1_ai_consumer_goods_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_factory_upkeep_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: food.
+# Used in: common/inline_scripts/pif/buildings/building_factory_upkeep_1/ai.txt
+@pif_building_factory_upkeep_1_ai_food_2 = 10
+
+# Controls: AI resource-production hint: minerals.
+# Used in: common/inline_scripts/pif/buildings/building_factory_upkeep_1/ai.txt
+@pif_building_factory_upkeep_1_ai_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_food_conglomerate
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_food_conglomerate/ai.txt
+@pif_building_food_conglomerate_ai_factor_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_food_processing_center
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: food.
+# Used in: common/inline_scripts/pif/buildings/building_food_processing_center/ai.txt
+@pif_building_food_processing_center_ai_food_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_food_processing_facility
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: food.
+# Used in: common/inline_scripts/pif/buildings/building_food_processing_facility/ai.txt
+@pif_building_food_processing_facility_ai_food_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_foundry_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_foundry_1/ai.txt
+@pif_building_foundry_1_ai_ai_weight_coefficient_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_foundry_efficiency_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_foundry_efficiency_1/ai.txt
+@pif_building_foundry_efficiency_1_ai_alloys_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_foundry_upkeep_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: food.
+# Used in: common/inline_scripts/pif/buildings/building_foundry_upkeep_1/ai.txt
+@pif_building_foundry_upkeep_1_ai_food_2 = 10
+
+# Controls: AI resource-production hint: minerals.
+# Used in: common/inline_scripts/pif/buildings/building_foundry_upkeep_1/ai.txt
+@pif_building_foundry_upkeep_1_ai_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_galactic_memorial_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_1/ai.txt
+@pif_building_galactic_memorial_1_ai_unity_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_galactic_memorial_2
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_2/ai.txt
+@pif_building_galactic_memorial_2_ai_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_galactic_memorial_3
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_memorial_3/ai.txt
+@pif_building_galactic_memorial_3_ai_unity_1 = 20
+
+# -----------------------------------------------------------------------------
+# building_galactic_stock_exchange
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: trade.
+# Used in: common/inline_scripts/pif/buildings/building_galactic_stock_exchange/ai.txt
+@pif_building_galactic_stock_exchange_ai_trade_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_generator_generic
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_generator_generic/ai.txt
+@pif_building_generator_generic_ai_ai_weight_coefficient_1 = 0.0
+
+# -----------------------------------------------------------------------------
+# building_grand_concert_hall_of_the_mind
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_grand_concert_hall_of_the_mind/ai.txt
+@pif_building_grand_concert_hall_of_the_mind_ai_engineering_research_4 = 5
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_grand_concert_hall_of_the_mind/ai.txt
+@pif_building_grand_concert_hall_of_the_mind_ai_physics_research_2 = 5
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_grand_concert_hall_of_the_mind/ai.txt
+@pif_building_grand_concert_hall_of_the_mind_ai_society_research_3 = 5
+
+# Controls: AI resource-production hint: value.
+# Used in: common/inline_scripts/pif/buildings/building_grand_concert_hall_of_the_mind/ai.txt
+@pif_building_grand_concert_hall_of_the_mind_ai_value_1 = 30
+
+# -----------------------------------------------------------------------------
+# building_hab_major_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/ai.txt
+@pif_building_hab_major_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_hab_system_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/ai.txt
+@pif_building_hab_system_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_heritage_site
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_heritage_site/ai.txt
+@pif_building_heritage_site_ai_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_hive_major_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/ai.txt
+@pif_building_hive_major_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_hive_node
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_hive_node/ai.txt
+@pif_building_hive_node_ai_ai_weight_coefficient_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_hive_warren
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_hive_warren/ai.txt
+@pif_building_hive_warren_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_hydroponics_farm
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_hydroponics_farm/ai.txt
+@pif_building_hydroponics_farm_ai_ai_weight_coefficient_1 = 0.0
+
+# -----------------------------------------------------------------------------
+# building_hypercomms_forum
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_hypercomms_forum/ai.txt
+@pif_building_hypercomms_forum_ai_unity_1 = 20
+
+# -----------------------------------------------------------------------------
+# building_illicit_research_labs
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_illicit_research_labs/ai.txt
+@pif_building_illicit_research_labs_ai_weight_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_imperial_concession_port
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_concession_port/ai.txt
+@pif_building_imperial_concession_port_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_imperial_hive_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/ai.txt
+@pif_building_imperial_hive_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_imperial_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/ai.txt
+@pif_building_imperial_machine_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_industrial_subsidiary
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_industrial_subsidiary/ai.txt
+@pif_building_industrial_subsidiary_ai_factor_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_institute
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_institute/ai.txt
+@pif_building_institute_ai_ai_weight_coefficient_1 = 1.5
+
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_institute/ai.txt
+@pif_building_institute_ai_engineering_research_4 = 10
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_institute/ai.txt
+@pif_building_institute_ai_mult_5 = 2
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_institute/ai.txt
+@pif_building_institute_ai_physics_research_2 = 10
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_institute/ai.txt
+@pif_building_institute_ai_society_research_3 = 10
+
+# -----------------------------------------------------------------------------
+# building_knightly_theme_park
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_knightly_theme_park/ai.txt
+@pif_building_knightly_theme_park_ai_weight_1 = 5
+
+# -----------------------------------------------------------------------------
+# building_lathe_cogitator
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_cogitator/ai.txt
+@pif_building_lathe_cogitator_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_cogitator/ai.txt
+@pif_building_lathe_cogitator_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_life_support
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_life_support/ai.txt
+@pif_building_lathe_life_support_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_life_support/ai.txt
+@pif_building_lathe_life_support_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_overclocker
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_overclocker/ai.txt
+@pif_building_lathe_overclocker_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_overclocker/ai.txt
+@pif_building_lathe_overclocker_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_preserver
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_preserver/ai.txt
+@pif_building_lathe_preserver_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_preserver/ai.txt
+@pif_building_lathe_preserver_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_reactor
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_reactor/ai.txt
+@pif_building_lathe_reactor_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_reactor/ai.txt
+@pif_building_lathe_reactor_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_resonator
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_resonator/ai.txt
+@pif_building_lathe_resonator_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_resonator/ai.txt
+@pif_building_lathe_resonator_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_stabilisator
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_stabilisator/ai.txt
+@pif_building_lathe_stabilisator_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_stabilisator/ai.txt
+@pif_building_lathe_stabilisator_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_super_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_super_capital/ai.txt
+@pif_building_lathe_super_capital_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_super_capital/ai.txt
+@pif_building_lathe_super_capital_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_lathe_validator
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_validator/ai.txt
+@pif_building_lathe_validator_ai_additional_ai_weight_1 = 200
+
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_lathe_validator/ai.txt
+@pif_building_lathe_validator_ai_ai_weight_coefficient_2 = 1.2
+
+# -----------------------------------------------------------------------------
+# building_luxury_residence
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_luxury_residence/ai.txt
+@pif_building_luxury_residence_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/ai.txt
+@pif_building_machine_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_machine_major_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/ai.txt
+@pif_building_machine_major_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_machine_system_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/ai.txt
+@pif_building_machine_system_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_major_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/ai.txt
+@pif_building_major_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_military_contractors
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_military_contractors/ai.txt
+@pif_building_military_contractors_ai_factor_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_mine_generic
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_mine_generic/ai.txt
+@pif_building_mine_generic_ai_ai_weight_coefficient_1 = 0.0
+
+# -----------------------------------------------------------------------------
+# building_mineral_purification_hub
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_mineral_purification_hub/ai.txt
+@pif_building_mineral_purification_hub_ai_energy_3 = 15
+
+# Controls: AI resource-production hint: minerals.
+# Used in: common/inline_scripts/pif/buildings/building_mineral_purification_hub/ai.txt
+@pif_building_mineral_purification_hub_ai_minerals_1 = 15
+
+# Controls: AI resource-production hint: minerals.
+# Used in: common/inline_scripts/pif/buildings/building_mineral_purification_hub/ai.txt
+@pif_building_mineral_purification_hub_ai_minerals_2 = 7.5
+
+# -----------------------------------------------------------------------------
+# building_mineral_purification_plant
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_mineral_purification_plant/ai.txt
+@pif_building_mineral_purification_plant_ai_energy_3 = 10
+
+# Controls: AI resource-production hint: minerals.
+# Used in: common/inline_scripts/pif/buildings/building_mineral_purification_plant/ai.txt
+@pif_building_mineral_purification_plant_ai_minerals_1 = 10
+
+# Controls: AI resource-production hint: minerals.
+# Used in: common/inline_scripts/pif/buildings/building_mineral_purification_plant/ai.txt
+@pif_building_mineral_purification_plant_ai_minerals_2 = 5
+
+# -----------------------------------------------------------------------------
+# building_ministry_production
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_ministry_production/ai.txt
+@pif_building_ministry_production_ai_alloys_1 = 10
+
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_ministry_production/ai.txt
+@pif_building_ministry_production_ai_consumer_goods_2 = 10
+
+# -----------------------------------------------------------------------------
+# building_nanite_transmuter
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: exotic_gases.
+# Used in: common/inline_scripts/pif/buildings/building_nanite_transmuter/ai.txt
+@pif_building_nanite_transmuter_ai_exotic_gases_3 = 2
+
+# Controls: AI resource-production hint: rare_crystals.
+# Used in: common/inline_scripts/pif/buildings/building_nanite_transmuter/ai.txt
+@pif_building_nanite_transmuter_ai_rare_crystals_1 = 2
+
+# Controls: AI resource-production hint: volatile_motes.
+# Used in: common/inline_scripts/pif/buildings/building_nanite_transmuter/ai.txt
+@pif_building_nanite_transmuter_ai_volatile_motes_2 = 2
+
+# -----------------------------------------------------------------------------
+# building_organic_paradise
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_organic_paradise/ai.txt
+@pif_building_organic_paradise_ai_ai_weight_coefficient_1 = 1.2
+
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_organic_paradise/ai.txt
+@pif_building_organic_paradise_ai_alloys_5 = 20
+
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_organic_paradise/ai.txt
+@pif_building_organic_paradise_ai_consumer_goods_6 = 20
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_organic_paradise/ai.txt
+@pif_building_organic_paradise_ai_physics_research_3 = 20
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_organic_paradise/ai.txt
+@pif_building_organic_paradise_ai_unity_2 = 20
+
+# Controls: AI resource-production hint: value.
+# Used in: common/inline_scripts/pif/buildings/building_organic_paradise/ai.txt
+@pif_building_organic_paradise_ai_value_4 = 100
+
+# -----------------------------------------------------------------------------
+# building_organic_sanctuary
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_organic_sanctuary/ai.txt
+@pif_building_organic_sanctuary_ai_ai_weight_coefficient_4 = 1.2
+
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_organic_sanctuary/ai.txt
+@pif_building_organic_sanctuary_ai_alloys_3 = 5
+
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_organic_sanctuary/ai.txt
+@pif_building_organic_sanctuary_ai_alloys_6 = 10
+
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_organic_sanctuary/ai.txt
+@pif_building_organic_sanctuary_ai_consumer_goods_7 = 10
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_organic_sanctuary/ai.txt
+@pif_building_organic_sanctuary_ai_physics_research_2 = 10
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_organic_sanctuary/ai.txt
+@pif_building_organic_sanctuary_ai_unity_1 = 10
+
+# Controls: AI resource-production hint: value.
+# Used in: common/inline_scripts/pif/buildings/building_organic_sanctuary/ai.txt
+@pif_building_organic_sanctuary_ai_value_5 = 100
+
+# -----------------------------------------------------------------------------
+# building_ozone_thickener
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_ozone_thickener/ai.txt
+@pif_building_ozone_thickener_ai_factor_2 = 5
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_ozone_thickener/ai.txt
+@pif_building_ozone_thickener_ai_weight_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_paradise_dome
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_paradise_dome/ai.txt
+@pif_building_paradise_dome_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_physics_lab_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_1/ai.txt
+@pif_building_physics_lab_1_ai_ai_weight_coefficient_1 = 1.2
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_1/ai.txt
+@pif_building_physics_lab_1_ai_mult_3 = 5
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_1/ai.txt
+@pif_building_physics_lab_1_ai_physics_research_2 = 5
+
+# -----------------------------------------------------------------------------
+# building_physics_lab_2
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_2/ai.txt
+@pif_building_physics_lab_2_ai_mult_2 = 5
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_2/ai.txt
+@pif_building_physics_lab_2_ai_physics_research_1 = 7.5
+
+# -----------------------------------------------------------------------------
+# building_physics_lab_3
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_3/ai.txt
+@pif_building_physics_lab_3_ai_mult_2 = 5
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_physics_lab_3/ai.txt
+@pif_building_physics_lab_3_ai_physics_research_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_pirate_haven
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_pirate_haven/ai.txt
+@pif_building_pirate_haven_ai_factor_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_planetary_shield_generator
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_planetary_shield_generator/ai.txt
+@pif_building_planetary_shield_generator_ai_factor_2 = 5
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_planetary_shield_generator/ai.txt
+@pif_building_planetary_shield_generator_ai_weight_1 = 5
+
+# -----------------------------------------------------------------------------
+# building_private_mining_consortium
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_private_mining_consortium/ai.txt
+@pif_building_private_mining_consortium_ai_factor_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_private_research_initiative
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_private_research_initiative/ai.txt
+@pif_building_private_research_initiative_ai_weight_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_private_security
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_private_security/ai.txt
+@pif_building_private_security_ai_factor_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_private_shipyards
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_private_shipyards/ai.txt
+@pif_building_private_shipyards_ai_weight_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_production_center
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: alloys.
+# Used in: common/inline_scripts/pif/buildings/building_production_center/ai.txt
+@pif_building_production_center_ai_alloys_1 = 10
+
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_production_center/ai.txt
+@pif_building_production_center_ai_consumer_goods_2 = 10
+
+# -----------------------------------------------------------------------------
+# building_psionic_offices
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_psionic_offices/ai.txt
+@pif_building_psionic_offices_ai_weight_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_public_relations_office
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_public_relations_office/ai.txt
+@pif_building_public_relations_office_ai_weight_1 = 2
+
+# -----------------------------------------------------------------------------
+# building_ranger_lodge
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_ranger_lodge/ai.txt
+@pif_building_ranger_lodge_ai_unity_1 = 1.0
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_ranger_lodge/ai.txt
+@pif_building_ranger_lodge_ai_unity_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# building_research_efficiency_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_research_efficiency_1/ai.txt
+@pif_building_research_efficiency_1_ai_engineering_research_3 = 5
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_research_efficiency_1/ai.txt
+@pif_building_research_efficiency_1_ai_mult_4 = 2
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_research_efficiency_1/ai.txt
+@pif_building_research_efficiency_1_ai_physics_research_1 = 5
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_research_efficiency_1/ai.txt
+@pif_building_research_efficiency_1_ai_society_research_2 = 5
+
+# -----------------------------------------------------------------------------
+# building_research_lab_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_research_lab_1/ai.txt
+@pif_building_research_lab_1_ai_ai_weight_coefficient_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_research_upkeep_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: consumer_goods.
+# Used in: common/inline_scripts/pif/buildings/building_research_upkeep_1/ai.txt
+@pif_building_research_upkeep_1_ai_consumer_goods_1 = 5
+
+# Controls: AI resource-production hint: energy.
+# Used in: common/inline_scripts/pif/buildings/building_research_upkeep_1/ai.txt
+@pif_building_research_upkeep_1_ai_energy_2 = 10
+
+# Controls: AI resource-production hint: minerals.
+# Used in: common/inline_scripts/pif/buildings/building_research_upkeep_1/ai.txt
+@pif_building_research_upkeep_1_ai_minerals_3 = 10
+
+# -----------------------------------------------------------------------------
+# building_resort_major_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/ai.txt
+@pif_building_resort_major_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_sensorium_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: trade.
+# Used in: common/inline_scripts/pif/buildings/building_sensorium_1/ai.txt
+@pif_building_sensorium_1_ai_trade_2 = 5
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_sensorium_1/ai.txt
+@pif_building_sensorium_1_ai_unity_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_sensorium_2
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: trade.
+# Used in: common/inline_scripts/pif/buildings/building_sensorium_2/ai.txt
+@pif_building_sensorium_2_ai_trade_2 = 5
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_sensorium_2/ai.txt
+@pif_building_sensorium_2_ai_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_sensorium_3
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: trade.
+# Used in: common/inline_scripts/pif/buildings/building_sensorium_3/ai.txt
+@pif_building_sensorium_3_ai_trade_2 = 5
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_sensorium_3/ai.txt
+@pif_building_sensorium_3_ai_unity_1 = 20
+
+# -----------------------------------------------------------------------------
+# building_simulation_1
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: trade.
+# Used in: common/inline_scripts/pif/buildings/building_simulation_1/ai.txt
+@pif_building_simulation_1_ai_trade_2 = 5
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_simulation_1/ai.txt
+@pif_building_simulation_1_ai_unity_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_simulation_2
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: trade.
+# Used in: common/inline_scripts/pif/buildings/building_simulation_2/ai.txt
+@pif_building_simulation_2_ai_trade_2 = 5
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_simulation_2/ai.txt
+@pif_building_simulation_2_ai_unity_1 = 15
+
+# -----------------------------------------------------------------------------
+# building_simulation_3
+# -----------------------------------------------------------------------------
+# Controls: AI resource-production hint: trade.
+# Used in: common/inline_scripts/pif/buildings/building_simulation_3/ai.txt
+@pif_building_simulation_3_ai_trade_2 = 5
+
+# Controls: AI resource-production hint: unity.
+# Used in: common/inline_scripts/pif/buildings/building_simulation_3/ai.txt
+@pif_building_simulation_3_ai_unity_1 = 20
+
+# -----------------------------------------------------------------------------
+# building_slave_major_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/ai.txt
+@pif_building_slave_major_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_smuggling_rings
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_smuggling_rings/ai.txt
+@pif_building_smuggling_rings_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_storm_attraction_center
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_storm_attraction_center/ai.txt
+@pif_building_storm_attraction_center_ai_add_2 = 2
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier_2.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_storm_attraction_center/ai.txt
+@pif_building_storm_attraction_center_ai_add_3 = 10
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_storm_attraction_center/ai.txt
+@pif_building_storm_attraction_center_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_storm_grand_theater
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_storm_grand_theater/ai.txt
+@pif_building_storm_grand_theater_ai_add_2 = 10
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_storm_grand_theater/ai.txt
+@pif_building_storm_grand_theater_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_storm_holo_theater
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_storm_holo_theater/ai.txt
+@pif_building_storm_holo_theater_ai_add_2 = 10
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_storm_holo_theater/ai.txt
+@pif_building_storm_holo_theater_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_storm_repellent_center
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_storm_repellent_center/ai.txt
+@pif_building_storm_repellent_center_ai_add_2 = 1
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_storm_repellent_center/ai.txt
+@pif_building_storm_repellent_center_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_storm_resistant_production
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_storm_resistant_production/ai.txt
+@pif_building_storm_resistant_production_ai_add_2 = 1
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_storm_resistant_production/ai.txt
+@pif_building_storm_resistant_production_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_subversive_shrine
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_subversive_shrine/ai.txt
+@pif_building_subversive_shrine_ai_weight_1 = 250
+
+# -----------------------------------------------------------------------------
+# building_supercomputer
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_supercomputer/ai.txt
+@pif_building_supercomputer_ai_ai_weight_coefficient_1 = 1.5
+
+# Controls: AI resource-production hint: engineering_research.
+# Used in: common/inline_scripts/pif/buildings/building_supercomputer/ai.txt
+@pif_building_supercomputer_ai_engineering_research_4 = 10
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_supercomputer/ai.txt
+@pif_building_supercomputer_ai_mult_5 = 2
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_supercomputer/ai.txt
+@pif_building_supercomputer_ai_physics_research_2 = 10
+
+# Controls: AI resource-production hint: society_research.
+# Used in: common/inline_scripts/pif/buildings/building_supercomputer/ai.txt
+@pif_building_supercomputer_ai_society_research_3 = 10
+
+# -----------------------------------------------------------------------------
+# building_syndicate_outreach_office
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_syndicate_outreach_office/ai.txt
+@pif_building_syndicate_outreach_office_ai_weight_1 = 5
+
+# -----------------------------------------------------------------------------
+# building_system_capital
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: additional_ai_weight.additional_ai_weight.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/ai.txt
+@pif_building_system_capital_ai_additional_ai_weight_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_temple
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_temple/ai.txt
+@pif_building_temple_ai_ai_weight_coefficient_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_temple_of_prosperity
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_temple_of_prosperity/ai.txt
+@pif_building_temple_of_prosperity_ai_weight_1 = 250
+
+# -----------------------------------------------------------------------------
+# building_underground_chemists
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.modifier.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_underground_chemists/ai.txt
+@pif_building_underground_chemists_ai_factor_2 = 5
+
+# Controls: AI tuning value: ai_weight.ai_weight.modifier_2.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_underground_chemists/ai.txt
+@pif_building_underground_chemists_ai_factor_3 = 0.5
+
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_underground_chemists/ai.txt
+@pif_building_underground_chemists_ai_weight_1 = 3
+
+# -----------------------------------------------------------------------------
+# building_underground_clubs
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.modifier.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_underground_clubs/ai.txt
+@pif_building_underground_clubs_ai_factor_2 = 3
+
+# Controls: AI tuning value: ai_weight.ai_weight.modifier_2.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_underground_clubs/ai.txt
+@pif_building_underground_clubs_ai_factor_3 = 0.5
+
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_underground_clubs/ai.txt
+@pif_building_underground_clubs_ai_weight_1 = 5
+
+# -----------------------------------------------------------------------------
+# building_uplink_node
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_uplink_node/ai.txt
+@pif_building_uplink_node_ai_ai_weight_coefficient_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_virtual_entertainment_studios
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.modifier.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_virtual_entertainment_studios/ai.txt
+@pif_building_virtual_entertainment_studios_ai_factor_2 = 5
+
+# Controls: AI tuning value: ai_weight.ai_weight.modifier_2.modifier.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_virtual_entertainment_studios/ai.txt
+@pif_building_virtual_entertainment_studios_ai_factor_3 = 0.5
+
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_virtual_entertainment_studios/ai.txt
+@pif_building_virtual_entertainment_studios_ai_weight_1 = 3
+
+# -----------------------------------------------------------------------------
+# building_volcanic_forge_1
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_volcanic_forge_1/ai.txt
+@pif_building_volcanic_forge_1_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_volcanic_forge_2
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_volcanic_forge_2/ai.txt
+@pif_building_volcanic_forge_2_ai_ai_weight_coefficient_1 = 1.25
+
+# -----------------------------------------------------------------------------
+# building_vultaum_reality_computer
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight_coefficient.ai_weight_coefficient.
+# Used in: common/inline_scripts/pif/buildings/building_vultaum_reality_computer/ai.txt
+@pif_building_vultaum_reality_computer_ai_ai_weight_coefficient_3 = 2
+
+# Controls: AI resource-production hint: mult.
+# Used in: common/inline_scripts/pif/buildings/building_vultaum_reality_computer/ai.txt
+@pif_building_vultaum_reality_computer_ai_mult_2 = 5
+
+# Controls: AI resource-production hint: physics_research.
+# Used in: common/inline_scripts/pif/buildings/building_vultaum_reality_computer/ai.txt
+@pif_building_vultaum_reality_computer_ai_physics_research_1 = 7.5
+
+# -----------------------------------------------------------------------------
+# building_wildcat_miners
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_wildcat_miners/ai.txt
+@pif_building_wildcat_miners_ai_factor_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_wilderness_storm_relief
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.modifier.modifier.add.add.
+# Used in: common/inline_scripts/pif/buildings/building_wilderness_storm_relief/ai.txt
+@pif_building_wilderness_storm_relief_ai_add_2 = 30
+
+# Controls: AI tuning value: custom_storm_ai_weight.custom_storm_ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_wilderness_storm_relief/ai.txt
+@pif_building_wilderness_storm_relief_ai_weight_1 = 0
+
+# -----------------------------------------------------------------------------
+# building_wrecking_yards
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.factor.factor.
+# Used in: common/inline_scripts/pif/buildings/building_wrecking_yards/ai.txt
+@pif_building_wrecking_yards_ai_factor_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_xeno_tourism_agency
+# -----------------------------------------------------------------------------
+# Controls: AI tuning value: ai_weight.ai_weight.weight.weight.
+# Used in: common/inline_scripts/pif/buildings/building_xeno_tourism_agency/ai.txt
+@pif_building_xeno_tourism_agency_ai_weight_1 = 100

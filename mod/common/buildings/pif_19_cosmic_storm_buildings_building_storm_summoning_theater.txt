@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/19_cosmic_storm_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_storm_summoning_theater = {
+	base_buildtime = @pif_building_storm_summoning_theater_construction_base_buildtime_1
+	category = amenity
+	custom_tooltip = "building_cosmic_storm_storm_summoning_theater_tt"
+	inline_script = "pif/buildings/building_storm_summoning_theater/building_config"
+	inline_script = "pif/buildings/building_storm_summoning_theater/availability"
+	inline_script = "pif/buildings/building_storm_summoning_theater/economy"
+	inline_script = "pif/buildings/building_storm_summoning_theater/lifecycle"
+	inline_script = "pif/buildings/building_storm_summoning_theater/jobs"
+	inline_script = "pif/buildings/building_storm_summoning_theater/country_jobs"
+	inline_script = "pif/buildings/building_storm_summoning_theater/economic_modifiers"
+	inline_script = "pif/buildings/building_storm_summoning_theater/pop_modifiers"
+	inline_script = "pif/buildings/building_storm_summoning_theater/planet_state"
+	inline_script = "pif/buildings/building_storm_summoning_theater/tpm"
+	inline_script = "pif/buildings/building_storm_summoning_theater/ai"
+}

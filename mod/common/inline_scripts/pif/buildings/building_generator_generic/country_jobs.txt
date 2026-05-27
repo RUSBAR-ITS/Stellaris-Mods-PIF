@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_generator_generic
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+# Empty PIF building category hook.

@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: fe_acolyte_generator
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_power_plant
+		icon = technician
+	}
+}

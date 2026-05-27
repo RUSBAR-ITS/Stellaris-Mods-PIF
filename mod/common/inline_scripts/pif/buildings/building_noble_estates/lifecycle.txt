@@ -1,0 +1,13 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_noble_estates
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	NOT = {
+		owner = {
+			has_civic = civic_aristocratic_elite
+		}
+	}
+}

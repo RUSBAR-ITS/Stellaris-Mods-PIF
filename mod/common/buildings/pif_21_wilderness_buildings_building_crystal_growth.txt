@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_crystal_growth = {
+	icon = "crystal_growth"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_crystal_growth_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_crystal_growth/building_config"
+	inline_script = "pif/buildings/building_crystal_growth/availability"
+	inline_script = "pif/buildings/building_crystal_growth/economy"
+	inline_script = "pif/buildings/building_crystal_growth/lifecycle"
+	inline_script = "pif/buildings/building_crystal_growth/jobs"
+	inline_script = "pif/buildings/building_crystal_growth/country_jobs"
+	inline_script = "pif/buildings/building_crystal_growth/economic_modifiers"
+	inline_script = "pif/buildings/building_crystal_growth/pop_modifiers"
+	inline_script = "pif/buildings/building_crystal_growth/planet_state"
+	inline_script = "pif/buildings/building_crystal_growth/tpm"
+	inline_script = "pif/buildings/building_crystal_growth/ai"
+}

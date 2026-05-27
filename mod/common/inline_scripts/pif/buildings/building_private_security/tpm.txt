@@ -1,0 +1,34 @@
+# PIF building category: TPM
+# Vanilla building: building_private_security
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+		branch_office_owner = {
+			is_illegal_criminal = yes
+		}
+	}
+	job_criminal_add = @pif_building_private_security_jobs_job_criminal_add_3
+	job_enforcer_add = @pif_building_private_security_jobs_job_enforcer_add_4
+	planet_crime_add = @pif_building_private_security_planet_state_planet_crime_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_valid_civic = civic_dystopian_society
+		}
+		branch_office_owner = {
+			is_illegal_criminal = yes
+		}
+	}
+	job_criminal_add = @pif_building_private_security_jobs_job_criminal_add_3
+	job_dystopian_enforcer_add = @pif_building_private_security_jobs_job_dystopian_enforcer_add_5
+	planet_crime_add = @pif_building_private_security_planet_state_planet_crime_add_2
+}

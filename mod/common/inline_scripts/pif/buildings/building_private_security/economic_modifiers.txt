@@ -1,0 +1,58 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_private_security
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_enforcers_trade_produces_add = @pif_building_private_security_economic_modifiers_planet_enforcers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			is_illegal_criminal = yes
+		}
+	}
+	planet_criminals_trade_produces_add = @pif_building_private_security_economic_modifiers_planet_criminals_trade_produces_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_indentured_assets
+		}
+	}
+	planet_enforcers_trade_produces_add = @pif_building_private_security_economic_modifiers_planet_enforcers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_indentured_assets
+			is_illegal_criminal = yes
+		}
+	}
+	planet_criminals_trade_produces_add = @pif_building_private_security_economic_modifiers_planet_criminals_trade_produces_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_genetic_identification
+		}
+	}
+	planet_enforcers_trade_produces_add = @pif_building_private_security_economic_modifiers_planet_enforcers_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_genetic_identification
+			is_illegal_criminal = yes
+		}
+	}
+	planet_criminals_trade_produces_add = @pif_building_private_security_economic_modifiers_planet_criminals_trade_produces_add_3
+}

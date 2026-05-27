@@ -1,0 +1,6 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_planetary_shield_generator
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+# Empty PIF building category hook.

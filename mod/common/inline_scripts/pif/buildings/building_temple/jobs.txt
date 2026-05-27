@@ -1,0 +1,72 @@
+# PIF building category: JOBS
+# Vanilla building: building_temple
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_megacorp = no
+			OR = {
+				is_spiritualist = yes
+				has_make_spiritualist_perk = yes
+			}
+			is_superstitious_beliefs_empire = no
+			NOT = {
+				has_origin = origin_cybernetic_creed
+			}
+		}
+	}
+	modifier = {
+		job_bureaucrat_add = @pif_building_temple_jobs_job_bureaucrat_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_megacorp = yes
+			OR = {
+				is_spiritualist = yes
+				has_make_spiritualist_perk = yes
+			}
+			is_superstitious_beliefs_empire = no
+			NOT = {
+				has_origin = origin_cybernetic_creed
+			}
+		}
+	}
+	modifier = {
+		job_bureaucrat_add = @pif_building_temple_jobs_job_bureaucrat_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_superstitious_beliefs_empire = yes
+		}
+	}
+	modifier = {
+		job_bureaucrat_add = @pif_building_temple_jobs_job_bureaucrat_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_origin = origin_cybernetic_creed
+			OR = {
+				is_spiritualist = yes
+				has_make_spiritualist_perk = yes
+			}
+		}
+	}
+	modifier = {
+		job_bureaucrat_add = @pif_building_temple_jobs_job_bureaucrat_add_1
+	}
+}

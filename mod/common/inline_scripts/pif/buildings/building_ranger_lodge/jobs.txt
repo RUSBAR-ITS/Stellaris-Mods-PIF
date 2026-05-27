@@ -1,0 +1,22 @@
+# PIF building category: JOBS
+# Vanilla building: building_ranger_lodge
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_biologist_add = @pif_building_ranger_lodge_jobs_job_biologist_add_1
+	mult = value:natural_blocker_count
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner_has_resolution = {
+			RES = resolution_ecology_paradise_initiative
+		}
+	}
+	job_biologist_add = @pif_building_ranger_lodge_jobs_job_biologist_add_1
+	mult = value:natural_blocker_count
+}

@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_toxic_bath = {
+	base_buildtime = @pif_building_toxic_bath_construction_base_buildtime_1
+	icon = building_toxic_bath
+	category = amenity
+	triggered_desc = {
+		text = building_toxic_bath_tt
+	}
+	inline_script = "pif/buildings/building_toxic_bath/building_config"
+	inline_script = "pif/buildings/building_toxic_bath/availability"
+	inline_script = "pif/buildings/building_toxic_bath/economy"
+	inline_script = "pif/buildings/building_toxic_bath/lifecycle"
+	inline_script = "pif/buildings/building_toxic_bath/jobs"
+	inline_script = "pif/buildings/building_toxic_bath/country_jobs"
+	inline_script = "pif/buildings/building_toxic_bath/economic_modifiers"
+	inline_script = "pif/buildings/building_toxic_bath/pop_modifiers"
+	inline_script = "pif/buildings/building_toxic_bath/planet_state"
+	inline_script = "pif/buildings/building_toxic_bath/tpm"
+	inline_script = "pif/buildings/building_toxic_bath/ai"
+}

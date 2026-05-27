@@ -1,0 +1,8 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_overseer_homes
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+potential = {
+	has_modifier = slave_colony
+}

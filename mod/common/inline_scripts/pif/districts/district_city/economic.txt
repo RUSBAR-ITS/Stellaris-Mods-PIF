@@ -1,0 +1,35 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_city
+# Vanilla source: districts/00_urban_districts.txt
+
+resources = {
+	category = planet_districts_cities
+	cost = {
+		minerals = @pif_district_city_construction_build_cost_minerals
+		trigger = {
+			NOT = {
+				has_modifier = wooden_planet
+			}
+		}
+	}
+	cost = {
+		food = @pif_district_city_construction_build_cost_food
+		trigger = {
+			has_modifier = wooden_planet
+		}
+	}
+	upkeep = {
+		energy = @pif_district_city_economy_district_upkeep_energy
+		trigger = {
+			NOT = {
+				has_modifier = wooden_planet
+			}
+		}
+	}
+	upkeep = {
+		food = @pif_district_city_economy_district_upkeep_food
+		trigger = {
+			has_modifier = wooden_planet
+		}
+	}
+}

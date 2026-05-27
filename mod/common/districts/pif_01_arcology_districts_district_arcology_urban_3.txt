@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/01_arcology_districts.txt
+# Object class: real
+
+district_arcology_urban_3 = {
+	icon = district_arcology_housing_secondary
+	base_buildtime = @pif_district_arcology_urban_3_construction_build_time_days
+	overlay_icon = GFX_district_housing
+	show_on_uncolonized = {
+		uses_district_set = city_world
+	}
+	triggered_name = {
+		text = district_arcology_name
+	}
+	inline_script = "pif/districts/district_arcology_urban_3/zone_slots"
+	inline_script = "pif/districts/district_arcology_urban_3/availability"
+	inline_script = "pif/districts/district_arcology_urban_3/economic"
+	inline_script = "pif/districts/district_arcology_urban_3/tpm"
+	inline_script = "pif/districts/district_arcology_urban_3/lifecycle"
+	inline_script = "pif/districts/district_arcology_urban_3/ai"
+}

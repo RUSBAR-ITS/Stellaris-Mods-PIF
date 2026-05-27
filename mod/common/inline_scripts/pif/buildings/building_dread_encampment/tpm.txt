@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_dread_encampment
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+# Empty PIF building category hook.

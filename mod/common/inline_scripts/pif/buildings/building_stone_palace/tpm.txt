@@ -1,0 +1,17 @@
+# PIF building category: TPM
+# Vanilla building: building_stone_palace
+# Vanilla class: capital
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_primitive_noble_add = @pif_building_stone_palace_jobs_job_primitive_noble_add_1
+	job_primitive_warrior_add = @pif_building_stone_palace_jobs_job_primitive_warrior_add_2
+	job_primitive_researcher_add = @pif_building_stone_palace_jobs_job_primitive_researcher_add_3
+	job_primitive_priest_add = @pif_building_stone_palace_jobs_job_primitive_priest_add_4
+	planet_housing_add = @pif_building_stone_palace_planet_state_planet_housing_add_1
+	planet_amenities_add = @pif_building_stone_palace_planet_state_planet_amenities_add_2
+	planet_crime_add = @pif_building_stone_palace_planet_state_planet_crime_add_3
+}

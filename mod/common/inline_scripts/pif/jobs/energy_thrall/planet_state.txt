@@ -1,0 +1,6 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: energy_thrall
+# Vanilla class: worker
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+# Empty PIF job category hook.

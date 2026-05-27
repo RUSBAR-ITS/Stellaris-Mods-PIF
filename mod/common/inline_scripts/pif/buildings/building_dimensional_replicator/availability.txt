@@ -1,0 +1,48 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_dimensional_replicator
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_build = yes
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_fallen_empire = yes
+			has_technology = tech_fe_fabricator_1
+			has_country_flag = dimensional_replicator_can_build
+		}
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = ancrel.10004.failtext
+		owner = {
+			OR = {
+				check_variable = {
+					which = dimensional_replicator_build_count
+					value >= 1
+				}
+				is_fallen_empire = yes
+				has_technology = tech_fe_fabricator_1
+			}
+		}
+	}
+	custom_tooltip = {
+		fail_text = cosmogenesis_aborted_tt
+		NOT = {
+			owner = {
+				has_country_flag = cosmogenesis_aborted
+			}
+		}
+	}
+}
+
+show_in_tech = tech_fe_fabricator_1

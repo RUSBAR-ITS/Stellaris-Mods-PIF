@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: wilderness_maintenance_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = holding_wilderness_glade
+	}
+}

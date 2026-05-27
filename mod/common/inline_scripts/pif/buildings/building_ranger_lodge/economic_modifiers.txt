@@ -1,0 +1,31 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_ranger_lodge
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		owner_has_resolution = {
+			RES = resolution_ecology_integrated_gardens
+		}
+	}
+	deposit_blockers_natural_unity_produces_add = @pif_building_ranger_lodge_economic_modifiers_deposit_blockers_natural_unity_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner_has_resolution = {
+			RES = resolution_ecology_environmental_control_board
+		}
+	}
+	deposit_blockers_natural_unity_produces_add = @pif_building_ranger_lodge_economic_modifiers_deposit_blockers_natural_unity_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner_has_resolution = {
+			RES = resolution_ecology_paradise_initiative
+		}
+	}
+	deposit_blockers_natural_unity_produces_add = @pif_building_ranger_lodge_economic_modifiers_deposit_blockers_natural_unity_produces_add_3
+}

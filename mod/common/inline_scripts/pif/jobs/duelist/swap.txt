@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: duelist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/99_swap_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = BATTLE_THRALL_JOB_TRIGGER
+		building_icon = building_holo_theatres
+	}
+}

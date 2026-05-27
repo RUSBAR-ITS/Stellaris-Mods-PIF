@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_uplink_node = {
+	base_buildtime = @pif_building_uplink_node_construction_base_buildtime_1
+	icon = building_autochthon_monument
+	category = unity
+	inline_script = "pif/buildings/building_uplink_node/building_config"
+	inline_script = "pif/buildings/building_uplink_node/availability"
+	inline_script = "pif/buildings/building_uplink_node/economy"
+	inline_script = "pif/buildings/building_uplink_node/lifecycle"
+	inline_script = "pif/buildings/building_uplink_node/jobs"
+	inline_script = "pif/buildings/building_uplink_node/country_jobs"
+	inline_script = "pif/buildings/building_uplink_node/economic_modifiers"
+	inline_script = "pif/buildings/building_uplink_node/pop_modifiers"
+	inline_script = "pif/buildings/building_uplink_node/planet_state"
+	inline_script = "pif/buildings/building_uplink_node/tpm"
+	inline_script = "pif/buildings/building_uplink_node/ai"
+}

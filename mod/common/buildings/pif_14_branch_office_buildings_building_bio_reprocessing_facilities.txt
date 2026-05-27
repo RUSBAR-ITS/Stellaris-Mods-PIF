@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_bio_reprocessing_facilities = {
+	base_buildtime = @pif_building_bio_reprocessing_facilities_construction_base_buildtime_1
+	owner_type = corporate
+	category = resource
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/building_config"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/availability"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/economy"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/lifecycle"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/jobs"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/country_jobs"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/economic_modifiers"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/pop_modifiers"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/planet_state"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/tpm"
+	inline_script = "pif/buildings/building_bio_reprocessing_facilities/ai"
+}

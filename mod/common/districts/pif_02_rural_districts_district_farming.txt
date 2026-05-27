@@ -1,0 +1,380 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/02_rural_districts.txt
+# Object class: real
+
+district_farming = {
+	expansion_planner = yes
+	base_buildtime = @pif_district_farming_construction_build_time_days
+	overlay_icon = GFX_district_food
+	is_uncapped = {
+		is_farming_district_uncapped = yes
+	}
+	min_for_deposits_on_planet = @pif_district_farming_limits_min_for_deposits_on_planet
+	max_for_deposits_on_planet = @pif_district_farming_limits_max_for_deposits_on_planet
+	show_on_uncolonized = {
+		OR = {
+			uses_district_set = standard
+			uses_district_set = shattered_ring_world
+		}
+		exists = from
+		from = {
+			is_wilderness_empire = no
+		}
+		NOT = {
+			has_modifier = resort_colony
+		}
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		text = automated_farming
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_agrarian_urban
+				value > 0
+			}
+		}
+		text = zone_agrarian_urban
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_agrarian_anglers
+				value > 0
+			}
+		}
+		text = zone_agrarian_anglers
+	}
+	triggered_name = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_nano_vitality_crops
+			}
+		}
+		text = agriculture_exotic_gases_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_gene_crops
+			}
+		}
+		text = agriculture_exotic_gases_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_exotic_gases_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_exotic_gases_1
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_nano_vitality_crops
+			}
+		}
+		text = agriculture_anglers_4
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_gene_crops
+			}
+		}
+		text = agriculture_anglers_3
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_anglers_2
+	}
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_anglers_1
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_anglers_empire = yes
+			}
+			is_wet = yes
+		}
+		text = agriculture_anglers_0
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_agriculture_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_nano_vitality_crops
+			}
+		}
+		text = agriculture_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_agriculture_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_gene_crops
+			}
+		}
+		text = agriculture_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_agriculture_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_normal_agriculture_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_1
+	}
+	triggered_name = {
+		text = agriculture_0
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_agrarian_urban
+				value > 0
+			}
+		}
+		text = zone_agrarian_urban_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_agrarian_anglers
+				value > 0
+			}
+		}
+		text = zone_agrarian_anglers_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_nano_vitality_crops
+			}
+		}
+		text = agriculture_exotic_gases_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_gene_crops
+			}
+		}
+		text = agriculture_exotic_gases_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_exotic_gases_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_exotic_gases_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_exotic_gases_1_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_nano_vitality_crops
+			}
+		}
+		text = agriculture_anglers_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_gene_crops
+			}
+		}
+		text = agriculture_anglers_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_anglers_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_anglers
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_anglers_1_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_anglers_empire = yes
+			}
+			is_wet = yes
+		}
+		text = agriculture_anglers_0_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_food
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_nano_vitality_crops
+			}
+		}
+		text = agriculture_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_food
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_gene_crops
+			}
+		}
+		text = agriculture_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_food
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_food
+				value > 0
+			}
+			exists = owner
+			owner = {
+				has_technology = tech_eco_simulation
+			}
+		}
+		text = agriculture_1_desc
+	}
+	triggered_flavor_desc = {
+		text = agriculture_0_desc
+	}
+	inline_script = "pif/districts/district_farming/zone_slots"
+	inline_script = "pif/districts/district_farming/availability"
+	inline_script = "pif/districts/district_farming/economic"
+	inline_script = "pif/districts/district_farming/tpm"
+	inline_script = "pif/districts/district_farming/lifecycle"
+	inline_script = "pif/districts/district_farming/ai"
+}

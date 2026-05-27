@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_knightly_theme_park
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+# Empty PIF building category hook.

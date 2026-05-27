@@ -1,0 +1,10 @@
+# PIF zone category: ECONOMY
+# Vanilla zone: zone_resort_zoo
+# Vanilla source: zones/00_zones.txt
+
+resources = {
+	category = planet_zones
+	cost = {
+		minerals = @pif_zone_resort_zoo_construction_zone_construction_cost_minerals_2
+	}
+}

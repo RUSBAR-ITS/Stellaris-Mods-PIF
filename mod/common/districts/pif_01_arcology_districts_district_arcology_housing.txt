@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/01_arcology_districts.txt
+# Object class: real
+
+district_arcology_housing = {
+	base_buildtime = @pif_district_arcology_housing_construction_build_time_days
+	overlay_icon = GFX_district_government
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			is_wilderness_empire = no
+		}
+		uses_district_set = city_world
+	}
+	inline_script = "pif/districts/district_arcology_housing/zone_slots"
+	inline_script = "pif/districts/district_arcology_housing/availability"
+	inline_script = "pif/districts/district_arcology_housing/economic"
+	inline_script = "pif/districts/district_arcology_housing/tpm"
+	inline_script = "pif/districts/district_arcology_housing/lifecycle"
+	inline_script = "pif/districts/district_arcology_housing/ai"
+}

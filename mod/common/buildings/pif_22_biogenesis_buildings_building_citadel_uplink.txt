@@ -1,0 +1,56 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/22_biogenesis_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_citadel_uplink = {
+	base_buildtime = @pif_building_citadel_uplink_construction_base_buildtime_1
+	position_priority = 100
+	category = army
+	category = planet_buildings
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			exists = solar_system
+			owner = {
+				is_gestalt = no
+			}
+			NOT = {
+				solar_system = {
+					any_ship_in_system = {
+						is_ship_size = starbase_deep_space_citadel_3
+					}
+				}
+			}
+		}
+		text = job_skywatcher_add_dsc_tt
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			exists = solar_system
+			owner = {
+				is_gestalt = yes
+			}
+			NOT = {
+				solar_system = {
+					any_ship_in_system = {
+						is_ship_size = starbase_deep_space_citadel_3
+					}
+				}
+			}
+		}
+		text = job_skywatcher_drone_add_dsc_tt
+	}
+	inline_script = "pif/buildings/building_citadel_uplink/building_config"
+	inline_script = "pif/buildings/building_citadel_uplink/availability"
+	inline_script = "pif/buildings/building_citadel_uplink/economy"
+	inline_script = "pif/buildings/building_citadel_uplink/lifecycle"
+	inline_script = "pif/buildings/building_citadel_uplink/jobs"
+	inline_script = "pif/buildings/building_citadel_uplink/country_jobs"
+	inline_script = "pif/buildings/building_citadel_uplink/economic_modifiers"
+	inline_script = "pif/buildings/building_citadel_uplink/pop_modifiers"
+	inline_script = "pif/buildings/building_citadel_uplink/planet_state"
+	inline_script = "pif/buildings/building_citadel_uplink/tpm"
+	inline_script = "pif/buildings/building_citadel_uplink/ai"
+}

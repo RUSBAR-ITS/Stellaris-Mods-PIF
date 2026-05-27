@@ -1,0 +1,21 @@
+# PIF job category: TPM
+# Vanilla job: squire
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+triggered_planet_modifier = {
+	planet_defense_armies_add = @pif_squire_tpm_planet_defense_armies_add_1
+	pop_knight_bonus_workforce_mult = @pif_squire_tpm_pop_knight_bonus_workforce_mult_2
+	planet_knights_upkeep_mult = @pif_squire_tpm_planet_knights_upkeep_mult_3
+	pop_knight_commander_bonus_workforce_mult = @pif_squire_tpm_pop_knight_commander_bonus_workforce_mult_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet
+		planet = {
+			has_modifier = syamelles_curse_habitat
+		}
+	}
+	fake_pop_growth_mod = @pif_squire_tpm_fake_pop_growth_mod_5
+}

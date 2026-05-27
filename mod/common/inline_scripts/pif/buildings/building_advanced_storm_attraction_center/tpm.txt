@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_advanced_storm_attraction_center
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	storm_attraction_field_modifier = @pif_building_advanced_storm_attraction_center_tpm_storm_attraction_field_modifier_1
+}

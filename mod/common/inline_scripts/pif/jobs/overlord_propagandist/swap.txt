@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: overlord_propagandist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = holding_propaganda_office
+	}
+}

@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: wildlife_ranch
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_wildlife_ranch_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_wildlife_ranch_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_wilderness_storm_relief = {
+	base_buildtime = @pif_building_wilderness_storm_relief_construction_base_buildtime_1
+	category = resource
+	custom_tooltip = "building_wilderness_storm_relief_tt"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/building_config"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/availability"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/economy"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/lifecycle"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/jobs"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/country_jobs"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/economic_modifiers"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/pop_modifiers"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/planet_state"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/tpm"
+	inline_script = "pif/buildings/building_wilderness_storm_relief/ai"
+}

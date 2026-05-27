@@ -1,0 +1,14 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/01_habitat_zones.txt
+# Object type: zone
+
+zone_habitat_hydroponics = {
+	icon = GFX_district_specialization_hydroponics
+	base_buildtime = @pif_zone_habitat_hydroponics_construction_zone_build_time_1
+	inline_script = "pif/zones/zone_habitat_hydroponics/availability"
+	inline_script = "pif/zones/zone_habitat_hydroponics/zone_config"
+	inline_script = "pif/zones/zone_habitat_hydroponics/economy"
+	inline_script = "pif/zones/zone_habitat_hydroponics/tpm"
+	inline_script = "pif/zones/zone_habitat_hydroponics/lifecycle"
+	inline_script = "pif/zones/zone_habitat_hydroponics/ai"
+}

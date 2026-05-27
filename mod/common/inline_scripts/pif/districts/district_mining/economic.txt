@@ -1,0 +1,13 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_mining
+# Vanilla source: districts/02_rural_districts.txt
+
+resources = {
+	category = planet_districts_mining
+	cost = {
+		minerals = @pif_district_mining_construction_build_cost_minerals
+	}
+	upkeep = {
+		energy = @pif_district_mining_economy_district_upkeep_energy
+	}
+}

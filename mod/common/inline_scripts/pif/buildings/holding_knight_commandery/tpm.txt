@@ -1,0 +1,19 @@
+# PIF building category: TPM
+# Vanilla building: holding_knight_commandery
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	monthly_loyalty = @pif_holding_knight_commandery_tpm_monthly_loyalty_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_naval_cap_add = @pif_holding_knight_commandery_tpm_country_naval_cap_add_2
+	knight_quest_progress_add = 0.025
+}

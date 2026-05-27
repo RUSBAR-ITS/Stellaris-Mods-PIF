@@ -1,0 +1,13 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_bio_reactor_2
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_farmers_food_produces_add = @pif_building_bio_reactor_2_economic_modifiers_planet_farmers_food_produces_add_1
+	planet_farmers_energy_produces_add = @pif_building_bio_reactor_2_economic_modifiers_planet_farmers_energy_produces_add_2
+	planet_farmers_exotic_gases_produces_add = @pif_building_bio_reactor_2_economic_modifiers_planet_farmers_exotic_gases_produces_add_3
+}

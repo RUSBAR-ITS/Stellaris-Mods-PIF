@@ -1,0 +1,23 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_baol_organic_plant
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_baol_organic_plant_cost_cost_minerals_1
+		minor_artifacts = @pif_building_baol_organic_plant_cost_cost_minor_artifacts_2
+	}
+	cost = {
+		trigger = {
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_building_baol_organic_plant_cost_cost_biomass_3
+	}
+	upkeep = {
+		energy = @pif_building_baol_organic_plant_upkeep_upkeep_energy_1
+	}
+}

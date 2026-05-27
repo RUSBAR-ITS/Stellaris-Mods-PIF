@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_ancient_palace
+# Vanilla class: capital
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_fallen_empire = yes
+		is_hive_empire = no
+	}
+}

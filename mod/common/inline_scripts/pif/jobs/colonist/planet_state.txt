@@ -1,0 +1,12 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: colonist
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_add = @pif_colonist_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

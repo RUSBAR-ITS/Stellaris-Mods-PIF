@@ -1,0 +1,33 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: overlord_ranger_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+can_set_priority = @pif_overlord_ranger_drone_job_flags_can_set_priority_2
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_overlord_ranger_drone_job_weight_weight_1
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_overlord_ranger_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

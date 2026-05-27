@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_virtual_entertainment_studios
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+# Empty PIF building category hook.

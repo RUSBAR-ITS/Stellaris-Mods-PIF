@@ -1,0 +1,11 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: shroud_trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	category_psionics_draw_chance_mult = @pif_shroud_trader_country_modifiers_category_psionics_draw_chance_mult_1
+}

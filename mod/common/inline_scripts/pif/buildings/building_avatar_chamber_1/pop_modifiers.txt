@@ -1,0 +1,25 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_avatar_chamber_1
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		has_building = building_avatar_chamber_2
+	}
+	planet_amenities_no_happiness_add = @pif_building_avatar_chamber_1_pop_modifiers_planet_amenities_no_happiness_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_building = building_avatar_chamber_3
+	}
+	planet_amenities_no_happiness_add = @pif_building_avatar_chamber_1_pop_modifiers_planet_amenities_no_happiness_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_building = building_avatar_chamber_4
+	}
+	planet_amenities_no_happiness_add = @pif_building_avatar_chamber_1_pop_modifiers_planet_amenities_no_happiness_add_3
+}

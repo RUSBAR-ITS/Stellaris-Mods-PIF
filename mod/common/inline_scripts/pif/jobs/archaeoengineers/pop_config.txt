@@ -1,0 +1,19 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: archaeoengineers
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	research
+	minor_artifacts
+}
+
+promotion = {
+	time = @pif_archaeoengineers_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

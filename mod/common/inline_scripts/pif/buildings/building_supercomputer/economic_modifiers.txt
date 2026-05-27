@@ -1,0 +1,43 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_supercomputer
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_physicists_physics_research_produces_add = @pif_building_supercomputer_economic_modifiers_planet_physicists_physics_research_produces_add_1
+	planet_biologists_society_research_produces_add = @pif_building_supercomputer_economic_modifiers_planet_biologists_society_research_produces_add_2
+	planet_engineers_engineering_research_produces_add = @pif_building_supercomputer_economic_modifiers_planet_engineers_engineering_research_produces_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	planet_researchers_consumer_goods_upkeep_add = @pif_building_supercomputer_economic_modifiers_planet_researchers_consumer_goods_upkeep_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	planet_researchers_energy_upkeep_add = @pif_building_supercomputer_economic_modifiers_planet_researchers_energy_upkeep_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	planet_researchers_minerals_upkeep_add = @pif_building_supercomputer_economic_modifiers_planet_researchers_minerals_upkeep_add_6
+}

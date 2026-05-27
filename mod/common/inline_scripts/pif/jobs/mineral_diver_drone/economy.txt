@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: mineral_diver_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		minerals = @pif_mineral_diver_drone_job_output_output_minerals_1
+		alloys = @pif_mineral_diver_drone_job_output_output_alloys_2
+	}
+}

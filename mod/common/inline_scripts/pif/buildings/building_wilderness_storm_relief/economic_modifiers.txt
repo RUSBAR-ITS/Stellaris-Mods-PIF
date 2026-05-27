@@ -1,0 +1,19 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_wilderness_storm_relief
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_galactic_community_member = yes
+		}
+	}
+	modifier = {
+		planet_miners_produces_mult = @pif_building_wilderness_storm_relief_economic_modifiers_planet_miners_produces_mult_1
+		planet_farmers_produces_mult = @pif_building_wilderness_storm_relief_economic_modifiers_planet_farmers_produces_mult_2
+		planet_technician_produces_mult = @pif_building_wilderness_storm_relief_economic_modifiers_planet_technician_produces_mult_3
+	}
+	mult = value:storm_building_production_multiplier
+}

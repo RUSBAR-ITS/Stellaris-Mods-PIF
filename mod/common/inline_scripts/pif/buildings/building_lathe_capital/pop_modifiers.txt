@@ -1,0 +1,16 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_lathe_capital
+# Vanilla class: capital
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_capital_productivity_1
+		}
+	}
+	modifier = {
+		pop_bonus_workforce_mult = @pif_building_lathe_capital_pop_modifiers_pop_bonus_workforce_mult_1
+	}
+}

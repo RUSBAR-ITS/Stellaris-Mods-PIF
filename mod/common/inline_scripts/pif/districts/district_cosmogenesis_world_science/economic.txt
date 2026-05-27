@@ -1,0 +1,14 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_cosmogenesis_world_science
+# Vanilla source: districts/00_special_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		alloys = @pif_district_cosmogenesis_world_science_construction_build_cost_alloys
+		advanced_logic = @pif_district_cosmogenesis_world_science_construction_build_cost_advanced_logic
+	}
+	upkeep = {
+		energy = @pif_district_cosmogenesis_world_science_economy_district_upkeep_energy
+	}
+}

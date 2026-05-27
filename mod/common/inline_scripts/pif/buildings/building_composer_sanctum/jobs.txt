@@ -1,0 +1,42 @@
+# PIF building category: JOBS
+# Vanilla building: building_composer_sanctum
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_psi_corps_tradition = yes
+			is_gestalt = no
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	job_telepath_add = @pif_building_composer_sanctum_jobs_job_telepath_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_psi_corps_tradition = yes
+			is_gestalt = no
+			has_valid_civic = civic_dystopian_society
+		}
+	}
+	job_dystopian_telepath_add = @pif_building_composer_sanctum_jobs_job_dystopian_telepath_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_shroud_dlc = yes
+		exists = owner
+		owner = {
+			has_psi_corps_tradition = yes
+			is_gestalt = yes
+		}
+	}
+	job_telepath_drone_add = @pif_building_composer_sanctum_jobs_job_telepath_drone_add_3
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_grand_battlements_of_steel = {
+	position_priority = 100
+	base_buildtime = @pif_building_grand_battlements_of_steel_construction_base_buildtime_1
+	category = army
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/building_config"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/availability"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/economy"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/lifecycle"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/jobs"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/country_jobs"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/economic_modifiers"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/pop_modifiers"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/planet_state"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/tpm"
+	inline_script = "pif/buildings/building_grand_battlements_of_steel/ai"
+}

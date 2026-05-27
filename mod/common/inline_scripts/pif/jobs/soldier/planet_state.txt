@@ -1,0 +1,55 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: soldier
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_defense_armies_add = @pif_soldier_planet_state_planet_defense_armies_add_1
+	planet_stability_add = @pif_soldier_planet_state_planet_stability_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			any_owned_leader = {
+				is_councilor = yes
+				has_trait = leader_trait_bellicose
+			}
+		}
+	}
+	planet_defense_armies_add = @pif_soldier_planet_state_planet_defense_armies_add_3
+	mult = value:bellicose_naval_cap
+}
+
+triggered_planet_modifier = {
+	modifier = {
+		planet_stability_add = @pif_soldier_planet_state_planet_stability_add_4
+	}
+	mult = planet.modifier:job_soldier_stability_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			exists = owner
+			owner = {
+				has_tradition = "tr_modularity_3"
+			}
+		}
+	}
+	planet_stability_add = @pif_soldier_planet_state_planet_stability_add_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_councilor = {
+			COUNCILOR = "councilor_private_military_companies"
+		}
+	}
+	planet_stability_add = @pif_soldier_planet_state_planet_stability_add_5
+	mult = value:councilor_level|TYPE|councilor_private_military_companies|
+}

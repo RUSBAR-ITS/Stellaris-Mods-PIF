@@ -1,0 +1,9 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_rare_crystals_nexus
+# Vanilla source: zones/04_secondary_zones.txt
+
+convert_to = {
+	zone_rare_crystals
+	zone_rare_crystals_nexus
+	zone_rare_crystals_hive
+}

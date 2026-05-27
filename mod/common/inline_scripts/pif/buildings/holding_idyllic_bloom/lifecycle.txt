@@ -1,0 +1,30 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_idyllic_bloom
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+on_built = {
+	planet = {
+		set_timed_planet_flag = {
+			flag = anti_cheese_idyllic_bloom_flag
+			days = @pif_holding_idyllic_bloom_economic_modifiers_days_1
+		}
+		set_saved_date = {
+			key = idyllic_bloom_holding_timer
+			days_from_present = 3600
+			expires = 3600
+		}
+	}
+	owner.overlord = {
+		country_event = {
+			id = plant.105
+			days = @pif_holding_idyllic_bloom_economic_modifiers_days_2
+		}
+	}
+}
+
+on_destroy = {
+	planet = {
+		remove_planet_flag = anti_cheese_idyllic_bloom_flag
+	}
+}

@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_nanotech_cauldron
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+building_sets = {
+	industrial
+	foundry
+}

@@ -1,0 +1,71 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_clone_vats
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_pop_group_modifier_for_all = {
+	potential = {
+		owner = {
+			has_cloning_tradition = no
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_vats_pop_modifiers_bonus_pop_growth_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_cloning_tradition = no
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_vats_pop_modifiers_fake_pop_growth_mod_2
+}
+
+triggered_planet_pop_group_modifier_for_all = {
+	potential = {
+		exists = owner
+		owner = {
+			has_cloning_tradition = yes
+			NOT = {
+				has_tradition = tr_genetics_efficient_cloning
+			}
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_vats_pop_modifiers_bonus_pop_growth_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_cloning_tradition = yes
+			NOT = {
+				has_tradition = tr_genetics_efficient_cloning
+			}
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_vats_pop_modifiers_fake_pop_growth_mod_4
+}
+
+triggered_planet_pop_group_modifier_for_all = {
+	potential = {
+		exists = owner
+		owner = {
+			has_cloning_tradition = yes
+			has_tradition = tr_genetics_efficient_cloning
+		}
+	}
+	bonus_pop_growth = @pif_building_clone_vats_pop_modifiers_bonus_pop_growth_5
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_cloning_tradition = yes
+			has_tradition = tr_genetics_efficient_cloning
+		}
+	}
+	fake_pop_growth_mod = @pif_building_clone_vats_pop_modifiers_fake_pop_growth_mod_6
+}

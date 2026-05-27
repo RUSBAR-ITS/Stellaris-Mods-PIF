@@ -1,0 +1,22 @@
+# PIF category: TPM
+# Vanilla district: district_cosmogenesis_world_logic
+# Vanilla source: districts/00_special_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_district_cosmogenesis_world_logic_housing_planet_housing_add
+	pc_cosmogenesis_world_max_buildings_add = @pif_district_cosmogenesis_world_logic_building_capacity_pc_cosmogenesis_world_max_buildings_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		NOT = {
+			owner = {
+				has_deficit = energy
+			}
+		}
+	}
+	planet_neural_chips_advanced_logic_produces_add = @pif_district_cosmogenesis_world_logic_economy_planet_neural_chips_produces_advanced_logic
+}

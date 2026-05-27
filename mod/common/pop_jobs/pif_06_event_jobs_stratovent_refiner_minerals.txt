@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+stratovent_refiner_minerals = {
+	category = specialist
+	inline_script = "pif/jobs/stratovent_refiner_minerals/swap"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/availability"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/pop_config"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/economy"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/planet_state"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/country_modifiers"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/pop_modifiers"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/economic_modifiers"
+	inline_script = "pif/jobs/stratovent_refiner_minerals/tpm"
+}

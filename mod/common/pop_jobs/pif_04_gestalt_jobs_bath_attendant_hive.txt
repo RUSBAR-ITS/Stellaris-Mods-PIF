@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/04_gestalt_jobs.txt
+# Object type: pop_job
+# Job class: simple_drone
+
+bath_attendant_hive = {
+	category = simple_drone
+	inline_script = "pif/jobs/bath_attendant_hive/swap"
+	inline_script = "pif/jobs/bath_attendant_hive/availability"
+	inline_script = "pif/jobs/bath_attendant_hive/pop_config"
+	inline_script = "pif/jobs/bath_attendant_hive/economy"
+	inline_script = "pif/jobs/bath_attendant_hive/planet_state"
+	inline_script = "pif/jobs/bath_attendant_hive/country_modifiers"
+	inline_script = "pif/jobs/bath_attendant_hive/pop_modifiers"
+	inline_script = "pif/jobs/bath_attendant_hive/economic_modifiers"
+	inline_script = "pif/jobs/bath_attendant_hive/tpm"
+}

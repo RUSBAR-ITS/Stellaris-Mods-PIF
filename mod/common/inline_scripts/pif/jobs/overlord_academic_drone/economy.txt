@@ -1,0 +1,38 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_academic_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_academics
+	produces = {
+		physics_research = @pif_overlord_academic_drone_job_output_output_physics_research_1
+		engineering_research = @pif_overlord_academic_drone_job_output_output_engineering_research_2
+		society_research = @pif_overlord_academic_drone_job_output_output_society_research_3
+	}
+	upkeep = {
+		trigger = {
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		energy = @pif_overlord_academic_drone_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_overlord_academic_drone_job_upkeep_upkeep_minerals_2
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_academics
+	produces = {
+		physics_research = @pif_overlord_academic_drone_overlord_output_overlord_output_physics_research_1
+		engineering_research = @pif_overlord_academic_drone_overlord_output_overlord_output_engineering_research_2
+		society_research = @pif_overlord_academic_drone_overlord_output_overlord_output_society_research_3
+	}
+}

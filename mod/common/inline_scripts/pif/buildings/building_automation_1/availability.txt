@@ -1,0 +1,23 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_automation_1
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+district_limit = @pif_building_automation_1_limits_district_limit_1
+
+potential = {
+	always = no
+}
+
+allow = {
+	always = no
+}
+
+prerequisites = {
+	tech_assembly_pattern
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+	is_tankbound_empire = no
+}

@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: turtle_miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+possible = {
+	always = no
+}

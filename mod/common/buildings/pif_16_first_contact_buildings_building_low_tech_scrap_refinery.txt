@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/16_first_contact_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_low_tech_scrap_refinery = {
+	category = manufacturing
+	base_buildtime = @pif_building_low_tech_scrap_refinery_construction_base_buildtime_1
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/building_config"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/availability"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/economy"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/lifecycle"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/jobs"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/country_jobs"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/economic_modifiers"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/pop_modifiers"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/planet_state"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/tpm"
+	inline_script = "pif/buildings/building_low_tech_scrap_refinery/ai"
+}

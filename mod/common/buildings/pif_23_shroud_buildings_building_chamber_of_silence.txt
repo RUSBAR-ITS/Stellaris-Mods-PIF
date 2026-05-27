@@ -1,0 +1,75 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/23_shroud_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_chamber_of_silence = {
+	base_buildtime = @pif_building_chamber_of_silence_construction_base_buildtime_1
+	category = government
+	triggered_desc = {
+		trigger = {
+			if = {
+				limit = {
+					exists = owner
+				}
+				if = {
+					limit = {
+						owner = {
+							has_modifier = endbringers_paranoia
+						}
+					}
+					text = building_chamber_of_silence_paranoia_tt
+				}
+				if = {
+					limit = {
+						owner = {
+							has_modifier = endbringers_madness_1
+						}
+					}
+					text = building_chamber_of_silence_madness_1_tt
+				}
+				else_if = {
+					limit = {
+						owner = {
+							has_modifier = endbringers_madness_2
+						}
+					}
+					text = building_chamber_of_silence_madness_2_tt
+				}
+				else_if = {
+					limit = {
+						owner = {
+							has_modifier = endbringers_madness_3
+						}
+					}
+					text = building_chamber_of_silence_madness_3_tt
+				}
+				if = {
+					limit = {
+						owner = {
+							OR = {
+								has_modifier = endbringers_paranoia
+								has_modifier = endbringers_madness_1
+								has_modifier = endbringers_madness_2
+								has_modifier = endbringers_madness_3
+							}
+						}
+					}
+					text = newline
+				}
+				text = building_chamber_of_silence_destroyed_tt
+			}
+		}
+	}
+	inline_script = "pif/buildings/building_chamber_of_silence/building_config"
+	inline_script = "pif/buildings/building_chamber_of_silence/availability"
+	inline_script = "pif/buildings/building_chamber_of_silence/economy"
+	inline_script = "pif/buildings/building_chamber_of_silence/lifecycle"
+	inline_script = "pif/buildings/building_chamber_of_silence/jobs"
+	inline_script = "pif/buildings/building_chamber_of_silence/country_jobs"
+	inline_script = "pif/buildings/building_chamber_of_silence/economic_modifiers"
+	inline_script = "pif/buildings/building_chamber_of_silence/pop_modifiers"
+	inline_script = "pif/buildings/building_chamber_of_silence/planet_state"
+	inline_script = "pif/buildings/building_chamber_of_silence/tpm"
+	inline_script = "pif/buildings/building_chamber_of_silence/ai"
+}

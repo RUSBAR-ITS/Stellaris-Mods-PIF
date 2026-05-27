@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: crisis_purge
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = purge
+	}
+}

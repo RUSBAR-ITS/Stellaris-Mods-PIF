@@ -1,0 +1,33 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: overlord_arborist
+# Vanilla class: worker
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+can_set_priority = @pif_overlord_arborist_job_flags_can_set_priority_2
+
+tags = {
+	food
+}
+
+weight = {
+	weight = @pif_overlord_arborist_job_weight_weight_1
+}
+
+auto_trait_prio = {
+	trait_agrarian
+	trait_farm_hands
+	trait_robot_harvesters
+	trait_cyborg_harvesters
+	trait_malleable_food
+	trait_adaptive_food
+}
+
+promotion = {
+	time = @pif_overlord_arborist_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

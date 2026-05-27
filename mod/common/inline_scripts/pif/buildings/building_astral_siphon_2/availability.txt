@@ -1,0 +1,15 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_astral_siphon_2
+# Vanilla class: regular
+# Vanilla source: buildings/18_astral_planes_buildings.txt
+
+can_build = no
+
+potential = {
+	owner = {
+		check_variable = {
+			which = astral_siphon_unlocked
+			value >= 2
+		}
+	}
+}

@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/11_primitive_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_solarpunk_sapling = {
+	icon = holding_tree_of_life_sapling
+	base_buildtime = @pif_building_solarpunk_sapling_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_solarpunk_sapling/building_config"
+	inline_script = "pif/buildings/building_solarpunk_sapling/availability"
+	inline_script = "pif/buildings/building_solarpunk_sapling/economy"
+	inline_script = "pif/buildings/building_solarpunk_sapling/lifecycle"
+	inline_script = "pif/buildings/building_solarpunk_sapling/jobs"
+	inline_script = "pif/buildings/building_solarpunk_sapling/country_jobs"
+	inline_script = "pif/buildings/building_solarpunk_sapling/economic_modifiers"
+	inline_script = "pif/buildings/building_solarpunk_sapling/pop_modifiers"
+	inline_script = "pif/buildings/building_solarpunk_sapling/planet_state"
+	inline_script = "pif/buildings/building_solarpunk_sapling/tpm"
+	inline_script = "pif/buildings/building_solarpunk_sapling/ai"
+}

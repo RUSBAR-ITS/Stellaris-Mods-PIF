@@ -1,0 +1,44 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_beholder
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_beholders
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_specialist_subject_tier = {
+					TYPE = bulwark
+					TIER = @pif_overlord_beholder_job_upkeep_upkeep_tier_1
+				}
+			}
+		}
+		alloys = @pif_overlord_beholder_job_upkeep_upkeep_alloys_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_specialist_subject_tier = {
+					TYPE = bulwark
+					TIER = @pif_overlord_beholder_job_upkeep_upkeep_tier_3
+				}
+			}
+		}
+		alloys = @pif_overlord_beholder_job_upkeep_upkeep_alloys_4
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_specialist_subject_tier = {
+					TYPE = bulwark
+					TIER = @pif_overlord_beholder_job_upkeep_upkeep_tier_5
+				}
+			}
+		}
+		alloys = @pif_overlord_beholder_job_upkeep_upkeep_alloys_6
+	}
+}

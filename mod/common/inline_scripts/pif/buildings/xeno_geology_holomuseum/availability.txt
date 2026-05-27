@@ -1,0 +1,12 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: xeno_geology_holomuseum
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+empire_limit = @pif_xeno_geology_holomuseum_limits_empire_limit_1
+
+potential = {
+	owner = {
+		has_country_flag = received_collection_stage_2_reward_xeno_geology
+	}
+}

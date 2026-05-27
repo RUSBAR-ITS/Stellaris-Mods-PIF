@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/12_cosmic_storm_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+astrometeorologist_hive = {
+	category = complex_drone
+	inline_script = "pif/jobs/astrometeorologist_hive/swap"
+	inline_script = "pif/jobs/astrometeorologist_hive/availability"
+	inline_script = "pif/jobs/astrometeorologist_hive/pop_config"
+	inline_script = "pif/jobs/astrometeorologist_hive/economy"
+	inline_script = "pif/jobs/astrometeorologist_hive/planet_state"
+	inline_script = "pif/jobs/astrometeorologist_hive/country_modifiers"
+	inline_script = "pif/jobs/astrometeorologist_hive/pop_modifiers"
+	inline_script = "pif/jobs/astrometeorologist_hive/economic_modifiers"
+	inline_script = "pif/jobs/astrometeorologist_hive/tpm"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: ruler
+
+technophant = {
+	category = ruler
+	inline_script = "pif/jobs/technophant/swap"
+	inline_script = "pif/jobs/technophant/availability"
+	inline_script = "pif/jobs/technophant/pop_config"
+	inline_script = "pif/jobs/technophant/economy"
+	inline_script = "pif/jobs/technophant/planet_state"
+	inline_script = "pif/jobs/technophant/country_modifiers"
+	inline_script = "pif/jobs/technophant/pop_modifiers"
+	inline_script = "pif/jobs/technophant/economic_modifiers"
+	inline_script = "pif/jobs/technophant/tpm"
+}

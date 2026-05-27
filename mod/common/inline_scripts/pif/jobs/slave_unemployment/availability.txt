@@ -1,0 +1,33 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: slave_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_unemployment.txt
+
+is_capped_by_modifier = @pif_slave_unemployment_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_enslaved = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible = {
+	hidden_trigger = {
+		exists = owner
+	}
+	has_citizenship_type = {
+		type = citizenship_slavery
+		country = owner
+	}
+	planet = {
+		NOT = {
+			is_planet_class = pc_cosmogenesis_world
+		}
+	}
+	OR = {
+		is_pop_category = slave
+		is_pop_category = slave_unemployment
+	}
+}

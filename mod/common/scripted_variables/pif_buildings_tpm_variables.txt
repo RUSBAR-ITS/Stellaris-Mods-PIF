@@ -1,0 +1,591 @@
+# Planetary Infrastructure Framework (PIF)
+# Building variables: TPM
+# Values are resolved from the Stellaris 4.3.7 vanilla buildings baseline.
+# Variables are grouped by building object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# building_advanced_storm_attraction_center
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: storm_attraction_field_modifier.
+# Used in: common/inline_scripts/pif/buildings/building_advanced_storm_attraction_center/tpm.txt
+@pif_building_advanced_storm_attraction_center_tpm_storm_attraction_field_modifier_1 = 0.6
+
+# -----------------------------------------------------------------------------
+# building_augmentation_bazaars
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_bazaars/tpm.txt
+@pif_building_augmentation_bazaars_tpm_auto_mod_monthly_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# building_augmentation_bazaars_branch
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_bazaars_branch/tpm.txt
+@pif_building_augmentation_bazaars_branch_tpm_auto_mod_monthly_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_augmentation_center
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_augmentation_center/tpm.txt
+@pif_building_augmentation_center_tpm_auto_mod_monthly_add_1 = 600
+
+# -----------------------------------------------------------------------------
+# building_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital/tpm.txt
+@pif_building_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_capital_wilderness/tpm.txt
+@pif_building_capital_wilderness_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_clone_vats
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_clone_vats/tpm.txt
+@pif_building_clone_vats_tpm_auto_mod_monthly_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# building_colony_shelter
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter/tpm.txt
+@pif_building_colony_shelter_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_colony_shelter_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_colony_shelter_wilderness/tpm.txt
+@pif_building_colony_shelter_wilderness_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_composer_sanctum
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: leader_lifespan_add.
+# Used in: common/inline_scripts/pif/buildings/building_composer_sanctum/tpm.txt
+@pif_building_composer_sanctum_tpm_leader_lifespan_add_1 = 20
+
+# -----------------------------------------------------------------------------
+# building_deployment_post
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_deployment_post/tpm.txt
+@pif_building_deployment_post_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_embassy
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: envoys_add.
+# Used in: common/inline_scripts/pif/buildings/building_embassy/tpm.txt
+@pif_building_embassy_tpm_envoys_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_fe_assembly_1
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_assembly_1/tpm.txt
+@pif_building_fe_assembly_1_tpm_auto_mod_monthly_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# building_fe_assembly_2
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_assembly_2/tpm.txt
+@pif_building_fe_assembly_2_tpm_auto_mod_monthly_add_1 = 500
+
+# -----------------------------------------------------------------------------
+# building_fe_clinic_1
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_clinic_1/tpm.txt
+@pif_building_fe_clinic_1_tpm_auto_mod_monthly_add_2 = 400
+
+# Controls: Building fallback gameplay modifier: leader_lifespan_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_clinic_1/tpm.txt
+@pif_building_fe_clinic_1_tpm_leader_lifespan_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_fe_clinic_2
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_clinic_2/tpm.txt
+@pif_building_fe_clinic_2_tpm_auto_mod_monthly_add_2 = 600
+
+# Controls: Building fallback gameplay modifier: leader_lifespan_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_clinic_2/tpm.txt
+@pif_building_fe_clinic_2_tpm_leader_lifespan_add_1 = 2
+
+# -----------------------------------------------------------------------------
+# building_fe_security_2
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/buildings/building_fe_security_2/tpm.txt
+@pif_building_fe_security_2_tpm_country_edict_fund_add_1 = 10
+
+# -----------------------------------------------------------------------------
+# building_genomic_facility
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/tpm.txt
+@pif_building_genomic_facility_tpm_auto_mod_monthly_add_1 = 200
+
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_genomic_facility/tpm.txt
+@pif_building_genomic_facility_tpm_auto_mod_monthly_add_2 = 100
+
+# -----------------------------------------------------------------------------
+# building_grand_embassy
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: envoys_add.
+# Used in: common/inline_scripts/pif/buildings/building_grand_embassy/tpm.txt
+@pif_building_grand_embassy_tpm_envoys_add_1 = 2
+
+# -----------------------------------------------------------------------------
+# building_hab_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_capital/tpm.txt
+@pif_building_hab_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_hab_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_major_capital/tpm.txt
+@pif_building_hab_major_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_hab_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hab_system_capital/tpm.txt
+@pif_building_hab_system_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_hive_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_capital/tpm.txt
+@pif_building_hive_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_hive_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_hive_major_capital/tpm.txt
+@pif_building_hive_major_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_imperial_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital/tpm.txt
+@pif_building_imperial_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_imperial_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_capital_wilderness/tpm.txt
+@pif_building_imperial_capital_wilderness_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_imperial_hive_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_hive_capital/tpm.txt
+@pif_building_imperial_hive_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_imperial_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_imperial_machine_capital/tpm.txt
+@pif_building_imperial_machine_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_league_offices
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/buildings/building_league_offices/tpm.txt
+@pif_building_league_offices_tpm_country_edict_fund_add_1 = 50
+
+# -----------------------------------------------------------------------------
+# building_machine_assembly_complex
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_machine_assembly_complex/tpm.txt
+@pif_building_machine_assembly_complex_tpm_auto_mod_monthly_add_1 = 400
+
+# -----------------------------------------------------------------------------
+# building_machine_assembly_plant
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_machine_assembly_plant/tpm.txt
+@pif_building_machine_assembly_plant_tpm_auto_mod_monthly_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# building_machine_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_capital/tpm.txt
+@pif_building_machine_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_machine_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_major_capital/tpm.txt
+@pif_building_machine_major_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_machine_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_machine_system_capital/tpm.txt
+@pif_building_machine_system_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital/tpm.txt
+@pif_building_major_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_major_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_major_capital_wilderness/tpm.txt
+@pif_building_major_capital_wilderness_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_medical_2
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_medical_2/tpm.txt
+@pif_building_medical_2_tpm_auto_mod_monthly_add_1 = 100
+
+# -----------------------------------------------------------------------------
+# building_medical_3
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_medical_3/tpm.txt
+@pif_building_medical_3_tpm_auto_mod_monthly_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# building_military_contractors
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/buildings/building_military_contractors/tpm.txt
+@pif_building_military_contractors_tpm_country_naval_cap_add_1 = 5
+
+# -----------------------------------------------------------------------------
+# building_pirate_haven
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/buildings/building_pirate_haven/tpm.txt
+@pif_building_pirate_haven_tpm_country_naval_cap_add_1 = 5
+
+# -----------------------------------------------------------------------------
+# building_resort_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_capital/tpm.txt
+@pif_building_resort_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_resort_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_resort_major_capital/tpm.txt
+@pif_building_resort_major_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_robot_assembly_complex
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_robot_assembly_complex/tpm.txt
+@pif_building_robot_assembly_complex_tpm_auto_mod_monthly_add_1 = 400
+
+# -----------------------------------------------------------------------------
+# building_robot_assembly_plant
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_robot_assembly_plant/tpm.txt
+@pif_building_robot_assembly_plant_tpm_auto_mod_monthly_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# building_slave_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_capital/tpm.txt
+@pif_building_slave_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_slave_major_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_slave_major_capital/tpm.txt
+@pif_building_slave_major_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_spawning_pool
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: auto_mod_monthly_add.
+# Used in: common/inline_scripts/pif/buildings/building_spawning_pool/tpm.txt
+@pif_building_spawning_pool_tpm_auto_mod_monthly_add_1 = 200
+
+# -----------------------------------------------------------------------------
+# building_storm_attraction_center
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: storm_attraction_field_modifier.
+# Used in: common/inline_scripts/pif/buildings/building_storm_attraction_center/tpm.txt
+@pif_building_storm_attraction_center_tpm_storm_attraction_field_modifier_1 = 0.4
+
+# -----------------------------------------------------------------------------
+# building_storm_grand_theater
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: storm_attraction_field_modifier.
+# Used in: common/inline_scripts/pif/buildings/building_storm_grand_theater/tpm.txt
+@pif_building_storm_grand_theater_tpm_storm_attraction_field_modifier_1 = 1
+
+# -----------------------------------------------------------------------------
+# building_storm_holo_theater
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: storm_attraction_field_modifier.
+# Used in: common/inline_scripts/pif/buildings/building_storm_holo_theater/tpm.txt
+@pif_building_storm_holo_theater_tpm_storm_attraction_field_modifier_1 = 0.6
+
+# -----------------------------------------------------------------------------
+# building_storm_summoning_theater
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: storm_attraction_field_modifier.
+# Used in: common/inline_scripts/pif/buildings/building_storm_summoning_theater/tpm.txt
+@pif_building_storm_summoning_theater_tpm_storm_attraction_field_modifier_1 = 0.3
+
+# -----------------------------------------------------------------------------
+# building_system_capital
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital/tpm.txt
+@pif_building_system_capital_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_system_capital_wilderness
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: commercial_pact_mult.
+# Used in: common/inline_scripts/pif/buildings/building_system_capital_wilderness/tpm.txt
+@pif_building_system_capital_wilderness_tpm_commercial_pact_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# building_whisperers_sanctum
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: envoys_add.
+# Used in: common/inline_scripts/pif/buildings/building_whisperers_sanctum/tpm.txt
+@pif_building_whisperers_sanctum_tpm_envoys_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# holding_aid_agency
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_aid_agency/tpm.txt
+@pif_holding_aid_agency_tpm_monthly_loyalty_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# holding_communal_housing_outreach
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_communal_housing_outreach/tpm.txt
+@pif_holding_communal_housing_outreach_tpm_monthly_loyalty_1 = -0.5
+
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_communal_housing_outreach/tpm.txt
+@pif_holding_communal_housing_outreach_tpm_monthly_loyalty_2 = 1
+
+# -----------------------------------------------------------------------------
+# holding_distributed_processing
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_distributed_processing/tpm.txt
+@pif_holding_distributed_processing_tpm_monthly_loyalty_1 = -2
+
+# -----------------------------------------------------------------------------
+# holding_energy_requisitorium
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_energy_requisitorium/tpm.txt
+@pif_holding_energy_requisitorium_tpm_monthly_loyalty_1 = -0.25
+
+# -----------------------------------------------------------------------------
+# holding_experimental_crater
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_experimental_crater/tpm.txt
+@pif_holding_experimental_crater_tpm_monthly_loyalty_1 = -1
+
+# -----------------------------------------------------------------------------
+# holding_franchise_headquarters
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_franchise_headquarters/tpm.txt
+@pif_holding_franchise_headquarters_tpm_monthly_loyalty_1 = -0.5
+
+# -----------------------------------------------------------------------------
+# holding_garrison
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_garrison/tpm.txt
+@pif_holding_garrison_tpm_monthly_loyalty_1 = 0.5
+
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_garrison/tpm.txt
+@pif_holding_garrison_tpm_monthly_loyalty_2 = 1
+
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_garrison/tpm.txt
+@pif_holding_garrison_tpm_monthly_loyalty_3 = 1.5
+
+# -----------------------------------------------------------------------------
+# holding_idyllic_bloom
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_idyllic_bloom/tpm.txt
+@pif_holding_idyllic_bloom_tpm_monthly_loyalty_1 = -0.5
+
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_idyllic_bloom/tpm.txt
+@pif_holding_idyllic_bloom_tpm_monthly_loyalty_2 = 1
+
+# -----------------------------------------------------------------------------
+# holding_knight_commandery
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/buildings/holding_knight_commandery/tpm.txt
+@pif_holding_knight_commandery_tpm_country_naval_cap_add_2 = 2
+
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_knight_commandery/tpm.txt
+@pif_holding_knight_commandery_tpm_monthly_loyalty_1 = -0.5
+
+# -----------------------------------------------------------------------------
+# holding_material_requisitorium
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_material_requisitorium/tpm.txt
+@pif_holding_material_requisitorium_tpm_monthly_loyalty_1 = -0.5
+
+# -----------------------------------------------------------------------------
+# holding_noble_vacation_homes
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_noble_vacation_homes/tpm.txt
+@pif_holding_noble_vacation_homes_tpm_monthly_loyalty_1 = -1
+
+# -----------------------------------------------------------------------------
+# holding_offworld_foundry
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_offworld_foundry/tpm.txt
+@pif_holding_offworld_foundry_tpm_monthly_loyalty_1 = -1.5
+
+# -----------------------------------------------------------------------------
+# holding_organic_sanctuary
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_organic_sanctuary/tpm.txt
+@pif_holding_organic_sanctuary_tpm_monthly_loyalty_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# holding_overlord_vigil_command
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: starbase_defense_platform_capacity_add.
+# Used in: common/inline_scripts/pif/buildings/holding_overlord_vigil_command/tpm.txt
+@pif_holding_overlord_vigil_command_tpm_starbase_defense_platform_capacity_add_1 = 1
+
+# Controls: Building fallback gameplay modifier: starbase_defense_platform_capacity_add.
+# Used in: common/inline_scripts/pif/buildings/holding_overlord_vigil_command/tpm.txt
+@pif_holding_overlord_vigil_command_tpm_starbase_defense_platform_capacity_add_2 = 2
+
+# Controls: Building fallback gameplay modifier: starbase_defense_platform_capacity_add.
+# Used in: common/inline_scripts/pif/buildings/holding_overlord_vigil_command/tpm.txt
+@pif_holding_overlord_vigil_command_tpm_starbase_defense_platform_capacity_add_3 = 4
+
+# -----------------------------------------------------------------------------
+# holding_parasitic_algorithms
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_parasitic_algorithms/tpm.txt
+@pif_holding_parasitic_algorithms_tpm_monthly_loyalty_1 = -1
+
+# -----------------------------------------------------------------------------
+# holding_produce_requisitorium
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_produce_requisitorium/tpm.txt
+@pif_holding_produce_requisitorium_tpm_monthly_loyalty_1 = -0.25
+
+# -----------------------------------------------------------------------------
+# holding_recruitment_office
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/buildings/holding_recruitment_office/tpm.txt
+@pif_holding_recruitment_office_tpm_country_naval_cap_add_1 = 5
+
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_recruitment_office/tpm.txt
+@pif_holding_recruitment_office_tpm_monthly_loyalty_2 = -0.5
+
+# -----------------------------------------------------------------------------
+# holding_reemployment_center
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_reemployment_center/tpm.txt
+@pif_holding_reemployment_center_tpm_monthly_loyalty_1 = -0.5
+
+# -----------------------------------------------------------------------------
+# holding_sacrificial_shrine
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_sacrificial_shrine/tpm.txt
+@pif_holding_sacrificial_shrine_tpm_monthly_loyalty_1 = -0.5
+
+# -----------------------------------------------------------------------------
+# holding_splinter_hive
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_splinter_hive/tpm.txt
+@pif_holding_splinter_hive_tpm_monthly_loyalty_1 = -2
+
+# -----------------------------------------------------------------------------
+# holding_transcendental_retreat
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_transcendental_retreat/tpm.txt
+@pif_holding_transcendental_retreat_tpm_monthly_loyalty_1 = -0.5
+
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_transcendental_retreat/tpm.txt
+@pif_holding_transcendental_retreat_tpm_monthly_loyalty_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# holding_tree_of_life_sapling
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_tree_of_life_sapling/tpm.txt
+@pif_holding_tree_of_life_sapling_tpm_monthly_loyalty_1 = 1
+
+# -----------------------------------------------------------------------------
+# holding_wilderness_glade
+# -----------------------------------------------------------------------------
+# Controls: Building fallback gameplay modifier: monthly_loyalty.
+# Used in: common/inline_scripts/pif/buildings/holding_wilderness_glade/tpm.txt
+@pif_holding_wilderness_glade_tpm_monthly_loyalty_1 = -2

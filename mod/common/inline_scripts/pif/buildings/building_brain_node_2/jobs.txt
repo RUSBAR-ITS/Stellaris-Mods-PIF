@@ -1,0 +1,57 @@
+# PIF building category: JOBS
+# Vanilla building: building_brain_node_2
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			NOT = {
+				has_country_flag = fallen_empire_1
+			}
+		}
+	}
+	modifier = {
+		job_physicist_add = @pif_building_brain_node_2_jobs_job_physicist_add_1
+		job_biologist_add = @pif_building_brain_node_2_jobs_job_biologist_add_2
+		job_engineer_add = @pif_building_brain_node_2_jobs_job_engineer_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	job_calculator_physicist_add = @pif_building_brain_node_2_jobs_job_calculator_physicist_add_4
+	job_calculator_biologist_add = @pif_building_brain_node_2_jobs_job_calculator_biologist_add_5
+	job_calculator_engineer_add = @pif_building_brain_node_2_jobs_job_calculator_engineer_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_calculator_physicist_add = @pif_building_brain_node_2_jobs_job_calculator_physicist_add_4
+	job_calculator_biologist_add = @pif_building_brain_node_2_jobs_job_calculator_biologist_add_5
+	job_calculator_engineer_add = @pif_building_brain_node_2_jobs_job_calculator_engineer_add_6
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = fallen_empire_1
+		}
+	}
+	job_fe_archivist_add = @pif_building_brain_node_2_jobs_job_fe_archivist_add_7
+	job_fe_archivist_add = @pif_building_brain_node_2_jobs_job_fe_archivist_add_7
+	job_fe_archivist_add = @pif_building_brain_node_2_jobs_job_fe_archivist_add_7
+}

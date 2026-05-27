@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_offworld_expedition_hub
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+building_sets = {
+	factory
+	foundry
+	industrial
+}

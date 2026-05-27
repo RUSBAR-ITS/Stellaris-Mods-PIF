@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+manufactorium_specialist = {
+	category = specialist
+	inline_script = "pif/jobs/manufactorium_specialist/swap"
+	inline_script = "pif/jobs/manufactorium_specialist/availability"
+	inline_script = "pif/jobs/manufactorium_specialist/pop_config"
+	inline_script = "pif/jobs/manufactorium_specialist/economy"
+	inline_script = "pif/jobs/manufactorium_specialist/planet_state"
+	inline_script = "pif/jobs/manufactorium_specialist/country_modifiers"
+	inline_script = "pif/jobs/manufactorium_specialist/pop_modifiers"
+	inline_script = "pif/jobs/manufactorium_specialist/economic_modifiers"
+	inline_script = "pif/jobs/manufactorium_specialist/tpm"
+}

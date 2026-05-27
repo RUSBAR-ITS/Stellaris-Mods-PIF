@@ -1,0 +1,22 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: organic_battery
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_organic_battery_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_enslaved = yes
+	is_sapient = yes
+	is_robotic = no
+}
+
+possible = {
+	has_citizenship_type = {
+		type = citizenship_slavery
+		country = owner
+	}
+	has_slavery_type = {
+		type = slavery_matrix
+	}
+}

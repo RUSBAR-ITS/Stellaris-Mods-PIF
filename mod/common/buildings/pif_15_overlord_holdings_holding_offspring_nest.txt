@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_offspring_nest = {
+	base_buildtime = @pif_holding_offspring_nest_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_offspring_nest
+	category = government
+	inline_script = "pif/buildings/holding_offspring_nest/building_config"
+	inline_script = "pif/buildings/holding_offspring_nest/availability"
+	inline_script = "pif/buildings/holding_offspring_nest/economy"
+	inline_script = "pif/buildings/holding_offspring_nest/lifecycle"
+	inline_script = "pif/buildings/holding_offspring_nest/jobs"
+	inline_script = "pif/buildings/holding_offspring_nest/country_jobs"
+	inline_script = "pif/buildings/holding_offspring_nest/economic_modifiers"
+	inline_script = "pif/buildings/holding_offspring_nest/pop_modifiers"
+	inline_script = "pif/buildings/holding_offspring_nest/planet_state"
+	inline_script = "pif/buildings/holding_offspring_nest/tpm"
+	inline_script = "pif/buildings/holding_offspring_nest/ai"
+}

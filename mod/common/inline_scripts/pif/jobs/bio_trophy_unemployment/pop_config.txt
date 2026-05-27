@@ -1,0 +1,37 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: bio_trophy_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_unemployment.txt
+
+count_as_available_for_ai = @pif_bio_trophy_unemployment_job_flags_count_as_available_for_ai_2
+
+tags = {
+	unity
+}
+
+weight = {
+	weight = @pif_bio_trophy_unemployment_job_weight_weight_1
+}
+
+can_set_priority = @pif_bio_trophy_unemployment_job_flags_can_set_priority_3
+
+contributes_to_diplo_weight = @pif_bio_trophy_unemployment_job_flags_contributes_to_diplo_weight_4
+
+promotion = {
+	time = @pif_bio_trophy_unemployment_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = bio_trophy_unemployment
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_charismatic
+	trait_crafted_smiles
+	trait_robot_emotion_emulators
+	trait_cyborg_stainless_steel_smile
+	trait_malleable_ameneties
+	trait_adaptive_amenities
+}

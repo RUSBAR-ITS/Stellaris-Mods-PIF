@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_propaganda_office = {
+	base_buildtime = @pif_holding_propaganda_office_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_propaganda_office
+	category = government
+	inline_script = "pif/buildings/holding_propaganda_office/building_config"
+	inline_script = "pif/buildings/holding_propaganda_office/availability"
+	inline_script = "pif/buildings/holding_propaganda_office/economy"
+	inline_script = "pif/buildings/holding_propaganda_office/lifecycle"
+	inline_script = "pif/buildings/holding_propaganda_office/jobs"
+	inline_script = "pif/buildings/holding_propaganda_office/country_jobs"
+	inline_script = "pif/buildings/holding_propaganda_office/economic_modifiers"
+	inline_script = "pif/buildings/holding_propaganda_office/pop_modifiers"
+	inline_script = "pif/buildings/holding_propaganda_office/planet_state"
+	inline_script = "pif/buildings/holding_propaganda_office/tpm"
+	inline_script = "pif/buildings/holding_propaganda_office/ai"
+}

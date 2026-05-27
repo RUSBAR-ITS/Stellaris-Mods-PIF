@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_organic_paradise
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+building_sets = {
+	bio_trophy
+	urban
+	unity
+}

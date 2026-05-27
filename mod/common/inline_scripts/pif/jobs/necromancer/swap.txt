@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: necromancer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = BATTLE_THRALL_JOB_TRIGGER
+		building_icon = building_dread_encampment
+	}
+}

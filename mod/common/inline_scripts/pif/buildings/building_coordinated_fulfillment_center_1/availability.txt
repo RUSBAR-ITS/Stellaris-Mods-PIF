@@ -1,0 +1,29 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_coordinated_fulfillment_center_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+planet_limit = @pif_building_coordinated_fulfillment_center_1_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_relentless_industrialist_empire = yes
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}
+
+prerequisites = {
+	tech_basic_industry
+}
+
+show_tech_unlock_if = {
+	is_relentless_industrialist_empire = yes
+}
+
+allow = {
+	has_upgraded_capital = yes
+}

@@ -1,0 +1,44 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: dimensional_portal_researcher_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_normal
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_high
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_low
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_3
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			has_modifier = dportal_trade_crisis
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_dimensional_portal_researcher_gestalt_planet_state_planet_amenities_no_happiness_add_4
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

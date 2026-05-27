@@ -1,0 +1,32 @@
+# PIF category: TPM
+# Vanilla district: district_arcology_leisure
+# Vanilla source: districts/01_arcology_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_district_arcology_leisure_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_tankbound_empire = yes
+		}
+	}
+	modifier = {
+		job_production_overseer_add = @pif_district_arcology_leisure_jobs_job_production_overseer_add
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_entertainer_add = @pif_district_arcology_leisure_jobs_job_entertainer_add
+}

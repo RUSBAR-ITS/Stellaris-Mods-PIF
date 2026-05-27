@@ -1,0 +1,19 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: fe_overseer
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_stability_add = @pif_fe_overseer_planet_state_planet_stability_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_add = @pif_fe_overseer_planet_state_planet_amenities_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

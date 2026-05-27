@@ -1,0 +1,15 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_contained_ecosphere
+# Vanilla class: regular
+# Vanilla source: buildings/17_paragon_buildings.txt
+
+empire_limit = @pif_building_contained_ecosphere_limits_empire_limit_1
+
+can_build = yes
+
+potential = {
+	exists = owner
+	owner = {
+		has_country_flag = azaryn_dead
+	}
+}

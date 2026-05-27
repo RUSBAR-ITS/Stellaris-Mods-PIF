@@ -1,0 +1,89 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: dystopian_enforcer
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+tags = {
+	crime
+	enforcer
+}
+
+weight = {
+	weight = @pif_dystopian_enforcer_job_weight_weight_1
+	modifier = {
+		mult = value:job_weights_modifier|JOB|enforcer|RESOURCE|unity|FACTOR|0.25|
+		owner = {
+			has_active_tradition = tr_domination_judgment_corps
+		}
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_2
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_3
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_4
+		has_trait = trait_resilient
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_4
+		has_trait = trait_very_strong
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_5
+		has_trait = trait_strong
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_6
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_military
+		}
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_7
+		has_trait = trait_weak
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_8
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_9
+		has_trait = trait_cybernetic
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_4
+		has_trait = trait_presapient_earthbound
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_9
+		has_trait = trait_limited_regeneration
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_10
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_indentured
+		}
+	}
+	modifier = {
+		factor = @pif_dystopian_enforcer_job_weight_factor_4
+		has_trait = trait_lithoid
+	}
+}
+
+promotion = {
+	time = @pif_dystopian_enforcer_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = ruler
+			AMOUNT = local_pop_amount
+		}
+	}
+}

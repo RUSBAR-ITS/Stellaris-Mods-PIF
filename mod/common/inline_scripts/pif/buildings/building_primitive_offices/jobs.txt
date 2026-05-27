@@ -1,0 +1,14 @@
+# PIF building category: JOBS
+# Vanilla building: building_primitive_offices
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_primitive_administrator_add = @pif_building_primitive_offices_jobs_job_primitive_administrator_add_1
+}

@@ -1,0 +1,38 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_underground_chemists
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_artisans_trade_produces_add = @pif_building_underground_chemists_economic_modifiers_planet_artisans_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_crafters
+		}
+	}
+	planet_artisans_trade_produces_add = @pif_building_underground_chemists_economic_modifiers_planet_artisans_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_media_conglomerate
+		}
+	}
+	planet_artisans_trade_produces_add = @pif_building_underground_chemists_economic_modifiers_planet_artisans_trade_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_tankbound_corporate
+		}
+	}
+	planet_artisans_trade_produces_add = @pif_building_underground_chemists_economic_modifiers_planet_artisans_trade_produces_add_2
+}

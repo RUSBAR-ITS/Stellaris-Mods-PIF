@@ -1,0 +1,28 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_reemployment_center = {
+	base_buildtime = @pif_holding_reemployment_center_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_posthumous_employment_center
+	category = pop_assembly
+	triggered_desc = {
+		trigger = {
+			has_planet_flag = reemployment_center_timer
+		}
+		text = holding_reemployment_center_effect
+	}
+	inline_script = "pif/buildings/holding_reemployment_center/building_config"
+	inline_script = "pif/buildings/holding_reemployment_center/availability"
+	inline_script = "pif/buildings/holding_reemployment_center/economy"
+	inline_script = "pif/buildings/holding_reemployment_center/lifecycle"
+	inline_script = "pif/buildings/holding_reemployment_center/jobs"
+	inline_script = "pif/buildings/holding_reemployment_center/country_jobs"
+	inline_script = "pif/buildings/holding_reemployment_center/economic_modifiers"
+	inline_script = "pif/buildings/holding_reemployment_center/pop_modifiers"
+	inline_script = "pif/buildings/holding_reemployment_center/planet_state"
+	inline_script = "pif/buildings/holding_reemployment_center/tpm"
+	inline_script = "pif/buildings/holding_reemployment_center/ai"
+}

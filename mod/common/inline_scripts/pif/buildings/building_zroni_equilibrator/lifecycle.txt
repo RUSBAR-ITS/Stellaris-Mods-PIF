@@ -1,0 +1,89 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_zroni_equilibrator
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+can_demolish = yes
+
+destroy_trigger = {
+	OR = {
+		NOT = {
+			exists = owner
+		}
+		owner = {
+			NOT = {
+				has_country_flag = zroni_legacy
+			}
+		}
+	}
+}
+
+on_built = {
+	if = {
+		limit = {
+			exists = owner
+			owner = {
+				has_country_flag = zroni_legacy
+			}
+		}
+		owner = {
+			if = {
+				limit = {
+					has_event_chain = shroud_forged_chain
+				}
+				add_event_chain_counter = {
+					event_chain = shroud_forged_chain
+					counter = shroud_forged_zroni_portal
+					amount = 1
+				}
+				if = {
+					limit = {
+						has_completed_event_chain_counter = {
+							event_chain = shroud_forged_chain
+							counter = shroud_forged_zroni_planet
+						}
+						has_completed_event_chain_counter = {
+							event_chain = shroud_forged_chain
+							counter = shroud_forged_zroni_portal
+						}
+					}
+					country_event = {
+						id = shroud_forged.308
+					}
+				}
+			}
+		}
+	}
+}
+
+on_destroy = {
+	if = {
+		limit = {
+			exists = owner
+			owner = {
+				has_country_flag = zroni_legacy
+			}
+		}
+		owner = {
+			if = {
+				limit = {
+					has_event_chain = shroud_forged_chain
+				}
+				add_event_chain_counter = {
+					event_chain = shroud_forged_chain
+					counter = shroud_forged_zroni_portal
+					amount = -1
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = shroud_forged_trapped_entity
+				}
+				remove_modifier = shroud_forged_trapped_entity
+				country_event = {
+					id = shroud_forged.320
+				}
+			}
+		}
+	}
+}

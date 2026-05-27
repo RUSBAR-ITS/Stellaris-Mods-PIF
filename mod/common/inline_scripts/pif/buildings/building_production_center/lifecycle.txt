@@ -1,0 +1,11 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_production_center
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_gestalt = no
+	}
+}

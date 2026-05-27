@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/03_habitat_districts.txt
+# Object class: real
+
+district_hab_science = {
+	base_buildtime = @pif_district_hab_science_construction_build_time_days
+	is_uncapped = {
+		always = no
+	}
+	overlay_icon = GFX_district_research
+	show_on_uncolonized = {
+		uses_district_set = habitat
+	}
+	triggered_name = {
+		text = city_research_1
+	}
+	inline_script = "pif/districts/district_hab_science/zone_slots"
+	inline_script = "pif/districts/district_hab_science/availability"
+	inline_script = "pif/districts/district_hab_science/economic"
+	inline_script = "pif/districts/district_hab_science/tpm"
+	inline_script = "pif/districts/district_hab_science/lifecycle"
+	inline_script = "pif/districts/district_hab_science/ai"
+}

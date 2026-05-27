@@ -1,0 +1,13 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_zroni_equilibrator
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+base_cap_amount = @pif_building_zroni_equilibrator_limits_base_cap_amount_1
+
+potential = {
+	owner = {
+		has_country_flag = zroni_legacy
+	}
+	has_planet_flag = zroni_legacy_flag
+}

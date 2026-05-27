@@ -1,0 +1,25 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_fortress
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_global_defense_grid"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

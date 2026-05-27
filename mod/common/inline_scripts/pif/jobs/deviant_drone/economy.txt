@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: deviant_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_jobs
+	upkeep = {
+		energy = @pif_deviant_drone_job_upkeep_upkeep_energy_1
+	}
+}

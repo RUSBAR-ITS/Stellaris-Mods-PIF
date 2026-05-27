@@ -1,0 +1,15 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_crashed_slaver_ship
+# Vanilla source: districts/00_urban_districts.txt
+
+conversion_ratio = @pif_district_crashed_slaver_ship_conversion_conversion_ratio
+
+convert_to = {
+	district_city
+	district_arcology_housing
+	district_rw_city
+	district_nexus
+	district_hive
+	district_craglands
+	district_mindlink
+}

@@ -1,0 +1,19 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_exotic_gases_nexus
+# Vanilla source: zones/04_secondary_zones.txt
+
+planet_limit = @pif_zone_exotic_gases_nexus_zone_limits_planet_limit_planet_limit_1
+
+potential = {
+	has_exotic_gases_deposit = yes
+}
+
+unlock = {
+	hidden_trigger = {
+		has_exotic_gases_deposit = yes
+		exists = owner
+	}
+	owner = {
+		has_technology = tech_mine_exotic_gases
+	}
+}

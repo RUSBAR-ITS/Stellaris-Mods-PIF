@@ -1,0 +1,30 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: neural_chip_processing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+first_come_first_served = @pif_neural_chip_processing_job_flags_first_come_first_served_2
+
+demotion = {
+	time = @pif_neural_chip_processing_demotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = chip_slave
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+promotion = {
+	time = @pif_neural_chip_processing_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = chip_slave
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+weight = {
+	weight = @pif_neural_chip_processing_job_weight_weight_1
+}

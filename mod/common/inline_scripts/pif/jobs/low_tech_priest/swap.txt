@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: low_tech_priest
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_low_tech_admin_hub
+	}
+}

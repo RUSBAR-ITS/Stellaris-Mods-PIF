@@ -1,0 +1,23 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hab_major_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_build = no
+
+potential = {
+	uses_habitat_capitals = yes
+	exists = owner
+	owner = {
+		is_fallen_empire = no
+		is_wilderness_empire = no
+	}
+}
+
+prerequisites = {
+	"tech_habitat_2"
+}
+
+allow = {
+	sapient_pop_amount >= @pif_building_hab_major_capital_availability_thresholds_sapient_pop_amount_1
+}

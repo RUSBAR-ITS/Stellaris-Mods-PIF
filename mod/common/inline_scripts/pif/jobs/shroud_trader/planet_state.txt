@@ -1,0 +1,41 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: shroud_trader
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_mercantile_commercial_enterprise
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_shroud_trader_planet_state_planet_amenities_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet
+		planet = {
+			exists = orbital_defence
+			orbital_defence = {
+				exists = starbase
+				starbase = {
+					has_starbase_building = ring_trade_hub
+				}
+			}
+		}
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_dystopian_society
+			}
+		}
+	}
+	planet_amenities_add = @pif_shroud_trader_planet_state_planet_amenities_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

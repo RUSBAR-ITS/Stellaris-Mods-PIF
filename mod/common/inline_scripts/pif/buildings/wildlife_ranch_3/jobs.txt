@@ -1,0 +1,24 @@
+# PIF building category: JOBS
+# Vanilla building: wildlife_ranch_3
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_wrangler_add = @pif_wildlife_ranch_3_jobs_job_wrangler_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_drone_wrangler_add = @pif_wildlife_ranch_3_jobs_job_drone_wrangler_add_2
+}

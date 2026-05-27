@@ -1,0 +1,23 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_battle_thrall
+# Vanilla source: districts/00_urban_districts.txt
+
+prerequisites = {
+	tech_basic_industry
+}
+
+potential = {
+	always = no
+}
+
+allow = {
+	hidden_trigger = {
+		has_modifier = slave_colony
+	}
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}

@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: bio_trophy_unprocessing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_organic_sanctuary
+		icon = bio_trophy
+	}
+}

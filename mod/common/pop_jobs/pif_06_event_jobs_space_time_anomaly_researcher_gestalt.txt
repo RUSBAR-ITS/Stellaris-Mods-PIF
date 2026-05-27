@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+space_time_anomaly_researcher_gestalt = {
+	category = complex_drone
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/swap"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/availability"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/pop_config"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/economy"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/planet_state"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/country_modifiers"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/pop_modifiers"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/economic_modifiers"
+	inline_script = "pif/jobs/space_time_anomaly_researcher_gestalt/tpm"
+}

@@ -1,0 +1,18 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_waste_reprocessing_center
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+planet_limit = @pif_building_waste_reprocessing_center_limits_planet_limit_1
+
+can_build = yes
+
+potential = {
+	exists = owner
+	owner = {
+		has_country_flag = bought_waste_reprocessing_center
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}

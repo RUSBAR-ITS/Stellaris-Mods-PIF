@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_avatar_chamber_1 = {
+	icon = "avatar_chamber_1"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_avatar_chamber_1_construction_base_buildtime_1
+	category = amenities
+	inline_script = "pif/buildings/building_avatar_chamber_1/building_config"
+	inline_script = "pif/buildings/building_avatar_chamber_1/availability"
+	inline_script = "pif/buildings/building_avatar_chamber_1/economy"
+	inline_script = "pif/buildings/building_avatar_chamber_1/lifecycle"
+	inline_script = "pif/buildings/building_avatar_chamber_1/jobs"
+	inline_script = "pif/buildings/building_avatar_chamber_1/country_jobs"
+	inline_script = "pif/buildings/building_avatar_chamber_1/economic_modifiers"
+	inline_script = "pif/buildings/building_avatar_chamber_1/pop_modifiers"
+	inline_script = "pif/buildings/building_avatar_chamber_1/planet_state"
+	inline_script = "pif/buildings/building_avatar_chamber_1/tpm"
+	inline_script = "pif/buildings/building_avatar_chamber_1/ai"
+}

@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/07_amenity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_hyper_entertainment_forum = {
+	base_buildtime = @pif_building_hyper_entertainment_forum_construction_base_buildtime_1
+	category = amenity
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/building_config"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/availability"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/economy"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/lifecycle"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/jobs"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/country_jobs"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/economic_modifiers"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/pop_modifiers"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/planet_state"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/tpm"
+	inline_script = "pif/buildings/building_hyper_entertainment_forum/ai"
+}

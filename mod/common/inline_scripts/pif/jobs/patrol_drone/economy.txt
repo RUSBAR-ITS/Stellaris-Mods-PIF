@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: patrol_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		unity = @pif_patrol_drone_job_output_output_unity_1
+	}
+}

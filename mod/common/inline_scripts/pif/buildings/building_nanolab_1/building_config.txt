@@ -1,0 +1,11 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_nanolab_1
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+building_sets = {
+	research
+	physics
+	society
+	engineering
+}

@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_ancient_control_center
+# Vanilla class: capital
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_ancient_control_center_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_ancient_control_center_upkeep_upkeep_energy_1
+	}
+}

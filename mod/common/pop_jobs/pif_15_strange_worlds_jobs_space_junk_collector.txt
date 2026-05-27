@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_strange_worlds_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+space_junk_collector = {
+	category = specialist
+	inline_script = "pif/jobs/space_junk_collector/swap"
+	inline_script = "pif/jobs/space_junk_collector/availability"
+	inline_script = "pif/jobs/space_junk_collector/pop_config"
+	inline_script = "pif/jobs/space_junk_collector/economy"
+	inline_script = "pif/jobs/space_junk_collector/planet_state"
+	inline_script = "pif/jobs/space_junk_collector/country_modifiers"
+	inline_script = "pif/jobs/space_junk_collector/pop_modifiers"
+	inline_script = "pif/jobs/space_junk_collector/economic_modifiers"
+	inline_script = "pif/jobs/space_junk_collector/tpm"
+}

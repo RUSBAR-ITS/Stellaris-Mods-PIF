@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_research_efficiency_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	researcher_jobs_bonus_workforce_mult = @pif_building_research_efficiency_1_pop_modifiers_researcher_jobs_bonus_workforce_mult_1
+}

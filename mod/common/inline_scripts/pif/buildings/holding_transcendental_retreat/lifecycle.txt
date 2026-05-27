@@ -1,0 +1,10 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_transcendental_retreat
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+destroy_trigger = {
+	owner.overlord = {
+		is_natural_design_empire = no
+	}
+}

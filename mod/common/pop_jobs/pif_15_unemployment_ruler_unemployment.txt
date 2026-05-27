@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_unemployment.txt
+# Object type: pop_job
+# Job class: special_other
+
+ruler_unemployment = {
+	category = ruler_unemployment
+	inline_script = "pif/jobs/ruler_unemployment/swap"
+	inline_script = "pif/jobs/ruler_unemployment/availability"
+	inline_script = "pif/jobs/ruler_unemployment/pop_config"
+	inline_script = "pif/jobs/ruler_unemployment/economy"
+	inline_script = "pif/jobs/ruler_unemployment/planet_state"
+	inline_script = "pif/jobs/ruler_unemployment/country_modifiers"
+	inline_script = "pif/jobs/ruler_unemployment/pop_modifiers"
+	inline_script = "pif/jobs/ruler_unemployment/economic_modifiers"
+	inline_script = "pif/jobs/ruler_unemployment/tpm"
+}

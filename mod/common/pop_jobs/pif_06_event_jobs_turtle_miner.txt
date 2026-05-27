@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+turtle_miner = {
+	category = worker
+	inline_script = "pif/jobs/turtle_miner/swap"
+	inline_script = "pif/jobs/turtle_miner/availability"
+	inline_script = "pif/jobs/turtle_miner/pop_config"
+	inline_script = "pif/jobs/turtle_miner/economy"
+	inline_script = "pif/jobs/turtle_miner/planet_state"
+	inline_script = "pif/jobs/turtle_miner/country_modifiers"
+	inline_script = "pif/jobs/turtle_miner/pop_modifiers"
+	inline_script = "pif/jobs/turtle_miner/economic_modifiers"
+	inline_script = "pif/jobs/turtle_miner/tpm"
+}

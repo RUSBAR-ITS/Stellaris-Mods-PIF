@@ -1,0 +1,41 @@
+# PIF job category: ECONOMY
+# Vanilla job: puddle_technician
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		food = @pif_puddle_technician_job_output_output_food_1
+		alloys = @pif_puddle_technician_job_output_output_alloys_2
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+			}
+		}
+		food = @pif_puddle_technician_job_output_output_food_3
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+			}
+		}
+		food = @pif_puddle_technician_job_output_output_food_4
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_food
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+			}
+		}
+		food = @pif_puddle_technician_overlord_output_overlord_output_food_1
+	}
+}

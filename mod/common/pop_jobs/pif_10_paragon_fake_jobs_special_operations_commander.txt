@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/10_paragon_fake_jobs.txt
+# Object type: pop_job
+# Job class: no_category
+
+special_operations_commander = {
+	inline_script = "pif/jobs/special_operations_commander/swap"
+	inline_script = "pif/jobs/special_operations_commander/availability"
+	inline_script = "pif/jobs/special_operations_commander/pop_config"
+	inline_script = "pif/jobs/special_operations_commander/economy"
+	inline_script = "pif/jobs/special_operations_commander/planet_state"
+	inline_script = "pif/jobs/special_operations_commander/country_modifiers"
+	inline_script = "pif/jobs/special_operations_commander/pop_modifiers"
+	inline_script = "pif/jobs/special_operations_commander/economic_modifiers"
+	inline_script = "pif/jobs/special_operations_commander/tpm"
+}

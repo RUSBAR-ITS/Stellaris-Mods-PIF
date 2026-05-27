@@ -1,0 +1,24 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_colony_shelter_wilderness = {
+	icon = "capital_wilderness_1"
+	ruined_icon = "wilderness_building_ruined"
+	capital = yes
+	position_priority = 0
+	capital_tier = 1
+	category = government
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/building_config"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/availability"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/economy"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/lifecycle"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/jobs"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/country_jobs"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/economic_modifiers"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/pop_modifiers"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/planet_state"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/tpm"
+	inline_script = "pif/buildings/building_colony_shelter_wilderness/ai"
+}

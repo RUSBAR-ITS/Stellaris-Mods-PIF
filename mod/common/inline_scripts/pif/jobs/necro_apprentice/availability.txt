@@ -1,0 +1,21 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: necro_apprentice
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible = {
+	species = {
+		species_can_be_necrophaged = yes
+	}
+	owner = {
+		has_trait = trait_necrophage
+		has_origin = origin_necrophage
+	}
+}

@@ -1,0 +1,9 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_food_hive
+# Vanilla source: zones/04_secondary_zones.txt
+
+convert_to = {
+	zone_food
+	zone_food_ring_world
+	zone_food_hive
+}

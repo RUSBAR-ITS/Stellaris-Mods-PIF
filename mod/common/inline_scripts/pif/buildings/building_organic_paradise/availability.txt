@@ -1,0 +1,23 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_organic_paradise
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		has_valid_civic = civic_machine_servitor
+	}
+}
+
+prerequisites = {
+	"tech_paradise_dome"
+}
+
+show_tech_unlock_if = {
+	owner = {
+		has_valid_civic = civic_machine_servitor
+	}
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+purge_sacrifice = {
+	category = purge
+	inline_script = "pif/jobs/purge_sacrifice/swap"
+	inline_script = "pif/jobs/purge_sacrifice/availability"
+	inline_script = "pif/jobs/purge_sacrifice/pop_config"
+	inline_script = "pif/jobs/purge_sacrifice/economy"
+	inline_script = "pif/jobs/purge_sacrifice/planet_state"
+	inline_script = "pif/jobs/purge_sacrifice/country_modifiers"
+	inline_script = "pif/jobs/purge_sacrifice/pop_modifiers"
+	inline_script = "pif/jobs/purge_sacrifice/economic_modifiers"
+	inline_script = "pif/jobs/purge_sacrifice/tpm"
+}

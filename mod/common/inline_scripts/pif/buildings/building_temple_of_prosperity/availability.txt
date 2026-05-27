@@ -1,0 +1,14 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_temple_of_prosperity
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+planet_limit = @pif_building_temple_of_prosperity_limits_planet_limit_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		has_valid_civic = civic_gospel_of_the_masses
+		is_legit_or_legal_criminal = yes
+	}
+}

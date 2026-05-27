@@ -1,0 +1,65 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: dystopian_telepath
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			exists = ruler
+			ruler = {
+				has_trait = leader_trait_legendary_harsh_ruler
+			}
+		}
+	}
+	pop_happiness = @pif_dystopian_telepath_pop_modifiers_pop_happiness_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = composer_covenant_confirmed
+		}
+	}
+	modifier = {
+		logistic_growth_mult = @pif_dystopian_telepath_pop_modifiers_logistic_growth_mult_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = composer_covenant_rank_1
+		}
+	}
+	modifier = {
+		logistic_growth_mult = @pif_dystopian_telepath_pop_modifiers_logistic_growth_mult_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_covenant_with_the_composer_of_strands = yes
+			is_robot_empire = yes
+		}
+	}
+	modifier = {
+		planet_pop_assembly_mult = @pif_dystopian_telepath_pop_modifiers_planet_pop_assembly_mult_4
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = golden_dream_accord
+			is_gestalt = no
+		}
+	}
+	pop_happiness = @pif_dystopian_telepath_pop_modifiers_pop_happiness_5
+}

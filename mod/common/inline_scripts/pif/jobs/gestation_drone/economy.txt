@@ -1,0 +1,54 @@
+# PIF job category: ECONOMY
+# Vanilla job: gestation_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_doctors
+	upkeep = {
+		alloys = @pif_gestation_drone_job_upkeep_upkeep_alloys_1
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				exists = growing_species
+				growing_species = {
+					is_lithoid = no
+					NOT = {
+						has_trait = trait_infernal
+					}
+				}
+			}
+		}
+		food = @pif_gestation_drone_job_upkeep_upkeep_food_2
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				exists = growing_species
+				growing_species = {
+					is_lithoid = yes
+				}
+			}
+		}
+		minerals = @pif_gestation_drone_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				exists = growing_species
+				growing_species = {
+					has_trait = trait_infernal
+				}
+			}
+		}
+		alloys = @pif_gestation_drone_job_upkeep_upkeep_alloys_4
+	}
+	produces = {
+		society_research = @pif_gestation_drone_job_output_output_society_research_1
+		engineering_research = @pif_gestation_drone_job_output_output_engineering_research_2
+	}
+}

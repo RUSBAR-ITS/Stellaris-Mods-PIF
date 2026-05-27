@@ -1,0 +1,23 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: slave_orderly
+# Vanilla class: worker
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+is_capped_by_modifier = @pif_slave_orderly_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_enslaved = yes
+	has_planet = yes
+	is_sapient = yes
+	is_robotic = no
+}
+
+possible = {
+	exists = owner
+	owner = {
+		is_twisted_experimenters_empire = yes
+	}
+	has_slavery_type = {
+		type = slavery_orderly
+	}
+}

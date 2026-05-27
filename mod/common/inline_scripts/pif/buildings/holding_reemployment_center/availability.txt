@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_reemployment_center
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_reemployment_center_limits_planet_limit_1
+
+potential = {
+	owner.overlord = {
+		has_valid_civic = civic_permanent_employment
+	}
+	NOT = {
+		owner = {
+			has_valid_civic = civic_permanent_employment
+		}
+	}
+	owner = {
+		is_machine_empire = no
+		is_wilderness_empire = no
+	}
+}

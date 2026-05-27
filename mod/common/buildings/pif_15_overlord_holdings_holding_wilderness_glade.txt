@@ -1,0 +1,25 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_wilderness_glade = {
+	base_buildtime = @pif_holding_wilderness_glade_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_wilderness_glade
+	category = pop_assembly
+	triggered_desc = {
+		text = holding_wilderness_glade_effect_desc
+	}
+	inline_script = "pif/buildings/holding_wilderness_glade/building_config"
+	inline_script = "pif/buildings/holding_wilderness_glade/availability"
+	inline_script = "pif/buildings/holding_wilderness_glade/economy"
+	inline_script = "pif/buildings/holding_wilderness_glade/lifecycle"
+	inline_script = "pif/buildings/holding_wilderness_glade/jobs"
+	inline_script = "pif/buildings/holding_wilderness_glade/country_jobs"
+	inline_script = "pif/buildings/holding_wilderness_glade/economic_modifiers"
+	inline_script = "pif/buildings/holding_wilderness_glade/pop_modifiers"
+	inline_script = "pif/buildings/holding_wilderness_glade/planet_state"
+	inline_script = "pif/buildings/holding_wilderness_glade/tpm"
+	inline_script = "pif/buildings/holding_wilderness_glade/ai"
+}

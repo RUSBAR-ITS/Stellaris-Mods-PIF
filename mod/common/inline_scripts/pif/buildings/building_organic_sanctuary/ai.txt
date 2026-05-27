@@ -1,0 +1,62 @@
+# PIF building category: AI
+# Vanilla building: building_organic_sanctuary
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+ai_resource_production = {
+	unity = @pif_building_organic_sanctuary_ai_unity_1
+	physics_research = @pif_building_organic_sanctuary_ai_physics_research_2
+	alloys = @pif_building_organic_sanctuary_ai_alloys_3
+	trigger = {
+		NOT = {
+			has_building = building_organic_sanctuary
+		}
+	}
+}
+
+ai_weight_coefficient = @pif_building_organic_sanctuary_ai_ai_weight_coefficient_4
+
+ai_resource_production = {
+	unity = @pif_building_organic_sanctuary_ai_unity_1
+	physics_research = @pif_building_organic_sanctuary_ai_physics_research_2
+	trigger = {
+		any_owned_pop_group = {
+			is_pop_category = bio_trophy_unemployment
+		}
+		planet_resource_compare = {
+			resource = physics_research
+			value >= @pif_building_organic_sanctuary_ai_value_5
+			type = produces
+		}
+	}
+}
+
+ai_resource_production = {
+	unity = @pif_building_organic_sanctuary_ai_unity_1
+	alloys = @pif_building_organic_sanctuary_ai_alloys_6
+	trigger = {
+		any_owned_pop_group = {
+			is_pop_category = bio_trophy_unemployment
+		}
+		planet_resource_compare = {
+			resource = alloys
+			value >= @pif_building_organic_sanctuary_ai_value_5
+			type = produces
+		}
+	}
+}
+
+ai_resource_production = {
+	unity = @pif_building_organic_sanctuary_ai_unity_1
+	consumer_goods = @pif_building_organic_sanctuary_ai_consumer_goods_7
+	trigger = {
+		any_owned_pop_group = {
+			is_pop_category = bio_trophy_unemployment
+		}
+		planet_resource_compare = {
+			resource = consumer_goods
+			value >= @pif_building_organic_sanctuary_ai_value_5
+			type = produces
+		}
+	}
+}

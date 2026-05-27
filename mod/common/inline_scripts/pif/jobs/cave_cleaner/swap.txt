@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: cave_cleaner
+# Vanilla class: no_category
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = building_mineral_purification_plant
+		icon = miner
+	}
+}

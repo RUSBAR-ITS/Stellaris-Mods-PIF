@@ -1,0 +1,31 @@
+# PIF building category: JOBS
+# Vanilla building: holding_transcendental_retreat
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		planet.owner = {
+			is_gestalt = no
+		}
+	}
+	job_overlord_healthcare_add = @pif_holding_transcendental_retreat_jobs_job_overlord_healthcare_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet.owner = {
+			is_hive_empire = yes
+		}
+	}
+	job_overlord_spawning_drone_add = @pif_holding_transcendental_retreat_jobs_job_overlord_spawning_drone_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet.owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_overlord_replicator_add = @pif_holding_transcendental_retreat_jobs_job_overlord_replicator_add_3
+}

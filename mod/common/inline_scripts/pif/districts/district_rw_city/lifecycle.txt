@@ -1,0 +1,11 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_rw_city
+# Vanilla source: districts/04_ringworld_districts.txt
+
+conversion_ratio = @pif_district_rw_city_conversion_conversion_ratio
+
+convert_to = {
+	district_rw_nexus
+	district_rw_hive
+	district_mindlink
+}

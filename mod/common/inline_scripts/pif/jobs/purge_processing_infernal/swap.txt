@@ -1,0 +1,10 @@
+# PIF job category: SWAP
+# Vanilla job: purge_processing_infernal
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = purge_processing
+	}
+}

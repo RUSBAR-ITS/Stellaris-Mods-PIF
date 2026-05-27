@@ -1,0 +1,10 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_ancient_ward_1
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+can_demolish = no
+
+upgrades = {
+	building_ancient_ward_2
+}

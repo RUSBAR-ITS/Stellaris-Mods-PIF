@@ -1,0 +1,13 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_carceral_test_facility
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+base_cap_amount = @pif_building_carceral_test_facility_limits_base_cap_amount_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		has_valid_civic = civic_twisted_experimenters_corporate
+	}
+}

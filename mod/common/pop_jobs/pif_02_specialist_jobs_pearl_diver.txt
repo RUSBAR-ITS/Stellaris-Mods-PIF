@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/02_specialist_jobs.txt
+# Object type: pop_job
+# Job class: no_category
+
+pearl_diver = {
+	inline_script = "pif/jobs/pearl_diver/swap"
+	inline_script = "pif/jobs/pearl_diver/availability"
+	inline_script = "pif/jobs/pearl_diver/pop_config"
+	inline_script = "pif/jobs/pearl_diver/economy"
+	inline_script = "pif/jobs/pearl_diver/planet_state"
+	inline_script = "pif/jobs/pearl_diver/country_modifiers"
+	inline_script = "pif/jobs/pearl_diver/pop_modifiers"
+	inline_script = "pif/jobs/pearl_diver/economic_modifiers"
+	inline_script = "pif/jobs/pearl_diver/tpm"
+}

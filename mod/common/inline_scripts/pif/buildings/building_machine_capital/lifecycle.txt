@@ -1,0 +1,29 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_machine_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_demolish = no
+
+can_be_ruined = no
+
+can_be_disabled = no
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		is_machine_empire = no
+	}
+}
+
+convert_to = {
+	building_hive_capital
+	building_colony_shelter
+	building_ancient_control_center
+	building_ancient_palace
+	building_colony_shelter_wilderness
+}
+
+upgrades = {
+	building_machine_major_capital
+}

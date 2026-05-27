@@ -1,0 +1,10 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: xeno_zoo_animal_lithoid
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+contributes_to_diplo_weight = @pif_xeno_zoo_animal_lithoid_job_flags_contributes_to_diplo_weight_2
+
+weight = {
+	weight = @pif_xeno_zoo_animal_lithoid_job_weight_weight_1
+}

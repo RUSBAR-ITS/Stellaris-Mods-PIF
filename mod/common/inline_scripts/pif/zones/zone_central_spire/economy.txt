@@ -1,0 +1,5 @@
+# PIF zone category: ECONOMY
+# Vanilla zone: zone_central_spire
+# Vanilla source: zones/02_special_zones.txt
+
+

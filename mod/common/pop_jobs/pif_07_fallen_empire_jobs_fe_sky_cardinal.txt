@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/07_fallen_empire_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+fe_sky_cardinal = {
+	category = precursor
+	inline_script = "pif/jobs/fe_sky_cardinal/swap"
+	inline_script = "pif/jobs/fe_sky_cardinal/availability"
+	inline_script = "pif/jobs/fe_sky_cardinal/pop_config"
+	inline_script = "pif/jobs/fe_sky_cardinal/economy"
+	inline_script = "pif/jobs/fe_sky_cardinal/planet_state"
+	inline_script = "pif/jobs/fe_sky_cardinal/country_modifiers"
+	inline_script = "pif/jobs/fe_sky_cardinal/pop_modifiers"
+	inline_script = "pif/jobs/fe_sky_cardinal/economic_modifiers"
+	inline_script = "pif/jobs/fe_sky_cardinal/tpm"
+}

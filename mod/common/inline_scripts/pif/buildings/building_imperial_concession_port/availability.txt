@@ -1,0 +1,16 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_imperial_concession_port
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+planet_limit = @pif_building_imperial_concession_port_limits_planet_limit_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		OR = {
+			has_modifier = imperial_charter
+			has_civic = civic_galactic_sovereign_megacorp
+		}
+	}
+}

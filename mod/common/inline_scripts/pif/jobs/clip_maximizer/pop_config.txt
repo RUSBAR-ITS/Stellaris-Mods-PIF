@@ -1,0 +1,22 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: clip_maximizer
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+tags = {
+	consumer_goods
+}
+
+demotion = {
+	time = @pif_clip_maximizer_demotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = purge
+			AMOUNT = local_pop_amount
+		}
+	}
+}
+
+weight = {
+	weight = @pif_clip_maximizer_job_weight_weight_1
+}

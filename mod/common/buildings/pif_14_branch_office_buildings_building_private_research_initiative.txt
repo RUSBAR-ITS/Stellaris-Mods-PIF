@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_private_research_initiative = {
+	base_buildtime = @pif_building_private_research_initiative_construction_base_buildtime_1
+	owner_type = corporate
+	category = research
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_private_research_initiative/building_config"
+	inline_script = "pif/buildings/building_private_research_initiative/availability"
+	inline_script = "pif/buildings/building_private_research_initiative/economy"
+	inline_script = "pif/buildings/building_private_research_initiative/lifecycle"
+	inline_script = "pif/buildings/building_private_research_initiative/jobs"
+	inline_script = "pif/buildings/building_private_research_initiative/country_jobs"
+	inline_script = "pif/buildings/building_private_research_initiative/economic_modifiers"
+	inline_script = "pif/buildings/building_private_research_initiative/pop_modifiers"
+	inline_script = "pif/buildings/building_private_research_initiative/planet_state"
+	inline_script = "pif/buildings/building_private_research_initiative/tpm"
+	inline_script = "pif/buildings/building_private_research_initiative/ai"
+}

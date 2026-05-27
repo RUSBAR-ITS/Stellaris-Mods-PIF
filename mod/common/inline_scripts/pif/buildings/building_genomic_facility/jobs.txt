@@ -1,0 +1,26 @@
+# PIF building category: JOBS
+# Vanilla building: building_genomic_facility
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_healthcare_add = @pif_building_genomic_facility_jobs_job_healthcare_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	modifier = {
+		job_spawning_drone_add = @pif_building_genomic_facility_jobs_job_spawning_drone_add_2
+	}
+}

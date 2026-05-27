@@ -1,0 +1,72 @@
+# PIF job category: ECONOMY
+# Vanilla job: mining_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				NOR = {
+					has_deposit = d_space_ship_graveyard
+					is_planet_class = pc_shattered_ring_habitable
+				}
+			}
+		}
+		minerals = @pif_mining_drone_job_output_output_minerals_1
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				OR = {
+					has_deposit = d_space_ship_graveyard
+					is_planet_class = pc_shattered_ring_habitable
+				}
+			}
+		}
+		minerals = @pif_mining_drone_job_output_output_minerals_2
+		alloys = @pif_mining_drone_job_output_output_alloys_3
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		minerals = @pif_mining_drone_job_output_output_minerals_4
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				miner_is_thermoforger_trigger = yes
+			}
+		}
+		minerals = @pif_mining_drone_job_output_output_minerals_5
+		alloys = @pif_mining_drone_job_output_output_alloys_6
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				miner_is_thermoforger_trigger = yes
+			}
+		}
+		energy = @pif_mining_drone_job_upkeep_upkeep_energy_1
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_minerals
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		minerals = @pif_mining_drone_overlord_output_overlord_output_minerals_1
+	}
+}

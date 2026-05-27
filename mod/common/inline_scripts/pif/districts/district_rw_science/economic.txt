@@ -1,0 +1,15 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_rw_science
+# Vanilla source: districts/04_ringworld_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		minerals = @pif_district_rw_science_construction_build_cost_minerals
+		exotic_gases = @pif_district_rw_science_construction_build_cost_exotic_gases
+	}
+	upkeep = {
+		energy = @pif_district_rw_science_economy_district_upkeep_energy
+		exotic_gases = @pif_district_rw_science_economy_district_upkeep_exotic_gases
+	}
+}

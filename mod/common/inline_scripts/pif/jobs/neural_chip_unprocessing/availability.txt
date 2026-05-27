@@ -1,0 +1,24 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: neural_chip_unprocessing
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+is_capped_by_modifier = @pif_neural_chip_unprocessing_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	has_planet = yes
+	is_sapient = yes
+}
+
+possible = {
+	hidden_trigger = {
+		exists = owner
+	}
+	is_pop_category = chip_slave
+	planet = {
+		NOT = {
+			is_planet_class = pc_cosmogenesis_world
+		}
+	}
+}

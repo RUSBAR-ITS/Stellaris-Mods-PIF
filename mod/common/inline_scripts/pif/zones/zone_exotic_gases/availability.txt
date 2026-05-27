@@ -1,0 +1,19 @@
+# PIF zone category: AVAILABILITY
+# Vanilla zone: zone_exotic_gases
+# Vanilla source: zones/00_zones.txt
+
+potential = {
+	has_exotic_gases_deposit = yes
+}
+
+unlock = {
+	hidden_trigger = {
+		has_exotic_gases_deposit = yes
+		exists = owner
+	}
+	owner = {
+		has_technology = tech_mine_exotic_gases
+	}
+}
+
+show_in_tech = tech_mine_exotic_gases

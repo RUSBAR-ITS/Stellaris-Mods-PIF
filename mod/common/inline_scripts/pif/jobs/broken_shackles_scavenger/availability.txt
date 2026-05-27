@@ -1,0 +1,15 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: broken_shackles_scavenger
+# Vanilla class: worker
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+possible_pre_triggers = {
+	has_planet = yes
+	is_sapient = yes
+}
+
+possible = {
+	planet = {
+		has_deposit = d_crashed_slaver_ship
+	}
+}

@@ -1,0 +1,14 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: offworld_prospector
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	strategic_resource
+	sr_living_metal
+	volatile_motes
+}
+
+weight = {
+	weight = @pif_offworld_prospector_job_weight_weight_1
+}

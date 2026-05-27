@@ -1,0 +1,13 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: necro_apprentice
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_planet_pop_group_modifier_for_species = {
+	potential = {
+		NOT = {
+			has_trait = trait_necrophage
+		}
+	}
+	bonus_pop_growth = @pif_necro_apprentice_pop_modifiers_bonus_pop_growth_1
+}

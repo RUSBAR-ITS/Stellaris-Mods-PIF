@@ -1,0 +1,46 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_farming
+# Vanilla source: districts/02_rural_districts.txt
+
+potential = {
+	OR = {
+		uses_district_set = standard
+		uses_district_set = shattered_ring_world
+	}
+	NOT = {
+		AND = {
+			exists = owner
+			owner = {
+				is_ai = yes
+				country_uses_food = no
+			}
+		}
+	}
+	OR = {
+		NOT = {
+			exists = owner
+		}
+		AND = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = no
+			}
+		}
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = arcology_project_construction_fail_tt
+		NOT = {
+			has_planet_flag = arcology_project_construction
+		}
+	}
+}
+
+prerequisites = {
+	tech_industrial_farming
+}

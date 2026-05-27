@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: low_tech_farmer
+# Vanilla class: worker
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		food = @pif_low_tech_farmer_job_output_output_food_1
+	}
+}

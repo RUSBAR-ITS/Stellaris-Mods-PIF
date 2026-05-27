@@ -1,0 +1,26 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_galactic_memorial_2
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		has_modifier = slave_colony
+		owner = {
+			is_memorialist_empire = no
+		}
+	}
+}
+
+convert_to = {
+	building_heritage_site
+	building_corporate_site
+	building_simulation_2
+	building_sensorium_2
+	building_avatar_chamber_2
+}
+
+upgrades = {
+	building_galactic_memorial_3
+}

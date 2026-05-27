@@ -1,0 +1,17 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_knight_commandery
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+destroy_trigger = {
+	OR = {
+		NOT = {
+			exists = owner.overlord
+		}
+		owner.overlord = {
+			NOT = {
+				has_origin = origin_toxic_knights
+			}
+		}
+	}
+}

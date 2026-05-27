@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_virtual_entertainment_studios = {
+	base_buildtime = @pif_building_virtual_entertainment_studios_construction_base_buildtime_1
+	owner_type = corporate
+	category = manufacturing
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/building_config"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/availability"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/economy"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/lifecycle"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/jobs"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/country_jobs"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/economic_modifiers"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/pop_modifiers"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/planet_state"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/tpm"
+	inline_script = "pif/buildings/building_virtual_entertainment_studios/ai"
+}

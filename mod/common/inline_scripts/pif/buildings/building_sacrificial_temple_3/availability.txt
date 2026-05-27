@@ -1,0 +1,26 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_sacrificial_temple_3
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_sacrificial_temple_3_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_death_cult_empire = yes
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_consecration_fields"
+}
+
+show_tech_unlock_if = {
+	is_death_cult_empire = yes
+}

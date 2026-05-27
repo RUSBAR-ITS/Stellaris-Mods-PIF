@@ -1,0 +1,35 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_nanite_transmuter
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+potential = {
+	exists = owner
+	OWNER = {
+		OR = {
+			has_monthly_income = {
+				resource = nanites
+				value > 0
+			}
+			AND = {
+				is_ai = no
+				has_resource = {
+					type = nanites
+					amount > 0
+				}
+			}
+		}
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_nanite_transmutation"
+}

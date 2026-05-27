@@ -1,0 +1,44 @@
+# PIF job category: ECONOMY
+# Vanilla job: wrangler
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/14_grand_archive_jobs.txt
+
+resources = {
+	category = planet_primal_jobs
+	produces = {
+		society_research = @pif_wrangler_job_output_output_society_research_1
+		unity = @pif_wrangler_job_output_output_unity_2
+	}
+	produces = {
+		trigger = {
+			wrangler_is_trophy_hunter_trigger = yes
+			wrangler_is_beastfighter_trigger = no
+		}
+		food = @pif_wrangler_job_output_output_food_3
+		society_research = @pif_wrangler_job_output_output_society_research_4
+	}
+	produces = {
+		trigger = {
+			wrangler_is_animal_handler_trigger = yes
+			wrangler_is_beastfighter_trigger = no
+		}
+		society_research = @pif_wrangler_job_output_output_society_research_5
+		unity = @pif_wrangler_job_output_output_unity_6
+	}
+	produces = {
+		trigger = {
+			wrangler_is_beastfighter_trigger = yes
+		}
+		unity = @pif_wrangler_job_output_output_unity_2
+	}
+	upkeep = {
+		consumer_goods = @pif_wrangler_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		trigger = {
+			wrangler_is_beastfighter_trigger = yes
+		}
+		consumer_goods = @pif_wrangler_job_upkeep_upkeep_consumer_goods_2
+		alloys = @pif_wrangler_job_upkeep_upkeep_alloys_3
+	}
+}

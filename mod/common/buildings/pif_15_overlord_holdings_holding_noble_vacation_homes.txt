@@ -1,0 +1,25 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_noble_vacation_homes = {
+	base_buildtime = @pif_holding_noble_vacation_homes_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_palace
+	category = amenity
+	triggered_desc = {
+		text = holding_noble_vacation_homes_effect
+	}
+	inline_script = "pif/buildings/holding_noble_vacation_homes/building_config"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/availability"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/economy"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/lifecycle"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/jobs"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/country_jobs"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/economic_modifiers"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/pop_modifiers"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/planet_state"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/tpm"
+	inline_script = "pif/buildings/holding_noble_vacation_homes/ai"
+}

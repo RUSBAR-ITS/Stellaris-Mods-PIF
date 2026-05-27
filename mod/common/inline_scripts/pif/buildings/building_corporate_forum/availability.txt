@@ -1,0 +1,32 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_corporate_forum
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	NOT = {
+		has_modifier = slave_colony
+	}
+	owner = {
+		is_megacorp = yes
+		is_memorialist_empire = no
+		is_entropy_drinkers_empire = no
+	}
+}
+
+allow = {
+	has_major_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_hypercomms_forum"
+}
+
+show_tech_unlock_if = {
+	is_megacorp = yes
+	is_memorialist_empire = no
+	is_entropy_drinkers_empire = no
+}

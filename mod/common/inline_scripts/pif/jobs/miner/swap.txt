@@ -1,0 +1,55 @@
+# PIF job category: SWAP
+# Vanilla job: miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = miner
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = building_mineral_purification_plant
+	}
+	swap_type = {
+		trigger = {
+			miner_is_scrap_miner_trigger = yes
+		}
+		name = scrap_miner
+		desc = scrap_miner
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			miner_is_cave_cleaner_trigger = yes
+		}
+		name = cave_cleaner
+		desc = cave_cleaner
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			miner_is_turtle_miner_trigger = yes
+		}
+		name = turtle_miner
+		desc = turtle_miner
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			miner_is_crystal_miner_trigger = yes
+		}
+		icon = crystal_miner
+		name = crystal_miner
+		desc = crystal_miner
+		building_icon = building_crystal_mines
+		weight = 20
+	}
+	swap_type = {
+		trigger = {
+			miner_is_thermoforger_trigger = yes
+		}
+		icon = miner
+		name = melt_extractor
+		desc = melt_extractor
+		weight = 35
+	}
+}

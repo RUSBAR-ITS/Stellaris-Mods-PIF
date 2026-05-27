@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/10_paragon_fake_jobs.txt
+# Object type: pop_job
+# Job class: no_category
+
+principal_pilot = {
+	inline_script = "pif/jobs/principal_pilot/swap"
+	inline_script = "pif/jobs/principal_pilot/availability"
+	inline_script = "pif/jobs/principal_pilot/pop_config"
+	inline_script = "pif/jobs/principal_pilot/economy"
+	inline_script = "pif/jobs/principal_pilot/planet_state"
+	inline_script = "pif/jobs/principal_pilot/country_modifiers"
+	inline_script = "pif/jobs/principal_pilot/pop_modifiers"
+	inline_script = "pif/jobs/principal_pilot/economic_modifiers"
+	inline_script = "pif/jobs/principal_pilot/tpm"
+}

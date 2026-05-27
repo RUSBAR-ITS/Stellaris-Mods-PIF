@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_network_junction
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_machine_empire = no
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}
+
+convert_to = {
+	building_bureaucratic_2
+	building_holotemple
+	building_hive_cluster
+	building_commensal_clearing_3
+}

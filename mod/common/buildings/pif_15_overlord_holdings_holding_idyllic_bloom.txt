@@ -1,0 +1,40 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_idyllic_bloom = {
+	base_buildtime = @pif_holding_idyllic_bloom_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_gaiaseeders_4
+	category = government
+	triggered_desc = {
+		trigger = {
+			planet = {
+				has_planet_flag = anti_cheese_idyllic_bloom_flag
+			}
+		}
+		text = holding_idyllic_bloom_effect_timer
+	}
+	triggered_desc = {
+		trigger = {
+			planet = {
+				NOT = {
+					has_planet_flag = anti_cheese_idyllic_bloom_flag
+				}
+			}
+		}
+		text = holding_idyllic_bloom_effect
+	}
+	inline_script = "pif/buildings/holding_idyllic_bloom/building_config"
+	inline_script = "pif/buildings/holding_idyllic_bloom/availability"
+	inline_script = "pif/buildings/holding_idyllic_bloom/economy"
+	inline_script = "pif/buildings/holding_idyllic_bloom/lifecycle"
+	inline_script = "pif/buildings/holding_idyllic_bloom/jobs"
+	inline_script = "pif/buildings/holding_idyllic_bloom/country_jobs"
+	inline_script = "pif/buildings/holding_idyllic_bloom/economic_modifiers"
+	inline_script = "pif/buildings/holding_idyllic_bloom/pop_modifiers"
+	inline_script = "pif/buildings/holding_idyllic_bloom/planet_state"
+	inline_script = "pif/buildings/holding_idyllic_bloom/tpm"
+	inline_script = "pif/buildings/holding_idyllic_bloom/ai"
+}

@@ -1,0 +1,20 @@
+# PIF building category: TPM
+# Vanilla building: building_military_contractors
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_naval_cap_add = @pif_building_military_contractors_tpm_country_naval_cap_add_1
+	mult = value:branch_office_value_for_buildings
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	army_starting_experience_add = @pif_building_military_contractors_planet_state_army_starting_experience_add_2
+	planet_soldiers_trade_produces_add = @pif_building_military_contractors_economic_modifiers_planet_soldiers_trade_produces_add_1
+}

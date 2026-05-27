@@ -1,0 +1,23 @@
+# PIF job category: SWAP
+# Vanilla job: dystopian_enforcer
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/01_ruler_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = BATTLE_THRALL_JOB_TRIGGER
+		building_icon = building_precinct_house
+		icon = enforcer
+	}
+	swap_type = {
+		trigger = {
+			enforcer_is_educator_trigger = yes
+		}
+		name = educator
+		desc = educator
+		icon = educator
+		building_icon = building_state_academy
+		condition_string = BATTLE_THRALL_JOB_TRIGGER
+		weight = 10
+	}
+}

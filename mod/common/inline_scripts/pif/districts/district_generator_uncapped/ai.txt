@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_generator_uncapped
+# Vanilla source: districts/02_rural_districts.txt
+
+

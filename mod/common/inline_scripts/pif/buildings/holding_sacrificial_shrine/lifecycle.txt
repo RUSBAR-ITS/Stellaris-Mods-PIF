@@ -1,0 +1,10 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: holding_sacrificial_shrine
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+destroy_trigger = {
+	owner = {
+		is_machine_empire = yes
+	}
+}

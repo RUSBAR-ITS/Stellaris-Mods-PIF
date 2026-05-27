@@ -1,0 +1,14 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_pinniped_sanctuary
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	pop_happiness = @pif_building_pinniped_sanctuary_pop_modifiers_pop_happiness_1
+}

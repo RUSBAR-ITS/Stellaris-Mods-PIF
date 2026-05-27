@@ -1,0 +1,50 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: odd_factory_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_odd_factory_worker_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|odd_factory_worker|RESOURCE|alloys|
+	modifier = {
+		factor = @pif_odd_factory_worker_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_odd_factory_worker_job_weight_factor_3
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_odd_factory_worker_job_weight_factor_4
+		OR = {
+			owner = {
+				has_country_flag = odd_factory_pause
+			}
+			planet = {
+				pop_amount < 200
+			}
+		}
+	}
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_odd_factory_worker_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_factory_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+ai_weight_coefficient = @pif_building_factory_1_ai_ai_weight_coefficient_1

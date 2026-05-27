@@ -1,0 +1,12 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_fe_lab_2
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+building_sets = {
+	fallen_empire
+	research
+	physics
+	society
+	engineering
+}

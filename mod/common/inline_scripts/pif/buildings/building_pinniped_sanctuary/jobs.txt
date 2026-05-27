@@ -1,0 +1,25 @@
+# PIF building category: JOBS
+# Vanilla building: building_pinniped_sanctuary
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_biologist_add = @pif_building_pinniped_sanctuary_jobs_job_biologist_add_1
+	job_entertainer_add = @pif_building_pinniped_sanctuary_jobs_job_entertainer_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_calculator_biologist_add = @pif_building_pinniped_sanctuary_jobs_job_calculator_biologist_add_3
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/13_machine_age_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+cyberdome_duelist = {
+	category = specialist
+	inline_script = "pif/jobs/cyberdome_duelist/swap"
+	inline_script = "pif/jobs/cyberdome_duelist/availability"
+	inline_script = "pif/jobs/cyberdome_duelist/pop_config"
+	inline_script = "pif/jobs/cyberdome_duelist/economy"
+	inline_script = "pif/jobs/cyberdome_duelist/planet_state"
+	inline_script = "pif/jobs/cyberdome_duelist/country_modifiers"
+	inline_script = "pif/jobs/cyberdome_duelist/pop_modifiers"
+	inline_script = "pif/jobs/cyberdome_duelist/economic_modifiers"
+	inline_script = "pif/jobs/cyberdome_duelist/tpm"
+}

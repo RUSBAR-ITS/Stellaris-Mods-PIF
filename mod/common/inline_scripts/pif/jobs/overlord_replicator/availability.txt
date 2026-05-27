@@ -1,0 +1,18 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: overlord_replicator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_enslaved = no
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_drone_job
+
+possible = {
+	can_think = yes
+}

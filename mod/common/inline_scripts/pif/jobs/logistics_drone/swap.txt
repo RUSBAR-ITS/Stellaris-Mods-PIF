@@ -1,0 +1,33 @@
+# PIF job category: SWAP
+# Vanilla job: logistics_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_maintenance_depot
+		icon = low_tech_bureaucrat
+	}
+	swap_type = {
+		trigger = {
+			trader_is_subterranean = yes
+		}
+		name = underground_contact_drone
+		desc = underground_contact_drone
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = spindlesymbiont
+		desc = spindlesymbiont
+		icon = spindlesymbiont
+		building_icon = tendril_cradle_building_3
+		weight = 10
+	}
+}

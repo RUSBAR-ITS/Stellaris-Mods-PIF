@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+technician = {
+	category = worker
+	inline_script = "pif/jobs/technician/swap"
+	inline_script = "pif/jobs/technician/availability"
+	inline_script = "pif/jobs/technician/pop_config"
+	inline_script = "pif/jobs/technician/economy"
+	inline_script = "pif/jobs/technician/planet_state"
+	inline_script = "pif/jobs/technician/country_modifiers"
+	inline_script = "pif/jobs/technician/pop_modifiers"
+	inline_script = "pif/jobs/technician/economic_modifiers"
+	inline_script = "pif/jobs/technician/tpm"
+}

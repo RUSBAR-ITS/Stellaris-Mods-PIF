@@ -1,0 +1,120 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_resort_entertainment
+# Vanilla source: zones/00_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+	mult = @pif_zone_resort_entertainment_jobs_services_district_modifier_scaling_multiplier_2
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+	mult = @pif_zone_resort_entertainment_jobs_services_district_modifier_scaling_multiplier_3
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_warrior_culture
+		}
+		planet_is_habitat_equivalent = no
+		planet_is_ecu_equivalent = no
+		planet_is_ring_world_equivalent = no
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_warrior_culture
+		}
+		planet_is_habitat_equivalent = yes
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_warrior_culture
+		}
+		planet_is_ecu_equivalent = yes
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+	mult = @pif_zone_resort_entertainment_jobs_services_district_modifier_scaling_multiplier_2
+}
+
+triggered_district_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_warrior_culture
+		}
+		planet_is_ring_world_equivalent = yes
+	}
+	job_entertainer_add = @pif_zone_resort_entertainment_jobs_services_job_amount_job_entertainer_add_1
+	mult = @pif_zone_resort_entertainment_jobs_services_district_modifier_scaling_multiplier_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	zone_building_slots_add = @pif_zone_resort_entertainment_building_capacity_zone_building_slots_add_1
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_resort_entertainment_housing_planet_housing_add_1
+}

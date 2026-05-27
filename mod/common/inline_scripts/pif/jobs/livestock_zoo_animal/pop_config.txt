@@ -1,0 +1,24 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: livestock_zoo_animal
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+tags = {
+	amenities
+}
+
+weight = {
+	weight = @pif_livestock_zoo_animal_job_weight_weight_1
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_livestock_zoo_animal_job_weight_factor_2
+		exists = planet
+		planet = {
+			free_amenities < 500
+			num_assigned_jobs = {
+				job = livestock_zoo_animal
+				value = 0
+			}
+		}
+	}
+}

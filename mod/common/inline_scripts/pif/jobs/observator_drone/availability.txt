@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: observator_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+possible = {
+	always = no
+}

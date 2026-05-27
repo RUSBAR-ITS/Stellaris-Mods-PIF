@@ -1,0 +1,24 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_galactic_memorial_1
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_galactic_memorial_1_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	NOT = {
+		has_modifier = slave_colony
+	}
+	owner = {
+		is_memorialist_empire = yes
+	}
+}
+
+prerequisites = {
+	"tech_cultural_heritage"
+}
+
+show_tech_unlock_if = {
+	is_memorialist_empire = yes
+}

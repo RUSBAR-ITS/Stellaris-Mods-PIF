@@ -1,0 +1,18 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_generator_districts_1
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_wilderness_empire = yes
+		}
+		has_any_capped_planet_generator_district = no
+	}
+}
+
+upgrades = {
+	building_generator_districts_2
+}

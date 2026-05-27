@@ -1,0 +1,8 @@
+# PIF building category: AI
+# Vanilla building: building_hypercomms_forum
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+ai_resource_production = {
+	unity = @pif_building_hypercomms_forum_ai_unity_1
+}

@@ -1,0 +1,20 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: augmentor
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		is_cyborg_empire = yes
+	}
+	logistic_growth_mult = @pif_augmentor_pop_modifiers_logistic_growth_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			has_active_tradition = tr_cybernetics_metabolic_reprocessing
+		}
+	}
+	planet_pop_assembly_add = @pif_augmentor_pop_modifiers_planet_pop_assembly_add_2
+}

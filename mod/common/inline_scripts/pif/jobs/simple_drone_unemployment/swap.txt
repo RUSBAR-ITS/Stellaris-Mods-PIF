@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: simple_drone_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_gestalt_unemployment.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		icon = unemployment
+		building_icon = building_hive_capital
+	}
+}

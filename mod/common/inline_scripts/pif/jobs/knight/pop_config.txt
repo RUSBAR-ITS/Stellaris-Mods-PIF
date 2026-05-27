@@ -1,0 +1,35 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: knight
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	soldier
+	unity
+	research
+}
+
+weight = {
+	weight = @pif_knight_job_weight_weight_1
+	factor = @pif_knight_job_weight_factor_2
+	add = @pif_knight_job_weight_add_3
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_knight_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

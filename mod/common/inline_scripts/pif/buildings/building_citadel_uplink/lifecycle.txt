@@ -1,0 +1,30 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_citadel_uplink
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+can_be_ruined = no
+
+destroy_trigger = {
+	exists = owner
+	exists = solar_system
+	OR = {
+		owner = {
+			NOT = {
+				has_origin = origin_starlit_citadel
+			}
+		}
+		solar_system = {
+			count_ship_in_system = {
+				limit = {
+					is_space_citadel_ship_size = yes
+				}
+				count = 0
+			}
+		}
+	}
+}
+
+convert_to = {
+	building_fortress
+}

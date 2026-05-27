@@ -1,0 +1,25 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_energy_requisitorium = {
+	base_buildtime = @pif_holding_energy_requisitorium_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_energy_requisitorium
+	category = resource
+	triggered_desc = {
+		text = job_energy_requisitioned_effect_desc
+	}
+	inline_script = "pif/buildings/holding_energy_requisitorium/building_config"
+	inline_script = "pif/buildings/holding_energy_requisitorium/availability"
+	inline_script = "pif/buildings/holding_energy_requisitorium/economy"
+	inline_script = "pif/buildings/holding_energy_requisitorium/lifecycle"
+	inline_script = "pif/buildings/holding_energy_requisitorium/jobs"
+	inline_script = "pif/buildings/holding_energy_requisitorium/country_jobs"
+	inline_script = "pif/buildings/holding_energy_requisitorium/economic_modifiers"
+	inline_script = "pif/buildings/holding_energy_requisitorium/pop_modifiers"
+	inline_script = "pif/buildings/holding_energy_requisitorium/planet_state"
+	inline_script = "pif/buildings/holding_energy_requisitorium/tpm"
+	inline_script = "pif/buildings/holding_energy_requisitorium/ai"
+}

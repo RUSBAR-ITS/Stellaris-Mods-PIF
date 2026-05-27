@@ -1,0 +1,14 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: death_chronicler
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+promotion = {
+	time = @pif_death_chronicler_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,33 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_overlord_vigil_command
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+empire_limit = @pif_holding_overlord_vigil_command_limits_empire_limit_1
+
+potential = {
+	has_overlord_dlc = yes
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = is_capital
+		exists = planet
+		planet = {
+			is_capital = yes
+		}
+	}
+	custom_tooltip = {
+		fail_text = subject_is_bulwark
+		exists = planet.owner
+		planet.owner = {
+			is_specialist_subject_type = {
+				TYPE = bulwark
+			}
+		}
+	}
+}

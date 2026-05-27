@@ -1,0 +1,34 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_noble_estates
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+planet_limit = @pif_building_noble_estates_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_valid_civic = civic_aristocratic_elite
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+	if = {
+		limit = {
+			exists = orbital_defence
+		}
+		orbital_defence = {
+			exists = starbase
+			starbase = {
+				NOR = {
+					has_starbase_building = ring_noble_estates
+					is_starbase_building_building = ring_noble_estates
+				}
+			}
+		}
+	}
+}

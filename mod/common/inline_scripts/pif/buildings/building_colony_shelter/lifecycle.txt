@@ -1,0 +1,24 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_colony_shelter
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+can_demolish = no
+
+can_be_ruined = no
+
+can_be_disabled = no
+
+convert_to = {
+	building_hive_capital
+	building_deployment_post
+	building_resort_capital
+	building_slave_capital
+	building_ancient_control_center
+	building_ancient_palace
+	building_colony_shelter_wilderness
+}
+
+upgrades = {
+	building_capital
+}

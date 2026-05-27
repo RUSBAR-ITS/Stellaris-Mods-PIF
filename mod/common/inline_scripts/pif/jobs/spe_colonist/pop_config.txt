@@ -1,0 +1,36 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: spe_colonist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+exempt_from_ai_amenity_prioritization = @pif_spe_colonist_job_flags_exempt_from_ai_amenity_prioritization_1
+
+tags = {
+	amenities
+}
+
+weight = {
+	weight = @pif_spe_colonist_job_weight_weight_1
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	modifier = {
+		factor = @pif_spe_colonist_job_weight_factor_2
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_spe_colonist_job_weight_factor_3
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_indentured
+		}
+	}
+}
+
+promotion = {
+	time = @pif_spe_colonist_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

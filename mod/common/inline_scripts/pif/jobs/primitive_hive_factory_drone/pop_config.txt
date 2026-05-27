@@ -1,0 +1,21 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: primitive_hive_factory_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+tags = {}
+
+weight = {
+	weight = @pif_primitive_hive_factory_drone_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|primitive_hive_factory_drone|RESOURCE|alloys|
+}
+
+promotion = {
+	time = @pif_primitive_hive_factory_drone_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = simple_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

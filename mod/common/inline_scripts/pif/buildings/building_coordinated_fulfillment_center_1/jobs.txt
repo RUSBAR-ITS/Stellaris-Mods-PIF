@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_coordinated_fulfillment_center_1
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+# Empty PIF building category hook.

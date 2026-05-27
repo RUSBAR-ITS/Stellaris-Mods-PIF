@@ -1,0 +1,26 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: holding_idyllic_bloom
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+planet_limit = @pif_holding_idyllic_bloom_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner.overlord = {
+		is_country_type = default
+		is_idyllic_bloom_empire = yes
+	}
+	NOR = {
+		is_planet_class = pc_gaia
+		is_planet_class = pc_city
+		is_planet_class = pc_hive
+		is_planet_class = pc_machine
+		is_planet_class = pc_relic
+	}
+	is_artificial = no
+}
+
+allow = {
+	can_build_overlord_gaiaseeder = yes
+}

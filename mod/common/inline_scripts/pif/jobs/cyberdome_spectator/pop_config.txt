@@ -1,0 +1,32 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: cyberdome_spectator
+# Vanilla class: worker
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+tags = {
+	energy
+	trade
+}
+
+weight = {
+	weight = @pif_cyberdome_spectator_job_weight_weight_1
+}
+
+auto_trait_prio = {
+	trait_thrifty
+	trait_commercial_genius
+	trait_robot_trading_algorithms
+	trait_cyborg_trading_algorithms
+	trait_malleable_trade
+	trait_adaptive_trade
+}
+
+promotion = {
+	time = @pif_cyberdome_spectator_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

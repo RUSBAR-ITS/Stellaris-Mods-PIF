@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: mortal_initiate
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_mortal_initiate_job_output_output_unity_1
+		society_research = @pif_mortal_initiate_job_output_output_society_research_2
+	}
+}

@@ -1,0 +1,66 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/02_rural_districts.txt
+# Object class: real
+
+district_polytechnic = {
+	expansion_planner = no
+	base_buildtime = @pif_district_polytechnic_construction_build_time_days
+	overlay_icon = GFX_district_research
+	is_uncapped = {
+		always = no
+	}
+	show_on_uncolonized = {
+		uses_district_set = volcanic_world
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		text = job_polytechnic_mentor_effect
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = job_polytechnic_drone_effect
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+			}
+		}
+		text = thermotechnic_default
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		text = thermotechnic_hive
+	}
+	triggered_name = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		text = thermotechnic_machine
+	}
+	inline_script = "pif/districts/district_polytechnic/zone_slots"
+	inline_script = "pif/districts/district_polytechnic/availability"
+	inline_script = "pif/districts/district_polytechnic/economic"
+	inline_script = "pif/districts/district_polytechnic/tpm"
+	inline_script = "pif/districts/district_polytechnic/lifecycle"
+	inline_script = "pif/districts/district_polytechnic/ai"
+}

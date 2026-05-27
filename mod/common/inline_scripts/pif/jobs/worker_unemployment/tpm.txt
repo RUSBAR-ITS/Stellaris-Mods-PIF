@@ -1,0 +1,6 @@
+# PIF job category: TPM
+# Vanilla job: worker_unemployment
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/15_unemployment.txt
+
+# Empty PIF job category hook.

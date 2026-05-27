@@ -1,0 +1,14 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: holding_noble_vacation_homes
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.owner
+		planet.owner = {
+			is_gestalt = yes
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_holding_noble_vacation_homes_pop_modifiers_planet_amenities_no_happiness_add_1
+}

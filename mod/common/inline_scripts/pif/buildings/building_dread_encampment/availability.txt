@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_dread_encampment
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+planet_limit = @pif_building_dread_encampment_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_valid_civic = civic_reanimated_armies
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}

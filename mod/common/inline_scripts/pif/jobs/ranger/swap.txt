@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: ranger
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = holding_park_ranger_lodge
+	}
+}

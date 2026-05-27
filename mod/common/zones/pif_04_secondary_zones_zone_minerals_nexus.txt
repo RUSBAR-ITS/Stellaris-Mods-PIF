@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/04_secondary_zones.txt
+# Object type: zone
+
+zone_minerals_nexus = {
+	icon = GFX_district_specialization_minerals
+	base_buildtime = @pif_zone_minerals_nexus_construction_zone_build_time_1
+	swap_type = district_nexus_mining
+	swap_type_weight = 5
+	inline_script = "pif/zones/zone_minerals_nexus/availability"
+	inline_script = "pif/zones/zone_minerals_nexus/zone_config"
+	inline_script = "pif/zones/zone_minerals_nexus/economy"
+	inline_script = "pif/zones/zone_minerals_nexus/tpm"
+	inline_script = "pif/zones/zone_minerals_nexus/lifecycle"
+	inline_script = "pif/zones/zone_minerals_nexus/ai"
+}

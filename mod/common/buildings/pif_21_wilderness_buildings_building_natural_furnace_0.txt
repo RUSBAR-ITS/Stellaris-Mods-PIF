@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_natural_furnace_0 = {
+	icon = "natural_furnace_1"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_natural_furnace_0_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_natural_furnace_0/building_config"
+	inline_script = "pif/buildings/building_natural_furnace_0/availability"
+	inline_script = "pif/buildings/building_natural_furnace_0/economy"
+	inline_script = "pif/buildings/building_natural_furnace_0/lifecycle"
+	inline_script = "pif/buildings/building_natural_furnace_0/jobs"
+	inline_script = "pif/buildings/building_natural_furnace_0/country_jobs"
+	inline_script = "pif/buildings/building_natural_furnace_0/economic_modifiers"
+	inline_script = "pif/buildings/building_natural_furnace_0/pop_modifiers"
+	inline_script = "pif/buildings/building_natural_furnace_0/planet_state"
+	inline_script = "pif/buildings/building_natural_furnace_0/tpm"
+	inline_script = "pif/buildings/building_natural_furnace_0/ai"
+}

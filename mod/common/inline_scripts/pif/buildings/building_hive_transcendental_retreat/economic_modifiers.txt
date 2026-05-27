@@ -1,0 +1,11 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_hive_transcendental_retreat
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_produces_mult = @pif_building_hive_transcendental_retreat_economic_modifiers_planet_jobs_produces_mult_1
+}

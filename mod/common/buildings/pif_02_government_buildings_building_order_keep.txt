@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_order_keep = {
+	base_buildtime = @pif_building_order_keep_construction_base_buildtime_1
+	category = government
+	triggered_desc = {
+		text = building_order_keep_effect
+	}
+	inline_script = "pif/buildings/building_order_keep/building_config"
+	inline_script = "pif/buildings/building_order_keep/availability"
+	inline_script = "pif/buildings/building_order_keep/economy"
+	inline_script = "pif/buildings/building_order_keep/lifecycle"
+	inline_script = "pif/buildings/building_order_keep/jobs"
+	inline_script = "pif/buildings/building_order_keep/country_jobs"
+	inline_script = "pif/buildings/building_order_keep/economic_modifiers"
+	inline_script = "pif/buildings/building_order_keep/pop_modifiers"
+	inline_script = "pif/buildings/building_order_keep/planet_state"
+	inline_script = "pif/buildings/building_order_keep/tpm"
+	inline_script = "pif/buildings/building_order_keep/ai"
+}

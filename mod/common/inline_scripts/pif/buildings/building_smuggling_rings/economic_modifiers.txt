@@ -1,0 +1,29 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_smuggling_rings
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_traders_trade_produces_add = @pif_building_smuggling_rings_economic_modifiers_planet_traders_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_trading_posts
+		}
+	}
+	planet_traders_trade_produces_add = @pif_building_smuggling_rings_economic_modifiers_planet_traders_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_franchising
+		}
+	}
+	planet_traders_trade_produces_add = @pif_building_smuggling_rings_economic_modifiers_planet_traders_trade_produces_add_1
+}

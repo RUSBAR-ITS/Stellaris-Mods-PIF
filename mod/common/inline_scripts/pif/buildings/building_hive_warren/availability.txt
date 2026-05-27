@@ -1,0 +1,20 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hive_warren
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+potential = {
+	exists = owner
+	owner = {
+		is_hive_empire = yes
+		is_wilderness_empire = no
+	}
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		free_amenities < @pif_building_hive_warren_availability_thresholds_free_amenities_1
+		days_passed = 0
+	}
+}

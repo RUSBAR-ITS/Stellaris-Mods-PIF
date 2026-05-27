@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/14_grand_archive_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+drone_wrangler = {
+	category = complex_drone
+	inline_script = "pif/jobs/drone_wrangler/swap"
+	inline_script = "pif/jobs/drone_wrangler/availability"
+	inline_script = "pif/jobs/drone_wrangler/pop_config"
+	inline_script = "pif/jobs/drone_wrangler/economy"
+	inline_script = "pif/jobs/drone_wrangler/planet_state"
+	inline_script = "pif/jobs/drone_wrangler/country_modifiers"
+	inline_script = "pif/jobs/drone_wrangler/pop_modifiers"
+	inline_script = "pif/jobs/drone_wrangler/economic_modifiers"
+	inline_script = "pif/jobs/drone_wrangler/tpm"
+}

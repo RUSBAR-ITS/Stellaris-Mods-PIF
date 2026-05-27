@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+assimilation = {
+	category = assimilation
+	inline_script = "pif/jobs/assimilation/swap"
+	inline_script = "pif/jobs/assimilation/availability"
+	inline_script = "pif/jobs/assimilation/pop_config"
+	inline_script = "pif/jobs/assimilation/economy"
+	inline_script = "pif/jobs/assimilation/planet_state"
+	inline_script = "pif/jobs/assimilation/country_modifiers"
+	inline_script = "pif/jobs/assimilation/pop_modifiers"
+	inline_script = "pif/jobs/assimilation/economic_modifiers"
+	inline_script = "pif/jobs/assimilation/tpm"
+}

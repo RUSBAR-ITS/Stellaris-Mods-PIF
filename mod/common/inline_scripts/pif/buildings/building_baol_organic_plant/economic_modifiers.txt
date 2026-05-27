@@ -1,0 +1,49 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_baol_organic_plant
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+	}
+	planet_farmers_food_produces_add = @pif_building_baol_organic_plant_economic_modifiers_planet_farmers_food_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			country_uses_consumer_goods = yes
+		}
+	}
+	planet_farmers_consumer_goods_produces_add = @pif_building_baol_organic_plant_economic_modifiers_planet_farmers_consumer_goods_produces_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			country_uses_consumer_goods = no
+		}
+	}
+	planet_farmers_energy_produces_add = @pif_building_baol_organic_plant_economic_modifiers_planet_farmers_energy_produces_add_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			country_uses_consumer_goods = yes
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	planet_farmers_consumer_goods_produces_add = @pif_building_baol_organic_plant_economic_modifiers_planet_farmers_consumer_goods_produces_add_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		owner = {
+			country_uses_consumer_goods = no
+			has_ascension_perk = ap_archaeoengineers
+		}
+	}
+	planet_farmers_energy_produces_add = @pif_building_baol_organic_plant_economic_modifiers_planet_farmers_energy_produces_add_3
+}

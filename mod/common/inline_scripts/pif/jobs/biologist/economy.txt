@@ -1,0 +1,38 @@
+# PIF job category: ECONOMY
+# Vanilla job: biologist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_biologists
+	produces = {
+		society_research = @pif_biologist_job_output_output_society_research_1
+	}
+	produces = {
+		trigger = {
+			biologist_is_zookeeper_trigger = yes
+		}
+		society_research = @pif_biologist_job_output_output_society_research_2
+	}
+	upkeep = {
+		trigger = {
+			biologist_is_zookeeper_trigger = yes
+		}
+		consumer_goods = @pif_biologist_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		consumer_goods = @pif_biologist_job_upkeep_upkeep_consumer_goods_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_research
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_science_ministry
+			}
+		}
+		society_research = @pif_biologist_overlord_output_overlord_output_society_research_1
+	}
+}

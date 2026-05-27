@@ -1,0 +1,15 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_photosynthesis_fields
+# Vanilla source: districts/05_wilderness_districts.txt
+
+potential = {
+	uses_district_set = standard
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+}
+
+prerequisites = {
+	tech_power_plant_1
+}

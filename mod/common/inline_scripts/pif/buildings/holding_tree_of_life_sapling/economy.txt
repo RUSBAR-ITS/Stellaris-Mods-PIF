@@ -1,0 +1,11 @@
+# PIF building category: ECONOMY
+# Vanilla building: holding_tree_of_life_sapling
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+resources = {
+	category = planet_holdings
+	cost = {
+		food = @pif_holding_tree_of_life_sapling_cost_cost_food_1
+	}
+}

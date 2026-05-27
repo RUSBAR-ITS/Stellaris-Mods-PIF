@@ -1,0 +1,15 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_private_shipyards
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	branch_office_owner = {
+		is_illegal_criminal = yes
+	}
+}
+
+convert_to = {
+	building_wrecking_yards
+}

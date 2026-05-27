@@ -1,0 +1,19 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: test_subject
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+contributes_to_diplo_weight = @pif_test_subject_job_flags_contributes_to_diplo_weight_2
+
+can_be_automated = @pif_test_subject_job_flags_can_be_automated_3
+
+tags = {
+	research
+	test_subject
+}
+
+weight = {
+	weight = @pif_test_subject_job_weight_weight_1
+}
+
+can_set_priority = @pif_test_subject_job_flags_can_set_priority_4

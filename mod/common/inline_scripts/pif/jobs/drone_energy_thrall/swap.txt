@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: drone_energy_thrall
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_lifecrypt_1
+		icon = energy_thrall
+	}
+}

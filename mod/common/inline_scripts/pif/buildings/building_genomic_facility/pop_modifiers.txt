@@ -1,0 +1,85 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_genomic_facility
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = purity_unlock_level_1
+		}
+	}
+	logistic_growth_mult = @pif_building_genomic_facility_pop_modifiers_logistic_growth_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = mutation_unlock_level_1
+		}
+	}
+	pop_environment_tolerance = @pif_building_genomic_facility_pop_modifiers_pop_environment_tolerance_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cloning_unlock_level_1
+		}
+	}
+	fake_pop_growth_mod = @pif_building_genomic_facility_pop_modifiers_fake_pop_growth_mod_3
+}
+
+triggered_planet_pop_group_modifier_for_all = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cloning_unlock_level_1
+		}
+	}
+	bonus_pop_growth = @pif_building_genomic_facility_pop_modifiers_bonus_pop_growth_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cloning_unlock_level_2
+			is_gestalt = yes
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_building_genomic_facility_pop_modifiers_planet_amenities_no_happiness_add_5
+}
+
+triggered_planet_pop_group_modifier_for_all = {
+	potential = {
+		exists = owner
+		owner = {
+			has_cloning_genomic_growth_tradition = yes
+		}
+	}
+	bonus_pop_growth = @pif_building_genomic_facility_pop_modifiers_bonus_pop_growth_4
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_cloning_genomic_growth_tradition = yes
+		}
+	}
+	fake_pop_growth_mod = @pif_building_genomic_facility_pop_modifiers_fake_pop_growth_mod_3
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_purity_heightened_attributes_tradition = yes
+		}
+	}
+	organic_pop_bonus_workforce_mult = @pif_building_genomic_facility_pop_modifiers_organic_pop_bonus_workforce_mult_6
+}

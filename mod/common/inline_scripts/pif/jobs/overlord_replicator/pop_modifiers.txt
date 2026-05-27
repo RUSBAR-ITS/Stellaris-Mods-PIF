@@ -1,0 +1,11 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: overlord_replicator
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_pop_assembly_add = @pif_overlord_replicator_pop_modifiers_planet_pop_assembly_add_1
+}

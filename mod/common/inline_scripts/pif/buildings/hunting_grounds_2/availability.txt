@@ -1,0 +1,30 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: hunting_grounds_2
+# Vanilla class: special
+# Vanilla source: buildings/21_grand_archive_buildings.txt
+
+can_build = no
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+show_tech_unlock_if = {
+	OR = {
+		owner = {
+			OR = {
+				has_trophy_hunter_job = yes
+				has_hunter_drone_job = yes
+			}
+		}
+		any_owned_planet = {
+			has_zone = {
+				zone = zone_resort_hunting_ground
+			}
+		}
+	}
+}
+
+prerequisites = {
+	"tech_heritage_site"
+}

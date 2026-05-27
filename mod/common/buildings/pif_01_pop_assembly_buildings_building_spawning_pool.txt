@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_spawning_pool = {
+	base_buildtime = @pif_building_spawning_pool_construction_base_buildtime_1
+	category = pop_assembly
+	triggered_desc = {
+		text = spawning_pool_tooltip
+	}
+	inline_script = "pif/buildings/building_spawning_pool/building_config"
+	inline_script = "pif/buildings/building_spawning_pool/availability"
+	inline_script = "pif/buildings/building_spawning_pool/economy"
+	inline_script = "pif/buildings/building_spawning_pool/lifecycle"
+	inline_script = "pif/buildings/building_spawning_pool/jobs"
+	inline_script = "pif/buildings/building_spawning_pool/country_jobs"
+	inline_script = "pif/buildings/building_spawning_pool/economic_modifiers"
+	inline_script = "pif/buildings/building_spawning_pool/pop_modifiers"
+	inline_script = "pif/buildings/building_spawning_pool/planet_state"
+	inline_script = "pif/buildings/building_spawning_pool/tpm"
+	inline_script = "pif/buildings/building_spawning_pool/ai"
+}

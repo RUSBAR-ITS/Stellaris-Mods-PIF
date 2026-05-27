@@ -1,0 +1,18 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_bio_trophy_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_bio_trophies
+	produces = {
+		unity = @pif_overlord_bio_trophy_drone_job_output_output_unity_1
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_bio_trophies
+	produces = {
+		unity = @pif_overlord_bio_trophy_drone_overlord_output_overlord_output_unity_1
+	}
+}

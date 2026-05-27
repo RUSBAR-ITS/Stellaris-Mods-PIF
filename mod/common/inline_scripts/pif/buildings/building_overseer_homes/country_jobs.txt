@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_overseer_homes
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+# Empty PIF building category hook.

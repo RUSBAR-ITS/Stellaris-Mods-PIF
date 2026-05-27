@@ -1,0 +1,44 @@
+# PIF building category: JOBS
+# Vanilla building: building_hab_fe_capital
+# Vanilla class: capital
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = no
+		}
+		owner = {
+			is_fallen_empire_machine = no
+		}
+	}
+	modifier = {
+		job_fe_overseer_add = @pif_building_hab_fe_capital_jobs_job_fe_overseer_add_1
+		job_fe_protector_add = @pif_building_hab_fe_capital_jobs_job_fe_protector_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_spiritualist = yes
+		}
+	}
+	modifier = {
+		job_fe_sky_cardinal_add = @pif_building_hab_fe_capital_jobs_job_fe_sky_cardinal_add_3
+		job_fe_protector_add = @pif_building_hab_fe_capital_jobs_job_fe_protector_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_fallen_empire_machine = yes
+		}
+	}
+	job_fe_guardian_bot_add = @pif_building_hab_fe_capital_jobs_job_fe_guardian_bot_add_4
+	job_fe_maintenance_bot_add = @pif_building_hab_fe_capital_jobs_job_fe_maintenance_bot_add_5
+}

@@ -1,0 +1,23 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_corporate_embassy
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+resources = {
+	category = planet_branch_office_buildings
+	cost = {
+		influence = @pif_building_corporate_embassy_cost_cost_influence_1
+		minerals = @pif_building_corporate_embassy_cost_cost_minerals_2
+	}
+	cost = {
+		trigger = {
+			owner = {
+				has_authority = auth_corporate
+			}
+		}
+		influence = @pif_building_corporate_embassy_cost_cost_influence_1
+	}
+	upkeep = {
+		energy = @pif_building_corporate_embassy_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_resource_silo
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+# Empty PIF building category hook.

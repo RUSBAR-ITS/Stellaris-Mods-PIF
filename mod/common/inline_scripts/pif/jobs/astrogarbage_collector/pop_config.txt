@@ -1,0 +1,66 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: astrogarbage_collector
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	alloys
+}
+
+weight = {
+	weight = @pif_astrogarbage_collector_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|astrogarbage_collector|RESOURCE|alloys|
+	modifier = {
+		factor = @pif_astrogarbage_collector_job_weight_factor_2
+		is_enslaved = yes
+		can_take_servant_job = no
+		NOT = {
+			has_slavery_type = {
+				type = slavery_indentured
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_astrogarbage_collector_job_weight_factor_3
+		OR = {
+			is_non_sapient_robot = yes
+			is_shackled_robot = yes
+		}
+		can_take_servant_job = no
+		owner = {
+			has_technology = tech_droid_workers
+		}
+	}
+	modifier = {
+		factor = @pif_astrogarbage_collector_job_weight_factor_4
+		OR = {
+			is_non_sapient_robot = yes
+			is_shackled_robot = yes
+		}
+		can_take_servant_job = no
+		owner = {
+			NOT = {
+				has_technology = tech_droid_workers
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_astrogarbage_collector_job_weight_factor_5
+		can_take_servant_job = yes
+	}
+}
+
+auto_trait_prio = {
+	trait_malleable_forge
+	trait_adaptive_forge
+}
+
+promotion = {
+	time = @pif_astrogarbage_collector_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

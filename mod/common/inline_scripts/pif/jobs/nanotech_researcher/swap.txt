@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: nanotech_researcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_nanolab_1
+	}
+}

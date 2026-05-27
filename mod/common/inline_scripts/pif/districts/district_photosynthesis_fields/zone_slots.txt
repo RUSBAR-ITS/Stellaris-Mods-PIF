@@ -1,0 +1,7 @@
+# PIF category: ZONE_SLOTS
+# Vanilla district: district_photosynthesis_fields
+# Vanilla source: districts/05_wilderness_districts.txt
+
+zone_slots = {
+	slot_energy
+}

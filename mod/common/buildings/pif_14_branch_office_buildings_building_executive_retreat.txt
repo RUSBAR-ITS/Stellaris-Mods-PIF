@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_executive_retreat = {
+	base_buildtime = @pif_building_executive_retreat_construction_base_buildtime_1
+	owner_type = corporate
+	category = amenity
+	inline_script = "pif/buildings/building_executive_retreat/building_config"
+	inline_script = "pif/buildings/building_executive_retreat/availability"
+	inline_script = "pif/buildings/building_executive_retreat/economy"
+	inline_script = "pif/buildings/building_executive_retreat/lifecycle"
+	inline_script = "pif/buildings/building_executive_retreat/jobs"
+	inline_script = "pif/buildings/building_executive_retreat/country_jobs"
+	inline_script = "pif/buildings/building_executive_retreat/economic_modifiers"
+	inline_script = "pif/buildings/building_executive_retreat/pop_modifiers"
+	inline_script = "pif/buildings/building_executive_retreat/planet_state"
+	inline_script = "pif/buildings/building_executive_retreat/tpm"
+	inline_script = "pif/buildings/building_executive_retreat/ai"
+}

@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_massive_growth_3 = {
+	icon = "massive_growth_3"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_massive_growth_3_construction_base_buildtime_1
+	category = resource
+	inline_script = "pif/buildings/building_massive_growth_3/building_config"
+	inline_script = "pif/buildings/building_massive_growth_3/availability"
+	inline_script = "pif/buildings/building_massive_growth_3/economy"
+	inline_script = "pif/buildings/building_massive_growth_3/lifecycle"
+	inline_script = "pif/buildings/building_massive_growth_3/jobs"
+	inline_script = "pif/buildings/building_massive_growth_3/country_jobs"
+	inline_script = "pif/buildings/building_massive_growth_3/economic_modifiers"
+	inline_script = "pif/buildings/building_massive_growth_3/pop_modifiers"
+	inline_script = "pif/buildings/building_massive_growth_3/planet_state"
+	inline_script = "pif/buildings/building_massive_growth_3/tpm"
+	inline_script = "pif/buildings/building_massive_growth_3/ai"
+}

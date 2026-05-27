@@ -1,0 +1,14 @@
+# PIF building category: TPM
+# Vanilla building: building_lifecrypt_corporate_3
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_jobs_unity_produces_mult = @pif_building_lifecrypt_corporate_3_economic_modifiers_planet_jobs_unity_produces_mult_2
+	planet_civilians_unity_produces_add = @pif_building_lifecrypt_corporate_3_economic_modifiers_planet_civilians_unity_produces_add_3
+	planet_civilians_consumer_goods_upkeep_add = @pif_building_lifecrypt_corporate_3_economic_modifiers_planet_civilians_consumer_goods_upkeep_add_4
+	job_energy_thrall_add = @pif_building_lifecrypt_corporate_3_jobs_job_energy_thrall_add_1
+}

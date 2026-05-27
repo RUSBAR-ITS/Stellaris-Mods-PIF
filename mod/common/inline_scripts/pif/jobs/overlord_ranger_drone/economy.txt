@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_ranger_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+overlord_resources = {
+	category = planet_overlord_rangers
+	produces = {
+		unity = @pif_overlord_ranger_drone_overlord_output_overlord_output_unity_1
+	}
+}

@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: pre_sapient_nascent
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = pre_sapient
+		building_icon = building_xeno_zoo
+	}
+}

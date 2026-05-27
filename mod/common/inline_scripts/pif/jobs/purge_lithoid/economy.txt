@@ -1,0 +1,26 @@
+# PIF job category: ECONOMY
+# Vanilla job: purge_lithoid
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_jobs
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_fanatic_purifiers
+			}
+		}
+		unity = @pif_purge_lithoid_job_output_output_unity_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_hive_devouring_swarm
+			}
+		}
+		society_research = @pif_purge_lithoid_job_output_output_society_research_2
+	}
+}

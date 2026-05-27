@@ -1,0 +1,6 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: low_tech_warrior
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+# Empty PIF job category hook.

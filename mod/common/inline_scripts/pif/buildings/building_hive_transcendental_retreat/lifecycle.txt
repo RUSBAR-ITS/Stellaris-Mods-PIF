@@ -1,0 +1,17 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_hive_transcendental_retreat
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			NOT = {
+				has_valid_civic = civic_hive_natural_design
+			}
+		}
+		has_modifier = slave_colony
+		has_modifier = resort_colony
+	}
+}

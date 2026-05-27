@@ -1,0 +1,26 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: bath_attendant_machine
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+	}
+	pop_cat_complex_drone_bonus_workforce_mult = @pif_bath_attendant_machine_pop_modifiers_pop_cat_complex_drone_bonus_workforce_mult_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+	pop_bio_trophy_bonus_workforce_mult = @pif_bath_attendant_machine_pop_modifiers_pop_bio_trophy_bonus_workforce_mult_2
+}

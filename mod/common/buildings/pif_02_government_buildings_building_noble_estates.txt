@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/02_government_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_noble_estates = {
+	base_buildtime = @pif_building_noble_estates_construction_base_buildtime_1
+	icon = building_palace
+	category = government
+	inline_script = "pif/buildings/building_noble_estates/building_config"
+	inline_script = "pif/buildings/building_noble_estates/availability"
+	inline_script = "pif/buildings/building_noble_estates/economy"
+	inline_script = "pif/buildings/building_noble_estates/lifecycle"
+	inline_script = "pif/buildings/building_noble_estates/jobs"
+	inline_script = "pif/buildings/building_noble_estates/country_jobs"
+	inline_script = "pif/buildings/building_noble_estates/economic_modifiers"
+	inline_script = "pif/buildings/building_noble_estates/pop_modifiers"
+	inline_script = "pif/buildings/building_noble_estates/planet_state"
+	inline_script = "pif/buildings/building_noble_estates/tpm"
+	inline_script = "pif/buildings/building_noble_estates/ai"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+livestock_zoo_animal = {
+	category = pre_sapients
+	inline_script = "pif/jobs/livestock_zoo_animal/swap"
+	inline_script = "pif/jobs/livestock_zoo_animal/availability"
+	inline_script = "pif/jobs/livestock_zoo_animal/pop_config"
+	inline_script = "pif/jobs/livestock_zoo_animal/economy"
+	inline_script = "pif/jobs/livestock_zoo_animal/planet_state"
+	inline_script = "pif/jobs/livestock_zoo_animal/country_modifiers"
+	inline_script = "pif/jobs/livestock_zoo_animal/pop_modifiers"
+	inline_script = "pif/jobs/livestock_zoo_animal/economic_modifiers"
+	inline_script = "pif/jobs/livestock_zoo_animal/tpm"
+}

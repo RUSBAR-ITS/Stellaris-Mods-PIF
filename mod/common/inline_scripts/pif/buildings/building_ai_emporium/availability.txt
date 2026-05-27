@@ -1,0 +1,39 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_ai_emporium
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+planet_limit = @pif_building_ai_emporium_limits_planet_limit_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		is_synth_corporate = yes
+		has_country_flag = synth_physical
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = building_ai_emporium_fail_tt
+		planet.owner = {
+			NOT = {
+				any_owned_planet = {
+					has_branch_office = yes
+					has_holding = {
+						holding = building_ai_emporium
+						owner = root.branch_office_owner
+					}
+				}
+			}
+		}
+	}
+	custom_tooltip = {
+		fail_text = building_ai_emporium_outlawed_robots_tt
+		planet.owner = {
+			NOT = {
+				has_policy_flag = robots_outlawed
+			}
+		}
+	}
+}

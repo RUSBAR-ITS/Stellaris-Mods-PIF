@@ -1,0 +1,18 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: disconnected_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+is_capped_by_modifier = @pif_disconnected_drone_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible = {
+	has_disconnected_drone_citizenship_type = yes
+	is_livestock = no
+}

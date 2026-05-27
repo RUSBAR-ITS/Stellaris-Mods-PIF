@@ -1,0 +1,20 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_bio_furnace
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_bio_furnace_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_bio_furnace_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		food = @pif_building_bio_furnace_upkeep_upkeep_food_2
+	}
+	produces = {
+		alloys = @pif_building_bio_furnace_economic_modifiers_produces_alloys_1
+	}
+}

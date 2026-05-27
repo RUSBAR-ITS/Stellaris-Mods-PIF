@@ -1,0 +1,125 @@
+# PIF job category: ECONOMY
+# Vanilla job: dimensional_portal_researcher_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_researchers
+	produces = {
+		physics_research = @pif_dimensional_portal_researcher_gestalt_job_output_output_physics_research_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_modifier = dportal_trade_normal
+			}
+		}
+		energy = @pif_dimensional_portal_researcher_gestalt_job_output_output_energy_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_modifier = dportal_trade_high
+			}
+		}
+		energy = @pif_dimensional_portal_researcher_gestalt_job_output_output_energy_3
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_modifier = dportal_trade_low
+			}
+		}
+		energy = @pif_dimensional_portal_researcher_gestalt_job_output_output_energy_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_modifier = dportal_trade_crisis
+			}
+		}
+		energy = @pif_dimensional_portal_researcher_gestalt_job_output_output_energy_5
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_closed
+			}
+		}
+		physics_research = @pif_dimensional_portal_researcher_gestalt_job_output_output_physics_research_6
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_energy
+			}
+		}
+		energy = @pif_dimensional_portal_researcher_gestalt_job_output_output_energy_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_void
+			}
+		}
+		sr_dark_matter = @pif_dimensional_portal_researcher_gestalt_job_output_output_sr_dark_matter_7
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = dportal_void2
+			}
+		}
+		sr_dark_matter = @pif_dimensional_portal_researcher_gestalt_job_output_output_sr_dark_matter_8
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		energy = @pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_lithoid_empire = no
+			}
+		}
+		food = @pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_food_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+				is_lithoid_empire = yes
+			}
+		}
+		minerals = @pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_minerals_3
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		consumer_goods = @pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_consumer_goods_4
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+			planet = {
+				has_planet_flag = dportal_hell
+			}
+		}
+		consumer_goods = @pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_consumer_goods_4
+	}
+}

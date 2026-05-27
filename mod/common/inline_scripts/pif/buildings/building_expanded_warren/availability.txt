@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_expanded_warren
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	has_building = building_hive_warren
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+show_tech_unlock_if = {
+	owner = {
+		is_hive_empire = yes
+	}
+}
+
+prerequisites = {
+	"tech_housing_2"
+}

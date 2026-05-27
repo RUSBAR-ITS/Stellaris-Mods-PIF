@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+mortal_initiate = {
+	category = worker
+	inline_script = "pif/jobs/mortal_initiate/swap"
+	inline_script = "pif/jobs/mortal_initiate/availability"
+	inline_script = "pif/jobs/mortal_initiate/pop_config"
+	inline_script = "pif/jobs/mortal_initiate/economy"
+	inline_script = "pif/jobs/mortal_initiate/planet_state"
+	inline_script = "pif/jobs/mortal_initiate/country_modifiers"
+	inline_script = "pif/jobs/mortal_initiate/pop_modifiers"
+	inline_script = "pif/jobs/mortal_initiate/economic_modifiers"
+	inline_script = "pif/jobs/mortal_initiate/tpm"
+}

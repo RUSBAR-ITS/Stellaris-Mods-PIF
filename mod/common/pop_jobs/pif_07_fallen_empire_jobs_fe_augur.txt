@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/07_fallen_empire_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+fe_augur = {
+	category = precursor
+	inline_script = "pif/jobs/fe_augur/swap"
+	inline_script = "pif/jobs/fe_augur/availability"
+	inline_script = "pif/jobs/fe_augur/pop_config"
+	inline_script = "pif/jobs/fe_augur/economy"
+	inline_script = "pif/jobs/fe_augur/planet_state"
+	inline_script = "pif/jobs/fe_augur/country_modifiers"
+	inline_script = "pif/jobs/fe_augur/pop_modifiers"
+	inline_script = "pif/jobs/fe_augur/economic_modifiers"
+	inline_script = "pif/jobs/fe_augur/tpm"
+}

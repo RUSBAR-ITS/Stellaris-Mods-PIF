@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_resort_entertainment = {
+	icon = GFX_district_specialization_entertainer
+	base_buildtime = @pif_zone_resort_entertainment_construction_zone_build_time_1
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_trade_triggered_desc
+	}
+	inline_script = "pif/zones/zone_resort_entertainment/availability"
+	inline_script = "pif/zones/zone_resort_entertainment/zone_config"
+	inline_script = "pif/zones/zone_resort_entertainment/economy"
+	inline_script = "pif/zones/zone_resort_entertainment/tpm"
+	inline_script = "pif/zones/zone_resort_entertainment/lifecycle"
+	inline_script = "pif/zones/zone_resort_entertainment/ai"
+}

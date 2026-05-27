@@ -1,0 +1,82 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: dimensional_portal_researcher_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+tags = {
+	research
+}
+
+weight = {
+	weight = @pif_dimensional_portal_researcher_gestalt_job_weight_weight_1
+	modifier = {
+		mult = value:job_weights_multiple_resources_modifier|JOB|dimensional_portal_researcher_gestalt|RESOURCE1|physics_research|WEIGHT1|0.6|RESOURCE2|energy|WEIGHT2|0.4|
+		planet = {
+			has_planet_flag = dportal_energy
+		}
+	}
+	modifier = {
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		planet = {
+			has_planet_flag = dportal_trader
+		}
+	}
+	modifier = {
+		mult = value:job_weights_multiple_resources_modifier|JOB|dimensional_portal_researcher_gestalt|RESOURCE1|physics_research|WEIGHT1|0.75|RESOURCE2|sr_dark_matter|WEIGHT2|0.25|
+		planet = {
+			OR = {
+				has_planet_flag = dportal_void
+				has_planet_flag = dportal_void2
+			}
+		}
+	}
+	modifier = {
+		mult = value:job_weights_modifier|JOB|dimensional_portal_researcher_gestalt|RESOURCE|physics_research|
+		planet = {
+			NOR = {
+				has_planet_flag = dportal_energy
+				has_planet_flag = dportal_void
+				has_planet_flag = dportal_void2
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_dimensional_portal_researcher_gestalt_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_dimensional_portal_researcher_gestalt_job_weight_factor_3
+		AND = {
+			planet = {
+				has_planet_flag = dportal_hell
+			}
+			is_spiritualist = yes
+		}
+	}
+	modifier = {
+		factor = @pif_dimensional_portal_researcher_gestalt_job_weight_factor_4
+		can_take_servant_job = yes
+	}
+}
+
+auto_trait_prio = {
+	trait_intelligent
+	trait_artificial_intelligence
+	trait_robot_logic_engines
+	trait_cyborg_logic_engines
+	trait_malleable_research
+	trait_adaptive_research
+}
+
+promotion = {
+	time = @pif_dimensional_portal_researcher_gestalt_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = complex_drone
+			AMOUNT = local_pop_amount
+		}
+	}
+}

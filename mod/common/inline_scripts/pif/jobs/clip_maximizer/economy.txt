@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: clip_maximizer
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_clip_maximizer
+	produces = {
+		consumer_goods = @pif_clip_maximizer_job_output_output_consumer_goods_1
+	}
+	upkeep = {
+		energy = @pif_clip_maximizer_job_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,79 @@
+# PIF job category: ECONOMY
+# Vanilla job: miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		minerals = @pif_miner_job_output_output_minerals_1
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				miner_is_scrap_miner_trigger = yes
+			}
+		}
+		minerals = @pif_miner_job_output_output_minerals_2
+		alloys = @pif_miner_job_output_output_alloys_3
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				miner_is_cave_cleaner_trigger = yes
+			}
+		}
+		minerals = @pif_miner_job_output_output_minerals_4
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				miner_is_turtle_miner_trigger = yes
+			}
+		}
+		minerals = @pif_miner_job_output_output_minerals_5
+		food = @pif_miner_job_output_output_food_6
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		minerals = @pif_miner_job_output_output_minerals_2
+	}
+	produces = {
+		trigger = {
+			exists = planet
+			planet = {
+				miner_is_thermoforger_trigger = yes
+			}
+		}
+		minerals = @pif_miner_job_output_output_minerals_7
+		alloys = @pif_miner_job_output_output_alloys_8
+	}
+	upkeep = {
+		trigger = {
+			exists = planet
+			planet = {
+				miner_is_thermoforger_trigger = yes
+			}
+		}
+		energy = @pif_miner_job_upkeep_upkeep_energy_1
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_minerals
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		minerals = @pif_miner_overlord_output_overlord_output_minerals_1
+	}
+}

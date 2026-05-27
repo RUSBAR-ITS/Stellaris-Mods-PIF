@@ -1,0 +1,39 @@
+# PIF building category: AI
+# Vanilla building: building_research_upkeep_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+ai_resource_production = {
+	consumer_goods = @pif_building_research_upkeep_1_ai_consumer_goods_1
+	trigger = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+		has_any_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	energy = @pif_building_research_upkeep_1_ai_energy_2
+	trigger = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_hive_empire = no
+		}
+		has_any_research_zone = yes
+	}
+}
+
+ai_resource_production = {
+	minerals = @pif_building_research_upkeep_1_ai_minerals_3
+	trigger = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_hive_empire = yes
+		}
+		has_any_research_zone = yes
+	}
+}

@@ -1,0 +1,23 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_wilderness_storm_relief
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	planet_amenities_no_happiness_add = @pif_building_wilderness_storm_relief_pop_modifiers_planet_amenities_no_happiness_add_1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = planet.orbital_defence
+		planet.orbital_defence = {
+			exists = starbase
+			starbase = {
+				has_starbase_building = ring_maintenance_hub
+			}
+		}
+	}
+	planet_amenities_no_happiness_add = @pif_building_wilderness_storm_relief_pop_modifiers_planet_amenities_no_happiness_add_2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}

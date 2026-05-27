@@ -1,0 +1,8 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_order_keep
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+building_sets = {
+	knights
+}

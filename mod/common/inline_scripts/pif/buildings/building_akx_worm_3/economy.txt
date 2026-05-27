@@ -1,0 +1,17 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_akx_worm_3
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_akx_worm_3_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_akx_worm_3_upkeep_upkeep_energy_1
+	}
+	produces = {
+		physics_research = @pif_building_akx_worm_3_economic_modifiers_produces_physics_research_1
+	}
+}

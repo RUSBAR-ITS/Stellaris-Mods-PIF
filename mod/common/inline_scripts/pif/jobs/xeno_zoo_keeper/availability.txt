@@ -1,0 +1,8 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: xeno_zoo_keeper
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+possible = {
+	always = no
+}

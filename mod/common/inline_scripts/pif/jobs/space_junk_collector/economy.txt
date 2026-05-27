@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: space_junk_collector
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+resources = {
+	category = planet_jobs_productive
+	produces = {
+		alloys = @pif_space_junk_collector_job_output_output_alloys_1
+	}
+	upkeep = {
+		energy = @pif_space_junk_collector_job_upkeep_upkeep_energy_1
+	}
+}

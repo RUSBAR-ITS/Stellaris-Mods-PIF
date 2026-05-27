@@ -1,0 +1,8 @@
+# PIF building category: TPM
+# Vanilla building: building_ancient_ward_2
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+system_modifier = {
+	mindwarden_aura_immunity = 1
+}

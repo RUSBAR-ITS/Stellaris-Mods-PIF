@@ -1,0 +1,10 @@
+# PIF building category: AI
+# Vanilla building: building_lathe_reactor
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+ai_estimate_without_unemployment = yes
+
+additional_ai_weight = @pif_building_lathe_reactor_ai_additional_ai_weight_1
+
+ai_weight_coefficient = @pif_building_lathe_reactor_ai_ai_weight_coefficient_2

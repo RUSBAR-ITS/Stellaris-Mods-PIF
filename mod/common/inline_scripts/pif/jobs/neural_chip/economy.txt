@@ -1,0 +1,19 @@
+# PIF job category: ECONOMY
+# Vanilla job: neural_chip
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+resources = {
+	category = planet_neural_chips
+	produces = {
+		society_research = @pif_neural_chip_job_output_output_society_research_1
+		engineering_research = @pif_neural_chip_job_output_output_engineering_research_2
+		physics_research = @pif_neural_chip_job_output_output_physics_research_3
+		advanced_logic = @pif_neural_chip_job_output_output_advanced_logic_4
+		mult = value:num_chip_slave
+	}
+	upkeep = {
+		energy = @pif_neural_chip_job_upkeep_upkeep_energy_1
+		mult = value:num_chip_slave_halved
+	}
+}

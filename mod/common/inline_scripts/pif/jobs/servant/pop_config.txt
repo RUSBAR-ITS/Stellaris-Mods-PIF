@@ -1,0 +1,12 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: servant
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+tags = {
+	amenities
+}
+
+weight = {
+	weight = @pif_servant_job_weight_weight_1
+}

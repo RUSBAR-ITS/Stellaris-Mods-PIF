@@ -1,0 +1,20 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_clone_army_clone_vat
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+empire_limit = {
+	base = @pif_building_clone_army_clone_vat_limits_base_1
+}
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_clone_army
+		NOT = {
+			has_country_flag = clone_army_fertility_unlocked
+		}
+	}
+}
+
+prerequisites = {}

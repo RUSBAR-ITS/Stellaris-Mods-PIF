@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: low_tech_priest
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_low_tech_priest_job_output_output_unity_1
+	}
+	upkeep = {
+		consumer_goods = @pif_low_tech_priest_job_upkeep_upkeep_consumer_goods_1
+	}
+}

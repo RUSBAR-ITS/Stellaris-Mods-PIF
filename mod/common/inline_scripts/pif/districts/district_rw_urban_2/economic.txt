@@ -1,0 +1,13 @@
+# PIF category: ECONOMIC
+# Vanilla district: district_rw_urban_2
+# Vanilla source: districts/04_ringworld_districts.txt
+
+resources = {
+	category = planet_districts
+	cost = {
+		minerals = @pif_district_rw_urban_2_construction_build_cost_minerals
+	}
+	upkeep = {
+		energy = @pif_district_rw_urban_2_economy_district_upkeep_energy
+	}
+}

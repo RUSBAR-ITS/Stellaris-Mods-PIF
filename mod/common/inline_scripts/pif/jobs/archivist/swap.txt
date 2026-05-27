@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: archivist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_master_archive
+		icon = fe_archivist
+	}
+}

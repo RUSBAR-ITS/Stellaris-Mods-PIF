@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_commensal_clearing_3 = {
+	icon = "building_commensal_clearing_3"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_commensal_clearing_3_construction_base_buildtime_1
+	category = unity
+	inline_script = "pif/buildings/building_commensal_clearing_3/building_config"
+	inline_script = "pif/buildings/building_commensal_clearing_3/availability"
+	inline_script = "pif/buildings/building_commensal_clearing_3/economy"
+	inline_script = "pif/buildings/building_commensal_clearing_3/lifecycle"
+	inline_script = "pif/buildings/building_commensal_clearing_3/jobs"
+	inline_script = "pif/buildings/building_commensal_clearing_3/country_jobs"
+	inline_script = "pif/buildings/building_commensal_clearing_3/economic_modifiers"
+	inline_script = "pif/buildings/building_commensal_clearing_3/pop_modifiers"
+	inline_script = "pif/buildings/building_commensal_clearing_3/planet_state"
+	inline_script = "pif/buildings/building_commensal_clearing_3/tpm"
+	inline_script = "pif/buildings/building_commensal_clearing_3/ai"
+}

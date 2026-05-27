@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_organic_sanctuary = {
+	base_buildtime = @pif_holding_organic_sanctuary_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_organic_sanctuary
+	category = unity
+	inline_script = "pif/buildings/holding_organic_sanctuary/building_config"
+	inline_script = "pif/buildings/holding_organic_sanctuary/availability"
+	inline_script = "pif/buildings/holding_organic_sanctuary/economy"
+	inline_script = "pif/buildings/holding_organic_sanctuary/lifecycle"
+	inline_script = "pif/buildings/holding_organic_sanctuary/jobs"
+	inline_script = "pif/buildings/holding_organic_sanctuary/country_jobs"
+	inline_script = "pif/buildings/holding_organic_sanctuary/economic_modifiers"
+	inline_script = "pif/buildings/holding_organic_sanctuary/pop_modifiers"
+	inline_script = "pif/buildings/holding_organic_sanctuary/planet_state"
+	inline_script = "pif/buildings/holding_organic_sanctuary/tpm"
+	inline_script = "pif/buildings/holding_organic_sanctuary/ai"
+}

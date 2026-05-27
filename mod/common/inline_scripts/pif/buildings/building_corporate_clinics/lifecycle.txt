@@ -1,0 +1,8 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_corporate_clinics
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+on_built = {}
+
+on_destroy = {}

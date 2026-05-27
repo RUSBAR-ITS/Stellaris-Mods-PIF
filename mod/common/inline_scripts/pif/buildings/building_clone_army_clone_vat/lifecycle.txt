@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_clone_army_clone_vat
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			OR = {
+				NOT = {
+					has_origin = origin_clone_army
+				}
+				is_synthetic_empire = yes
+				has_country_flag = clone_army_fertility_unlocked
+			}
+		}
+	}
+}
+
+upgrades = {}

@@ -1,0 +1,10 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_hyper_entertainment_forum
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+building_sets = {
+	government
+	urban
+	entertainment
+}

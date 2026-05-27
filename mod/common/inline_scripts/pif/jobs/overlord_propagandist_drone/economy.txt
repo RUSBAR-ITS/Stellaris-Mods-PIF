@@ -1,0 +1,18 @@
+# PIF job category: ECONOMY
+# Vanilla job: overlord_propagandist_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+resources = {
+	category = planet_overlord_propagandists
+	upkeep = {
+		unity = @pif_overlord_propagandist_drone_job_upkeep_upkeep_unity_1
+	}
+}
+
+overlord_resources = {
+	category = planet_overlord_propagandists
+	produces = {
+		influence = @pif_overlord_propagandist_drone_overlord_output_overlord_output_influence_1
+	}
+}

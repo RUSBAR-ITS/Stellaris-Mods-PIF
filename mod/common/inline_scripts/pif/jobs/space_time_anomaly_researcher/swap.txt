@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: space_time_anomaly_researcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_research_lab_1
+		icon = researcher
+	}
+}

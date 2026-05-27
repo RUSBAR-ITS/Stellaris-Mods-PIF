@@ -1,0 +1,45 @@
+# PIF job category: SWAP
+# Vanilla job: spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_spawning_pool
+	}
+	swap_type = {
+		trigger = {
+			spawning_drone_is_offspring_drone_trigger = yes
+		}
+		name = offspring_drone
+		desc = offspring_drone
+		building_icon = building_offspring_nest
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+	swap_type = {
+		trigger = {
+			healthcare_is_genomic_researcher_trigger = yes
+		}
+		name = genomic_drone
+		desc = genomic_drone
+		icon = genomic_drone
+		building_icon = building_genomic_facility
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 15
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = broodsymbiont
+		desc = broodsymbiont
+		building_icon = seed_cradle_2
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 100
+	}
+}

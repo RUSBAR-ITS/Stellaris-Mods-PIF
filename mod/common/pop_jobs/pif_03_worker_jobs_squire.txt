@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: worker
+
+squire = {
+	category = worker
+	inline_script = "pif/jobs/squire/swap"
+	inline_script = "pif/jobs/squire/availability"
+	inline_script = "pif/jobs/squire/pop_config"
+	inline_script = "pif/jobs/squire/economy"
+	inline_script = "pif/jobs/squire/planet_state"
+	inline_script = "pif/jobs/squire/country_modifiers"
+	inline_script = "pif/jobs/squire/pop_modifiers"
+	inline_script = "pif/jobs/squire/economic_modifiers"
+	inline_script = "pif/jobs/squire/tpm"
+}

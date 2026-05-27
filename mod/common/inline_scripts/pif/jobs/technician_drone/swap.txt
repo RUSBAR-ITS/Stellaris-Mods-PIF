@@ -1,0 +1,35 @@
+# PIF job category: SWAP
+# Vanilla job: technician_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = DRONE_JOB_TRIGGER
+		building_icon = building_energy_grid
+	}
+	swap_type = {
+		trigger = {
+			technician_is_mote_harvester_trigger = yes
+		}
+		icon = mote_harvesting_drone
+		name = mote_harvesting_drone
+		desc = mote_harvesting_drone
+		building_icon = building_mote_harvesting_traps
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		name = photosymbiont
+		desc = photosymbiont
+		icon = photosymbiont
+		building_icon = bio_electric_stimulator_3
+		condition_string = DRONE_JOB_TRIGGER
+		weight = 10
+	}
+}

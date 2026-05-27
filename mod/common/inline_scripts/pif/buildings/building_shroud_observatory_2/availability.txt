@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_shroud_observatory_2
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_shroud_forged
+	}
+}
+
+allow = {
+	has_upgraded_capital = yes
+}
+
+prerequisites = {
+	"tech_psionic_theory"
+}
+
+show_tech_unlock_if = {
+	exists = owner
+	owner = {
+		has_origin = origin_shroud_forged
+	}
+}

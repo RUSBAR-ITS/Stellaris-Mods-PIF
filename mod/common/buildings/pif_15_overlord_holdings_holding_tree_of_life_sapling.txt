@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_tree_of_life_sapling = {
+	base_buildtime = @pif_holding_tree_of_life_sapling_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_tree_of_life_sapling
+	category = resource
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/building_config"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/availability"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/economy"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/lifecycle"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/jobs"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/country_jobs"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/economic_modifiers"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/pop_modifiers"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/planet_state"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/tpm"
+	inline_script = "pif/buildings/holding_tree_of_life_sapling/ai"
+}

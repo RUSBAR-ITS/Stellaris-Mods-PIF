@@ -1,0 +1,40 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_augmentation_center
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cyber_focus_rulers
+		}
+	}
+	modifier = {
+		pop_cat_ruler_bonus_workforce_mult = @pif_building_augmentation_center_pop_modifiers_pop_cat_ruler_bonus_workforce_mult_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cyber_focus_specialists
+		}
+	}
+	modifier = {
+		pop_cat_specialist_bonus_workforce_mult = @pif_building_augmentation_center_pop_modifiers_pop_cat_specialist_bonus_workforce_mult_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = cyber_focus_workers
+		}
+	}
+	modifier = {
+		pop_cat_worker_bonus_workforce_mult = @pif_building_augmentation_center_pop_modifiers_pop_cat_worker_bonus_workforce_mult_3
+	}
+}

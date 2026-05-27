@@ -1,0 +1,6 @@
+# PIF building category: COUNTRY_JOBS
+# Vanilla building: building_fortress
+# Vanilla class: regular
+# Vanilla source: buildings/09_army_buildings.txt
+
+# Empty PIF building category hook.

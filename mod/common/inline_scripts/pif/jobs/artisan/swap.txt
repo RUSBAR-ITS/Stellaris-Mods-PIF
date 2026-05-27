@@ -1,0 +1,41 @@
+# PIF job category: SWAP
+# Vanilla job: artisan
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = SPECIALIST_JOB_TRIGGER
+		building_icon = building_factory_1
+	}
+	swap_type = {
+		trigger = {
+			artisan_is_artificer_trigger = yes
+		}
+		name = artificer
+		desc = artificer
+		icon = artificer
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			artisan_is_pearl_diver_trigger = yes
+		}
+		name = pearl_diver
+		desc = pearl_diver
+		icon = pearl_diver
+		building_icon = building_food_processing_facility
+		weight = 5
+	}
+	swap_type = {
+		trigger = {
+			artisan_is_artificer_trigger = yes
+			artisan_is_pearl_diver_trigger = yes
+		}
+		name = pearl_crafter
+		desc = pearl_crafter
+		icon = pearl_diver
+		building_icon = building_food_processing_facility
+		weight = 10
+	}
+}

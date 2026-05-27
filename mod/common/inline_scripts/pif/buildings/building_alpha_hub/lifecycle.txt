@@ -1,0 +1,21 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_alpha_hub
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_machine_empire = no
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}
+
+convert_to = {
+	building_autocurating_vault
+	building_citadel_of_faith
+	building_corporate_vault
+	building_trophy_vault
+}

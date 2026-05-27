@@ -1,0 +1,16 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_overseer_homes
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			is_regular_empire = no
+		}
+		NOT = {
+			has_modifier = slave_colony
+		}
+	}
+}

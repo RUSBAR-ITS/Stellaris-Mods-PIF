@@ -1,0 +1,14 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_state_academy
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_civilians_physics_research_produces_add = @pif_building_state_academy_economic_modifiers_planet_civilians_physics_research_produces_add_1
+	planet_civilians_society_research_produces_add = @pif_building_state_academy_economic_modifiers_planet_civilians_society_research_produces_add_2
+	planet_civilians_engineering_research_produces_add = @pif_building_state_academy_economic_modifiers_planet_civilians_engineering_research_produces_add_3
+	planet_civilians_consumer_goods_upkeep_add = @pif_building_state_academy_economic_modifiers_planet_civilians_consumer_goods_upkeep_add_4
+}

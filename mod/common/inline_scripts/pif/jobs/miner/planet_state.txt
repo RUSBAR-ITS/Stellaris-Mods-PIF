@@ -1,0 +1,14 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		has_councilor = {
+			COUNCILOR = "councilor_mining_guilds"
+		}
+	}
+	planet_stability_add = @pif_miner_planet_state_planet_stability_add_1
+	mult = value:councilor_level|TYPE|councilor_mining_guilds|
+}

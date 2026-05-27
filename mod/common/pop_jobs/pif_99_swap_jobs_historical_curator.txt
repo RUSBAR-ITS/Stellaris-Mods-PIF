@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/99_swap_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+historical_curator = {
+	category = specialist
+	inline_script = "pif/jobs/historical_curator/swap"
+	inline_script = "pif/jobs/historical_curator/availability"
+	inline_script = "pif/jobs/historical_curator/pop_config"
+	inline_script = "pif/jobs/historical_curator/economy"
+	inline_script = "pif/jobs/historical_curator/planet_state"
+	inline_script = "pif/jobs/historical_curator/country_modifiers"
+	inline_script = "pif/jobs/historical_curator/pop_modifiers"
+	inline_script = "pif/jobs/historical_curator/economic_modifiers"
+	inline_script = "pif/jobs/historical_curator/tpm"
+}

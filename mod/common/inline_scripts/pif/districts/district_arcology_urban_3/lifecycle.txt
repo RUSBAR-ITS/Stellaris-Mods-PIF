@@ -1,0 +1,11 @@
+# PIF category: LIFECYCLE
+# Vanilla district: district_arcology_urban_3
+# Vanilla source: districts/01_arcology_districts.txt
+
+conversion_ratio = @pif_district_arcology_urban_3_conversion_conversion_ratio
+
+convert_to = {
+	district_city
+	district_nexus
+	district_hive
+}

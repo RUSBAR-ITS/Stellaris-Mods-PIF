@@ -1,0 +1,21 @@
+# PIF building category: AI
+# Vanilla building: building_mineral_purification_hub
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+ai_resource_production = {
+	minerals = @pif_building_mineral_purification_hub_ai_minerals_1
+	trigger = {
+		has_any_mining_zone = yes
+	}
+}
+
+ai_resource_production = {
+	minerals = @pif_building_mineral_purification_hub_ai_minerals_2
+	energy = @pif_building_mineral_purification_hub_ai_energy_3
+	trigger = {
+		has_zone = {
+			zone = zone_betharian
+		}
+	}
+}

@@ -1,0 +1,37 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: artificer_prison_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+tags = {
+	consumer_goods
+}
+
+weight = {
+	weight = @pif_artificer_prison_worker_job_weight_weight_1
+	mult = value:job_weights_multiple_resources_modifier|JOB|artificer|RESOURCE1|consumer_goods|WEIGHT1|0.8|RESOURCE2|engineering_research|WEIGHT2|0.2|
+	modifier = {
+		factor = @pif_artificer_prison_worker_job_weight_factor_2
+		is_enslaved = yes
+		can_take_servant_job = no
+	}
+}
+
+auto_trait_prio = {
+	trait_thrifty
+	trait_commercial_genius
+	trait_robot_trading_algorithms
+	trait_cyborg_trading_algorithms
+	trait_malleable_trade
+	trait_adaptive_trade
+}
+
+promotion = {
+	time = @pif_artificer_prison_worker_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

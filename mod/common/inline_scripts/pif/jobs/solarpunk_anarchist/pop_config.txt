@@ -1,0 +1,16 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: solarpunk_anarchist
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+tags = {}
+
+promotion = {
+	time = @pif_solarpunk_anarchist_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = ruler
+			AMOUNT = local_pop_amount
+		}
+	}
+}

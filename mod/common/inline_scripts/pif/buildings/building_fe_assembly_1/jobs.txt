@@ -1,0 +1,35 @@
+# PIF building category: JOBS
+# Vanilla building: building_fe_assembly_1
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+		}
+	}
+	job_roboticist_add = @pif_building_fe_assembly_1_jobs_job_roboticist_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	job_replicator_add = @pif_building_fe_assembly_1_jobs_job_replicator_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+	job_roboticist_automated_workforce_mult = @pif_building_fe_assembly_1_jobs_job_roboticist_automated_workforce_mult_3
+	job_replicator_automated_workforce_mult = @pif_building_fe_assembly_1_jobs_job_replicator_automated_workforce_mult_4
+}

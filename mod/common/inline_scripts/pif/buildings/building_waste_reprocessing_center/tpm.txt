@@ -1,0 +1,12 @@
+# PIF building category: TPM
+# Vanilla building: building_waste_reprocessing_center
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_add = @pif_building_waste_reprocessing_center_planet_state_planet_amenities_add_1
+	job_technician_drone_add = @pif_building_waste_reprocessing_center_jobs_job_technician_drone_add_1
+}

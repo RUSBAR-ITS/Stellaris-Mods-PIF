@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/00_other_jobs.txt
+# Object type: pop_job
+# Job class: special_other
+
+presapient_processing = {
+	category = pre_sapients
+	inline_script = "pif/jobs/presapient_processing/swap"
+	inline_script = "pif/jobs/presapient_processing/availability"
+	inline_script = "pif/jobs/presapient_processing/pop_config"
+	inline_script = "pif/jobs/presapient_processing/economy"
+	inline_script = "pif/jobs/presapient_processing/planet_state"
+	inline_script = "pif/jobs/presapient_processing/country_modifiers"
+	inline_script = "pif/jobs/presapient_processing/pop_modifiers"
+	inline_script = "pif/jobs/presapient_processing/economic_modifiers"
+	inline_script = "pif/jobs/presapient_processing/tpm"
+}

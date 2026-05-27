@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/01_pop_assembly_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_machine_assembly_plant = {
+	icon = building_robot_assembly_plant
+	base_buildtime = @pif_building_machine_assembly_plant_construction_base_buildtime_1
+	category = pop_assembly
+	inline_script = "pif/buildings/building_machine_assembly_plant/building_config"
+	inline_script = "pif/buildings/building_machine_assembly_plant/availability"
+	inline_script = "pif/buildings/building_machine_assembly_plant/economy"
+	inline_script = "pif/buildings/building_machine_assembly_plant/lifecycle"
+	inline_script = "pif/buildings/building_machine_assembly_plant/jobs"
+	inline_script = "pif/buildings/building_machine_assembly_plant/country_jobs"
+	inline_script = "pif/buildings/building_machine_assembly_plant/economic_modifiers"
+	inline_script = "pif/buildings/building_machine_assembly_plant/pop_modifiers"
+	inline_script = "pif/buildings/building_machine_assembly_plant/planet_state"
+	inline_script = "pif/buildings/building_machine_assembly_plant/tpm"
+	inline_script = "pif/buildings/building_machine_assembly_plant/ai"
+}

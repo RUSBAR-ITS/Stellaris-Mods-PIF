@@ -1,0 +1,6 @@
+# PIF building category: AI
+# Vanilla building: building_low_tech_admin_hub
+# Vanilla class: regular
+# Vanilla source: buildings/16_first_contact_buildings.txt
+
+# Empty PIF building category hook.

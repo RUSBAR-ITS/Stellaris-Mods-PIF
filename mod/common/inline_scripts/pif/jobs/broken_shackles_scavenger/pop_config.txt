@@ -1,0 +1,27 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: broken_shackles_scavenger
+# Vanilla class: worker
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+tags = {
+	alloys
+	research
+	amenities
+}
+
+weight = {
+	weight = @pif_broken_shackles_scavenger_job_weight_weight_1
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+	mult = value:job_weights_research_modifier|JOB|broken_shackles_scavenger|
+	mult = value:job_weights_modifier|JOB|broken_shackles_scavenger|RESOURCE|alloys|
+}
+
+promotion = {
+	time = @pif_broken_shackles_scavenger_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

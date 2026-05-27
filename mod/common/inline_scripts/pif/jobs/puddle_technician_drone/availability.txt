@@ -1,0 +1,22 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: puddle_technician_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+possible_pre_triggers = {
+	has_owner = yes
+	is_being_purged = no
+	is_being_assimilated = no
+	is_sapient = yes
+}
+
+possible_precalc = can_fill_drone_job
+
+possible = {
+	hidden_trigger = {
+		exists = owner
+	}
+	owner = {
+		is_gestalt = yes
+	}
+}

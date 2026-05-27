@@ -1,0 +1,7 @@
+# PIF category: AVAILABILITY
+# Vanilla district: district_arcology_urban_2
+# Vanilla source: districts/01_arcology_districts.txt
+
+potential = {
+	uses_district_set = city_world
+}

@@ -1,0 +1,6 @@
+# PIF job category: TPM
+# Vanilla job: myrmeku_power_farmer_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+# Empty PIF job category hook.

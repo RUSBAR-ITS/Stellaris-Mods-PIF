@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_rw_urban_2
+# Vanilla source: districts/04_ringworld_districts.txt
+
+exempt_from_ai_planet_specialization = yes

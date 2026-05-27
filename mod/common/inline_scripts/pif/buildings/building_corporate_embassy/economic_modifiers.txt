@@ -1,0 +1,47 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_corporate_embassy
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_politicians_trade_produces_add = @pif_building_corporate_embassy_economic_modifiers_planet_politicians_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_brand_loyalty
+		}
+	}
+	planet_politicians_trade_produces_add = @pif_building_corporate_embassy_economic_modifiers_planet_politicians_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_corporate_guided_sapience
+		}
+	}
+	planet_politicians_trade_produces_add = @pif_building_corporate_embassy_economic_modifiers_planet_politicians_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_civic = civic_worker_coop
+		}
+	}
+	planet_politicians_trade_produces_add = @pif_building_corporate_embassy_economic_modifiers_planet_politicians_trade_produces_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		branch_office_owner = {
+			has_valid_civic = civic_secret_societies_corporate
+		}
+	}
+	planet_politicians_trade_produces_add = @pif_building_corporate_embassy_economic_modifiers_planet_politicians_trade_produces_add_1
+}

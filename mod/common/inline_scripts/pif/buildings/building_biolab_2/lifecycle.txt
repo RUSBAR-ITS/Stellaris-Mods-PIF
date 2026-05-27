@@ -1,0 +1,20 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_biolab_2
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+		owner = {
+			is_wilderness_empire = yes
+		}
+	}
+}
+
+upgrades = {
+	building_biolab_3
+}

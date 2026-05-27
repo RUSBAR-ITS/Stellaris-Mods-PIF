@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: fe_sky_cardinal
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+swappable_data = {
+	default = {
+		icon = high_priest
+		building_icon = building_palace
+	}
+}

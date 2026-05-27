@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: bio_trophy
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = planet_bio_trophies
+	produces = {
+		unity = @pif_bio_trophy_job_output_output_unity_1
+	}
+}

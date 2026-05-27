@@ -1,0 +1,55 @@
+# PIF job category: ECONOMY
+# Vanilla job: logistics_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_traders
+	produces = {
+		trade = @pif_logistics_drone_job_output_output_trade_1
+	}
+	produces = {
+		trigger = {
+			trader_is_subterranean = yes
+		}
+		trade = @pif_logistics_drone_job_output_output_trade_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+		energy = @pif_logistics_drone_job_upkeep_upkeep_energy_1
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+		minerals = @pif_logistics_drone_job_upkeep_upkeep_minerals_2
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+			}
+			trader_is_subterranean = yes
+		}
+		energy = @pif_logistics_drone_job_upkeep_upkeep_energy_3
+	}
+	upkeep = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_hive_empire = yes
+			}
+			trader_is_subterranean = yes
+		}
+		minerals = @pif_logistics_drone_job_upkeep_upkeep_minerals_4
+	}
+}

@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_cryovault
+# Vanilla class: regular
+# Vanilla source: buildings/22_extreme_frontiers_buildings.txt
+
+base_cap_amount = @pif_building_cryovault_limits_base_cap_amount_1
+
+potential = {
+	has_shroud_dlc = yes
+	owner = {
+		has_technology = tech_cryovault
+	}
+}
+
+allow = {
+	is_cold = yes
+}

@@ -1,0 +1,20 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_primitive_power_plant
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_demolish = yes
+
+can_be_ruined = no
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_primitive = no
+			is_hive_empire = yes
+		}
+	}
+}
+
+upgrades = {}

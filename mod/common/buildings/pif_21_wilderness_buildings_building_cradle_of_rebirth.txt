@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_cradle_of_rebirth = {
+	icon = "seed_cradle_2"
+	category = government
+	base_buildtime = @pif_building_cradle_of_rebirth_construction_base_buildtime_1
+	inline_script = "pif/buildings/building_cradle_of_rebirth/building_config"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/availability"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/economy"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/lifecycle"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/jobs"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/country_jobs"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/economic_modifiers"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/pop_modifiers"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/planet_state"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/tpm"
+	inline_script = "pif/buildings/building_cradle_of_rebirth/ai"
+}

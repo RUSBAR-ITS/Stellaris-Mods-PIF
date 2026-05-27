@@ -1,0 +1,25 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_fe_clinic_1
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		alloys = @pif_building_fe_clinic_1_cost_cost_alloys_1
+		sr_dark_matter = @pif_building_fe_clinic_1_cost_cost_sr_dark_matter_2
+	}
+	upkeep = {
+		sr_dark_matter = @pif_building_fe_clinic_1_upkeep_upkeep_sr_dark_matter_1
+		alloys = @pif_building_fe_clinic_1_upkeep_upkeep_alloys_2
+		energy = @pif_building_fe_clinic_1_upkeep_upkeep_energy_3
+	}
+	cost = {
+		trigger = {
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+		biomass = @pif_building_fe_clinic_1_cost_cost_biomass_3
+	}
+}

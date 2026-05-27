@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: sand_whisperer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_strange_worlds_jobs.txt
+
+resources = {
+	category = planet_jobs_productive
+	produces = {
+		sr_zro = @pif_sand_whisperer_job_output_output_sr_zro_1
+	}
+	upkeep = {
+		energy = @pif_sand_whisperer_job_upkeep_upkeep_energy_1
+	}
+}

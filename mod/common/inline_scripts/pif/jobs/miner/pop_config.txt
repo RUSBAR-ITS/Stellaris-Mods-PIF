@@ -1,0 +1,89 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: miner
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+tags = {
+	minerals
+	strategic_resource
+}
+
+weight = {
+	weight = @pif_miner_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|miner|RESOURCE|minerals|
+	modifier = {
+		factor = @pif_miner_job_weight_factor_2
+		is_enslaved = yes
+		can_take_servant_job = no
+		NOT = {
+			has_slavery_type = {
+				type = slavery_indentured
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_miner_job_weight_factor_3
+		OR = {
+			is_non_sapient_robot = yes
+			is_shackled_robot = yes
+		}
+		can_take_servant_job = no
+		owner = {
+			has_technology = tech_droid_workers
+		}
+	}
+	modifier = {
+		factor = @pif_miner_job_weight_factor_4
+		OR = {
+			is_non_sapient_robot = yes
+			is_shackled_robot = yes
+		}
+		can_take_servant_job = no
+		owner = {
+			NOT = {
+				has_technology = tech_droid_workers
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_miner_job_weight_factor_5
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_miner_job_weight_factor_3
+		exists = planet
+		planet = {
+			has_available_jobs = miner
+		}
+		exists = owner
+		owner = {
+			has_monthly_income = {
+				resource = minerals
+				value < 10
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_miner_job_weight_factor_6
+		has_trait = trait_cyborg_creed_of_labor
+	}
+}
+
+auto_trait_prio = {
+	trait_industrious
+	trait_crack_miner
+	trait_robot_power_drills
+	trait_cyborg_power_drills
+	trait_malleable_minerals
+	trait_adaptive_minerals
+}
+
+promotion = {
+	time = @pif_miner_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/11_astral_planes_jobs.txt
+# Object type: pop_job
+# Job class: complex_drone
+
+munitions_decommissioning_unit = {
+	category = complex_drone
+	inline_script = "pif/jobs/munitions_decommissioning_unit/swap"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/availability"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/pop_config"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/economy"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/planet_state"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/country_modifiers"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/pop_modifiers"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/economic_modifiers"
+	inline_script = "pif/jobs/munitions_decommissioning_unit/tpm"
+}

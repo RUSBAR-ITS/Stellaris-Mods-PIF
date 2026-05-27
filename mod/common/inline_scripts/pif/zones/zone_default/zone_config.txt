@@ -1,0 +1,27 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_default
+# Vanilla source: zones/00_zones.txt
+
+zone_sets = {
+	default
+}
+
+include = {
+	all
+}
+
+excluded_building_sets = {
+	generator
+	mining
+	farming
+	knights
+	betharian
+	fallen_empire_generator
+	fallen_empire_farming
+	fallen_empire_mining
+	urban_automation
+	urban_automation_arcology
+	generator_automation
+	mining_automation
+	farming_automation
+}

@@ -1,0 +1,28 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: roboticist
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	pop_assembly
+}
+
+weight = {
+	weight = @pif_roboticist_job_weight_weight_1
+	modifier = {
+		factor = @pif_roboticist_job_weight_factor_2
+		owner = {
+			is_synthetic_empire = yes
+		}
+	}
+}
+
+promotion = {
+	time = @pif_roboticist_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

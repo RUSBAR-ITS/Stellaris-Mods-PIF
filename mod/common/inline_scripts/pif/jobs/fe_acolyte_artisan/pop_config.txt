@@ -1,0 +1,23 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: fe_acolyte_artisan
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+tags = {
+	consumer_goods
+}
+
+weight = {
+	weight = @pif_fe_acolyte_artisan_job_weight_weight_1
+	modifier = {
+		factor = @pif_fe_acolyte_artisan_job_weight_factor_2
+		exists = planet
+		exists = planet.controller
+		planet.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+			}
+		}
+	}
+}

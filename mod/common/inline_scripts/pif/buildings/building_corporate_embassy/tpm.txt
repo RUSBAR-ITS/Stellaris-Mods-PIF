@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_corporate_embassy
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	diplo_weight_economy_mult = 0.05
+}

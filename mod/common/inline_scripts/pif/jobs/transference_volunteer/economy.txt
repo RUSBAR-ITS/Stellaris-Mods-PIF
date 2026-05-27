@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: transference_volunteer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+resources = {
+	category = planet_transference_volunteers
+	upkeep = {
+		food = @pif_transference_volunteer_job_upkeep_upkeep_food_1
+	}
+	produces = {
+		unity = @pif_transference_volunteer_job_output_output_unity_1
+	}
+}

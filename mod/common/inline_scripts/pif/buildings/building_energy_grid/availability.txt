@@ -1,0 +1,42 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_energy_grid
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+planet_limit = @pif_building_energy_grid_limits_planet_limit_1
+
+potential = {
+	NOT = {
+		has_modifier = resort_colony
+	}
+	exists = owner
+	owner = {
+		is_wilderness_empire = no
+	}
+	OR = {
+		NOT = {
+			is_planet_class = pc_habitat
+		}
+		AND = {
+			is_planet_class = pc_habitat
+			check_modifier_value = {
+				modifier = district_hab_energy_max_add
+				value > 0
+			}
+		}
+		OR = {
+			owner = {
+				is_ai = no
+			}
+			has_any_generator_district_or_building = yes
+		}
+	}
+}
+
+prerequisites = {
+	tech_power_hub_1
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

@@ -1,0 +1,23 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_factory_3
+# Vanilla class: regular
+# Vanilla source: buildings/04_manufacturing_buildings.txt
+
+can_build = no
+
+allow = {}
+
+potential = {
+	exists = owner
+	owner = {
+		country_uses_consumer_goods = yes
+	}
+	NOT = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+	}
+}
+
+prerequisites = {
+	tech_luxuries_2
+}

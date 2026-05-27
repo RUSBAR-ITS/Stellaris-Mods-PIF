@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_trophy_vault
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_bio_trophies_unity_produces_add = @pif_building_trophy_vault_economic_modifiers_planet_bio_trophies_unity_produces_add_1
+	planet_bio_trophies_consumer_goods_upkeep_add = @pif_building_trophy_vault_economic_modifiers_planet_bio_trophies_consumer_goods_upkeep_add_2
+	pop_cat_bio_trophy_happiness = @pif_building_trophy_vault_pop_modifiers_pop_cat_bio_trophy_happiness_1
+}

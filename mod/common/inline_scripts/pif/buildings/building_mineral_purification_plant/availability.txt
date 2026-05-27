@@ -1,0 +1,44 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_mineral_purification_plant
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+planet_limit = @pif_building_mineral_purification_plant_limits_planet_limit_1
+
+potential = {
+	owner = {
+		is_wilderness_empire = no
+	}
+	NOR = {
+		has_modifier = resort_colony
+		is_planet_class = pc_ringworld_habitable
+		is_planet_class = pc_cybrex
+	}
+	OR = {
+		NOT = {
+			is_planet_class = pc_habitat
+		}
+		AND = {
+			is_planet_class = pc_habitat
+			check_modifier_value = {
+				modifier = district_hab_mining_max_add
+				value > 0
+			}
+		}
+	}
+	OR = {
+		has_planet_flag = ignore_ai_building_limitations
+		owner = {
+			is_ai = no
+		}
+		has_any_mining_district_or_building = yes
+	}
+}
+
+prerequisites = {
+	tech_mineral_purification_1
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = no
+}

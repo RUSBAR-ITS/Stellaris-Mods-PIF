@@ -1,0 +1,20 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_order_keep
+# Vanilla class: regular
+# Vanilla source: buildings/02_government_buildings.txt
+
+empire_limit = {
+	base = @pif_building_order_keep_limits_base_1
+}
+
+potential = {
+	owner = {
+		has_origin = origin_toxic_knights
+	}
+	has_planet_flag = toxic_knights_habitat
+	owner = {
+		NOT = {
+			has_country_flag = quest_abandoned
+		}
+	}
+}

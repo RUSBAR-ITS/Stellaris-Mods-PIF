@@ -1,0 +1,10 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: wilderness_maintenance_drone
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+count_as_available_for_ai = @pif_wilderness_maintenance_drone_job_flags_count_as_available_for_ai_2
+
+weight = {
+	weight = @pif_wilderness_maintenance_drone_job_weight_weight_1
+}

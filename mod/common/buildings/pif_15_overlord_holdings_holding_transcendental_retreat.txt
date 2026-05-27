@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_transcendental_retreat = {
+	base_buildtime = @pif_holding_transcendental_retreat_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = building_transcendental_retreat
+	category = amenity
+	inline_script = "pif/buildings/holding_transcendental_retreat/building_config"
+	inline_script = "pif/buildings/holding_transcendental_retreat/availability"
+	inline_script = "pif/buildings/holding_transcendental_retreat/economy"
+	inline_script = "pif/buildings/holding_transcendental_retreat/lifecycle"
+	inline_script = "pif/buildings/holding_transcendental_retreat/jobs"
+	inline_script = "pif/buildings/holding_transcendental_retreat/country_jobs"
+	inline_script = "pif/buildings/holding_transcendental_retreat/economic_modifiers"
+	inline_script = "pif/buildings/holding_transcendental_retreat/pop_modifiers"
+	inline_script = "pif/buildings/holding_transcendental_retreat/planet_state"
+	inline_script = "pif/buildings/holding_transcendental_retreat/tpm"
+	inline_script = "pif/buildings/holding_transcendental_retreat/ai"
+}

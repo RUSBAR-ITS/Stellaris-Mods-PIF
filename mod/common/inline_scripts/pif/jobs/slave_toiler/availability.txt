@@ -1,0 +1,18 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: slave_toiler
+# Vanilla class: worker
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_slave_toiler_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_enslaved = yes
+	has_planet = yes
+	is_sapient = yes
+}
+
+possible = {
+	planet = {
+		has_modifier = slave_colony
+	}
+}

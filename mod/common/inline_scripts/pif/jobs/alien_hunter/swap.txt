@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: alien_hunter
+# Vanilla class: worker
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = building_crude_huts
+		icon = hunter_gatherer
+	}
+}

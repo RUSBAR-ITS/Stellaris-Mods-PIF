@@ -1,0 +1,24 @@
+# PIF job category: ECONOMY
+# Vanilla job: soldier
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_soldiers
+	produces = {
+		trigger = {
+			soldier_is_necromancer = yes
+		}
+		society_research = @pif_soldier_job_output_output_society_research_1
+		engineering_research = @pif_soldier_job_output_output_engineering_research_2
+	}
+	upkeep = {
+		trigger = {
+			soldier_is_necromancer = yes
+		}
+		consumer_goods = @pif_soldier_job_upkeep_upkeep_consumer_goods_1
+	}
+	upkeep = {
+		alloys = @pif_soldier_job_upkeep_upkeep_alloys_2
+	}
+}

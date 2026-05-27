@@ -1,0 +1,12 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: knight
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_naval_cap_add = @pif_knight_country_modifiers_country_naval_cap_add_1
+	knight_quest_progress_add = @pif_knight_country_modifiers_knight_quest_progress_add_2
+}

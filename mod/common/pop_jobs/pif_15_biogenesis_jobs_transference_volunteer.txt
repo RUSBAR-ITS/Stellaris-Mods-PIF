@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_biogenesis_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+transference_volunteer = {
+	category = specialist
+	inline_script = "pif/jobs/transference_volunteer/swap"
+	inline_script = "pif/jobs/transference_volunteer/availability"
+	inline_script = "pif/jobs/transference_volunteer/pop_config"
+	inline_script = "pif/jobs/transference_volunteer/economy"
+	inline_script = "pif/jobs/transference_volunteer/planet_state"
+	inline_script = "pif/jobs/transference_volunteer/country_modifiers"
+	inline_script = "pif/jobs/transference_volunteer/pop_modifiers"
+	inline_script = "pif/jobs/transference_volunteer/economic_modifiers"
+	inline_script = "pif/jobs/transference_volunteer/tpm"
+}

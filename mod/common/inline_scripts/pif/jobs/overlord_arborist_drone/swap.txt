@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: overlord_arborist_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = holding_tree_of_life_sapling
+		icon = ranger
+	}
+}

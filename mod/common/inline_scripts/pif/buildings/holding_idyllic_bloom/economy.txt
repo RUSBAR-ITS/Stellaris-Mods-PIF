@@ -1,0 +1,17 @@
+# PIF building category: ECONOMY
+# Vanilla building: holding_idyllic_bloom
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+resources = {
+	category = planet_holdings
+	cost = {
+		energy = @pif_holding_idyllic_bloom_cost_cost_energy_1
+		exotic_gases = @pif_holding_idyllic_bloom_cost_cost_exotic_gases_2
+	}
+	upkeep = {
+		energy = @pif_holding_idyllic_bloom_upkeep_upkeep_energy_1
+		exotic_gases = @pif_holding_idyllic_bloom_upkeep_upkeep_exotic_gases_2
+		multiplier = value:overlord_gaiaseeder_upkeep
+	}
+}

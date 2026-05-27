@@ -1,0 +1,95 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_augmentation_center = {
+	base_buildtime = @pif_building_augmentation_center_construction_base_buildtime_1
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = {
+					has_origin = origin_cybernetic_creed
+				}
+				NOR = {
+					has_country_flag = cyber_control_government
+					has_country_flag = cyber_control_corporate
+					has_country_flag = cyber_control_independent
+				}
+			}
+		}
+		text = building_augmentation_center_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = {
+					has_origin = origin_cybernetic_creed
+				}
+				has_country_flag = cyber_control_government
+			}
+		}
+		text = building_augmentation_center_government_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = {
+					has_origin = origin_cybernetic_creed
+				}
+				has_country_flag = cyber_control_corporate
+			}
+		}
+		text = building_augmentation_center_corporate_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = {
+					has_origin = origin_cybernetic_creed
+				}
+				has_country_flag = cyber_control_independent
+			}
+		}
+		text = building_augmentation_center_independent_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_origin = origin_cybernetic_creed
+			}
+		}
+		text = building_augmentation_center_creed_desc
+	}
+	desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = building_augmentation_center_hive_desc
+	}
+	category = pop_assembly
+	is_essential = yes
+	inline_script = "pif/buildings/building_augmentation_center/building_config"
+	inline_script = "pif/buildings/building_augmentation_center/availability"
+	inline_script = "pif/buildings/building_augmentation_center/economy"
+	inline_script = "pif/buildings/building_augmentation_center/lifecycle"
+	inline_script = "pif/buildings/building_augmentation_center/jobs"
+	inline_script = "pif/buildings/building_augmentation_center/country_jobs"
+	inline_script = "pif/buildings/building_augmentation_center/economic_modifiers"
+	inline_script = "pif/buildings/building_augmentation_center/pop_modifiers"
+	inline_script = "pif/buildings/building_augmentation_center/planet_state"
+	inline_script = "pif/buildings/building_augmentation_center/tpm"
+	inline_script = "pif/buildings/building_augmentation_center/ai"
+}

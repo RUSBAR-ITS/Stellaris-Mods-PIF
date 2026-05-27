@@ -1,0 +1,14 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_capital
+# Vanilla class: capital
+# Vanilla source: buildings/00_capital_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		minerals = @pif_building_capital_cost_cost_minerals_1
+	}
+	upkeep = {
+		energy = @pif_building_capital_upkeep_upkeep_energy_1
+	}
+}

@@ -1,0 +1,9 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_engineering_facility_1
+# Vanilla class: regular
+# Vanilla source: buildings/05_research_buildings.txt
+
+building_sets = {
+	research
+	engineering
+}

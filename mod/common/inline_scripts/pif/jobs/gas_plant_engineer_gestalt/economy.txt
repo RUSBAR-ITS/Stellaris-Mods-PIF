@@ -1,0 +1,14 @@
+# PIF job category: ECONOMY
+# Vanilla job: gas_plant_engineer_gestalt
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_refiners
+	produces = {
+		exotic_gases = @pif_gas_plant_engineer_gestalt_job_output_output_exotic_gases_1
+	}
+	upkeep = {
+		minerals = @pif_gas_plant_engineer_gestalt_job_upkeep_upkeep_minerals_1
+	}
+}

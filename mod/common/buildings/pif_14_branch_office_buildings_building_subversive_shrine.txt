@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_subversive_shrine = {
+	base_buildtime = @pif_building_subversive_shrine_construction_base_buildtime_1
+	owner_type = corporate
+	category = unity
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_subversive_shrine/building_config"
+	inline_script = "pif/buildings/building_subversive_shrine/availability"
+	inline_script = "pif/buildings/building_subversive_shrine/economy"
+	inline_script = "pif/buildings/building_subversive_shrine/lifecycle"
+	inline_script = "pif/buildings/building_subversive_shrine/jobs"
+	inline_script = "pif/buildings/building_subversive_shrine/country_jobs"
+	inline_script = "pif/buildings/building_subversive_shrine/economic_modifiers"
+	inline_script = "pif/buildings/building_subversive_shrine/pop_modifiers"
+	inline_script = "pif/buildings/building_subversive_shrine/planet_state"
+	inline_script = "pif/buildings/building_subversive_shrine/tpm"
+	inline_script = "pif/buildings/building_subversive_shrine/ai"
+}

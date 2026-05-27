@@ -1,0 +1,13 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_genomic_facility
+# Vanilla class: regular
+# Vanilla source: buildings/22_biogenesis_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		NOT = {
+			has_country_flag = genomic_research_facility_unlocked
+		}
+	}
+}

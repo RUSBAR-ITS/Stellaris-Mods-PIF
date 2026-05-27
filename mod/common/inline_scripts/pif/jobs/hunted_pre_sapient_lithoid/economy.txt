@@ -1,0 +1,27 @@
+# PIF job category: ECONOMY
+# Vanilla job: hunted_pre_sapient_lithoid
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_livestock_miners
+	produces = {
+		minerals = @pif_hunted_pre_sapient_lithoid_job_output_output_minerals_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_mineral_purification_plant
+			}
+		}
+		minerals = @pif_hunted_pre_sapient_lithoid_job_output_output_minerals_2
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_mineral_purification_hub
+			}
+		}
+		minerals = @pif_hunted_pre_sapient_lithoid_job_output_output_minerals_1
+	}
+}

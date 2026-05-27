@@ -1,0 +1,6 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: astrometeorologist_machine
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/12_cosmic_storm_jobs.txt
+
+# Empty PIF job category hook.

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/00_special_districts.txt
+# Object class: real
+
+district_cosmogenesis_world_logic = {
+	overlay_icon = GFX_district_advanced_logic
+	base_buildtime = @pif_district_cosmogenesis_world_logic_construction_build_time_days
+	show_on_uncolonized = {
+		uses_district_set = cosmogenesis_world
+	}
+	inline_script = "pif/districts/district_cosmogenesis_world_logic/zone_slots"
+	inline_script = "pif/districts/district_cosmogenesis_world_logic/availability"
+	inline_script = "pif/districts/district_cosmogenesis_world_logic/economic"
+	inline_script = "pif/districts/district_cosmogenesis_world_logic/tpm"
+	inline_script = "pif/districts/district_cosmogenesis_world_logic/lifecycle"
+	inline_script = "pif/districts/district_cosmogenesis_world_logic/ai"
+}

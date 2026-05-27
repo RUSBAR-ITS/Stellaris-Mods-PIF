@@ -1,0 +1,34 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: aid_worker
+# Vanilla class: worker
+# Vanilla source: pop_jobs/08_overlord_jobs.txt
+
+can_set_priority = @pif_aid_worker_job_flags_can_set_priority_2
+
+tags = {
+	amenities
+	loyalty
+}
+
+weight = {
+	weight = @pif_aid_worker_job_weight_weight_1
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}
+
+promotion = {
+	time = @pif_aid_worker_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

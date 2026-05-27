@@ -1,0 +1,23 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_augmentation_bazaars
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_augmentation_bazaars_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_valid_civic = civic_augmentation_bazaars
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}
+
+allow = {
+	always = yes
+}

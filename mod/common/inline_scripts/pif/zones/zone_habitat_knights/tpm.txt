@@ -1,0 +1,22 @@
+# PIF zone category: TPM
+# Vanilla zone: zone_habitat_knights
+# Vanilla source: zones/01_habitat_zones.txt
+
+triggered_district_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_knight_add = @pif_zone_habitat_knights_jobs_defense_job_amount_job_knight_add_1
+	mult = owner.value:hab_void_dweller_jobs
+}
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	zone_building_slots_add = @pif_zone_habitat_knights_building_capacity_zone_building_slots_add_2
+}
+
+triggered_district_planet_modifier = {
+	planet_housing_add = @pif_zone_habitat_knights_housing_planet_housing_add_1
+}

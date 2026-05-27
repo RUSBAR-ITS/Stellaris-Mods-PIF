@@ -1,0 +1,6 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_lifecrypt_1
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+# Empty PIF building category hook.

@@ -1,0 +1,31 @@
+# PIF job category: ECONOMY
+# Vanilla job: fe_acolyte_generator
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+resources = {
+	category = planet_technician
+	produces = {
+		energy = @pif_fe_acolyte_generator_job_output_output_energy_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_energy_requisitorium
+			}
+		}
+		energy = @pif_fe_acolyte_generator_job_output_output_energy_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_energy
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_energy_requisitorium
+			}
+		}
+		energy = @pif_fe_acolyte_generator_overlord_output_overlord_output_energy_1
+	}
+}

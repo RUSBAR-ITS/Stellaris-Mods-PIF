@@ -1,0 +1,14 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_agrarian_urban
+# Vanilla source: zones/00_zones.txt
+
+zone_sets = {
+	food
+}
+
+included_building_sets = {
+	farming
+	hydroponics
+	urban
+	farming_automation
+}

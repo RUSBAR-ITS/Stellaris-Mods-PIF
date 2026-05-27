@@ -1,0 +1,20 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_living_metal_clinic
+# Vanilla class: branch
+# Vanilla source: buildings/14_branch_office_buildings.txt
+
+base_cap_amount = @pif_building_living_metal_clinic_limits_base_cap_amount_1
+
+potential = {
+	has_branch_office = yes
+	branch_office_owner = {
+		is_galvanic_empire = yes
+		is_legit_or_legal_criminal = yes
+	}
+}
+
+allow = {
+	owner = {
+		is_gestalt = no
+	}
+}

@@ -1,0 +1,47 @@
+# PIF job category: ECONOMY
+# Vanilla job: agri_drone
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+resources = {
+	category = planet_farmers
+	produces = {
+		food = @pif_agri_drone_job_output_output_food_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_robot_empire = yes
+				is_catalytic_empire = no
+			}
+		}
+		food = @pif_agri_drone_job_output_output_food_2
+	}
+	produces = {
+		trigger = {
+			farmer_is_puddle_technician_trigger = yes
+		}
+		alloys = @pif_agri_drone_job_output_output_alloys_3
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+			}
+		}
+		food = @pif_agri_drone_job_output_output_food_4
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_food
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_produce_requisitorium
+			}
+		}
+		food = @pif_agri_drone_overlord_output_overlord_output_food_1
+	}
+}

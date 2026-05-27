@@ -1,0 +1,8 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: bath_attendant_machine
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+weight = {
+	weight = @pif_bath_attendant_machine_job_weight_weight_1
+}

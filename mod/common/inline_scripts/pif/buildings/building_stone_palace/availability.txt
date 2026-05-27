@@ -1,0 +1,21 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_stone_palace
+# Vanilla class: capital
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_build = no
+
+potential = {
+	exists = owner
+	owner = {
+		is_primitive = yes
+		is_hive_empire = no
+		OR = {
+			has_country_flag = bronze_age
+			has_country_flag = iron_age
+			has_country_flag = late_medieval_age
+			has_country_flag = renaissance_age
+			has_country_flag = steam_age
+		}
+	}
+}

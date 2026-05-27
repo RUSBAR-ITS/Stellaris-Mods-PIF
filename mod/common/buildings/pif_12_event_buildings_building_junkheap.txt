@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: capital
+
+building_junkheap = {
+	capital = yes
+	position_priority = 0
+	capital_tier = 1
+	category = amenity
+	inline_script = "pif/buildings/building_junkheap/building_config"
+	inline_script = "pif/buildings/building_junkheap/availability"
+	inline_script = "pif/buildings/building_junkheap/economy"
+	inline_script = "pif/buildings/building_junkheap/lifecycle"
+	inline_script = "pif/buildings/building_junkheap/jobs"
+	inline_script = "pif/buildings/building_junkheap/country_jobs"
+	inline_script = "pif/buildings/building_junkheap/economic_modifiers"
+	inline_script = "pif/buildings/building_junkheap/pop_modifiers"
+	inline_script = "pif/buildings/building_junkheap/planet_state"
+	inline_script = "pif/buildings/building_junkheap/tpm"
+	inline_script = "pif/buildings/building_junkheap/ai"
+}

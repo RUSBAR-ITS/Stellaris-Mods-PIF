@@ -1,0 +1,26 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_whisperers_sanctum = {
+	base_buildtime = @pif_building_whisperers_sanctum_construction_base_buildtime_1
+	category = government
+	triggered_desc = {
+		trigger = {
+			has_first_contact_dlc = yes
+		}
+		text = covenant_detection_first_contact_effect
+	}
+	inline_script = "pif/buildings/building_whisperers_sanctum/building_config"
+	inline_script = "pif/buildings/building_whisperers_sanctum/availability"
+	inline_script = "pif/buildings/building_whisperers_sanctum/economy"
+	inline_script = "pif/buildings/building_whisperers_sanctum/lifecycle"
+	inline_script = "pif/buildings/building_whisperers_sanctum/jobs"
+	inline_script = "pif/buildings/building_whisperers_sanctum/country_jobs"
+	inline_script = "pif/buildings/building_whisperers_sanctum/economic_modifiers"
+	inline_script = "pif/buildings/building_whisperers_sanctum/pop_modifiers"
+	inline_script = "pif/buildings/building_whisperers_sanctum/planet_state"
+	inline_script = "pif/buildings/building_whisperers_sanctum/tpm"
+	inline_script = "pif/buildings/building_whisperers_sanctum/ai"
+}

@@ -1,0 +1,9 @@
+# PIF zone category: LIFECYCLE
+# Vanilla zone: zone_habitat_exotic_gases
+# Vanilla source: zones/01_habitat_zones.txt
+
+convert_to = {
+	zone_exotic_gases
+	zone_exotic_gases_nexus
+	zone_exotic_gases_hive
+}

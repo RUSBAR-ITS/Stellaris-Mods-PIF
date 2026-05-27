@@ -1,0 +1,38 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_holotemple
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+planet_limit = @pif_building_holotemple_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_spiritualist = yes
+			AND = {
+				is_gestalt = no
+				has_make_spiritualist_perk = yes
+			}
+		}
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+}
+
+allow = {}
+
+prerequisites = {
+	"tech_holographic_rituals"
+}
+
+show_tech_unlock_if = {
+	OR = {
+		is_spiritualist = yes
+		AND = {
+			is_gestalt = no
+			has_make_spiritualist_perk = yes
+		}
+	}
+}

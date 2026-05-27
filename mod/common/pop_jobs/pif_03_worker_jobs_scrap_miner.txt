@@ -1,0 +1,16 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/03_worker_jobs.txt
+# Object type: pop_job
+# Job class: no_category
+
+scrap_miner = {
+	inline_script = "pif/jobs/scrap_miner/swap"
+	inline_script = "pif/jobs/scrap_miner/availability"
+	inline_script = "pif/jobs/scrap_miner/pop_config"
+	inline_script = "pif/jobs/scrap_miner/economy"
+	inline_script = "pif/jobs/scrap_miner/planet_state"
+	inline_script = "pif/jobs/scrap_miner/country_modifiers"
+	inline_script = "pif/jobs/scrap_miner/pop_modifiers"
+	inline_script = "pif/jobs/scrap_miner/economic_modifiers"
+	inline_script = "pif/jobs/scrap_miner/tpm"
+}

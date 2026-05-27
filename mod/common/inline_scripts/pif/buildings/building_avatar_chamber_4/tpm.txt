@@ -1,0 +1,13 @@
+# PIF building category: TPM
+# Vanilla building: building_avatar_chamber_4
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_building_avatar_chamber_4_planet_state_planet_housing_add_1
+	planet_amenities_no_happiness_add = @pif_building_avatar_chamber_4_pop_modifiers_planet_amenities_no_happiness_add_1
+	planet_bureaucrats_produces_mult = @pif_building_avatar_chamber_4_economic_modifiers_planet_bureaucrats_produces_mult_2
+}

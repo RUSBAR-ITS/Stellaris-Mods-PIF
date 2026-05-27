@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla zones/00_zones.txt
+# Object type: zone
+
+zone_resort_proving_grounds = {
+	icon = GFX_district_specialization_duelist
+	base_buildtime = @pif_zone_resort_proving_grounds_construction_zone_build_time_1
+	swap_type = district_resort_proving_grounds
+	swap_type_weight = 5
+	max_buildings = @pif_zone_resort_proving_grounds_building_capacity_max_buildings_1
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_trade_triggered_desc
+	}
+	inline_script = "pif/zones/zone_resort_proving_grounds/availability"
+	inline_script = "pif/zones/zone_resort_proving_grounds/zone_config"
+	inline_script = "pif/zones/zone_resort_proving_grounds/economy"
+	inline_script = "pif/zones/zone_resort_proving_grounds/tpm"
+	inline_script = "pif/zones/zone_resort_proving_grounds/lifecycle"
+	inline_script = "pif/zones/zone_resort_proving_grounds/ai"
+}

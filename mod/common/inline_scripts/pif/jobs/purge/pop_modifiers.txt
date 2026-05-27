@@ -1,0 +1,6 @@
+# PIF job category: POP_MODIFIERS
+# Vanilla job: purge
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+# Empty PIF job category hook.

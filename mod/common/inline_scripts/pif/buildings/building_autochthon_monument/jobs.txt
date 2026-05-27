@@ -1,0 +1,6 @@
+# PIF building category: JOBS
+# Vanilla building: building_autochthon_monument
+# Vanilla class: regular
+# Vanilla source: buildings/08_unity_buildings.txt
+
+# Empty PIF building category hook.

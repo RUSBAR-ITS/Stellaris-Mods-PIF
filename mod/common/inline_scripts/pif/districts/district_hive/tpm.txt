@@ -1,0 +1,67 @@
+# PIF category: TPM
+# Vanilla district: district_hive
+# Vanilla source: districts/00_urban_districts.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_housing_add = @pif_district_hive_housing_planet_housing_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		is_planet_class = pc_hive
+	}
+	modifier = {
+		planet_housing_add = @pif_district_hive_housing_planet_housing_add_2
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_1
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_hive_housing_planet_housing_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_2
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_hive_housing_planet_housing_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_active_tradition = tr_prosperity_extended_hives
+		}
+	}
+	modifier = {
+		planet_housing_add = @pif_district_hive_housing_planet_housing_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_tankbound_empire = yes
+		}
+	}
+	modifier = {
+		job_production_overseer_add = @pif_district_hive_jobs_job_production_overseer_add
+	}
+}

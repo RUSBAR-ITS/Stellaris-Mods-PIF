@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_identity_complex
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_identity_designer_add = @pif_building_identity_complex_jobs_job_identity_designer_add_1
+}

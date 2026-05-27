@@ -1,0 +1,633 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: COUNTRY_MODIFIERS
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# archivist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/archivist/country_modifiers.txt
+@pif_archivist_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/archivist/country_modifiers.txt
+@pif_archivist_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# astral_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/country_modifiers.txt
+@pif_astral_drone_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/country_modifiers.txt
+@pif_astral_drone_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# astral_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/country_modifiers.txt
+@pif_astral_researcher_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/country_modifiers.txt
+@pif_astral_researcher_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# astral_unit
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/astral_unit/country_modifiers.txt
+@pif_astral_unit_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/country_modifiers.txt
+@pif_battle_thrall_country_modifiers_country_naval_cap_add_1 = 4
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/country_modifiers.txt
+@pif_battle_thrall_country_modifiers_country_naval_cap_add_2 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/country_modifiers.txt
+@pif_battle_thrall_country_modifiers_country_naval_cap_add_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# biologist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/biologist/country_modifiers.txt
+@pif_biologist_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/biologist/country_modifiers.txt
+@pif_biologist_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# broken_shackles_scavenger
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/broken_shackles_scavenger/country_modifiers.txt
+@pif_broken_shackles_scavenger_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/country_modifiers.txt
+@pif_bureaucrat_country_modifiers_country_edict_fund_add_2 = 1
+
+# Controls: Job modifier value: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/country_modifiers.txt
+@pif_bureaucrat_country_modifiers_country_edict_fund_add_3 = 2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/country_modifiers.txt
+@pif_bureaucrat_country_modifiers_country_naval_cap_add_1 = 0.125
+
+# -----------------------------------------------------------------------------
+# calculator_biologist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/country_modifiers.txt
+@pif_calculator_biologist_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/country_modifiers.txt
+@pif_calculator_biologist_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# calculator_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/country_modifiers.txt
+@pif_calculator_engineer_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/country_modifiers.txt
+@pif_calculator_engineer_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# calculator_physicist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/country_modifiers.txt
+@pif_calculator_physicist_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/country_modifiers.txt
+@pif_calculator_physicist_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# civilian
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/jobs/civilian/country_modifiers.txt
+@pif_civilian_country_modifiers_country_edict_fund_add_1 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/civilian/country_modifiers.txt
+@pif_civilian_country_modifiers_country_naval_cap_add_2 = 0.125
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/country_modifiers.txt
+@pif_dimensional_portal_researcher_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/country_modifiers.txt
+@pif_dimensional_portal_researcher_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/country_modifiers.txt
+@pif_dimensional_portal_researcher_gestalt_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/country_modifiers.txt
+@pif_dimensional_portal_researcher_gestalt_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# drone_energy_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: species_leader_exp_gain.
+# Used in: common/inline_scripts/pif/jobs/drone_energy_thrall/country_modifiers.txt
+@pif_drone_energy_thrall_country_modifiers_species_leader_exp_gain_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# dystopian_telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/country_modifiers.txt
+@pif_dystopian_telepath_country_modifiers_country_edict_fund_add_4 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/country_modifiers.txt
+@pif_dystopian_telepath_country_modifiers_country_naval_cap_add_1 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/country_modifiers.txt
+@pif_dystopian_telepath_country_modifiers_country_naval_cap_add_2 = 1.5
+
+# Controls: Job modifier value: diplo_weight_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/country_modifiers.txt
+@pif_dystopian_telepath_country_modifiers_diplo_weight_mult_7 = 0.02
+
+# Controls: Job modifier value: leader_lifespan_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/country_modifiers.txt
+@pif_dystopian_telepath_country_modifiers_leader_lifespan_mult_6 = 0.01
+
+# Controls: Job modifier value: pop_factions_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/country_modifiers.txt
+@pif_dystopian_telepath_country_modifiers_pop_factions_produces_mult_3 = 0.05
+
+# Controls: Job modifier value: psionic_aura_effectiveness_mult.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/country_modifiers.txt
+@pif_dystopian_telepath_country_modifiers_psionic_aura_effectiveness_mult_5 = 0.01
+
+# -----------------------------------------------------------------------------
+# energy_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: species_leader_exp_gain.
+# Used in: common/inline_scripts/pif/jobs/energy_thrall/country_modifiers.txt
+@pif_energy_thrall_country_modifiers_species_leader_exp_gain_1 = 0.05
+
+# -----------------------------------------------------------------------------
+# engineer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/engineer/country_modifiers.txt
+@pif_engineer_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/engineer/country_modifiers.txt
+@pif_engineer_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# entertainer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/entertainer/country_modifiers.txt
+@pif_entertainer_country_modifiers_country_naval_cap_add_1 = 2
+
+# -----------------------------------------------------------------------------
+# experiment_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer/country_modifiers.txt
+@pif_experiment_engineer_country_modifiers_country_naval_cap_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# experiment_engineer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer_drone/country_modifiers.txt
+@pif_experiment_engineer_drone_country_modifiers_country_naval_cap_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# foundry
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/foundry/country_modifiers.txt
+@pif_foundry_country_modifiers_country_naval_cap_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# gestation_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: logistic_growth_mult.
+# Used in: common/inline_scripts/pif/jobs/gestation_drone/country_modifiers.txt
+@pif_gestation_drone_country_modifiers_logistic_growth_mult_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# haruspex
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/jobs/haruspex/country_modifiers.txt
+@pif_haruspex_country_modifiers_country_edict_fund_add_1 = 2
+
+# -----------------------------------------------------------------------------
+# healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: biomorphosis_progress_mult.
+# Used in: common/inline_scripts/pif/jobs/healthcare/country_modifiers.txt
+@pif_healthcare_country_modifiers_biomorphosis_progress_mult_1 = 0.0125
+
+# -----------------------------------------------------------------------------
+# identity_designer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: artisan_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/country_modifiers.txt
+@pif_identity_designer_country_modifiers_artisan_jobs_bonus_workforce_mult_3 = 0.025
+
+# Controls: Job modifier value: biologist_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/country_modifiers.txt
+@pif_identity_designer_country_modifiers_biologist_jobs_bonus_workforce_mult_6 = 0.025
+
+# Controls: Job modifier value: bureaucrat_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/country_modifiers.txt
+@pif_identity_designer_country_modifiers_bureaucrat_jobs_bonus_workforce_mult_4 = 0.025
+
+# Controls: Job modifier value: engineer_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/country_modifiers.txt
+@pif_identity_designer_country_modifiers_engineer_jobs_bonus_workforce_mult_7 = 0.025
+
+# Controls: Job modifier value: foundry_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/country_modifiers.txt
+@pif_identity_designer_country_modifiers_foundry_jobs_bonus_workforce_mult_2 = 0.025
+
+# Controls: Job modifier value: physicist_jobs_bonus_workforce_mult.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/country_modifiers.txt
+@pif_identity_designer_country_modifiers_physicist_jobs_bonus_workforce_mult_5 = 0.025
+
+# Controls: Job modifier value: planet_pop_assembly_add.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/country_modifiers.txt
+@pif_identity_designer_country_modifiers_planet_pop_assembly_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# knight
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/knight/country_modifiers.txt
+@pif_knight_country_modifiers_country_naval_cap_add_1 = 4
+
+# Controls: Job modifier value: knight_quest_progress_add.
+# Used in: common/inline_scripts/pif/jobs/knight/country_modifiers.txt
+@pif_knight_country_modifiers_knight_quest_progress_add_2 = 0.010
+
+# -----------------------------------------------------------------------------
+# knight_commander
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/knight_commander/country_modifiers.txt
+@pif_knight_commander_country_modifiers_country_naval_cap_add_1 = 600
+
+# -----------------------------------------------------------------------------
+# low_tech_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/low_tech_researcher/country_modifiers.txt
+@pif_low_tech_researcher_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# manufactorium_complex_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_complex_drone/country_modifiers.txt
+@pif_manufactorium_complex_drone_country_modifiers_country_naval_cap_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# manufactorium_specialist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/country_modifiers.txt
+@pif_manufactorium_specialist_country_modifiers_country_naval_cap_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioner
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioner/country_modifiers.txt
+@pif_munitions_decommissioner_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioner/country_modifiers.txt
+@pif_munitions_decommissioner_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_drone/country_modifiers.txt
+@pif_munitions_decommissioning_drone_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_unit
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit/country_modifiers.txt
+@pif_munitions_decommissioning_unit_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit/country_modifiers.txt
+@pif_munitions_decommissioning_unit_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_unit_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit_lithoid/country_modifiers.txt
+@pif_munitions_decommissioning_unit_lithoid_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit_lithoid/country_modifiers.txt
+@pif_munitions_decommissioning_unit_lithoid_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# nanotech_research_unit
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/country_modifiers.txt
+@pif_nanotech_research_unit_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# nanotech_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/nanotech_researcher/country_modifiers.txt
+@pif_nanotech_researcher_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# -----------------------------------------------------------------------------
+# odd_factory_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/odd_factory_drone/country_modifiers.txt
+@pif_odd_factory_drone_country_modifiers_country_naval_cap_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# odd_factory_worker
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/odd_factory_worker/country_modifiers.txt
+@pif_odd_factory_worker_country_modifiers_country_naval_cap_add_1 = 1
+
+# -----------------------------------------------------------------------------
+# physicist
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/physicist/country_modifiers.txt
+@pif_physicist_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/physicist/country_modifiers.txt
+@pif_physicist_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# resort_worker
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: planet_pops_trade_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/resort_worker/country_modifiers.txt
+@pif_resort_worker_country_modifiers_planet_pops_trade_produces_mult_2 = 0.02
+
+# Controls: Job modifier value: pop_amenities_usage_mult.
+# Used in: common/inline_scripts/pif/jobs/resort_worker/country_modifiers.txt
+@pif_resort_worker_country_modifiers_pop_amenities_usage_mult_1 = -0.01
+
+# -----------------------------------------------------------------------------
+# shroud_trader
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: category_psionics_draw_chance_mult.
+# Used in: common/inline_scripts/pif/jobs/shroud_trader/country_modifiers.txt
+@pif_shroud_trader_country_modifiers_category_psionics_draw_chance_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# skywatcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/country_modifiers.txt
+@pif_skywatcher_country_modifiers_country_naval_cap_add_1 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/country_modifiers.txt
+@pif_skywatcher_country_modifiers_country_naval_cap_add_2 = 0.5
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/country_modifiers.txt
+@pif_skywatcher_country_modifiers_country_naval_cap_add_3 = 6
+
+# -----------------------------------------------------------------------------
+# skywatcher_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/country_modifiers.txt
+@pif_skywatcher_drone_country_modifiers_country_naval_cap_add_1 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/country_modifiers.txt
+@pif_skywatcher_drone_country_modifiers_country_naval_cap_add_2 = 0.5
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/country_modifiers.txt
+@pif_skywatcher_drone_country_modifiers_country_naval_cap_add_3 = 6
+
+# -----------------------------------------------------------------------------
+# soldier
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/country_modifiers.txt
+@pif_soldier_country_modifiers_country_naval_cap_add_1 = 4
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/country_modifiers.txt
+@pif_soldier_country_modifiers_country_naval_cap_add_2 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/soldier/country_modifiers.txt
+@pif_soldier_country_modifiers_country_naval_cap_add_3 = 0.5
+
+# -----------------------------------------------------------------------------
+# space_time_anomaly_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher/country_modifiers.txt
+@pif_space_time_anomaly_researcher_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher/country_modifiers.txt
+@pif_space_time_anomaly_researcher_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# space_time_anomaly_researcher_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher_gestalt/country_modifiers.txt
+@pif_space_time_anomaly_researcher_gestalt_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher_gestalt/country_modifiers.txt
+@pif_space_time_anomaly_researcher_gestalt_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: biomorphosis_progress_mult.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/country_modifiers.txt
+@pif_spawning_drone_country_modifiers_biomorphosis_progress_mult_1 = 0.0125
+
+# -----------------------------------------------------------------------------
+# squire
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/squire/country_modifiers.txt
+@pif_squire_country_modifiers_country_naval_cap_add_1 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/squire/country_modifiers.txt
+@pif_squire_country_modifiers_country_naval_cap_add_2 = 0.5
+
+# -----------------------------------------------------------------------------
+# stratovent_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/stratovent_researcher/country_modifiers.txt
+@pif_stratovent_researcher_country_modifiers_country_naval_cap_add_1 = 0.2
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/stratovent_researcher/country_modifiers.txt
+@pif_stratovent_researcher_country_modifiers_country_naval_cap_add_2 = 1
+
+# -----------------------------------------------------------------------------
+# telepath
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/country_modifiers.txt
+@pif_telepath_country_modifiers_country_edict_fund_add_4 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/country_modifiers.txt
+@pif_telepath_country_modifiers_country_naval_cap_add_1 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/telepath/country_modifiers.txt
+@pif_telepath_country_modifiers_country_naval_cap_add_2 = 1.5
+
+# Controls: Job modifier value: diplo_weight_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/country_modifiers.txt
+@pif_telepath_country_modifiers_diplo_weight_mult_7 = 0.02
+
+# Controls: Job modifier value: leader_lifespan_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/country_modifiers.txt
+@pif_telepath_country_modifiers_leader_lifespan_mult_6 = 0.01
+
+# Controls: Job modifier value: pop_factions_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/country_modifiers.txt
+@pif_telepath_country_modifiers_pop_factions_produces_mult_3 = 0.05
+
+# Controls: Job modifier value: psionic_aura_effectiveness_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath/country_modifiers.txt
+@pif_telepath_country_modifiers_psionic_aura_effectiveness_mult_5 = 0.01
+
+# -----------------------------------------------------------------------------
+# telepath_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_edict_fund_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_country_edict_fund_add_4 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_country_naval_cap_add_1 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_country_naval_cap_add_2 = 1.5
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_country_naval_cap_add_8 = 5
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_country_naval_cap_add_9 = 7
+
+# Controls: Job modifier value: diplo_weight_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_diplo_weight_mult_7 = 0.02
+
+# Controls: Job modifier value: leader_lifespan_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_leader_lifespan_mult_6 = 0.01
+
+# Controls: Job modifier value: pop_factions_produces_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_pop_factions_produces_mult_3 = 0.05
+
+# Controls: Job modifier value: psionic_aura_effectiveness_mult.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/country_modifiers.txt
+@pif_telepath_drone_country_modifiers_psionic_aura_effectiveness_mult_5 = 0.01
+
+# -----------------------------------------------------------------------------
+# transference_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: ship_armor_mult.
+# Used in: common/inline_scripts/pif/jobs/transference_drone/country_modifiers.txt
+@pif_transference_drone_country_modifiers_ship_armor_mult_2 = 0.01
+
+# Controls: Job modifier value: ship_fire_rate_mult.
+# Used in: common/inline_scripts/pif/jobs/transference_drone/country_modifiers.txt
+@pif_transference_drone_country_modifiers_ship_fire_rate_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# transference_volunteer
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: ship_armor_mult.
+# Used in: common/inline_scripts/pif/jobs/transference_volunteer/country_modifiers.txt
+@pif_transference_volunteer_country_modifiers_ship_armor_mult_2 = 0.01
+
+# Controls: Job modifier value: ship_fire_rate_mult.
+# Used in: common/inline_scripts/pif/jobs/transference_volunteer/country_modifiers.txt
+@pif_transference_volunteer_country_modifiers_ship_fire_rate_mult_1 = 0.01
+
+# -----------------------------------------------------------------------------
+# warrior_drone
+# -----------------------------------------------------------------------------
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/country_modifiers.txt
+@pif_warrior_drone_country_modifiers_country_naval_cap_add_1 = 4
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/country_modifiers.txt
+@pif_warrior_drone_country_modifiers_country_naval_cap_add_2 = 1
+
+# Controls: Job modifier value: country_naval_cap_add.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/country_modifiers.txt
+@pif_warrior_drone_country_modifiers_country_naval_cap_add_3 = 0.5

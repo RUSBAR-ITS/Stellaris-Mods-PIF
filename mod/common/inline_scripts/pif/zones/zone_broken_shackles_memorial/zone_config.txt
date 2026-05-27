@@ -1,0 +1,13 @@
+# PIF zone category: ZONE_CONFIG
+# Vanilla zone: zone_broken_shackles_memorial
+# Vanilla source: zones/02_special_zones.txt
+
+zone_sets = {
+	special
+}
+
+included_building_sets = {
+	research
+	unity
+	origin
+}

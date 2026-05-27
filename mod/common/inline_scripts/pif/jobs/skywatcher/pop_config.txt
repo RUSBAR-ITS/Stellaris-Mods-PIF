@@ -1,0 +1,94 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: skywatcher
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+tags = {
+	soldier
+}
+
+weight = {
+	weight = @pif_skywatcher_job_weight_weight_1
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_2
+		exists = planet
+		planet = {
+			exists = leader
+			leader = {
+				leader_class = commander
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_3
+		has_trait = trait_resilient
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_3
+		has_trait = trait_very_strong
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_4
+		has_trait = trait_strong
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_5
+		has_trait = trait_weak
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_6
+		is_enslaved = yes
+		NOT = {
+			has_slavery_type = {
+				type = slavery_military
+			}
+		}
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_2
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_military
+		}
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_6
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_7
+		has_trait = trait_cybernetic
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_3
+		has_trait = trait_presapient_earthbound
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_7
+		has_trait = trait_limited_regeneration
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_8
+		species = {
+			can_be_soldier = no
+		}
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_3
+		has_trait = trait_lithoid
+	}
+	modifier = {
+		factor = @pif_skywatcher_job_weight_factor_9
+		has_trait = trait_cyborg_creed_of_war
+	}
+}
+
+promotion = {
+	time = @pif_skywatcher_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

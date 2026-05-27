@@ -1,0 +1,18 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: assimilation
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+tags = {
+	assimilation
+}
+
+ignores_sapience = @pif_assimilation_job_flags_ignores_sapience_2
+
+weight = {
+	weight = @pif_assimilation_job_weight_weight_1
+	modifier = {
+		factor = @pif_assimilation_job_weight_factor_2
+		is_being_assimilated = yes
+	}
+}

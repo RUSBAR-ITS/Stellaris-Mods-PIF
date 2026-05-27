@@ -1,0 +1,11 @@
+# PIF job category: ECONOMY
+# Vanilla job: reassigner
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+resources = {
+	category = planet_jobs
+	upkeep = {
+		consumer_goods = @pif_reassigner_job_upkeep_upkeep_consumer_goods_1
+	}
+}

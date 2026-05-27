@@ -1,0 +1,34 @@
+# PIF building category: ECONOMIC_MODIFIERS
+# Vanilla building: building_mineral_purification_hub
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		NOT = {
+			is_planet_class = pc_shattered_ring_habitable
+		}
+	}
+	modifier = {
+		planet_miners_minerals_produces_add = @pif_building_mineral_purification_hub_economic_modifiers_planet_miners_minerals_produces_add_1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		is_planet_class = pc_shattered_ring_habitable
+	}
+	modifier = {
+		planet_miners_minerals_produces_add = @pif_building_mineral_purification_hub_economic_modifiers_planet_miners_minerals_produces_add_2
+		planet_miners_alloys_produces_add = @pif_building_mineral_purification_hub_economic_modifiers_planet_miners_alloys_produces_add_3
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		has_ringworld_output_boost = yes
+	}
+	modifier = {
+		planet_miners_minerals_produces_add = @pif_building_mineral_purification_hub_economic_modifiers_planet_miners_minerals_produces_add_2
+	}
+}

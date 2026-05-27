@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_syndicate_outreach_office = {
+	base_buildtime = @pif_building_syndicate_outreach_office_construction_base_buildtime_1
+	owner_type = corporate
+	category = government
+	custom_tooltip = branch_office_building_trade_bonus
+	inline_script = "pif/buildings/building_syndicate_outreach_office/building_config"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/availability"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/economy"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/lifecycle"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/jobs"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/country_jobs"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/economic_modifiers"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/pop_modifiers"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/planet_state"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/tpm"
+	inline_script = "pif/buildings/building_syndicate_outreach_office/ai"
+}

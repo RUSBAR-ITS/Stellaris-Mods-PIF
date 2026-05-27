@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_hive_node = {
+	base_buildtime = @pif_building_hive_node_construction_base_buildtime_1
+	category = unity
+	inline_script = "pif/buildings/building_hive_node/building_config"
+	inline_script = "pif/buildings/building_hive_node/availability"
+	inline_script = "pif/buildings/building_hive_node/economy"
+	inline_script = "pif/buildings/building_hive_node/lifecycle"
+	inline_script = "pif/buildings/building_hive_node/jobs"
+	inline_script = "pif/buildings/building_hive_node/country_jobs"
+	inline_script = "pif/buildings/building_hive_node/economic_modifiers"
+	inline_script = "pif/buildings/building_hive_node/pop_modifiers"
+	inline_script = "pif/buildings/building_hive_node/planet_state"
+	inline_script = "pif/buildings/building_hive_node/tpm"
+	inline_script = "pif/buildings/building_hive_node/ai"
+}

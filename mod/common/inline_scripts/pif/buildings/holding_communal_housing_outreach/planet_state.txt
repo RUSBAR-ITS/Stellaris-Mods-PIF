@@ -1,0 +1,31 @@
+# PIF building category: PLANET_STATE
+# Vanilla building: holding_communal_housing_outreach
+# Vanilla class: holding
+# Vanilla source: buildings/15_overlord_holdings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_amenities_add = @pif_holding_communal_housing_outreach_planet_state_planet_amenities_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = no
+		}
+	}
+	planet_housing_add = @pif_holding_communal_housing_outreach_planet_state_planet_housing_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_wilderness_empire = yes
+		}
+	}
+	planet_building_build_speed_mult = @pif_holding_communal_housing_outreach_construction_planet_building_build_speed_mult_2
+}

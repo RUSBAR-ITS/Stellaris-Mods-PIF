@@ -1,0 +1,5 @@
+# PIF category: AI
+# Vanilla district: district_srw_commercial
+# Vanilla source: districts/00_urban_districts.txt
+
+

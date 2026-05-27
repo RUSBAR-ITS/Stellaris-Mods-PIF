@@ -1,0 +1,11 @@
+# PIF job category: PLANET_STATE
+# Vanilla job: transference_volunteer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/15_biogenesis_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	planet_stability_add = @pif_transference_volunteer_planet_state_planet_stability_add_1
+}

@@ -1,0 +1,15 @@
+# PIF building category: ECONOMY
+# Vanilla building: building_ancient_cryo_chamber
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+resources = {
+	category = planet_buildings
+	cost = {
+		alloys = @pif_building_ancient_cryo_chamber_cost_cost_alloys_1
+	}
+	upkeep = {
+		sr_living_metal = @pif_building_ancient_cryo_chamber_upkeep_upkeep_sr_living_metal_1
+		energy = @pif_building_ancient_cryo_chamber_upkeep_upkeep_energy_2
+	}
+}

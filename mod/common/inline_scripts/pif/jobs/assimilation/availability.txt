@@ -1,0 +1,19 @@
+# PIF job category: AVAILABILITY
+# Vanilla job: assimilation
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+is_capped_by_modifier = @pif_assimilation_job_flags_is_capped_by_modifier_1
+
+possible_pre_triggers = {
+	is_sapient = yes
+	is_robotic = no
+}
+
+possible = {
+	exists = owner
+	has_citizenship_type = {
+		type = citizenship_assimilation
+		country = owner
+	}
+}

@@ -1,0 +1,10 @@
+# PIF building category: TPM
+# Vanilla building: building_great_pyramid
+# Vanilla class: regular
+# Vanilla source: buildings/12_event_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+}

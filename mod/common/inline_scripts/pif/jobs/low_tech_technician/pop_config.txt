@@ -1,0 +1,32 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: low_tech_technician
+# Vanilla class: worker
+# Vanilla source: pop_jobs/09_first_contact_jobs.txt
+
+tags = {
+	energy
+}
+
+weight = {
+	weight = @pif_low_tech_technician_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|low_tech_technician|RESOURCE|energy|
+}
+
+auto_trait_prio = {
+	trait_ingenious
+	trait_technical_skill
+	trait_robot_superconductive
+	trait_cyborg_superconductive
+	trait_malleable_energy
+	trait_adaptive_energy
+}
+
+promotion = {
+	time = @pif_low_tech_technician_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = worker
+			AMOUNT = local_pop_amount
+		}
+	}
+}

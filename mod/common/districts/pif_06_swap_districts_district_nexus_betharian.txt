@@ -1,0 +1,98 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla districts/06_swap_districts.txt
+# Object class: active_mask
+
+district_nexus_betharian = {
+	icon = district_mining
+	overlay_icon = GFX_district_energy
+	gridbox = district_generator
+	zone_slots = {
+		slot_empty
+	}
+	show_on_uncolonized = {
+		always = no
+	}
+	potential = {
+		always = no
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_betharian_4
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_betharian_3
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_betharian_2
+	}
+	triggered_name = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_betharian_1
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_3
+			}
+		}
+		text = mining_betharian_4_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_2
+			}
+		}
+		text = mining_betharian_3_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_mining_1
+			}
+		}
+		text = mining_betharian_2_desc
+	}
+	triggered_flavor_desc = {
+		trigger = {
+			has_any_betharian_zone = yes
+			exists = owner
+			owner = {
+				has_technology = tech_powered_exoskeletons
+			}
+		}
+		text = mining_betharian_1_desc
+	}
+}

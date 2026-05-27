@@ -1,0 +1,13 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_chamber_of_silence
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+base_cap_amount = @pif_building_chamber_of_silence_limits_base_cap_amount_1
+
+potential = {
+	owner = {
+		has_tradition = tr_psionics_shroud_psi_corps
+		has_origin = origin_endbringers
+	}
+}

@@ -1,0 +1,32 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_hydroponics_farm
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+destroy_trigger = {
+	exists = owner
+	OR = {
+		owner = {
+			OR = {
+				AND = {
+					is_ai = yes
+					country_uses_food = no
+				}
+				is_wilderness_empire = yes
+			}
+		}
+		planet = {
+			NOT = {
+				is_planet_class = pc_habitat
+			}
+			free_building_slots = @pif_building_hydroponics_farm_planet_state_free_building_slots_1
+			owner = {
+				is_ai = yes
+				has_monthly_income = {
+					resource = food
+					value > 100
+				}
+			}
+		}
+	}
+}

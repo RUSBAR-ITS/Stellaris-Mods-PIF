@@ -1,0 +1,11 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: drone_energy_thrall
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+	}
+	species_leader_exp_gain = @pif_drone_energy_thrall_country_modifiers_species_leader_exp_gain_1
+}

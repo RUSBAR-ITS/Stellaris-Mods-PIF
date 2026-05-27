@@ -1,0 +1,42 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_nourishment_complex
+# Vanilla class: regular
+# Vanilla source: buildings/13_fallen_empire_buildings.txt
+
+can_build = yes
+
+planet_limit = @pif_building_nourishment_complex_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		OR = {
+			is_fallen_empire = yes
+			has_country_flag = nourishment_complex_can_build
+			has_technology = tech_fe_nourishment_1
+		}
+	}
+	NOR = {
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = penal_colony
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = ancrel.10004.failtext
+		owner = {
+			OR = {
+				check_variable = {
+					which = nourishment_complex_build_count
+					value >= 1
+				}
+				is_fallen_empire = yes
+				has_technology = tech_fe_nourishment_1
+			}
+		}
+	}
+}
+
+show_in_tech = tech_fe_nourishment_1

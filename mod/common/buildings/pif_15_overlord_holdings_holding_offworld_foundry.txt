@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/15_overlord_holdings.txt
+# Object type: building
+# Building class: holding
+
+holding_offworld_foundry = {
+	base_buildtime = @pif_holding_offworld_foundry_construction_base_buildtime_1
+	owner_type = subject_holding
+	icon = holding_offworld_foundry
+	category = manufacturing
+	inline_script = "pif/buildings/holding_offworld_foundry/building_config"
+	inline_script = "pif/buildings/holding_offworld_foundry/availability"
+	inline_script = "pif/buildings/holding_offworld_foundry/economy"
+	inline_script = "pif/buildings/holding_offworld_foundry/lifecycle"
+	inline_script = "pif/buildings/holding_offworld_foundry/jobs"
+	inline_script = "pif/buildings/holding_offworld_foundry/country_jobs"
+	inline_script = "pif/buildings/holding_offworld_foundry/economic_modifiers"
+	inline_script = "pif/buildings/holding_offworld_foundry/pop_modifiers"
+	inline_script = "pif/buildings/holding_offworld_foundry/planet_state"
+	inline_script = "pif/buildings/holding_offworld_foundry/tpm"
+	inline_script = "pif/buildings/holding_offworld_foundry/ai"
+}

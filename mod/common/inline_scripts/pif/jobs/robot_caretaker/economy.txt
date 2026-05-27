@@ -1,0 +1,12 @@
+# PIF job category: ECONOMY
+# Vanilla job: robot_caretaker
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/06_event_jobs.txt
+
+resources = {
+	category = planet_bureaucrats
+	produces = {
+		unity = @pif_robot_caretaker_job_output_output_unity_1
+		engineering_research = @pif_robot_caretaker_job_output_output_engineering_research_2
+	}
+}

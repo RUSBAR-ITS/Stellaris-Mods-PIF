@@ -1,0 +1,23 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/12_event_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_nuumismatic_shrine = {
+	base_buildtime = @pif_building_nuumismatic_shrine_construction_base_buildtime_1
+	category = unity
+	triggered_desc = {
+		text = bureaucrat_is_numistic_priest_tt
+	}
+	inline_script = "pif/buildings/building_nuumismatic_shrine/building_config"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/availability"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/economy"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/lifecycle"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/jobs"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/country_jobs"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/economic_modifiers"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/pop_modifiers"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/planet_state"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/tpm"
+	inline_script = "pif/buildings/building_nuumismatic_shrine/ai"
+}

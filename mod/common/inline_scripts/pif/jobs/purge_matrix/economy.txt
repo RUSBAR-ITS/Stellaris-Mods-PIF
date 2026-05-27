@@ -1,0 +1,45 @@
+# PIF job category: ECONOMY
+# Vanilla job: purge_matrix
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/00_other_jobs.txt
+
+resources = {
+	category = pop_category_purge
+	produces = {
+		energy = @pif_purge_matrix_job_output_output_energy_1
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_fanatic_purifiers
+			}
+		}
+		unity = @pif_purge_matrix_job_output_output_unity_2
+	}
+	produces = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_hive_devouring_swarm
+			}
+		}
+		society_research = @pif_purge_matrix_job_output_output_society_research_3
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_energy_grid
+			}
+		}
+		energy = @pif_purge_matrix_job_output_output_energy_4
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_active_building = building_energy_nexus
+			}
+		}
+		energy = @pif_purge_matrix_job_output_output_energy_5
+	}
+}

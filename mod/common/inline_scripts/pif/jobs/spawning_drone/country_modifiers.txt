@@ -1,0 +1,15 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		healthcare_is_genomic_researcher_trigger = yes
+		exists = owner
+		owner = {
+			has_completed_genetic_situation = no
+		}
+	}
+	biomorphosis_progress_mult = @pif_spawning_drone_country_modifiers_biomorphosis_progress_mult_1
+}

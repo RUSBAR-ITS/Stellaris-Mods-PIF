@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/08_unity_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_alpha_hub = {
+	base_buildtime = @pif_building_alpha_hub_construction_base_buildtime_1
+	icon = building_autocurating_vault
+	category = unity
+	inline_script = "pif/buildings/building_alpha_hub/building_config"
+	inline_script = "pif/buildings/building_alpha_hub/availability"
+	inline_script = "pif/buildings/building_alpha_hub/economy"
+	inline_script = "pif/buildings/building_alpha_hub/lifecycle"
+	inline_script = "pif/buildings/building_alpha_hub/jobs"
+	inline_script = "pif/buildings/building_alpha_hub/country_jobs"
+	inline_script = "pif/buildings/building_alpha_hub/economic_modifiers"
+	inline_script = "pif/buildings/building_alpha_hub/pop_modifiers"
+	inline_script = "pif/buildings/building_alpha_hub/planet_state"
+	inline_script = "pif/buildings/building_alpha_hub/tpm"
+	inline_script = "pif/buildings/building_alpha_hub/ai"
+}

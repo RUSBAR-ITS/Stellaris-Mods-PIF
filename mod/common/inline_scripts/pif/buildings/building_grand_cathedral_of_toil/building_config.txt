@@ -1,0 +1,12 @@
+# PIF building category: BUILDING_CONFIG
+# Vanilla building: building_grand_cathedral_of_toil
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+building_sets = {
+	government
+	generator
+	mining
+	farming
+	unity
+}

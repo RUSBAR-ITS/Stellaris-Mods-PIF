@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/04_manufacturing_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_archaeo_refinery = {
+	base_buildtime = @pif_building_archaeo_refinery_construction_base_buildtime_1
+	category = manufacturing
+	inline_script = "pif/buildings/building_archaeo_refinery/building_config"
+	inline_script = "pif/buildings/building_archaeo_refinery/availability"
+	inline_script = "pif/buildings/building_archaeo_refinery/economy"
+	inline_script = "pif/buildings/building_archaeo_refinery/lifecycle"
+	inline_script = "pif/buildings/building_archaeo_refinery/jobs"
+	inline_script = "pif/buildings/building_archaeo_refinery/country_jobs"
+	inline_script = "pif/buildings/building_archaeo_refinery/economic_modifiers"
+	inline_script = "pif/buildings/building_archaeo_refinery/pop_modifiers"
+	inline_script = "pif/buildings/building_archaeo_refinery/planet_state"
+	inline_script = "pif/buildings/building_archaeo_refinery/tpm"
+	inline_script = "pif/buildings/building_archaeo_refinery/ai"
+}

@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/15_gestalt_unemployment.txt
+# Object type: pop_job
+# Job class: special_other
+
+simple_drone_unemployment = {
+	category = simple_drone_unemployment
+	inline_script = "pif/jobs/simple_drone_unemployment/swap"
+	inline_script = "pif/jobs/simple_drone_unemployment/availability"
+	inline_script = "pif/jobs/simple_drone_unemployment/pop_config"
+	inline_script = "pif/jobs/simple_drone_unemployment/economy"
+	inline_script = "pif/jobs/simple_drone_unemployment/planet_state"
+	inline_script = "pif/jobs/simple_drone_unemployment/country_modifiers"
+	inline_script = "pif/jobs/simple_drone_unemployment/pop_modifiers"
+	inline_script = "pif/jobs/simple_drone_unemployment/economic_modifiers"
+	inline_script = "pif/jobs/simple_drone_unemployment/tpm"
+}

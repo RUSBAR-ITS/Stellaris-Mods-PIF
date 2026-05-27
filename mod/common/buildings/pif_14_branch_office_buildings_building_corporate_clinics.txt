@@ -1,0 +1,30 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/14_branch_office_buildings.txt
+# Object type: building
+# Building class: branch
+
+building_corporate_clinics = {
+	base_buildtime = @pif_building_corporate_clinics_construction_base_buildtime_1
+	icon = building_corporate_clinic
+	owner_type = corporate
+	category = resource
+	custom_tooltip = branch_office_building_trade_bonus
+	custom_tooltip = trade_value_from_specialists
+	triggered_desc = {
+		trigger = {
+			exists = planet.owner
+		}
+		text = building_corporate_clinics_effect
+	}
+	inline_script = "pif/buildings/building_corporate_clinics/building_config"
+	inline_script = "pif/buildings/building_corporate_clinics/availability"
+	inline_script = "pif/buildings/building_corporate_clinics/economy"
+	inline_script = "pif/buildings/building_corporate_clinics/lifecycle"
+	inline_script = "pif/buildings/building_corporate_clinics/jobs"
+	inline_script = "pif/buildings/building_corporate_clinics/country_jobs"
+	inline_script = "pif/buildings/building_corporate_clinics/economic_modifiers"
+	inline_script = "pif/buildings/building_corporate_clinics/pop_modifiers"
+	inline_script = "pif/buildings/building_corporate_clinics/planet_state"
+	inline_script = "pif/buildings/building_corporate_clinics/tpm"
+	inline_script = "pif/buildings/building_corporate_clinics/ai"
+}

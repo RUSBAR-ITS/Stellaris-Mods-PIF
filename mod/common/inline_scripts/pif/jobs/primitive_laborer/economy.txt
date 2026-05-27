@@ -1,0 +1,15 @@
+# PIF job category: ECONOMY
+# Vanilla job: primitive_laborer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+resources = {
+	category = planet_jobs_productive
+	produces = {
+		alloys = @pif_primitive_laborer_job_output_output_alloys_1
+		consumer_goods = @pif_primitive_laborer_job_output_output_consumer_goods_2
+	}
+	upkeep = {
+		minerals = @pif_primitive_laborer_job_upkeep_upkeep_minerals_1
+	}
+}

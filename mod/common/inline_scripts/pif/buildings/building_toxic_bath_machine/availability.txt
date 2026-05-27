@@ -1,0 +1,17 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_toxic_bath_machine
+# Vanilla class: regular
+# Vanilla source: buildings/07_amenity_buildings.txt
+
+planet_limit = @pif_building_toxic_bath_machine_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_toxic_baths_empire = yes
+		is_synthetic_empire = yes
+		NOT = {
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+}

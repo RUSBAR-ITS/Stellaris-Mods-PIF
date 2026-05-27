@@ -1,0 +1,1715 @@
+# Planetary Infrastructure Framework (PIF)
+# Job variables: JOB_UPKEEP
+# Values are resolved from the Stellaris 4.3.7 vanilla pop_jobs baseline.
+# Variables are grouped by job object and are intentionally object-specific.
+
+# -----------------------------------------------------------------------------
+# archivist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/archivist/economy.txt
+@pif_archivist_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/archivist/economy.txt
+@pif_archivist_job_upkeep_upkeep_consumer_goods_2 = 1
+
+# -----------------------------------------------------------------------------
+# artificer_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artificer_prison_worker/economy.txt
+@pif_artificer_prison_worker_job_upkeep_upkeep_minerals_1 = 3
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artificer_prison_worker/economy.txt
+@pif_artificer_prison_worker_job_upkeep_upkeep_minerals_2 = 1
+
+# -----------------------------------------------------------------------------
+# artisan
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_food_3 = 3
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_food_4 = 9
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_food_6 = -3
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_food_8 = 1.5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_minerals_1 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_minerals_2 = -2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_minerals_5 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artisan/economy.txt
+@pif_artisan_job_upkeep_upkeep_minerals_7 = 1
+
+# -----------------------------------------------------------------------------
+# artisan_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/artisan_drone/economy.txt
+@pif_artisan_drone_job_upkeep_upkeep_food_2 = 15
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artisan_drone/economy.txt
+@pif_artisan_drone_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# artisan_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artisan_prison_worker/economy.txt
+@pif_artisan_prison_worker_job_upkeep_upkeep_minerals_1 = 3
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/artisan_prison_worker/economy.txt
+@pif_artisan_prison_worker_job_upkeep_upkeep_minerals_2 = 1
+
+# -----------------------------------------------------------------------------
+# astral_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/economy.txt
+@pif_astral_drone_job_upkeep_upkeep_minerals_1 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/astral_drone/economy.txt
+@pif_astral_drone_job_upkeep_upkeep_minerals_2 = 3
+
+# -----------------------------------------------------------------------------
+# astral_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/economy.txt
+@pif_astral_researcher_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/astral_researcher/economy.txt
+@pif_astral_researcher_job_upkeep_upkeep_consumer_goods_2 = 1
+
+# -----------------------------------------------------------------------------
+# astral_unit
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/astral_unit/economy.txt
+@pif_astral_unit_job_upkeep_upkeep_energy_1 = 4
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/astral_unit/economy.txt
+@pif_astral_unit_job_upkeep_upkeep_energy_2 = 2
+
+# -----------------------------------------------------------------------------
+# augmentor
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/augmentor/economy.txt
+@pif_augmentor_job_upkeep_upkeep_alloys_1 = 1
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/augmentor/economy.txt
+@pif_augmentor_job_upkeep_upkeep_alloys_2 = 0.35
+
+# -----------------------------------------------------------------------------
+# augmentor_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/economy.txt
+@pif_augmentor_drone_job_upkeep_upkeep_alloys_1 = 1
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/augmentor_drone/economy.txt
+@pif_augmentor_drone_job_upkeep_upkeep_alloys_2 = 3
+
+# -----------------------------------------------------------------------------
+# bath_attendant
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant/economy.txt
+@pif_bath_attendant_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# bath_attendant_machine
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant_machine/economy.txt
+@pif_bath_attendant_machine_job_upkeep_upkeep_consumer_goods_2 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/bath_attendant_machine/economy.txt
+@pif_bath_attendant_machine_job_upkeep_upkeep_minerals_1 = 4
+
+# -----------------------------------------------------------------------------
+# battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/battle_thrall/economy.txt
+@pif_battle_thrall_job_upkeep_upkeep_alloys_1 = 1.0
+
+# -----------------------------------------------------------------------------
+# biologist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/biologist/economy.txt
+@pif_biologist_job_upkeep_upkeep_consumer_goods_1 = 0.5
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/biologist/economy.txt
+@pif_biologist_job_upkeep_upkeep_consumer_goods_2 = 1.5
+
+# -----------------------------------------------------------------------------
+# bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/economy.txt
+@pif_bureaucrat_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/economy.txt
+@pif_bureaucrat_job_upkeep_upkeep_consumer_goods_2 = -1
+
+# Controls: Job resource upkeep in trade.
+# Used in: common/inline_scripts/pif/jobs/bureaucrat/economy.txt
+@pif_bureaucrat_job_upkeep_upkeep_trade_3 = 2
+
+# -----------------------------------------------------------------------------
+# calculator_biologist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/economy.txt
+@pif_calculator_biologist_job_upkeep_upkeep_energy_1 = 3
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/economy.txt
+@pif_calculator_biologist_job_upkeep_upkeep_energy_2 = 1
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/economy.txt
+@pif_calculator_biologist_job_upkeep_upkeep_minerals_3 = 4
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/economy.txt
+@pif_calculator_biologist_job_upkeep_upkeep_minerals_4 = 1.5
+
+# Controls: Job resource upkeep in sr_zro.
+# Used in: common/inline_scripts/pif/jobs/calculator_biologist/economy.txt
+@pif_calculator_biologist_job_upkeep_upkeep_sr_zro_5 = 1
+
+# -----------------------------------------------------------------------------
+# calculator_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/economy.txt
+@pif_calculator_engineer_job_upkeep_upkeep_energy_1 = 3
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/economy.txt
+@pif_calculator_engineer_job_upkeep_upkeep_energy_2 = 1
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/economy.txt
+@pif_calculator_engineer_job_upkeep_upkeep_minerals_3 = 4
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/economy.txt
+@pif_calculator_engineer_job_upkeep_upkeep_minerals_4 = 1.5
+
+# Controls: Job resource upkeep in nanites.
+# Used in: common/inline_scripts/pif/jobs/calculator_engineer/economy.txt
+@pif_calculator_engineer_job_upkeep_upkeep_nanites_5 = 1
+
+# -----------------------------------------------------------------------------
+# calculator_physicist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/economy.txt
+@pif_calculator_physicist_job_upkeep_upkeep_energy_1 = 3
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/economy.txt
+@pif_calculator_physicist_job_upkeep_upkeep_energy_2 = 1
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/economy.txt
+@pif_calculator_physicist_job_upkeep_upkeep_minerals_3 = 4
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/economy.txt
+@pif_calculator_physicist_job_upkeep_upkeep_minerals_4 = 1.5
+
+# Controls: Job resource upkeep in sr_zro.
+# Used in: common/inline_scripts/pif/jobs/calculator_physicist/economy.txt
+@pif_calculator_physicist_job_upkeep_upkeep_sr_zro_5 = 1
+
+# -----------------------------------------------------------------------------
+# catalytic_technician_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/catalytic_technician_prison_worker/economy.txt
+@pif_catalytic_technician_prison_worker_job_upkeep_upkeep_food_1 = 6
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/catalytic_technician_prison_worker/economy.txt
+@pif_catalytic_technician_prison_worker_job_upkeep_upkeep_food_2 = 3
+
+# -----------------------------------------------------------------------------
+# cave_cleaner_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/cave_cleaner_gestalt/economy.txt
+@pif_cave_cleaner_gestalt_job_upkeep_upkeep_energy_1 = 2
+
+# -----------------------------------------------------------------------------
+# chemist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/chemist/economy.txt
+@pif_chemist_job_upkeep_upkeep_food_2 = 15
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/chemist/economy.txt
+@pif_chemist_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# chemist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/chemist_drone/economy.txt
+@pif_chemist_drone_job_upkeep_upkeep_food_2 = 15
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/chemist_drone/economy.txt
+@pif_chemist_drone_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# clip_maximizer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/clip_maximizer/economy.txt
+@pif_clip_maximizer_job_upkeep_upkeep_energy_1 = 0.1
+
+# -----------------------------------------------------------------------------
+# complex_drone_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/complex_drone_unemployment/economy.txt
+@pif_complex_drone_unemployment_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/complex_drone_unemployment/economy.txt
+@pif_complex_drone_unemployment_job_upkeep_upkeep_energy_3 = 2
+
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/complex_drone_unemployment/economy.txt
+@pif_complex_drone_unemployment_job_upkeep_upkeep_unity_2 = 1
+
+# -----------------------------------------------------------------------------
+# coordinator
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/coordinator/economy.txt
+@pif_coordinator_job_upkeep_upkeep_energy_2 = 2
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/coordinator/economy.txt
+@pif_coordinator_job_upkeep_upkeep_energy_4 = 4
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/coordinator/economy.txt
+@pif_coordinator_job_upkeep_upkeep_food_1 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/coordinator/economy.txt
+@pif_coordinator_job_upkeep_upkeep_minerals_3 = 2
+
+# -----------------------------------------------------------------------------
+# corrupt_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/corrupt_drone/economy.txt
+@pif_corrupt_drone_job_upkeep_upkeep_energy_1 = 1
+
+# -----------------------------------------------------------------------------
+# cyberdome_duelist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/cyberdome_duelist/economy.txt
+@pif_cyberdome_duelist_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# deviant_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/deviant_drone/economy.txt
+@pif_deviant_drone_job_upkeep_upkeep_energy_1 = 1
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher/economy.txt
+@pif_dimensional_portal_researcher_job_upkeep_upkeep_consumer_goods_1 = 3
+
+# -----------------------------------------------------------------------------
+# dimensional_portal_researcher_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/economy.txt
+@pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_consumer_goods_4 = 3
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/economy.txt
+@pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_energy_1 = 3
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/economy.txt
+@pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_food_2 = 3
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/dimensional_portal_researcher_gestalt/economy.txt
+@pif_dimensional_portal_researcher_gestalt_job_upkeep_upkeep_minerals_3 = 3
+
+# -----------------------------------------------------------------------------
+# drone_sand_caretaker
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/drone_sand_caretaker/economy.txt
+@pif_drone_sand_caretaker_job_upkeep_upkeep_energy_1 = 10
+
+# -----------------------------------------------------------------------------
+# drone_sand_whisperer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/drone_sand_whisperer/economy.txt
+@pif_drone_sand_whisperer_job_upkeep_upkeep_energy_1 = 10
+
+# -----------------------------------------------------------------------------
+# drone_space_junk_collector
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/drone_space_junk_collector/economy.txt
+@pif_drone_space_junk_collector_job_upkeep_upkeep_energy_1 = 10
+
+# -----------------------------------------------------------------------------
+# drone_wrangler
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/drone_wrangler/economy.txt
+@pif_drone_wrangler_job_upkeep_upkeep_alloys_3 = 1
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/drone_wrangler/economy.txt
+@pif_drone_wrangler_job_upkeep_upkeep_energy_2 = 4
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/drone_wrangler/economy.txt
+@pif_drone_wrangler_job_upkeep_upkeep_minerals_1 = 4
+
+# -----------------------------------------------------------------------------
+# dystopian_enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/dystopian_enforcer/economy.txt
+@pif_dystopian_enforcer_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# dystopian_telepath
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economy.txt
+@pif_dystopian_telepath_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economy.txt
+@pif_dystopian_telepath_job_upkeep_upkeep_energy_2 = 1
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/dystopian_telepath/economy.txt
+@pif_dystopian_telepath_job_upkeep_upkeep_energy_3 = 2
+
+# -----------------------------------------------------------------------------
+# enforcer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/enforcer/economy.txt
+@pif_enforcer_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# engineer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/engineer/economy.txt
+@pif_engineer_job_upkeep_upkeep_consumer_goods_1 = 1.5
+
+# Controls: Job resource upkeep in nanites.
+# Used in: common/inline_scripts/pif/jobs/engineer/economy.txt
+@pif_engineer_job_upkeep_upkeep_nanites_2 = 1
+
+# -----------------------------------------------------------------------------
+# entertainer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/entertainer/economy.txt
+@pif_entertainer_job_upkeep_upkeep_alloys_2 = 0.5
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/entertainer/economy.txt
+@pif_entertainer_job_upkeep_upkeep_alloys_3 = 1
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/entertainer/economy.txt
+@pif_entertainer_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# evaluator
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/evaluator/economy.txt
+@pif_evaluator_job_upkeep_upkeep_energy_1 = 2
+
+# -----------------------------------------------------------------------------
+# experiment_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer/economy.txt
+@pif_experiment_engineer_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer/economy.txt
+@pif_experiment_engineer_job_upkeep_upkeep_consumer_goods_2 = 0.02
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer/economy.txt
+@pif_experiment_engineer_job_upkeep_upkeep_consumer_goods_3 = 1
+
+# -----------------------------------------------------------------------------
+# experiment_engineer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer_drone/economy.txt
+@pif_experiment_engineer_drone_job_upkeep_upkeep_minerals_1 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer_drone/economy.txt
+@pif_experiment_engineer_drone_job_upkeep_upkeep_minerals_2 = 0.06
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/experiment_engineer_drone/economy.txt
+@pif_experiment_engineer_drone_job_upkeep_upkeep_minerals_3 = 3
+
+# -----------------------------------------------------------------------------
+# fabricator
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/fabricator/economy.txt
+@pif_fabricator_job_upkeep_upkeep_food_3 = 9
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/fabricator/economy.txt
+@pif_fabricator_job_upkeep_upkeep_food_4 = 3
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/fabricator/economy.txt
+@pif_fabricator_job_upkeep_upkeep_minerals_1 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/fabricator/economy.txt
+@pif_fabricator_job_upkeep_upkeep_minerals_2 = 2
+
+# -----------------------------------------------------------------------------
+# foundry
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/foundry/economy.txt
+@pif_foundry_job_upkeep_upkeep_food_3 = 9
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/foundry/economy.txt
+@pif_foundry_job_upkeep_upkeep_food_4 = 3
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/foundry/economy.txt
+@pif_foundry_job_upkeep_upkeep_minerals_1 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/foundry/economy.txt
+@pif_foundry_job_upkeep_upkeep_minerals_2 = 2
+
+# -----------------------------------------------------------------------------
+# foundry_prison_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/foundry_prison_worker/economy.txt
+@pif_foundry_prison_worker_job_upkeep_upkeep_minerals_1 = 3
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/foundry_prison_worker/economy.txt
+@pif_foundry_prison_worker_job_upkeep_upkeep_minerals_2 = 2
+
+# -----------------------------------------------------------------------------
+# gas_plant_engineer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/gas_plant_engineer/economy.txt
+@pif_gas_plant_engineer_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# gas_plant_engineer_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/gas_plant_engineer_gestalt/economy.txt
+@pif_gas_plant_engineer_gestalt_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# gas_refiner
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/gas_refiner/economy.txt
+@pif_gas_refiner_job_upkeep_upkeep_food_2 = 15
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/gas_refiner/economy.txt
+@pif_gas_refiner_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# gas_refiner_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/gas_refiner_drone/economy.txt
+@pif_gas_refiner_drone_job_upkeep_upkeep_food_2 = 15
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/gas_refiner_drone/economy.txt
+@pif_gas_refiner_drone_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# gestation_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/gestation_drone/economy.txt
+@pif_gestation_drone_job_upkeep_upkeep_alloys_1 = 1
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/gestation_drone/economy.txt
+@pif_gestation_drone_job_upkeep_upkeep_alloys_4 = 2
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/gestation_drone/economy.txt
+@pif_gestation_drone_job_upkeep_upkeep_food_2 = 5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/gestation_drone/economy.txt
+@pif_gestation_drone_job_upkeep_upkeep_minerals_3 = 5
+
+# -----------------------------------------------------------------------------
+# haruspex
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/haruspex/economy.txt
+@pif_haruspex_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# -----------------------------------------------------------------------------
+# healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/healthcare/economy.txt
+@pif_healthcare_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/healthcare/economy.txt
+@pif_healthcare_job_upkeep_upkeep_consumer_goods_2 = 2
+
+# -----------------------------------------------------------------------------
+# identity_designer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/identity_designer/economy.txt
+@pif_identity_designer_job_upkeep_upkeep_alloys_1 = 2
+
+# -----------------------------------------------------------------------------
+# knight
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/knight/economy.txt
+@pif_knight_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# knight_commander
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/knight_commander/economy.txt
+@pif_knight_commander_job_upkeep_upkeep_alloys_1 = 200
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_animal
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_animal/economy.txt
+@pif_livestock_zoo_animal_job_upkeep_upkeep_food_1 = 1
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_animal_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_animal_lithoid/economy.txt
+@pif_livestock_zoo_animal_lithoid_job_upkeep_upkeep_minerals_1 = 1
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_beast
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_beast/economy.txt
+@pif_livestock_zoo_beast_job_upkeep_upkeep_food_1 = 1
+
+# -----------------------------------------------------------------------------
+# livestock_zoo_beast_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/livestock_zoo_beast_lithoid/economy.txt
+@pif_livestock_zoo_beast_lithoid_job_upkeep_upkeep_minerals_1 = 1
+
+# -----------------------------------------------------------------------------
+# logistics_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/logistics_drone/economy.txt
+@pif_logistics_drone_job_upkeep_upkeep_energy_1 = 2
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/logistics_drone/economy.txt
+@pif_logistics_drone_job_upkeep_upkeep_energy_3 = 1
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/logistics_drone/economy.txt
+@pif_logistics_drone_job_upkeep_upkeep_minerals_2 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/logistics_drone/economy.txt
+@pif_logistics_drone_job_upkeep_upkeep_minerals_4 = 1
+
+# -----------------------------------------------------------------------------
+# low_tech_bureaucrat
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/low_tech_bureaucrat/economy.txt
+@pif_low_tech_bureaucrat_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# low_tech_manager
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/low_tech_manager/economy.txt
+@pif_low_tech_manager_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# low_tech_priest
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/low_tech_priest/economy.txt
+@pif_low_tech_priest_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# low_tech_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/low_tech_researcher/economy.txt
+@pif_low_tech_researcher_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# machine_nurse
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/machine_nurse/economy.txt
+@pif_machine_nurse_job_upkeep_upkeep_energy_1 = 1
+
+# -----------------------------------------------------------------------------
+# manufactorium_complex_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_complex_drone/economy.txt
+@pif_manufactorium_complex_drone_job_upkeep_upkeep_food_5 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_complex_drone/economy.txt
+@pif_manufactorium_complex_drone_job_upkeep_upkeep_minerals_1 = 5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_complex_drone/economy.txt
+@pif_manufactorium_complex_drone_job_upkeep_upkeep_minerals_2 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_complex_drone/economy.txt
+@pif_manufactorium_complex_drone_job_upkeep_upkeep_minerals_3 = -2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_complex_drone/economy.txt
+@pif_manufactorium_complex_drone_job_upkeep_upkeep_minerals_4 = 1
+
+# -----------------------------------------------------------------------------
+# manufactorium_specialist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/economy.txt
+@pif_manufactorium_specialist_job_upkeep_upkeep_food_6 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/economy.txt
+@pif_manufactorium_specialist_job_upkeep_upkeep_minerals_1 = 5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/economy.txt
+@pif_manufactorium_specialist_job_upkeep_upkeep_minerals_2 = 2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/economy.txt
+@pif_manufactorium_specialist_job_upkeep_upkeep_minerals_3 = -1
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/economy.txt
+@pif_manufactorium_specialist_job_upkeep_upkeep_minerals_4 = -2
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/manufactorium_specialist/economy.txt
+@pif_manufactorium_specialist_job_upkeep_upkeep_minerals_5 = 1
+
+# -----------------------------------------------------------------------------
+# miner
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/miner/economy.txt
+@pif_miner_job_upkeep_upkeep_energy_1 = 1
+
+# -----------------------------------------------------------------------------
+# mining_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/mining_drone/economy.txt
+@pif_mining_drone_job_upkeep_upkeep_energy_1 = 1
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioner
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioner/economy.txt
+@pif_munitions_decommissioner_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_drone/economy.txt
+@pif_munitions_decommissioning_drone_job_upkeep_upkeep_energy_1 = 4
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_unit
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit/economy.txt
+@pif_munitions_decommissioning_unit_job_upkeep_upkeep_food_1 = 6
+
+# -----------------------------------------------------------------------------
+# munitions_decommissioning_unit_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/munitions_decommissioning_unit_lithoid/economy.txt
+@pif_munitions_decommissioning_unit_lithoid_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# myrmeku_power_farmer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/myrmeku_power_farmer/economy.txt
+@pif_myrmeku_power_farmer_job_upkeep_upkeep_alloys_2 = 0.5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/myrmeku_power_farmer/economy.txt
+@pif_myrmeku_power_farmer_job_upkeep_upkeep_minerals_1 = 2
+
+# -----------------------------------------------------------------------------
+# myrmeku_power_farmer_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/myrmeku_power_farmer_gestalt/economy.txt
+@pif_myrmeku_power_farmer_gestalt_job_upkeep_upkeep_alloys_2 = 0.5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/myrmeku_power_farmer_gestalt/economy.txt
+@pif_myrmeku_power_farmer_gestalt_job_upkeep_upkeep_minerals_1 = 2
+
+# -----------------------------------------------------------------------------
+# nanotech_research_unit
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/economy.txt
+@pif_nanotech_research_unit_job_upkeep_upkeep_energy_1 = 4
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/economy.txt
+@pif_nanotech_research_unit_job_upkeep_upkeep_energy_3 = 2
+
+# Controls: Job resource upkeep in nanites.
+# Used in: common/inline_scripts/pif/jobs/nanotech_research_unit/economy.txt
+@pif_nanotech_research_unit_job_upkeep_upkeep_nanites_2 = 1
+
+# -----------------------------------------------------------------------------
+# nanotech_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/nanotech_researcher/economy.txt
+@pif_nanotech_researcher_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# Controls: Job resource upkeep in nanites.
+# Used in: common/inline_scripts/pif/jobs/nanotech_researcher/economy.txt
+@pif_nanotech_researcher_job_upkeep_upkeep_nanites_2 = 1
+
+# -----------------------------------------------------------------------------
+# necro_apprentice
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/necro_apprentice/economy.txt
+@pif_necro_apprentice_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/necro_apprentice/economy.txt
+@pif_necro_apprentice_job_upkeep_upkeep_minerals_2 = 1.0
+
+# -----------------------------------------------------------------------------
+# neural_chip
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/neural_chip/economy.txt
+@pif_neural_chip_job_upkeep_upkeep_energy_1 = 4.5
+
+# -----------------------------------------------------------------------------
+# offworld_prospector
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/offworld_prospector/economy.txt
+@pif_offworld_prospector_job_upkeep_upkeep_energy_1 = 2
+
+# -----------------------------------------------------------------------------
+# offworld_prospector_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/offworld_prospector_drone/economy.txt
+@pif_offworld_prospector_drone_job_upkeep_upkeep_energy_1 = 2
+
+# -----------------------------------------------------------------------------
+# organic_exhibit
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/organic_exhibit/economy.txt
+@pif_organic_exhibit_job_upkeep_upkeep_food_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_academic
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic/economy.txt
+@pif_overlord_academic_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# -----------------------------------------------------------------------------
+# overlord_academic_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic_drone/economy.txt
+@pif_overlord_academic_drone_job_upkeep_upkeep_energy_1 = 4
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_academic_drone/economy.txt
+@pif_overlord_academic_drone_job_upkeep_upkeep_minerals_2 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_arborist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_arborist/economy.txt
+@pif_overlord_arborist_job_upkeep_upkeep_food_1 = 10
+
+# -----------------------------------------------------------------------------
+# overlord_arborist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_arborist_drone/economy.txt
+@pif_overlord_arborist_drone_job_upkeep_upkeep_food_1 = 10
+
+# -----------------------------------------------------------------------------
+# overlord_beholder
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder/economy.txt
+@pif_overlord_beholder_job_upkeep_upkeep_alloys_2 = 2
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder/economy.txt
+@pif_overlord_beholder_job_upkeep_upkeep_alloys_4 = 4
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder/economy.txt
+@pif_overlord_beholder_job_upkeep_upkeep_alloys_6 = 8
+
+# Controls: Job resource upkeep in TIER.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder/economy.txt
+@pif_overlord_beholder_job_upkeep_upkeep_tier_1 = 1
+
+# Controls: Job resource upkeep in TIER.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder/economy.txt
+@pif_overlord_beholder_job_upkeep_upkeep_tier_3 = 2
+
+# Controls: Job resource upkeep in TIER.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder/economy.txt
+@pif_overlord_beholder_job_upkeep_upkeep_tier_5 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_beholder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder_drone/economy.txt
+@pif_overlord_beholder_drone_job_upkeep_upkeep_alloys_2 = 2
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder_drone/economy.txt
+@pif_overlord_beholder_drone_job_upkeep_upkeep_alloys_4 = 4
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder_drone/economy.txt
+@pif_overlord_beholder_drone_job_upkeep_upkeep_alloys_6 = 8
+
+# Controls: Job resource upkeep in TIER.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder_drone/economy.txt
+@pif_overlord_beholder_drone_job_upkeep_upkeep_tier_1 = 1
+
+# Controls: Job resource upkeep in TIER.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder_drone/economy.txt
+@pif_overlord_beholder_drone_job_upkeep_upkeep_tier_3 = 2
+
+# Controls: Job resource upkeep in TIER.
+# Used in: common/inline_scripts/pif/jobs/overlord_beholder_drone/economy.txt
+@pif_overlord_beholder_drone_job_upkeep_upkeep_tier_5 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_breeder
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder/economy.txt
+@pif_overlord_breeder_job_upkeep_upkeep_energy_2 = 6
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder/economy.txt
+@pif_overlord_breeder_job_upkeep_upkeep_food_3 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder/economy.txt
+@pif_overlord_breeder_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_breeder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder_drone/economy.txt
+@pif_overlord_breeder_drone_job_upkeep_upkeep_energy_2 = 6
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder_drone/economy.txt
+@pif_overlord_breeder_drone_job_upkeep_upkeep_food_3 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_breeder_drone/economy.txt
+@pif_overlord_breeder_drone_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_catalytic_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_drone/economy.txt
+@pif_overlord_catalytic_drone_job_upkeep_upkeep_food_1 = 9
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_drone/economy.txt
+@pif_overlord_catalytic_drone_job_upkeep_upkeep_food_2 = 3
+
+# -----------------------------------------------------------------------------
+# overlord_catalytic_technician
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_catalytic_technician/economy.txt
+@pif_overlord_catalytic_technician_job_upkeep_upkeep_food_1 = 9
+
+# -----------------------------------------------------------------------------
+# overlord_fabricator
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_fabricator/economy.txt
+@pif_overlord_fabricator_job_upkeep_upkeep_minerals_1 = 8
+
+# -----------------------------------------------------------------------------
+# overlord_foundry_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_foundry_drone/economy.txt
+@pif_overlord_foundry_drone_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_healthcare
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/overlord_healthcare/economy.txt
+@pif_overlord_healthcare_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_knight
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight/economy.txt
+@pif_overlord_knight_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_knight_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_knight_drone/economy.txt
+@pif_overlord_knight_drone_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_manager
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/overlord_manager/economy.txt
+@pif_overlord_manager_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# -----------------------------------------------------------------------------
+# overlord_metallurgist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_metallurgist/economy.txt
+@pif_overlord_metallurgist_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer/economy.txt
+@pif_overlord_necromancer_job_upkeep_upkeep_food_2 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer/economy.txt
+@pif_overlord_necromancer_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_necromancer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer_drone/economy.txt
+@pif_overlord_necromancer_drone_job_upkeep_upkeep_food_2 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_necromancer_drone/economy.txt
+@pif_overlord_necromancer_drone_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder/economy.txt
+@pif_overlord_offspring_drone_feeder_job_upkeep_upkeep_food_2 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder/economy.txt
+@pif_overlord_offspring_drone_feeder_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_offspring_drone_feeder_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder_drone/economy.txt
+@pif_overlord_offspring_drone_feeder_drone_job_upkeep_upkeep_food_2 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_offspring_drone_feeder_drone/economy.txt
+@pif_overlord_offspring_drone_feeder_drone_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_propagandist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_propagandist/economy.txt
+@pif_overlord_propagandist_job_upkeep_upkeep_unity_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# overlord_propagandist_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_propagandist_drone/economy.txt
+@pif_overlord_propagandist_drone_job_upkeep_upkeep_unity_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# overlord_reassigner
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_reassigner/economy.txt
+@pif_overlord_reassigner_job_upkeep_upkeep_food_2 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_reassigner/economy.txt
+@pif_overlord_reassigner_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_reassigner_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_reassigner_drone/economy.txt
+@pif_overlord_reassigner_drone_job_upkeep_upkeep_food_2 = 6
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_reassigner_drone/economy.txt
+@pif_overlord_reassigner_drone_job_upkeep_upkeep_minerals_1 = 6
+
+# -----------------------------------------------------------------------------
+# overlord_recruiter
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter/economy.txt
+@pif_overlord_recruiter_job_upkeep_upkeep_energy_1 = 5
+
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter/economy.txt
+@pif_overlord_recruiter_job_upkeep_upkeep_unity_2 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_recruiter_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter_drone/economy.txt
+@pif_overlord_recruiter_drone_job_upkeep_upkeep_energy_1 = 5
+
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/overlord_recruiter_drone/economy.txt
+@pif_overlord_recruiter_drone_job_upkeep_upkeep_unity_2 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_replicator
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/overlord_replicator/economy.txt
+@pif_overlord_replicator_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone/economy.txt
+@pif_overlord_spawning_drone_job_upkeep_upkeep_food_1 = 5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone/economy.txt
+@pif_overlord_spawning_drone_job_upkeep_upkeep_minerals_2 = 5
+
+# -----------------------------------------------------------------------------
+# overlord_spawning_drone_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/overlord_spawning_drone_lithoid/economy.txt
+@pif_overlord_spawning_drone_lithoid_job_upkeep_upkeep_minerals_1 = 5
+
+# -----------------------------------------------------------------------------
+# overlord_trader
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in trade.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader/economy.txt
+@pif_overlord_trader_job_upkeep_upkeep_trade_1 = 7
+
+# -----------------------------------------------------------------------------
+# overlord_trader_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/overlord_trader_drone/economy.txt
+@pif_overlord_trader_drone_job_upkeep_upkeep_energy_1 = 7
+
+# -----------------------------------------------------------------------------
+# physician_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/physician_drone/economy.txt
+@pif_physician_drone_job_upkeep_upkeep_energy_1 = 4
+
+# -----------------------------------------------------------------------------
+# physicist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/physicist/economy.txt
+@pif_physicist_job_upkeep_upkeep_consumer_goods_1 = 1.5
+
+# -----------------------------------------------------------------------------
+# politician
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/politician/economy.txt
+@pif_politician_job_upkeep_upkeep_consumer_goods_1 = 3
+
+# -----------------------------------------------------------------------------
+# polytechnic_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/polytechnic_drone/economy.txt
+@pif_polytechnic_drone_job_upkeep_upkeep_minerals_1 = 7
+
+# -----------------------------------------------------------------------------
+# polytechnic_mentor
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/polytechnic_mentor/economy.txt
+@pif_polytechnic_mentor_job_upkeep_upkeep_consumer_goods_1 = 3
+
+# -----------------------------------------------------------------------------
+# primitive_administrator
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/primitive_administrator/economy.txt
+@pif_primitive_administrator_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# primitive_hive_factory_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/primitive_hive_factory_drone/economy.txt
+@pif_primitive_hive_factory_drone_job_upkeep_upkeep_minerals_1 = 2
+
+# -----------------------------------------------------------------------------
+# primitive_laborer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/primitive_laborer/economy.txt
+@pif_primitive_laborer_job_upkeep_upkeep_minerals_1 = 4
+
+# -----------------------------------------------------------------------------
+# primitive_researcher_2
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/primitive_researcher_2/economy.txt
+@pif_primitive_researcher_2_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# production_overseer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/production_overseer/economy.txt
+@pif_production_overseer_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# reassigner
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/reassigner/economy.txt
+@pif_reassigner_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# -----------------------------------------------------------------------------
+# replicator
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/replicator/economy.txt
+@pif_replicator_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# resort_worker
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/resort_worker/economy.txt
+@pif_resort_worker_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# -----------------------------------------------------------------------------
+# roboticist
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/roboticist/economy.txt
+@pif_roboticist_job_upkeep_upkeep_alloys_1 = 2
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/roboticist/economy.txt
+@pif_roboticist_job_upkeep_upkeep_alloys_2 = 1
+
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/roboticist/economy.txt
+@pif_roboticist_job_upkeep_upkeep_alloys_3 = 0.35
+
+# -----------------------------------------------------------------------------
+# ruler_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/ruler_unemployment/economy.txt
+@pif_ruler_unemployment_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/ruler_unemployment/economy.txt
+@pif_ruler_unemployment_job_upkeep_upkeep_energy_3 = 2
+
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/ruler_unemployment/economy.txt
+@pif_ruler_unemployment_job_upkeep_upkeep_unity_2 = 1
+
+# -----------------------------------------------------------------------------
+# sand_caretaker
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/sand_caretaker/economy.txt
+@pif_sand_caretaker_job_upkeep_upkeep_energy_1 = 10
+
+# -----------------------------------------------------------------------------
+# sand_whisperer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/sand_whisperer/economy.txt
+@pif_sand_whisperer_job_upkeep_upkeep_energy_1 = 10
+
+# -----------------------------------------------------------------------------
+# shroud_trader
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/shroud_trader/economy.txt
+@pif_shroud_trader_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# simple_drone_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/simple_drone_unemployment/economy.txt
+@pif_simple_drone_unemployment_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/simple_drone_unemployment/economy.txt
+@pif_simple_drone_unemployment_job_upkeep_upkeep_energy_3 = 2
+
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/simple_drone_unemployment/economy.txt
+@pif_simple_drone_unemployment_job_upkeep_upkeep_unity_2 = 1
+
+# -----------------------------------------------------------------------------
+# skywatcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/skywatcher/economy.txt
+@pif_skywatcher_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# skywatcher_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/skywatcher_drone/economy.txt
+@pif_skywatcher_drone_job_upkeep_upkeep_alloys_1 = 1
+
+# -----------------------------------------------------------------------------
+# slave_overseer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/slave_overseer/economy.txt
+@pif_slave_overseer_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# soldier
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/soldier/economy.txt
+@pif_soldier_job_upkeep_upkeep_alloys_2 = 1.0
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/soldier/economy.txt
+@pif_soldier_job_upkeep_upkeep_consumer_goods_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# space_junk_collector
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/space_junk_collector/economy.txt
+@pif_space_junk_collector_job_upkeep_upkeep_energy_1 = 10
+
+# -----------------------------------------------------------------------------
+# space_time_anomaly_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher/economy.txt
+@pif_space_time_anomaly_researcher_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# -----------------------------------------------------------------------------
+# space_time_anomaly_researcher_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher_gestalt/economy.txt
+@pif_space_time_anomaly_researcher_gestalt_job_upkeep_upkeep_energy_1 = 4
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/space_time_anomaly_researcher_gestalt/economy.txt
+@pif_space_time_anomaly_researcher_gestalt_job_upkeep_upkeep_minerals_2 = 6
+
+# -----------------------------------------------------------------------------
+# spawning_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/economy.txt
+@pif_spawning_drone_job_upkeep_upkeep_alloys_3 = 2
+
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/economy.txt
+@pif_spawning_drone_job_upkeep_upkeep_food_1 = 5
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/spawning_drone/economy.txt
+@pif_spawning_drone_job_upkeep_upkeep_minerals_2 = 5
+
+# -----------------------------------------------------------------------------
+# specialist_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/specialist_unemployment/economy.txt
+@pif_specialist_unemployment_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/specialist_unemployment/economy.txt
+@pif_specialist_unemployment_job_upkeep_upkeep_energy_3 = 2
+
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/specialist_unemployment/economy.txt
+@pif_specialist_unemployment_job_upkeep_upkeep_unity_2 = 1
+
+# -----------------------------------------------------------------------------
+# squire
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/squire/economy.txt
+@pif_squire_job_upkeep_upkeep_alloys_1 = 0.5
+
+# -----------------------------------------------------------------------------
+# stasis_warden
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/stasis_warden/economy.txt
+@pif_stasis_warden_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# stratovent_researcher
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/stratovent_researcher/economy.txt
+@pif_stratovent_researcher_job_upkeep_upkeep_consumer_goods_1 = 3
+
+# -----------------------------------------------------------------------------
+# technophant
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/technophant/economy.txt
+@pif_technophant_job_upkeep_upkeep_consumer_goods_1 = 3
+
+# -----------------------------------------------------------------------------
+# telepath
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/telepath/economy.txt
+@pif_telepath_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/telepath/economy.txt
+@pif_telepath_job_upkeep_upkeep_energy_2 = 1
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/telepath/economy.txt
+@pif_telepath_job_upkeep_upkeep_energy_3 = 2
+
+# -----------------------------------------------------------------------------
+# telepath_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economy.txt
+@pif_telepath_drone_job_upkeep_upkeep_energy_1 = 1
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/telepath_drone/economy.txt
+@pif_telepath_drone_job_upkeep_upkeep_energy_2 = 2
+
+# -----------------------------------------------------------------------------
+# test_subject
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/test_subject/economy.txt
+@pif_test_subject_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# test_subject_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/test_subject_drone/economy.txt
+@pif_test_subject_drone_job_upkeep_upkeep_energy_1 = 1
+
+# -----------------------------------------------------------------------------
+# trader
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/trader/economy.txt
+@pif_trader_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# transference_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/transference_drone/economy.txt
+@pif_transference_drone_job_upkeep_upkeep_food_1 = 5
+
+# -----------------------------------------------------------------------------
+# transference_volunteer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/transference_volunteer/economy.txt
+@pif_transference_volunteer_job_upkeep_upkeep_food_1 = 5
+
+# -----------------------------------------------------------------------------
+# translucer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/translucer/economy.txt
+@pif_translucer_job_upkeep_upkeep_food_2 = 15
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/translucer/economy.txt
+@pif_translucer_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# translucer_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/translucer_drone/economy.txt
+@pif_translucer_drone_job_upkeep_upkeep_food_2 = 15
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/translucer_drone/economy.txt
+@pif_translucer_drone_job_upkeep_upkeep_minerals_1 = 10
+
+# -----------------------------------------------------------------------------
+# treasure_gatherer
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/treasure_gatherer/economy.txt
+@pif_treasure_gatherer_job_upkeep_upkeep_consumer_goods_1 = 1
+
+# -----------------------------------------------------------------------------
+# treasure_gatherer_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/treasure_gatherer_gestalt/economy.txt
+@pif_treasure_gatherer_gestalt_job_upkeep_upkeep_energy_2 = 1
+
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/treasure_gatherer_gestalt/economy.txt
+@pif_treasure_gatherer_gestalt_job_upkeep_upkeep_minerals_1 = 1
+
+# -----------------------------------------------------------------------------
+# turtle_miner_gestalt
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/turtle_miner_gestalt/economy.txt
+@pif_turtle_miner_gestalt_job_upkeep_upkeep_energy_1 = 2
+
+# -----------------------------------------------------------------------------
+# warrior_drone
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/warrior_drone/economy.txt
+@pif_warrior_drone_job_upkeep_upkeep_alloys_1 = 1.0
+
+# -----------------------------------------------------------------------------
+# worker_unemployment
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/worker_unemployment/economy.txt
+@pif_worker_unemployment_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in energy.
+# Used in: common/inline_scripts/pif/jobs/worker_unemployment/economy.txt
+@pif_worker_unemployment_job_upkeep_upkeep_energy_3 = 2
+
+# Controls: Job resource upkeep in unity.
+# Used in: common/inline_scripts/pif/jobs/worker_unemployment/economy.txt
+@pif_worker_unemployment_job_upkeep_upkeep_unity_2 = 1
+
+# -----------------------------------------------------------------------------
+# wrangler
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in alloys.
+# Used in: common/inline_scripts/pif/jobs/wrangler/economy.txt
+@pif_wrangler_job_upkeep_upkeep_alloys_3 = 1
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/wrangler/economy.txt
+@pif_wrangler_job_upkeep_upkeep_consumer_goods_1 = 2
+
+# Controls: Job resource upkeep in consumer_goods.
+# Used in: common/inline_scripts/pif/jobs/wrangler/economy.txt
+@pif_wrangler_job_upkeep_upkeep_consumer_goods_2 = -2
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal/economy.txt
+@pif_xeno_zoo_animal_job_upkeep_upkeep_food_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_lithoid/economy.txt
+@pif_xeno_zoo_animal_lithoid_job_upkeep_upkeep_minerals_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_lithoid_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_lithoid_nascent/economy.txt
+@pif_xeno_zoo_animal_lithoid_nascent_job_upkeep_upkeep_minerals_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_animal_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_animal_nascent/economy.txt
+@pif_xeno_zoo_animal_nascent_job_upkeep_upkeep_food_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast/economy.txt
+@pif_xeno_zoo_beast_job_upkeep_upkeep_food_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_lithoid
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_lithoid/economy.txt
+@pif_xeno_zoo_beast_lithoid_job_upkeep_upkeep_minerals_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_lithoid_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in minerals.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_lithoid_nascent/economy.txt
+@pif_xeno_zoo_beast_lithoid_nascent_job_upkeep_upkeep_minerals_1 = 1
+
+# -----------------------------------------------------------------------------
+# xeno_zoo_beast_nascent
+# -----------------------------------------------------------------------------
+# Controls: Job resource upkeep in food.
+# Used in: common/inline_scripts/pif/jobs/xeno_zoo_beast_nascent/economy.txt
+@pif_xeno_zoo_beast_nascent_job_upkeep_upkeep_food_1 = 1

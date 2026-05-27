@@ -1,0 +1,55 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_necrophage_elevation_chamber
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+planet_limit = @pif_building_necrophage_elevation_chamber_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_origin = origin_necrophage
+		has_trait = trait_necrophage
+		NOR = {
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+}
+
+allow = {
+	custom_tooltip = {
+		fail_text = NO_CULTURE_SHOCK
+		NOT = {
+			has_modifier = planet_culture_shock
+		}
+	}
+	if = {
+		limit = {
+			owner = {
+				is_hive_empire = no
+			}
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+	}
+	NOT = {
+		is_planet_class = pc_machine
+	}
+	hidden_trigger = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			any_owned_species = {
+				species_can_be_necrophaged = yes
+			}
+			pop_amount > @pif_building_necrophage_elevation_chamber_availability_thresholds_pop_amount_1
+		}
+	}
+}
+
+prerequisites = {}

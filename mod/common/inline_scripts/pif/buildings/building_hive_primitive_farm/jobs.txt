@@ -1,0 +1,11 @@
+# PIF building category: JOBS
+# Vanilla building: building_hive_primitive_farm
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	job_primitive_hive_farmer_add = @pif_building_hive_primitive_farm_jobs_job_primitive_hive_farmer_add_1
+}

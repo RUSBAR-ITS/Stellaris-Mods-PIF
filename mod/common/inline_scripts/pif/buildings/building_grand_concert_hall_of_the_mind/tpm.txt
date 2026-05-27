@@ -1,0 +1,6 @@
+# PIF building category: TPM
+# Vanilla building: building_grand_concert_hall_of_the_mind
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+# Empty PIF building category hook.

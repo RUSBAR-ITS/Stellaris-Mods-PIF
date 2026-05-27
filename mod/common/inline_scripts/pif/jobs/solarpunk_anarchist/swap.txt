@@ -1,0 +1,11 @@
+# PIF job category: SWAP
+# Vanilla job: solarpunk_anarchist
+# Vanilla class: ruler
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+swappable_data = {
+	default = {
+		building_icon = building_paradise_dome
+		icon = ranger
+	}
+}

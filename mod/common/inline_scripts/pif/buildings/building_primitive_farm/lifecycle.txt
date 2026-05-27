@@ -1,0 +1,25 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_primitive_farm
+# Vanilla class: regular
+# Vanilla source: buildings/11_primitive_buildings.txt
+
+can_demolish = yes
+
+can_be_ruined = no
+
+convert_to = {
+	building_primitive_mine
+}
+
+destroy_trigger = {
+	exists = owner
+	owner = {
+		OR = {
+			is_primitive = no
+			is_hive_empire = yes
+			is_lithoid_empire = yes
+		}
+	}
+}
+
+upgrades = {}

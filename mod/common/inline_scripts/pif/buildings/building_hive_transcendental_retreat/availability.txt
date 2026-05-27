@@ -1,0 +1,28 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_hive_transcendental_retreat
+# Vanilla class: regular
+# Vanilla source: buildings/20_machine_age_buildings.txt
+
+planet_limit = @pif_building_hive_transcendental_retreat_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		has_valid_civic = civic_hive_natural_design
+	}
+	NOT = {
+		has_modifier = resort_colony
+	}
+	NOT = {
+		has_modifier = slave_colony
+	}
+	owner = {
+		is_wilderness_empire = no
+	}
+}
+
+allow = {
+	always = yes
+}
+
+prerequisites = {}

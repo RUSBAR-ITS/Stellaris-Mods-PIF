@@ -1,0 +1,23 @@
+# PIF building category: LIFECYCLE
+# Vanilla building: building_energy_nexus
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+destroy_trigger = {
+	OR = {
+		has_modifier = resort_colony
+		AND = {
+			exists = owner
+			owner = {
+				is_ai = yes
+			}
+			has_any_generator_district_or_building = no
+		}
+		AND = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = yes
+			}
+		}
+	}
+}

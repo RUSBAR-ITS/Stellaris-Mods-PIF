@@ -1,0 +1,21 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/20_machine_age_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_the_united_sanctum_of_augmentation = {
+	position_priority = 100
+	base_buildtime = @pif_building_the_united_sanctum_of_augmentation_construction_base_buildtime_1
+	category = unity
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/building_config"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/availability"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/economy"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/lifecycle"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/jobs"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/country_jobs"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/economic_modifiers"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/pop_modifiers"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/planet_state"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/tpm"
+	inline_script = "pif/buildings/building_the_united_sanctum_of_augmentation/ai"
+}

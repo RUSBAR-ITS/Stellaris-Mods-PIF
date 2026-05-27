@@ -1,0 +1,11 @@
+unlock = {
+	custom_tooltip = {
+		fail_text = zone_unavailable_tech_power_hub_1
+		exists = owner
+		owner = {
+			has_tech_or_functional_civic = {
+				TECH = tech_power_hub_1
+			}
+		}
+	}
+}

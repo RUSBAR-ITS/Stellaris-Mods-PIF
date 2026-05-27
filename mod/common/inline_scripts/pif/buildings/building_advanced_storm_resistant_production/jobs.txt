@@ -1,0 +1,35 @@
+# PIF building category: JOBS
+# Vanilla building: building_advanced_storm_resistant_production
+# Vanilla class: regular
+# Vanilla source: buildings/19_cosmic_storm_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = no
+			is_tankbound_empire = no
+		}
+	}
+	job_clerk_add = @pif_building_advanced_storm_resistant_production_jobs_job_clerk_add_1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_tankbound_empire = yes
+		}
+	}
+	job_production_overseer_add = @pif_building_advanced_storm_resistant_production_jobs_job_production_overseer_add_2
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+		}
+	}
+	job_logistics_drone_add = @pif_building_advanced_storm_resistant_production_jobs_job_logistics_drone_add_3
+}

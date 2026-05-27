@@ -1,0 +1,42 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: gas_refiner
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/02_specialist_jobs.txt
+
+tags = {
+	strategic_resource
+	exotic_gases
+}
+
+weight = {
+	weight = @pif_gas_refiner_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|gas_refiner|RESOURCE|exotic_gases|
+	modifier = {
+		factor = @pif_gas_refiner_job_weight_factor_2
+		has_citizenship_rights = no
+		NOT = {
+			has_trait = trait_mechanical
+		}
+	}
+	modifier = {
+		factor = @pif_gas_refiner_job_weight_factor_3
+		can_take_servant_job = yes
+	}
+	modifier = {
+		factor = @pif_gas_refiner_job_weight_factor_4
+		is_enslaved = yes
+		has_slavery_type = {
+			type = slavery_indentured
+		}
+	}
+}
+
+promotion = {
+	time = @pif_gas_refiner_promotion_time_1
+	effect = {
+		pop_amount_change_category = {
+			CATEGORY = specialist
+			AMOUNT = local_pop_amount
+		}
+	}
+}

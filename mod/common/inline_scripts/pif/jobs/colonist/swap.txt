@@ -1,0 +1,12 @@
+# PIF job category: SWAP
+# Vanilla job: colonist
+# Vanilla class: worker
+# Vanilla source: pop_jobs/03_worker_jobs.txt
+
+swappable_data = {
+	default = {
+		condition_string = WORKER_JOB_TRIGGER
+		building_icon = building_colony_shelter
+		icon = colonist
+	}
+}

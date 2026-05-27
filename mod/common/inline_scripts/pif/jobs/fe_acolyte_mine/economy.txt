@@ -1,0 +1,31 @@
+# PIF job category: ECONOMY
+# Vanilla job: fe_acolyte_mine
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/07_fallen_empire_jobs.txt
+
+resources = {
+	category = planet_miners
+	produces = {
+		minerals = @pif_fe_acolyte_mine_job_output_output_minerals_1
+	}
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		minerals = @pif_fe_acolyte_mine_job_output_output_minerals_2
+	}
+}
+
+overlord_resources = {
+	category = planet_requisitioned_minerals
+	produces = {
+		trigger = {
+			planet = {
+				has_planet_flag = has_material_requisitorium
+			}
+		}
+		minerals = @pif_fe_acolyte_mine_overlord_output_overlord_output_minerals_1
+	}
+}

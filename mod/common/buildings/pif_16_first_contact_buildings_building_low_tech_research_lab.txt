@@ -1,0 +1,20 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/16_first_contact_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_low_tech_research_lab = {
+	category = research
+	base_buildtime = @pif_building_low_tech_research_lab_construction_base_buildtime_1
+	inline_script = "pif/buildings/building_low_tech_research_lab/building_config"
+	inline_script = "pif/buildings/building_low_tech_research_lab/availability"
+	inline_script = "pif/buildings/building_low_tech_research_lab/economy"
+	inline_script = "pif/buildings/building_low_tech_research_lab/lifecycle"
+	inline_script = "pif/buildings/building_low_tech_research_lab/jobs"
+	inline_script = "pif/buildings/building_low_tech_research_lab/country_jobs"
+	inline_script = "pif/buildings/building_low_tech_research_lab/economic_modifiers"
+	inline_script = "pif/buildings/building_low_tech_research_lab/pop_modifiers"
+	inline_script = "pif/buildings/building_low_tech_research_lab/planet_state"
+	inline_script = "pif/buildings/building_low_tech_research_lab/tpm"
+	inline_script = "pif/buildings/building_low_tech_research_lab/ai"
+}

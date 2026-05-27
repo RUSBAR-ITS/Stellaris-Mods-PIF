@@ -1,0 +1,49 @@
+# PIF job category: COUNTRY_MODIFIERS
+# Vanilla job: identity_designer
+# Vanilla class: specialist
+# Vanilla source: pop_jobs/13_machine_age_jobs.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = {
+				has_country_flag = identity_designer_converter
+			}
+		}
+	}
+	planet_pop_assembly_add = @pif_identity_designer_country_modifiers_planet_pop_assembly_add_1
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_policy_flag = computation_core_production
+		}
+	}
+	foundry_jobs_bonus_workforce_mult = @pif_identity_designer_country_modifiers_foundry_jobs_bonus_workforce_mult_2
+	artisan_jobs_bonus_workforce_mult = @pif_identity_designer_country_modifiers_artisan_jobs_bonus_workforce_mult_3
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_policy_flag = computation_core_stability
+		}
+	}
+	bureaucrat_jobs_bonus_workforce_mult = @pif_identity_designer_country_modifiers_bureaucrat_jobs_bonus_workforce_mult_4
+}
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_policy_flag = computation_core_research
+		}
+	}
+	physicist_jobs_bonus_workforce_mult = @pif_identity_designer_country_modifiers_physicist_jobs_bonus_workforce_mult_5
+	biologist_jobs_bonus_workforce_mult = @pif_identity_designer_country_modifiers_biologist_jobs_bonus_workforce_mult_6
+	engineer_jobs_bonus_workforce_mult = @pif_identity_designer_country_modifiers_engineer_jobs_bonus_workforce_mult_7
+}

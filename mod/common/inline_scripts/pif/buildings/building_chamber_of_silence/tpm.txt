@@ -1,0 +1,14 @@
+# PIF building category: TPM
+# Vanilla building: building_chamber_of_silence
+# Vanilla class: regular
+# Vanilla source: buildings/23_shroud_buildings.txt
+
+triggered_country_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_aura_intensification
+		}
+	}
+	psionic_aura_intensity_mult = 0.05
+}

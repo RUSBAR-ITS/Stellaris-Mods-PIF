@@ -1,0 +1,1055 @@
+# Planetary Infrastructure Framework (PIF)
+# Variable domain: CONSTRUCTION
+# District purchase/build costs and district construction time.
+#
+# Values in this file are generated from vanilla Stellaris 4.3.7 districts.
+# They are grouped by district. Vanilla shared variables are resolved to
+# concrete numbers and split per district/function; PIF variables do not
+# point to other variables.
+
+# -----------------------------------------------------------------------------
+# district_arcology_housing
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_arcology_housing
+# Used by: common/inline_scripts/pif/districts/district_arcology_housing/economic.txt
+# Contexts: resources.cost.alloys
+@pif_district_arcology_housing_construction_build_cost_alloys = 500
+
+# Controls: District construction time in days.
+# District: district_arcology_housing
+# Used by: common/districts/pif_01_arcology_districts_district_arcology_housing.txt
+# Contexts: base_buildtime
+@pif_district_arcology_housing_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_leisure
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in exotic_gases.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/economic.txt
+# Contexts: resources.cost.exotic_gases
+@pif_district_arcology_leisure_construction_build_cost_exotic_gases = 50
+
+# Controls: District build/purchase cost in minerals.
+# District: district_arcology_leisure
+# Used by: common/inline_scripts/pif/districts/district_arcology_leisure/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_arcology_leisure_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_arcology_leisure
+# Used by: common/districts/pif_01_arcology_districts_district_arcology_leisure.txt
+# Contexts: base_buildtime
+@pif_district_arcology_leisure_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_1
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_arcology_urban_1
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_1/economic.txt
+# Contexts: resources.cost.alloys
+@pif_district_arcology_urban_1_construction_build_cost_alloys = 500
+
+# Controls: District construction time in days.
+# District: district_arcology_urban_1
+# Used by: common/districts/pif_01_arcology_districts_district_arcology_urban_1.txt
+# Contexts: base_buildtime
+@pif_district_arcology_urban_1_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_2
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_arcology_urban_2
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_2/economic.txt
+# Contexts: resources.cost.alloys
+@pif_district_arcology_urban_2_construction_build_cost_alloys = 500
+
+# Controls: District construction time in days.
+# District: district_arcology_urban_2
+# Used by: common/districts/pif_01_arcology_districts_district_arcology_urban_2.txt
+# Contexts: base_buildtime
+@pif_district_arcology_urban_2_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_arcology_urban_3
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_arcology_urban_3
+# Used by: common/inline_scripts/pif/districts/district_arcology_urban_3/economic.txt
+# Contexts: resources.cost.alloys
+@pif_district_arcology_urban_3_construction_build_cost_alloys = 500
+
+# Controls: District construction time in days.
+# District: district_arcology_urban_3
+# Used by: common/districts/pif_01_arcology_districts_district_arcology_urban_3.txt
+# Contexts: base_buildtime
+@pif_district_arcology_urban_3_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_battle_thrall
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_battle_thrall
+# Used by: common/inline_scripts/pif/districts/district_battle_thrall/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_battle_thrall_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_battle_thrall
+# Used by: common/districts/pif_00_urban_districts_district_battle_thrall.txt
+# Contexts: base_buildtime
+@pif_district_battle_thrall_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_city
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in food.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/economic.txt
+# Contexts: resources.cost.food
+# Resolved vanilla variable(s): @city_cost
+@pif_district_city_construction_build_cost_food = 500
+
+# Controls: District build/purchase cost in minerals.
+# District: district_city
+# Used by: common/inline_scripts/pif/districts/district_city/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_city_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_city
+# Used by: common/districts/pif_00_urban_districts_district_city.txt
+# Contexts: base_buildtime
+@pif_district_city_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_logic
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in advanced_logic.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/economic.txt
+# Contexts: resources.cost.advanced_logic
+# Resolved vanilla variable(s): @lathe_logic_cost
+@pif_district_cosmogenesis_world_logic_construction_build_cost_advanced_logic = 500
+
+# Controls: District build/purchase cost in alloys.
+# District: district_cosmogenesis_world_logic
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_logic/economic.txt
+# Contexts: resources.cost.alloys
+# Resolved vanilla variable(s): @lathe_alloy_cost
+@pif_district_cosmogenesis_world_logic_construction_build_cost_alloys = 1000
+
+# Controls: District construction time in days.
+# District: district_cosmogenesis_world_logic
+# Used by: common/districts/pif_00_special_districts_district_cosmogenesis_world_logic.txt
+# Contexts: base_buildtime
+@pif_district_cosmogenesis_world_logic_construction_build_time_days = 250
+
+
+# -----------------------------------------------------------------------------
+# district_cosmogenesis_world_science
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in advanced_logic.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/economic.txt
+# Contexts: resources.cost.advanced_logic
+# Resolved vanilla variable(s): @lathe_logic_cost
+@pif_district_cosmogenesis_world_science_construction_build_cost_advanced_logic = 500
+
+# Controls: District build/purchase cost in alloys.
+# District: district_cosmogenesis_world_science
+# Used by: common/inline_scripts/pif/districts/district_cosmogenesis_world_science/economic.txt
+# Contexts: resources.cost.alloys
+# Resolved vanilla variable(s): @lathe_alloy_cost
+@pif_district_cosmogenesis_world_science_construction_build_cost_alloys = 1000
+
+# Controls: District construction time in days.
+# District: district_cosmogenesis_world_science
+# Used by: common/districts/pif_00_special_districts_district_cosmogenesis_world_science.txt
+# Contexts: base_buildtime
+@pif_district_cosmogenesis_world_science_construction_build_time_days = 250
+
+
+# -----------------------------------------------------------------------------
+# district_craglands
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in biomass.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/economic.txt
+# Contexts: resources.cost.biomass
+# Resolved vanilla variable(s): @biomass_cost
+@pif_district_craglands_construction_build_cost_biomass = 50
+
+# Controls: District build/purchase cost in minerals.
+# District: district_craglands
+# Used by: common/inline_scripts/pif/districts/district_craglands/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_craglands_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_craglands
+# Used by: common/districts/pif_05_wilderness_districts_district_craglands.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @wilderness_district_build_long
+@pif_district_craglands_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_farming
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in food.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/economic.txt
+# Contexts: resources.cost.food
+# Resolved vanilla variable(s): @base_cost
+@pif_district_farming_construction_build_cost_food = 300
+
+# Controls: District build/purchase cost in minerals.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_farming_construction_build_cost_minerals_2 = -50
+
+# Controls: District build/purchase cost in minerals.
+# District: district_farming
+# Used by: common/inline_scripts/pif/districts/district_farming/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_farming_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_farming
+# Used by: common/districts/pif_02_rural_districts_district_farming.txt
+# Contexts: base_buildtime
+@pif_district_farming_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_farming_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District construction time in days.
+# District: district_farming_uncapped
+# Used by: common/districts/pif_02_rural_districts_district_farming_uncapped.txt
+# Contexts: base_buildtime
+@pif_district_farming_uncapped_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_generator
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_generator
+# Used by: common/inline_scripts/pif/districts/district_generator/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_generator_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_generator
+# Used by: common/districts/pif_02_rural_districts_district_generator.txt
+# Contexts: base_buildtime
+@pif_district_generator_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_generator_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District construction time in days.
+# District: district_generator_uncapped
+# Used by: common/districts/pif_02_rural_districts_district_generator_uncapped.txt
+# Contexts: base_buildtime
+@pif_district_generator_uncapped_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_geothermal
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_geothermal
+# Used by: common/inline_scripts/pif/districts/district_geothermal/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_geothermal_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_geothermal
+# Used by: common/districts/pif_02_rural_districts_district_geothermal.txt
+# Contexts: base_buildtime
+@pif_district_geothermal_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_hab_energy
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_hab_energy
+# Used by: common/inline_scripts/pif/districts/district_hab_energy/economic.txt
+# Contexts: resources.cost.alloys
+# Resolved vanilla variable(s): @hab_cost
+@pif_district_hab_energy_construction_build_cost_alloys = 150
+
+# Controls: District construction time in days.
+# District: district_hab_energy
+# Used by: common/districts/pif_03_habitat_districts_district_hab_energy.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @hab_time
+@pif_district_hab_energy_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_hab_housing
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_hab_housing
+# Used by: common/inline_scripts/pif/districts/district_hab_housing/economic.txt
+# Contexts: resources.cost.alloys
+# Resolved vanilla variable(s): @hab_cost
+@pif_district_hab_housing_construction_build_cost_alloys = 150
+
+# Controls: District construction time in days.
+# District: district_hab_housing
+# Used by: common/districts/pif_03_habitat_districts_district_hab_housing.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @hab_time
+@pif_district_hab_housing_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_hab_mining
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_hab_mining
+# Used by: common/inline_scripts/pif/districts/district_hab_mining/economic.txt
+# Contexts: resources.cost.alloys
+# Resolved vanilla variable(s): @hab_cost
+@pif_district_hab_mining_construction_build_cost_alloys = 150
+
+# Controls: District construction time in days.
+# District: district_hab_mining
+# Used by: common/districts/pif_03_habitat_districts_district_hab_mining.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @hab_time
+@pif_district_hab_mining_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_hab_science
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in alloys.
+# District: district_hab_science
+# Used by: common/inline_scripts/pif/districts/district_hab_science/economic.txt
+# Contexts: resources.cost.alloys
+# Resolved vanilla variable(s): @hab_cost
+@pif_district_hab_science_construction_build_cost_alloys = 150
+
+# Controls: District construction time in days.
+# District: district_hab_science
+# Used by: common/districts/pif_03_habitat_districts_district_hab_science.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @hab_time
+@pif_district_hab_science_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_hive
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_hive
+# Used by: common/inline_scripts/pif/districts/district_hive/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_hive_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_hive
+# Used by: common/districts/pif_00_urban_districts_district_hive.txt
+# Contexts: base_buildtime
+@pif_district_hive_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_hive_1
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_hive_1
+# Used by: common/inline_scripts/pif/districts/district_hive_1/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_hive_1_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_hive_1
+# Used by: common/districts/pif_00_urban_districts_district_hive_1.txt
+# Contexts: base_buildtime
+@pif_district_hive_1_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_hive_2
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_hive_2
+# Used by: common/inline_scripts/pif/districts/district_hive_2/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_hive_2_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_hive_2
+# Used by: common/districts/pif_00_urban_districts_district_hive_2.txt
+# Contexts: base_buildtime
+@pif_district_hive_2_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_hive_3
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_hive_3
+# Used by: common/inline_scripts/pif/districts/district_hive_3/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_hive_3_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_hive_3
+# Used by: common/districts/pif_00_urban_districts_district_hive_3.txt
+# Contexts: base_buildtime
+@pif_district_hive_3_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in biomass.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/economic.txt
+# Contexts: resources.cost.biomass
+# Resolved vanilla variable(s): @biomass_cost
+@pif_district_hollow_mountains_construction_build_cost_biomass = 50
+
+# Controls: District build/purchase cost in minerals.
+# District: district_hollow_mountains
+# Used by: common/inline_scripts/pif/districts/district_hollow_mountains/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_hollow_mountains_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_hollow_mountains
+# Used by: common/districts/pif_05_wilderness_districts_district_hollow_mountains.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @wilderness_district_build_short
+@pif_district_hollow_mountains_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_hollow_mountains_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District construction time in days.
+# District: district_hollow_mountains_uncapped
+# Used by: common/districts/pif_05_wilderness_districts_district_hollow_mountains_uncapped.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @wilderness_district_build_short
+@pif_district_hollow_mountains_uncapped_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_melting
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_melting
+# Used by: common/inline_scripts/pif/districts/district_melting/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_melting_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_melting
+# Used by: common/districts/pif_02_rural_districts_district_melting.txt
+# Contexts: base_buildtime
+@pif_district_melting_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_mindlink
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in biomass.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.cost.biomass
+# Resolved vanilla variable(s): @biomass_cost
+@pif_district_mindlink_construction_build_cost_biomass = 50
+
+# Controls: District build/purchase cost in food.
+# District: district_mindlink
+# Used by: common/inline_scripts/pif/districts/district_mindlink/economic.txt
+# Contexts: resources.cost.food
+@pif_district_mindlink_construction_build_cost_food = 1500
+
+# Controls: District construction time in days.
+# District: district_mindlink
+# Used by: common/districts/pif_00_special_districts_district_mindlink.txt
+# Contexts: base_buildtime
+@pif_district_mindlink_construction_build_time_days = 720
+
+
+# -----------------------------------------------------------------------------
+# district_mining
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_mining
+# Used by: common/inline_scripts/pif/districts/district_mining/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_mining_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_mining
+# Used by: common/districts/pif_02_rural_districts_district_mining.txt
+# Contexts: base_buildtime
+@pif_district_mining_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_mining_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District construction time in days.
+# District: district_mining_uncapped
+# Used by: common/districts/pif_02_rural_districts_district_mining_uncapped.txt
+# Contexts: base_buildtime
+@pif_district_mining_uncapped_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_nexus
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_nexus
+# Used by: common/inline_scripts/pif/districts/district_nexus/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_nexus_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_nexus
+# Used by: common/districts/pif_00_urban_districts_district_nexus.txt
+# Contexts: base_buildtime
+@pif_district_nexus_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_1
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_nexus_1
+# Used by: common/inline_scripts/pif/districts/district_nexus_1/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_nexus_1_construction_build_cost_minerals_2 = 300
+
+# Controls: District build/purchase cost in minerals.
+# District: district_nexus_1
+# Used by: common/inline_scripts/pif/districts/district_nexus_1/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_nexus_1_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_nexus_1
+# Used by: common/districts/pif_00_urban_districts_district_nexus_1.txt
+# Contexts: base_buildtime
+@pif_district_nexus_1_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_2
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_nexus_2
+# Used by: common/inline_scripts/pif/districts/district_nexus_2/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_nexus_2_construction_build_cost_minerals_2 = 300
+
+# Controls: District build/purchase cost in minerals.
+# District: district_nexus_2
+# Used by: common/inline_scripts/pif/districts/district_nexus_2/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_nexus_2_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_nexus_2
+# Used by: common/districts/pif_00_urban_districts_district_nexus_2.txt
+# Contexts: base_buildtime
+@pif_district_nexus_2_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_nexus_3
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_nexus_3
+# Used by: common/inline_scripts/pif/districts/district_nexus_3/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_nexus_3_construction_build_cost_minerals_2 = 300
+
+# Controls: District build/purchase cost in minerals.
+# District: district_nexus_3
+# Used by: common/inline_scripts/pif/districts/district_nexus_3/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_nexus_3_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_nexus_3
+# Used by: common/districts/pif_00_urban_districts_district_nexus_3.txt
+# Contexts: base_buildtime
+@pif_district_nexus_3_construction_build_time_days = 600
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in biomass.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/economic.txt
+# Contexts: resources.cost.biomass
+# Resolved vanilla variable(s): @biomass_cost
+@pif_district_orchard_forests_construction_build_cost_biomass = 50
+
+# Controls: District build/purchase cost in minerals.
+# District: district_orchard_forests
+# Used by: common/inline_scripts/pif/districts/district_orchard_forests/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_orchard_forests_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_orchard_forests
+# Used by: common/districts/pif_05_wilderness_districts_district_orchard_forests.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @wilderness_district_build_short
+@pif_district_orchard_forests_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_orchard_forests_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District construction time in days.
+# District: district_orchard_forests_uncapped
+# Used by: common/districts/pif_05_wilderness_districts_district_orchard_forests_uncapped.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @wilderness_district_build_short
+@pif_district_orchard_forests_uncapped_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in biomass.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/economic.txt
+# Contexts: resources.cost.biomass
+# Resolved vanilla variable(s): @biomass_cost
+@pif_district_photosynthesis_fields_construction_build_cost_biomass = 50
+
+# Controls: District build/purchase cost in minerals.
+# District: district_photosynthesis_fields
+# Used by: common/inline_scripts/pif/districts/district_photosynthesis_fields/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_photosynthesis_fields_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_photosynthesis_fields
+# Used by: common/districts/pif_05_wilderness_districts_district_photosynthesis_fields.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @wilderness_district_build_short
+@pif_district_photosynthesis_fields_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_photosynthesis_fields_uncapped
+# -----------------------------------------------------------------------------
+# Controls: District construction time in days.
+# District: district_photosynthesis_fields_uncapped
+# Used by: common/districts/pif_05_wilderness_districts_district_photosynthesis_fields_uncapped.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @wilderness_district_build_short
+@pif_district_photosynthesis_fields_uncapped_construction_build_time_days = 240
+
+
+# -----------------------------------------------------------------------------
+# district_polytechnic
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_polytechnic
+# Used by: common/inline_scripts/pif/districts/district_polytechnic/economic.txt
+# Contexts: resources.cost.minerals
+@pif_district_polytechnic_construction_build_cost_minerals = 450
+
+# Controls: District construction time in days.
+# District: district_polytechnic
+# Used by: common/districts/pif_02_rural_districts_district_polytechnic.txt
+# Contexts: base_buildtime
+@pif_district_polytechnic_construction_build_time_days = 250
+
+
+# -----------------------------------------------------------------------------
+# district_prison
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_prison
+# Used by: common/inline_scripts/pif/districts/district_prison/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_prison_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_prison
+# Used by: common/districts/pif_00_urban_districts_district_prison.txt
+# Contexts: base_buildtime
+@pif_district_prison_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_prison_industrial
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_prison_industrial
+# Used by: common/inline_scripts/pif/districts/district_prison_industrial/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_prison_industrial_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_prison_industrial
+# Used by: common/districts/pif_00_urban_districts_district_prison_industrial.txt
+# Contexts: base_buildtime
+@pif_district_prison_industrial_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_resort
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in food.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/economic.txt
+# Contexts: resources.cost.food
+# Resolved vanilla variable(s): @city_cost
+@pif_district_resort_construction_build_cost_food = 500
+
+# Controls: District build/purchase cost in minerals.
+# District: district_resort
+# Used by: common/inline_scripts/pif/districts/district_resort/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_resort_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_resort
+# Used by: common/districts/pif_00_urban_districts_district_resort.txt
+# Contexts: base_buildtime
+@pif_district_resort_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_resort_1
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_resort_1
+# Used by: common/inline_scripts/pif/districts/district_resort_1/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_resort_1_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_resort_1
+# Used by: common/districts/pif_00_urban_districts_district_resort_1.txt
+# Contexts: base_buildtime
+@pif_district_resort_1_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_resort_2
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_resort_2
+# Used by: common/inline_scripts/pif/districts/district_resort_2/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_resort_2_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_resort_2
+# Used by: common/districts/pif_00_urban_districts_district_resort_2.txt
+# Contexts: base_buildtime
+@pif_district_resort_2_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_resort_3
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_resort_3
+# Used by: common/inline_scripts/pif/districts/district_resort_3/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_resort_3_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_resort_3
+# Used by: common/districts/pif_00_urban_districts_district_resort_3.txt
+# Contexts: base_buildtime
+@pif_district_resort_3_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_rw_city
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_city
+# Used by: common/inline_scripts/pif/districts/district_rw_city/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_city_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_rw_city
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_city.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_city_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_commercial
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_commercial_construction_build_cost_minerals = 1000
+
+# Controls: District build/purchase cost in rare_crystals.
+# District: district_rw_commercial
+# Used by: common/inline_scripts/pif/districts/district_rw_commercial/economic.txt
+# Contexts: resources.cost.rare_crystals
+# Resolved vanilla variable(s): @rw_cost_sr
+@pif_district_rw_commercial_construction_build_cost_rare_crystals = 50
+
+# Controls: District construction time in days.
+# District: district_rw_commercial
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_commercial.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_commercial_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_farming
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_farming_construction_build_cost_minerals = 1000
+
+# Controls: District build/purchase cost in volatile_motes.
+# District: district_rw_farming
+# Used by: common/inline_scripts/pif/districts/district_rw_farming/economic.txt
+# Contexts: resources.cost.volatile_motes
+# Resolved vanilla variable(s): @rw_cost_sr
+@pif_district_rw_farming_construction_build_cost_volatile_motes = 50
+
+# Controls: District construction time in days.
+# District: district_rw_farming
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_farming.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_farming_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_generator
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_generator_construction_build_cost_minerals = 1000
+
+# Controls: District build/purchase cost in rare_crystals.
+# District: district_rw_generator
+# Used by: common/inline_scripts/pif/districts/district_rw_generator/economic.txt
+# Contexts: resources.cost.rare_crystals
+# Resolved vanilla variable(s): @rw_cost_sr
+@pif_district_rw_generator_construction_build_cost_rare_crystals = 50
+
+# Controls: District construction time in days.
+# District: district_rw_generator
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_generator.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_generator_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_hive
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_hive
+# Used by: common/inline_scripts/pif/districts/district_rw_hive/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_hive_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_rw_hive
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_hive.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_hive_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_nexus
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_nexus
+# Used by: common/inline_scripts/pif/districts/district_rw_nexus/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_nexus_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_rw_nexus
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_nexus.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_nexus_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_science
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in exotic_gases.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/economic.txt
+# Contexts: resources.cost.exotic_gases
+# Resolved vanilla variable(s): @rw_cost_sr
+@pif_district_rw_science_construction_build_cost_exotic_gases = 50
+
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_science
+# Used by: common/inline_scripts/pif/districts/district_rw_science/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_science_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_rw_science
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_science.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_science_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_1
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_urban_1
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_1/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_urban_1_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_rw_urban_1
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_urban_1.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_urban_1_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_2
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_urban_2
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_2/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_urban_2_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_rw_urban_2
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_urban_2.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_urban_2_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_rw_urban_3
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_rw_urban_3
+# Used by: common/inline_scripts/pif/districts/district_rw_urban_3/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @rw_cost
+@pif_district_rw_urban_3_construction_build_cost_minerals = 1000
+
+# Controls: District construction time in days.
+# District: district_rw_urban_3
+# Used by: common/districts/pif_04_ringworld_districts_district_rw_urban_3.txt
+# Contexts: base_buildtime
+# Resolved vanilla variable(s): @rw_district_buildtime
+@pif_district_rw_urban_3_construction_build_time_days = 360
+
+
+# -----------------------------------------------------------------------------
+# district_slave
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_slave
+# Used by: common/inline_scripts/pif/districts/district_slave/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @city_cost
+@pif_district_slave_construction_build_cost_minerals = 500
+
+# Controls: District construction time in days.
+# District: district_slave
+# Used by: common/districts/pif_00_urban_districts_district_slave.txt
+# Contexts: base_buildtime
+@pif_district_slave_construction_build_time_days = 480
+
+
+# -----------------------------------------------------------------------------
+# district_srw_commercial
+# -----------------------------------------------------------------------------
+# Controls: District build/purchase cost in minerals.
+# District: district_srw_commercial
+# Used by: common/inline_scripts/pif/districts/district_srw_commercial/economic.txt
+# Contexts: resources.cost.minerals
+# Resolved vanilla variable(s): @base_cost
+@pif_district_srw_commercial_construction_build_cost_minerals = 300
+
+# Controls: District construction time in days.
+# District: district_srw_commercial
+# Used by: common/districts/pif_00_urban_districts_district_srw_commercial.txt
+# Contexts: base_buildtime
+@pif_district_srw_commercial_construction_build_time_days = 240

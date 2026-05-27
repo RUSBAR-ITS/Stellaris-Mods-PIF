@@ -1,0 +1,11 @@
+# PIF building category: POP_MODIFIERS
+# Vanilla building: building_automation_2
+# Vanilla class: regular
+# Vanilla source: buildings/01_pop_assembly_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	district_automated_workforce = @pif_building_automation_2_pop_modifiers_district_automated_workforce_1
+}

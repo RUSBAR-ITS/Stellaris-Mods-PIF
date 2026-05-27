@@ -1,0 +1,17 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla pop_jobs/06_event_jobs.txt
+# Object type: pop_job
+# Job class: specialist
+
+archivist = {
+	category = specialist
+	inline_script = "pif/jobs/archivist/swap"
+	inline_script = "pif/jobs/archivist/availability"
+	inline_script = "pif/jobs/archivist/pop_config"
+	inline_script = "pif/jobs/archivist/economy"
+	inline_script = "pif/jobs/archivist/planet_state"
+	inline_script = "pif/jobs/archivist/country_modifiers"
+	inline_script = "pif/jobs/archivist/pop_modifiers"
+	inline_script = "pif/jobs/archivist/economic_modifiers"
+	inline_script = "pif/jobs/archivist/tpm"
+}

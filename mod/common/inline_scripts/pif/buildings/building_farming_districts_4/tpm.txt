@@ -1,0 +1,11 @@
+# PIF building category: TPM
+# Vanilla building: building_farming_districts_4
+# Vanilla class: regular
+# Vanilla source: buildings/03_resource_buildings.txt
+
+triggered_planet_modifier = {
+	potential = {
+		always = yes
+	}
+	district_farming_max_add = 8
+}

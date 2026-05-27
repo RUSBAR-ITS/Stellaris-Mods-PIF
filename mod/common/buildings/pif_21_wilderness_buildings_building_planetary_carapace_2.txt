@@ -1,0 +1,22 @@
+# Planetary Infrastructure Framework (PIF)
+# Generated from vanilla buildings/21_wilderness_buildings.txt
+# Object type: building
+# Building class: regular
+
+building_planetary_carapace_2 = {
+	icon = "planetary_carapace_2"
+	ruined_icon = "wilderness_building_ruined"
+	base_buildtime = @pif_building_planetary_carapace_2_construction_base_buildtime_1
+	category = army
+	inline_script = "pif/buildings/building_planetary_carapace_2/building_config"
+	inline_script = "pif/buildings/building_planetary_carapace_2/availability"
+	inline_script = "pif/buildings/building_planetary_carapace_2/economy"
+	inline_script = "pif/buildings/building_planetary_carapace_2/lifecycle"
+	inline_script = "pif/buildings/building_planetary_carapace_2/jobs"
+	inline_script = "pif/buildings/building_planetary_carapace_2/country_jobs"
+	inline_script = "pif/buildings/building_planetary_carapace_2/economic_modifiers"
+	inline_script = "pif/buildings/building_planetary_carapace_2/pop_modifiers"
+	inline_script = "pif/buildings/building_planetary_carapace_2/planet_state"
+	inline_script = "pif/buildings/building_planetary_carapace_2/tpm"
+	inline_script = "pif/buildings/building_planetary_carapace_2/ai"
+}

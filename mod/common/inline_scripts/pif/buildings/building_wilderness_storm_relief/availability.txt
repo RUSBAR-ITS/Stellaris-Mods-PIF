@@ -1,0 +1,29 @@
+# PIF building category: AVAILABILITY
+# Vanilla building: building_wilderness_storm_relief
+# Vanilla class: regular
+# Vanilla source: buildings/21_wilderness_buildings.txt
+
+planet_limit = @pif_building_wilderness_storm_relief_limits_planet_limit_1
+
+potential = {
+	exists = owner
+	owner = {
+		is_wilderness_empire = yes
+	}
+	OR = {
+		owner = {
+			is_ai = no
+		}
+		solar_system = {
+			system_has_storm_repelling_tech = no
+		}
+	}
+}
+
+prerequisites = {
+	"tech_industrial_storm_protection"
+}
+
+show_tech_unlock_if = {
+	is_wilderness_empire = yes
+}

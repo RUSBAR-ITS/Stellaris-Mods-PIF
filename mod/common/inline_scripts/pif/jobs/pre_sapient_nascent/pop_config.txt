@@ -1,0 +1,21 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: pre_sapient_nascent
+# Vanilla class: special_other
+# Vanilla source: pop_jobs/05_primitive_jobs.txt
+
+contributes_to_diplo_weight = @pif_pre_sapient_nascent_job_flags_contributes_to_diplo_weight_2
+
+first_come_first_served = @pif_pre_sapient_nascent_job_flags_first_come_first_served_3
+
+tags = {}
+
+demotion = {
+	time = @pif_pre_sapient_nascent_demotion_time_1
+	effect = {
+		ascend_nascent_stage = yes
+	}
+}
+
+weight = {
+	weight = @pif_pre_sapient_nascent_job_weight_weight_1
+}

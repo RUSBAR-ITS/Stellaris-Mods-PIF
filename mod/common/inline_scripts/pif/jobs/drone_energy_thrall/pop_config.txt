@@ -1,0 +1,24 @@
+# PIF job category: POP_CONFIG
+# Vanilla job: drone_energy_thrall
+# Vanilla class: simple_drone
+# Vanilla source: pop_jobs/16_shroud_jobs.txt
+
+tags = {
+	unity
+	energy_thrall
+}
+
+weight = {
+	weight = @pif_drone_energy_thrall_job_weight_weight_1
+	mult = value:job_weights_modifier|JOB|drone_energy_thrall|RESOURCE|unity|
+	mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+auto_trait_prio = {
+	trait_traditional
+	trait_expressed_tradition
+	trait_robot_propaganda_machines
+	trait_cyborg_propaganda_machines
+	trait_malleable_unity
+	trait_adaptive_unity
+}

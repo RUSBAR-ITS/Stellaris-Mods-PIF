@@ -1,0 +1,13 @@
+# PIF job category: ECONOMIC_MODIFIERS
+# Vanilla job: spawning_drone
+# Vanilla class: complex_drone
+# Vanilla source: pop_jobs/04_gestalt_jobs.txt
+
+triggered_planet_modifier = {
+	potential = {
+		spawning_drone_is_offspring_drone_trigger = yes
+	}
+	modifier = {
+		planet_jobs_simple_drone_produces_mult = @pif_spawning_drone_economic_modifiers_planet_jobs_simple_drone_produces_mult_1
+	}
+}
