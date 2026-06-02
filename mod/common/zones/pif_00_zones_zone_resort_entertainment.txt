@@ -5,6 +5,7 @@
 zone_resort_entertainment = {
 	icon = GFX_district_specialization_entertainer
 	base_buildtime = @pif_zone_resort_entertainment_construction_zone_build_time_1
+	max_buildings = @pif_zone_resort_entertainment_building_capacity_max_buildings_1
 	triggered_desc = {
 		trigger = {
 			always = yes

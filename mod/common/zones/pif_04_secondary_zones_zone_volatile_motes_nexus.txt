@@ -5,6 +5,7 @@
 zone_volatile_motes_nexus = {
 	icon = GFX_district_specialization_volatile_motes
 	base_buildtime = @pif_zone_volatile_motes_nexus_construction_zone_build_time_1
+	max_buildings = @pif_zone_volatile_motes_nexus_building_capacity_max_buildings_1
 	triggered_desc = {
 		text = technician_is_mote_harvester_tt
 		trigger = {

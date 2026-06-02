@@ -5,6 +5,7 @@
 zone_trade = {
 	icon = GFX_district_specialization_trade
 	base_buildtime = @pif_zone_trade_construction_zone_build_time_1
+	max_buildings = @pif_zone_trade_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_trade/availability"
 	inline_script = "pif/zones/zone_trade/zone_config"
 	inline_script = "pif/zones/zone_trade/economy"

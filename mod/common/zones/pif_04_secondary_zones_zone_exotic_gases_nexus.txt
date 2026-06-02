@@ -5,6 +5,7 @@
 zone_exotic_gases_nexus = {
 	icon = GFX_district_specialization_exotic_gases
 	base_buildtime = @pif_zone_exotic_gases_nexus_construction_zone_build_time_1
+	max_buildings = @pif_zone_exotic_gases_nexus_building_capacity_max_buildings_1
 	triggered_desc = {
 		text = farmer_is_gas_extractor_tt
 		trigger = {

@@ -5,6 +5,7 @@
 zone_unity_spiritualist = {
 	icon = GFX_district_specialization_priest
 	base_buildtime = @pif_zone_unity_spiritualist_construction_zone_build_time_1
+	max_buildings = @pif_zone_unity_spiritualist_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_unity_spiritualist/availability"
 	inline_script = "pif/zones/zone_unity_spiritualist/zone_config"
 	inline_script = "pif/zones/zone_unity_spiritualist/economy"

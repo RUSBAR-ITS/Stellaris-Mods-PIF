@@ -5,6 +5,7 @@
 zone_food_ring_world = {
 	icon = GFX_district_specialization_food
 	base_buildtime = @pif_zone_food_ring_world_construction_zone_build_time_1
+	max_buildings = @pif_zone_food_ring_world_building_capacity_max_buildings_1
 	swap_type = district_ring_world_food
 	swap_type_weight = 5
 	inline_script = "pif/zones/zone_food_ring_world/availability"

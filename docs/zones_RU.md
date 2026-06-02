@@ -129,7 +129,7 @@ ai
 | Domain file | Variables | Назначение |
 | --- | --- | --- |
 | `pif_zones_ai_variables.txt` | 171 | AI weights and resource hints for zones. |
-| `pif_zones_building_capacity_variables.txt` | 129 | Building capacity, max buildings и slot capacity от zones. |
+| `pif_zones_building_capacity_variables.txt` | 120 | Building capacity и max buildings от zones. `zone_building_slots_add` использует те же переменные, что и `max_buildings`. |
 | `pif_zones_construction_variables.txt` | 236 | Время строительства и construction-related параметры zones. |
 | `pif_zones_economy_variables.txt` | 0 | Reserved economy domain; no variables in current data. |
 | `pif_zones_housing_variables.txt` | 96 | Housing effects от zone modifiers. |
@@ -143,7 +143,7 @@ ai
 | `pif_zones_limits_variables.txt` | 13 | Zone limits and cap-related values. |
 | `pif_zones_planet_output_modifiers_variables.txt` | 37 | Planet output modifiers coming from zones. |
 
-Итого: **14** файлов переменных и **1553** переменных.
+Итого: **14** файлов переменных и **1544** переменных.
 
 ## Inline scripts
 
@@ -211,6 +211,8 @@ Vanilla inline scripts используются как source material для п
 | `district_planet_modifier` -> `triggered_district_planet_modifier` | Делает district-scoped zone modifiers расширяемыми. | Условие должно быть unconditional или эквивалентным. |
 | Vanilla `@variable` -> PIF variable | Создаёт object-specific tuning points вместо сохранения общих vanilla variables. | Resolved PIF value должен совпадать с исходным значением. |
 | Inline script expansion and split | Уменьшает conflict zones за счёт переноса содержимого в PIF-owned category scripts. | Expanded PIF object должен совпадать с expanded vanilla object после разрешённых нормализаций. |
+| Implicit zone building cap materialization | Зоны с `zone_building_slots_add`, но без явного `max_buildings`, получают явный `max_buildings = 3`, соответствующий `DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE`. | Разрешено только для зон, где vanilla уже имеет `zone_building_slots_add`; зоны только с `max_buildings` не меняются. |
+| Shared building-capacity variable | `zone_building_slots_add` и `max_buildings` управляются одной PIF-переменной. | В generated PIF zone оба значения должны ссылаться на одну и ту же raw variable. |
 
 ## Порядок параметров
 
@@ -231,7 +233,8 @@ Validation сравнивает expanded vanilla objects с expanded PIF objects
 - отсутствие duplicate или missing variables;
 - совпадение expanded category content;
 - сохранение order-sensitive sections;
-- warning-level special cases без превращения vanilla-особенностей в hard failure.
+- warning-level special cases без превращения vanilla-особенностей в hard failure;
+- инвариант: если зона имеет `zone_building_slots_add`, то он должен ссылаться на ту же переменную, что и `max_buildings`.
 
 Текущий результат: **120 / 120 OK**, failed: **0**.
 
@@ -250,7 +253,7 @@ Static validation подтверждает структурную эквивал
 | Parameter names after expansion | 22 |
 | Category inline scripts | 720 |
 | Variable files | 14 |
-| PIF variables | 1553 |
+| PIF variables | 1544 |
 | Reachable inline scripts | 39 |
 | Inline scripts WHOLE | 19 |
 | Inline scripts SPLIT | 20 |
@@ -273,7 +276,7 @@ Static validation подтверждает структурную эквивал
 | `convert_to` | 41 | LIFECYCLE | Вынести в PIF-owned inline script соответствующей категории. |
 | `base_buildtime` | 118 | METADATA | Оставить в корневом объекте. |
 | `icon` | 119 | METADATA | Оставить в корневом объекте. |
-| `max_buildings` | 17 | METADATA | Оставить в корневом объекте. |
+| `max_buildings` | 120 | METADATA | Оставить в корневом объекте. Для 103 зон значение материализовано из implicit default `3`, потому что они имеют `zone_building_slots_add`. |
 | `max_buildings_planet_class` | 1 | METADATA | Оставить в корневом объекте. |
 | `swap_type` | 77 | METADATA | Оставить в корневом объекте. |
 | `swap_type_weight` | 77 | METADATA | Оставить в корневом объекте. |
@@ -290,6 +293,8 @@ Static validation подтверждает структурную эквивал
 - `swap_type` остаётся metadata, потому что он задаёт visual district mask и должен сохранять порядок рядом с `swap_type_weight`.
 - `zone_sets` и building set filters являются совместимостью между zones и buildings, поэтому находятся в `ZONE_CONFIG`.
 - Static modifiers нормализуются в triggered equivalents, когда это нужно для расширяемости.
+- `zone_building_slots_add` больше не получает отдельные `building_capacity_zone_building_slots_add` variables; он использует соответствующую `building_capacity_max_buildings` variable.
+- 8 зон, у которых есть только `max_buildings` и нет `zone_building_slots_add`, остаются без tooltip/modifier-добавки и не получают новую TPM-логику.
 
 ## Затронутые vanilla-объекты
 

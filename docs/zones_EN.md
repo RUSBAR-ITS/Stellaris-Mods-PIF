@@ -129,7 +129,7 @@ Parameter categories define which PIF-owned inline script owns a particular part
 | Domain file | Variables | Purpose |
 | --- | --- | --- |
 | `pif_zones_ai_variables.txt` | 171 | Zone AI weights and resource hints. |
-| `pif_zones_building_capacity_variables.txt` | 129 | Building capacity, max buildings, and slot capacity from zones. |
+| `pif_zones_building_capacity_variables.txt` | 120 | Building capacity and max buildings from zones. `zone_building_slots_add` uses the same variables as `max_buildings`. |
 | `pif_zones_construction_variables.txt` | 236 | Zone build time and construction-related values. |
 | `pif_zones_economy_variables.txt` | 0 | Reserved economy domain; no variables in current data. |
 | `pif_zones_housing_variables.txt` | 96 | Housing effects from zone modifiers. |
@@ -143,7 +143,7 @@ Parameter categories define which PIF-owned inline script owns a particular part
 | `pif_zones_limits_variables.txt` | 13 | Zone limits and cap-related values. |
 | `pif_zones_planet_output_modifiers_variables.txt` | 37 | Planet output modifiers coming from zones. |
 
-Total: **14** variable files and **1553** variables.
+Total: **14** variable files and **1544** variables.
 
 ## Inline Scripts
 
@@ -211,6 +211,8 @@ Vanilla inline scripts are used as source material for PIF-owned category script
 | `district_planet_modifier` -> `triggered_district_planet_modifier` | Makes district-scoped zone modifiers extensible. | Condition must be unconditional or equivalent. |
 | Vanilla `@variable` -> PIF variable | Creates object-specific tuning points instead of preserving shared vanilla variables. | Resolved PIF value must equal the original value. |
 | Inline script expansion and split | Reduces conflict zones by moving content into PIF-owned category scripts. | Expanded PIF object must match expanded vanilla object after allowed normalizations. |
+| Implicit zone building cap materialization | Zones with `zone_building_slots_add`, but without explicit `max_buildings`, receive explicit `max_buildings = 3`, matching `DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE`. | Allowed only for zones where vanilla already has `zone_building_slots_add`; max-only zones are not changed. |
+| Shared building-capacity variable | `zone_building_slots_add` and `max_buildings` are controlled by one PIF variable. | Both generated values must reference the same raw variable in the generated PIF zone. |
 
 ## Parameter order
 
@@ -231,7 +233,8 @@ The checks cover:
 - no duplicate or missing variables;
 - matching expanded category content;
 - preserved order-sensitive sections;
-- warning-level special cases without turning vanilla peculiarities into hard failures.
+- warning-level special cases without turning vanilla peculiarities into hard failures;
+- invariant: if a zone has `zone_building_slots_add`, it must reference the same variable as `max_buildings`.
 
 Current result: **120 / 120 OK**, failed: **0**.
 
@@ -250,7 +253,7 @@ A minimal runtime check should include starting a new game, opening the planetar
 | Parameter names after expansion | 22 |
 | Category inline scripts | 720 |
 | Variable files | 14 |
-| PIF variables | 1553 |
+| PIF variables | 1544 |
 | Reachable inline scripts | 39 |
 | Inline scripts WHOLE | 19 |
 | Inline scripts SPLIT | 20 |
@@ -273,7 +276,7 @@ A minimal runtime check should include starting a new game, opening the planetar
 | `convert_to` | 41 | LIFECYCLE | Move into the corresponding PIF-owned category inline script. |
 | `base_buildtime` | 118 | METADATA | Keep in the root object. |
 | `icon` | 119 | METADATA | Keep in the root object. |
-| `max_buildings` | 17 | METADATA | Keep in the root object. |
+| `max_buildings` | 120 | METADATA | Keep in the root object. For 103 zones, the value is materialized from implicit default `3` because they have `zone_building_slots_add`. |
 | `max_buildings_planet_class` | 1 | METADATA | Keep in the root object. |
 | `swap_type` | 77 | METADATA | Keep in the root object. |
 | `swap_type_weight` | 77 | METADATA | Keep in the root object. |
@@ -290,6 +293,8 @@ A minimal runtime check should include starting a new game, opening the planetar
 - `swap_type` remains metadata because it defines the visual district mask and must preserve order near `swap_type_weight`.
 - `zone_sets` and building set filters are the compatibility bridge between zones and buildings and therefore belong to `ZONE_CONFIG`.
 - Static modifiers are normalized into triggered equivalents when required for extensibility.
+- `zone_building_slots_add` no longer gets separate `building_capacity_zone_building_slots_add` variables; it uses the matching `building_capacity_max_buildings` variable.
+- The 8 zones that have only `max_buildings` and no `zone_building_slots_add` remain without tooltip/modifier additions and do not receive new TPM logic.
 
 ## Affected vanilla objects
 

@@ -5,6 +5,7 @@
 zone_factory_hive = {
 	icon = GFX_district_specialization_factory
 	base_buildtime = @pif_zone_factory_hive_construction_zone_build_time_1
+	max_buildings = @pif_zone_factory_hive_building_capacity_max_buildings_1
 	swap_type = district_hive_factory
 	swap_type_weight = 5
 	inline_script = "pif/zones/zone_factory_hive/availability"

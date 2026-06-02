@@ -5,6 +5,7 @@
 zone_rare_crystals = {
 	icon = GFX_district_specialization_rare_crystals
 	base_buildtime = @pif_zone_rare_crystals_construction_zone_build_time_1
+	max_buildings = @pif_zone_rare_crystals_building_capacity_max_buildings_1
 	triggered_desc = {
 		text = miner_is_crystal_miner_tt
 		trigger = {

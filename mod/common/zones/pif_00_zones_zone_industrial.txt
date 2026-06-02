@@ -5,6 +5,7 @@
 zone_industrial = {
 	icon = GFX_district_specialization_industrial
 	base_buildtime = @pif_zone_industrial_construction_zone_build_time_1
+	max_buildings = @pif_zone_industrial_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_industrial/availability"
 	inline_script = "pif/zones/zone_industrial/zone_config"
 	inline_script = "pif/zones/zone_industrial/economy"

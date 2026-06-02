@@ -5,6 +5,7 @@
 zone_broken_shackles_memorial = {
 	icon = "GFX_district_specialization_broken_shackles_memorial"
 	base_buildtime = @pif_zone_broken_shackles_memorial_construction_zone_build_time_1
+	max_buildings = @pif_zone_broken_shackles_memorial_building_capacity_max_buildings_1
 	triggered_desc = {
 		trigger = {
 			always = yes

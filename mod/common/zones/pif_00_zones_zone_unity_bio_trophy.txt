@@ -5,6 +5,7 @@
 zone_unity_bio_trophy = {
 	icon = GFX_district_specialization_unity
 	base_buildtime = @pif_zone_unity_bio_trophy_construction_zone_build_time_1
+	max_buildings = @pif_zone_unity_bio_trophy_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_unity_bio_trophy/availability"
 	inline_script = "pif/zones/zone_unity_bio_trophy/zone_config"
 	inline_script = "pif/zones/zone_unity_bio_trophy/economy"

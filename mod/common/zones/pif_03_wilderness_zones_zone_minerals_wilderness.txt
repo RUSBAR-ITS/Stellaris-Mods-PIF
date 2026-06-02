@@ -5,6 +5,7 @@
 zone_minerals_wilderness = {
 	icon = GFX_district_specialization_wilderness_minerals
 	base_buildtime = @pif_zone_minerals_wilderness_construction_zone_build_time_1
+	max_buildings = @pif_zone_minerals_wilderness_building_capacity_max_buildings_1
 	triggered_desc = {
 		trigger = {
 			always = yes

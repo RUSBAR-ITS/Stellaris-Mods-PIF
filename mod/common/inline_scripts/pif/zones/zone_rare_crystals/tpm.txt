@@ -104,7 +104,7 @@ triggered_planet_modifier = {
 	potential = {
 		always = yes
 	}
-	zone_building_slots_add = @pif_zone_rare_crystals_building_capacity_zone_building_slots_add_1
+	zone_building_slots_add = @pif_zone_rare_crystals_building_capacity_max_buildings_1
 	planet_miners_rare_crystals_produces_add = @pif_zone_rare_crystals_planet_output_modifiers_planet_miners_rare_crystals_produces_add_1
 	planet_miners_minerals_produces_add = @pif_zone_rare_crystals_planet_output_modifiers_planet_miners_minerals_produces_add_2
 }

@@ -5,6 +5,7 @@
 zone_energy = {
 	icon = GFX_district_specialization_energy
 	base_buildtime = @pif_zone_energy_construction_zone_build_time_1
+	max_buildings = @pif_zone_energy_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_energy/availability"
 	inline_script = "pif/zones/zone_energy/zone_config"
 	inline_script = "pif/zones/zone_energy/economy"

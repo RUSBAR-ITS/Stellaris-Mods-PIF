@@ -91,6 +91,8 @@ TRADE_JOB_MARKERS = ["clerk", "trader", "merchant", "trade"]
 DEFENSE_JOB_MARKERS = ["soldier", "warrior", "duelist", "enforcer", "telepath", "defense", "battle_thrall", "knight"]
 SERVICE_JOB_MARKERS = ["entertainer", "medical", "healthcare", "amenity", "maintenance", "servitor", "roboticist", "domestic", "logistics", "spawning_drone", "replicator"]
 
+DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE = "3"
+
 
 def job_family_from_key(key: str) -> str:
     """Map a job/modifier key to a zone job-family variable domain."""
@@ -162,6 +164,8 @@ def variable_domain_for_scalar(path: List[str], current_key: str, sibling_key: O
     if "resources" in path and "produces" in path:
         return "economy", f"zone direct production: {current_key}"
 
+    if current_key == "zone_building_slots_add":
+        return "building_capacity", "max_buildings"
     if current_key in {"max_buildings", "districts_per_building"}:
         return "building_capacity", current_key
     if "planet_limit" in path or current_key == "planet_limit":
@@ -297,6 +301,70 @@ def bucket_zone(expanded: Block) -> Tuple[Dict[str, List[Stmt]], List[str]]:
     return buckets, unknown
 
 
+def node_contains_statement_key(node: Any, key: str) -> bool:
+    """Return True when an AST node contains a statement with the given key."""
+    if isinstance(node, Stmt):
+        if node.key == key:
+            return True
+        return node_contains_statement_key(node.value, key)
+    if isinstance(node, Block):
+        return any(node_contains_statement_key(item, key) for item in node.items)
+    return False
+
+
+def statements_contain_key(statements: List[Stmt], key: str) -> bool:
+    """Return True when any statement tree contains the given key."""
+    return any(node_contains_statement_key(stmt, key) for stmt in statements)
+
+
+def has_top_level_statement(statements: List[Stmt], key: str) -> bool:
+    """Return True when the statement list contains a top-level key."""
+    return any(stmt.key == key for stmt in statements)
+
+
+def insert_default_max_buildings(metadata: List[Stmt]) -> List[Stmt]:
+    """Insert the implicit default zone building cap into metadata order."""
+    new_stmt = Stmt("max_buildings", "=", Atom(DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE))
+    out: List[Stmt] = []
+    inserted = False
+
+    for stmt in metadata:
+        out.append(stmt)
+        if stmt.key == "base_buildtime":
+            out.append(new_stmt)
+            inserted = True
+
+    if inserted:
+        return out
+
+    out = []
+    for stmt in metadata:
+        out.append(stmt)
+        if stmt.key == "icon":
+            out.append(new_stmt)
+            inserted = True
+
+    if not inserted:
+        out.append(new_stmt)
+    return out
+
+
+def materialize_default_max_buildings_for_tooltip_zones(buckets: Dict[str, List[Stmt]]) -> None:
+    """Add explicit default max_buildings only where the zone exposes slot count.
+
+    Vanilla can omit max_buildings and fall back to
+    DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE.  PIF materializes that default only for
+    zones that already expose the building count through zone_building_slots_add,
+    so the real cap and tooltip value can share one variable.
+    """
+    metadata = buckets.get("metadata", [])
+    if has_top_level_statement(metadata, "max_buildings"):
+        return
+    if not statements_contain_key(buckets.get("tpm", []), "zone_building_slots_add"):
+        return
+    buckets["metadata"] = insert_default_max_buildings(metadata)
+
+
 def variable_files_text(variables: List[PifVariable]) -> Dict[str, str]:
     """Render all domain variable files with zone-grouped sections."""
     by_domain: Dict[str, Dict[str, List[PifVariable]]] = defaultdict(lambda: defaultdict(list))
@@ -342,6 +410,7 @@ def generate(project, out_root: Path, clean: bool = False, sparse_empty: bool = 
         allocator = ZoneVariableAllocator(zone.key, variables)
 
         buckets, unknown = bucket_zone(zone.expanded_body)
+        materialize_default_max_buildings_for_tooltip_zones(buckets)
         zone_file_rel = Path("common") / "zones" / pif_zone_file_name(zone.source_stem, zone.key)
         zone_file_abs = out_root / zone_file_rel
 

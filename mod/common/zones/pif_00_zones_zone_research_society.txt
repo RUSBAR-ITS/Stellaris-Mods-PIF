@@ -5,6 +5,7 @@
 zone_research_society = {
 	icon = GFX_district_specialization_society
 	base_buildtime = @pif_zone_research_society_construction_zone_build_time_1
+	max_buildings = @pif_zone_research_society_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_research_society/availability"
 	inline_script = "pif/zones/zone_research_society/zone_config"
 	inline_script = "pif/zones/zone_research_society/economy"

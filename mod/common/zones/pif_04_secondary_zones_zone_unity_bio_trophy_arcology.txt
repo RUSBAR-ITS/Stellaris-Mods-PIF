@@ -5,6 +5,7 @@
 zone_unity_bio_trophy_arcology = {
 	icon = GFX_district_specialization_unity
 	base_buildtime = @pif_zone_unity_bio_trophy_arcology_construction_zone_build_time_1
+	max_buildings = @pif_zone_unity_bio_trophy_arcology_building_capacity_max_buildings_1
 	swap_type = district_arcology_organic_housing
 	swap_type_weight = 5
 	inline_script = "pif/zones/zone_unity_bio_trophy_arcology/availability"

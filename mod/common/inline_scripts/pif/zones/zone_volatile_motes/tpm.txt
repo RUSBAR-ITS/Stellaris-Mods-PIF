@@ -157,7 +157,7 @@ triggered_planet_modifier = {
 	potential = {
 		always = yes
 	}
-	zone_building_slots_add = @pif_zone_volatile_motes_building_capacity_zone_building_slots_add_1
+	zone_building_slots_add = @pif_zone_volatile_motes_building_capacity_max_buildings_1
 	planet_technician_volatile_motes_produces_add = @pif_zone_volatile_motes_planet_output_modifiers_planet_technician_volatile_motes_produces_add_1
 	planet_technician_energy_produces_add = @pif_zone_volatile_motes_planet_output_modifiers_planet_technician_energy_produces_add_2
 }

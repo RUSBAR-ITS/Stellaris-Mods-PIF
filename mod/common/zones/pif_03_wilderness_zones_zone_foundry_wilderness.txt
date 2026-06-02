@@ -5,6 +5,7 @@
 zone_foundry_wilderness = {
 	icon = GFX_district_specialization_wilderness_foundry
 	base_buildtime = @pif_zone_foundry_wilderness_construction_zone_build_time_1
+	max_buildings = @pif_zone_foundry_wilderness_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_foundry_wilderness/availability"
 	inline_script = "pif/zones/zone_foundry_wilderness/zone_config"
 	inline_script = "pif/zones/zone_foundry_wilderness/economy"

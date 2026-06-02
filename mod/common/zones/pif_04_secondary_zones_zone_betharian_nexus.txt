@@ -5,6 +5,7 @@
 zone_betharian_nexus = {
 	icon = GFX_district_specialization_betharian
 	base_buildtime = @pif_zone_betharian_nexus_construction_zone_build_time_1
+	max_buildings = @pif_zone_betharian_nexus_building_capacity_max_buildings_1
 	swap_type = district_nexus_betharian
 	swap_type_weight = 5
 	inline_script = "pif/zones/zone_betharian_nexus/availability"

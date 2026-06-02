@@ -5,6 +5,7 @@
 zone_habitat_hydroponics = {
 	icon = GFX_district_specialization_hydroponics
 	base_buildtime = @pif_zone_habitat_hydroponics_construction_zone_build_time_1
+	max_buildings = @pif_zone_habitat_hydroponics_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_habitat_hydroponics/availability"
 	inline_script = "pif/zones/zone_habitat_hydroponics/zone_config"
 	inline_script = "pif/zones/zone_habitat_hydroponics/economy"

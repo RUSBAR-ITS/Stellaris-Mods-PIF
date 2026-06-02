@@ -4,6 +4,7 @@
 
 zone_central_spire = {
 	icon = GFX_district_specialization_research
+	max_buildings = @pif_zone_central_spire_building_capacity_max_buildings_1
 	triggered_desc = {
 		text = NEW_LINE
 	}

@@ -6,65 +6,57 @@
 # zone_agrarian_anglers
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_00_zones_zone_agrarian_anglers.txt
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt, common/zones/pif_00_zones_zone_agrarian_anglers.txt
 @pif_zone_agrarian_anglers_building_capacity_max_buildings_1 = 3
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_agrarian_anglers/tpm.txt
-@pif_zone_agrarian_anglers_building_capacity_zone_building_slots_add_2 = 3
 
 # -----------------------------------------------------------------------------
 # zone_agrarian_urban
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_00_zones_zone_agrarian_urban.txt
+# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt, common/zones/pif_00_zones_zone_agrarian_urban.txt
 @pif_zone_agrarian_urban_building_capacity_max_buildings_1 = 3
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_agrarian_urban/tpm.txt
-@pif_zone_agrarian_urban_building_capacity_zone_building_slots_add_2 = 3
 
 # -----------------------------------------------------------------------------
 # zone_anglers
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt
-@pif_zone_anglers_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_anglers/tpm.txt, common/zones/pif_00_zones_zone_anglers.txt
+@pif_zone_anglers_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_betharian
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt
-@pif_zone_betharian_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_betharian/tpm.txt, common/zones/pif_00_zones_zone_betharian.txt
+@pif_zone_betharian_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_betharian_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt
-@pif_zone_betharian_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_betharian_hive.txt
+@pif_zone_betharian_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_betharian_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt
-@pif_zone_betharian_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_betharian_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_betharian_nexus.txt
+@pif_zone_betharian_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_broken_shackles_memorial
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt
-@pif_zone_broken_shackles_memorial_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_broken_shackles_memorial/tpm.txt, common/zones/pif_02_special_zones_zone_broken_shackles_memorial.txt
+@pif_zone_broken_shackles_memorial_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_central_spire
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt
-@pif_zone_central_spire_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_central_spire/tpm.txt, common/zones/pif_02_special_zones_zone_central_spire.txt
+@pif_zone_central_spire_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_cosmogenesis_default
@@ -83,542 +75,534 @@
 # -----------------------------------------------------------------------------
 # zone_energy
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_energy/tpm.txt
-@pif_zone_energy_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_energy/tpm.txt, common/zones/pif_00_zones_zone_energy.txt
+@pif_zone_energy_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_energy_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt
-@pif_zone_energy_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_energy_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_energy_hive.txt
+@pif_zone_energy_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_energy_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt
-@pif_zone_energy_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_energy_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_energy_nexus.txt
+@pif_zone_energy_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_energy_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt
-@pif_zone_energy_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_energy_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_energy_ring_world.txt
+@pif_zone_energy_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_energy_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/tpm.txt
-@pif_zone_energy_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_energy_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_energy_wilderness.txt
+@pif_zone_energy_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_exotic_gases
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt
-@pif_zone_exotic_gases_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases/tpm.txt, common/zones/pif_00_zones_zone_exotic_gases.txt
+@pif_zone_exotic_gases_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_exotic_gases_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt
-@pif_zone_exotic_gases_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_exotic_gases_hive.txt
+@pif_zone_exotic_gases_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_exotic_gases_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt
-@pif_zone_exotic_gases_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_exotic_gases_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_exotic_gases_nexus.txt
+@pif_zone_exotic_gases_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_factory
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_factory/tpm.txt
-@pif_zone_factory_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_factory/tpm.txt, common/zones/pif_00_zones_zone_factory.txt
+@pif_zone_factory_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_factory_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/tpm.txt
-@pif_zone_factory_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_factory_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_factory_arcology.txt
+@pif_zone_factory_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_factory_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_factory_hive/tpm.txt
-@pif_zone_factory_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_factory_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_factory_hive.txt
+@pif_zone_factory_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_factory_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/tpm.txt
-@pif_zone_factory_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_factory_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_factory_nexus.txt
+@pif_zone_factory_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_factory_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/tpm.txt
-@pif_zone_factory_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_factory_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_factory_ring_world.txt
+@pif_zone_factory_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_food
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_food/tpm.txt
-@pif_zone_food_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_food/tpm.txt, common/zones/pif_00_zones_zone_food.txt
+@pif_zone_food_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_food_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt
-@pif_zone_food_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_food_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_food_hive.txt
+@pif_zone_food_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_food_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt
-@pif_zone_food_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_food_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_food_ring_world.txt
+@pif_zone_food_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_food_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/tpm.txt
-@pif_zone_food_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_food_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_food_wilderness.txt
+@pif_zone_food_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_fortress
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt
-@pif_zone_fortress_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_fortress/tpm.txt, common/zones/pif_00_zones_zone_fortress.txt
+@pif_zone_fortress_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_fortress_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt
-@pif_zone_fortress_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_fortress_arcology.txt
+@pif_zone_fortress_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_fortress_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt
-@pif_zone_fortress_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_fortress_hive.txt
+@pif_zone_fortress_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_fortress_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt
-@pif_zone_fortress_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_fortress_nexus.txt
+@pif_zone_fortress_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_fortress_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt
-@pif_zone_fortress_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_fortress_ring_world.txt
+@pif_zone_fortress_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_fortress_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/tpm.txt
-@pif_zone_fortress_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_fortress_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_fortress_wilderness.txt
+@pif_zone_fortress_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_foundry
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_foundry/tpm.txt
-@pif_zone_foundry_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_foundry/tpm.txt, common/zones/pif_00_zones_zone_foundry.txt
+@pif_zone_foundry_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_foundry_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/tpm.txt
-@pif_zone_foundry_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_foundry_arcology.txt
+@pif_zone_foundry_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_foundry_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/tpm.txt
-@pif_zone_foundry_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_foundry_hive.txt
+@pif_zone_foundry_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_foundry_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/tpm.txt
-@pif_zone_foundry_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_foundry_nexus.txt
+@pif_zone_foundry_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_foundry_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/tpm.txt
-@pif_zone_foundry_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_foundry_ring_world.txt
+@pif_zone_foundry_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_foundry_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_foundry_wilderness/tpm.txt
-@pif_zone_foundry_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_foundry_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_foundry_wilderness.txt
+@pif_zone_foundry_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_habitat_exotic_gases
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt
-@pif_zone_habitat_exotic_gases_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_exotic_gases/tpm.txt, common/zones/pif_01_habitat_zones_zone_habitat_exotic_gases.txt
+@pif_zone_habitat_exotic_gases_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_habitat_hydroponics
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/tpm.txt
-@pif_zone_habitat_hydroponics_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_hydroponics/tpm.txt, common/zones/pif_01_habitat_zones_zone_habitat_hydroponics.txt
+@pif_zone_habitat_hydroponics_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_habitat_knights
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_01_habitat_zones_zone_habitat_knights.txt
+# Used in: common/inline_scripts/pif/zones/zone_habitat_knights/tpm.txt, common/zones/pif_01_habitat_zones_zone_habitat_knights.txt
 @pif_zone_habitat_knights_building_capacity_max_buildings_1 = 3
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_habitat_knights/tpm.txt
-@pif_zone_habitat_knights_building_capacity_zone_building_slots_add_2 = 3
 
 # -----------------------------------------------------------------------------
 # zone_habitat_rare_crystals
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt
-@pif_zone_habitat_rare_crystals_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_rare_crystals/tpm.txt, common/zones/pif_01_habitat_zones_zone_habitat_rare_crystals.txt
+@pif_zone_habitat_rare_crystals_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_habitat_research
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt
-@pif_zone_habitat_research_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research/tpm.txt, common/zones/pif_01_habitat_zones_zone_habitat_research.txt
+@pif_zone_habitat_research_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_habitat_research_unity
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt
-@pif_zone_habitat_research_unity_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_research_unity/tpm.txt, common/zones/pif_01_habitat_zones_zone_habitat_research_unity.txt
+@pif_zone_habitat_research_unity_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_habitat_volatile_motes
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt
-@pif_zone_habitat_volatile_motes_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_habitat_volatile_motes/tpm.txt, common/zones/pif_01_habitat_zones_zone_habitat_volatile_motes.txt
+@pif_zone_habitat_volatile_motes_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_industrial
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt
-@pif_zone_industrial_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_industrial/tpm.txt, common/zones/pif_00_zones_zone_industrial.txt
+@pif_zone_industrial_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_industrial_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt
-@pif_zone_industrial_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_industrial_arcology.txt
+@pif_zone_industrial_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_industrial_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt
-@pif_zone_industrial_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_industrial_hive.txt
+@pif_zone_industrial_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_industrial_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt
-@pif_zone_industrial_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_industrial_nexus.txt
+@pif_zone_industrial_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_industrial_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt
-@pif_zone_industrial_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_industrial_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_industrial_ring_world.txt
+@pif_zone_industrial_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_machine_replication
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_00_zones_zone_machine_replication.txt
+# Used in: common/inline_scripts/pif/zones/zone_machine_replication/tpm.txt, common/zones/pif_00_zones_zone_machine_replication.txt
 @pif_zone_machine_replication_building_capacity_max_buildings_1 = 1
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_machine_replication/tpm.txt
-@pif_zone_machine_replication_building_capacity_zone_building_slots_add_2 = 1
 
 # -----------------------------------------------------------------------------
 # zone_minerals
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_minerals/tpm.txt
-@pif_zone_minerals_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_minerals/tpm.txt, common/zones/pif_00_zones_zone_minerals.txt
+@pif_zone_minerals_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_minerals_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt
-@pif_zone_minerals_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_minerals_hive.txt
+@pif_zone_minerals_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_minerals_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt
-@pif_zone_minerals_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_minerals_nexus.txt
+@pif_zone_minerals_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_minerals_physics
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt
-@pif_zone_minerals_physics_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_physics/tpm.txt, common/zones/pif_00_zones_zone_minerals_physics.txt
+@pif_zone_minerals_physics_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_minerals_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_minerals_wilderness/tpm.txt
-@pif_zone_minerals_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_minerals_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_minerals_wilderness.txt
+@pif_zone_minerals_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_payback_enlightenment
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt
-@pif_zone_payback_enlightenment_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_payback_enlightenment/tpm.txt, common/zones/pif_02_special_zones_zone_payback_enlightenment.txt
+@pif_zone_payback_enlightenment_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_rare_crystals
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt
-@pif_zone_rare_crystals_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals/tpm.txt, common/zones/pif_00_zones_zone_rare_crystals.txt
+@pif_zone_rare_crystals_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_rare_crystals_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt
-@pif_zone_rare_crystals_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_rare_crystals_hive.txt
+@pif_zone_rare_crystals_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_rare_crystals_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt
-@pif_zone_rare_crystals_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_rare_crystals_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_rare_crystals_nexus.txt
+@pif_zone_rare_crystals_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt
-@pif_zone_research_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research/tpm.txt, common/zones/pif_00_zones_zone_research.txt
+@pif_zone_research_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt
-@pif_zone_research_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_arcology.txt
+@pif_zone_research_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_engineering
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt
-@pif_zone_research_engineering_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering/tpm.txt, common/zones/pif_00_zones_zone_research_engineering.txt
+@pif_zone_research_engineering_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_engineering_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt
-@pif_zone_research_engineering_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_engineering_arcology.txt
+@pif_zone_research_engineering_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_engineering_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt
-@pif_zone_research_engineering_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_engineering_hive.txt
+@pif_zone_research_engineering_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_engineering_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt
-@pif_zone_research_engineering_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_engineering_nexus.txt
+@pif_zone_research_engineering_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_engineering_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt
-@pif_zone_research_engineering_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_engineering_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_engineering_ring_world.txt
+@pif_zone_research_engineering_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt
-@pif_zone_research_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_hive.txt
+@pif_zone_research_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt
-@pif_zone_research_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_nexus.txt
+@pif_zone_research_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_physics
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt
-@pif_zone_research_physics_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics/tpm.txt, common/zones/pif_00_zones_zone_research_physics.txt
+@pif_zone_research_physics_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_physics_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt
-@pif_zone_research_physics_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_physics_arcology.txt
+@pif_zone_research_physics_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_physics_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt
-@pif_zone_research_physics_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_physics_hive.txt
+@pif_zone_research_physics_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_physics_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt
-@pif_zone_research_physics_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_physics_nexus.txt
+@pif_zone_research_physics_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_physics_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt
-@pif_zone_research_physics_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_physics_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_physics_ring_world.txt
+@pif_zone_research_physics_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt
-@pif_zone_research_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_ring_world.txt
+@pif_zone_research_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_society
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt
-@pif_zone_research_society_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_society/tpm.txt, common/zones/pif_00_zones_zone_research_society.txt
+@pif_zone_research_society_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_society_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt
-@pif_zone_research_society_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_society_arcology.txt
+@pif_zone_research_society_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_society_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt
-@pif_zone_research_society_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_society_hive.txt
+@pif_zone_research_society_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_society_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt
-@pif_zone_research_society_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_society_nexus.txt
+@pif_zone_research_society_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_society_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt
-@pif_zone_research_society_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_society_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_research_society_ring_world.txt
+@pif_zone_research_society_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_unity
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt
-@pif_zone_research_unity_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity/tpm.txt, common/zones/pif_00_zones_zone_research_unity.txt
+@pif_zone_research_unity_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_unity_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt
-@pif_zone_research_unity_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_unity_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_research_unity_wilderness.txt
+@pif_zone_research_unity_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_research_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt
-@pif_zone_research_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_research_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_research_wilderness.txt
+@pif_zone_research_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_resort
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt
-@pif_zone_resort_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_resort/tpm.txt, common/zones/pif_00_zones_zone_resort.txt
+@pif_zone_resort_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_resort_entertainment
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/tpm.txt
-@pif_zone_resort_entertainment_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_resort_entertainment/tpm.txt, common/zones/pif_00_zones_zone_resort_entertainment.txt
+@pif_zone_resort_entertainment_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_resort_grand_museum
@@ -666,214 +650,194 @@
 # zone_spawning
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_00_zones_zone_spawning.txt
+# Used in: common/inline_scripts/pif/zones/zone_spawning/tpm.txt, common/zones/pif_00_zones_zone_spawning.txt
 @pif_zone_spawning_building_capacity_max_buildings_1 = 1
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_spawning/tpm.txt
-@pif_zone_spawning_building_capacity_zone_building_slots_add_2 = 1
 
 # -----------------------------------------------------------------------------
 # zone_spawning_hive
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_04_secondary_zones_zone_spawning_hive.txt
+# Used in: common/inline_scripts/pif/zones/zone_spawning_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_spawning_hive.txt
 @pif_zone_spawning_hive_building_capacity_max_buildings_1 = 1
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_spawning_hive/tpm.txt
-@pif_zone_spawning_hive_building_capacity_zone_building_slots_add_2 = 1
 
 # -----------------------------------------------------------------------------
 # zone_subterranean_urban
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_00_zones_zone_subterranean_urban.txt
+# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt, common/zones/pif_00_zones_zone_subterranean_urban.txt
 @pif_zone_subterranean_urban_building_capacity_max_buildings_1 = 3
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_subterranean_urban/tpm.txt
-@pif_zone_subterranean_urban_building_capacity_zone_building_slots_add_2 = 3
 
 # -----------------------------------------------------------------------------
 # zone_trade
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt
-@pif_zone_trade_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_trade/tpm.txt, common/zones/pif_00_zones_zone_trade.txt
+@pif_zone_trade_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_trade_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt
-@pif_zone_trade_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_trade_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_trade_arcology.txt
+@pif_zone_trade_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_trade_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt
-@pif_zone_trade_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_trade_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_trade_hive.txt
+@pif_zone_trade_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_trade_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt
-@pif_zone_trade_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_trade_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_trade_nexus.txt
+@pif_zone_trade_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_trade_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt
-@pif_zone_trade_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_trade_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_trade_ring_world.txt
+@pif_zone_trade_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_trade_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt
-@pif_zone_trade_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_trade_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_trade_wilderness.txt
+@pif_zone_trade_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt
-@pif_zone_unity_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity/tpm.txt, common/zones/pif_00_zones_zone_unity.txt
+@pif_zone_unity_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt
-@pif_zone_unity_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_arcology.txt
+@pif_zone_unity_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_bio_trophy
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt
-@pif_zone_unity_bio_trophy_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy/tpm.txt, common/zones/pif_00_zones_zone_unity_bio_trophy.txt
+@pif_zone_unity_bio_trophy_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_bio_trophy_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt
-@pif_zone_unity_bio_trophy_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_bio_trophy_arcology.txt
+@pif_zone_unity_bio_trophy_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_bio_trophy_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt
-@pif_zone_unity_bio_trophy_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_bio_trophy_nexus.txt
+@pif_zone_unity_bio_trophy_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_bio_trophy_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt
-@pif_zone_unity_bio_trophy_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_bio_trophy_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_bio_trophy_ring_world.txt
+@pif_zone_unity_bio_trophy_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt
-@pif_zone_unity_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_hive.txt
+@pif_zone_unity_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt
-@pif_zone_unity_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_nexus.txt
+@pif_zone_unity_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt
-@pif_zone_unity_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_ring_world.txt
+@pif_zone_unity_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_spiritualist
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt
-@pif_zone_unity_spiritualist_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist/tpm.txt, common/zones/pif_00_zones_zone_unity_spiritualist.txt
+@pif_zone_unity_spiritualist_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_spiritualist_arcology
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt
-@pif_zone_unity_spiritualist_arcology_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_arcology/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_spiritualist_arcology.txt
+@pif_zone_unity_spiritualist_arcology_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_spiritualist_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt
-@pif_zone_unity_spiritualist_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_spiritualist_nexus.txt
+@pif_zone_unity_spiritualist_nexus_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_spiritualist_ring_world
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt
-@pif_zone_unity_spiritualist_ring_world_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_spiritualist_ring_world/tpm.txt, common/zones/pif_04_secondary_zones_zone_unity_spiritualist_ring_world.txt
+@pif_zone_unity_spiritualist_ring_world_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_unity_wilderness
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt
-@pif_zone_unity_wilderness_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_unity_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_unity_wilderness.txt
+@pif_zone_unity_wilderness_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_urban
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_00_zones_zone_urban.txt
+# Used in: common/inline_scripts/pif/zones/zone_urban/tpm.txt, common/zones/pif_00_zones_zone_urban.txt
 @pif_zone_urban_building_capacity_max_buildings_1 = 3
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_urban/tpm.txt
-@pif_zone_urban_building_capacity_zone_building_slots_add_2 = 3
 
 # -----------------------------------------------------------------------------
 # zone_urban_wilderness
 # -----------------------------------------------------------------------------
 # Controls: max_buildings.
-# Used in: common/zones/pif_03_wilderness_zones_zone_urban_wilderness.txt
+# Used in: common/inline_scripts/pif/zones/zone_urban_wilderness/tpm.txt, common/zones/pif_03_wilderness_zones_zone_urban_wilderness.txt
 @pif_zone_urban_wilderness_building_capacity_max_buildings_1 = 3
-
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_urban_wilderness/tpm.txt
-@pif_zone_urban_wilderness_building_capacity_zone_building_slots_add_2 = 3
 
 # -----------------------------------------------------------------------------
 # zone_volatile_motes
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt
-@pif_zone_volatile_motes_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes/tpm.txt, common/zones/pif_00_zones_zone_volatile_motes.txt
+@pif_zone_volatile_motes_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_volatile_motes_hive
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt
-@pif_zone_volatile_motes_hive_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_hive/tpm.txt, common/zones/pif_04_secondary_zones_zone_volatile_motes_hive.txt
+@pif_zone_volatile_motes_hive_building_capacity_max_buildings_1 = 3
 
 # -----------------------------------------------------------------------------
 # zone_volatile_motes_nexus
 # -----------------------------------------------------------------------------
-# Controls: zone_building_slots_add.
-# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt
-@pif_zone_volatile_motes_nexus_building_capacity_zone_building_slots_add_1 = 3
+# Controls: max_buildings.
+# Used in: common/inline_scripts/pif/zones/zone_volatile_motes_nexus/tpm.txt, common/zones/pif_04_secondary_zones_zone_volatile_motes_nexus.txt
+@pif_zone_volatile_motes_nexus_building_capacity_max_buildings_1 = 3

@@ -5,6 +5,7 @@
 zone_food = {
 	icon = GFX_district_specialization_food
 	base_buildtime = @pif_zone_food_construction_zone_build_time_1
+	max_buildings = @pif_zone_food_building_capacity_max_buildings_1
 	inline_script = "pif/zones/zone_food/availability"
 	inline_script = "pif/zones/zone_food/zone_config"
 	inline_script = "pif/zones/zone_food/economy"

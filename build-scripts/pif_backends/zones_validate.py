@@ -9,6 +9,8 @@ vanilla zones after accepted PIF normalizations:
 * static zone modifiers are normalized to triggered modifier blocks;
 * numeric PIF variables are resolved back to literal values;
 * vanilla numeric ``@variables`` are resolved where possible;
+* vanilla implicit DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE is materialized only for
+  zones that expose their building capacity through ``zone_building_slots_add``;
 * visual-swap weights remain literal and are compared as-is.
 
 The validator compares canonical category buckets instead of raw file order,
@@ -23,6 +25,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from pif_stellaris import (
+    Atom,
     Block,
     Stmt,
     add_common_args,
@@ -31,14 +34,54 @@ from pif_stellaris import (
     replace_variables_for_compare,
     write_text,
 )
-from pif_backends.zones_generate import bucket_zone
+from pif_backends.zones_generate import (
+    DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE,
+    bucket_zone,
+    materialize_default_max_buildings_for_tooltip_zones,
+    node_contains_statement_key,
+)
 
 
-def canonical_zone_buckets(project, zone_body: Block, source_vars: Dict[str, str]) -> Dict[str, str]:
+def canonical_zone_buckets(project, zone_body: Block, source_vars: Dict[str, str], materialize_implicit_building_cap: bool = False) -> Dict[str, str]:
     """Return rendered canonical buckets for an expanded zone body."""
     body = replace_variables_for_compare(zone_body, source_vars)
     buckets, unknown = bucket_zone(body)
+    if materialize_implicit_building_cap:
+        materialize_default_max_buildings_for_tooltip_zones(buckets)
     return {category: render_file(Block(items)).strip() for category, items in sorted(buckets.items())}
+
+
+def collect_statement_atoms(node: Any, key: str) -> List[Atom]:
+    """Collect atom values from all statements with a given key."""
+    out: List[Atom] = []
+    if isinstance(node, Stmt):
+        if node.key == key and isinstance(node.value, Atom):
+            out.append(node.value)
+        out.extend(collect_statement_atoms(node.value, key))
+    elif isinstance(node, Block):
+        for item in node.items:
+            out.extend(collect_statement_atoms(item, key))
+    return out
+
+
+def raw_building_capacity_invariant(zone_body: Block) -> List[str]:
+    """Validate that tooltip building slots use the same raw cap variable."""
+    slot_atoms = collect_statement_atoms(zone_body, "zone_building_slots_add")
+    if not slot_atoms:
+        return []
+
+    max_atoms = [stmt.value for stmt in zone_body.items if isinstance(stmt, Stmt) and stmt.key == "max_buildings" and isinstance(stmt.value, Atom)]
+    if not max_atoms:
+        return ["zone_building_slots_add exists but max_buildings is missing"]
+    if len(max_atoms) != 1:
+        return ["zone has multiple top-level max_buildings statements"]
+
+    max_value = max_atoms[0].value
+    errors: List[str] = []
+    for atom in slot_atoms:
+        if atom.value != max_value:
+            errors.append(f"zone_building_slots_add uses {atom.value}, but max_buildings uses {max_value}")
+    return sorted(set(errors))
 
 
 def validate(vanilla_project, generated_project, out_path: Path) -> Dict[str, object]:
@@ -60,10 +103,11 @@ def validate(vanilla_project, generated_project, out_path: Path) -> Dict[str, ob
 
         vanilla_vars = {**vanilla_project.global_variables, **vanilla_project.collect_local_variables(vanilla.source_path)}
         generated_vars = generated_project.global_variables
-        vanilla_canonical = canonical_zone_buckets(vanilla_project, vanilla.expanded_body, vanilla_vars)
+        vanilla_canonical = canonical_zone_buckets(vanilla_project, vanilla.expanded_body, vanilla_vars, materialize_implicit_building_cap=True)
         generated_canonical = canonical_zone_buckets(generated_project, generated.expanded_body, generated_vars)
+        invariant_errors = raw_building_capacity_invariant(generated.expanded_body)
 
-        if vanilla_canonical == generated_canonical:
+        if vanilla_canonical == generated_canonical and not invariant_errors:
             ok += 1
             rows.append({"zone": key, "status": "OK"})
             continue
@@ -71,23 +115,35 @@ def validate(vanilla_project, generated_project, out_path: Path) -> Dict[str, ob
         failed += 1
         differing = sorted(set(vanilla_canonical) | set(generated_canonical))
         differing = [c for c in differing if vanilla_canonical.get(c) != generated_canonical.get(c)]
-        rows.append(
-            {
-                "zone": key,
-                "status": "FAIL",
-                "reason": "canonical category mismatch",
-                "differing_categories": differing,
-                "vanilla": {c: vanilla_canonical.get(c, "") for c in differing},
-                "generated": {c: generated_canonical.get(c, "") for c in differing},
-            }
-        )
+        row: Dict[str, object] = {
+            "zone": key,
+            "status": "FAIL",
+            "reason": "canonical category mismatch" if differing else "building capacity invariant failed",
+        }
+        if differing:
+            row.update(
+                {
+                    "differing_categories": differing,
+                    "vanilla": {c: vanilla_canonical.get(c, "") for c in differing},
+                    "generated": {c: generated_canonical.get(c, "") for c in differing},
+                }
+            )
+        if invariant_errors:
+            row["invariant_errors"] = invariant_errors
+        rows.append(row)
 
     extra = sorted(set(generated_zones) - set(vanilla_zones))
     for key in extra:
         failed += 1
         rows.append({"zone": key, "status": "FAIL", "reason": "extra generated zone"})
 
-    report = {"checked": len(vanilla_zones), "ok": ok, "failed": failed, "rows": rows}
+    report = {
+        "checked": len(vanilla_zones),
+        "ok": ok,
+        "failed": failed,
+        "default_max_buildings_normalization": DEFAULT_MAX_PLANET_BUILDINGS_PER_ZONE,
+        "rows": rows,
+    }
     write_text(out_path, json.dumps(report, indent=2, ensure_ascii=False) + "\n")
     return {"checked": len(vanilla_zones), "ok": ok, "failed": failed, "report": out_path.as_posix()}
 

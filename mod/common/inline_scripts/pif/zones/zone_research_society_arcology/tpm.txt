@@ -340,7 +340,7 @@ triggered_planet_modifier = {
 	potential = {
 		always = yes
 	}
-	zone_building_slots_add = @pif_zone_research_society_arcology_building_capacity_zone_building_slots_add_1
+	zone_building_slots_add = @pif_zone_research_society_arcology_building_capacity_max_buildings_1
 }
 
 triggered_district_planet_modifier = {

@@ -5,6 +5,7 @@
 zone_research_unity = {
 	icon = GFX_district_specialization_bureaucrat
 	base_buildtime = @pif_zone_research_unity_construction_zone_build_time_1
+	max_buildings = @pif_zone_research_unity_building_capacity_max_buildings_1
 	triggered_desc = {
 		trigger = {
 			always = yes
